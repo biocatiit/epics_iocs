@@ -1,0 +1,17 @@
+file "$(MOTOR)/motorApp/Db/pseudoMotor.db"
+{
+pattern
+{P,       M,           DINP,                        OUT,                     RDBL,                         STOO,              DESC,          EGU, DIR, VELO, VBAS, ACCL, BDST, BVEL, BACC, MRES, RRES, PREC, DHLM, DLLM}
+{18ID:e:, pm1, "18ID:e:KBH:Done NPP NMS", "18ID:e:pm1DVAL.VAL PP MS", "18ID:e:KBH:Readback.G NPP NMS", "18ID:e:KBH:Stop PP MS", "HFM Curvature",   mm, Pos,   1,   .1,   .1,    0,   1,    .1,   .1,   1.0, 1, 10000, -10000}
+{18ID:e:, pm2, "18ID:e:KBH:Done NPP NMS", "18ID:e:pm2DVAL.VAL PP MS", "18ID:e:KBH:Readback.H NPP NMS", "18ID:e:KBH:Stop PP MS", "HFM Ellipticity", mm, Pos,   1,   .1,   .1,    0,   1,    .1,   .1,   1.0,  1,    10000, -10000}
+{18ID:e:, pm3, "18ID:e:KBV:Done NPP NMS", "18ID:e:pm3DVAL.VAL PP MS", "18ID:e:KBV:Readback.G NPP NMS", "18ID:e:KBV:Stop PP MS", "VFM Curvature",   mm, Pos,   1,   .1,   .1,    0,   1,    .1,   .1,   1.0,  1,    10000, -10000}
+{18ID:e:, pm4, "18ID:e:KBV:Done NPP NMS", "18ID:e:pm4DVAL.VAL PP MS", "18ID:e:KBV:Readback.H NPP NMS", "18ID:e:KBV:Stop PP MS", "VFM Ellipticity", mm, Pos,   1,   .1,   .1,    0,   1,    .1,   .1,   1.0,  1,    10000, -10000}
+}
+
+file "$(MOTOR)/motorApp/Db/sumDiff2D.db"
+{
+pattern
+{P,      T,    SUM, DIFF,  M1DRV,   M1RBV,   M2DRV,   M2RBV,   M1STOP,   M1DONE,   M2STOP,   M2DONE,  PREC}
+{18ID:e:, KBH:, pm1, pm2,  m47.VAL, m47.RBV, m48.VAL, m48.RBV, m47.STOP, m47.DMOV, m48.STOP, m48.DMOV, 1}
+{18ID:e:, KBV:, pm3, pm4,  m43.VAL, m43.RBV, m44.VAL, m44.RBV, m43.STOP, m43.DMOV, m44.STOP, m44.DMOV, 1}
+}

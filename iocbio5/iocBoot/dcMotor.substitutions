@@ -1,0 +1,6 @@
+file "$(TOP)/18IDeApp/Db/dc_motor.db"
+{
+pattern
+{P, M, DTYP, PORT, ADDR, DESC, EGU, DIR, VELO, VBAS, ACCL, BDST, BVEL, BACC, SREV, UREV, PREC, DHLM, DLLM, PCOF, ICOF, DCOF, RTRY, RDBD} 
+{18ID:e:, dc1, "MCDC2805",  ps1, 0, "Faulhaber 3006-1",  mm, Pos, 5,  1, .2, 0, 0,  0, 2048, 0.01623,  5,    0,    0,  0.024, 0.004,    0, 0, 0} 
+}

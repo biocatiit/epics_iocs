@@ -1,0 +1,13 @@
+file "$(MOTOR)/db/basic_motor.db"
+{
+pattern
+{P,     N,  M,	    DTYP,         C,    S,  DESC,         EGU,      DIR, VELO,  VBAS,  ACCL,  BDST,  BVEL,  BACC,  MRES,   PREC,  DHLM,	DLLM,	INIT}
+{18ID:e:,	1,  "m$(N)",  "OMS VME58",  0,	0,  "motor $(N)", degrees,  Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	2,  "m$(N)",  "OMS VME58",  0,	1,  "motor $(N)", degrees   Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	3,  "m$(N)",  "OMS VME58",  0,	2,  "motor $(N)", degrees   Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	4,  "m$(N)",  "OMS VME58",  0,	3,  "motor $(N)", degrees   Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	5,  "m$(N)",  "OMS VME58",  0,	4,  "motor $(N)", degrees   Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	6,  "m$(N)",  "OMS VME58",  0,	5,  "motor $(N)", degrees   Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	7,  "m$(N)",  "OMS VME58",  0,	6,  "motor $(N)", degrees,  Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+{18ID:e:,	8,  "m$(N)",  "OMS VME58",  0,	7,  "motor $(N)", degrees,  Pos, 1,	.1,    .2,    0,     1,	    .2,	   2.5e-4, 5,	  100,	-100,	""}
+}
