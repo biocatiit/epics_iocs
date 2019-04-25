@@ -1,0 +1,37 @@
+file ../../pmacApp/pmacDb/svofix1.db
+{
+	pattern { mtr, C, S, next }
+#                            ----  added by Stepanov 98/10 for "LimSet" controls
+#				mtr =   1   2   3   4   5   6   7   8
+#				  S =   0  15  30  45  60  75  90 105
+#--------------------------------------
+# pmac30
+        { 18ID:XY:mx1:, 0,   0, 18ID:XY:X1: }
+        { 18ID:XY:my1:, 0,  15, 18ID:XY:Y1: }
+        { 18ID:XY:mx2:, 0,  30, 18ID:XY:X2: }
+        { 18ID:XY:my2:, 0,  45, 18ID:XY:Y2: }
+        { 18ID:XY:mxw:, 0,  60, 18ID:XY:Xw: }
+        { 18ID:XY:myw:, 0,  75, 18ID:XY:Yw: }
+        { 18ID:XY:mxt:, 0,  90, 18ID:XY:Xt: }
+        { 18ID:XY:myt:, 0, 105, 18ID:XY:Yt: }
+
+# pmac31
+        { 18ID:HS:mhi:, 1,   0, 18ID:HS:dhi: }
+        { 18ID:HS:mho:, 1,  15, 18ID:HS:dho: }
+        { 18ID:HS:mvb:, 1,  30, 18ID:HS:dvb: }
+        { 18ID:HS:mvt:, 1,  45, 18ID:HS:dvt: }
+        { 18ID:MA:ms:,  1,  60, 18ID:MA:S:   }
+        { 18ID:MA:ma:,  1,  75, 18ID:MA:A:   }
+        { 18ID:GH:mx1:  1,  90, 18ID:GH:X1:  }
+        { 18ID:GH:mx2:  1, 105, 18ID:GH:X2:  }
+
+# pmac32
+        { 18ID:MD:m1:,  2,   0, 18ID:MD:d1:  }
+        { 18ID:MD:m2:,  2,  15, 18ID:MD:d2:  }
+        { 18ID:MD:m3:,  2,  30, 18ID:MD:d3:  }
+        { 18ID:MD:m4:,  2,  45, 18ID:MD:d4:  }
+        { 18ID:MD:m5:,  2,  60, 18ID:MD:d5:  }
+        { 18ID:MD:m6:,  2,  75, 18ID:MD:d6:  }
+        { 18ID:MD:m7:,  2,  90, 18ID:MD:d7:  }
+        { 18ID:MD:m8:,  2, 105, 18ID:MD:d8:  }
+}

@@ -1,0 +1,27 @@
+file ../../mtrApp/softDb/AssyParams.db
+{
+	pattern { assy }
+
+
+# pmac30
+        { 18ID:XY:P1:  }
+        { 18ID:XY:P2:  }
+        { 18ID:XY:We:  }
+        { 18ID:XY:Tb:  }
+
+# pmac31
+        { 18ID:HS:Ah:  }
+        { 18ID:HS:Av:  }
+        { 18ID:MA:St:  }
+        { 18ID:GH:Ps:  }
+
+# pmac32
+        { 18ID:MD:Ax1: }
+        { 18ID:MD:Ax2: }
+        { 18ID:MD:Ax3: }
+        { 18ID:MD:Ax4: }
+        { 18ID:MD:Ax5: }
+        { 18ID:MD:Ax6: }
+        { 18ID:MD:Ax7: }
+        { 18ID:MD:Ax8: }
+}

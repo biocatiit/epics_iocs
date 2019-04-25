@@ -1,0 +1,6 @@
+file ../../mtrApp/hsDb/HSAh_Calibrate.db
+{
+        pattern { assy, x1, x2, s1, s2, d1, d2, m1, m2 }
+
+        { 18ID:HS:Ah:, 18ID:HS:XC:, 18ID:HS:XS:, 18ID:HS:shi:, 18ID:HS:sho:, 18ID:HS:dhi:,  18ID:HS:dho:, 18ID:HS:mhi:, 18ID:HS:mho: }
+}

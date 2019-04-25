@@ -1,0 +1,53 @@
+file ../../mtrApp/mdDb/MD_TsubRbk_simplified.db
+{
+	pattern { assy, d1, m1, val, nla, tsub }
+
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, AvgVel, 1, tsubMDAx }
+
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, TgtPos, 0, tsubMDAx }
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, CmdPos, 0, tsubMDAx }
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, ActPos, 0, tsubMDAx }
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, ActVel, 1, tsubMDAx }
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, AvgVel, 1, tsubMDAx }
+
+}

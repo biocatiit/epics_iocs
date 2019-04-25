@@ -1,0 +1,21 @@
+iocbio3>bootChange
+
+'.' = clear field;  '-' = go to previous field;  ^D = quit
+
+boot device          : ei
+processor number     : 0
+host name            : igor
+file name            : /home/ioc/vxWorks-image-mv162
+inet on ethernet (e) : 164.54.204.7:ffffffc0
+inet on backplane (b):
+host inet (h)        : 164.54.204.32
+gateway inet (g)     : 164.54.204.1
+user (u)             : ioc
+ftp password (pw) (blank = use rsh):
+flags (f)            : 0x0
+target name (tn)     : iocbio3
+startup script (s)   : /home/ioc/iocbio3/st.cmd
+other (o)            :
+
+value = 0 = 0x0
+

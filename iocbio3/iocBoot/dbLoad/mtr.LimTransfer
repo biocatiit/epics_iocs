@@ -1,0 +1,70 @@
+file ../../mtrApp/softDb/LimTransfer.db
+{
+	pattern { prev, stage, factor, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+#
+# The lines for PMAC30 transferred to mtr.LimTransfer_simplified !!!
+
+# pmac30 Motors -> Drives [XY/P1: X1-> X2]
+#       { 18ID:XY:mx1:, 18ID:XY:dx1:, 18ID:XY:dx1:Scale, 18ID:XY:sx1:PsLimSet, 18ID:XY:sx1:AmpEna }
+#       { 18ID:XY:my1:, 18ID:XY:dy1:, 18ID:XY:dy1:Scale, 18ID:XY:sy1:PsLimSet, 18ID:XY:sy1:AmpEna }
+#       { 18ID:XY:mx2:, 18ID:XY:dx2:, 18ID:XY:dx2:Scale, 18ID:XY:sx2:PsLimSet, 18ID:XY:sx2:AmpEna }
+#       { 18ID:XY:my2:, 18ID:XY:dy2:, 18ID:XY:dy2:Scale, 18ID:XY:sy2:PsLimSet, 18ID:XY:sy2:AmpEna }
+#       { 18ID:XY:mxw:, 18ID:XY:dxw:, 18ID:XY:dxw:Scale, 18ID:XY:sxw:PsLimSet, 18ID:XY:sxw:AmpEna }
+#       { 18ID:XY:myw:, 18ID:XY:dyw:, 18ID:XY:dyw:Scale, 18ID:XY:syw:PsLimSet, 18ID:XY:syw:AmpEna }
+#       { 18ID:XY:mxt:, 18ID:XY:dxt:, 18ID:XY:dxt:Scale, 18ID:XY:sxt:PsLimSet, 18ID:XY:sxt:AmpEna }
+#       { 18ID:XY:myt:, 18ID:XY:dyt:, 18ID:XY:dyt:Scale, 18ID:XY:syt:PsLimSet, 18ID:XY:syt:AmpEna }
+# pmac30 Drives -> Stages [XY/P1: X1->Y1, XY/P2: X2->Y2, XY/We: Xw->Yw, XY/Tb: Xt->Yt ]
+#       { 18ID:XY:dx1:, 18ID:XY:sx1:, 18ID:XY:dx1:Ratio, 18ID:XY:X1:PsLimSet,  18ID:XY:X1:AmpEna }
+#       { 18ID:XY:dy1:, 18ID:XY:sy1:, 18ID:XY:dy1:Ratio, 18ID:XY:X1:PsLimSet,  18ID:XY:X1:AmpEna }
+#       { 18ID:XY:dx2:, 18ID:XY:sx2:, 18ID:XY:dx2:Ratio, 18ID:XY:X2:PsLimSet,  18ID:XY:X2:AmpEna }
+#       { 18ID:XY:dy2:, 18ID:XY:sy2:, 18ID:XY:dy2:Ratio, 18ID:XY:X2:PsLimSet,  18ID:XY:X2:AmpEna }
+#       { 18ID:XY:dxw:, 18ID:XY:sxw:, 18ID:XY:dxw:Ratio, 18ID:XY:Xw:PsLimSet,  18ID:XY:Xw:AmpEna }
+#       { 18ID:XY:dyw:, 18ID:XY:syw:, 18ID:XY:dyw:Ratio, 18ID:XY:Xw:PsLimSet,  18ID:XY:Xw:AmpEna }
+#       { 18ID:XY:dxt:, 18ID:XY:sxt:, 18ID:XY:dxt:Ratio, 18ID:XY:Xt:PsLimSet,  18ID:XY:Xt:AmpEna }
+#       { 18ID:XY:dyt:, 18ID:XY:syt:, 18ID:XY:dyt:Ratio, 18ID:XY:Xt:PsLimSet,  18ID:XY:Xt:AmpEna }
+
+# Some lines for PMAC31 transferred to mtr.LimTransfer_simplified !!!
+#
+# pmac31 Motors -> Drives
+        { 18ID:HS:mhi:, 18ID:HS:dhi:, 18ID:HS:dhi:Scale, 18ID:HS:shi:PsLimSet, 18ID:HS:shi:AmpEna }
+        { 18ID:HS:mho:, 18ID:HS:dho:, 18ID:HS:dho:Scale, 18ID:HS:sho:PsLimSet, 18ID:HS:sho:AmpEna }
+        { 18ID:HS:mvb:, 18ID:HS:dvb:, 18ID:HS:dvb:Scale, 18ID:HS:svb:PsLimSet, 18ID:HS:svb:AmpEna }
+        { 18ID:HS:mvt:, 18ID:HS:dvt:, 18ID:HS:dvt:Scale, 18ID:HS:svt:PsLimSet, 18ID:HS:svt:AmpEna }
+#       { 18ID:MA:ms:,  18ID:MA:ds:,  18ID:MA:ds:Scale,  18ID:MA:ss:PsLimSet,  18ID:MA:ss:AmpEna  }
+#       { 18ID:MA:ma:,  18ID:MA:da:,  18ID:MA:da:Scale,  18ID:MA:sa:PsLimSet,  18ID:MA:sa:AmpEna  }
+#       { 18ID:GH:mx1:, 18ID:GH:dx1:, 18ID:GH:dx1:Scale, 18ID:GH:sx1:PsLimSet, 18ID:GH:sx1:AmpEna }
+#       { 18ID:GH:mx2:, 18ID:GH:dx2:, 18ID:GH:dx2:Scale, 18ID:GH:sx2:PsLimSet, 18ID:GH:sx2:AmpEna }
+# pmac31 Drives -> Stages [HS/Ah: XC->XS, HS/Av: YC->YS, MA/St: S->A, GH/Ps: X1->Y2 ]
+        { 18ID:HS:dhi:, 18ID:HS:shi:, 18ID:HS:dhi:Ratio, 18ID:HS:XC:PsLimSet,  18ID:HS:XC:AmpEna }
+        { 18ID:HS:dho:, 18ID:HS:sho:, 18ID:HS:dho:Ratio, 18ID:HS:XC:PsLimSet,  18ID:HS:XC:AmpEna }
+        { 18ID:HS:dvb:, 18ID:HS:svb:, 18ID:HS:dvb:Ratio, 18ID:HS:YC:PsLimSet,  18ID:HS:YC:AmpEna }
+        { 18ID:HS:dvt:, 18ID:HS:svt:, 18ID:HS:dvt:Ratio, 18ID:HS:YC:PsLimSet,  18ID:HS:YC:AmpEna }
+#       { 18ID:MA:ds:,  18ID:MA:ss:,  18ID:MA:ds:Ratio,  18ID:MA:S:PsLimSet,   18ID:MA:S:AmpEna  }
+#       { 18ID:MA:da:,  18ID:MA:sa:,  18ID:MA:da:Ratio,  18ID:MA:S:PsLimSet,   18ID:MA:S:AmpEna  }
+#       { 18ID:GH:dx1:, 18ID:GH:sx1:, 18ID:GH:dx1:Ratio, 18ID:GH:X1:PsLimSet,  18ID:GH:X1:AmpEna }
+#       { 18ID:GH:dx2:, 18ID:GH:sx2:, 18ID:GH:dx2:Ratio, 18ID:GH:X1:PsLimSet,  18ID:GH:X1:AmpEna }
+
+# The lines for PMAC32 transferred to mtr.LimTransfer_simplified !!!
+
+# PMAC32 Motors -> Drives
+#       { 18ID:MD:m1:,  18ID:MD:d1:,  18ID:MD:d1:Scale,  18ID:MD:s1:PsLimSet,  18ID:MD:s1:AmpEna  }
+#       { 18ID:MD:m2:,  18ID:MD:d2:,  18ID:MD:d2:Scale,  18ID:MD:s2:PsLimSet,  18ID:MD:s2:AmpEna  }
+#       { 18ID:MD:m3:,  18ID:MD:d3:,  18ID:MD:d3:Scale,  18ID:MD:s3:PsLimSet,  18ID:MD:s3:AmpEna  }
+#       { 18ID:MD:m4:,  18ID:MD:d4:,  18ID:MD:d4:Scale,  18ID:MD:s4:PsLimSet,  18ID:MD:s4:AmpEna  }
+#       { 18ID:MD:m5:,  18ID:MD:d5:,  18ID:MD:d5:Scale,  18ID:MD:s5:PsLimSet,  18ID:MD:s5:AmpEna  }
+#       { 18ID:MD:m6:,  18ID:MD:d6:,  18ID:MD:d6:Scale,  18ID:MD:s6:PsLimSet,  18ID:MD:s6:AmpEna  }
+#       { 18ID:MD:m7:,  18ID:MD:d7:,  18ID:MD:d7:Scale,  18ID:MD:s7:PsLimSet,  18ID:MD:s7:AmpEna  }
+#       { 18ID:MD:m8:,  18ID:MD:d8:,  18ID:MD:d8:Scale,  18ID:MD:s8:PsLimSet,  18ID:MD:s8:AmpEna  }
+# PMAC32 Drives -> Stages
+#       { 18ID:MD:d1:,  18ID:MD:s1:,  18ID:MD:d1:Ratio,  18ID:MD:1:PsLimSet,   18ID:MD:1:AmpEna  }
+#       { 18ID:MD:d2:,  18ID:MD:s2:,  18ID:MD:d2:Ratio,  18ID:MD:2:PsLimSet,   18ID:MD:2:AmpEna  }
+#       { 18ID:MD:d3:,  18ID:MD:s3:,  18ID:MD:d3:Ratio,  18ID:MD:3:PsLimSet,   18ID:MD:3:AmpEna  }
+#       { 18ID:MD:d4:,  18ID:MD:s4:,  18ID:MD:d4:Ratio,  18ID:MD:4:PsLimSet,   18ID:MD:4:AmpEna  }
+#       { 18ID:MD:d5:,  18ID:MD:s5:,  18ID:MD:d5:Ratio,  18ID:MD:5:PsLimSet,   18ID:MD:5:AmpEna  }
+#       { 18ID:MD:d6:,  18ID:MD:s6:,  18ID:MD:d6:Ratio,  18ID:MD:6:PsLimSet,   18ID:MD:6:AmpEna  }
+#       { 18ID:MD:d7:,  18ID:MD:s7:,  18ID:MD:d7:Ratio,  18ID:MD:7:PsLimSet,   18ID:MD:7:AmpEna  }
+#       { 18ID:MD:d8:,  18ID:MD:s8:,  18ID:MD:d8:Ratio,  18ID:MD:8:PsLimSet,   18ID:MD:8:AmpEna  }
+}

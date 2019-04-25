@@ -1,0 +1,35 @@
+file ../../pmacApp/pmacDb/GatAryRegEnc1.db
+{
+	pattern { enc, C, S }
+#				enc =	1  2  3  4  5  6  7  8
+#				  S =	0  4  8 12 16 20 24 28
+# pmac30
+        { 18ID:XY:mx1:, 0,  0 }
+        { 18ID:XY:my1:, 0,  4 }
+        { 18ID:XY:mx2:, 0,  8 }
+        { 18ID:XY:my2:, 0, 12 }
+        { 18ID:XY:mxw:, 0, 16 }
+        { 18ID:XY:myw:, 0, 20 }
+        { 18ID:XY:mxt:, 0, 24 }
+        { 18ID:XY:myt:, 0, 28 }
+
+# pmac31
+        { 18ID:HS:mhi:, 1,  0 }
+        { 18ID:HS:mho:, 1,  4 }
+        { 18ID:HS:mvb:, 1,  8 }
+        { 18ID:HS:mvt:, 1, 12 }
+        { 18ID:MA:ms:,  1, 16 }
+        { 18ID:MA:ma:,  1, 20 }
+        { 18ID:GH:mx1:  1, 24 }
+        { 18ID:GH:mx2:  1, 28 }
+
+# pmac32
+        { 18ID:MD:m1:,  2,  0 }
+        { 18ID:MD:m2:,  2,  4 }
+        { 18ID:MD:m3:,  2,  8 }
+        { 18ID:MD:m4:,  2, 12 }
+        { 18ID:MD:m5:,  2, 16 }
+        { 18ID:MD:m6:,  2, 20 }
+        { 18ID:MD:m7:,  2, 24 }
+        { 18ID:MD:m8:,  2, 28 }
+}

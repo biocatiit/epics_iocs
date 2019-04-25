@@ -1,0 +1,6 @@
+file ../../mtrApp/xyDb/XYWe_Calibrate_simplified.db
+{
+	pattern { assy, d1, d2, m1, m2 }
+#
+	{ 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw: }
+}

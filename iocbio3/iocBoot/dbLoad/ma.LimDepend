@@ -1,0 +1,14 @@
+file ../../mtrApp/softDb/LimDepend2.db
+{
+	pattern { axis, stg1, i1, stg2, i2, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+# Structure: Axis, Affecting_stages, Link_to_other_axis_or_dummy
+#--------------------------------------
+#
+# MA/St: S->A
+#
+#       { 18ID:MA:S:, 18ID:MA:ss:, 0, 18ID:MA:sa:, 0, 18ID:MA:A:PsLimSet, 18ID:MA:A:AmpEna }
+#       { 18ID:MA:A:, 18ID:MA:ss:, 0, 18ID:MA:sa:, 0, 18ID:1D_pDummy,     18ID:1D_pDummy   }
+#
+}

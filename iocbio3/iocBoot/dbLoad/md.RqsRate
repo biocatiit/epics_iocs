@@ -1,0 +1,29 @@
+file ../../mtrApp/xdtDb/X1d1_RqsRate_simplified.db
+{
+	pattern { assy, d1, m1, rqs, des, sel }
+
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7:, RqsScn, DesScn, SelScn }
+
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8:, RqsScn, DesScn, SelScn }
+
+}

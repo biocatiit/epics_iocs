@@ -1,0 +1,6 @@
+file ../../mtrApp/maDb/MASt_Calibrate_simplified.db
+{
+	pattern { assy, d1, d2, m1, m2 }
+#
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma: }
+}

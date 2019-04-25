@@ -1,0 +1,6 @@
+file ../../mtrApp/xyDb/XYP2_Calibrate_simplified.db
+{
+	pattern { assy, d1, d2, m1, m2 }
+#
+	{ 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2: }
+}

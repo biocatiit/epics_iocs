@@ -1,0 +1,25 @@
+file ../../pmacApp/pmacDb/Ram20XY4.db
+{
+	pattern { assy, C, S }
+#
+# Here "S" is shift which depends on how much memory was
+# occupied by previous sets of motors in this PMAC.
+# The values of shifts are:
+# 16 for 16X4 (1 motor)
+# 20 for 20XY4 or 20XU4 (2 motors, or 1 motor + 1 piezo)
+# 24 for 24XYZ4 or 24XYU4 (3 motors, or  2 motor + 1 piezo)
+# 28 for 24XYUV4 (2 motors + 2 piezos)
+#
+# pmac30
+        { 18ID:XY:P1:,	0,  0 }
+        { 18ID:XY:P2:,  0, 20 }
+        { 18ID:XY:We:,	0, 40 }
+        { 18ID:XY:Tb:,	0, 60 }
+#
+# pmac31
+        { 18ID:HS:Ah:,  1,  0 }
+        { 18ID:HS:Av:,  1, 20 }
+        { 18ID:MA:St:,  1, 40 }
+        { 18ID:GH:Ps:   1, 60 }
+# pmac32
+}

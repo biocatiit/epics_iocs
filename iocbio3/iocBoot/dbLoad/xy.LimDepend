@@ -1,0 +1,28 @@
+file ../../mtrApp/softDb/LimDepend2.db
+{
+	pattern { axis, stg1, i1, stg2, i2, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+#
+# XY/P1: X1->Y1
+#
+#       { 18ID:XY:X1:, 18ID:XY:sx1:, 0, 18ID:XY:sy1:, 0, 18ID:XY:Y1:PsLimSet, 18ID:XY:Y1:AmpEna }
+#       { 18ID:XY:Y1:, 18ID:XY:sx1:, 0, 18ID:XY:sy1:, 0, 18ID:1D_pDummy,      18ID:1D_pDummy    }
+#
+# XY/P2: X2->Y2
+#
+#       { 18ID:XY:X2:, 18ID:XY:sx2:, 0, 18ID:XY:sy2:, 0, 18ID:XY:Y2:PsLimSet, 18ID:XY:Y2:AmpEna }
+#       { 18ID:XY:Y2:, 18ID:XY:sx2:, 0, 18ID:XY:sy2:, 0, 18ID:1D_pDummy,      18ID:1D_pDummy    }
+#
+# XY/We: Xw->Yw
+#
+#       { 18ID:XY:Xw:, 18ID:XY:sxw:, 0, 18ID:XY:syw:, 0, 18ID:XY:Yw:PsLimSet, 18ID:XY:Yw:AmpEna }
+#       { 18ID:XY:Yw:, 18ID:XY:sxw:, 0, 18ID:XY:syw:, 0, 18ID:1D_pDummy,      18ID:1D_pDummy    }
+#
+# XY/Tb: Xt->Yt
+#
+#       { 18ID:XY:Xt:, 18ID:XY:sxt:, 0, 18ID:XY:syt:, 0, 18ID:XY:Yt:PsLimSet, 18ID:XY:Yt:AmpEna }
+#       { 18ID:XY:Yt:, 18ID:XY:sxt:, 0, 18ID:XY:syt:, 0, 18ID:1D_pDummy,      18ID:1D_pDummy    }
+#
+}

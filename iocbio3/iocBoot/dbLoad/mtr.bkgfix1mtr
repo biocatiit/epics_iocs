@@ -1,0 +1,37 @@
+file ../../pmacApp/pmacDb/bkgfix1mtr.db
+{
+	pattern { mtr, C, S, next }
+#                            ----  added by Stepanov 98/10 for "AmpEna" controls
+#				mtr =   1   2   3   4   5   6   7   8
+#				  S =   0  31  62  93 124 155 186 217
+#--------------------------------------
+# pmac30
+        { 18ID:XY:mx1:, 0,   0, 18ID:XY:X1: }
+        { 18ID:XY:my1:, 0,  31, 18ID:XY:Y1: }
+        { 18ID:XY:mx2:, 0,  62, 18ID:XY:X2: }
+        { 18ID:XY:my2:, 0,  93, 18ID:XY:Y2: }
+        { 18ID:XY:mxw:, 0, 124, 18ID:XY:Xw: }
+        { 18ID:XY:myw:, 0, 155, 18ID:XY:Yw: }
+        { 18ID:XY:mxt:, 0, 186, 18ID:XY:Xt: }
+        { 18ID:XY:myt:, 0, 217, 18ID:XY:Yt: }
+
+# pmac31
+        { 18ID:HS:mhi:, 1,   0, 18ID:HS:dhi: }
+        { 18ID:HS:mho:, 1,  31, 18ID:HS:dho: }
+        { 18ID:HS:mvb:, 1,  62, 18ID:HS:dvb: }
+        { 18ID:HS:mvt:, 1,  93, 18ID:HS:dvt: }
+        { 18ID:MA:ms:,  1, 124, 18ID:MA:S:   }
+        { 18ID:MA:ma:,  1, 155, 18ID:MA:A:   }
+        { 18ID:GH:mx1:  1, 186, 18ID:GH:X1:  }
+        { 18ID:GH:mx2:  1, 217, 18ID:GH:X2:  }
+
+# pmac32
+        { 18ID:MD:m1:,  2,   0, 18ID:MD:d1: }
+        { 18ID:MD:m2:,  2,  31, 18ID:MD:d2: }
+        { 18ID:MD:m3:,  2,  62, 18ID:MD:d3: }
+        { 18ID:MD:m4:,  2,  93, 18ID:MD:d4: }
+        { 18ID:MD:m5:,  2, 124, 18ID:MD:d5: }
+        { 18ID:MD:m6:,  2, 155, 18ID:MD:d6: }
+        { 18ID:MD:m7:,  2, 186, 18ID:MD:d7: }
+        { 18ID:MD:m8:,  2, 217, 18ID:MD:d8: }
+}

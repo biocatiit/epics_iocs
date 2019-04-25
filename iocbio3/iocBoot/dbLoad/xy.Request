@@ -1,0 +1,25 @@
+file ../../mtrApp/xdtDb/X2d2_Request_simplified.db
+{
+	pattern { assy, d1, d2, m1, m2, rqs, des }
+
+	{ 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, RqsPos, DesPos }
+	{ 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, RqsRel, DesRel }
+	{ 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, RqsSlw, DesSlw }
+	{ 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, RqsScn, DesScn }
+#
+	{ 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, RqsPos, DesPos }
+	{ 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, RqsRel, DesRel }
+	{ 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, RqsSlw, DesSlw }
+	{ 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, RqsScn, DesScn }
+#
+	{ 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, RqsPos, DesPos }
+	{ 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, RqsRel, DesRel }
+	{ 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, RqsSlw, DesSlw }
+	{ 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, RqsScn, DesScn }
+#
+	{ 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, RqsPos, DesPos }
+	{ 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, RqsRel, DesRel }
+	{ 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, RqsSlw, DesSlw }
+	{ 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, RqsScn, DesScn }
+#
+}

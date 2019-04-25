@@ -1,0 +1,22 @@
+file ../../mtrApp/maDb/MA_Tsub_simplified.db
+{
+	pattern { assy, d1, d2, m1, m2, val, nla, tsub }
+#
+# tsub's are C programs implementing conversion from from physical
+# parameters of assembly (e.g. monochromator angle and position) to
+# that of motors and back. They are specific for each assembly.
+#
+# The library routines above convert among axes <-> stages <-> drives
+# <-> motors. The "nla" parameter is used in the routines to indicate
+# whether the transformations are direct or differential. Eg.,
+# absolute or position and relative or velocity.
+
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, DesPos, 0, tsubMDAxy }
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, DesRel, 1, tsubMDAxy }
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, DesBkl, 1, tsubMDAxy }
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, DesSlw, 1, tsubMDAxy }
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, DesScn, 1, tsubMDAxy }
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, SelSlw, 1, tsubMDAxy }
+	{ 18ID:MA:St:, 18ID:MA:S:, 18ID:MA:A:, 18ID:MA:ms:, 18ID:MA:ma:, SelScn, 1, tsubMDAxy }
+#
+}

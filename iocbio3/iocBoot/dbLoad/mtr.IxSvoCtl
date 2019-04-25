@@ -1,0 +1,35 @@
+file ../../pmacApp/pmacDb/IxSvoCtl.db
+{
+	pattern { mtr, C, x }
+#				mtr = 1 2 3 4 5 6 7 8
+#				  x = 1 2 3 4 5 6 7 8
+# pmac30
+        { 18ID:XY:mx1:, 0, 1 }
+        { 18ID:XY:my1:, 0, 2 }
+        { 18ID:XY:mx2:, 0, 3 }
+        { 18ID:XY:my2:, 0, 4 }
+        { 18ID:XY:mxw:, 0, 5 }
+        { 18ID:XY:myw:, 0, 6 }
+        { 18ID:XY:mxt:, 0, 7 }
+        { 18ID:XY:myt:, 0, 8 }
+
+# pmac31
+        { 18ID:HS:mhi:, 1, 1 }
+        { 18ID:HS:mho:, 1, 2 }
+        { 18ID:HS:mvb:, 1, 3 }
+        { 18ID:HS:mvt:, 1, 4 }
+        { 18ID:MA:ms:,  1, 5 }
+        { 18ID:MA:ma:,  1, 6 }
+        { 18ID:GH:mx1:  1, 7 }
+        { 18ID:GH:mx2:  1, 8 }
+
+# pmac32
+        { 18ID:MD:m1:,  2, 1 }
+        { 18ID:MD:m2:,  2, 2 }
+        { 18ID:MD:m3:,  2, 3 }
+        { 18ID:MD:m4:,  2, 4 }
+        { 18ID:MD:m5:,  2, 5 }
+        { 18ID:MD:m6:,  2, 6 }
+        { 18ID:MD:m7:,  2, 7 }
+        { 18ID:MD:m8:,  2, 8 }
+}

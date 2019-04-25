@@ -1,0 +1,13 @@
+file ../../mtrApp/mdDb/MD_Assy_simplified.db
+{
+	pattern { assy, d1, m1 }
+
+        { 18ID:MD:Ax1:, 18ID:MD:d1:, 18ID:MD:m1: }
+        { 18ID:MD:Ax2:, 18ID:MD:d2:, 18ID:MD:m2: }
+        { 18ID:MD:Ax3:, 18ID:MD:d3:, 18ID:MD:m3: }
+        { 18ID:MD:Ax4:, 18ID:MD:d4:, 18ID:MD:m4: }
+        { 18ID:MD:Ax5:, 18ID:MD:d5:, 18ID:MD:m5: }
+        { 18ID:MD:Ax6:, 18ID:MD:d6:, 18ID:MD:m6: }
+        { 18ID:MD:Ax7:, 18ID:MD:d7:, 18ID:MD:m7: }
+        { 18ID:MD:Ax8:, 18ID:MD:d8:, 18ID:MD:m8: }
+}

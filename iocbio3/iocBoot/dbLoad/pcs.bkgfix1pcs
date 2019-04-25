@@ -1,0 +1,31 @@
+file ../../pmacApp/pmacDb/bkgfix1pcs.db
+{
+	pattern { pcs, C, S }
+#				pcs =   1   2   3   4   5   6   7   8
+#				  S =   0  31  62  93 124 155 186 217
+#
+# In these files "pcs" is the coordinate system number.
+# pcs == _p_mac _c_oordinate _s_ystem
+#
+# pmac30
+        { 18ID:XY:P1:,   0,   0 }
+        { 18ID:XY:P2:,   0,  31 }
+        { 18ID:XY:We:,   0,  62 }
+        { 18ID:XY:Tb:,   0,  93 }
+
+# pmac31
+        { 18ID:HS:Ah:,   1,   0 }
+        { 18ID:HS:Av:,   1,  31 }
+        { 18ID:MA:St:,   1,  62 }
+        { 18ID:GH:Ps:    1,  93 }
+
+# pmac32
+        { 18ID:MD:Ax1:,  2,   0 }
+        { 18ID:MD:Ax2:,  2,  31 }
+        { 18ID:MD:Ax3:,  2,  62 }
+        { 18ID:MD:Ax4:,  2,  93 }
+        { 18ID:MD:Ax5:,  2, 124 }
+        { 18ID:MD:Ax6:,  2, 155 }
+        { 18ID:MD:Ax7:,  2, 186 }
+        { 18ID:MD:Ax8:,  2, 217 }
+}

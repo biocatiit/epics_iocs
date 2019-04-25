@@ -1,0 +1,38 @@
+file ../../mtrApp/xyDb/XY_TsubRbk_simplified.db
+{
+	pattern { assy, d1, d2, m1, m2, val, nla, tsub }
+#
+# tsub's are c-programs implementing conversion from from physical
+# parameters of assembly (e.g. monochromator angle and position) to
+# that of motors and back. They are specific for each assembly.
+#
+# The library routines above convert between drives <-> motors.
+# The "nla" parameter is used in the routines to indicate
+# whether the transformations are absolute or incremential. Eg.,
+# absolute or position and relative or velocity.
+
+  { 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, TgtPos, 0, tsubMDAxy }
+  { 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, CmdPos, 0, tsubMDAxy }
+  { 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, ActPos, 0, tsubMDAxy }
+  { 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, ActVel, 1, tsubMDAxy }
+  { 18ID:XY:P1:, 18ID:XY:X1:, 18ID:XY:Y1:, 18ID:XY:mx1:, 18ID:XY:my1:, AvgVel, 1, tsubMDAxy }
+#
+  { 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, TgtPos, 0, tsubMDAxy }
+  { 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, CmdPos, 0, tsubMDAxy }
+  { 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, ActPos, 0, tsubMDAxy }
+  { 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, ActVel, 1, tsubMDAxy }
+  { 18ID:XY:P2:, 18ID:XY:X2:, 18ID:XY:Y2:, 18ID:XY:mx2:, 18ID:XY:my2:, AvgVel, 1, tsubMDAxy }
+#
+  { 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, TgtPos, 0, tsubMDAxy }
+  { 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, CmdPos, 0, tsubMDAxy }
+  { 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, ActPos, 0, tsubMDAxy }
+  { 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, ActVel, 1, tsubMDAxy }
+  { 18ID:XY:We:, 18ID:XY:Xw:, 18ID:XY:Yw:, 18ID:XY:mxw:, 18ID:XY:myw:, AvgVel, 1, tsubMDAxy }
+#
+  { 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, TgtPos, 0, tsubMDAxy }
+  { 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, CmdPos, 0, tsubMDAxy }
+  { 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, ActPos, 0, tsubMDAxy }
+  { 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, ActVel, 1, tsubMDAxy }
+  { 18ID:XY:Tb:, 18ID:XY:Xt:, 18ID:XY:Yt:, 18ID:XY:mxt:, 18ID:XY:myt:, AvgVel, 1, tsubMDAxy }
+#
+}

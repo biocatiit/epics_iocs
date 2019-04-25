@@ -1,0 +1,34 @@
+file ../../mtrApp/softDb/LimTransfer_simplified.db
+{
+	pattern { prev, stage, factor }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+
+# pmac30 Motors -> Drives [XY/P1: X1-> X2]
+        { 18ID:XY:mx1:, 18ID:XY:X1:, 18ID:XY:X1:Scale }
+        { 18ID:XY:my1:, 18ID:XY:Y1:, 18ID:XY:Y1:Scale }
+        { 18ID:XY:mx2:, 18ID:XY:X2:, 18ID:XY:X2:Scale }
+        { 18ID:XY:my2:, 18ID:XY:Y2:, 18ID:XY:Y2:Scale }
+        { 18ID:XY:mxw:, 18ID:XY:Xw:, 18ID:XY:Xw:Scale }
+        { 18ID:XY:myw:, 18ID:XY:Yw:, 18ID:XY:Yw:Scale }
+        { 18ID:XY:mxt:, 18ID:XY:Xt:, 18ID:XY:Xt:Scale }
+        { 18ID:XY:myt:, 18ID:XY:Yt:, 18ID:XY:Yt:Scale }
+
+# pmac31 Motors -> Drives
+        { 18ID:MA:ms:,  18ID:MA:S:,  18ID:MA:S:Scale  }
+        { 18ID:MA:ma:,  18ID:MA:A:,  18ID:MA:A:Scale  }
+        { 18ID:GH:mx1:, 18ID:GH:X1:, 18ID:GH:X1:Scale }
+        { 18ID:GH:mx2:, 18ID:GH:X2:, 18ID:GH:X2:Scale }
+
+
+# PMAC32 Motors -> Drives
+        { 18ID:MD:m1:, 18ID:MD:d1:, 18ID:MD:d1:Scale }
+        { 18ID:MD:m2:, 18ID:MD:d2:, 18ID:MD:d2:Scale }
+        { 18ID:MD:m3:, 18ID:MD:d3:, 18ID:MD:d3:Scale }
+        { 18ID:MD:m4:, 18ID:MD:d4:, 18ID:MD:d4:Scale }
+        { 18ID:MD:m5:, 18ID:MD:d5:, 18ID:MD:d5:Scale }
+        { 18ID:MD:m6:, 18ID:MD:d6:, 18ID:MD:d6:Scale }
+        { 18ID:MD:m7:, 18ID:MD:d7:, 18ID:MD:d7:Scale }
+        { 18ID:MD:m8:, 18ID:MD:d8:, 18ID:MD:d8:Scale }
+}

@@ -1,0 +1,8 @@
+file ../../pmacApp/pmacDb/svofix0.db
+{
+	pattern { pmac, C }
+
+        { 18ID:pmac30:, 0 }
+        { 18ID:pmac31:, 1 }
+        { 18ID:pmac32:, 2 }
+}

@@ -1,0 +1,23 @@
+file ../../mtrApp/softDb/MemStoRclPV.db
+{
+	pattern { mem, sto, rcl, prec }
+
+  { 18ID:XY:mx1:MemPos, 18ID:XY:mx1:DesPos, 18ID:XY:mx1:RqsPos, 0 }
+  { 18ID:XY:my1:MemPos, 18ID:XY:my1:DesPos, 18ID:XY:my1:RqsPos, 0 }
+  { 18ID:XY:mx2:MemPos, 18ID:XY:mx2:DesPos, 18ID:XY:mx2:RqsPos, 0 }
+  { 18ID:XY:my2:MemPos, 18ID:XY:my2:DesPos, 18ID:XY:my2:RqsPos, 0 }
+  { 18ID:XY:mxw:MemPos, 18ID:XY:mxw:DesPos, 18ID:XY:mxw:RqsPos, 0 }
+  { 18ID:XY:myw:MemPos, 18ID:XY:myw:DesPos, 18ID:XY:myw:RqsPos, 0 }
+  { 18ID:XY:mxt:MemPos, 18ID:XY:mxt:DesPos, 18ID:XY:mxt:RqsPos, 0 }
+  { 18ID:XY:myt:MemPos, 18ID:XY:myt:DesPos, 18ID:XY:myt:RqsPos, 0 }
+
+  { 18ID:XY:X1:MemPos,  18ID:XY:X1:DesPos,  18ID:XY:X1:RqsPos,  3 }
+  { 18ID:XY:Y1:MemPos,  18ID:XY:Y1:DesPos,  18ID:XY:Y1:RqsPos,  3 }
+  { 18ID:XY:X2:MemPos,  18ID:XY:X2:DesPos,  18ID:XY:X2:RqsPos,  3 }
+  { 18ID:XY:Y2:MemPos,  18ID:XY:Y2:DesPos,  18ID:XY:Y2:RqsPos,  3 }
+  { 18ID:XY:Xw:MemPos,  18ID:XY:Xw:DesPos,  18ID:XY:Xw:RqsPos,  3 }
+  { 18ID:XY:Yw:MemPos,  18ID:XY:Yw:DesPos,  18ID:XY:Yw:RqsPos,  3 }
+  { 18ID:XY:Xt:MemPos,  18ID:XY:Xt:DesPos,  18ID:XY:Xt:RqsPos,  3 }
+  { 18ID:XY:Yt:MemPos,  18ID:XY:Yt:DesPos,  18ID:XY:Yt:RqsPos,  3 }
+
+}

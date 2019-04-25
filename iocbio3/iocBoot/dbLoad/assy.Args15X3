@@ -1,0 +1,14 @@
+file ../../mtrApp/softDb/Args15X3.db
+{
+	pattern { assy, m1 }
+#
+# pmac32
+        { 18ID:MD:Ax1:,  18ID:MD:m1: }
+        { 18ID:MD:Ax2:,  18ID:MD:m2: }
+        { 18ID:MD:Ax3:,  18ID:MD:m3: }
+        { 18ID:MD:Ax4:,  18ID:MD:m4: }
+        { 18ID:MD:Ax5:,  18ID:MD:m5: }
+        { 18ID:MD:Ax6:,  18ID:MD:m6: }
+        { 18ID:MD:Ax7:,  18ID:MD:m7: }
+        { 18ID:MD:Ax8:,  18ID:MD:m8: }
+}

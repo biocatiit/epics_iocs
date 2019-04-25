@@ -1,0 +1,32 @@
+file ../../pmacApp/pmacDb/CtlPnlPcs.db
+{
+	pattern { pcs, pmac, wrd, msk }
+#				pcs =   1   2   3   4   5   6   7   8
+#				wrd =   1   2   3   4   5   6   7   8
+#                               msk =   1   2   4   8  16  32  64 128
+#
+# In these files "pcs" is the coordinate system number.
+# pcs == _p_mac _c_oordinate _s_ystem
+
+# pmac30
+        { 18ID:XY:P1:,  18ID:pmac30:,   1,   1 }
+        { 18ID:XY:P2:,  18ID:pmac30:,   2,   2 }
+        { 18ID:XY:We:,  18ID:pmac30:,   3,   4 }
+        { 18ID:XY:Tb:,  18ID:pmac30:,   4,   8 }
+
+# pmac31
+        { 18ID:HS:Ah:,  18ID:pmac31:,   1,   1 }
+        { 18ID:HS:Av:,  18ID:pmac31:,   2,   2 }
+        { 18ID:MA:St:,  18ID:pmac31:,   3,   4 }
+        { 18ID:GH:Ps:   18ID:pmac31:,   4,   8 }
+
+# pmac32
+        { 18ID:MD:Ax1:, 18ID:pmac32:,   1,   1 }
+        { 18ID:MD:Ax2:, 18ID:pmac32:,   2,   2 }
+        { 18ID:MD:Ax3:, 18ID:pmac32:,   3,   4 }
+        { 18ID:MD:Ax4:, 18ID:pmac32:,   4,   8 }
+        { 18ID:MD:Ax5:, 18ID:pmac32:,   5,  16 }
+        { 18ID:MD:Ax6:, 18ID:pmac32:,   6,  32 }
+        { 18ID:MD:Ax7:, 18ID:pmac32:,   7,  64 }
+        { 18ID:MD:Ax8:, 18ID:pmac32:,   8, 128 }
+}
