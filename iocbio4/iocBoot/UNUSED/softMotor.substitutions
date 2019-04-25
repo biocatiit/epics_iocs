@@ -1,0 +1,15 @@
+file "$(STD)/stdApp/Db/softMotor.db"
+{
+pattern
+{P,		SM}
+{18IDd:,	SM1}
+{18IDd:,	SM2}
+{18IDd:,	SM3}
+{18IDd:,	SM4}
+{18IDd:,	SM5}
+{18IDd:,	SM6}
+{18IDd:,	SM7}
+{18IDd:,	SM8}
+{18IDd:,	SM9}
+{18IDd:,	SM10}
+}

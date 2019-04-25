@@ -1,0 +1,41 @@
+#file stdApp/Db/digital_I_16-31.db
+file "$(TOP)/18IDdApp/Db/digital_I_16-31.db"
+{
+	pattern { id, C, S }
+
+# Channels 0-7 are used in I/O interrupt mode:
+#       { 18ID, 0,  0 }
+#       { 18ID, 0,  1 }
+#       { 18ID, 0,  2 }
+#       { 18ID, 0,  3 }
+#       { 18ID, 0,  4 }
+#       { 18ID, 0,  5 }
+#       { 18ID, 0,  6 }
+#       { 18ID, 0,  7 }
+# Channels 8--15 are used in passive mode:
+#       { 18ID, 0,  8 }
+#       { 18ID, 0,  9 }
+#       { 18ID, 0, 10 }
+#       { 18ID, 0, 11 }
+#       { 18ID, 0, 12 }
+#       { 18ID, 0, 13 }
+#       { 18ID, 0, 14 }
+#       { 18ID, 0, 15 }
+# Channels 16--31 are used for binary output readback:
+        { 18ID, 0, 16 }
+        { 18ID, 0, 17 }
+        { 18ID, 0, 18 }
+        { 18ID, 0, 19 }
+        { 18ID, 0, 20 }
+        { 18ID, 0, 21 }
+        { 18ID, 0, 22 }
+        { 18ID, 0, 23 }
+        { 18ID, 0, 24 }
+        { 18ID, 0, 25 }
+        { 18ID, 0, 26 }
+        { 18ID, 0, 27 }
+        { 18ID, 0, 28 }
+        { 18ID, 0, 29 }
+        { 18ID, 0, 30 }
+        { 18ID, 0, 31 }
+}

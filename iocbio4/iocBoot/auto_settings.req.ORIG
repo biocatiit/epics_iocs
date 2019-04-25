@@ -1,0 +1,6 @@
+# Note: the macro P must have been supplied to the routine that parses
+# this file.  Normally, this means a command like the following will be issued
+# after iocInit:
+# create_monitor_set("auto_settings.req",30,"P=18ID:")
+
+file built_settings.req P=$(P)

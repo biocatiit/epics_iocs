@@ -1,0 +1,15 @@
+boot device          : fei
+unit number          : 0 
+processor number     : 0 
+host name            : cryptkeeper
+file name            : /home/ioc/vxWorks-image-mv5100-asd7
+inet on ethernet (e) : 164.54.204.9:ffffff00
+host inet (h)        : 164.54.204.59
+gateway inet (g)     : 164.54.204.1
+user (u)             : ioc
+ftp password (pw)    : I0c
+flags (f)            : 0x0 
+target name (tn)     : iocbio4
+startup script (s)   : /home/ioc/iocbio4/st.cmd
+
+

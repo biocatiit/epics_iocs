@@ -1,0 +1,24 @@
+#file stdApp/Db/digital_I_8-15.db
+file "$(TOP)/18IDdApp/Db/digital_I_8-15.db"
+{
+	pattern { id, C, S }
+
+# Channels 0-7 can be used in I/O interrupt mode:
+#       { 18ID, 0,  0 }
+#       { 18ID, 0,  1 }
+#       { 18ID, 0,  2 }
+#       { 18ID, 0,  3 }
+#       { 18ID, 0,  4 }
+#       { 18ID, 0,  5 }
+#       { 18ID, 0,  6 }
+#       { 18ID, 0,  7 }
+# Channels 8-15 canNOT be used in I/O interrupt mode:
+        { 18ID, 0,  8 }
+        { 18ID, 0,  9 }
+        { 18ID, 0, 10 }
+        { 18ID, 0, 11 }
+        { 18ID, 0, 12 }
+        { 18ID, 0, 13 }
+        { 18ID, 0, 14 }
+        { 18ID, 0, 15 }
+}

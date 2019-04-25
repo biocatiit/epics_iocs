@@ -1,0 +1,5 @@
+# SIS MCS record for dark current subtraction
+
+grecord(ao,"$(P)$(M)_Dark") {
+	field(PREC,"3")
+}

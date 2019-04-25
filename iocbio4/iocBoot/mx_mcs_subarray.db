@@ -1,0 +1,9 @@
+grecord(subArray,"$(P)$(M)_Meas") {
+	field(DTYP, "Soft Channel")
+	field(INP, "$(P)$(M).VAL")
+	field(FTVL, "LONG")
+	field(MALM, "1")
+	field(NELM, "1")
+	field(INDX, "0")
+}
+
