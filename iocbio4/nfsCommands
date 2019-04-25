@@ -1,0 +1,20 @@
+
+routeShow
+
+# The following lines are examples of what might be required to use NFS,
+# rather than FTP, for booting the VME crate, and generally for reading
+# and writing files on the server.
+#
+#nfsMount("s100dserv","/APSshare","/APSshare")
+#hostAdd("oxygen","164.54.22.10")
+nfsMount("cryptkeeper","/opt/epics/synApps_5_8/support","/opt/epics/synApps_5_8/support")
+hostAdd("zim","164.54.204.46")
+nfsAuthUnixSet("zim",506,501,0,0)
+nfsMount("zim","/home/ioc/landahl","/home/ioc/landahl")
+# Add hosts for manticore and phoenix
+hostAdd("manticore","164.54.204.103")
+hostAdd("phoenix","164.54.204.49")
+
+nfsDevShow
+# The following line eliminates "cksum: out of data" messages due to DHCP
+#proxyPortFwdOff(67)
