@@ -1,0 +1,18 @@
+file ../../mtrApp/softDb/AssyParams.db
+{
+	pattern { assy }
+
+# pmac20
+	{ 18ID:PA:St:  }
+        { 18ID:FI:Ar:  }
+        { 18ID:DN:St:  }
+# pmac21
+        { 18ID:CS:Av:  }
+        { 18ID:CS:Ah:  }
+        { 18ID:CS:Sh:  }
+        { 18ID:MO2:En: }
+# pmac22
+        { 18ID:MO2:Tn: }
+        { 18ID:MO2:Yw: }
+        { 18ID:MO2:Fo: }
+}

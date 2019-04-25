@@ -1,0 +1,42 @@
+file ../../mtrApp/softDb/MemStoRclPV.db
+{
+	pattern { mem, sto, rcl, prec }
+
+	{ 18ID:MO2:mr:MemPos,	18ID:MO2:mr:DesPos,	18ID:MO2:mr:RqsPos,	0 }
+	{ 18ID:MO2:mtx:MemPos,	18ID:MO2:mtx:DesPos,	18ID:MO2:mtx:RqsPos,	0 }
+	{ 18ID:MO2:mty:MemPos,	18ID:MO2:mty:DesPos,	18ID:MO2:mty:RqsPos,	0 }
+	{ 18ID:MO2:mf:MemPos,	18ID:MO2:mf:DesPos,	18ID:MO2:mf:RqsPos,	0 }
+	{ 18ID:MO2:mnl:MemPos,	18ID:MO2:mnl:DesPos,	18ID:MO2:mnl:RqsPos,	0 }
+	{ 18ID:MO2:mnr:MemPos,	18ID:MO2:mnr:DesPos,	18ID:MO2:mnr:RqsPos,	0 }
+	{ 18ID:MO2:mw:MemPos,	18ID:MO2:mw:DesPos,	18ID:MO2:mw:RqsPos,	0 }
+	{ 18ID:MO2:pnl:MemPos,	18ID:MO2:pnl:DesPos,	18ID:MO2:pnl:RqsPos,	0 }
+	{ 18ID:MO2:pnr:MemPos,	18ID:MO2:pnr:DesPos,	18ID:MO2:pnr:RqsPos,	0 }
+	{ 18ID:MO2:pw:MemPos,	18ID:MO2:pw:DesPos,	18ID:MO2:pw:RqsPos,	0 }
+
+	{ 18ID:MO2:dr:MemPos,	18ID:MO2:dr:DesPos,	18ID:MO2:dr:RqsPos,	4 }
+	{ 18ID:MO2:dtx:MemPos,	18ID:MO2:dtx:DesPos,	18ID:MO2:dtx:RqsPos,	2 }
+	{ 18ID:MO2:dty:MemPos,	18ID:MO2:dty:DesPos,	18ID:MO2:dty:RqsPos,	2 }
+	{ 18ID:MO2:df:MemPos,	18ID:MO2:df:DesPos,	18ID:MO2:df:RqsPos,	2 }
+	{ 18ID:MO2:dnl:MemPos,	18ID:MO2:dnl:DesPos,	18ID:MO2:dnl:RqsPos,	1 }
+	{ 18ID:MO2:dnr:MemPos,	18ID:MO2:dnr:DesPos,	18ID:MO2:dnr:RqsPos,	1 }
+	{ 18ID:MO2:dw:MemPos,	18ID:MO2:dw:DesPos,	18ID:MO2:dw:RqsPos,	1 }
+	{ 18ID:MO2:tnl:MemPos,	18ID:MO2:tnl:DesPos,	18ID:MO2:tnl:RqsPos,	3 }
+	{ 18ID:MO2:tnr:MemPos,	18ID:MO2:tnr:DesPos,	18ID:MO2:tnr:RqsPos,	3 }
+	{ 18ID:MO2:tw:MemPos,	18ID:MO2:tw:DesPos,	18ID:MO2:tw:RqsPos,	3 }
+
+	{ 18ID:MO2:sr:MemPos,	18ID:MO2:sr:DesPos,	18ID:MO2:sr:RqsPos,	4 }
+	{ 18ID:MO2:stx:MemPos,	18ID:MO2:stx:DesPos,	18ID:MO2:stx:RqsPos,	2 }
+	{ 18ID:MO2:sty:MemPos,	18ID:MO2:sty:DesPos,	18ID:MO2:sty:RqsPos,	2 }
+	{ 18ID:MO2:sf:MemPos,	18ID:MO2:sf:DesPos,	18ID:MO2:sf:RqsPos,	2 }
+	{ 18ID:MO2:snl:MemPos,	18ID:MO2:snl:DesPos,	18ID:MO2:snl:RqsPos,	1 }
+	{ 18ID:MO2:snr:MemPos,	18ID:MO2:snr:DesPos,	18ID:MO2:snr:RqsPos,	1 }
+	{ 18ID:MO2:sw:MemPos,	18ID:MO2:sw:DesPos,	18ID:MO2:sw:RqsPos,	1 }
+
+	{ 18ID:MO2:E:MemPos,	18ID:MO2:E:DesPos,	18ID:MO2:E:RqsPos,	4 }
+	{ 18ID:MO2:L:MemPos,	18ID:MO2:L:DesPos,	18ID:MO2:L:RqsPos,	4 }
+	{ 18ID:MO2:N:MemPos,	18ID:MO2:N:DesPos,	18ID:MO2:N:RqsPos,	1 }
+	{ 18ID:MO2:S:MemPos,	18ID:MO2:S:DesPos,	18ID:MO2:S:RqsPos,	1 }
+	{ 18ID:MO2:F:MemPos,	18ID:MO2:F:DesPos,	18ID:MO2:F:RqsPos,  	2 }
+	{ 18ID:MO2:W:MemPos,	18ID:MO2:W:DesPos,	18ID:MO2:W:RqsPos,	1 }
+
+}

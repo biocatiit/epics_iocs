@@ -1,0 +1,8 @@
+file ../../pmacApp/pmacDb/bkgvar0.db
+{
+	pattern { pmac, C }
+
+        { 18ID:pmac20:, 0 }
+        { 18ID:pmac21:, 1 }
+        { 18ID:pmac22:, 2 }
+}

@@ -1,0 +1,31 @@
+file ../../pmacApp/pmacDb/OpnLp.db
+{
+	pattern { mtr, C, M }
+#				mtr = 1 2 3 4 5 6 7 8
+#				  M = 1 2 3 4 5 6 7 8
+# pmac20
+	{ 18ID:PA:mx:,	 0, 1 }
+	{ 18ID:PA:mr:,	 0, 2 }
+        { 18ID:FI:my1:,  0, 3 }
+        { 18ID:FI:my2:,  0, 4 }
+        { 18ID:DN:my1:,  0, 5 }
+        { 18ID:DN:my2:,  0, 6 }
+# pmac21
+        { 18ID:CS:mvc:,  1, 1 }
+        { 18ID:CS:mvs:,  1, 2 }
+        { 18ID:CS:mhc:,  1, 3 }
+        { 18ID:CS:mhs:,  1, 4 }
+        { 18ID:CS:mhy:,  1, 5 }
+        { 18ID:MO2:mr:,  1, 6 }
+        { 18ID:MO2:mtx:, 1, 7 }
+        { 18ID:MO2:mty:, 1, 8 }
+# pmac22
+        { 18ID:MO2:mnl:, 2, 1 }
+        { 18ID:MO2:mnr:, 2, 2 }
+        { 18ID:MO2:mw:,  2, 3 }
+        { 18ID:MO2:mf:,  2, 4 }
+        { 18ID:MO2:pnl:, 2, 5 }
+        { 18ID:MO2:pnr:, 2, 6 }
+        { 18ID:MO2:pw:,  2, 7 }
+}
+

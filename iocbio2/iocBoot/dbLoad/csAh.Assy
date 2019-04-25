@@ -1,0 +1,7 @@
+file ../../mtrApp/csDb/CSAh_Assy.db
+{
+        pattern { assy, x1, x2, x3, x4, s1, s2, d1, d2, m1, m2 }
+#                               ^^^^^^ /extra fields x3,x4 for XI,XO are not used/
+
+        { 18ID:CS:Ah:, 18ID:CS:XC:, 18ID:CS:XS:, 18ID:CS:XI:, 18ID:CS:XO:, 18ID:CS:shc:, 18ID:CS:shs:, 18ID:CS:dhc:, 18ID:CS:dhs:, 18ID:CS:mhc:, 18ID:CS:mhs: }
+}

@@ -1,0 +1,17 @@
+file ../../mtrApp/softDb/MemStoRclPV.db
+{
+	pattern { mem, sto, rcl, prec }
+
+	{ 18ID:PA:mx:MemPos,	18ID:PA:mx:DesPos,	18ID:PA:mx:RqsPos,	0 }
+	{ 18ID:PA:mr:MemPos,	18ID:PA:mr:DesPos,	18ID:PA:mr:RqsPos,	0 }
+
+	{ 18ID:PA:dx:MemPos,	18ID:PA:dx:DesPos,	18ID:PA:dx:RqsPos,	3 }
+	{ 18ID:PA:dr:MemPos,	18ID:PA:dr:DesPos,	18ID:PA:dr:RqsPos,	3 }
+
+	{ 18ID:PA:sx:MemPos,	18ID:PA:sx:DesPos,	18ID:PA:sx:RqsPos,	3 }
+	{ 18ID:PA:sr:MemPos,	18ID:PA:sr:DesPos,	18ID:PA:sr:RqsPos,	3 }
+
+	{ 18ID:PA:X:MemPos,	18ID:PA:X:DesPos,	18ID:PA:X:RqsPos,	3 }
+	{ 18ID:PA:Y:MemPos,	18ID:PA:Y:DesPos,	18ID:PA:Y:RqsPos,	3 }
+
+}

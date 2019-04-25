@@ -1,0 +1,17 @@
+file ../../mtrApp/softDb/IncBmpPV.db
+{
+	pattern { pv, prec }
+# "prec" is "precision": the number of digits after comma
+# (usually 3 for real numbers and zero for integers).
+	{ 18ID:FI:my1:RqsPos,	0 }
+	{ 18ID:FI:my2:RqsPos,	0 }
+
+	{ 18ID:FI:dy1:RqsPos,	3 }
+	{ 18ID:FI:dy2:RqsPos,	3 }
+
+	{ 18ID:FI:sy1:RqsPos,	3 }
+	{ 18ID:FI:sy2:RqsPos,	3 }
+
+	{ 18ID:FI:Y1:RqsPos,	3 }
+	{ 18ID:FI:Y2:RqsPos,	3 }
+}

@@ -1,0 +1,6 @@
+file ../../mtrApp/csDb/CSSh_Calibrate.db
+{
+	pattern { assy, x1, s1, d1, m1 }
+
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy: }
+}

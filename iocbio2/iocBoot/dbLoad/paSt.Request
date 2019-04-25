@@ -1,0 +1,10 @@
+file ../../mtrApp/xdtDb/X2d2_Request.db
+{
+	pattern { assy, x1, x2, s1, s2, d1, d2, m1, m2, rqs, des }
+
+	{ 18ID:PA:St:,	18ID:PA:X:, 18ID:PA:Y:, 18ID:PA:sx:,  18ID:PA:sr:,  18ID:PA:dx:,  18ID:PA:dr:,  18ID:PA:mx:,  18ID:PA:mr:,	RqsPos, DesPos }
+	{ 18ID:PA:St:,	18ID:PA:X:, 18ID:PA:Y:, 18ID:PA:sx:,  18ID:PA:sr:,  18ID:PA:dx:,  18ID:PA:dr:,  18ID:PA:mx:,  18ID:PA:mr:,	RqsRel, DesRel }
+	{ 18ID:PA:St:,	18ID:PA:X:, 18ID:PA:Y:, 18ID:PA:sx:,  18ID:PA:sr:,  18ID:PA:dx:,  18ID:PA:dr:,  18ID:PA:mx:,  18ID:PA:mr:,	RqsSlw, DesSlw }
+	{ 18ID:PA:St:,	18ID:PA:X:, 18ID:PA:Y:, 18ID:PA:sx:,  18ID:PA:sr:,  18ID:PA:dx:,  18ID:PA:dr:,  18ID:PA:mx:,  18ID:PA:mr:,	RqsScn, DesScn }
+
+}

@@ -1,0 +1,32 @@
+file ../../pmacApp/pmacDb/bkgfix1mtr.db
+{
+	pattern { mtr, C, S, next }
+#                            ----  added by Stepanov 98/10 "AmpEna" for controls
+#				mtr =   1   2   3   4   5   6   7   8
+#				  S =   0  31  62  93 124 155 186 217
+#--------------------------------------
+# pmac20
+	{ 18ID:PA:mx:,	 0,   0, 18ID:PA:dx:   }
+	{ 18ID:PA:mr:,	 0,  31, 18ID:PA:dr:   }
+        { 18ID:FI:my1:,  0,  62, 18ID:FI:dy1:  }
+        { 18ID:FI:my2:,  0,  93, 18ID:FI:dy2:  }
+        { 18ID:DN:my1:,  0, 124, 18ID:DN:dy1:  }
+        { 18ID:DN:my2:,  0, 155, 18ID:DN:dy2:  }
+# pmac21
+        { 18ID:CS:mvc:,  1,   0, 18ID:CS:dvc:  }
+        { 18ID:CS:mvs:,  1,  31, 18ID:CS:dvs:  }
+        { 18ID:CS:mhc:,  1,  62, 18ID:CS:dhc:  }
+        { 18ID:CS:mhs:,  1,  93, 18ID:CS:dhs:  }
+        { 18ID:CS:mhy:,  1, 124, 18ID:CS:dhy:  }
+        { 18ID:MO2:mr:,  1, 155, 18ID:MO2:dr:  }
+        { 18ID:MO2:mtx:, 1, 186, 18ID:MO2:dtx: }
+        { 18ID:MO2:mty:, 1, 217, 18ID:MO2:dty: }
+# pmac22
+        { 18ID:MO2:mnl:, 2,   0, 18ID:MO2:dnl: }
+        { 18ID:MO2:mnr:, 2,  31, 18ID:MO2:dnr: }
+        { 18ID:MO2:mw:,  2,  62, 18ID:MO2:dw:  }
+        { 18ID:MO2:mf:,  2,  93, 18ID:MO2:df:  }
+        { 18ID:MO2:pnl:, 2, 124, 18ID:MO2:tnl: }
+        { 18ID:MO2:pnr:, 2, 155, 18ID:MO2:tnr: }
+        { 18ID:MO2:pw:,  2, 186, 18ID:MO2:tw:  }
+}

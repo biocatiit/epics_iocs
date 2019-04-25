@@ -1,0 +1,14 @@
+file ../../mtrApp/softDb/LimDepend2.db
+{
+	pattern { axis, stg1, i1, stg2, i2, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+#
+# ATTENTION: This must be corrected some day! The sign here depends
+# on 18ID:PA:St:SinAlpha and  18ID:DN:St:CosAlpha!!!
+# Generally, we need to specify the database links instead of constants!
+#
+        { 18ID:PA:X:, 18ID:PA:sx:, 0, 18ID:PA:sr:, 0, 18ID:PA:Y:PsLimSet, 18ID:PA:Y:AmpEna }
+        { 18ID:PA:Y:, 18ID:PA:sx:, 0, 18ID:PA:sr:, 0, 18ID:1D_pDummy,     18ID:1D_pDummy }
+}

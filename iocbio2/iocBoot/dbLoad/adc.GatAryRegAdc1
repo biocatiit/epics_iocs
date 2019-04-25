@@ -1,0 +1,29 @@
+file ../../pmacApp/pmacDb/GatAryRegAdc1.db
+{
+	pattern { adc, C, S }
+#
+#			adc = 1  2  3  4  5  6  7  8
+#			  S = 0  1  8  9 16 17 24 25
+#
+# Here "S" is an offset to the base address in the database.
+# These offsets correspond to the PMAC memory containing the
+# ADC readbacks. I included these readbacks on the only two
+# PMACs which will be connected to piezo controllers which
+# have ADC feedback./Tom Coleman/
+
+# pmac20
+# /no piezos on PMAC20/
+
+# pmac21
+# /no piezos on PMAC21/
+
+# pmac22
+ 	{ 18ID:pmac22:adc1:,  2,  0 }
+ 	{ 18ID:pmac22:adc2:,  2,  1 }
+ 	{ 18ID:pmac22:adc3:,  2,  8 }
+ 	{ 18ID:pmac22:adc4:,  2,  9 }
+ 	{ 18ID:pmac22:adc5:,  2, 16 }
+ 	{ 18ID:pmac22:adc6:,  2, 17 }
+ 	{ 18ID:pmac22:adc7:,  2, 24 }
+ 	{ 18ID:pmac22:adc8:,  2, 25 }
+}

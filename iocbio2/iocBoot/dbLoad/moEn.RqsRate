@@ -1,0 +1,7 @@
+file ../../mtrApp/xdtDb/X2d3_RqsRate.db
+{
+        pattern { assy, x1, x2, s1, s2, s3, d1, d2, d3, m1, m2, m3, rqs, des, sel }
+
+	{ 18ID:MO2:En:, 18ID:MO2:E:, 18ID:MO2:L:, 18ID:MO2:sr:, 18ID:MO2:stx:, 18ID:MO2:sty:, 18ID:MO2:dr:, 18ID:MO2:dtx:, 18ID:MO2:dty:, 18ID:MO2:mr:, 18ID:MO2:mtx:, 18ID:MO2:mty:, RqsSlw, DesSlw, SelSlw }
+	{ 18ID:MO2:En:, 18ID:MO2:E:, 18ID:MO2:L:, 18ID:MO2:sr:, 18ID:MO2:stx:, 18ID:MO2:sty:, 18ID:MO2:dr:, 18ID:MO2:dtx:, 18ID:MO2:dty:, 18ID:MO2:mr:, 18ID:MO2:mtx:, 18ID:MO2:mty:, RqsScn, DesScn, SelScn }
+}

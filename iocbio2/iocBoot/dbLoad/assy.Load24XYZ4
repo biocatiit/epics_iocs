@@ -1,0 +1,11 @@
+file ../../mtrApp/softDb/Load24XYZ4.db
+{
+	pattern { assy, C, pcs }
+#				pcs =   1   2   3   4   5   6   7   8
+# pmac20
+#
+# pmac21
+	{ 18ID:MO2:En:,	1,  4 }
+# pmac22
+#
+}

@@ -1,0 +1,13 @@
+file ../../mtrApp/softDb/Args20XY4.db
+{
+	pattern { assy, m1, m2 }
+#
+# pmac20
+        { 18ID:PA:St:,  18ID:PA:mx:,  18ID:PA:mr:  }
+        { 18ID:FI:Ar:,  18ID:FI:my1:, 18ID:FI:my2: }
+        { 18ID:DN:St:,  18ID:DN:my1:, 18ID:DN:my2: }
+# pmac21
+        { 18ID:CS:Av:,  18ID:CS:mvc:, 18ID:CS:mvs: }
+        { 18ID:CS:Ah:,  18ID:CS:mhc:, 18ID:CS:mhs: }
+# pmac22
+}

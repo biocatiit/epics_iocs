@@ -1,0 +1,33 @@
+file ../../mtrApp/softDb/MemStoRclPV.db
+{
+	pattern { mem, sto, rcl, prec }
+
+        { 18ID:CS:mhy:MemPos,   18ID:CS:mhy:DesPos,     18ID:CS:mhy:RqsPos, 0 }
+        { 18ID:CS:mhc:MemPos,   18ID:CS:mhc:DesPos,     18ID:CS:mhc:RqsPos, 0 }
+        { 18ID:CS:mhs:MemPos,   18ID:CS:mhs:DesPos,     18ID:CS:mhs:RqsPos, 0 }
+        { 18ID:CS:mvc:MemPos,   18ID:CS:mvc:DesPos,     18ID:CS:mvc:RqsPos, 0 }
+        { 18ID:CS:mvs:MemPos,   18ID:CS:mvs:DesPos,     18ID:CS:mvs:RqsPos, 0 }
+
+        { 18ID:CS:dhy:MemPos,   18ID:CS:dhy:DesPos,     18ID:CS:dhy:RqsPos, 3 }
+        { 18ID:CS:dhc:MemPos,   18ID:CS:dhc:DesPos,     18ID:CS:dhc:RqsPos, 3 }
+        { 18ID:CS:dhs:MemPos,   18ID:CS:dhs:DesPos,     18ID:CS:dhs:RqsPos, 3 }
+        { 18ID:CS:dvc:MemPos,   18ID:CS:dvc:DesPos,     18ID:CS:dvc:RqsPos, 3 }
+        { 18ID:CS:dvs:MemPos,   18ID:CS:dvs:DesPos,     18ID:CS:dvs:RqsPos, 3 }
+
+        { 18ID:CS:shy:MemPos,   18ID:CS:shy:DesPos,     18ID:CS:shy:RqsPos, 3 }
+        { 18ID:CS:shc:MemPos,   18ID:CS:shc:DesPos,     18ID:CS:shc:RqsPos, 3 }
+        { 18ID:CS:shs:MemPos,   18ID:CS:shs:DesPos,     18ID:CS:shs:RqsPos, 3 }
+        { 18ID:CS:svc:MemPos,   18ID:CS:svc:DesPos,     18ID:CS:svc:RqsPos, 3 }
+        { 18ID:CS:svs:MemPos,   18ID:CS:svs:DesPos,     18ID:CS:svs:RqsPos, 3 }
+
+        { 18ID:CS:HY:MemPos,    18ID:CS:HY:DesPos,      18ID:CS:HY:RqsPos,  3 }
+        { 18ID:CS:XC:MemPos,    18ID:CS:XC:DesPos,      18ID:CS:XC:RqsPos,  3 }
+        { 18ID:CS:XS:MemPos,    18ID:CS:XS:DesPos,      18ID:CS:XS:RqsPos,  3 }
+        { 18ID:CS:XI:MemPos,    18ID:CS:XI:DesPos,      18ID:CS:XI:RqsPos,  3 }
+        { 18ID:CS:XO:MemPos,    18ID:CS:XO:DesPos,      18ID:CS:XO:RqsPos,  3 }
+        { 18ID:CS:YC:MemPos,    18ID:CS:YC:DesPos,      18ID:CS:YC:RqsPos,  3 }
+        { 18ID:CS:YS:MemPos,    18ID:CS:YS:DesPos,      18ID:CS:YS:RqsPos,  3 }
+        { 18ID:CS:YT:MemPos,    18ID:CS:YT:DesPos,      18ID:CS:YT:RqsPos,  3 }
+        { 18ID:CS:YB:MemPos,    18ID:CS:YB:DesPos,      18ID:CS:YB:RqsPos,  3 }
+
+}

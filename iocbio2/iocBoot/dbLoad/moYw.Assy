@@ -1,0 +1,6 @@
+file ../../mtrApp/moDb/MOYw_Assy.db
+{
+        pattern { assy, x1, s1, d1, t1, m1, p1 }
+
+	{ 18ID:MO2:Yw:,	18ID:MO2:W:, 18ID:MO2:sw:, 18ID:MO2:dw:, 18ID:MO2:tw:, 18ID:MO2:mw:, 18ID:MO2:pw: }
+}

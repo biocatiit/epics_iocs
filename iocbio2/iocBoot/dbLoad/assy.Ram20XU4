@@ -1,0 +1,11 @@
+file ../../pmacApp/pmacDb/Ram20XU4.db
+{
+	pattern { assy, C, S }
+
+# pmac20
+#
+# pmac21
+#
+# pmac22
+	{ 18ID:MO2:Yw:,	2, 28 }
+}

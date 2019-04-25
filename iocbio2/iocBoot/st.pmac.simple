@@ -1,0 +1,33 @@
+### Configure PMAC-VME Hardware
+#	args:	(1) EPICS VME Card #
+#		(2) PMAC Base Address
+#		(3) PMAC DPRAM Address (0=none)
+#		(4) PMAC IRQ Vectors (v must be odd) (uses v-1,v,v+1)
+#		(5) IRQ Level
+  pmacVmeConfig (0, 0x807FA000, 0x80700000, 0xa1, 2)
+##  pmacVmeConfig (1, 0x807FA200, 0x80704000, 0xa5, 2)
+##  pmacVmeConfig (2, 0x807FA400, 0x80708000, 0xa9, 2)
+
+### Configure PMAC-VME Driver
+# 	args:	(1) EPICS VME Card #
+#		(2) DPRAM Servo Fixed Buffer Scan Rate
+# 			(ticks, 0=default, -1=disabled, -2=interrupt)
+# 		(3) DPRAM Background Fixed Buffer Scan Rate
+#			(ticks, 0=default, -1=disabled, -2=interrupt)
+#		(4) DPRAM Background Variable Buffer Scan Rate
+#			(ticks, 0=default, -1=disabled, -2=interrupt)
+# 		(5) Mailbox Registers Disable
+#			(0=default, 0=enable/-1=disable)
+  pmacDrvConfig (0, 0, 0, 0, 0)
+## pmacDrvConfig (1, 0, 0, 0, 0)
+##  pmacDrvConfig (2, 0, 0, 0, 0)
+
+### PMAC Databases
+  dbLoadTemplate "dbLoad/pmac.svofix0"
+  dbLoadTemplate "dbLoad/pmac.bkgfix0"
+  dbLoadTemplate "dbLoad/pmac.bkgvar0"
+  dbLoadTemplate "dbLoad/pmac.mbxvar0"
+  dbLoadTemplate "dbLoad/pmac.CtlPnlPmac"
+  dbLoadTemplate "dbLoad/pmac.AsciiPmac"
+  dbLoadTemplate "dbLoad/pmac.DownloadPmac"
+

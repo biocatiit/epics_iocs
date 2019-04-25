@@ -1,0 +1,20 @@
+file ../../mtrApp/csDb/CSAh_TsubRbk.db
+{
+        pattern { assy, x1, x2, x3, x4, s1, s2, d1, d2, m1, m2, val, nla, tsub }
+#                               ^^^^^^ /extra variables x3,x4 for XI,XO/
+#
+# tsub's are c-programs implementing conversion from from physical
+# parameters of assembly (e.g. monochromator angle and position) to
+# that of motors and back. They are specific for each assembly.
+#
+# The library routines above convert among axes <-> stages <-> drives
+# <-> motors. The "nla" parameter is used in the routines to indicate
+# whether the transformations are direct or differential. Eg.,
+# absolute or position and relative or velocity.
+
+        { 18ID:CS:Ah:, 18ID:CS:XC:, 18ID:CS:XS:, 18ID:CS:XI:, 18ID:CS:XO:, 18ID:CS:shc:, 18ID:CS:shs:, 18ID:CS:dhc:, 18ID:CS:dhs:, 18ID:CS:mhc:, 18ID:CS:mhs:, TgtPos, 0, tsubCSAh }
+        { 18ID:CS:Ah:, 18ID:CS:XC:, 18ID:CS:XS:, 18ID:CS:XI:, 18ID:CS:XO:, 18ID:CS:shc:, 18ID:CS:shs:, 18ID:CS:dhc:, 18ID:CS:dhs:, 18ID:CS:mhc:, 18ID:CS:mhs:, CmdPos, 0, tsubCSAh }
+        { 18ID:CS:Ah:, 18ID:CS:XC:, 18ID:CS:XS:, 18ID:CS:XI:, 18ID:CS:XO:, 18ID:CS:shc:, 18ID:CS:shs:, 18ID:CS:dhc:, 18ID:CS:dhs:, 18ID:CS:mhc:, 18ID:CS:mhs:, ActPos, 0, tsubCSAh }
+        { 18ID:CS:Ah:, 18ID:CS:XC:, 18ID:CS:XS:, 18ID:CS:XI:, 18ID:CS:XO:, 18ID:CS:shc:, 18ID:CS:shs:, 18ID:CS:dhc:, 18ID:CS:dhs:, 18ID:CS:mhc:, 18ID:CS:mhs:, ActVel, 1, tsubCSAh }
+        { 18ID:CS:Ah:, 18ID:CS:XC:, 18ID:CS:XS:, 18ID:CS:XI:, 18ID:CS:XO:, 18ID:CS:shc:, 18ID:CS:shs:, 18ID:CS:dhc:, 18ID:CS:dhs:, 18ID:CS:mhc:, 18ID:CS:mhs:, AvgVel, 1, tsubCSAh }
+}

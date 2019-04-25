@@ -1,0 +1,9 @@
+file ../../mtrApp/xdtDb/X4d2_RqsRate.db
+{
+        pattern { assy, x1, x2, x3, x4, s1, s2, d1, d2, m1, m2, rqs, des, sel }
+#                               ^^^^^^ /extra fields x3,x4 for YT,YB/
+
+        { 18ID:CS:Av:, 18ID:CS:YC:, 18ID:CS:YS:, 18ID:CS:YT:, 18ID:CS:YB:, 18ID:CS:svc:, 18ID:CS:svs:, 18ID:CS:dvc:, 18ID:CS:dvs:, 18ID:CS:mvc:, 18ID:CS:mvs:, RqsSlw, DesSlw, SelSlw }
+        { 18ID:CS:Av:, 18ID:CS:YC:, 18ID:CS:YS:, 18ID:CS:YT:, 18ID:CS:YB:, 18ID:CS:svc:, 18ID:CS:svs:, 18ID:CS:dvc:, 18ID:CS:dvs:, 18ID:CS:mvc:, 18ID:CS:mvs:, RqsScn, DesScn, SelScn }
+
+}

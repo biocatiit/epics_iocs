@@ -1,0 +1,12 @@
+file ../../mtrApp/dnDb/DNSt_Tsub.db
+{
+	pattern { assy, x1, x2, s1, s2, d1, d2, m1, m2, val, nla, tsub }
+
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	DesPos, 0, tsubDNSt }
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	DesRel, 1, tsubDNSt }
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	DesBkl, 1, tsubDNSt }
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	DesSlw, 1, tsubDNSt }
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	DesScn, 1, tsubDNSt }
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	SelSlw, 1, tsubDNSt }
+	{ 18ID:DN:St:,	18ID:DN:Y:, 18ID:DN:A:, 18ID:DN:sy1:, 18ID:DN:sy2:, 18ID:DN:dy1:, 18ID:DN:dy2:, 18ID:DN:my1:, 18ID:DN:my2:,	SelScn, 1, tsubDNSt }
+}

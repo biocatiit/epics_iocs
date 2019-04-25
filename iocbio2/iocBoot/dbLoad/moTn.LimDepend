@@ -1,0 +1,17 @@
+file ../../mtrApp/softDb/LimDepend2.db
+{
+	pattern { axis, stg1, i1, stg2, i2, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+#
+# ATTENTION: This must be corrected some day! The sign here depends
+# on 18ID:MO2:Tn:BaseLeft and 18ID:MO2:Tn:BaseRight!!!
+# Generally, we need to specify the database links instead of constants!
+#
+# MO2/Tn: N->S
+        { 18ID:MO2:N:, 18ID:MO2:snl:, 0, 18ID:MO2:snr:, 0, 18ID:MO2:S:PsLimSet, 18ID:MO2:S:AmpEna }
+        { 18ID:MO2:S:, 18ID:MO2:snl:, 1, 18ID:MO2:snr:, 0, 18ID:1D_pDummy,      18ID:1D_pDummy }
+#
+# ATTENTION: Piezo motors are not checked in this record!
+}

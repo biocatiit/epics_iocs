@@ -1,0 +1,10 @@
+file ../../mtrApp/xdtDb/X1d1_Request.db
+{
+	pattern { assy, x1, s1, d1, m1, rqs, des }
+
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, RqsPos, DesPos }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, RqsRel, DesRel }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, RqsSlw, DesSlw }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, RqsScn, DesScn }
+
+}

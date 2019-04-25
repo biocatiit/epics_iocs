@@ -1,0 +1,16 @@
+file ../../mtrApp/softDb/IncBmpPV.db
+{
+	pattern { pv, prec }
+
+	{ 18ID:DN:my1:RqsPos,	0 }
+	{ 18ID:DN:my2:RqsPos,	0 }
+
+	{ 18ID:DN:dy1:RqsPos,	3 }
+	{ 18ID:DN:dy2:RqsPos,	3 }
+
+	{ 18ID:DN:sy1:RqsPos,	3 }
+	{ 18ID:DN:sy2:RqsPos,	3 }
+
+	{ 18ID:DN:Y:RqsPos,	3 }
+	{ 18ID:DN:A:RqsPos,	3 }
+}

@@ -1,0 +1,11 @@
+file ../../mtrApp/csDb/CSSh_TsubRbk.db
+{
+	pattern { assy, x1, s1, d1, m1, val, nla, tsub }
+
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, TgtPos, 0, tsubCSSh }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, CmdPos, 0, tsubCSSh }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, ActPos, 0, tsubCSSh }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, ActVel, 1, tsubCSSh }
+        { 18ID:CS:Sh:,  18ID:CS:HY:, 18ID:CS:shy:, 18ID:CS:dhy:, 18ID:CS:mhy:, AvgVel, 1, tsubCSSh }
+
+}

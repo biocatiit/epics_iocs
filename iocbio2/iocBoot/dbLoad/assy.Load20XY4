@@ -1,0 +1,20 @@
+file ../../mtrApp/softDb/Load20XY4.db
+{
+	pattern { assy, C, pcs }
+#				pcs =   1   2   3   4   5   6   7   8
+#
+# In these files "pcs" is the coordinate system number.
+# pcs == _p_mac _c_oordinate _s_ystem
+#
+# pmac20
+	{ 18ID:PA:St:,	0,  1 }
+        { 18ID:FI:Ar:,  0,  2 }
+	{ 18ID:DN:St:,	0,  3 }
+#
+# pmac21
+        { 18ID:CS:Av:,  1,  1 }
+        { 18ID:CS:Ah:,  1,  2 }
+#
+# pmac22
+#
+}

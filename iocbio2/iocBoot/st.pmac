@@ -1,0 +1,231 @@
+#
+### Configure PMAC-VME Hardware
+#	args:	(1) EPICS VME Card #
+#		(2) PMAC Base Address
+#		(3) PMAC DPRAM Address (0=none)
+#		(4) PMAC IRQ Vectors (v must be odd) (uses v-1,v,v+1)
+#		(5) IRQ Level
+  pmacVmeConfig (0, 0x807FA000, 0x80700000, 0xa1, 2)
+  pmacVmeConfig (1, 0x807FA200, 0x80704000, 0xa5, 2)
+  pmacVmeConfig (2, 0x807FA400, 0x80708000, 0xa9, 2)
+# pmacVmeConfig (3, 0x807FA600, 0x8070C000, 0xad, 2)
+# pmacVmeConfig (4, 0x807FA800, 0x80710000, 0xb1, 2)
+# pmacVmeConfig (5, 0x807FAA00, 0x80714000, 0xb5, 2)
+# pmacVmeConfig (6, 0x807FAC00, 0x80718000, 0xb9, 2)
+# pmacVmeConfig (7, 0x807FAD00, 0x8071c000, 0xbd, 2)
+
+### Configure PMAC-VME Driver
+# 	args:	(1) EPICS VME Card #
+#		(2) DPRAM Servo Fixed Buffer Scan Rate
+# 			(ticks, 0=default, -1=disabled, -2=interrupt)
+# 		(3) DPRAM Background Fixed Buffer Scan Rate
+#			(ticks, 0=default, -1=disabled, -2=interrupt)
+#		(4) DPRAM Background Variable Buffer Scan Rate
+#			(ticks, 0=default, -1=disabled, -2=interrupt)
+# 		(5) Mailbox Registers Disable
+#			(0=default, 0=enable/-1=disable)
+  pmacDrvConfig (0, 0, 0, 0, 0)
+  pmacDrvConfig (1, 0, 0, 0, 0)
+  pmacDrvConfig (2, 0, 0, 0, 0)
+# pmacDrvConfig (3, 0, 0, 0, 0)
+# pmacDrvConfig (4, 0, 0, 0, 0)
+# pmacDrvConfig (5, 0, 0, 0, 0)
+# pmacDrvConfig (6, 0, 0, 0, 0)
+# pmacDrvConfig (7, 0, 0, 0, 0)
+
+### PMAC Databases
+  dbLoadTemplate "dbLoad/pmac.svofix0"
+  dbLoadTemplate "dbLoad/pmac.bkgfix0"
+  dbLoadTemplate "dbLoad/pmac.bkgvar0"
+  dbLoadTemplate "dbLoad/pmac.mbxvar0"
+  dbLoadTemplate "dbLoad/pmac.CtlPnlPmac"
+  dbLoadTemplate "dbLoad/pmac.AsciiPmac"
+  dbLoadTemplate "dbLoad/pmac.DownloadPmac"
+
+### PMAC Templates
+#=================
+### Stepanov's test database:
+### ========================
+# dbLoadTemplate "dbLoad/pmac.AsciiTest"
+### - - - - - - - - - - - - - - - - - -
+
+### Motor Databases
+  dbLoadTemplate "dbLoad/mtr.svofix1"
+  dbLoadTemplate "dbLoad/mtr.bkgfix1mtr"
+  dbLoadTemplate "dbLoad/mtr.GatAryRegEnc1"
+  dbLoadTemplate "dbLoad/mtr.CtlPnlMtr"
+  dbLoadTemplate "dbLoad/mtr.AsciiMtr"
+
+  dbLoadTemplate "dbLoad/mtr.IxMtrMv"
+  dbLoadTemplate "dbLoad/mtr.IxSvoCtl"
+  dbLoadTemplate "dbLoad/mtr.OpnLp"
+
+  dbLoadTemplate "dbLoad/adc.GatAryRegAdc1"
+
+### Coordinate System Databases
+  dbLoadTemplate "dbLoad/pcs.bkgfix1pcs"
+  dbLoadTemplate "dbLoad/pcs.CtlPnlPcs"
+  dbLoadTemplate "dbLoad/pcs.AsciiPcs"
+
+### Assembly Databases
+
+# For 1 motor [PMAC21 -- CS:Sh ]
+#             [PMAC22 -- MO2:Fo]
+  dbLoadTemplate "dbLoad/assy.Ram16X4"
+  dbLoadTemplate "dbLoad/assy.Load16X4"
+  dbLoadTemplate "dbLoad/assy.Args16X4"
+
+# For 2 motors [PMAC20 -- PA:St ]
+#              [PMAC20 -- FI:Ar ]
+#              [PMAC20 -- DN:St ]
+#              [PMAC21 -- CS:Av ]
+#              [PMAC21 -- CS:Ah ]
+  dbLoadTemplate "dbLoad/assy.Ram20XY4"
+  dbLoadTemplate "dbLoad/assy.Load20XY4"
+  dbLoadTemplate "dbLoad/assy.Args20XY4"
+
+# For (1 motor + 1 piezo) [PMAC22 -- MO2:Yw]
+  dbLoadTemplate "dbLoad/assy.Ram20XU4"
+  dbLoadTemplate "dbLoad/assy.Load20XU4"
+  dbLoadTemplate "dbLoad/assy.Args20XU4"
+
+# For 3 motors [PMAC21 -- MO2:En]
+  dbLoadTemplate "dbLoad/assy.Ram24XYZ4"
+  dbLoadTemplate "dbLoad/assy.Load24XYZ4"
+  dbLoadTemplate "dbLoad/assy.Args24XYZ4"
+
+# For (2 motors + 2 piezos) [PMAC22 -- MO2:Tn]
+  dbLoadTemplate "dbLoad/assy.Ram28XYUV4"
+  dbLoadTemplate "dbLoad/assy.Load28XYUV4"
+  dbLoadTemplate "dbLoad/assy.Args28XYUV4"
+
+# Common assembly:
+  dbLoadTemplate "dbLoad/assy.AssyGeneric"
+  dbLoadTemplate "dbLoad/assy.AssyParams"
+
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/mtr.LimTransfer"
+
+### Primary Aperture Database [PMAC20]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/pa.IncBmpPV"
+  dbLoadTemplate "dbLoad/pa.MemStoRclPV"
+  dbLoadTemplate "dbLoad/paSt.Calibrate"
+  dbLoadTemplate "dbLoad/paSt.Assy"
+  dbLoadTemplate "dbLoad/paSt.Tsub"
+  dbLoadTemplate "dbLoad/paSt.TsubRbk"
+  dbLoadTemplate "dbLoad/paSt.Request"
+  dbLoadTemplate "dbLoad/paSt.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/paSt.LimDepend"
+
+
+### Filter Array Databases [PMAC20]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/fi.IncBmpPV"
+  dbLoadTemplate "dbLoad/fi.MemStoRclPV"
+  dbLoadTemplate "dbLoad/fi.Calibrate"
+  dbLoadTemplate "dbLoad/fi.Assy"
+  dbLoadTemplate "dbLoad/fi.Request"
+  dbLoadTemplate "dbLoad/fi.RqsRate"
+  dbLoadTemplate "dbLoad/fi.Tsub"
+  dbLoadTemplate "dbLoad/fi.TsubRbk"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/fi.LimDepend"
+
+
+### Downstream Support Databases [PMAC20]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/dn.IncBmpPV"
+  dbLoadTemplate "dbLoad/dn.MemStoRclPV"
+  dbLoadTemplate "dbLoad/dnSt.Calibrate"
+  dbLoadTemplate "dbLoad/dnSt.Assy"
+  dbLoadTemplate "dbLoad/dnSt.Request"
+  dbLoadTemplate "dbLoad/dnSt.RqsRate"
+  dbLoadTemplate "dbLoad/dnSt.Tsub"
+  dbLoadTemplate "dbLoad/dnSt.TsubRbk"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/dnSt.LimDepend"
+
+
+### Collimator Slits Database [PMAC21]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/cs.IncBmpPV"
+  dbLoadTemplate "dbLoad/cs.MemStoRclPV"
+
+# Vertical Aperture:
+  dbLoadTemplate "dbLoad/csAv.Calibrate"
+  dbLoadTemplate "dbLoad/csAv.Assy"
+  dbLoadTemplate "dbLoad/csAv.Tsub"
+  dbLoadTemplate "dbLoad/csAv.TsubRbk"
+  dbLoadTemplate "dbLoad/csAv.Request"
+  dbLoadTemplate "dbLoad/csAv.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/csAv.LimDepend"
+
+# Horizontal Aperture:
+  dbLoadTemplate "dbLoad/csAh.Calibrate"
+  dbLoadTemplate "dbLoad/csAh.Assy"
+  dbLoadTemplate "dbLoad/csAh.Tsub"
+  dbLoadTemplate "dbLoad/csAh.TsubRbk"
+  dbLoadTemplate "dbLoad/csAh.Request"
+  dbLoadTemplate "dbLoad/csAh.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/csAh.LimDepend"
+
+# Horizontal Aperture Height:
+  dbLoadTemplate "dbLoad/csSh.Calibrate"
+  dbLoadTemplate "dbLoad/csSh.Assy"
+  dbLoadTemplate "dbLoad/csSh.Tsub"
+  dbLoadTemplate "dbLoad/csSh.TsubRbk"
+  dbLoadTemplate "dbLoad/csSh.Request"
+  dbLoadTemplate "dbLoad/csSh.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/csSh.LimDepend"
+
+
+### Monochromator-2 Databases [PMAC21 - PMAC22]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/mo.IncBmpPV"
+  dbLoadTemplate "dbLoad/mo.MemStoRclPV"
+
+# Energy Assembly:
+  dbLoadTemplate "dbLoad/mo2En.Calibrate"
+  dbLoadTemplate "dbLoad/moEn.Assy"
+  dbLoadTemplate "dbLoad/moEn.Request"
+  dbLoadTemplate "dbLoad/moEn.RqsRate"
+  dbLoadTemplate "dbLoad/moEn.Tsub"
+  dbLoadTemplate "dbLoad/moEn.TsubRbk"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moEn.LimDepend"
+
+# Focus Assembly:
+  dbLoadTemplate "dbLoad/mo2Fo.Calibrate"
+  dbLoadTemplate "dbLoad/moFo.Assy"
+  dbLoadTemplate "dbLoad/moFo.Request"
+  dbLoadTemplate "dbLoad/moFo.RqsRate"
+  dbLoadTemplate "dbLoad/moFo.Tsub"
+  dbLoadTemplate "dbLoad/moFo.TsubRbk"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moFo.LimDepend"
+
+# Tune Assembly
+  dbLoadTemplate "dbLoad/mo2Tn.Calibrate"
+  dbLoadTemplate "dbLoad/moTn.Assy"
+  dbLoadTemplate "dbLoad/moTn.Request"
+  dbLoadTemplate "dbLoad/moTn.RqsRate"
+  dbLoadTemplate "dbLoad/moTn.Tsub"
+  dbLoadTemplate "dbLoad/moTn.TsubRbk"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moTn.LimDepend"
+
+# Yaw Assembly:
+  dbLoadTemplate "dbLoad/mo2Yw.Calibrate"
+  dbLoadTemplate "dbLoad/moYw.Assy"
+  dbLoadTemplate "dbLoad/moYw.Request"
+  dbLoadTemplate "dbLoad/moYw.RqsRate"
+  dbLoadTemplate "dbLoad/moYw.Tsub"
+  dbLoadTemplate "dbLoad/moYw.TsubRbk"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moYw.LimDepend"
+
