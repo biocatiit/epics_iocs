@@ -17,7 +17,11 @@
 #               0 to 31 (single-ended)
 #               0 to 15 (differential)
 # lastChan    = last channel to be digitized
-initIp330("Ip330_1",0,3,"D","-10to10",0,31,120)
+# maxClients  = Maximum number of IP330 tasks which will attach to this
+#                Ip330 module. For example Ip330Scan, Ip330Sweep, etc. This
+#                does not refer to the number of EPICS clients. A value of 
+#                10 should certain be safe.
+initIp330("Ip330_1",0,3,"D","-10to10",0,15,120) #Old configuration which may be working? Having trouble understanding documentation
 
 # int configIp330(
 #   const char *portName,
