@@ -1,0 +1,218 @@
+#
+# Configure PMAC-VME Hardware
+#	args:	(1) EPICS VME Card #
+#		(2) PMAC Base Address
+#		(3) PMAC DPRAM Address (0=none)
+#		(4) PMAC IRQ Vectors (v must be odd) (uses v-1,v,v+1)
+#		(5) IRQ Level
+  pmacVmeConfig (0, 0x807FA000, 0x80700000, 0xa1, 2)
+  pmacVmeConfig (1, 0x807FA200, 0x80704000, 0xa5, 2)
+  pmacVmeConfig (2, 0x807FA400, 0x80708000, 0xa9, 2)
+# pmacVmeConfig (3, 0x807FA600, 0x8070C000, 0xad, 2)
+# pmacVmeConfig (4, 0x807FA800, 0x80710000, 0xb1, 2)
+# pmacVmeConfig (5, 0x807FAA00, 0x80714000, 0xb5, 2)
+# pmacVmeConfig (6, 0x807FAC00, 0x80718000, 0xb9, 2)
+# pmacVmeConfig (7, 0x807FAD00, 0x8071c000, 0xbd, 2)
+
+### Configure PMAC-VME Driver
+# 	args:	(1) EPICS VME Card #
+#		(2) DPRAM Servo Fixed Buffer Scan Rate
+# 			(ticks, 0=default, -1=disabled, -2=interrupt)
+# 		(3) DPRAM Background Fixed Buffer Scan Rate
+#			(ticks, 0=default, -1=disabled, -2=interrupt)
+#		(4) DPRAM Background Variable Buffer Scan Rate
+#			(ticks, 0=default, -1=disabled, -2=interrupt)
+# 		(5) Mailbox Registers Disable
+#			(0=default, 0=enable/-1=disable)
+  pmacDrvConfig (0, 0, 0, 0, 0)
+  pmacDrvConfig (1, 0, 0, 0, 0)
+  pmacDrvConfig (2, 0, 0, 0, 0)
+# pmacDrvConfig (3, 0, 0, 0, 0)
+# pmacDrvConfig (4, 0, 0, 0, 0)
+# pmacDrvConfig (5, 0, 0, 0, 0)
+# pmacDrvConfig (6, 0, 0, 0, 0)
+# pmacDrvConfig (7, 0, 0, 0, 0)
+
+### PMAC Databases
+  dbLoadTemplate "dbLoad/pmac.svofix0"
+  dbLoadTemplate "dbLoad/pmac.bkgfix0"
+  dbLoadTemplate "dbLoad/pmac.bkgvar0"
+  dbLoadTemplate "dbLoad/pmac.mbxvar0"
+  dbLoadTemplate "dbLoad/pmac.CtlPnlPmac"
+  dbLoadTemplate "dbLoad/pmac.AsciiPmac"
+  dbLoadTemplate "dbLoad/pmac.DownloadPmac"
+
+### Motor Databases
+  dbLoadTemplate "dbLoad/mtr.svofix1"
+  dbLoadTemplate "dbLoad/mtr.bkgfix1mtr"
+  dbLoadTemplate "dbLoad/mtr.GatAryRegEnc1"
+  dbLoadTemplate "dbLoad/mtr.CtlPnlMtr"
+  dbLoadTemplate "dbLoad/mtr.AsciiMtr"
+
+  dbLoadTemplate "dbLoad/mtr.IxMtrMv"
+  dbLoadTemplate "dbLoad/mtr.IxSvoCtl"
+  dbLoadTemplate "dbLoad/mtr.OpnLp"
+
+  dbLoadTemplate "dbLoad/adc.GatAryRegAdc1"
+
+### Coordinate System Databases
+  dbLoadTemplate "dbLoad/pcs.bkgfix1pcs"
+  dbLoadTemplate "dbLoad/pcs.CtlPnlPcs"
+  dbLoadTemplate "dbLoad/pcs.AsciiPcs"
+
+### Assembly Databases
+# For 1 motor [PMAC11 -- MI:Ln  ]
+#             [PMAC11 -- FI:Ar2 ]
+#             [PMAC12 -- MO1:Fo ]
+  dbLoadTemplate "dbLoad/assy.Ram16X4"
+  dbLoadTemplate "dbLoad/assy.Load16X4"
+  dbLoadTemplate "dbLoad/assy.Args16X4"
+
+### Assembly Databases
+# For 1 piezo [PMAC12 -- MI:Pz  ]
+#
+  dbLoadTemplate "dbLoad/assy.Ram16U4"
+  dbLoadTemplate "dbLoad/assy.Load16U4"
+  dbLoadTemplate "dbLoad/assy.Args16U4"
+
+# For 2 motors [PMAC11 -- MI:St  ]
+#              [PMAC11 -- MI:Fo  ]
+  dbLoadTemplate "dbLoad/assy.Ram20XY4"
+  dbLoadTemplate "dbLoad/assy.Load20XY4"
+  dbLoadTemplate "dbLoad/assy.Args20XY4"
+
+# For 1 motor and 1 piezo [PMAC11 -- MO1:Yw  ]
+  dbLoadTemplate "dbLoad/assy.Ram20XU4"
+  dbLoadTemplate "dbLoad/assy.Load20XU4"
+  dbLoadTemplate "dbLoad/assy.Args20XU4"
+
+# For 3 motors [PMAC10 -- TB:St   ]
+#              [PMAC10 -- TB:Ps  ]
+#              [PMAC11 -- MO1:En ]
+  dbLoadTemplate "dbLoad/assy.Ram24XYZ4"
+  dbLoadTemplate "dbLoad/assy.Load24XYZ4"
+  dbLoadTemplate "dbLoad/assy.Args24XYZ4"
+
+# For 2 motors and 2 piezos [PMAC12 -- MO1:Tn  ]
+  dbLoadTemplate "dbLoad/assy.Ram28XYUV4"
+  dbLoadTemplate "dbLoad/assy.Load28XYUV4"
+  dbLoadTemplate "dbLoad/assy.Args28XYUV4"
+
+# Common assembly:
+  dbLoadTemplate "dbLoad/assy.AssyGeneric"
+  dbLoadTemplate "dbLoad/assy.AssyParams"
+
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/mtr.LimTransfer"
+
+### Monochromator-1 Databases [PMAC11 - PMAC12]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/mo.IncBmpPV"
+  dbLoadTemplate "dbLoad/mo.MemStoRclPV"
+
+# Mono-1 Energy:
+ dbLoadTemplate "dbLoad/mo1En.Calibrate"
+  dbLoadTemplate "dbLoad/moEn.Assy"
+  dbLoadTemplate "dbLoad/moEn.Tsub"
+  dbLoadTemplate "dbLoad/moEn.TsubRbk"
+  dbLoadTemplate "dbLoad/moEn.Request"
+  dbLoadTemplate "dbLoad/moEn.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moEn.LimDepend"
+
+# Mono-1 Focus:
+  dbLoadTemplate "dbLoad/mo1Fo.Calibrate"
+  dbLoadTemplate "dbLoad/moFo.Assy"
+  dbLoadTemplate "dbLoad/moFo.Tsub"
+  dbLoadTemplate "dbLoad/moFo.TsubRbk"
+  dbLoadTemplate "dbLoad/moFo.Request"
+  dbLoadTemplate "dbLoad/moFo.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moFo.LimDepend"
+
+# Mono-1 Tank:
+  dbLoadTemplate "dbLoad/mo1Tn.Calibrate"
+  dbLoadTemplate "dbLoad/moTn.Assy"
+  dbLoadTemplate "dbLoad/moTn.Tsub"
+  dbLoadTemplate "dbLoad/moTn.TsubRbk"
+  dbLoadTemplate "dbLoad/moTn.Request"
+  dbLoadTemplate "dbLoad/moTn.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moTn.LimDepend"
+
+# Mono-1 Yaw:
+  dbLoadTemplate "dbLoad/mo1Yw.Calibrate"
+  dbLoadTemplate "dbLoad/moYw.Assy"
+  dbLoadTemplate "dbLoad/moYw.Tsub"
+  dbLoadTemplate "dbLoad/moYw.TsubRbk"
+  dbLoadTemplate "dbLoad/moYw.Request"
+  dbLoadTemplate "dbLoad/moYw.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/moYw.LimDepend"
+
+
+### Mirror Databases [PMAC11 - PMAC12]
+### ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/mi.IncBmpPV"
+  dbLoadTemplate "dbLoad/mi.MemStoRclPV"
+
+  dbLoadTemplate "dbLoad/miSt.Calibrate"
+  dbLoadTemplate "dbLoad/miSt.Assy"
+  dbLoadTemplate "dbLoad/miSt.Tsub"
+  dbLoadTemplate "dbLoad/miSt.TsubRbk"
+  dbLoadTemplate "dbLoad/miSt.Request"
+  dbLoadTemplate "dbLoad/miSt.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/miSt.LimDepend"
+
+  dbLoadTemplate "dbLoad/miFo.Calibrate"
+  dbLoadTemplate "dbLoad/miFo.Assy"
+  dbLoadTemplate "dbLoad/miFo.Tsub"
+  dbLoadTemplate "dbLoad/miFo.TsubRbk"
+  dbLoadTemplate "dbLoad/miFo.Request"
+  dbLoadTemplate "dbLoad/miFo.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/miFo.LimDepend"
+
+  dbLoadTemplate "dbLoad/miLn.Calibrate"
+  dbLoadTemplate "dbLoad/miLn.Assy"
+  dbLoadTemplate "dbLoad/miLn.Tsub"
+  dbLoadTemplate "dbLoad/miLn.TsubRbk"
+  dbLoadTemplate "dbLoad/miLn.Request"
+  dbLoadTemplate "dbLoad/miLn.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/miLn.LimDepend"
+
+  dbLoadTemplate "dbLoad/miPz.Calibrate"
+  dbLoadTemplate "dbLoad/miPz.Assy"
+  dbLoadTemplate "dbLoad/miPz.Tsub"
+  dbLoadTemplate "dbLoad/miPz.TsubRbk"
+  dbLoadTemplate "dbLoad/miPz.Request"
+  dbLoadTemplate "dbLoad/miPz.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/miPz.LimDepend"
+
+
+### Table Databases [PMAC10]
+### ^^^^^^^^^^^^^^^^^^^^^^^^
+  dbLoadTemplate "dbLoad/tb.IncBmpPV"
+  dbLoadTemplate "dbLoad/tb.MemStoRclPV"
+
+  dbLoadTemplate "dbLoad/tbSt.Calibrate"
+  dbLoadTemplate "dbLoad/tbSt.Assy"
+  dbLoadTemplate "dbLoad/tbSt.Tsub"
+  dbLoadTemplate "dbLoad/tbSt.TsubRbk"
+  dbLoadTemplate "dbLoad/tbSt.Request"
+  dbLoadTemplate "dbLoad/tbSt.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/tbSt.LimDepend"
+
+  dbLoadTemplate "dbLoad/tbPs.Calibrate"
+  dbLoadTemplate "dbLoad/tbPs.Assy"
+  dbLoadTemplate "dbLoad/tbPs.Tsub"
+  dbLoadTemplate "dbLoad/tbPs.TsubRbk"
+  dbLoadTemplate "dbLoad/tbPs.Request"
+  dbLoadTemplate "dbLoad/tbPs.RqsRate"
+# Added by Stepanov 98/10 - limit and amplifier controls in assembly:
+  dbLoadTemplate "dbLoad/tbPs.LimDepend"
+

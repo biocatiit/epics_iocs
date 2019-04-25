@@ -1,0 +1,8 @@
+file ../../mtrApp/xdtDb/X1d1_RqsRate.db
+{
+	pattern { assy, x1, s1, d1, m1, rqs, des, sel }
+
+	{ 18ID:MI:Ln:,	18ID:MI:L:, 18ID:MI:sl:, 18ID:MI:dl:, 18ID:MI:ml:,	RqsSlw,	DesSlw, SelSlw }
+	{ 18ID:MI:Ln:,	18ID:MI:L:, 18ID:MI:sl:, 18ID:MI:dl:, 18ID:MI:ml:,	RqsScn, DesScn, SelScn }
+
+}

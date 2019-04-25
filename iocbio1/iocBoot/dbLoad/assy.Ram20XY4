@@ -1,0 +1,13 @@
+file ../../pmacApp/pmacDb/Ram20XY4.db
+{
+	pattern { assy, C, S }
+#				C   =   card number (0, 1, 2, 3, 4)
+#				pcs =   1   2   3   4   5   6   7   8
+#				S   =   accumulated offset
+# pmac10
+# pmac11
+	{ 18ID:MI:St:,	1,  0 }
+	{ 18ID:MI:Fo:,	1, 20 }
+# pmac12
+#
+}

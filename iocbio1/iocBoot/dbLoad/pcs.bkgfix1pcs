@@ -1,0 +1,20 @@
+file ../../pmacApp/pmacDb/bkgfix1pcs.db
+{
+	pattern { pcs, C, S }
+#				pcs =   1   2   3   4   5   6   7   8
+#				  S =   0  31  62  93 124 155 186 217
+# pmac10
+	{ 18ID:TB:St:,	0,   0 }
+	{ 18ID:TB:Ps:,	0,  31 }
+# pmac11
+	{ 18ID:MI:St:,	1,   0 }
+	{ 18ID:MI:Fo:,	1,  31 }
+	{ 18ID:MI:Ln:,	1,  62 }
+	{ 18ID:MO1:En:,	1,  93 }
+# pmac12
+	{ 18ID:MO1:Tn:,	2,   0 }
+	{ 18ID:MO1:Yw:,	2,  31 }
+	{ 18ID:MO1:Fo:,	2,  62 }
+	{ 18ID:MI:Pz:,	2,  93 }
+}
+

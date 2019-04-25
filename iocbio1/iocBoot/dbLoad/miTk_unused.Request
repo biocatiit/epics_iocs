@@ -1,0 +1,10 @@
+file ../../mtrApp/xdtDb/X2d2_Request.db
+{
+	pattern { assy, x1, x2, s1, s2, d1, d2, m1, m2, rqs, des }
+
+	{ 18ID:MI:Tk:,	18ID:MI:TY:, 18ID:MI:TA:, 18ID:MI:st1:, 18ID:MI:st2:, 18ID:MI:dt1:, 18ID:MI:dt2:, 18ID:MI:mt1:, 18ID:MI:mt2:,	RqsPos, DesPos }
+	{ 18ID:MI:Tk:,	18ID:MI:TY:, 18ID:MI:TA:, 18ID:MI:st1:, 18ID:MI:st2:, 18ID:MI:dt1:, 18ID:MI:dt2:, 18ID:MI:mt1:, 18ID:MI:mt2:,	RqsRel, DesRel }
+	{ 18ID:MI:Tk:,	18ID:MI:TY:, 18ID:MI:TA:, 18ID:MI:st1:, 18ID:MI:st2:, 18ID:MI:dt1:, 18ID:MI:dt2:, 18ID:MI:mt1:, 18ID:MI:mt2:,	RqsSlw, DesSlw }
+	{ 18ID:MI:Tk:,	18ID:MI:TY:, 18ID:MI:TA:, 18ID:MI:st1:, 18ID:MI:st2:, 18ID:MI:dt1:, 18ID:MI:dt2:, 18ID:MI:mt1:, 18ID:MI:mt2:,	RqsScn, DesScn }
+
+}

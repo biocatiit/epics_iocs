@@ -1,0 +1,10 @@
+file ../../mtrApp/moDb/MOEn_TsubRbk.db
+{
+        pattern { assy, x1, x2, s1, s2, s3, d1, d2, d3, m1, m2, m3, val, nla, tsub }
+
+	{ 18ID:MO1:En:, 18ID:MO1:E:, 18ID:MO1:L:, 18ID:MO1:sr:, 18ID:MO1:stx:, 18ID:MO1:sty:, 18ID:MO1:dr:, 18ID:MO1:dtx:, 18ID:MO1:dty:, 18ID:MO1:mr:, 18ID:MO1:mtx:, 18ID:MO1:mty:, TgtPos, 0, tsubMOEn }
+	{ 18ID:MO1:En:, 18ID:MO1:E:, 18ID:MO1:L:, 18ID:MO1:sr:, 18ID:MO1:stx:, 18ID:MO1:sty:, 18ID:MO1:dr:, 18ID:MO1:dtx:, 18ID:MO1:dty:, 18ID:MO1:mr:, 18ID:MO1:mtx:, 18ID:MO1:mty:, CmdPos, 0, tsubMOEn }
+	{ 18ID:MO1:En:, 18ID:MO1:E:, 18ID:MO1:L:, 18ID:MO1:sr:, 18ID:MO1:stx:, 18ID:MO1:sty:, 18ID:MO1:dr:, 18ID:MO1:dtx:, 18ID:MO1:dty:, 18ID:MO1:mr:, 18ID:MO1:mtx:, 18ID:MO1:mty:, ActPos, 0, tsubMOEn }
+	{ 18ID:MO1:En:, 18ID:MO1:E:, 18ID:MO1:L:, 18ID:MO1:sr:, 18ID:MO1:stx:, 18ID:MO1:sty:, 18ID:MO1:dr:, 18ID:MO1:dtx:, 18ID:MO1:dty:, 18ID:MO1:mr:, 18ID:MO1:mtx:, 18ID:MO1:mty:, ActVel, 1, tsubMOEn }
+	{ 18ID:MO1:En:, 18ID:MO1:E:, 18ID:MO1:L:, 18ID:MO1:sr:, 18ID:MO1:stx:, 18ID:MO1:sty:, 18ID:MO1:dr:, 18ID:MO1:dtx:, 18ID:MO1:dty:, 18ID:MO1:mr:, 18ID:MO1:mtx:, 18ID:MO1:mty:, AvgVel, 1, tsubMOEn }
+}

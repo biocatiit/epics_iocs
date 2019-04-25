@@ -1,0 +1,10 @@
+file ../../mtrApp/miDb/MIPz_TsubRbk.db
+{
+	pattern { assy, x1, s1, d1, m1, val, nla, tsub }
+
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	TgtPos, 0, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	CmdPos, 0, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	ActPos, 0, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	ActVel, 1, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	AvgVel, 1, tsubMIPz }
+}

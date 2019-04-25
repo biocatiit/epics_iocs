@@ -1,0 +1,12 @@
+file ../../mtrApp/miDb/MIPz_Tsub.db
+{
+	pattern { assy, x1, s1, d1, m1, val, nla, tsub }
+
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	DesPos, 0, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	DesRel, 1, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	DesBkl, 1, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	DesSlw, 1, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	DesScn, 1, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	SelSlw, 1, tsubMIPz }
+	{ 18ID:MI:Pz:,	18ID:MI:Yp:, 18ID:MI:vy:, 18ID:MI:ty:, 18ID:MI:py:,	SelScn, 1, tsubMIPz }
+}

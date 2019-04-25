@@ -1,0 +1,13 @@
+file ../../mtrApp/softDb/Load16U4.db
+{
+	pattern { assy, C, pcs }
+#				C   =   card number (0, 1, 2, 3, 4)
+#				pcs =   1   2   3   4   5   6   7   8
+# pmac10
+#
+# pmac11
+#
+# pmac12
+#
+        { 18ID:MI:Pz:,	2,  4 }
+}

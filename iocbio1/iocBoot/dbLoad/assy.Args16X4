@@ -1,0 +1,13 @@
+file ../../mtrApp/softDb/Args16X4.db
+{
+	pattern { assy, m1 }
+#
+# pmac10
+#
+# pmac11
+	{ 18ID:MI:Ln:,	18ID:MI:ml:  }
+# pmac12
+#
+	{ 18ID:MO1:Fo:,	18ID:MO1:mf: }
+#       { 18ID:MI:Pz:,	18ID:MI:py:  }
+}

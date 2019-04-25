@@ -1,0 +1,15 @@
+file ../../mtrApp/softDb/LimDepend3.db
+{
+	pattern { axis, stg1, i1, stg2, i2, stg3, i3, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+#
+# ATTENTION: This must be corrected some day! The sign here depends
+# on 18ID:MO1:En:BeamOffset!!!
+# Generally, we need to specify the database links instead of constants!
+#
+# MO1/En: E->L
+        { 18ID:MO1:E:, 18ID:MO1:sr:, 1, 18ID:MO1:stx:, 0, 18ID:MO1:sty:, 1, 18ID:MO1:L:PsLimSet, 18ID:MO1:L:AmpEna }
+        { 18ID:MO1:L:, 18ID:MO1:sr:, 0, 18ID:MO1:stx:, 1, 18ID:MO1:sty:, 0, 18ID:1D_pDummy,     18ID:1D_pDummy }
+}

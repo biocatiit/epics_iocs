@@ -1,0 +1,12 @@
+file ../../mtrApp/moDb/MOYw_Tsub.db
+{
+        pattern { assy, x1, s1, d1, t1, m1, p1, val, nla, tsub }
+
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, DesPos, 0, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, DesRel, 1, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, DesBkl, 1, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, DesSlw, 1, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, DesScn, 1, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, SelSlw, 1, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, SelScn, 1, tsubMOYw }
+}

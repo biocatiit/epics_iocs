@@ -1,0 +1,56 @@
+file ../../mtrApp/softDb/LimTransfer.db
+{
+	pattern { prev, stage, factor, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+# PMAC10 Motors -> Drives [for piezos the signal does not propagate to stages and axes!]
+        { 18ID:TB:my1:,	18ID:TB:dy1:, 18ID:TB:dy1:Scale,  18ID:TB:sy1:PsLimSet, 18ID:TB:sy1:AmpEna  }
+        { 18ID:TB:my2:,	18ID:TB:dy2:, 18ID:TB:dy2:Scale,  18ID:TB:sy2:PsLimSet, 18ID:TB:sy2:AmpEna  }
+        { 18ID:TB:my3:,	18ID:TB:dy3:, 18ID:TB:dy3:Scale,  18ID:TB:sy3:PsLimSet, 18ID:TB:sy3:AmpEna  }
+        { 18ID:TB:myb:, 18ID:TB:dyb:, 18ID:TB:dyb:Scale,  18ID:TB:syb:PsLimSet, 18ID:TB:syb:AmpEna  }
+        { 18ID:TB:mx1:, 18ID:TB:dx1:, 18ID:TB:dx1:Scale,  18ID:TB:sx1:PsLimSet, 18ID:TB:sx1:AmpEna  }
+        { 18ID:TB:mx2:, 18ID:TB:dx2:, 18ID:TB:dx2:Scale,  18ID:TB:sx2:PsLimSet, 18ID:TB:sx2:AmpEna  }
+# PMAC10 Drives -> Stages [TB/St: Y->P->R,  TB/Ps: YB->X->A]
+        { 18ID:TB:dy1:, 18ID:TB:sy1:, 18ID:TB:dy1:Ratio,  18ID:TB:Y:PsLimSet,   18ID:TB:Y:AmpEna    }
+        { 18ID:TB:dy2:, 18ID:TB:sy2:, 18ID:TB:dy2:Ratio,  18ID:TB:Y:PsLimSet,   18ID:TB:Y:AmpEna    }
+        { 18ID:TB:dy3:, 18ID:TB:sy3:, 18ID:TB:dy3:Ratio,  18ID:TB:Y:PsLimSet,   18ID:TB:Y:AmpEna    }
+        { 18ID:TB:dyb:, 18ID:TB:syb:, 18ID:TB:dyb:Ratio,  18ID:TB:YB:PsLimSet,  18ID:TB:YB:AmpEna   }
+        { 18ID:TB:dx1:, 18ID:TB:sx1:, 18ID:TB:dx1:Ratio,  18ID:TB:YB:PsLimSet,  18ID:TB:YB:AmpEna   }
+        { 18ID:TB:dx2:, 18ID:TB:sx2:, 18ID:TB:dx2:Ratio,  18ID:TB:YB:PsLimSet,  18ID:TB:YB:AmpEna   }
+#
+# PMAC11 Motors -> Drives
+        { 18ID:MI:my1:,  18ID:MI:dy1:,  18ID:MI:dy1:Scale,  18ID:MI:sy1:PsLimSet,  18ID:MI:sy1:AmpEna  }
+        { 18ID:MI:my2:,  18ID:MI:dy2:,  18ID:MI:dy2:Scale,  18ID:MI:sy2:PsLimSet,  18ID:MI:sy2:AmpEna  }
+        { 18ID:MI:mf1:,  18ID:MI:df1:,  18ID:MI:df1:Scale,  18ID:MI:sf1:PsLimSet,  18ID:MI:sf1:AmpEna  }
+        { 18ID:MI:mf2:,  18ID:MI:df2:,  18ID:MI:df2:Scale,  18ID:MI:sf2:PsLimSet,  18ID:MI:sf2:AmpEna  }
+        { 18ID:MI:ml:,   18ID:MI:dl:,   18ID:MI:dl:Scale,   18ID:MI:sl:PsLimSet,   18ID:MI:sl:AmpEna   }
+        { 18ID:MO1:mr:,  18ID:MO1:dr:,  18ID:MO1:dr:Scale,  18ID:MO1:sr:PsLimSet,  18ID:MO1:sr:AmpEna  }
+        { 18ID:MO1:mtx:, 18ID:MO1:dtx:, 18ID:MO1:dtx:Scale, 18ID:MO1:stx:PsLimSet, 18ID:MO1:stx:AmpEna }
+        { 18ID:MO1:mty:, 18ID:MO1:dty:, 18ID:MO1:dty:Scale, 18ID:MO1:sty:PsLimSet, 18ID:MO1:sty:AmpEna }
+# PMAC11 Drives -> Stages [MI/St: Y->A  MI/Fo: F->E,  MO1/En: E->L]
+        { 18ID:MI:dy1:,  18ID:MI:sy1:,  18ID:MI:dy1:Ratio,  18ID:MI:Y:PsLimSet,    18ID:MI:Y:AmpEna   }
+        { 18ID:MI:dy2:,  18ID:MI:sy2:,  18ID:MI:dy2:Ratio,  18ID:MI:Y:PsLimSet,    18ID:MI:Y:AmpEna   }
+        { 18ID:MI:df1:,  18ID:MI:sf1:,  18ID:MI:df1:Ratio,  18ID:MI:F:PsLimSet,    18ID:MI:F:AmpEna   }
+        { 18ID:MI:df2:,  18ID:MI:sf2:,  18ID:MI:df2:Ratio,  18ID:MI:F:PsLimSet,    18ID:MI:F:AmpEna   }
+        { 18ID:MI:dl:,   18ID:MI:sl:,   18ID:MI:dl:Ratio,   18ID:MI:L:PsLimSet,    18ID:MI:L:AmpEna   }
+        { 18ID:MO1:dr:,  18ID:MO1:sr:,  18ID:MO1:dr:Ratio,  18ID:MO1:E:PsLimSet,   18ID:MO1:E:AmpEna  }
+        { 18ID:MO1:dtx:, 18ID:MO1:stx:, 18ID:MO1:dtx:Ratio, 18ID:MO1:E:PsLimSet,   18ID:MO1:E:AmpEna  }
+        { 18ID:MO1:dty:, 18ID:MO1:sty:, 18ID:MO1:dty:Ratio, 18ID:MO1:E:PsLimSet,   18ID:MO1:E:AmpEna  }
+#
+# PMAC12 Motors -> Drives [for piezos the signal does not propagate to stages and axes!]
+        { 18ID:MO1:mnl:, 18ID:MO1:dnl:, 18ID:MO1:dnl:Scale, 18ID:MO1:snl:PsLimSet, 18ID:MO1:snl:AmpEna }
+        { 18ID:MO1:mnr:, 18ID:MO1:dnr:, 18ID:MO1:dnr:Scale, 18ID:MO1:snr:PsLimSet, 18ID:MO1:snr:AmpEna }
+        { 18ID:MO1:mw:,  18ID:MO1:dw:,  18ID:MO1:dw:Scale,  18ID:MO1:sw:PsLimSet,  18ID:MO1:sw:AmpEna  }
+        { 18ID:MO1:mf:,  18ID:MO1:df:,  18ID:MO1:df:Scale,  18ID:MO1:sf:PsLimSet,  18ID:MO1:sf:AmpEna  }
+        { 18ID:MO1:pnl:, 18ID:MO1:tnl:, 18ID:MO1:tnl:Scale, 18ID:1D_pDummy,        18ID:1D_pDummy      }
+        { 18ID:MO1:pnr:, 18ID:MO1:tnr:, 18ID:MO1:tnr:Scale, 18ID:1D_pDummy,        18ID:1D_pDummy      }
+        { 18ID:MO1:pw:,  18ID:MO1:tw:,  18ID:MO1:tw:Scale,  18ID:1D_pDummy,        18ID:1D_pDummy      }
+        { 18ID:MI:py:,   18ID:MI:ty:,   18ID:MI:ty:Scale,   18ID:MI:vy:PsLimSet,   18ID:MI:vy:AmpEna   }
+# PMAC12 Drives -> Stages [MO1/Tn: N->S]
+        { 18ID:MO1:dnl:, 18ID:MO1:snl:, 18ID:MO1:dnl:Ratio, 18ID:MO1:N:PsLimSet,   18ID:MO1:N:AmpEna   }
+        { 18ID:MO1:dnr:, 18ID:MO1:snr:, 18ID:MO1:dnr:Ratio, 18ID:MO1:N:PsLimSet,   18ID:MO1:N:AmpEna   }
+        { 18ID:MO1:dw:,  18ID:MO1:sw:,  18ID:MO1:dw:Ratio,  18ID:MO1:W:PsLimSet,   18ID:MO1:W:AmpEna   }
+        { 18ID:MO1:df:,  18ID:MO1:sf:,  18ID:MO1:df:Ratio,  18ID:MO1:F:PsLimSet,   18ID:MO1:F:AmpEna   }
+        { 18ID:MI:ty:,   18ID:MI:vy:,   18ID:MI:ty:Ratio,   18ID:MI:Yp:PsLimSet,   18ID:MI:Yp:AmpEna   }
+}

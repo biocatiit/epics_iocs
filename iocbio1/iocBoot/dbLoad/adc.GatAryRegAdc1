@@ -1,0 +1,37 @@
+file ../../pmacApp/pmacDb/GatAryRegAdc1.db
+{
+	pattern { adc, C, S }
+#
+#			adc = 1  2  3  4  5  6  7  8
+#			  S = 0  1  8  9 16 17 24 25
+# pmac10
+#       { 18ID:pmac10:adc1:,  0,  0 }
+#       { 18ID:pmac10:adc2:,  0,  1 }
+#       { 18ID:pmac10:adc3:,  0,  8 }
+#       { 18ID:pmac10:adc4:,  0,  9 }
+#       { 18ID:pmac10:adc5:,  0, 16 }
+#       { 18ID:pmac10:adc6:,  0, 17 }
+#       { 18ID:pmac10:adc7:,  0, 24 }
+#       { 18ID:pmac10:adc8:,  0, 25 }
+#
+# pmac11
+#       { 18ID:pmac11:adc1:,  0,  0 }
+#       { 18ID:pmac11:adc2:,  0,  1 }
+#       { 18ID:pmac11:adc3:,  0,  8 }
+#       { 18ID:pmac11:adc4:,  0,  9 }
+#       { 18ID:pmac11:adc5:,  0, 16 }
+#       { 18ID:pmac11:adc6:,  0, 17 }
+#       { 18ID:pmac11:adc7:,  0, 24 }
+#       { 18ID:pmac11:adc8:,  0, 25 }
+#
+# pmac12
+	{ 18ID:pmac12:adc1:,  2,  0 }
+	{ 18ID:pmac12:adc2:,  2,  1 }
+	{ 18ID:pmac12:adc3:,  2,  8 }
+	{ 18ID:pmac12:adc4:,  2,  9 }
+	{ 18ID:pmac12:adc5:,  2, 16 }
+	{ 18ID:pmac12:adc6:,  2, 17 }
+	{ 18ID:pmac12:adc7:,  2, 24 }
+	{ 18ID:pmac12:adc8:,  2, 25 }
+}
+

@@ -1,0 +1,605 @@
+database(epstest)
+{
+	record(bo, "$(eps)Reset")
+	{
+		field(DESC, "Reset SBC EPS")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(OUT, "#C0 S20 @")
+		field(ONAM, "Reset")
+	}
+	record(bi, "$(eps)Input1:CurOk")
+	{
+		field(DESC, "$(eps)_Valve 1")
+		field(INP, "$(eps)CurReg0.BI00 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input2:CurOk")
+	{
+		field(DESC, "$(eps)_Valve 2")
+		field(INP, "$(eps)CurReg0.BI01 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input3:CurOk")
+	{
+		field(DESC, "$(eps)_Valve 3")
+		field(INP, "$(eps)CurReg0.BI02 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input4:CurOk")
+	{
+		field(DESC, "$(eps)_Valve 4")
+		field(INP, "$(eps)CurReg0.BI03 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input5:CurOk")
+	{
+		field(DESC, "$(eps)_Valve 5")
+		field(INP, "$(eps)CurReg0.BI04 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input6:CurOk")
+	{
+		field(DESC, "$(eps)_Valve 6")
+		field(INP, "$(eps)CurReg0.BI05 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input7:CurOk")
+	{
+		field(DESC, "Input Bit 7")
+		field(INP, "$(eps)CurReg0.BI06 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input8:CurOk")
+	{
+		field(DESC, "Input Bit 8")
+		field(INP, "$(eps)CurReg0.BI07 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input9:CurOk")
+	{
+		field(DESC, "Input Bit 9")
+		field(INP, "$(eps)CurReg0.BI08 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input10:CurOk")
+	{
+		field(DESC, "Input Bit 10")
+		field(INP, "$(eps)CurReg0.BI09 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input11:CurOk")
+	{
+		field(DESC, "Input Bit 11")
+		field(INP, "$(eps)CurReg0.BI10 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input12:CurOk")
+	{
+		field(DESC, "Input Bit 12")
+		field(INP, "$(eps)CurReg0.BI11 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input13:CurOk")
+	{
+		field(DESC, "Input Bit 13")
+		field(INP, "$(eps)CurReg0.BI12 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input14:CurOk")
+	{
+		field(DESC, "Input Bit 14")
+		field(INP, "$(eps)CurReg0.BI13 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input15:CurOk")
+	{
+		field(DESC, "Input Bit 15")
+		field(INP, "$(eps)CurReg0.BI14 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input16:CurOk")
+	{
+		field(DESC, "Input Bit 16")
+		field(INP, "$(eps)CurReg0.BI15 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input17:CurOk")
+	{
+		field(DESC, "Input Bit 17")
+		field(INP, "$(eps)CurReg1.BI00 PP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input18:CurOk")
+	{
+		field(DESC, "Input Bit 18")
+		field(INP, "$(eps)CurReg1.BI01 PP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input19:CurOk")
+	{
+		field(DESC, "Input Bit 19")
+		field(INP, "$(eps)CurReg1.BI02 PP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input1:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI00 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input2:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI01 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input3:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI02 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input4:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI03 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input5:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI04 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input6:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI05 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input7:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI06 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input8:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI07 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input9:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI08 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input10:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI09 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input11:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI10 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input12:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI11 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input13:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI12 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input14:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI13 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input15:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI14 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input16:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg0.BI15 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input17:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg1.BI00 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input18:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg1.BI01 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input19:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg1.BI02 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input20:CurOk")
+	{
+		field(DESC, "Input Bit 20")
+		field(INP, "$(eps)CurReg1.BI03 PP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input20:LatOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)LatReg1.BI03 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(status, "$(eps)CurReg0")
+	{
+		field(DESC, "Current Reg 0")
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S200 @")
+		field(LK00, "$(eps)Input1:CurOk.PROC PP MS")
+		field(LK01, "$(eps)Input2:CurOk.PROC PP MS")
+		field(LK02, "$(eps)Input3:CurOk.PROC PP MS")
+		field(LK03, "$(eps)Input4:CurOk.PROC PP MS")
+		field(LK04, "$(eps)Input5:CurOk.PROC PP MS")
+		field(LK05, "$(eps)Input6:CurOk.PROC PP MS")
+		field(LK06, "$(eps)Input7:CurOk.PROC PP MS")
+		field(LK07, "$(eps)Input8:CurOk.PROC PP MS")
+		field(LK08, "$(eps)Input9:CurOk.PROC PP MS")
+		field(LK09, "$(eps)Input10:CurOk.PROC PP MS")
+		field(LK10, "$(eps)Input11:CurOk.PROC PP MS")
+		field(LK11, "$(eps)Input12:CurOk.PROC PP MS")
+		field(LK12, "$(eps)Input13:CurOk.PROC PP MS")
+		field(LK13, "$(eps)Input14:CurOk.PROC PP MS")
+		field(LK14, "$(eps)Input15:CurOk.PROC PP MS")
+		field(LK15, "$(eps)Input16:CurOk.PROC PP MS")
+	}
+	record(status, "$(eps)CurReg1")
+	{
+		field(DESC, "Current Reg 1")
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S201 @")
+		field(LK00, "$(eps)Input17:CurOk.PROC PP MS")
+		field(LK01, "$(eps)Input18:CurOk.PROC PP MS")
+		field(LK02, "$(eps)Input19:CurOk.PROC PP MS")
+		field(LK03, "$(eps)Input20:CurOk.PROC PP MS")
+	}
+	record(status, "$(eps)LatReg0")
+	{
+		field(DESC, "Current Reg 0")
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S202 @")
+		field(LK00, "$(eps)Input1:LatOk.PROC PP MS")
+		field(LK01, "$(eps)Input2:LatOk.PROC PP MS")
+		field(LK02, "$(eps)Input3:LatOk.PROC PP MS")
+		field(LK03, "$(eps)Input4:LatOk.PROC PP MS")
+		field(LK04, "$(eps)Input5:LatOk.PROC PP MS")
+		field(LK05, "$(eps)Input6:LatOk.PROC PP MS")
+		field(LK06, "$(eps)Input7:LatOk.PROC PP MS")
+		field(LK07, "$(eps)Input8:LatOk.PROC PP MS")
+		field(LK08, "$(eps)Input9:LatOk.PROC PP MS")
+		field(LK09, "$(eps)Input10:LatOk.PROC PP MS")
+		field(LK10, "$(eps)Input11:LatOk.PROC PP MS")
+		field(LK11, "$(eps)Input12:LatOk.PROC PP MS")
+		field(LK12, "$(eps)Input13:LatOk.PROC PP MS")
+		field(LK13, "$(eps)Input14:LatOk.PROC PP MS")
+		field(LK14, "$(eps)Input15:LatOk.PROC PP MS")
+		field(LK15, "$(eps)Input16:LatOk.PROC PP MS")
+	}
+	record(status, "$(eps)LatReg1")
+	{
+		field(DESC, "Current Reg 1")
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S203 @")
+		field(LK00, "$(eps)Input17:LatOk.PROC PP MS")
+		field(LK01, "$(eps)Input18:LatOk.PROC PP MS")
+		field(LK02, "$(eps)Input19:LatOk.PROC PP MS")
+		field(LK03, "$(eps)Input20:LatOk.PROC PP MS")
+	}
+	record(status, "$(eps)FirstReg0")
+	{
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S204 @")
+	}
+	record(bi, "$(eps)Input1:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI00 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input2:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI01 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input3:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI02 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input4:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI03 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input5:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI04 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input6:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI05 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input7:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI06 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input8:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI07 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input9:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI08 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input10:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI09 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input11:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI10 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input12:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI11 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input13:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI12 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input14:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI13 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input15:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI14 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input16:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg0.BI15 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input17:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg1.BI00 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input18:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg1.BI01 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input19:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg1.BI02 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(bi, "$(eps)Input20:FstOk")
+	{
+		field(DESC, "Vaccuum Section 2")
+		field(INP, "$(eps)FstReg1.BI03 NPP MS")
+		field(ZSV, "MAJOR")
+		field(ZNAM, "ALARM")
+		field(ONAM, "OK")
+	}
+	record(status, "$(eps)FstReg0")
+	{
+		field(DESC, "Current Reg 0")
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S204 @")
+		field(LK00, "$(eps)Input1:FstOk.PROC PP MS")
+		field(LK01, "$(eps)Input2:FstOk.PROC PP MS")
+		field(LK02, "$(eps)Input3:FstOk.PROC PP MS")
+		field(LK03, "$(eps)Input4:FstOk.PROC PP MS")
+		field(LK04, "$(eps)Input5:FstOk.PROC PP MS")
+		field(LK05, "$(eps)Input6:FstOk.PROC PP MS")
+		field(LK06, "$(eps)Input7:FstOk.PROC PP MS")
+		field(LK07, "$(eps)Input8:FstOk.PROC PP MS")
+		field(LK08, "$(eps)Input9:FstOk.PROC PP MS")
+		field(LK09, "$(eps)Input10:FstOk.PROC PP MS")
+		field(LK10, "$(eps)Input11:FstOk.PROC PP MS")
+		field(LK11, "$(eps)Input12:FstOk.PROC PP MS")
+		field(LK12, "$(eps)Input13:FstOk.PROC PP MS")
+		field(LK13, "$(eps)Input14:FstOk.PROC PP MS")
+		field(LK14, "$(eps)Input15:FstOk.PROC PP MS")
+		field(LK15, "$(eps)Input16:FstOk.PROC PP MS")
+	}
+	record(status, "$(eps)FstReg1")
+	{
+		field(DESC, "Current Reg 1")
+		field(SCAN, "I/O Intr")
+		field(PINI, "YES")
+		field(DTYP, "ECT EPS-Latchbox")
+		field(INP, "#C0 S205 @")
+		field(LK00, "$(eps)Input17:FstOk.PROC PP MS")
+		field(LK01, "$(eps)Input18:FstOk.PROC PP MS")
+		field(LK02, "$(eps)Input19:FstOk.PROC PP MS")
+		field(LK03, "$(eps)Input20:FstOk.PROC PP MS")
+	}
+}

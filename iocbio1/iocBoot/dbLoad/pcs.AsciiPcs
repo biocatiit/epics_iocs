@@ -1,0 +1,19 @@
+file ../../pmacApp/pmacDb/AsciiPcs.db
+{
+	pattern { pcs, C, x }
+#				pcs =   1   2   3   4   5   6   7   8
+#				  x =   1   2   3   4   5   6   7   8
+# pmac10
+	{ 18ID:TB:St:,	0, 1 }
+	{ 18ID:TB:Ps:,	0, 2 }
+# pmac11
+	{ 18ID:MI:St:,	1, 1 }
+	{ 18ID:MI:Fo:,	1, 2 }
+	{ 18ID:MI:Ln:,	1, 3 }
+	{ 18ID:MO1:En:,	1, 4 }
+# pmac12
+	{ 18ID:MO1:Tn:,	2, 1 }
+	{ 18ID:MO1:Yw:,	2, 2 }
+	{ 18ID:MO1:Fo:,	2, 3 }
+	{ 18ID:MI:Pz:,	2, 4 }
+}

@@ -1,0 +1,10 @@
+file ../../mtrApp/moDb/MOFo_TsubRbk.db
+{
+        pattern { assy, x1, s1, d1, m1, val, nla, tsub }
+
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, TgtPos, 0, tsubMOFo }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, CmdPos, 0, tsubMOFo }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, ActPos, 0, tsubMOFo }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, ActVel, 1, tsubMOFo }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, AvgVel, 1, tsubMOFo }
+}

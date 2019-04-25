@@ -1,0 +1,9 @@
+file ../../mtrApp/moDb/X1d1_Request.db
+{
+        pattern { assy, x1, s1, d1, m1, rqs, des }
+
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, RqsPos, DesPos }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, RqsRel, DesRel }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, RqsSlw, DesSlw }
+	{ 18ID:MO1:Fo:, 18ID:MO1:F:, 18ID:MO1:sf:, 18ID:MO1:df:, 18ID:MO1:mf:, RqsScn, DesScn }
+}

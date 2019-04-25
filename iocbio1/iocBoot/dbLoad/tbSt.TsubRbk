@@ -1,0 +1,21 @@
+file ../../mtrApp/tbDb/TBSt_TsubRbk.db
+{
+#
+	pattern { assy, x1, x2, x3, s1, s2, s3, d1, d2, d3, m1, m2, m3, val, nla, tsub }
+#
+# tsub's are c-programs implementing conversion from from physical
+# parameters of assembly (e.g. monochromator angle and position) to
+# that of motors and back. They are specific for each assembly.
+#
+# The library routines above convert among axes <-> stages <-> drives
+# <-> motors. The "nla" parameter is used in the routines to indicate
+# whether the transformations are direct or differential. Eg.,
+# absolute or position and relative or velocity.
+#
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	TgtPos, 0, tsubTBSt }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	CmdPos, 0, tsubTBSt }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	ActPos, 0, tsubTBSt }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	ActVel, 1, tsubTBSt }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	AvgVel, 1, tsubTBSt }
+#
+}

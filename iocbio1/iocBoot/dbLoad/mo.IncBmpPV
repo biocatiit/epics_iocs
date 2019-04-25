@@ -1,0 +1,41 @@
+file ../../mtrApp/softDb/IncBmpPV.db
+{
+	pattern { pv, prec }
+
+	{ 18ID:MO1:mr:RqsPos,	0 }
+	{ 18ID:MO1:mty:RqsPos,	0 }
+	{ 18ID:MO1:mtx:RqsPos,	0 }
+	{ 18ID:MO1:mf:RqsPos,	0 }
+	{ 18ID:MO1:mnl:RqsPos,	0 }
+	{ 18ID:MO1:mnr:RqsPos,	0 }
+	{ 18ID:MO1:mw:RqsPos,	0 }
+	{ 18ID:MO1:pnl:RqsPos,	0 }
+	{ 18ID:MO1:pnr:RqsPos,	0 }
+	{ 18ID:MO1:pw:RqsPos,	0 }
+
+	{ 18ID:MO1:dr:RqsPos,	4 }
+	{ 18ID:MO1:dty:RqsPos,	2 }
+	{ 18ID:MO1:dtx:RqsPos,	2 }
+	{ 18ID:MO1:df:RqsPos,	2 }
+	{ 18ID:MO1:dnl:RqsPos,	1 }
+	{ 18ID:MO1:dnr:RqsPos,	1 }
+	{ 18ID:MO1:dw:RqsPos,	1 }
+	{ 18ID:MO1:tnl:RqsPos,	3 }
+	{ 18ID:MO1:tnr:RqsPos,	3 }
+	{ 18ID:MO1:tw:RqsPos,	3 }
+
+	{ 18ID:MO1:sr:RqsPos,	4 }
+	{ 18ID:MO1:sty:RqsPos,	2 }
+	{ 18ID:MO1:stx:RqsPos,	2 }
+	{ 18ID:MO1:sf:RqsPos,	2 }
+	{ 18ID:MO1:snl:RqsPos,	1 }
+	{ 18ID:MO1:snr:RqsPos,	1 }
+	{ 18ID:MO1:sw:RqsPos,	1 }
+
+	{ 18ID:MO1:E:RqsPos,	4 }
+	{ 18ID:MO1:L:RqsPos,	4 }
+	{ 18ID:MO1:N:RqsPos,	1 }
+	{ 18ID:MO1:S:RqsPos,	1 }
+	{ 18ID:MO1:F:RqsPos,	2 }
+	{ 18ID:MO1:W:RqsPos,	1 }
+}

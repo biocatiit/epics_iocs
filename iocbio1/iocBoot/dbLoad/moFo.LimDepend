@@ -1,0 +1,9 @@
+file ../../mtrApp/softDb/LimDepend1.db
+{
+	pattern { axis, stg1, i1, fwLim, fwAmp }
+#--------------------------------------
+#  Developed 98/10 by Stepanov for "LimSet" and "AmpEna" controls
+#--------------------------------------
+#
+        { 18ID:MO1:F:, 18ID:MO1:sf:, 0, 18ID:1D_pDummy, 18ID:1D_pDummy }
+}

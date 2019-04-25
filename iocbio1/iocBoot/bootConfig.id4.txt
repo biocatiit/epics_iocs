@@ -1,0 +1,21 @@
+iocbio1> bootChange
+
+'.' = clear field;  '-' = go to previous field;  ^D = quit
+
+boot device          : ei
+processor number     : 0
+host name            : id4
+file name            : /home/bionew/top/ioc/iocbio1/vxWorksmv162
+inet on ethernet (e) : 164.54.204.4:ffffffc0
+inet on backplane (b):
+host inet (h)        : 164.54.204.60
+gateway inet (g)     :
+user (u)             : bionew
+ftp password (pw) (blank = use rsh):
+flags (f)            : 0x0
+target name (tn)     : iocbio1
+startup script (s)   : st.cmdmv162.id4
+other (o)            :
+
+value = 0 = 0x0
+

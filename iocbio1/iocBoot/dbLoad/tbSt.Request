@@ -1,0 +1,10 @@
+file ../../mtrApp/xdtDb/X3d3_Request.db
+{
+	pattern { assy, x1, x2, x3, s1, s2, s3, d1, d2, d3, m1, m2, m3, rqs, des }
+
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	RqsPos, DesPos }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	RqsRel, DesRel }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	RqsSlw, DesSlw }
+	{ 18ID:TB:St:, 18ID:TB:Y:, 18ID:TB:P:, 18ID:TB:R:, 18ID:TB:sy1:, 18ID:TB:sy2:, 18ID:TB:sy3:, 18ID:TB:dy1:, 18ID:TB:dy2:, 18ID:TB:dy3:, 18ID:TB:my1:, 18ID:TB:my2:, 18ID:TB:my3:,	RqsScn, DesScn }
+#
+}

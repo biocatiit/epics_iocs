@@ -1,0 +1,6 @@
+file ../../mtrApp/miDb/MILn_Calibrate.db
+{
+	pattern { assy, x1, s1, d1, m1 }
+
+	{ 18ID:MI:Ln:,	18ID:MI:L:, 18ID:MI:sl:, 18ID:MI:dl:, 18ID:MI:ml: }
+}

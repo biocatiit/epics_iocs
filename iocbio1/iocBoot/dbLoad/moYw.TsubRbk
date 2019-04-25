@@ -1,0 +1,10 @@
+file ../../mtrApp/moDb/MOYw_TsubRbk.db
+{
+        pattern { assy, x1, s1, d1, t1, m1, p1, val, nla, tsub }
+
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, TgtPos, 0, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, CmdPos, 0, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, ActPos, 0, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, ActVel, 1, tsubMOYw }
+	{ 18ID:MO1:Yw:, 18ID:MO1:W:, 18ID:MO1:sw:, 18ID:MO1:dw:, 18ID:MO1:tw:, 18ID:MO1:mw:, 18ID:MO1:pw:, AvgVel, 1, tsubMOYw }
+}

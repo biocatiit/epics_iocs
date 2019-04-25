@@ -1,0 +1,34 @@
+file ../../pmacApp/pmacDb/CtlPnlMtr.db
+{
+	pattern { mtr, pmac, wrd, msk }
+#				mtr =   1   2   3   4   5   6   7   8
+#				wrd =   1   2   3   4   5   6   7   8
+#				msk =   1   2   4   8  16  32  64 128
+# pmac10
+	{ 18ID:TB:my1:,	 18ID:pmac10:,	1,   1 }
+	{ 18ID:TB:my2:,	 18ID:pmac10:,	2,   2 }
+	{ 18ID:TB:my3:,	 18ID:pmac10:,	3,   4 }
+	{ 18ID:TB:myb:,	 18ID:pmac10:,	4,   8 }
+	{ 18ID:TB:mx1:,	 18ID:pmac10:,	5,  16 }
+	{ 18ID:TB:mx2:,	 18ID:pmac10:,	6,  32 }
+# pmac11
+	{ 18ID:MI:my1:,  18ID:pmac11:,	1,   1 }
+	{ 18ID:MI:my2:,  18ID:pmac11:,	2,   2 }
+	{ 18ID:MI:mf1:,  18ID:pmac11:,	3,   4 }
+	{ 18ID:MI:mf2:,  18ID:pmac11:,	4,   8 }
+	{ 18ID:MI:ml:,	 18ID:pmac11:,	5,  16 }
+        { 18ID:MO1:mr:,  18ID:pmac11:,	6,  32 }
+        { 18ID:MO1:mtx:, 18ID:pmac11:,	7,  64 }
+        { 18ID:MO1:mty:, 18ID:pmac11:,	8, 128 }
+# pmac12
+        { 18ID:MO1:mnl:, 18ID:pmac12:,	1,   1 }
+        { 18ID:MO1:mnr:, 18ID:pmac12:,	2,   2 }
+        { 18ID:MO1:mw:,  18ID:pmac12:,	3,   4 }
+        { 18ID:MO1:mf:,  18ID:pmac12:,	4,   8 }
+        { 18ID:MO1:pnl:, 18ID:pmac12:,	5,  16 }
+        { 18ID:MO1:pnr:, 18ID:pmac12:,	6,  32 }
+        { 18ID:MO1:pw:,  18ID:pmac12:,	7,  64 }
+        { 18ID:MI:py:,   18ID:pmac12:,	8, 128 }
+}
+
+

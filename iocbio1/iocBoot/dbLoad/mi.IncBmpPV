@@ -1,0 +1,32 @@
+file ../../mtrApp/softDb/IncBmpPV.db
+{
+	pattern { pv, prec }
+
+	{ 18ID:MI:my1:RqsPos,	0 }
+	{ 18ID:MI:my2:RqsPos,	0 }
+	{ 18ID:MI:mf1:RqsPos,	0 }
+	{ 18ID:MI:mf2:RqsPos,	0 }
+	{ 18ID:MI:ml:RqsPos,	0 }
+	{ 18ID:MI:py:RqsPos,	0 }
+
+	{ 18ID:MI:dy1:RqsPos,	3 }
+	{ 18ID:MI:dy2:RqsPos,	3 }
+	{ 18ID:MI:df1:RqsPos,	3 }
+	{ 18ID:MI:df2:RqsPos,	3 }
+	{ 18ID:MI:dl:RqsPos,	3 }
+	{ 18ID:MI:ty:RqsPos,	3 }
+
+	{ 18ID:MI:sy1:RqsPos,	3 }
+	{ 18ID:MI:sy2:RqsPos,	3 }
+	{ 18ID:MI:sl:RqsPos,	3 }
+	{ 18ID:MI:sf1:RqsPos,	3 }
+	{ 18ID:MI:sf2:RqsPos,	3 }
+	{ 18ID:MI:vy:RqsPos,	3 }
+
+	{ 18ID:MI:Y:RqsPos,	3 }
+	{ 18ID:MI:A:RqsPos,	3 }
+	{ 18ID:MI:F:RqsPos,	3 }
+	{ 18ID:MI:E:RqsPos,	3 }
+	{ 18ID:MI:L:RqsPos,	3 }
+	{ 18ID:MI:Yp:RqsPos,	3 }
+}

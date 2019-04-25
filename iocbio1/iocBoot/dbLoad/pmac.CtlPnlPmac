@@ -1,0 +1,8 @@
+file ../../pmacApp/pmacDb/CtlPnlPmac.db
+{
+	pattern { pmac, C }
+
+	{ 18ID:pmac10:, 0 }
+	{ 18ID:pmac11:, 1 }
+	{ 18ID:pmac12:, 2 }
+}

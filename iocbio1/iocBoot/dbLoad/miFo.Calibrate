@@ -1,0 +1,6 @@
+file ../../mtrApp/miDb/MIFo_Calibrate.db
+{
+	pattern { assy, x1, x2, s1, s2, d1, d2, m1, m2 }
+
+	{ 18ID:MI:Fo:,	18ID:MI:F:, 18ID:MI:E:, 18ID:MI:sf1:, 18ID:MI:sf2:, 18ID:MI:df1:, 18ID:MI:df2:, 18ID:MI:mf1:, 18ID:MI:mf2: }
+}

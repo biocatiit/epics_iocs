@@ -1,0 +1,20 @@
+file ../../pmacApp/pmacDb/CtlPnlPcs.db
+{
+	pattern { pcs, pmac, wrd, msk }
+#				pcs =   1   2   3   4   5   6   7   8
+#				wrd =   1   2   3   4   5   6   7   8
+#				msk =   1   2   4   8  16  32  64 128
+# pmac10
+	{ 18ID:TB:St:,	18ID:pmac10:,	1,   1 }
+	{ 18ID:TB:Ps:,	18ID:pmac10:,	2,   2 }
+# pmac11
+	{ 18ID:MI:St:,	18ID:pmac11:,	1,   1 }
+	{ 18ID:MI:Fo:,	18ID:pmac11:,	2,   2 }
+	{ 18ID:MI:Ln:,	18ID:pmac11:,	3,   4 }
+	{ 18ID:MO1:En:,	18ID:pmac11:,	4,   8 }
+# pmac12
+	{ 18ID:MO1:Tn:,	18ID:pmac12:,	1,   1 }
+	{ 18ID:MO1:Yw:,	18ID:pmac12:,	2,   2 }
+	{ 18ID:MO1:Fo:,	18ID:pmac12:,	3,   4 }
+	{ 18ID:MI:Pz:,	18ID:pmac12:,	4,   8 }
+}

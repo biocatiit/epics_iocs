@@ -1,0 +1,11 @@
+file ../../mtrApp/miDb/MISt_TsubRbk.db
+{
+	pattern { assy, x1, x2, s1, s2, d1, d2, m1, m2, val, nla, tsub }
+
+	{ 18ID:MI:St:,	18ID:MI:Y:, 18ID:MI:A:, 18ID:MI:sy1:, 18ID:MI:sy2:, 18ID:MI:dy1:, 18ID:MI:dy2:, 18ID:MI:my1:, 18ID:MI:my2:, TgtPos, 0, tsubMISt }
+	{ 18ID:MI:St:,	18ID:MI:Y:, 18ID:MI:A:, 18ID:MI:sy1:, 18ID:MI:sy2:, 18ID:MI:dy1:, 18ID:MI:dy2:, 18ID:MI:my1:, 18ID:MI:my2:, CmdPos, 0, tsubMISt }
+	{ 18ID:MI:St:,	18ID:MI:Y:, 18ID:MI:A:, 18ID:MI:sy1:, 18ID:MI:sy2:, 18ID:MI:dy1:, 18ID:MI:dy2:, 18ID:MI:my1:, 18ID:MI:my2:, ActPos, 0, tsubMISt }
+	{ 18ID:MI:St:,	18ID:MI:Y:, 18ID:MI:A:, 18ID:MI:sy1:, 18ID:MI:sy2:, 18ID:MI:dy1:, 18ID:MI:dy2:, 18ID:MI:my1:, 18ID:MI:my2:, ActVel, 1, tsubMISt }
+	{ 18ID:MI:St:,	18ID:MI:Y:, 18ID:MI:A:, 18ID:MI:sy1:, 18ID:MI:sy2:, 18ID:MI:dy1:, 18ID:MI:dy2:, 18ID:MI:my1:, 18ID:MI:my2:, AvgVel, 1, tsubMISt }
+
+}
