@@ -1,0 +1,47 @@
+record(calc,"$(P)VAC:D:Cols") {
+    field(DESC, "D hutch upstream support (collimator slits) vac (torr)")
+    field(SCAN,"1 second")
+    field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
+    field(INPA,"$(P)IP330_05.VAL")
+    field(PREC,8)
+}
+
+record(calc,"$(P)VAC:D:Guards") {
+    field(DESC, "D hutch guard slit vac (torr)")
+    field(SCAN,"1 second")
+    field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
+    field(INPA,"$(P)IP330_06.VAL")
+    field(PREC,8)
+}
+
+record(calc,"$(P)VAC:D:ScatterChamber") {
+    field(DESC, "D hutch flight tube (scatter chamber) vac (torr)")
+    field(SCAN,"1 second")
+    field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
+    field(INPA,"$(P)IP330_07.VAL")
+    field(PREC,8)
+}
+
+record(calc,"$(P)VAC:D:Sample") {
+    field(DESC, "D hutch sample (microsaxs) vac (torr)")
+    field(SCAN,"1 second")
+    field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
+    field(INPA,"$(P)IP330_08.VAL")
+    field(PREC,8)
+}
+
+record(calc,"$(P)VAC:D:Vac1") {
+    field(DESC, "D hutch vacuum section 1 vac (torr)")
+    field(SCAN,"1 second")
+    field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
+    field(INPA,"$(P)IP330_09.VAL")
+    field(PREC,8)
+}
+
+record(calc,"$(P)VAC:D:Vac2") {
+    field(DESC, "D hutch vacuum section 2 vac (torr)")
+    field(SCAN,"1 second")
+    field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
+    field(INPA,"$(P)IP330_10.VAL")
+    field(PREC,8)
+}

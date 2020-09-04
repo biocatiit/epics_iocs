@@ -1,0 +1,315 @@
+grecord(stringout,"$(P)display")
+{
+#	field(DESC,"panel display")
+}
+grecord(waveform, "$(P)dispBuff")
+{
+        field(DESC, "display buffer")
+        field(NELM, "1024")
+        field(FTVL, "UCHAR")
+}
+grecord(mbbo,"$(P)user")
+{
+#	field(DESC,"access other k428 functions")
+	field(NOBT,"3")
+	field(ZRVL,"0")
+	field(ZRST,"off")
+	field(ONVL,"1")
+	field(ONST,"k428->EPICS")
+	field(TWVL,"2")
+	field(TWST,"reset_defaults")
+	field(THVL,"3")
+	field(THST,"save_powerOn")
+	field(FRVL,"4")
+	field(FRST,"reset_powerOn")
+}
+
+grecord(ai,"$(P)totalgain")
+{
+	field(DESC,"total gain")
+	field(EGU,"V/A")
+}
+grecord(ai,"$(P)suppression")
+{
+	field(DESC,"current suppression")
+	field(EGU,"A")
+	field(PREC,"3")
+}
+grecord(mbbo,"$(P)autoSupp")
+{
+	field(DESC,"use suppression?")
+	field(NOBT,"2")
+	field(ZRVL,"0")
+	field(ZRST,"ignore")
+	field(ONVL,"1")
+	field(ONST,"use")
+	field(TWVL,"2")
+	field(TWST,"auto")
+}
+grecord(ao,"$(P)supprM")
+{
+	field(DESC,"suppression mantissa")
+	field(PREC,"3")
+	field(HOPR,"5")
+	field(LOPR,"-5")
+	field(EGU,"A")
+}
+grecord(mbbo,"$(P)supprD")
+{
+	field(DESC,"suppression range")
+	field(NOBT,"3")
+	field(ZRVL,"1")
+	field(ONVL,"2")
+	field(TWVL,"3")
+	field(THVL,"4")
+	field(FRVL,"5")
+	field(FVVL,"6")
+	field(SXVL,"7")
+	field(ZRST,"1E-9 A")
+	field(ONST,"1E-8 A")
+	field(TWST,"1E-7 A")
+	field(THST,"1E-6 A")
+	field(FRST,"1E-5 A")
+	field(FVST,"1E-4 A")
+	field(SXST,"1E-3 A")
+}
+grecord(ao,"$(P)bias")
+{
+	field(DESC,"input voltage bias")
+	field(EGU,"V")
+	field(PREC,"4")
+	field(HOPR,"5")
+	field(LOPR,"-5")
+}
+grecord(ai,"$(P)biasRdbk")
+{
+	field(DESC,"input voltage bias readback")
+	field(EGU,"V")
+	field(PREC,"4")
+	field(HOPR,"5")
+	field(LOPR,"-5")
+}
+grecord(bo,"$(P)x10")
+{
+	field(DESC,"gain X10 multiplier")
+	field(ZNAM,"x1")
+	field(ONAM,"x10")
+}
+grecord(bi,"$(P)overload")
+{
+	field(DESC,"input overload")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(mbbo,"$(P)zero_check")
+{
+	field(DESC,"zero check")
+	field(NOBT,"2")
+	field(ZRVL,"0")
+	field(ZRST,"off")
+	field(ONVL,"1")
+	field(ONST,"on")
+	field(TWVL,"2")
+	field(TWST,"auto")
+}
+grecord(bo,"$(P)use_bias")
+{
+	field(DESC,"use voltage bias")
+	field(ZNAM,"ignore")
+	field(ONAM,"use")
+}
+grecord(mbbo,"$(P)brightness")
+{
+	field(DESC,"display brightness")
+	field(NOBT,"2")
+	field(ZRVL,"0")
+	field(ZRST,"on")
+	field(ONVL,"1")
+	field(ONST,"dim")
+	field(TWVL,"2")
+	field(TWST,"off")
+}
+grecord(mbbi,"$(P)selftest")
+{
+	field(DESC,"self test result")
+	field(NOBT,"2")
+	field(ZRVL,"0")
+	field(ZRST,"passed")
+	field(ONVL,"1")
+	field(ONST,"ROM error")
+	field(TWVL,"2")
+	field(TWST,"RAM error")
+	field(THVL,"3")
+	field(THST,"ROM & RAM error")
+}
+grecord(bi,"$(P)EOI")
+{
+	field(DESC,"EOI")
+	field(ZNAM,"disabled")
+	field(ONAM,"enabled")
+}
+grecord(bi,"$(P)holdoff")
+{
+	field(DESC,"holdoff")
+	field(ZNAM,"disabled")
+	field(ONAM,"enabled")
+}
+grecord(bo,"$(P)filter")
+{
+	field(DESC,"use filter?")
+	field(ZNAM,"off")
+	field(ONAM,"on")
+}
+grecord(bo,"$(P)autofilter")
+{
+	field(DESC,"use auto filter?")
+	field(ZNAM,"off")
+	field(ONAM,"on")
+}
+grecord(mbbo,"$(P)gain")
+{
+	field(DESC,"amplifier gain")
+	field(NOBT,"3")
+	field(ZRVL,"3")
+	field(ONVL,"4")
+	field(TWVL,"5")
+	field(THVL,"6")
+	field(FRVL,"7")
+	field(FVVL,"8")
+	field(SXVL,"9")
+	field(SVVL,"10")
+	field(ZRST,"1E03 V/A")
+	field(ONST,"1E04 V/A")
+	field(TWST,"1E05 V/A")
+	field(THST,"1E06 V/A")
+	field(FRST,"1E07 V/A")
+	field(FVST,"1E08 V/A")
+	field(SXST,"1E09 V/A")
+	field(SVST,"1E10 V/A")
+}
+grecord(bo,"$(P)autoSw")
+{
+	field(DESC,"use suppression autoranging?")
+	field(ZNAM,"off")
+	field(ONAM,"on")
+}
+grecord(mbbo,"$(P)risetime")
+{
+	field(DESC,"amplifier rise time")
+	field(NOBT,"4")
+	field(ZRVL,"0")
+	field(ONVL,"1")
+	field(TWVL,"2")
+	field(THVL,"3")
+	field(FRVL,"4")
+	field(FVVL,"5")
+	field(SXVL,"6")
+	field(SVVL,"7")
+	field(EIVL,"8")
+	field(NIVL,"9")
+	field(ZRST,"10 us")
+	field(ONST,"30 us")
+	field(TWST,"100 us")
+	field(THST,"300 us")
+	field(FRST,"1 ms")
+	field(FVST,"3 ms")
+	field(SXST,"10 ms")
+	field(SVST,"30 ms")
+	field(EIST,"100 ms")
+	field(NIST,"300 ms")
+}
+grecord(bi,"$(P)err:IDDC")
+{
+	field(DESC,"Inval. Dev.-Depend. Cmd.")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:IDDCO")
+{
+	field(DESC,"IDDC Option")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:noRem")
+{
+	field(DESC,"X received while REN false")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:selftest")
+{
+	field(DESC,"RAM/ROM error in self-test")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:suppRange")
+{
+	field(DESC,"suppr. range/value conflict")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:inCurr")
+{
+	field(DESC,"input current too large")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:autoSupp")
+{
+	field(DESC,"zero check on w/ auto-suppr.")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:zeroCorr")
+{
+	field(DESC,"zero correct failed")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:EEPROM")
+{
+	field(DESC,"EEPROM checksum error")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:overload")
+{
+	field(DESC,"overload exists")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+grecord(bi,"$(P)err:gainRise")
+{
+	field(DESC,"gain/risetime conflict")
+	field(ZNAM,"noerror")
+	field(ONAM,"error")
+}
+
+grecord(longout,"$(P)debug")
+{
+	field(DESC,"debug flag")
+	field(HOPR,"10")
+	field(LOPR,"0")
+}
+grecord(longout,"$(P)error")
+{
+	field(DESC,"error code")
+}
+grecord(stringout,"$(P)msg1")
+{
+	field(DESC,"message #1")
+}
+grecord(stringout,"$(P)msg2")
+{
+	field(DESC,"message #2")
+}
+grecord(stringout,"$(P)msg3")
+{
+	field(DESC,"message #3")
+}
+grecord(bo,"$(P)enable")
+{
+	field(DESC,"turn off seq. prog.")
+	field(ZNAM,"disable")
+	field(ONAM,"enable")
+}

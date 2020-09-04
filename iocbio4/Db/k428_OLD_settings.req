@@ -1,0 +1,14 @@
+$(P)$(M)enable
+$(P)$(M)display
+$(P)$(M)gain
+$(P)$(M)x10
+$(P)$(M)risetime
+$(P)$(M)filter
+$(P)$(M)autofilter
+$(P)$(M)bias
+$(P)$(M)use_bias
+$(P)$(M)supprM
+$(P)$(M)supprD
+$(P)$(M)autoSupp
+$(P)$(M)zero_check
+$(P)$(M)brightness

@@ -53,7 +53,7 @@ iocsh "st_SIS3820.iocsh"
 # subArray records for the Struck 3820.  They are used to make it possible
 # to read out individual measurements from Struck scaler channels.
 # (Added by W. Lavender, 2018-09-30)
-<vme-sis3820-meas.cmd
+#<vme-sis3820-meas.cmd
 
 # VMI4116 setup parameters: 
 #     (1)cards, (2)base address(short, 36-byte boundary), 

@@ -1,0 +1,7 @@
+grecord(bo,"$(id):bo$(C):ch$(S)")
+{
+	field(DTYP,"AVME9440 O")
+	field(OUT,"#C$(C) S$(S) @")
+	field(ZNAM,"Off")
+	field(ONAM,"On")
+}

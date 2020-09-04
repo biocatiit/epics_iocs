@@ -21,7 +21,8 @@
 #                Ip330 module. For example Ip330Scan, Ip330Sweep, etc. This
 #                does not refer to the number of EPICS clients. A value of 
 #                10 should certain be safe.
-initIp330("Ip330_1",0,3,"D","-10to10",0,15,120) #Old configuration which may be working? Having trouble understanding documentation
+initIp330("Ip330_1",0,3,"D","-10to10",0,15,120) 
+#Old configuration which may be working? Having trouble understanding documentation
 
 # int configIp330(
 #   const char *portName,
@@ -62,9 +63,9 @@ dbLoadTemplate "ip330Scan.substitutions"
 # dbLoadTemplate "ip330PIDFast.substitutions"
 
 # Load MCA records on the first 4 input channels
-dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18IDd:,M=mip330_1,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 0)")
-dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18IDd:,M=mip330_2,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 1)")
-dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18IDd:,M=mip330_3,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 2)")
-dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18IDd:,M=mip330_4,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 3)")
+dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18ID:,M=mip330_01,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 0)")
+dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18ID:,M=mip330_02,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 1)")
+dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18ID:,M=mip330_03,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 2)")
+dbLoadRecords("$(MCA)/mcaApp/Db/mca.db", "P=18ID:,M=mip330_04,DTYP=asynMCA,NCHAN=2048,INP=@asyn(Ip330Sweep1 3)")
 
 # END ip330.cmd ---------------------------------------------------------------

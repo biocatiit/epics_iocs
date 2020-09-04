@@ -1,0 +1,30 @@
+record(asyn,"$(P)")
+{
+    field(DTYP,"asynRecordDevice")
+    field(PORT,"$(PORT)")
+    field(ADDR,"$(ADDR)")
+    field(OMAX,"$(OMAX)")
+    field(IMAX,"$(IMAX)")
+}
+grecord(longout,"$(P):debug")
+{
+	field(DESC,"debug flag")
+	field(HOPR,"10")
+	field(LOPR,"1")
+}
+grecord(longout,"$(P):error")
+{
+	field(DESC,"error code")
+}
+grecord(stringout,"$(P):msg1")
+{
+	field(DESC,"message #1")
+}
+grecord(stringout,"$(P):msg2")
+{
+	field(DESC,"message #2")
+}
+grecord(stringout,"$(P):msg3")
+{
+	field(DESC,"message #3")
+}

@@ -116,6 +116,11 @@ dbLoadRecords("$(STD)/stdApp/Db/misc.db","P=18ID:")
 #vxStats
 #dbLoadTemplate("vxStats.substitutions")
 
+# BPM calcs
+< bpm.cmd
+
+# Vacuum guage calcuations
+< vac.cmd
 
 ###############################################################################
 # Set shell prompt (otherwise it is left at mv167 or mv162)
