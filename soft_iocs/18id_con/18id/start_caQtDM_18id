@@ -2,16 +2,12 @@
 
 export EPICS_APP=`dirname ${BASH_SOURCE:-$0}`
 export EPICS_APP_UI_DIR=${EPICS_APP}/18idApp/op/ui
-export DEFAULT_UI_FILE=${DEFAULT_UI_FILE:-18id.ui}
+export DEFAULT_UI_FILE=${DEFAULT_UI_FILE:-BLEPS_Main.ui}
 
 source ${EPICS_APP}/setup_epics_common caqtdm
 
 # #######################################
 # # optional: add support directories not associated with environment variables
-
-if [ -z "/APSshare/caqtdm" ]; then
-  CAQTDM_DISPLAY_PATH=$CAQTDM_DISPLAY_PATH:/APSshare/uisys/sr/id
-fi
 
 
 # #######################################
@@ -48,19 +44,12 @@ fi
 
 export MEDM_EXEC_LIST=
 # For drag-and-drop workaround at APS, need /APSshare/bin/xclip
-export CAQTDM_EXEC_LIST='Probe;probe &P &:UI File;echo &A:PV Name(s);echo &P:Copy PV name; echo -n &P| xclip -i -sel clip:Paste PV name;caput &P `xclip -o -sel clip`'
+# export CAQTDM_EXEC_LIST='Probe;probe &P &:UI File;echo &A:PV Name(s);echo &P:Copy PV name; echo -n &P| xclip -i -sel clip:Paste PV name;caput &P `xclip -o -sel clip`'
 
 export START_PUTRECORDER=${EPICS_APP}/start_putrecorder
 export MACROS_PY=${EPICS_APP_UI_DIR}/../python/macros.py
 export EDITOR=nedit
-if [ -z "/APSshare/caqtdm" ]; then
-  export PATH=${PATH}:/APSshare/bin
-  export QT_PLUGIN_PATH=/APSshare/caqtdm/plugins
-  export LD_LIBRARY_PATH=/APSshare/caqtdm/lib
-  export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/APSshare/epics/base-3.14.12.3/lib/linux-x86_64
-else
-  export QT_PLUGIN_PATH=/usr/local/epics/extensions/lib/linux-x86_64
-fi
+#export QT_PLUGIN_PATH=/usr/local/epics/extensions/lib/linux-x86_64
 
 
 #######################################
@@ -72,6 +61,6 @@ fi
 #######################################
 # start caQtDM
 
-/APSshare/bin/caQtDM -style plastique -noMsg ${1:-${DEFAULT_UI_FILE}}
+caQtDM -macro "P=18ID:" -style plastique -noMsg ./18idApp/op/ui/BLEPS_Main.ui
 # TODO: what about ALL command line parameters?  "$*"
 
