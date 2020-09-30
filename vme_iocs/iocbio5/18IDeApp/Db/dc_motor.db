@@ -1,0 +1,46 @@
+record(motor,"$(P)$(M)") {
+ field(DESC,"$(DESC)")
+ field(DTYP,"$(DTYP)")
+ field(DIR,"$(DIR)")
+ field(VELO,"$(VELO)")
+ # For now we make the VMAX field the same as the VELO field
+ field(VMAX,"$(VELO)")
+ field(S,"0")
+ field(VBAS,"$(VBAS)")
+ field(SBAS,"0")
+ field(ACCL,"$(ACCL)")
+ field(BDST,"$(BDST)")
+ field(BVEL,"$(BVEL)")
+ field(BACC,"$(BACC)")
+ field(OUT,"@asyn($(PORT),$(ADDR))")
+ field(SREV,"$(SREV)")
+ field(UREV,"$(UREV)")
+ field(PREC,"$(PREC)")
+ field(EGU,"$(EGU)")
+ field(DHLM,"$(DHLM)")
+ field(DLLM,"$(DLLM)")
+ field(TWV,"1")
+ field(RDBD,"$(RDBD)")
+ field(RTRY,"$(RTRY)")
+ field(PCOF,"$(PCOF)")
+ field(ICOF,"$(ICOF)")
+ field(DCOF,"$(DCOF)")
+ field(CNEN,"1")
+ field(UEIP,"1")
+}
+
+record(transform,"$(P)$(M)_ableput") {
+ field(CLCB,"a")
+ field(CLCC,"a")
+ field(OUTA,"$(P)$(M).DISA NPP NMS")
+ field(OUTB,"$(P)$(M).DISP NPP NMS")
+ field(OUTC,"$(P)$(M).DISA NPP NMS")
+}
+
+record(bo,"$(P)$(M)_able") {
+ field(DESC,"motor enable")
+ field(PINI,"YES")
+ field(OUT,"$(P)$(M)_ableput.A PP MS")
+ field(ZNAM,"Enable")
+ field(ONAM,"Disable")
+}
