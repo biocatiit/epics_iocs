@@ -1,0 +1,91 @@
+# Shell prompt
+epicsEnvSet("IOCSH_PS1", "$(IOC)> ")
+
+# prefix used for all PVs in this IOC
+epicsEnvSet("PREFIX", "18id:")
+
+#For devIocStats
+epicsEnvSet("ENGINEER", "Guerra")
+epicsEnvSet("LOCATION", "18-ID")
+epicsEnvSet("GROUP", "BC")
+
+# search path for database files
+epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(DEVIOCSTATS)/db")
+
+# set the protocol path for streamDevice
+epicsEnvSet("STREAM_PROTOCOL_PATH", ".")
+
+# Specify largest array CA will transport
+# Note for N doubles, need N*8 bytes+some overhead
+epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", 64010)
+
+### save_restore setup, change SAVE_PATH if you are having autosave manage its own NFS mount
+#iocshLoad("$(AUTOSAVE)/iocsh/autosave_settings.iocsh", "PREFIX=$(PREFIX), SAVE_PATH=$(TOP)/iocBoot/$(IOC), NUM_SEQ=12, SEQ_PERIOD=43200")
+#iocshLoad("$(TOP)/iocBoot/$(IOC)/iocsh/autosaveBuild.iocsh",     "PREFIX=$(PREFIX), BUILD_PATH=autosave")
+#iocshLoad("$(AUTOSAVE)/iocsh/save_restore.iocsh",      "PREFIX=$(PREFIX), POSITIONS_FILE=auto_positions, SETTINGS_FILE=auto_settings")
+
+###
+# specify directories in which to search for included request files
+# Note that the vxWorks variables (e.g., 'startup') are from cdCommands
+#set_requestfile_path("$(AREA_DETECTOR)", "ADApp/Db")
+#set_requestfile_path("$(ADCORE)", "ADApp/Db")
+#set_requestfile_path("$(AUTOSAVE)/db")
+#set_requestfile_path("$(BUSY)/db")
+#set_requestfile_path("$(CALC)/db")
+#set_requestfile_path("$(CAMAC)", "camacApp/Db")
+#set_requestfile_path("$(CAPUTRECORDER)/db")
+#set_requestfile_path("$(DAC128V)", "dac128VApp/Db")
+#set_requestfile_path("$(DELAYGEN)/db")
+#set_requestfile_path("$(DXP)", "dxpApp/Db")
+#set_requestfile_path("$(DXPSITORO)", "dxpApp/Db")
+#set_requestfile_path("$(IP)/db")
+#set_requestfile_path("$(IP330)", "ip330App/Db")
+#set_requestfile_path("$(IPUNIDIG)", "ipUnidigApp/Db")
+#set_requestfile_path("$(LOVE)/db")
+#set_requestfile_path("$(LUA)/db")
+#set_requestfile_path("$(MCA)", "mcaApp/Db")
+#set_requestfile_path("$(MEASCOMP)", "measCompApp/Db")
+#set_requestfile_path("$(MODBUS)", "modbusApp/Db")
+#set_requestfile_path("$(MOTOR)/db")
+#set_requestfile_path("$(OPTICS)/db")
+#set_requestfile_path("$(QUADEM)", "quadEMApp/Db")
+#set_requestfile_path("$(SSCAN)/db")
+#set_requestfile_path("$(SOFTGLUE)/db")
+#set_requestfile_path("$(SOFTGLUEZYNQ)/db")
+#set_requestfile_path("$(STD)/db")
+#set_requestfile_path("$(VAC)/db")
+#set_requestfile_path("$(VME)/db")
+#set_requestfile_path("$(YOKOGAWA_DAS)/db")
+set_requestfile_path("$(TOP)/db")
+
+# Debug-output level
+#save_restoreSet_Debug(0)
+
+### Scan-support software
+#iocshLoad("$(SSCAN)/iocsh/sscan.iocsh", "PREFIX=$(PREFIX), MAX_PTS=1000, REQ_FILE=saveData.req")
+#iocshLoad("$(AUTOSAVE)/iocsh/configMenu.iocsh", "PREFIX=$(PREFIX),CONFIG=scan1")
+
+### Stuff for user programming ###
+#iocshLoad("$(CALC)/iocsh/userCalc.iocsh", "PREFIX=$(PREFIX), ARRAY_SIZE=8000")
+
+# Load 10 more of all the user calcs, N=1 creates usercalcs 10-19
+#iocshLoad("$(CALC)/iocsh/userCalc_extra.iocsh", "PREFIX=$(PREFIX), N=1, ARRAY_SIZE=8000")
+
+# Load 20 userScripts
+#dbLoadRecords("$(LUA)/luaApp/Db/luascripts10.db", "P=$(PREFIX), R=set1:")
+#dbLoadRecords("$(LUA)/luaApp/Db/luascripts10.db", "P=$(PREFIX), R=set2:")
+
+# string sequence (sseq) records
+#iocshLoad("$(CALC)/iocsh/sseq.iocsh", "PREFIX=$(PREFIX), INSTANCE=ES:")
+
+# busy record
+#dbLoadRecords("$(BUSY)/busyApp/Db/busyRecord.db", "P=$(PREFIX),R=mybusy1")
+#dbLoadRecords("$(BUSY)/busyApp/Db/busyRecord.db", "P=$(PREFIX),R=mybusy2")
+
+### Load database record for alive heartbeating support.
+# RHOST specifies the IP address that receives the heartbeats.
+#dbLoadRecords("$(ALIVE)/aliveApp/Db/alive.db", "P=$(PREFIX),RHOST=164.54.100.11")
+#dbLoadRecords("$(ALIVE)/aliveApp/Db/aliveMSGCalc.db", "P=$(PREFIX)")
+
+# Miscellaneous PV's, such as burtResult
+#dbLoadRecords("$(STD)/stdApp/Db/misc.db","P=$(PREFIX)")

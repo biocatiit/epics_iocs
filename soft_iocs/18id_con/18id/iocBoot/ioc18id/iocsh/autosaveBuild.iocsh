@@ -1,0 +1,16 @@
+# ### autosaveBuild.iocsh ###
+
+# This local copy of autosaveBuild.iocsh creates the built_*.req files
+# but doesn't create the monitor sets for built_*.req, which requires
+# the files to be manually added to the auto_*.req files.
+
+#- Tell autosave to automatically build built_settings.req and
+#- built_positions.req from databases and macros supplied to dbLoadRecords()
+#- (and dbLoadTemplate(), which calls dbLoadRecords()).
+#- This requires EPICS 3.15.1 or later, or 3.14 patched as described in
+#- autosave R5-5 documentation.
+epicsEnvSet("BUILT_SETTINGS", "built_settings.req")
+epicsEnvSet("BUILT_POSITIONS", "built_positions.req")
+autosaveBuild("$(BUILD_PATH=.)/$(BUILT_SETTINGS)", "_settings.req", 1)
+autosaveBuild("$(BUILD_PATH=.)/$(BUILT_POSITIONS)", "_positions.req", 1)
+set_requestfile_path("$(BUILD_PATH=.)")

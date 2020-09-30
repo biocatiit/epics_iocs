@@ -1,0 +1,654 @@
+# | ~ . ~ . ~ |	BINARY IN/OUT	| ~ . ~ . ~ |
+
+#  Read Fault Status
+file "$(TOP)/db/bleps_bi.db"
+{
+pattern
+{P,     		N                           TAG                  		SCAN    ZNAM    	ONAM        ZSV         OSV         	DESC}
+{18ID:,  "BLEPS:FAULT_EXISTS",          	"Fault_Exists",    			"2.0",  "NO FAULT", "FAULT",	"NO_ALARM", 	"MAJOR",    "Any Fault Exists"}
+{18ID:,  "BLEPS:COMMUNICATIONS_FAULT",   "Communications_Fault",     "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "Communication Fault"}
+{18ID:,	"BLEPS:FLOW1_OVER_RANGE",		"Flow1.Over_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"11 Flow 1 Over Range Fault"}
+{18ID:,	"BLEPS:FLOW2_OVER_RANGE",		"Flow2.Over_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"12 Flow 2 Over Range Fault"}
+
+{18ID:,	"BLEPS:TEMP1_UNDER_RANGE",		"Temp1.Under_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"51 Temp 1 Under Range Fault"}
+{18ID:,	"BLEPS:TEMP3_UNDER_RANGE",		"Temp3.Under_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"53 Temp 3 Under Range Fault"}
+{18ID:,	"BLEPS:TEMP4_UNDER_RANGE",		"Temp4.Under_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"54 Temp 4 Under Range Fault"}
+{18ID:,	"BLEPS:TEMP9_UNDER_RANGE",		"Temp9.Under_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"59 Temp 9 Under Range Fault"}
+{18ID:,	"BLEPS:TEMP11_UNDER_RANGE",		"Temp11.Under_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"61 Temp 11 Under Range Fault"}
+{18ID:,	"BLEPS:TEMP12_UNDER_RANGE",		"Temp12.Under_Range_Fault",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"62 Temp 12 Under Range Fault"}
+
+
+
+
+{18ID:,	"BLEPS:BIV_FAIL_TO_CLOSE",		"BIV.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"100 BIV Fail to Close"}
+{18ID:,	"BLEPS:FES_FAIL_TO_CLOSE",		"FES.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"101 FES Fail to Close"}									
+{18ID:,	"BLEPS:SDS_FAIL_TO_CLOSE",		"SDS.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"104 SDS Fail to Close"}									
+
+
+{18ID:,	"BLEPS:GV1_FAULTED",			"GV1.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1010 GV1_Faulted"}			
+{18ID:,	"BLEPS:GV1_BOTH_SWITCH",		"GV1.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1011 GV1 Both Switch"}
+{18ID:,	"BLEPS:GV1_OPENED_SWITCH",		"GV1.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1012 GV1 Opened Switch"}
+{18ID:,	"BLEPS:GV1_FAIL_TO_OPEN",		"GV1.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1013 GV1 Fail to Open"}
+{18ID:,	"BLEPS:GV1_FULLY_OPEN",			"GV1.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1014 GV1 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV1_CLOSED_SWITCH",		"GV1.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1015 GV1 Closed Switch"}
+{18ID:,	"BLEPS:GV1_FAIL_TO_CLOSE",		"GV1.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1016 GV1 Fail to Close"}
+{18ID:,	"BLEPS:GV1_FULLY_CLOSE",		"GV1.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1017 GV1 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV1_BEAM_EXPOSURE",		"GV1.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1018 GV1 Beam Exposure"}
+{18ID:,	"BLEPS:GV1_NO_SWITCH",			"GV1.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1019 GV1 No Switch"}
+
+{18ID:,	"BLEPS:GV2_FAULTED",			"GV2.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1020 GV2_Faulted"}			
+{18ID:,	"BLEPS:GV2_BOTH_SWITCH",		"GV2.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1021 GV2 Both Switch"}
+{18ID:,	"BLEPS:GV2_OPENED_SWITCH",		"GV2.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1022 GV2 Opened Switch"}
+{18ID:,	"BLEPS:GV2_FAIL_TO_OPEN",		"GV2.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1023 GV2 Fail to Open"}
+{18ID:,	"BLEPS:GV2_FULLY_OPEN",			"GV2.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1024 GV2 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV2_CLOSED_SWITCH",		"GV2.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1025 GV2 Closed Switch"}
+{18ID:,	"BLEPS:GV2_FAIL_TO_CLOSE",		"GV2.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1026 GV2 Fail to Close"}
+{18ID:,	"BLEPS:GV2_FULLY_CLOSE",		"GV2.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1027 GV2 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV2_BEAM_EXPOSURE",		"GV2.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1028 GV2 Beam Exposure"}
+{18ID:,	"BLEPS:GV2_NO_SWITCH",			"GV2.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1029 GV2 No Switch"}
+
+{18ID:,	"BLEPS:GV3_FAULTED",			"GV3.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1030 GV3_Faulted"}			
+{18ID:,	"BLEPS:GV3_BOTH_SWITCH",		"GV3.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1031 GV3 Both Switch"}
+{18ID:,	"BLEPS:GV3_OPENED_SWITCH",		"GV3.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1032 GV3 Opened Switch"}
+{18ID:,	"BLEPS:GV3_FAIL_TO_OPEN",		"GV3.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1033 GV3 Fail to Open"}
+{18ID:,	"BLEPS:GV3_FULLY_OPEN",			"GV3.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1034 GV3 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV3_CLOSED_SWITCH",		"GV3.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1035 GV3 Closed Switch"}
+{18ID:,	"BLEPS:GV3_FAIL_TO_CLOSE",		"GV3.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1036 GV3 Fail to Close"}
+{18ID:,	"BLEPS:GV3_FULLY_CLOSE",		"GV3.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1037 GV3 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV3_BEAM_EXPOSURE",		"GV3.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1038 GV3 Beam Exposure"}
+{18ID:,	"BLEPS:GV3_NO_SWITCH",			"GV3.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1039 GV3 No Switch"}
+
+{18ID:,	"BLEPS:GV4_FAULTED",			"GV4.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1040 GV4_Faulted"}			
+{18ID:,	"BLEPS:GV4_BOTH_SWITCH",		"GV4.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1041 GV4 Both Switch"}
+{18ID:,	"BLEPS:GV4_OPENED_SWITCH",		"GV4.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1042 GV4 Opened Switch"}
+{18ID:,	"BLEPS:GV4_FAIL_TO_OPEN",		"GV4.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1043 GV4 Fail to Open"}
+{18ID:,	"BLEPS:GV4_FULLY_OPEN",			"GV4.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1044 GV4 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV4_CLOSED_SWITCH",		"GV4.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1045 GV4 Closed Switch"}
+{18ID:,	"BLEPS:GV4_FAIL_TO_CLOSE",		"GV4.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1046 GV4 Fail to Close"}
+{18ID:,	"BLEPS:GV4_FULLY_CLOSE",		"GV4.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1047 GV4 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV4_BEAM_EXPOSURE",		"GV4.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1048 GV4 Beam Exposure"}
+{18ID:,	"BLEPS:GV4_NO_SWITCH",			"GV4.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1049 GV4 No Switch"}
+
+{18ID:,	"BLEPS:GV5_FAULTED",			"GV5.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1050 GV5_Faulted"}			
+{18ID:,	"BLEPS:GV5_BOTH_SWITCH",		"GV5.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1051 GV5 Both Switch"}
+{18ID:,	"BLEPS:GV5_OPENED_SWITCH",		"GV5.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1052 GV5 Opened Switch"}
+{18ID:,	"BLEPS:GV5_FAIL_TO_OPEN",		"GV5.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1053 GV5 Fail to Open"}
+{18ID:,	"BLEPS:GV5_FULLY_OPEN",			"GV5.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1054 GV5 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV5_CLOSED_SWITCH",		"GV5.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1055 GV5 Closed Switch"}
+{18ID:,	"BLEPS:GV5_FAIL_TO_CLOSE",		"GV5.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1056 GV5 Fail to Close"}
+{18ID:,	"BLEPS:GV5_FULLY_CLOSE",		"GV5.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1057 GV5 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV5_BEAM_EXPOSURE",		"GV5.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1058 GV5 Beam Exposure"}
+{18ID:,	"BLEPS:GV5_NO_SWITCH",			"GV5.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1059 GV5 No Switch"}
+
+{18ID:,	"BLEPS:GV6_FAULTED",			"GV6.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1060 GV6_Faulted"}			
+{18ID:,	"BLEPS:GV6_BOTH_SWITCH",		"GV6.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1061 GV6 Both Switch"}
+{18ID:,	"BLEPS:GV6_OPENED_SWITCH",		"GV6.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1062 GV6 Opened Switch"}
+{18ID:,	"BLEPS:GV6_FAIL_TO_OPEN",		"GV6.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1063 GV6 Fail to Open"}
+{18ID:,	"BLEPS:GV6_FULLY_OPEN",			"GV6.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1064 GV6 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV6_CLOSED_SWITCH",		"GV6.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1065 GV6 Closed Switch"}
+{18ID:,	"BLEPS:GV6_FAIL_TO_CLOSE",		"GV6.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1066 GV6 Fail to Close"}
+{18ID:,	"BLEPS:GV6_FULLY_CLOSE",		"GV6.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1067 GV6 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV6_BEAM_EXPOSURE",		"GV6.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1068 GV6 Beam Exposure"}
+{18ID:,	"BLEPS:GV6_NO_SWITCH",			"GV6.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1069 GV6 No Switch"}
+
+{18ID:,	"BLEPS:GV7_FAULTED",			"GV7.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1070 GV7_Faulted"}			
+{18ID:,	"BLEPS:GV7_BOTH_SWITCH",		"GV7.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1071 GV7 Both Switch"}
+{18ID:,	"BLEPS:GV7_OPENED_SWITCH",		"GV7.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1072 GV7 Opened Switch"}
+{18ID:,	"BLEPS:GV7_FAIL_TO_OPEN",		"GV7.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1073 GV7 Fail to Open"}
+{18ID:,	"BLEPS:GV7_FULLY_OPEN",			"GV7.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1074 GV7 Fail To Fully Open"}
+{18ID:,	"BLEPS:GV7_CLOSED_SWITCH",		"GV7.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1075 GV7 Closed Switch"}
+{18ID:,	"BLEPS:GV7_FAIL_TO_CLOSE",		"GV7.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1076 GV7 Fail to Close"}
+{18ID:,	"BLEPS:GV7_FULLY_CLOSE",		"GV7.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1077 GV7 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV7_BEAM_EXPOSURE",		"GV7.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1078 GV7 Beam Exposure"}
+{18ID:,	"BLEPS:GV7_NO_SWITCH",			"GV7.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1079 GV7 No Switch"}
+
+}
+
+# Read Trip Status
+file "$(TOP)/db/bleps_bi.db"
+{
+pattern
+{P,     		N                           TAG                  SCAN    	ZNAM    ONAM        ZSV         OSV         DESC}
+{18ID:,  "BLEPS:TRIP_EXISTS",     "Trip_Exists",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "Any Trip Exists"}
+
+{18ID:,  "BLEPS:FLOW1_TRIP",     "Flow1.Below_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "11 Flow 1 Below Set Point"}
+{18ID:,  "BLEPS:FLOW2_TRIP",     "Flow2.Below_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "12 Flow 2 Below Set Point"}
+
+{18ID:,  "BLEPS:TEMP1_TRIP",     "Temp1.Above_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "51 Temp 1 Above Set Point"}
+{18ID:,  "BLEPS:TEMP3_TRIP",     "Temp3.Above_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "53 Temp 3 Above Set Point"}
+{18ID:,  "BLEPS:TEMP4_TRIP",     "Temp4.Above_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "54 Temp 4 Above Set Point"}
+{18ID:,  "BLEPS:TEMP9_TRIP",     "Temp9.Above_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "59 Temp 9 Above Set Point"}
+{18ID:,  "BLEPS:TEMP11_TRIP",     "Temp11.Above_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "61 Temp 11 Above Set Point"}
+{18ID:,  "BLEPS:TEMP12_TRIP",     "Temp12.Above_Set_Point_Trip",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",   "62 Temp 12 Above Set Point"}
+
+
+{18ID:,  "BLEPS:VS1_TRIP",      	 "VS1.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "101 Vacuum Section 1"}
+{18ID:,  "BLEPS:VS2_TRIP",     	     "VS2.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "102 Vacuum Section 2"}
+{18ID:,  "BLEPS:VS3_TRIP",      	 "VS3.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "103 Vacuum Section 3"}
+{18ID:,  "BLEPS:VS4_TRIP",      	 "VS4.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "104 Vacuum Section 4"}
+{18ID:,  "BLEPS:VS5_TRIP",      	 "VS5.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "105 Vacuum Section 5"}
+{18ID:,  "BLEPS:VS6_TRIP",      	 "VS6.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "106 Vacuum Section 6"}
+{18ID:,  "BLEPS:VS7_TRIP",      	 "VS7.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "107 Vacuum Section 7"}
+{18ID:,  "BLEPS:VS8_TRIP",      	 "VS8.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "108 Vacuum Section 8"}
+
+}
+
+# Read Warnings
+file "$(TOP)/db/bleps_bi.db"
+{
+pattern
+{P,     		N                           TAG                 SCAN    	ZNAM    	ONAM        	ZSV         OSV         DESC}
+{18ID:,  "BLEPS:WARNING_EXISTS",     	"Warning_Exists",    			"2.0",  "NO WARNING", "WARNING",	"NO_ALARM", "MAJOR",   "Any Warn Exists"}
+{18ID:,  "BLEPS:PLC_BATTERY_DEAD_WRN",    "PLC_Battery_Dead_Wrn",  		"2.0",  "NO WARNING", "WARNING",	"NO_ALARM", "MAJOR",   "2 PLC Battery Dead Warn"}
+{18ID:,  "BLEPS:FLOW_1_UNDER_WRN",     "Flow1.Under_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "11 Flow 1 Under Range Warn"}
+{18ID:,  "BLEPS:FLOW_2_UNDER_WRN",     "Flow2.Under_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "12 Flow 2 Under Range Warn"}
+
+{18ID:,  "BLEPS:IP1_WARNING",       "IP1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "101 Ion Pump 1 Warning"}
+{18ID:,  "BLEPS:IP2_WARNING",       "IP2.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "102 Ion Pump 2 Warning"}
+{18ID:,  "BLEPS:IP3_WARNING",       "IP3.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "103 Ion Pump 3 Warning"}
+{18ID:,  "BLEPS:IP4_WARNING",       "IP4.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "104 Ion Pump 4 Warning"}
+{18ID:,  "BLEPS:IP5_WARNING",       "IP5.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "105 Ion Pump 5 Warning"}
+{18ID:,  "BLEPS:IP6_WARNING",       "IP6.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "106 Ion Pump 6 Warning"}
+{18ID:,  "BLEPS:IP7_WARNING",       "IP7.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "107 Ion Pump 7 Warning"}
+{18ID:,  "BLEPS:IP8_WARNING",       "IP8.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "108 Ion Pump 8 Warning"}
+
+{18ID:,  "BLEPS:IG1_WARNING",       "IG1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "201 Ion Gauge 1 Warning"}
+{18ID:,  "BLEPS:IG2_WARNING",       "IG1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "201 Ion Gauge 1 Warning"}
+{18ID:,  "BLEPS:IG3_WARNING",       "IG1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "201 Ion Gauge 1 Warning"}
+{18ID:,  "BLEPS:IG4_WARNING",       "IG1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "201 Ion Gauge 1 Warning"}
+{18ID:,  "BLEPS:IG5_WARNING",       "IG1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "201 Ion Gauge 1 Warning"}
+{18ID:,  "BLEPS:IG6_WARNING",       "IG6.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "206 Ion Gauge 6 Warning"}
+{18ID:,  "BLEPS:IG7_WARNING",       "IG7.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "207 Ion Gauge 7 Warning"}
+{18ID:,  "BLEPS:IG8_WARNING",       "IG8.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "208 Ion Gauge 8 Warning"}
+{18ID:,  "BLEPS:IG9_WARNING",       "IG9.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "209 Ion Gauge 9 Warning"}
+{18ID:,  "BLEPS:IG10_WARNING",       "IG10.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "210 Ion Gauge 10 Warning"}
+
+{18ID:,  "BLEPS:PS_1_WARNING",        "Power Supply 1.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "3 Power Supply 1 Warning"}
+{18ID:,  "BLEPS:PS_2_WARNING",        "Power Supply 2.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "4 Power Supply 2 Warning"}
+{18ID:,  "BLEPS:OR_WARNING",        "OR'ing Module.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "5 OR'ing Module Warning"}
+
+}
+
+
+# Inputs
+file "$(TOP)/db/bleps_bi.db"
+{
+pattern
+{P,     N                           TAG                         SCAN    ZNAM        ONAM        ZSV         OSV         DESC}
+{18ID:,  "BLEPS:BIV_CLOSED",         "BIV.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Beamline Iso Valve Closed"}
+{18ID:,  "BLEPS:FES_CLOSED",         "FES.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Front End Shutter Closed"}
+{18ID:,  "BLEPS:SDS_CLOSED",         "SDS.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Station D Shutter Closed"}
+
+{18ID:,  "BLEPS:IP1_STATUS",         "IP1.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 1 Vacuum Status"}
+{18ID:,  "BLEPS:IP2_STATUS",         "IP2.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 2 Vacuum Status"}
+{18ID:,  "BLEPS:IP3_STATUS",         "IP3.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 3 Vacuum Status"}
+{18ID:,  "BLEPS:IP4_STATUS",         "IP4.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 4 Vacuum Status"}
+{18ID:,  "BLEPS:IP5_STATUS",         "IP5.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 5 Vacuum Status"}
+{18ID:,  "BLEPS:IP6_STATUS",         "IP6.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 6 Vacuum Status"}
+{18ID:,  "BLEPS:IP7_STATUS",         "IP7.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 7 Vacuum Status"}
+{18ID:,  "BLEPS:IP8_STATUS",         "IP8.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Pump 8 Vacuum Status"}
+
+
+{18ID:,  "BLEPS:IG1_STATUS",       "IG1.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 1 Vacuum Status"}
+{18ID:,  "BLEPS:IG2_STATUS",       "IG2.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 2 Vacuum Status"}
+{18ID:,  "BLEPS:IG3_STATUS",       "IG3.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 3 Vacuum Status"}
+{18ID:,  "BLEPS:IG4_STATUS",       "IG4.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 4 Vacuum Status"}
+{18ID:,  "BLEPS:IG5_STATUS",       "IG5.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 5 Vacuum Status"}
+{18ID:,  "BLEPS:IG6_STATUS",       "IG6.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 6 Vacuum Status"}
+{18ID:,  "BLEPS:IG7_STATUS",       "IG7.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 7 Vacuum Status"}
+{18ID:,  "BLEPS:IG8_STATUS",       "IG8.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 8 Vacuum Status"}
+{18ID:,  "BLEPS:IG9_STATUS",       "IG9.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 9 Vacuum Status"}
+{18ID:,  "BLEPS:IG10_STATUS",       "IG10.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 10 Vacuum Status"}
+
+{18ID:,  "BLEPS:GV1_CLOSED_LS",      "GV1.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 1 Closed"}
+{18ID:,  "BLEPS:GV1_OPENED_LS",      "GV1.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 1 Opened"}
+
+{18ID:,  "BLEPS:GV2_CLOSED_LS",      "GV2.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 2 Closed"}
+{18ID:,  "BLEPS:GV2_OPENED_LS",      "GV2.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 2 Opened"}
+
+{18ID:,  "BLEPS:GV3_CLOSED_LS",      "GV3.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 3 Closed"}
+{18ID:,  "BLEPS:GV3_OPENED_LS",      "GV3.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 3 Opened"}
+
+{18ID:,  "BLEPS:GV4_CLOSED_LS",      "GV4.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 4 Closed"}
+{18ID:,  "BLEPS:GV4_OPENED_LS",      "GV4.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 4 Opened"}
+
+{18ID:,  "BLEPS:GV5_CLOSED_LS",      "GV5.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 5 Closed"}
+{18ID:,  "BLEPS:GV5_OPENED_LS",      "GV5.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 5 Opened"}
+
+{18ID:,  "BLEPS:GV6_CLOSED_LS",      "GV6.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 6 Closed"}
+{18ID:,  "BLEPS:GV6_OPENED_LS",      "GV6.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 6 Opened"}
+
+{18ID:,  "BLEPS:GV7_CLOSED_LS",      "GV7.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 7 Closed"}
+{18ID:,  "BLEPS:GV7_OPENED_LS",      "GV7.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 7 Opened"}
+
+{18ID:,  "BLEPS:FLOW1_STATUS",       "Flow1.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Flow 1 Status"}
+{18ID:,  "BLEPS:FLOW2_STATUS",       "Flow2.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Flow 2 Status"}
+
+{18ID:,  "BLEPS:TEMP1_STATUS",       "Temp1.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 1 Status"}
+{18ID:,  "BLEPS:TEMP2_STATUS",       "Temp2.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 2 Status"}
+{18ID:,  "BLEPS:TEMP3_STATUS",       "Temp3.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 3 Status"}
+{18ID:,  "BLEPS:TEMP4_STATUS",       "Temp4.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 4 Status"}
+{18ID:,  "BLEPS:TEMP5_STATUS",       "Temp5.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 5 Status"}
+{18ID:,  "BLEPS:TEMP6_STATUS",       "Temp6.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 6 Status"}
+{18ID:,  "BLEPS:TEMP7_STATUS",       "Temp7.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 7 Status"}
+{18ID:,  "BLEPS:TEMP8_STATUS",       "Temp8.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 8 Status"}
+{18ID:,  "BLEPS:TEMP9_STATUS",       "Temp9.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 9 Status"}
+{18ID:,  "BLEPS:TEMP10_STATUS",       "Temp10.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 10 Status"}
+{18ID:,  "BLEPS:TEMP11_STATUS",       "Temp11.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 11 Status"}
+{18ID:,  "BLEPS:TEMP12_STATUS",       "Temp12.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 12 Status"}
+{18ID:,  "BLEPS:TEMP13_STATUS",       "Temp13.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 13 Status"}
+{18ID:,  "BLEPS:TEMP14_STATUS",       "Temp14.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 14 Status"}
+{18ID:,  "BLEPS:TEMP15_STATUS",       "Temp15.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 15 Status"}
+{18ID:,  "BLEPS:TEMP16_STATUS",       "Temp16.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Temp 16 Status"}
+
+}
+
+# Outputs
+file "$(TOP)/db/bleps_bi.db"
+{
+pattern
+{P,     N                           TAG                         SCAN    ZNAM        ONAM        ZSV         OSV         DESC}
+{18ID:,  "BLEPS:BIV_PERMIT",    	    "BIV.Permit",              "2.0",  "NO",     "YES",      "MAJOR", "NO_ALARM", "Beamline Iso Valve Permit"}
+{18ID:,  "BLEPS:FES_PERMIT",    	    "FES.Permit",              "2.0",  "NO",     "YES",      "MAJOR", "NO_ALARM", "Front End Shutter Permit"}
+{18ID:,  "BLEPS:SDS_PERMIT",    	    "SDS.Permit",              "2.0",  "NO",     "YES",      "MAJOR", "NO_ALARM", "Station D Shutter Permit"}
+
+{18ID:,  "BLEPS:GV1_OPEN_COMMAND",  "GV1.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 1 Open Command"}
+{18ID:,  "BLEPS:GV2_OPEN_COMMAND",  "GV2.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 2 Open Command"}
+{18ID:,  "BLEPS:GV3_OPEN_COMMAND",  "GV3.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 3 Open Command"}
+{18ID:,  "BLEPS:GV4_OPEN_COMMAND",  "GV4.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 4 Open Command"}
+{18ID:,  "BLEPS:GV6_OPEN_COMMAND",  "GV6.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 6 Open Command"}
+{18ID:,  "BLEPS:GV7_OPEN_COMMAND",  "GV7.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 7 Open Command"}
+
+{18ID:,  "BLEPS:RED_LIGHT",    "Red_Light",               		"2.0",  "",       "PRESENT",  	   "NO_ALARM", 	"MAJOR",    	"Red Beacon Light"}
+{18ID:,  "BLEPS:YELLOW_LIGHT", "Yellow_Light",            		"2.0",  "",       "PRESENT",  	   "NO_ALARM", 	"MINOR",    	"Yellow Beaon Light"}
+{18ID:,  "BLEPS:GREEN_LIGHT",  "Green_Light",             		"2.0",  "",       "PRESENT",  	   "NO_ALARM", 	"NO_ALARM",    	"Green Beacon Light"}
+{18ID:,  "BLEPS:BUZZER",       "Buzzer",                  		"2.0",  "",       "PRESENT",   	   "NO_ALARM", 	"MINOR",    	"Audio Buzzer"}
+
+}
+
+# Display
+file "$(TOP)/db/bleps_bi.db"
+{
+pattern
+{P,     N                           TAG                         SCAN    ZNAM        ONAM        ZSV         OSV         DESC}
+{18ID:,  "BLEPS:GV1_OPEN_PERMIT",    "GV1.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV1 Open Permit"}
+{18ID:,  "BLEPS:GV1_CLOSE_PERMIT",   "GV1.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV1 Close Permit"}
+
+{18ID:,  "BLEPS:GV2_OPEN_PERMIT",    "GV2.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV2 Open Permit"}
+{18ID:,  "BLEPS:GV2_CLOSE_PERMIT",   "GV2.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV2 Close Permit"}
+
+{18ID:,  "BLEPS:GV3_OPEN_PERMIT",    "GV3.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV3 Open Permit"}
+{18ID:,  "BLEPS:GV3_CLOSE_PERMIT",   "GV3.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV3 Close Permit"}
+
+{18ID:,  "BLEPS:GV4_OPEN_PERMIT",    "GV4.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV4 Open Permit"}
+{18ID:,  "BLEPS:GV4_CLOSE_PERMIT",   "GV4.Close_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV4 Close Permit"}
+
+{18ID:,  "BLEPS:GV6_OPEN_PERMIT",    "GV6.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV6 Open Permit"}
+{18ID:,  "BLEPS:GV6_CLOSE_PERMIT",   "GV6.Close_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV6 Close Permit"}
+
+{18ID:,  "BLEPS:GV7_OPEN_PERMIT",    "GV7.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV7 Open Permit"}
+{18ID:,  "BLEPS:GV7_CLOSE_PERMIT",   "GV7.Close_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV7 Close Permit"}
+
+}
+
+# EPICS Inputs
+file "$(TOP)/db/bleps_bo.db"
+{
+pattern
+{P,      N                   TAG                    HIGH    	ZNAM   	ONAM        	DESC}
+{18ID:,  "BLEPS:FAULT_RESET",  "Fault_Reset_EPICS",	"1.0",     	"",    	"RESET",    	"EPICS Fault Reset"}
+{18ID:,  "BLEPS:TRIP_RESET",  "Trip_Reset_EPICS", 	"1.0",     	"",     "RESET",    	"EPICS Trip Reset"}
+
+{18ID:,  "BLEPS:GV1_EPICS_OPEN",   "GV1.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV01 Open Request"}
+{18ID:,  "BLEPS:GV1_EPICS_CLOSE",  "GV1.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV01 Close Request"}
+
+{18ID:,  "BLEPS:GV2_EPICS_OPEN",   "GV2.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV02 Open Request"}
+{18ID:,  "BLEPS:GV2_EPICS_CLOSE",  "GV2.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV02 Close Request"}
+
+{18ID:,  "BLEPS:GV3_EPICS_OPEN",   "GV3.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV03 Open Request"}
+{18ID:,  "BLEPS:GV3_EPICS_CLOSE",  "GV3.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV03 Close Request"}
+
+{18ID:,  "BLEPS:GV4_EPICS_OPEN",   "GV4.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV04 Open Request"}
+{18ID:,  "BLEPS:GV4_EPICS_CLOSE",  "GV4.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV04 Close Request"}
+
+{18ID:,  "BLEPS:GV5_EPICS_OPEN",   "GV5.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV05 Open Request"}
+{18ID:,  "BLEPS:GV5_EPICS_CLOSE",  "GV5.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV05 Close Request"}
+
+{18ID:,  "BLEPS:GV6_EPICS_OPEN",   "GV6.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV06 Open Request"}
+{18ID:,  "BLEPS:GV6_EPICS_CLOSE",  "GV6.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV06 Close Request"}
+
+{18ID:,  "BLEPS:GV7_EPICS_OPEN",   "GV7.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV07 Open Request"}
+{18ID:,  "BLEPS:GV7_EPICS_CLOSE",  "GV7.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV07 Close Request"}
+
+}
+#### | ~ . ~ . ~ |	END SECTION	| ~ . ~ . ~ | ###
+
+
+
+
+# | ~ . ~ . ~ |	ANALOG IN/OUT	| ~ . ~ . ~ |
+
+# Display
+file "$(TOP)/db/bleps_ai.db"
+{
+pattern
+{P,        		N                      TAG        				SCAN    PREC    EGU     HIHI    HIGH    LOW     LOLO    HHSV    HSV     LSV     LLSV    	DESC}
+{18ID:,  "BLEPS:GV1_TYPE",           "GV1.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 		"GV1 Type"}
+{18ID:,  "BLEPS:GV2_TYPE",           "GV2.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	    "GV2 Type"}
+{18ID:,  "BLEPS:GV3_TYPE",           "GV3.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",         "GV3 Type"}
+{18ID:,  "BLEPS:GV4_TYPE",           "GV4.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",         "GV4 Type"}
+{18ID:,  "BLEPS:GV5_TYPE",           "GV5.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",         "GV5 Type"}
+{18ID:,  "BLEPS:GV6_TYPE",           "GV6.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",         "GV6 Type"}
+{18ID:,  "BLEPS:GV7_TYPE",           "GV7.Type",                 "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",         "GV7 Type"}
+
+}
+
+#  AI record to keep track of FAULTS, TRIPS, and WARNINGS  last 10 events...
+file "$(TOP)/db/bleps_ai.db"
+{
+pattern
+{P,        		N                      TAG        				SCAN    PREC    EGU     HIHI    HIGH    LOW     LOLO    HHSV    HSV     LSV     LLSV    	DESC}
+{18ID:,  "BLEPS:FAULT_NUMBER_01",    "Faults.Number[0]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 01"}
+{18ID:,  "BLEPS:FAULT_NUMBER_02",    "Faults.Number[1]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 02"}
+{18ID:,  "BLEPS:FAULT_NUMBER_03",    "Faults.Number[2]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 03"}
+{18ID:,  "BLEPS:FAULT_NUMBER_04",    "Faults.Number[3]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 04"}
+{18ID:,  "BLEPS:FAULT_NUMBER_05",    "Faults.Number[4]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 05"}
+{18ID:,  "BLEPS:FAULT_NUMBER_06",    "Faults.Number[5]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 06"}
+{18ID:,  "BLEPS:FAULT_NUMBER_07",    "Faults.Number[6]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 07"}
+{18ID:,  "BLEPS:FAULT_NUMBER_08",    "Faults.Number[7]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 08"}
+{18ID:,  "BLEPS:FAULT_NUMBER_09",    "Faults.Number[8]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 09"}
+{18ID:,  "BLEPS:FAULT_NUMBER_10",    "Faults.Number[9]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Number 10"}
+{18ID:,  "BLEPS:FAULT_YEAR_01",  "Faults.Year[0]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 01"}
+{18ID:,  "BLEPS:FAULT_YEAR_02",  "Faults.Year[1]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 02"}
+{18ID:,  "BLEPS:FAULT_YEAR_03",  "Faults.Year[2]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 03"}
+{18ID:,  "BLEPS:FAULT_YEAR_04",  "Faults.Year[3]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 04"}
+{18ID:,  "BLEPS:FAULT_YEAR_05",  "Faults.Year[4]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 05"}
+{18ID:,  "BLEPS:FAULT_YEAR_06",  "Faults.Year[5]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 06"}
+{18ID:,  "BLEPS:FAULT_YEAR_07",  "Faults.Year[6]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 07"}
+{18ID:,  "BLEPS:FAULT_YEAR_08",  "Faults.Year[7]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 08"}
+{18ID:,  "BLEPS:FAULT_YEAR_09",  "Faults.Year[8]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 09"}
+{18ID:,  "BLEPS:FAULT_YEAR_10", 	"Faults.Year[9]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Year 10"}
+{18ID:,  "BLEPS:FAULT_MONTH_01", "Faults.Month[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 01"}
+{18ID:,  "BLEPS:FAULT_MONTH_02", "Faults.Month[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 02"}
+{18ID:,  "BLEPS:FAULT_MONTH_03", "Faults.Month[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 03"}
+{18ID:,  "BLEPS:FAULT_MONTH_04", "Faults.Month[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 04"}
+{18ID:,  "BLEPS:FAULT_MONTH_05", "Faults.Month[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 05"}
+{18ID:,  "BLEPS:FAULT_MONTH_06", "Faults.Month[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 06"}
+{18ID:,  "BLEPS:FAULT_MONTH_07", "Faults.Month[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 07"}
+{18ID:,  "BLEPS:FAULT_MONTH_08", "Faults.Month[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 08"}
+{18ID:,  "BLEPS:FAULT_MONTH_09", "Faults.Month[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 09"}
+{18ID:,  "BLEPS:FAULT_MONTH_10", "Faults.Month[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Month 10"}
+{18ID:,  "BLEPS:FAULT_DAY_01",   "Faults.Day[0]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 01"}
+{18ID:,  "BLEPS:FAULT_DAY_02",   "Faults.Day[1]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 02"}
+{18ID:,  "BLEPS:FAULT_DAY_03",   "Faults.Day[2]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 03"}
+{18ID:,  "BLEPS:FAULT_DAY_04",   "Faults.Day[3]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 04"}
+{18ID:,  "BLEPS:FAULT_DAY_05",   "Faults.Day[4]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 05"}
+{18ID:,  "BLEPS:FAULT_DAY_06",   "Faults.Day[5]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 06"}
+{18ID:,  "BLEPS:FAULT_DAY_07",   "Faults.Day[6]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 07"}
+{18ID:,  "BLEPS:FAULT_DAY_08",   "Faults.Day[7]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 08"}
+{18ID:,  "BLEPS:FAULT_DAY_09",   "Faults.Day[8]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 09"}
+{18ID:,  "BLEPS:FAULT_DAY_10",  	"Faults.Day[9]",               	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Fault Day 10"}
+{18ID:,  "BLEPS:FAULT_HOUR_01",  "Faults.Hour[0]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 01"}
+{18ID:,  "BLEPS:FAULT_HOUR_02",  "Faults.Hour[1]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 02"}
+{18ID:,  "BLEPS:FAULT_HOUR_03",  "Faults.Hour[2]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 03"}
+{18ID:,  "BLEPS:FAULT_HOUR_04",  "Faults.Hour[3]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 04"}
+{18ID:,  "BLEPS:FAULT_HOUR_05",  "Faults.Hour[4]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 05"}
+{18ID:,  "BLEPS:FAULT_HOUR_06",  "Faults.Hour[5]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 06"}
+{18ID:,  "BLEPS:FAULT_HOUR_07",  "Faults.Hour[6]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 07"}
+{18ID:,  "BLEPS:FAULT_HOUR_08",  "Faults.Hour[7]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 08"}
+{18ID:,  "BLEPS:FAULT_HOUR_09",  "Faults.Hour[8]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 09"}
+{18ID:,  "BLEPS:FAULT_HOUR_10",  "Faults.Hour[9]",              	"2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Fault Hour 10"}
+{18ID:,  "BLEPS:FAULT_MINUTE_01",   "Faults.Minute[0]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 01"}
+{18ID:,  "BLEPS:FAULT_MINUTE_02",   "Faults.Minute[1]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 01"}
+{18ID:,  "BLEPS:FAULT_MINUTE_03",   "Faults.Minute[2]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 03"}
+{18ID:,  "BLEPS:FAULT_MINUTE_04",   "Faults.Minute[3]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 04"}
+{18ID:,  "BLEPS:FAULT_MINUTE_05",   "Faults.Minute[4]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 05"}
+{18ID:,  "BLEPS:FAULT_MINUTE_06",   "Faults.Minute[5]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 06"}
+{18ID:,  "BLEPS:FAULT_MINUTE_07",   "Faults.Minute[6]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 07"}
+{18ID:,  "BLEPS:FAULT_MINUTE_08",   "Faults.Minute[7]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 08"}
+{18ID:,  "BLEPS:FAULT_MINUTE_09",   "Faults.Minute[8]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 09"}
+{18ID:,  "BLEPS:FAULT_MINUTE_10",   "Faults.Minute[9]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Minute 10"}
+{18ID:,  "BLEPS:FAULT_SECOND_01",   "Faults.Second[0]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 01"}
+{18ID:,  "BLEPS:FAULT_SECOND_02",   "Faults.Second[1]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 02"}
+{18ID:,  "BLEPS:FAULT_SECOND_03",   "Faults.Second[2]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 03"}
+{18ID:,  "BLEPS:FAULT_SECOND_04",   "Faults.Second[3]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 04"}
+{18ID:,  "BLEPS:FAULT_SECOND_05",   "Faults.Second[4]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 05"}
+{18ID:,  "BLEPS:FAULT_SECOND_06",   "Faults.Second[5]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 06"}
+{18ID:,  "BLEPS:FAULT_SECOND_07",   "Faults.Second[6]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 07"}
+{18ID:,  "BLEPS:FAULT_SECOND_08",   "Faults.Second[7]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 08"}
+{18ID:,  "BLEPS:FAULT_SECOND_09",   "Faults.Second[8]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 09"}
+{18ID:,  "BLEPS:FAULT_SECOND_10",   "Faults.Second[9]",            	"2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     	"Fault Second 10"}
+{18ID:,  "BLEPS:TRIP_NUMBER_01",    "Trips.Number[0]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 01"}
+{18ID:,  "BLEPS:TRIP_NUMBER_02",    "Trips.Number[1]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 02"}
+{18ID:,  "BLEPS:TRIP_NUMBER_03",    "Trips.Number[2]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 03"}
+{18ID:,  "BLEPS:TRIP_NUMBER_04",    "Trips.Number[3]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 04"}
+{18ID:,  "BLEPS:TRIP_NUMBER_05",    "Trips.Number[4]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 05"}
+{18ID:,  "BLEPS:TRIP_NUMBER_06",    "Trips.Number[5]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 06"}
+{18ID:,  "BLEPS:TRIP_NUMBER_07",    "Trips.Number[6]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 07"}
+{18ID:,  "BLEPS:TRIP_NUMBER_08",    "Trips.Number[7]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 08"}
+{18ID:,  "BLEPS:TRIP_NUMBER_09",    "Trips.Number[8]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 09"}
+{18ID:,  "BLEPS:TRIP_NUMBER_10",    "Trips.Number[9]",            "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Number 10"}
+{18ID:,  "BLEPS:TRIP_YEAR_01",  "Trips.Year[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 01"}
+{18ID:,  "BLEPS:TRIP_YEAR_02",  "Trips.Year[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 02"}
+{18ID:,  "BLEPS:TRIP_YEAR_03",  "Trips.Year[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 03"}
+{18ID:,  "BLEPS:TRIP_YEAR_04",  "Trips.Year[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 04"}
+{18ID:,  "BLEPS:TRIP_YEAR_05",  "Trips.Year[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 05"}
+{18ID:,  "BLEPS:TRIP_YEAR_06",  "Trips.Year[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 06"}
+{18ID:,  "BLEPS:TRIP_YEAR_07",  "Trips.Year[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 07"}
+{18ID:,  "BLEPS:TRIP_YEAR_08",  "Trips.Year[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 08"}
+{18ID:,  "BLEPS:TRIP_YEAR_09",  "Trips.Year[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 09"}
+{18ID:,  "BLEPS:TRIP_YEAR_10",  "Trips.Year[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Year 10"}
+{18ID:,  "BLEPS:TRIP_MONTH_01",  "Trips.Month[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 01"}
+{18ID:,  "BLEPS:TRIP_MONTH_02",  "Trips.Month[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 02"}
+{18ID:,  "BLEPS:TRIP_MONTH_03",  "Trips.Month[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 03"}
+{18ID:,  "BLEPS:TRIP_MONTH_04",  "Trips.Month[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 04"}
+{18ID:,  "BLEPS:TRIP_MONTH_05",  "Trips.Month[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 05"}
+{18ID:,  "BLEPS:TRIP_MONTH_06",  "Trips.Month[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 06"}
+{18ID:,  "BLEPS:TRIP_MONTH_07",  "Trips.Month[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 07"}
+{18ID:,  "BLEPS:TRIP_MONTH_08",  "Trips.Month[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 08"}
+{18ID:,  "BLEPS:TRIP_MONTH_09",  "Trips.Month[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 09"}
+{18ID:,  "BLEPS:TRIP_MONTH_10",  "Trips.Month[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Month 10"}
+{18ID:,  "BLEPS:TRIP_DAY_01",   "Trips.Day[0]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 01"}
+{18ID:,  "BLEPS:TRIP_DAY_02",   "Trips.Day[1]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 02"}
+{18ID:,  "BLEPS:TRIP_DAY_03",   "Trips.Day[2]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 03"}
+{18ID:,  "BLEPS:TRIP_DAY_04",   "Trips.Day[3]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 04"}
+{18ID:,  "BLEPS:TRIP_DAY_05",   "Trips.Day[4]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 05"}
+{18ID:,  "BLEPS:TRIP_DAY_06",   "Trips.Day[5]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 06"}
+{18ID:,  "BLEPS:TRIP_DAY_07",   "Trips.Day[6]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 07"}
+{18ID:,  "BLEPS:TRIP_DAY_08",   "Trips.Day[7]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 08"}
+{18ID:,  "BLEPS:TRIP_DAY_09",   "Trips.Day[8]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 09"}
+{18ID:,  "BLEPS:TRIP_DAY_10",   "Trips.Day[9]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Trips Day 10"}
+{18ID:,  "BLEPS:TRIP_HOUR_01",  "Trips.Hour[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 01"}
+{18ID:,  "BLEPS:TRIP_HOUR_02",  "Trips.Hour[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 02"}
+{18ID:,  "BLEPS:TRIP_HOUR_03",  "Trips.Hour[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 03"}
+{18ID:,  "BLEPS:TRIP_HOUR_04",  "Trips.Hour[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 04"}
+{18ID:,  "BLEPS:TRIP_HOUR_05",  "Trips.Hour[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 05"}
+{18ID:,  "BLEPS:TRIP_HOUR_06",  "Trips.Hour[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 06"}
+{18ID:,  "BLEPS:TRIP_HOUR_07",  "Trips.Hour[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 07"}
+{18ID:,  "BLEPS:TRIP_HOUR_08",  "Trips.Hour[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 08"}
+{18ID:,  "BLEPS:TRIP_HOUR_09",  "Trips.Hour[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 09"}
+{18ID:,  "BLEPS:TRIP_HOUR_10",  "Trips.Hour[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Trips Hour 10"}
+{18ID:,  "BLEPS:TRIP_MINUTE_01",   "Trips.Minute[0]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 01"}
+{18ID:,  "BLEPS:TRIP_MINUTE_02",   "Trips.Minute[1]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 02"}
+{18ID:,  "BLEPS:TRIP_MINUTE_03",   "Trips.Minute[2]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 03"}
+{18ID:,  "BLEPS:TRIP_MINUTE_04",   "Trips.Minute[3]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 04"}
+{18ID:,  "BLEPS:TRIP_MINUTE_05",   "Trips.Minute[4]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 05"}
+{18ID:,  "BLEPS:TRIP_MINUTE_06",   "Trips.Minute[5]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 06"}
+{18ID:,  "BLEPS:TRIP_MINUTE_07",   "Trips.Minute[6]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 07"}
+{18ID:,  "BLEPS:TRIP_MINUTE_08",   "Trips.Minute[7]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 08"}
+{18ID:,  "BLEPS:TRIP_MINUTE_09",   "Trips.Minute[8]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 09"}
+{18ID:,  "BLEPS:TRIP_MINUTE_10",   "Trips.Minute[9]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Minute 10"}
+{18ID:,  "BLEPS:TRIP_SECOND_01",   "Trips.Second[0]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 01"}
+{18ID:,  "BLEPS:TRIP_SECOND_02",   "Trips.Second[1]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 02"}
+{18ID:,  "BLEPS:TRIP_SECOND_03",   "Trips.Second[2]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 03"}
+{18ID:,  "BLEPS:TRIP_SECOND_04",   "Trips.Second[3]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 04"}
+{18ID:,  "BLEPS:TRIP_SECOND_05",   "Trips.Second[4]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 05"}
+{18ID:,  "BLEPS:TRIP_SECOND_06",   "Trips.Second[5]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 06"}
+{18ID:,  "BLEPS:TRIP_SECOND_07",   "Trips.Second[6]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 07"}
+{18ID:,  "BLEPS:TRIP_SECOND_08",   "Trips.Second[7]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 08"}
+{18ID:,  "BLEPS:TRIP_SECOND_09",   "Trips.Second[8]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 09"}
+{18ID:,  "BLEPS:TRIP_SECOND_10",   "Trips.Second[9]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Trips Second 10"}
+{18ID:,  "BLEPS:WARN_NUMBER_01",    "Warnings.Number[0]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 01"}
+{18ID:,  "BLEPS:WARN_NUMBER_02",    "Warnings.Number[1]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 02"}
+{18ID:,  "BLEPS:WARN_NUMBER_03",    "Warnings.Number[2]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 03"}
+{18ID:,  "BLEPS:WARN_NUMBER_04",    "Warnings.Number[3]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 04"}
+{18ID:,  "BLEPS:WARN_NUMBER_05",    "Warnings.Number[4]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 05"}
+{18ID:,  "BLEPS:WARN_NUMBER_06",    "Warnings.Number[5]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 06"}
+{18ID:,  "BLEPS:WARN_NUMBER_07",    "Warnings.Number[6]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 07"}
+{18ID:,  "BLEPS:WARN_NUMBER_08",    "Warnings.Number[7]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 08"}
+{18ID:,  "BLEPS:WARN_NUMBER_09",    "Warnings.Number[8]",             "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 09"}
+{18ID:,  "BLEPS:WARN_NUMBER_10",    "Warnings.Number[9]",            "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Number 10"}
+{18ID:,  "BLEPS:WARN_YEAR_01",  "Warnings.Year[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 01"}
+{18ID:,  "BLEPS:WARN_YEAR_02",  "Warnings.Year[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 02"}
+{18ID:,  "BLEPS:WARN_YEAR_03",  "Warnings.Year[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 03"}
+{18ID:,  "BLEPS:WARN_YEAR_04",  "Warnings.Year[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 04"}
+{18ID:,  "BLEPS:WARN_YEAR_05",  "Warnings.Year[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 05"}
+{18ID:,  "BLEPS:WARN_YEAR_06",  "Warnings.Year[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 06"}
+{18ID:,  "BLEPS:WARN_YEAR_07",  "Warnings.Year[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 07"}
+{18ID:,  "BLEPS:WARN_YEAR_08",  "Warnings.Year[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 08"}
+{18ID:,  "BLEPS:WARN_YEAR_09",  "Warnings.Year[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 09"}
+{18ID:,  "BLEPS:WARN_YEAR_10",  "Warnings.Year[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Year 10"}
+{18ID:,  "BLEPS:WARN_MONTH_01",  "Warnings.Month[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 01"}
+{18ID:,  "BLEPS:WARN_MONTH_02",  "Warnings.Month[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 02"}
+{18ID:,  "BLEPS:WARN_MONTH_03",  "Warnings.Month[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 03"}
+{18ID:,  "BLEPS:WARN_MONTH_04",  "Warnings.Month[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 04"}
+{18ID:,  "BLEPS:WARN_MONTH_05",  "Warnings.Month[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 05"}
+{18ID:,  "BLEPS:WARN_MONTH_06",  "Warnings.Month[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 06"}
+{18ID:,  "BLEPS:WARN_MONTH_07",  "Warnings.Month[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 07"}
+{18ID:,  "BLEPS:WARN_MONTH_08",  "Warnings.Month[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 08"}
+{18ID:,  "BLEPS:WARN_MONTH_09",  "Warnings.Month[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 09"}
+{18ID:,  "BLEPS:WARN_MONTH_10",  "Warnings.Month[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Month 10"}
+{18ID:,  "BLEPS:WARN_DAY_01",   "Warnings.Day[0]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 01"}
+{18ID:,  "BLEPS:WARN_DAY_02",   "Warnings.Day[1]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 02"}
+{18ID:,  "BLEPS:WARN_DAY_03",   "Warnings.Day[2]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 03"}
+{18ID:,  "BLEPS:WARN_DAY_04",   "Warnings.Day[3]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 04"}
+{18ID:,  "BLEPS:WARN_DAY_05",   "Warnings.Day[4]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 05"}
+{18ID:,  "BLEPS:WARN_DAY_06",   "Warnings.Day[5]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 06"}
+{18ID:,  "BLEPS:WARN_DAY_07",   "Warnings.Day[6]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 07"}
+{18ID:,  "BLEPS:WARN_DAY_08",   "Warnings.Day[7]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 08"}
+{18ID:,  "BLEPS:WARN_DAY_09",   "Warnings.Day[8]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 09"}
+{18ID:,  "BLEPS:WARN_DAY_10",   "Warnings.Day[9]",               "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Warning Day 10"}
+{18ID:,  "BLEPS:WARN_HOUR_01",  "Warnings.Hour[0]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 01"}
+{18ID:,  "BLEPS:WARN_HOUR_02",  "Warnings.Hour[1]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 02"}
+{18ID:,  "BLEPS:WARN_HOUR_03",  "Warnings.Hour[2]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 03"}
+{18ID:,  "BLEPS:WARN_HOUR_04",  "Warnings.Hour[3]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 04"}
+{18ID:,  "BLEPS:WARN_HOUR_05",  "Warnings.Hour[4]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 05"}
+{18ID:,  "BLEPS:WARN_HOUR_06",  "Warnings.Hour[5]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 06"}
+{18ID:,  "BLEPS:WARN_HOUR_07",  "Warnings.Hour[6]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 07"}
+{18ID:,  "BLEPS:WARN_HOUR_08",  "Warnings.Hour[7]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 08"}
+{18ID:,  "BLEPS:WARN_HOUR_09",  "Warnings.Hour[8]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 09"}
+{18ID:,  "BLEPS:WARN_HOUR_10",  "Warnings.Hour[9]",              "2.0",  "0",    "",     "",     "",     "",     "",     "",     "",     "",     "",    "Warning Hour 10"}
+{18ID:,  "BLEPS:WARN_MINUTE_01",   "Warnings.Minute[0]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 01"}
+{18ID:,  "BLEPS:WARN_MINUTE_02",   "Warnings.Minute[1]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 02"}
+{18ID:,  "BLEPS:WARN_MINUTE_03",   "Warnings.Minute[2]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 03"}
+{18ID:,  "BLEPS:WARN_MINUTE_04",   "Warnings.Minute[3]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 04"}
+{18ID:,  "BLEPS:WARN_MINUTE_05",   "Warnings.Minute[4]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 05"}
+{18ID:,  "BLEPS:WARN_MINUTE_06",   "Warnings.Minute[5]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 06"}
+{18ID:,  "BLEPS:WARN_MINUTE_07",   "Warnings.Minute[6]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 07"}
+{18ID:,  "BLEPS:WARN_MINUTE_08",   "Warnings.Minute[7]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 08"}
+{18ID:,  "BLEPS:WARN_MINUTE_09",   "Warnings.Minute[8]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 09"}
+{18ID:,  "BLEPS:WARN_MINUTE_10",   "Warnings.Minute[9]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Minute 10"}
+{18ID:,  "BLEPS:WARN_SECOND_01",   "Warnings.Second[0]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 01"}
+{18ID:,  "BLEPS:WARN_SECOND_02",   "Warnings.Second[1]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 02"}
+{18ID:,  "BLEPS:WARN_SECOND_03",   "Warnings.Second[2]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 03"}
+{18ID:,  "BLEPS:WARN_SECOND_04",   "Warnings.Second[3]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 04"}
+{18ID:,  "BLEPS:WARN_SECOND_05",   "Warnings.Second[4]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 05"}
+{18ID:,  "BLEPS:WARN_SECOND_06",   "Warnings.Second[5]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 06"}
+{18ID:,  "BLEPS:WARN_SECOND_07",   "Warnings.Second[6]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 07"}
+{18ID:,  "BLEPS:WARN_SECOND_08",   "Warnings.Second[7]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 08"}
+{18ID:,  "BLEPS:WARN_SECOND_09",   "Warnings.Second[8]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 09"}
+{18ID:,  "BLEPS:WARN_SECOND_10",   "Warnings.Second[9]",            "2.0",  "0",    "",     "",     "",     "",     "",   "",     "",     "",     "",     "Warning Second 10"}
+}
+
+# Info records
+file "$(TOP)/db/bleps_ai.db"
+{
+pattern
+{P,        N                      			TAG		    				SCAN    PREC    EGU     HIHI    HIGH    LOW     LOLO    HHSV    HSV     LSV     LLSV    DESC}
+{18ID:,  "BLEPS:BEAMLINE_NUMBER",     "Info.Beamline_Number",        "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Sector Number"}
+{18ID:,  "BLEPS:BEAMLINE_TYPE",       "Info.Beamline_Type",       	"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "BM/ID, 0=BM, 1=ID"}
+{18ID:,  "BLEPS:SOFTWARE_VERSION",    "Info.Software_Version",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     ""}
+{18ID:,  "BLEPS:CPU_PROUCT_CODE",     "Info.CPU_Product_Code",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Processor Version"}
+{18ID:,  "BLEPS:CPU_PRODUCT_REVISION","Info.CPU_Product_Revision",   "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Processor revision"}
+{18ID:,  "BLEPS:CPU_SERIAL_NUMBER",   "Info.CPU_Serial_Number",      "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Processor Serial Number"}
+{18ID:,  "BLEPS:YEAR",   			 "Info.Year",       			"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Current Year"}
+{18ID:,  "BLEPS:MONTH",		         "Info.Month",       			"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Current Month"}
+{18ID:,  "BLEPS:DAY",		         "Info.Day",       				"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Current Day"}
+{18ID:,  "BLEPS:HOUR",	             "Info.Hour",       			"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Current Hour"}
+{18ID:,  "BLEPS:MINUTE",		         "Info.Minute",       			"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Current Minute"}
+{18ID:,  "BLEPS:SECOND",		         "Info.Second",       			"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Current Second"}
+{18ID:,  "BLEPS:LAST_SCAN_TIME",      "Info.Last_Scan_Time",       	"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Time for Last scan"}
+{18ID:,  "BLEPS:MAX_SCAN_TIME",       "Info.Max_Scan_Time",       	"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Time for Longest scan"}
+{18ID:,  "BLEPS:MAJOR_EVENTS",        "Info.Major_Events",       	"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Processor Major Events"}
+{18ID:,  "BLEPS:MAJOR_FAULT_BITS",        "Info.Major_Fault_Bits",       	"5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "",     "Processor Major Event Bits"}
+{18ID:,  "BLEPS:MAJOR_FLT_TIME_LOW",  "Info.Major_Fault.Time_Low",   "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Major Fault Time Low"}
+{18ID:,  "BLEPS:MAJOR_FLT_TIME_HIGH", "Info.Major_Fault.Time_High",  "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Major Fault Time High"}
+{18ID:,  "BLEPS:MAJOR_FLT_TYPE",    	 "Info.Major_Fault.Type",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Major Fault Type"}
+{18ID:,  "BLEPS:MAJOR_FLT_CODE",      "Info.Major_Fault.Code",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Major Fault Code"}
+{18ID:,  "BLEPS:MAJOR_FLT_INFO",      "Info.Major_Fault.Info",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Major Fault info"}
+{18ID:,  "BLEPS:MINOR_EVENTS",        "Info.Minor_Events",           "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Processor Minor Fault"}
+{18ID:,  "BLEPS:MINOR_FAULT_BITS",    "Info.Minor_Fault_Bits",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Processor Minor Event Bits"}
+{18ID:,  "BLEPS:MINOR_FLT_TIME_LOW",  "Info.Minor_Fault.Time_Low",   "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault Time Low"}
+{18ID:,  "BLEPS:MINOR_FLT_TIME_HIGH", "Info.Minor_Fault.Time_High",  "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault Time High"}
+{18ID:,  "BLEPS:MINOR_FLT_TYPE",      "Info.Minor_Fault.Type",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault Type"}
+{18ID:,  "BLEPS:MINOR_FLT_CODE",      "Info.Minor_Fault.Code",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault Code"}
+{18ID:,  "BLEPS:MINOR_FLT_INFO",      "Info.Minor_Fault.Info",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault info"}
+{18ID:,  "BLEPS:COMM_FAULTS",         "Info.Communication_Faults",   "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Control Net Faults"}
+}
+
+# Flows 
+file "$(TOP)/db/bleps_ai.db"
+{
+pattern
+{P,     N                         TAG                     SCAN    PREC    EGU     HIHI    HIGH    LOW     LOLO    HHSV    HSV     LSV     LLSV    DESC}
+{18ID:,  "BLEPS:FLOW1_SCALING",    "Flow1.Scaling_Factor", "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Scaling factor for 1st Flow"}
+{18ID:,  "BLEPS:FLOW1_SET_POINT",  "Flow1.Set_Point",      "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Low Setpoint for 1st Flow"}
+{18ID:,  "BLEPS:FLOW1_CURRENT",    "Flow1.Current_Value",  "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Current value for 1st Flow"}  
+
+{18ID:,  "BLEPS:FLOW2_SCALING",    "Flow2.Scaling_Factor", "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Scaling factor for 2nd Flow"}
+{18ID:,  "BLEPS:FLOW2_SET_POINT",  "Flow2.Set_Point",      "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Low Setpoint for 2nd Flow"}
+{18ID:,  "BLEPS:FLOW2_CURRENT",    "Flow2.Current_Value",  "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Current value for 2nd Flow"}  
+
+}
+ 
+# Temps 
+file "$(TOP)/db/bleps_ai.db"
+{
+pattern
+{P,     N                         TAG                     SCAN    PREC    EGU     HIHI    HIGH    LOW     LOLO    HHSV    HSV     LSV     LLSV    DESC}
+{18ID:,  "BLEPS:TEMP1_SET_POINT",    "Temp1.Set_Point", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "High Setpoint for 1st Temp"}
+{18ID:,  "BLEPS:TEMP1_CURRENT",    "Temp1.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 1st Temp"}
+
+{18ID:,  "BLEPS:TEMP2_CURRENT",    "Temp2.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 2nd Temp"}
+
+{18ID:,  "BLEPS:TEMP3_SET_POINT",    "Temp3.Set_Point", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "High Setpoint for 3rd Temp"}
+{18ID:,  "BLEPS:TEMP3_CURRENT",    "Temp3.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 3rd Temp"}
+
+{18ID:,  "BLEPS:TEMP4_SET_POINT",    "Temp4.Set_Point", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "High Setpoint for 4th Temp"}
+{18ID:,  "BLEPS:TEMP4_CURRENT",    "Temp4.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 4th Temp"}
+
+{18ID:,  "BLEPS:TEMP5_CURRENT",    "Temp5.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 5th Temp"}
+
+{18ID:,  "BLEPS:TEMP6_CURRENT",    "Temp6.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 6th Temp"}
+
+{18ID:,  "BLEPS:TEMP8_CURRENT",    "Temp8.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 8th Temp"}
+
+{18ID:,  "BLEPS:TEMP9_SET_POINT",    "Temp9.Set_Point", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "High Setpoint for 9th Temp"}
+{18ID:,  "BLEPS:TEMP9_CURRENT",    "Temp9.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 9th Temp"}
+
+{18ID:,  "BLEPS:TEMP10_CURRENT",    "Temp10.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 10th Temp"}
+
+{18ID:,  "BLEPS:TEMP11_SET_POINT",    "Temp11.Set_Point", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "High Setpoint for 11th Temp"}
+{18ID:,  "BLEPS:TEMP11_CURRENT",    "Temp11.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 11th Temp"}
+
+{18ID:,  "BLEPS:TEMP12_SET_POINT",    "Temp12.Set_Point", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "High Setpoint for 12th Temp"}
+{18ID:,  "BLEPS:TEMP12_CURRENT",    "Temp12.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 12th Temp"}
+
+{18ID:,  "BLEPS:TEMP13_CURRENT",    "Temp13.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 13th Temp"}
+
+{18ID:,  "BLEPS:TEMP14_CURRENT",    "Temp14.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 14th Temp"}
+
+{18ID:,  "BLEPS:TEMP16_CURRENT",    "Temp16.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 16th Temp"}
+
+}
+ 
