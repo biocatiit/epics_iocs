@@ -1,0 +1,20 @@
+IOC locations on cryptkeeper:
+iocbio1:
+boot: /home/ioc/iocbio1/st.cmd
+ioc def: /opt/epics/R3.12.2.patch7/iocApp/iocbio1
+
+iocbio2:
+boot: /home/ioc/iocbio2/st.cmd
+ioc def: /opt/epics/R3.12.2.patch7/iocApp/iocbio2
+
+iocbio3:
+boot: /home/ioc/iocbio3/st.cmd
+ioc def: /home/ioc/iocbio3
+
+iocbio4:
+boot: /home/ioc/iocbio5/st.cmd
+ioc def: /opt/epics/synApps_5_2/ioc/iocBoot/ioc18IDe
+
+iocbio5:
+boot: /opt/epics/synApps_5_8/ioc/18ID/iocBoot/io18IDd/st.cmd
+ioc def: /opt/epics/synApps_5_8/ioc/18ID
