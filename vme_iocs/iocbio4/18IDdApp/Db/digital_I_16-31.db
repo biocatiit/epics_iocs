@@ -1,0 +1,8 @@
+grecord(bi,"$(id):bi$(C):ch$(S)")
+{
+	field(SCAN,".1 second")
+	field(DTYP,"AVME9440 I")
+	field(INP,"#C$(C) S$(S) @")
+	field(ZNAM,"Off")
+	field(ONAM,"On")
+}

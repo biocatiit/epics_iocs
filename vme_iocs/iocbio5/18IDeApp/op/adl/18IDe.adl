@@ -1,0 +1,1755 @@
+
+file {
+	name="/home/oxygen4/MOONEY/epics/synApps_T202_E3_14_7_R5_1/support/xxx/18ID:eApp/op/adl/18ID:e.adl"
+	version=030101
+}
+display {
+	object {
+		x=495
+		y=25
+		width=450
+		height=160
+	}
+	clr=64
+	bclr=1
+	cmap=""
+	gridSpacing=10
+	gridOn=0
+	snapToGrid=1
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+"related display" {
+	object {
+		x=-114
+		y=538
+		width=136
+		height=23
+	}
+	display[0] {
+		label="TR_SLIT (S)"
+		name="trs.adl"
+		args="P=18ID:e:, M1=m7, M2=m8"
+	}
+	display[1] {
+		label="9-16"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m9,M2=m10,M3=m11,M4=m12,M5=m13,M6=m14,M7=m15,M8=m16"
+	}
+	display[2] {
+		label="17-24"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m17,M2=m18,M3=m19,M4=m20,M5=m21,M6=m22,M7=m23,M8=m24"
+	}
+	display[3] {
+		label="25-32"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m25,M2=m26,M3=m27,M4=m28,M5=m29,M6=m30,M7=m31,M8=m32"
+	}
+	display[4] {
+		label="33-40"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m33,M2=m34,M3=m35,M4=m36,M5=m37,M6=m38,M7=m39,M8=m40"
+	}
+	display[5] {
+		label="41-48"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m41,M2=m42,M3=m43,M4=m44,M5=m45,M6=m46,M7=m47,M8=m48"
+	}
+	display[6] {
+		label="49-56"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m49,M2=m50,M3=m51,M4=m52,M5=m53,M6=m54,M7=m55,M8=m56"
+	}
+	display[7] {
+		label="57-64"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m57,M2=m58,M3=m59,M4=m60,M5=m61,M6=m62,M7=m63,M8=m64"
+	}
+	clr=54
+	bclr=52
+}
+"related display" {
+	object {
+		x=0
+		y=0
+		width=70
+		height=20
+	}
+	display[0] {
+		label="1bm A"
+		name="1bma_beamline.adl"
+		args="P=18ID:e:"
+	}
+	display[1] {
+		label="2id E&D"
+		name="2ided_beamline.adl"
+		args="P=18ID:e:"
+	}
+	display[2] {
+		label="3id A"
+		name="StationA.adl"
+		args="P=18ID:e:"
+	}
+	display[3] {
+		label="3id B"
+		name="StationB.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-Beamline"
+}
+"related display" {
+	object {
+		x=0
+		y=40
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Table1 (S)"
+		name="table.adl"
+		args="P=18ID:e:,Q=Table1,T=table1,M0X=m1,M0Y=m2,M1Y=m3,M2X=m4,M2Y=m5,M2Z=m6"
+	}
+	display[1] {
+		label="Table1 (L)"
+		name="table_full.adl"
+		args="P=18ID:e:,Q=Table1,T=table1,M0X=m1,M0Y=m2,M1Y=m3,M2X=m4,M2Y=m5,M2Z=m6"
+	}
+	display[2] {
+		label="Table2 (S) (no Z)"
+		name="table.adl"
+		args="P=18ID:e:,Q=Table2,T=table2,M0X=m1,M0Y=m2,M1Y=m3,M2X=m4,M2Y=m5,M2Z=junk"
+	}
+	display[3] {
+		label="Table2 (L) (no Z)"
+		name="table_full.adl"
+		args="P=18ID:e:,Q=Table2,T=table2,M0X=m1,M0Y=m2,M1Y=m3,M2X=m4,M2Y=m5,M2Z=junk"
+	}
+	display[4] {
+		label="Table3 (S) (no X)"
+		name="table.adl"
+		args="P=18ID:e:,Q=Table3,T=table3,M0X=junk,M0Y=m2,M1Y=m3,M2X=junk,M2Y=m5,M2Z=m6"
+	}
+	display[5] {
+		label="Table3 (L) (no X)"
+		name="table_full.adl"
+		args="P=18ID:e:,Q=Table3,T=table3,M0X=junk,M0Y=m2,M1Y=m3,M2X=junk,M2Y=m5,M2Z=m6"
+	}
+	display[6] {
+		label="Table4 (S) (no X or Z)"
+		name="table.adl"
+		args="P=18ID:e:,Q=Table4,T=table4,M0X=junk,M0Y=m2,M1Y=m3,M2X=junk,M2Y=m5,M2Z=junk"
+	}
+	display[7] {
+		label="Table4 (L) (no X or Z)"
+		name="table_full.adl"
+		args="P=18ID:e:,Q=Table4,T=table4,M0X=junk,M0Y=m2,M1Y=m3,M2X=junk,M2Y=m5,M2Z=junk"
+	}
+	clr=0
+	bclr=17
+	label="-Tables"
+}
+"related display" {
+	object {
+		x=0
+		y=20
+		width=70
+		height=20
+	}
+	display[0] {
+		label="1-8"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m1,M2=m2,M3=m3,M4=m4,M5=m5,M6=m6,M7=m7,M8=m8"
+	}
+	display[1] {
+		label="9-16"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m9,M2=m10,M3=m11,M4=m12,M5=m13,M6=m14,M7=m15,M8=m16"
+	}
+	display[2] {
+		label="17-24"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m17,M2=m18,M3=m19,M4=m20,M5=m21,M6=m22,M7=m23,M8=m24"
+	}
+	display[3] {
+		label="25-32"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m25,M2=m26,M3=m27,M4=m28,M5=m29,M6=m30,M7=m31,M8=m32"
+	}
+	display[4] {
+		label="33-40"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m33,M2=m34,M3=m35,M4=m36,M5=m37,M6=m38,M7=m39,M8=m40"
+	}
+	display[5] {
+		label="41-48"
+		name="topMotors8.adl"
+		args="P=18ID:e:,M1=m41,M2=m42,M3=m43,M4=m44,M5=m45,M6=m46,M7=m47,M8=m48"
+	}
+	display[6] {
+		label="soft motors 1-10"
+		name="softMotors10.adl"
+		args="P=18ID:e:,SM1=SM1,SM2=SM2,SM3=SM3,SM4=SM4,SM5=SM5,SM6=SM6,SM7=SM7,SM8=SM8,SM9=SM9,SM10=SM10"
+	}
+	display[7] {
+		label="Pseudo-motors"
+		name="topMotors4.adl"
+		args="P=18ID:e:,M1=pm1,M2=pm2,M3=pm3,M4=pm4"
+	}
+	display[8] {
+		label="motor status 16"
+		name="motorStatus16.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-Motors"
+}
+"related display" {
+	object {
+		x=0
+		y=80
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Kohzu Graphic (GEOM 1)"
+		name="kohzuGraphic.adl"
+		args="P=18ID:e:,mTH=m9,mY1=m10,mZ2=m11,mCHI2=m12,mTH2=m13,mX=m14,mY=m15,mX2=m16,QE=BraggE,PVE=BraggEAO,QL=BraggLambda,PVL=BraggLambdaAO,QTh=BraggTheta,PVTh=BraggThetaAO"
+	}
+	display[1] {
+		label="Kohzu Graphic (GEOM 2)"
+		name="kohzu2Graphic.adl"
+		args="P=18ID:e:,mTH=m9,mY2=m10,mZ2=m11,mCHI2=m12,mTH2=m13,mX=m14,mY=m15,mX2=m16,QE=BraggE,PVE=BraggEAO,QL=BraggLambda,PVL=BraggLambdaAO,QTh=BraggTheta,PVTh=BraggThetaAO"
+	}
+	display[2] {
+		label="KohzuSeq (tiny)"
+		name="kohzuSeqCtl_tiny.adl"
+		args="P=18ID:e:"
+	}
+	display[3] {
+		label="KohzuSeq"
+		name="kohzuSeqCtl.adl"
+		args="P=18ID:e:"
+	}
+	display[4] {
+		label="KohzuSeq (All)"
+		name="kohzuSeqCtl_All.adl"
+		args="P=18ID:e:"
+	}
+	display[5] {
+		label="Energy-scan parameters"
+		name="scanParms.adl"
+		args="P=18ID:e:,Q=BraggE,PV=BraggEAO"
+	}
+	display[6] {
+		label="Theta-scan parameters"
+		name="scanParms.adl"
+		args="P=18ID:e:,Q=BraggTheta,PV=BraggThetaAO"
+	}
+	display[7] {
+		label="Wavelength-scan parameters"
+		name="scanParms.adl"
+		args="P=18ID:e:,Q=BraggLambda,PV=BraggLambdaAO"
+	}
+	clr=0
+	bclr=17
+	label="-Kohzu"
+}
+"related display" {
+	object {
+		x=140
+		y=0
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Scan1 (for all scans)"
+		name="scan.adl"
+		args="P=18ID:e:,N=1,S=scan1"
+	}
+	display[1] {
+		label="Scan2 (for 2D & higher scans)"
+		name="scan.adl"
+		args="P=18ID:e:,N=2,S=scan2"
+	}
+	display[2] {
+		label="Scan3 (for 3D & higher scans)"
+		name="scan.adl"
+		args="P=18ID:e:,N=3,S=scan3"
+	}
+	display[3] {
+		label="Scan4 (for 4D scans)"
+		name="scan.adl"
+		args="P=18ID:e:,N=4,S=scan4"
+	}
+	display[4] {
+		label="ScanH (for Hardware-assisted scans)"
+		name="scan.adl"
+		args="P=18ID:e:,N=H,S=scanH"
+	}
+	display[5] {
+		label="test scanParms2Pos"
+		name="scanParms2Pos.adl"
+		args="P=18ID:e:,Q=m7_8,SCAN=18ID:e:scan1,PV1=18ID:e:m7,PV2=18ID:e:m8"
+	}
+	display[7] {
+		label="saveData controls"
+		name="scan_saveData.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-Scan"
+}
+"related display" {
+	object {
+		x=70
+		y=120
+		width=70
+		height=20
+	}
+	display[0] {
+		label="SRS 570 Current Preamplifier #A1"
+		name="SR570_tiny.adl"
+		args="P=18ID:e:,A=A1"
+	}
+	display[1] {
+		label="SRS 570 Current Preamplifier #A2"
+		name="SR570_tiny.adl"
+		args="P=18ID:e:,A=A2"
+	}
+	display[2] {
+		label="SRS 570 Current Preamplifier #A3"
+		name="SR570_tiny.adl"
+		args="P=18ID:e:,A=A3"
+	}
+	display[3] {
+		label="SRS 570 Current Preamplifier #A4"
+		name="SR570_tiny.adl"
+		args="P=18ID:e:,A=A4"
+	}
+	display[4] {
+		label="SRS 570 Current Preamplifier #A5"
+		name="SR570_tiny.adl"
+		args="P=18ID:e:,A=A5"
+	}
+	clr=0
+	bclr=17
+	label="-Preamps"
+}
+"related display" {
+	object {
+		x=70
+		y=100
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Scaler 1"
+		name="scaler.adl"
+		args="P=18ID:e:,S=scaler1"
+	}
+	display[1] {
+		label="Scaler 2"
+		name="scaler.adl"
+		args="P=18ID:e:,S=scaler2"
+	}
+	display[2] {
+		label="Scaler 3"
+		name="scaler.adl"
+		args="P=18ID:e:,S=scaler3"
+	}
+	display[3] {
+		label="Scaler3 (64 ch)"
+		name="scaler64.adl"
+		args="P=18ID:e:,S=scaler3"
+	}
+	clr=0
+	bclr=17
+	label="-Scalers"
+}
+"related display" {
+	object {
+		x=210
+		y=100
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Keithley 2000 DMM #1"
+		name="Keithley2kDMM_mf.adl"
+		args="P=18ID:e:,Dmm=D1"
+	}
+	display[1] {
+		label="Keithley 2000 DMM #2"
+		name="Keithley2kDMM_mf.adl"
+		args="P=18ID:e:,Dmm=D2"
+	}
+	clr=0
+	bclr=63
+	label="-DMM"
+}
+"related display" {
+	object {
+		x=70
+		y=80
+		width=70
+		height=20
+	}
+	display[0] {
+		label="ADC 1"
+		name="Ip330Scan.adl"
+		args="P=18ID:e:,R=IP330_"
+	}
+	display[1] {
+		label="ADC 1 sweep"
+		name="mca_small.adl"
+		args="P=18ID:e:,M=mip330_1"
+	}
+	display[2] {
+		label="ADC 2 sweep"
+		name="mca_small.adl"
+		args="P=18ID:e:,M=mip330_2"
+	}
+	display[3] {
+		label="ADC 3 sweep"
+		name="mca_small.adl"
+		args="P=18ID:e:,M=mip330_3"
+	}
+	display[4] {
+		label="ADC 4 sweep"
+		name="mca_small.adl"
+		args="P=18ID:e:,M=mip330_4"
+	}
+	display[5] {
+		label="Slow feedback"
+		name="pid_control.adl"
+		args="P=18ID:e:,PID=pid_slow,TITLE=Slow_Feedback"
+	}
+	display[6] {
+		label="Fast feedback"
+		name="pid_control.adl"
+		args="P=18ID:e:,PID=ip330PIDFast,TITLE=Fast_Feedback"
+	}
+	clr=0
+	bclr=17
+	label="-ADC"
+}
+"related display" {
+	object {
+		x=140
+		y=120
+		width=70
+		height=20
+	}
+	display[0] {
+		label="HP Laser Axis 1"
+		name="HPLaserAxis.adl"
+		args="P=18ID:e:,Q=HPLaser1"
+	}
+	display[1] {
+		label="HP Laser Axis 2"
+		name="HPLaserAxis.adl"
+		args="P=18ID:e:,Q=HPLaser2"
+	}
+	clr=0
+	bclr=17
+	label="-HP"
+}
+"related display" {
+	object {
+		x=0
+		y=120
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Spherical Grating Monochromator (tiny)"
+		name="SGM_tiny.adl"
+		args="P=18ID:e:,N=1,M_x=m7,M_rIn=m6,M_rOut=m8"
+	}
+	display[1] {
+		label="Spherical Grating Monochromator"
+		name="SGM.adl"
+		args="P=18ID:e:,N=1,M_x=m7,M_rIn=m6,M_rOut=m8"
+	}
+	clr=0
+	bclr=17
+	label="-SGM"
+}
+"related display" {
+	object {
+		x=0
+		y=60
+		width=70
+		height=20
+	}
+	display[0] {
+		label="2-post Mirror"
+		name="2postMirror.adl"
+		args="P=18ID:e:,Q=M1,mDn=m11,mUp=m12"
+	}
+	display[1] {
+		label=" "
+	}
+	clr=0
+	bclr=17
+	label="-Mirror"
+}
+"related display" {
+	object {
+		x=0
+		y=100
+		width=70
+		height=20
+	}
+	display[0] {
+		label="High resolution monochromator (nested)"
+		name="hr_nested.adl"
+		args="P=18ID:e:,N=1"
+	}
+	display[1] {
+		label="High resolution monochromator (symmetric)"
+		name="hr_symmetric.adl"
+		args="P=18ID:e:,N=1"
+	}
+	display[2] {
+		label="High resolution monochromator control"
+		name="hrSeqCtl_All.adl"
+		args="P=18ID:e:,N=1"
+	}
+	clr=0
+	bclr=17
+	label="-HR"
+}
+"related display" {
+	object {
+		x=280
+		y=60
+		width=70
+		height=20
+	}
+	display[0] {
+		label="old vxWorks stats"
+		name="VXstats.adl"
+		args="P=18ID:e:"
+	}
+	display[1] {
+		label="IOC_Status.adl"
+		name="IOC_Status.adl"
+		args="P=18ID:e:"
+	}
+	display[2] {
+		label="save_restore Status"
+		name="save_restoreStatus.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-Status"
+}
+"related display" {
+	object {
+		x=140
+		y=40
+		width=70
+		height=20
+	}
+	display[0] {
+		label="generic VME"
+		name="recVME.adl"
+		args="P=18ID:e:,Q=vme1"
+	}
+	display[1] {
+		label="generic CAMAC"
+		name="CAMAC_IO.adl"
+		args="REC=18ID:e:camac1"
+	}
+	display[2] {
+		label="asyn GPIB"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=gpib1"
+	}
+	display[3] {
+		label="deviceCmdReply 1"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=1"
+	}
+	display[4] {
+		label="deviceCmdReply 2"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=2"
+	}
+	display[5] {
+		label="deviceCmdReply 3"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=3"
+	}
+	display[6] {
+		label="deviceCmdReply 4"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=4"
+	}
+	display[7] {
+		label="deviceCmdReply 5"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=5"
+	}
+	display[8] {
+		label="deviceCmdReply 6"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=6"
+	}
+	display[9] {
+		label="deviceCmdReply 7"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=7"
+	}
+	display[10] {
+		label="deviceCmdReply 8"
+		name="deviceCmdReply.adl"
+		args="P=18ID:e:,N=8"
+	}
+	clr=0
+	bclr=17
+	label="-GenericIO"
+}
+"related display" {
+	object {
+		x=280
+		y=20
+		width=70
+		height=20
+	}
+	display[0] {
+		label="1 BM BPM info"
+		name="xx_BM_BPM.adl"
+		args="xx=01"
+	}
+	display[1] {
+		label="1 ID BPM info"
+		name="xx_ID_BPM.adl"
+		args="xx=01"
+	}
+	display[2] {
+		label="1 ID basic control"
+		name="UndulatorCtl.adl"
+		args="xx=01"
+	}
+	display[3] {
+		label="1 ID sync-scan control"
+		name="UndulatorSyncCtl.adl"
+		args="xx=01"
+	}
+	display[4] {
+		label="new ID control"
+		name="xxIDCtrl.adl"
+		args="P=18ID:e:,xx=01"
+	}
+	display[5] {
+		label="new ID control (us)"
+		name="xxIDCtrl.adl"
+		args="P=18ID:e:,xx=01us"
+	}
+	display[6] {
+		label="24 hr. Beam History"
+		name="beamHistory.adl"
+	}
+	display[7] {
+		label="24 hr. beam history, etc."
+		name="beamHistory_full.adl"
+	}
+	clr=0
+	bclr=17
+	label="-OPS"
+}
+"related display" {
+	object {
+		x=70
+		y=0
+		width=70
+		height=20
+	}
+	display[0] {
+		label=" "
+	}
+	display[1] {
+		label="User Filter"
+		name="2filter.adl"
+		args="P=18ID:e:,Q1=fltr1:,Q2=fltr2:,LOCK1=fltr_1_2:,LOCK2=fltr_1_2:"
+	}
+	display[2] {
+		label="User Filter Setup"
+		name="2filter_setup.adl"
+		args="P=18ID:e:,Q1=fltr1:,Q2=fltr2:,LOCK1=fltr_1_2:,LOCK2=fltr_1_2:"
+	}
+	clr=0
+	bclr=17
+	label="-Filter"
+}
+"related display" {
+	object {
+		x=280
+		y=40
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Bunch Clock Generator"
+		name="BunchClkGen.adl"
+		args="UNIT=18ID:e:BnchClkGen"
+	}
+	display[1] {
+		label="Bunch Clock display A"
+		name="BunchClkGenA.adl"
+		args="UNIT=18ID:e:BnchClkGen"
+	}
+	display[2] {
+		label="Bunch Clock 3id Top screen"
+		name="BunchClkGenTop.adl"
+	}
+	clr=0
+	bclr=17
+	label="-BunchClk"
+}
+"related display" {
+	object {
+		x=70
+		y=40
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Queensgate piezo (3id)"
+		name="pzt_3id.adl"
+		args="P=18ID:e:"
+	}
+	display[1] {
+		label="Queensgate piezo (std)"
+		name="pzt.adl"
+		args="P=18ID:e:"
+	}
+	display[2] {
+		label="Nano2k (ch 1)"
+		name="Nano2k.adl"
+		args="P=18ID:e:,S=nano,p=1"
+	}
+	display[3] {
+		label="Nano2k (ch 2)"
+		name="Nano2k.adl"
+		args="P=18ID:e:,S=nano,p=2"
+	}
+	display[4] {
+		label="Huber DMC9200 servo controller"
+		name="HuberDMC4.adl"
+		args="P=18ID:e:,Q=DMC1:,M1=1,M2=2,M3=3,M4=4"
+	}
+	clr=0
+	bclr=17
+	label="-Piezo"
+}
+"related display" {
+	object {
+		x=140
+		y=20
+		width=70
+		height=20
+	}
+	display[0] {
+		label="user calcs 1-10"
+		name="userCalcs10.adl"
+		args="P=18ID:e:"
+	}
+	display[1] {
+		label="user stringCalcs 1-10"
+		name="userStringCalcs10.adl"
+		args="P=18ID:e:"
+	}
+	display[2] {
+		label="user transforms 1-10"
+		name="userTransforms10.adl"
+		args="P=18ID:e:"
+	}
+	display[3] {
+		label="user string seqs 1-10"
+		name="userStringSeqs10.adl"
+		args="P=18ID:e:"
+	}
+	display[4] {
+		label="user arrayCalcs 1-10"
+		name="userArrayCalcs10.adl"
+		args="P=18ID:e:"
+	}
+	display[6] {
+		label="user average 1-10"
+		name="userAve10.adl"
+		args="P=18ID:e:"
+	}
+	display[7] {
+		label="user calcOuts"
+		name="userCalcOuts10.adl"
+		args="P=18ID:e:"
+	}
+	display[8] {
+		label="timer"
+		name="timer.adl"
+		args="P=18ID:e:,N=1"
+	}
+	clr=0
+	bclr=17
+	label="-userCalc"
+}
+"related display" {
+	object {
+		x=210
+		y=60
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Heidenhain AWE1024"
+		name="HeidEncoder.adl"
+		args="P=18ID:e:, A=6"
+	}
+	display[1] {
+		label="Heidenhain AWE1024"
+		name="HeidEncoder.adl"
+		args="P=18ID:e:, A=7"
+	}
+	display[2] {
+		label="Heidenhain ND261"
+		name="HeidND261.adl"
+		args="P=18ID:e:"
+	}
+	display[3] {
+		label="Heidenhain IK320"
+		name="HeidIK320_group.adl"
+		args="P=18ID:e:,card=card0,group=5"
+	}
+	clr=0
+	bclr=17
+	label="-Encoders"
+}
+"related display" {
+	object {
+		x=140
+		y=100
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Autocollimator"
+		name="Elcomat.adl"
+		args="P=18ID:e:"
+	}
+	display[1] {
+		label=" "
+	}
+	clr=0
+	bclr=17
+	label="-Autocoll"
+}
+"related display" {
+	object {
+		x=280
+		y=0
+		width=70
+		height=20
+	}
+	display[0] {
+		label="orientation matrix"
+		name="orient.adl"
+		args="P=18ID:e:,O=_0,PM=18ID:e:,mTTH=SM1,mTH=SM2,mCHI=SM3,mPHI=SM4"
+	}
+	display[1] {
+		label="orient9"
+		name="orient9.adl"
+		args="P=18ID:e:,PM=18ID:e:,mTTH=SM1,mTH=SM2,mCHI=SM3,mPHI=SM4"
+	}
+	clr=0
+	bclr=17
+	label="-4 Circle"
+}
+"related display" {
+	object {
+		x=210
+		y=0
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Canberra AIM Multichannel Analyzer"
+		name="mca_small.adl"
+		args="P=18ID:e:,M=aim_adc1"
+	}
+	display[1] {
+		label="MCA with ROI's"
+		name="mca.adl"
+		args="P=18ID:e:,M=aim_adc1"
+	}
+	display[2] {
+		label="ADC 1"
+		name="xxIcbAdc.adl"
+		args="P=18ID:e:,ADC=adc1"
+	}
+	display[3] {
+		label="TCA 1"
+		name="xxIcbTCA.adl"
+		args="P=18ID:e:,TCA=tca1"
+	}
+	display[4] {
+		label="HVPS 1"
+		name="xxIcbHVPS.adl"
+		args="P=18ID:e:,HVPS=hvps1"
+	}
+	display[5] {
+		label="AMP 1"
+		name="xxIcbAmp.adl"
+		args="P=18ID:e:,AMP=amp1"
+	}
+	display[6] {
+		label="DSP 1"
+		name="dsp9660Gain.adl"
+		args="P=18ID:e:,DSP=dsp1"
+	}
+	clr=0
+	bclr=17
+	label="-MCA"
+}
+"related display" {
+	object {
+		x=140
+		y=80
+		width=70
+		height=20
+	}
+	display[0] {
+		label="4-step measurement"
+		name="4step.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-4-step"
+}
+"message button" {
+	object {
+		x=350
+		y=100
+		width=100
+		height=30
+	}
+	control {
+		chan="18ID:e:allstop.VAL"
+		clr=30
+		bclr=20
+	}
+	label="All Stop"
+	press_msg="1"
+}
+composite {
+	object {
+		x=350
+		y=80
+		width=82
+		height=28
+	}
+	"composite name"=""
+	children {
+		text {
+			object {
+				x=351
+				y=81
+				width=80
+				height=26
+			}
+			"basic attribute" {
+				clr=54
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="18ID:e:alldone.VAL"
+			}
+			textix="Moving"
+		}
+		text {
+			object {
+				x=352
+				y=82
+				width=80
+				height=26
+			}
+			"basic attribute" {
+				clr=54
+			}
+			"dynamic attribute" {
+				vis="if not zero"
+				chan="18ID:e:alldoneBlink.VAL"
+			}
+			textix="Moving"
+		}
+		text {
+			object {
+				x=350
+				y=80
+				width=80
+				height=26
+			}
+			"basic attribute" {
+				clr=50
+			}
+			"dynamic attribute" {
+				vis="if zero"
+				chan="18ID:e:alldone.VAL"
+			}
+			textix="Moving"
+		}
+	}
+}
+rectangle {
+	object {
+		x=350
+		y=0
+		width=100
+		height=80
+	}
+	"basic attribute" {
+		clr=3
+		width=2
+	}
+}
+text {
+	object {
+		x=375
+		y=22
+		width=70
+		height=20
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Restore"
+}
+text {
+	object {
+		x=375
+		y=2
+		width=60
+		height=20
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Save"
+}
+text {
+	object {
+		x=375
+		y=42
+		width=70
+		height=20
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Compare"
+}
+text {
+	object {
+		x=375
+		y=62
+		width=70
+		height=20
+	}
+	"basic attribute" {
+		clr=64
+	}
+	textix="Tools"
+}
+"shell command" {
+	object {
+		x=353
+		y=0
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Save settings to 'settings1.save' (scratchpad)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o settings1.save"
+	}
+	command[1] {
+		label="Save settings to 'settings2.save' (short term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o settings2.save"
+	}
+	command[2] {
+		label="Save settings to 'settings3.save' (long term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o settings3.save"
+	}
+	command[3] {
+		label="Save positions to 'positions1.save' (scratch pad)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o positions1.save"
+	}
+	command[4] {
+		label="Save positions to 'positions2.save' (short term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o positions2.save"
+	}
+	command[5] {
+		label="Save positions to 'positions3.save' (long term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o positions3.save"
+	}
+	clr=0
+	bclr=17
+}
+"shell command" {
+	object {
+		x=353
+		y=20
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Restore settings from 'settings1.save' (scratch pad)"
+		name="cd ../burt; burtwb -f settings1.save"
+	}
+	command[1] {
+		label="Restore settings from 'settings2.save' (short term)"
+		name="cd ../burt; burtwb -f settings2.save"
+	}
+	command[2] {
+		label="Restore settings from 'settings3.save' (long term)"
+		name="cd ../burt; burtwb -f settings3.save"
+	}
+	command[3] {
+		label="Restore settings from 'settings4.save' (read only)"
+		name="cd ../burt; burtwb -f settings4.save"
+	}
+	command[4] {
+		label="Restore positions from 'positions1.save' (scratch pad)"
+		name="cd ../burt; burtwb -f positions1.save"
+	}
+	command[5] {
+		label="Restore positions from 'positions2.save' (short term)"
+		name="cd ../burt; burtwb -f positions2.save"
+	}
+	command[6] {
+		label="Restore positions from 'positions3.save' (long term)"
+		name="cd ../burt; burtwb -f positions3.save"
+	}
+	command[7] {
+		label="Restore positions from 'positions4.save' (read only)"
+		name="cd ../burt; burtwb -f positions4.save"
+	}
+	clr=0
+	bclr=17
+}
+"shell command" {
+	object {
+		x=353
+		y=40
+		width=20
+		height=20
+	}
+	command[0] {
+		label="Compare current settings with 'settings1.save' (scratchpad)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save settings1.save'&"
+	}
+	command[1] {
+		label="Compare current settings with 'settings2.save' (short term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save settings2.save'&"
+	}
+	command[2] {
+		label="Compare current settings with 'settings3.save' (long term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o current.save; wrapCmd 'showBurtDiff current.save settings3.save'&"
+	}
+	command[3] {
+		label="Compare current settings with 'settings4.save' (read only)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f settings.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save settings4.save'&"
+	}
+	command[4] {
+		label="Compare current positions with 'positions1.save' (scratch pad)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save positions1.save'&"
+	}
+	command[5] {
+		label="Compare current positions with 'positions2.save' (short term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save positions2.save'&"
+	}
+	command[6] {
+		label="Compare current positions with 'positions3.save' (long term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save positions3.save'&"
+	}
+	command[7] {
+		label="Compare current positions with 'positions4.save' (long term)"
+		name="cd ../burt; burtrb $BURT_INCLUDE -f positions.req -o current.save 1>&- 2>&-; wrapCmd 'showBurtDiff current.save positions4.save'&"
+	}
+	clr=0
+	bclr=17
+}
+"shell command" {
+	object {
+		x=353
+		y=60
+		width=20
+		height=20
+	}
+	command[0] {
+		label="data catcher (run-time license)"
+		name="cd ../idl; catcher&"
+	}
+	command[1] {
+		label="data catcher (developer's license)"
+		name="cd ../idl; catcher -D&"
+	}
+	command[2] {
+		label="stripTool (stripchart)"
+		name="stripTool&"
+	}
+	command[3] {
+		label="New StripTool"
+		name="StripTool&"
+	}
+	command[4] {
+		label="EPICS channel-access probe"
+		name="probe&"
+	}
+	command[5] {
+		label="MCA 4.2 (developer's license)"
+		name="cd ../idl; wrapCmd startMCA_4.2&"
+	}
+	command[7] {
+		label="scanSee"
+		name="cd ../idl; wrapCmd scanSee&"
+	}
+	clr=0
+	bclr=17
+}
+"related display" {
+	object {
+		x=430
+		y=80
+		width=20
+		height=20
+	}
+	display[0] {
+		label="alldone waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone"
+	}
+	display[1] {
+		label="alldone_1 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_1"
+	}
+	display[2] {
+		label="alldone_2 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_2"
+	}
+	display[3] {
+		label="alldone_3 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_3"
+	}
+	display[4] {
+		label="alldone_4 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_4"
+	}
+	display[5] {
+		label="alldone_5 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_5"
+	}
+	display[6] {
+		label="alldone_6 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_6"
+	}
+	display[7] {
+		label="alldone_7 waits"
+		name="yyWaitRecord_full.adl"
+		args="P=18ID:e:,C=alldone_7"
+	}
+	clr=0
+	bclr=17
+}
+"related display" {
+	object {
+		x=210
+		y=80
+		width=70
+		height=20
+	}
+	display[0] {
+		label="LakeShore Temp. Controller"
+		name="LakeShore.adl"
+		args="P=18ID:e:,Q=TC1"
+	}
+	display[1] {
+		label="Keithley DMM (thermistors)"
+		name="KeithleyDMM.adl"
+		args="P=18ID:e:"
+	}
+	display[2] {
+		label="Eurotherm"
+		name="Eurotherm.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-TempCtrl"
+}
+"related display" {
+	object {
+		x=140
+		y=60
+		width=70
+		height=20
+	}
+	display[0] {
+		label="interp"
+		name="interp.adl"
+		args="P=18ID:e:"
+	}
+	display[1] {
+		label="arrayTest"
+		name="arrayTest.adl"
+		args="P=18ID:e:"
+	}
+	display[2] {
+		label="pvHistory 1"
+		name="pvHistory.adl"
+		args="P=18ID:e:,N=1"
+	}
+	clr=0
+	bclr=17
+	label="-Array"
+}
+"related display" {
+	object {
+		x=70
+		y=60
+		width=70
+		height=20
+	}
+	display[0] {
+		label="vme DAC 1 Chans 1-8"
+		name="topDAC8.adl"
+		args="P=18ID:e:,D=1"
+	}
+	display[1] {
+		label="vme DAC 2 Chans 1-8"
+		name="topDAC8.adl"
+		args="P=18ID:e:,D=2"
+	}
+	display[2] {
+		label="dac128V 1 Chans 1-8"
+		name="topDAC8.adl"
+		args="P=18ID:e:,D=3"
+	}
+	clr=0
+	bclr=17
+	label="-DAC"
+}
+"related display" {
+	object {
+		x=210
+		y=20
+		width=70
+		height=20
+	}
+	display[1] {
+		label="3 element detector"
+		name="3element.adl"
+		args="P=18ID:e:med:"
+	}
+	display[3] {
+		label="summed spectrum (mca0)"
+		name="mca_small.adl"
+		args="P=18ID:e:med:,M=mca0"
+	}
+	display[4] {
+		label="sum control"
+		name="mcaSum3.adl"
+		args="P=18ID:e:med:"
+	}
+	display[5] {
+		label="HV power supply"
+		name="xxIcbHVPS.adl"
+		args="P=18ID:e:med:,HVPS=hvps1"
+	}
+	clr=0
+	bclr=17
+	label="-multiMCA"
+}
+"related display" {
+	object {
+		x=210
+		y=40
+		width=70
+		height=20
+	}
+	display[0] {
+		label=" 8-Channel MCS Control"
+		name="Struck8.adl"
+		args="P=18ID:e:mcs:"
+	}
+	display[1] {
+		label="32-Channel MCS Control"
+		name="Struck32.adl"
+		args="P=18ID:e:mcs:"
+	}
+	clr=0
+	bclr=17
+	label="-Struck"
+}
+"related display" {
+	object {
+		x=210
+		y=120
+		width=70
+		height=20
+	}
+	display[0] {
+		label="IpUnidig I/O"
+		name="IpUnidig.adl"
+		args="P=18ID:e:,R=Unidig1"
+	}
+	display[1] {
+		label=" Acromag 8 in"
+		name="Acromag_8in.adl"
+		args="P=18ID:e:,A=1,CH0=0,CH1=1,CH2=2,CH3=3,CH4=4,CH5=5,CH6=6,CH7=7"
+	}
+	display[2] {
+		label=" Acromag 8 out"
+		name="Acromag_8out.adl"
+		args="P=18ID:e:,A=1,CH0=0,CH1=1,CH2=2,CH3=3,CH4=4,CH5=5,CH6=6,CH7=7"
+	}
+	display[3] {
+		label=" Acromag 16 out"
+		name="Acromag_16out.adl"
+		args="P=18ID:e:,A=1"
+	}
+	display[4] {
+		label=" Acromag 16 in"
+		name="Acromag_16in.adl"
+		args="P=18ID:e:,A=1"
+	}
+	clr=0
+	bclr=63
+	label="-Digital"
+}
+"related display" {
+	object {
+		x=280
+		y=100
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Quad Electrometer Ch.1"
+		name="quadEM.adl"
+		args="P=18ID:e:,EM=EM1"
+	}
+	display[1] {
+		label="Quad Electrometer Ch.2"
+		name="quadEM.adl"
+		args="P=18ID:e:,EM=EM2"
+	}
+	display[2] {
+		label="Quad Electrometer Ch.3"
+		name="quadEM.adl"
+		args="P=18ID:e:,EM=EM3"
+	}
+	display[3] {
+		label="Quad Electrometer Ch.4"
+		name="quadEM.adl"
+		args="P=18ID:e:,EM=EM4"
+	}
+	display[5] {
+		label="Quad Electrometer MCAs"
+		name="quadEM_med.adl"
+		args="P=18ID:e:quadEM:, P_FFT=18ID:e:quadEM_FFT:"
+	}
+	display[6] {
+		label="Vertical feedback"
+		name="pid_control.adl"
+		args="P=18ID:e:, PID=quadEMVertical,TITLE=Vertical_Feedback"
+	}
+	display[7] {
+		label="Horizontal feedback"
+		name="pid_control.adl"
+		args="P=18ID:e:, PID=quadEMHorizontal,TITLE=Horizontal_Feedback"
+	}
+	clr=0
+	bclr=63
+	label="-quadEM"
+}
+"related display" {
+	object {
+		x=280
+		y=120
+		width=70
+		height=20
+	}
+	display[0] {
+		label="asyn record serial1"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_1"
+	}
+	display[1] {
+		label="asyn record serial2"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_2"
+	}
+	display[2] {
+		label="asyn record serial3"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_3"
+	}
+	display[3] {
+		label="asyn record serial4"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_4"
+	}
+	display[4] {
+		label="asyn record serial5"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_5"
+	}
+	display[5] {
+		label="asyn record serial6"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_6"
+	}
+	display[6] {
+		label="asyn record serial7"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_7"
+	}
+	display[7] {
+		label="asyn record serial8"
+		name="asynOctet.adl"
+		args="P=18ID:e:,R=asyn_8"
+	}
+	clr=0
+	bclr=17
+	label="-serial"
+}
+"related display" {
+	object {
+		x=210
+		y=140
+		width=70
+		height=20
+	}
+	display[0] {
+		label="beamFinder"
+		name="beamFinder.adl"
+		args="P=18ID:e:bf1:,PM=18ID:e:,m_sX=SM1,m_sY=SM2,m_zpX=SM3,m_zpY=SM4,m_zpZ=SM5"
+	}
+	clr=0
+	bclr=17
+	label="-beamFind"
+}
+"related display" {
+	object {
+		x=0
+		y=140
+		width=35
+		height=20
+	}
+	display[0] {
+		label="CoarseFine"
+		name="CoarseFineMotor.adl"
+		args="P=18ID:e:cf1:,M=MOT,PM=18ID:e:,CM=SM1,FM=SM2"
+	}
+	clr=0
+	bclr=17
+	label="-CF"
+}
+"related display" {
+	object {
+		x=70
+		y=140
+		width=70
+		height=20
+	}
+	display[6] {
+		label="scantest"
+		name="scanAux.adl"
+		args="P=18ID:e:,S=scantest"
+	}
+	clr=0
+	bclr=17
+	label="-Scan"
+}
+"related display" {
+	object {
+		x=140
+		y=140
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Io"
+		name="Io.adl"
+		args="P=18ID:e:Io:,S=18ID:e:scaler1,MONO=18ID:e:BraggEAO"
+	}
+	clr=0
+	bclr=17
+	label="-Io"
+}
+"related display" {
+	object {
+		x=70
+		y=20
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Slit 1 (H)"
+		name="2slit.adl"
+		args="P=18ID:e:,SLIT=Slit1H,mXp=m5,mXn=m6"
+	}
+	display[1] {
+		label="Slit 1 (V)"
+		name="2slit.adl"
+		args="P=18ID:e:,SLIT=Slit1V,mXp=m3,mXn=m4"
+	}
+	display[2] {
+		label="Slit 1 Graphic"
+		name="4slitGraphic.adl"
+		args="P=18ID:e:,SLIT=Slit_1,H=Slit1H,mXp=m3,mXn=m4,V=Slit1V,mYp=m5,mYn=m6"
+	}
+	display[3] {
+		label="Slit Motors"
+		name="motor4x.adl"
+		args="P=18ID:e:,M1=m3,M2=m4,M3=m5,M4=m6"
+	}
+	display[4] {
+		label="Slit 2 (H) (soft)"
+		name="2slit_soft.adl"
+		args="P=18ID:e:,SLIT=Slit2H,mXp=m15,mXn=m16"
+	}
+	display[5] {
+		label="Slit 2 (V) (soft)"
+		name="2slit_soft.adl"
+		args="P=18ID:e:,SLIT=Slit2V,mXp=m13,mXn=m14"
+	}
+	display[6] {
+		label="Slit 2 Graphic (soft)"
+		name="4slitGraphic_soft.adl"
+		args="P=18ID:e:,SLIT=Slit_2,H=Slit2H,mXp=m15,mXn=m16,V=Slit2V,mYp=m13,mYn=m14"
+	}
+	display[7] {
+		label="XIA slit 1"
+		name="xiahsc.adl"
+		args="P=18ID:e:,HSC=hsc1:"
+	}
+	clr=0
+	bclr=17
+	label="-Slits"
+}
+"related display" {
+	object {
+		x=280
+		y=80
+		width=70
+		height=20
+	}
+	display[0] {
+		label="Love controllers"
+		name="LoveList4.adl"
+		args="P=18ID:e:,Q1=Love1,Q2=Love2,Q3=Love3,Q4=Love4"
+	}
+	clr=0
+	bclr=17
+	label="-Love"
+}
+"related display" {
+	object {
+		x=35
+		y=140
+		width=35
+		height=20
+	}
+	display[0] {
+		label="xps"
+		name="xps.adl"
+		args="P=18ID:e:"
+	}
+	clr=0
+	bclr=17
+	label="-xps"
+}

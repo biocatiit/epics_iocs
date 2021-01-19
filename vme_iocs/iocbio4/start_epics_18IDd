@@ -1,0 +1,22 @@
+#!/bin/csh
+
+# this definition is optional
+setenv EPICS_DISPLAY_PATH .
+
+# MUST be defined before calling ./setup_epics_common
+setenv EPICS_APP /opt/epics/synApps_5_8/ioc/18ID
+setenv EPICS_APP_ADL_DIR ${EPICS_APP}/18IDdApp/op/adl
+
+# Allow script to be run from any directory
+cd ${EPICS_APP}
+
+# define environment variables for MEDM and Probe
+source ./setup_epics_common
+
+echo ${EPICS_DISPLAY_PATH}
+cd ${EPICS_APP_ADL_DIR}
+
+setenv START_PUTRECORDER ${EPICS_APP}/start_putrecorder_i8IDd
+setenv EDITOR gedit
+# start MEDM
+medm 18IDd.adl &

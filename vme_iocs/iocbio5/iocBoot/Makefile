@@ -1,5 +1,6 @@
-TOP = ../..
+TOP = ..
 include $(TOP)/configure/CONFIG
-ARCH = vxWorks-ppc604
-TARGETS = cdCommands
-include $(TOP)/configure/RULES.ioc
+DIRS += $(wildcard *ioc*)
+DIRS += $(wildcard as*)
+include $(EPICS_BASE)/configure/RULES_DIRS
+

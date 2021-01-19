@@ -1,0 +1,1159 @@
+
+file {
+	name="/.automount/snap-80gb/root/share1/ioc/share/synApps/R4_0/uniApp/op/adl/k428_error.adl"
+	version=020305
+}
+display {
+	object {
+		x=42
+		y=40
+		width=429
+		height=450
+	}
+	clr=14
+	bclr=57
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+composite {
+	object {
+		x=30
+		y=81
+		width=10
+		height=10
+	}
+	"composite name"=""
+	vis="static"
+	chan=""
+	children {
+		oval {
+			object {
+				x=30
+				y=81
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=15
+				width=1
+			}
+			"dynamic attribute" {
+				clr="discrete"
+				vis="if zero"
+				chan="$(P)overload"
+			}
+		}
+		oval {
+			object {
+				x=30
+				y=81
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				clr="discrete"
+				vis="if not zero"
+				chan="$(P)overload"
+			}
+		}
+	}
+}
+oval {
+	object {
+		x=12
+		y=260
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:IDDC"
+	}
+}
+oval {
+	object {
+		x=12
+		y=260
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:IDDC"
+	}
+}
+oval {
+	object {
+		x=12
+		y=61
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:gainRise"
+	}
+}
+oval {
+	object {
+		x=12
+		y=81
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:overload"
+	}
+}
+oval {
+	object {
+		x=12
+		y=101
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:EEPROM"
+	}
+}
+oval {
+	object {
+		x=12
+		y=120
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:zeroCorr"
+	}
+}
+oval {
+	object {
+		x=12
+		y=140
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:autoSupp"
+	}
+}
+oval {
+	object {
+		x=12
+		y=160
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:inCurr"
+	}
+}
+oval {
+	object {
+		x=12
+		y=180
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:suppRange"
+	}
+}
+oval {
+	object {
+		x=12
+		y=200
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:selftest"
+	}
+}
+oval {
+	object {
+		x=12
+		y=220
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:noRem"
+	}
+}
+oval {
+	object {
+		x=12
+		y=240
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=15
+		width=1
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if zero"
+		chan="$(P)err:IDDCO"
+	}
+}
+oval {
+	object {
+		x=12
+		y=240
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:IDDCO"
+	}
+}
+oval {
+	object {
+		x=12
+		y=220
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:noRem"
+	}
+}
+oval {
+	object {
+		x=12
+		y=200
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:selftest"
+	}
+}
+oval {
+	object {
+		x=12
+		y=180
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:suppRange"
+	}
+}
+oval {
+	object {
+		x=12
+		y=160
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:inCurr"
+	}
+}
+oval {
+	object {
+		x=12
+		y=140
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:autoSupp"
+	}
+}
+oval {
+	object {
+		x=12
+		y=120
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:zeroCorr"
+	}
+}
+oval {
+	object {
+		x=12
+		y=101
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:EEPROM"
+	}
+}
+oval {
+	object {
+		x=12
+		y=81
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:overload"
+	}
+}
+oval {
+	object {
+		x=12
+		y=61
+		width=10
+		height=10
+	}
+	"basic attribute" {
+		clr=20
+	}
+	"dynamic attribute" {
+		clr="discrete"
+		vis="if not zero"
+		chan="$(P)err:gainRise"
+	}
+}
+text {
+	object {
+		x=30
+		y=60
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Gain/rise time conflict"
+}
+text {
+	object {
+		x=50
+		y=80
+		width=280
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Overload"
+}
+text {
+	object {
+		x=30
+		y=100
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="EEPROM checksum error"
+}
+text {
+	object {
+		x=30
+		y=120
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Zero correct failed"
+}
+text {
+	object {
+		x=30
+		y=140
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Auto suppress attempt with zero check on"
+}
+text {
+	object {
+		x=30
+		y=160
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Input current too large to suppress"
+}
+text {
+	object {
+		x=30
+		y=180
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Suppress range/value conflict"
+}
+text {
+	object {
+		x=30
+		y=200
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Self-test failed"
+}
+text {
+	object {
+		x=30
+		y=220
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="Not in remote mode"
+}
+text {
+	object {
+		x=30
+		y=240
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="IDDCO: invalid device-dependent command option"
+}
+text {
+	object {
+		x=30
+		y=260
+		width=300
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="IDDC: invalid device-dependent command"
+}
+text {
+	object {
+		x=8
+		y=35
+		width=412
+		height=17
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Keithley 428 Current Amplifier Error Status Screen"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=19
+		y=3
+		width=200
+		height=9
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="k428error.adl"
+}
+"text update" {
+	object {
+		x=240
+		y=2
+		width=180
+		height=18
+	}
+	monitor {
+		chan="$(P)display"
+		clr=14
+		bclr=55
+	}
+	format="compact"
+	limits {
+	}
+}
+polyline {
+	object {
+		x=7
+		y=75
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,75)
+		(331,75)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=95
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,95)
+		(331,95)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=115
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,115)
+		(331,115)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=135
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,135)
+		(331,135)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=155
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,155)
+		(331,155)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=175
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,175)
+		(331,175)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=195
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,195)
+		(331,195)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=215
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,215)
+		(331,215)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=235
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,235)
+		(331,235)
+	}
+}
+polyline {
+	object {
+		x=7
+		y=255
+		width=324
+		height=0
+	}
+	"basic attribute" {
+		clr=14
+	}
+	points {
+		(7,255)
+		(331,255)
+	}
+}
+"related display" {
+	object {
+		x=3
+		y=2
+		width=10
+		height=10
+	}
+	display[1] {
+		label="less details"
+		name="k428small.adl"
+		args="P=$(P), G=$(G)"
+	}
+	display[2] {
+		label="more details"
+		name="k428.adl"
+		args="P=$(P), G=$(G)"
+	}
+	display[3] {
+		label="GPIB interface"
+		name="GPIB_IO.adl"
+		args="REC=$(G)"
+	}
+	clr=14
+	bclr=58
+}
+text {
+	object {
+		x=185
+		y=6
+		width=52
+		height=13
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="name:"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=4
+		y=16
+		width=200
+		height=9
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="edited 2002-Feb-19, PRJ"
+}
+valuator {
+	object {
+		x=0
+		y=391
+		width=425
+		height=50
+	}
+	control {
+		chan="$(P)debug"
+		clr=14
+		bclr=58
+	}
+	label="channel"
+	dPrecision=1.000000
+	limits {
+	}
+}
+"text update" {
+	object {
+		x=78
+		y=308
+		width=334
+		height=13
+	}
+	monitor {
+		chan="$(P)msg3"
+		clr=14
+		bclr=56
+	}
+	format="compact"
+	limits {
+	}
+}
+text {
+	object {
+		x=12
+		y=308
+		width=56
+		height=13
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="msg3"
+}
+"text update" {
+	object {
+		x=78
+		y=328
+		width=334
+		height=13
+	}
+	monitor {
+		chan="$(P)msg2"
+		clr=14
+		bclr=56
+	}
+	format="compact"
+	limits {
+	}
+}
+text {
+	object {
+		x=12
+		y=329
+		width=56
+		height=13
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="msg2"
+}
+"text update" {
+	object {
+		x=78
+		y=348
+		width=334
+		height=13
+	}
+	monitor {
+		chan="$(P)msg1"
+		clr=14
+		bclr=55
+	}
+	format="compact"
+	limits {
+	}
+}
+text {
+	object {
+		x=12
+		y=349
+		width=56
+		height=13
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="msg1"
+}
+"text update" {
+	object {
+		x=78
+		y=368
+		width=334
+		height=13
+	}
+	monitor {
+		chan="$(P)error"
+		clr=14
+		bclr=30
+	}
+	format="compact"
+	limits {
+	}
+}
+text {
+	object {
+		x=12
+		y=369
+		width=56
+		height=13
+	}
+	"basic attribute" {
+		clr=14
+		width=1
+	}
+	textix="error"
+}
+composite {
+	object {
+		x=3
+		y=283
+		width=424
+		height=18
+	}
+	"composite name"=""
+	vis="static"
+	chan=""
+	children {
+		"message button" {
+			object {
+				x=286
+				y=283
+				width=141
+				height=18
+			}
+			control {
+				chan="$(P)user"
+				clr=14
+				bclr=58
+			}
+			label="restore power-on"
+			press_msg="4"
+		}
+		"message button" {
+			object {
+				x=143
+				y=283
+				width=141
+				height=18
+			}
+			control {
+				chan="$(P)user"
+				clr=14
+				bclr=58
+			}
+			label="save power-on"
+			press_msg="3"
+		}
+		"message button" {
+			object {
+				x=3
+				y=283
+				width=141
+				height=18
+			}
+			control {
+				chan="$(P)user"
+				clr=14
+				bclr=58
+			}
+			label="reset defaults"
+			press_msg="2"
+		}
+	}
+}
+composite {
+	object {
+		x=335
+		y=241
+		width=10
+		height=10
+	}
+	"composite name"=""
+	vis="static"
+	chan=""
+	children {
+		oval {
+			object {
+				x=335
+				y=241
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=15
+				width=1
+			}
+			"dynamic attribute" {
+				clr="discrete"
+				vis="if zero"
+				chan="$(G).SEVR"
+			}
+		}
+		oval {
+			object {
+				x=335
+				y=241
+				width=10
+				height=10
+			}
+			"basic attribute" {
+				clr=20
+			}
+			"dynamic attribute" {
+				clr="discrete"
+				vis="if not zero"
+				chan="$(G).SEVR"
+			}
+		}
+	}
+}
+"text update" {
+	object {
+		x=336
+		y=254
+		width=80
+		height=12
+	}
+	monitor {
+		chan="$(G).SEVR"
+		clr=14
+		bclr=55
+	}
+	format="compact"
+	limits {
+	}
+}
+text {
+	object {
+		x=352
+		y=239
+		width=70
+		height=12
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="GPIB status"
+}
+text {
+	object {
+		x=240
+		y=23
+		width=180
+		height=10
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="$(P) and $(G)"
+}

@@ -1,0 +1,2163 @@
+# save/restore V2.2	Automatically generated - DO NOT MODIFY
+18ID:bo0:ch15.DESC 
+18ID:bo0:ch14.DESC 
+18ID:bo0:ch13.DESC 
+18ID:bo0:ch12.DESC 
+18ID:bo0:ch11.DESC 
+18ID:bo0:ch10.DESC 
+18ID:bo0:ch9.DESC 
+18ID:bo0:ch8.DESC 
+18ID:bo0:ch7.DESC 
+18ID:bo0:ch6.DESC  shutter (off=in)
+18ID:bo0:ch5.DESC  32*20um Al (off=in)
+18ID:bo0:ch4.DESC  16*20um Al (off=in)
+18ID:bo0:ch3.DESC   8*20um Al (off=in)
+18ID:bo0:ch2.DESC   4*20um Al (off=in)
+18ID:bo0:ch1.DESC   2*20um Al (off=in)
+18ID:bo0:ch0.DESC   1*20um Al (off=in)
+18ID:bo0:ch15 1
+18ID:bo0:ch14 1
+18ID:bo0:ch13 1
+18ID:bo0:ch12 1
+18ID:bo0:ch11 1
+18ID:bo0:ch10 1
+18ID:bo0:ch9 1
+18ID:bo0:ch8 1
+18ID:bo0:ch7 1
+18ID:bo0:ch6 1
+18ID:bo0:ch5 1
+18ID:bo0:ch4 1
+18ID:bo0:ch3 1
+18ID:bo0:ch2 1
+18ID:bo0:ch1 1
+18ID:bo0:ch0 1
+18ID:Sseq1.LNKA 
+18ID:Sseq1.DOA 0
+18ID:Sseq1.STRA 0
+18ID:Sseq1.DOLA 
+18ID:Sseq1.DLYA 0
+18ID:Sseq1.LNK9 
+18ID:Sseq1.DO9 0
+18ID:Sseq1.STR9 0
+18ID:Sseq1.DOL9 
+18ID:Sseq1.DLY9 0
+18ID:Sseq1.LNK8 
+18ID:Sseq1.DO8 0
+18ID:Sseq1.STR8 0
+18ID:Sseq1.DOL8 
+18ID:Sseq1.DLY8 0
+18ID:Sseq1.LNK7 
+18ID:Sseq1.DO7 0
+18ID:Sseq1.STR7 0
+18ID:Sseq1.DOL7 
+18ID:Sseq1.DLY7 0
+18ID:Sseq1.LNK6 
+18ID:Sseq1.DO6 0
+18ID:Sseq1.STR6 0
+18ID:Sseq1.DOL6 
+18ID:Sseq1.DLY6 0
+18ID:Sseq1.LNK5 
+18ID:Sseq1.DO5 0
+18ID:Sseq1.STR5 0
+18ID:Sseq1.DOL5 
+18ID:Sseq1.DLY5 0
+18ID:Sseq1.LNK4 
+18ID:Sseq1.DO4 0
+18ID:Sseq1.STR4 0
+18ID:Sseq1.DOL4 
+18ID:Sseq1.DLY4 0
+18ID:Sseq1.LNK3 
+18ID:Sseq1.DO3 0
+18ID:Sseq1.STR3 0
+18ID:Sseq1.DOL3 
+18ID:Sseq1.DLY3 0
+18ID:Sseq1.LNK2 
+18ID:Sseq1.DO2 0
+18ID:Sseq1.STR2 0
+18ID:Sseq1.DOL2 
+18ID:Sseq1.DLY2 0
+18ID:Sseq1.LNK1 
+18ID:Sseq1.DO1 0
+18ID:Sseq1.STR1 0
+18ID:Sseq1.DOL1 
+18ID:Sseq1.DLY1 0
+18ID:Sseq1.PREC 0
+18ID:userStringCalc1.EVNT 0
+18ID:userStringCalc1.DESC userStringCalc 1
+18ID:userStringCalc1.FLNK 0
+18ID:userStringCalc1.OUT 
+18ID:userStringCalc1.IVOV 0
+18ID:userStringCalc1.IVOA 0
+18ID:userStringCalc1.DOPT 0
+18ID:userStringCalc1.OOPT 0
+18ID:userStringCalc1.OEVT 0
+18ID:userStringCalc1.ODLY 0
+18ID:userStringCalc1.PREC 5
+18ID:userStringCalc1.SCAN 0
+18ID:userStringCalc1.OCAL 
+18ID:userStringCalc1.CALC 
+18ID:userStringCalc1.INLL 
+18ID:userStringCalc1.INKK 
+18ID:userStringCalc1.INJJ 
+18ID:userStringCalc1.INII 
+18ID:userStringCalc1.INHH 
+18ID:userStringCalc1.INGG 
+18ID:userStringCalc1.INFF 
+18ID:userStringCalc1.INEE 
+18ID:userStringCalc1.INDD 
+18ID:userStringCalc1.INCC 
+18ID:userStringCalc1.INBB 
+18ID:userStringCalc1.INAA 
+18ID:userStringCalc1.LL 
+18ID:userStringCalc1.KK 
+18ID:userStringCalc1.JJ 
+18ID:userStringCalc1.II 
+18ID:userStringCalc1.HH 
+18ID:userStringCalc1.GG 
+18ID:userStringCalc1.FF 
+18ID:userStringCalc1.EE 
+18ID:userStringCalc1.DD 
+18ID:userStringCalc1.CC 
+18ID:userStringCalc1.BB 
+18ID:userStringCalc1.AA 
+18ID:userStringCalc1.INPL 
+18ID:userStringCalc1.INPK 
+18ID:userStringCalc1.INPJ 
+18ID:userStringCalc1.INPI 
+18ID:userStringCalc1.INPH 
+18ID:userStringCalc1.INPG 
+18ID:userStringCalc1.INPF 
+18ID:userStringCalc1.INPE 
+18ID:userStringCalc1.INPD 
+18ID:userStringCalc1.INPC 
+18ID:userStringCalc1.INPB 
+18ID:userStringCalc1.INPA 
+18ID:userStringCalc1.L 0
+18ID:userStringCalc1.K 0
+18ID:userStringCalc1.J 0
+18ID:userStringCalc1.I 0
+18ID:userStringCalc1.H 0
+18ID:userStringCalc1.G 0
+18ID:userStringCalc1.F 0
+18ID:userStringCalc1.E 0
+18ID:userStringCalc1.D 0
+18ID:userStringCalc1.C 0
+18ID:userStringCalc1.B 0
+18ID:userStringCalc1.A 0
+18ID:userTran10.OUTP 
+18ID:userTran10.OUTO 
+18ID:userTran10.OUTN 
+18ID:userTran10.OUTM 
+18ID:userTran10.OUTL 
+18ID:userTran10.OUTK 
+18ID:userTran10.OUTJ 
+18ID:userTran10.OUTI 
+18ID:userTran10.OUTH 
+18ID:userTran10.OUTG 
+18ID:userTran10.OUTF 
+18ID:userTran10.OUTE 
+18ID:userTran10.OUTD 
+18ID:userTran10.OUTC 
+18ID:userTran10.OUTB 
+18ID:userTran10.OUTA 
+18ID:userTran10.INPP 
+18ID:userTran10.INPO 
+18ID:userTran10.INPN 
+18ID:userTran10.INPM 
+18ID:userTran10.INPL 
+18ID:userTran10.INPK 
+18ID:userTran10.INPJ 
+18ID:userTran10.INPI 
+18ID:userTran10.INPH 
+18ID:userTran10.INPG 
+18ID:userTran10.INPF 
+18ID:userTran10.INPE 
+18ID:userTran10.INPD 
+18ID:userTran10.INPC 
+18ID:userTran10.INPB 
+18ID:userTran10.INPA 
+18ID:userTran10.CMTP p
+18ID:userTran10.CMTO o
+18ID:userTran10.CMTN n
+18ID:userTran10.CMTM m
+18ID:userTran10.CMTL l
+18ID:userTran10.CMTK k
+18ID:userTran10.CMTJ j
+18ID:userTran10.CMTI i
+18ID:userTran10.CMTH h
+18ID:userTran10.CMTG g
+18ID:userTran10.CMTF f
+18ID:userTran10.CMTE e
+18ID:userTran10.CMTD d
+18ID:userTran10.CMTC c
+18ID:userTran10.CMTB b
+18ID:userTran10.CMTA a
+18ID:userTran10.P 0
+18ID:userTran10.O 0
+18ID:userTran10.N 0
+18ID:userTran10.M 0
+18ID:userTran10.L 0
+18ID:userTran10.K 0
+18ID:userTran10.J 0
+18ID:userTran10.I 0
+18ID:userTran10.H 0
+18ID:userTran10.G 0
+18ID:userTran10.F 0
+18ID:userTran10.E 0
+18ID:userTran10.D 0
+18ID:userTran10.C 0
+18ID:userTran10.B 0
+18ID:userTran10.A 0
+18ID:userTran10.PREC 3
+18ID:userTran10.SCAN 0
+18ID:userTran10.DESC user Transform 10
+18ID:userTran9.OUTP 
+18ID:userTran9.OUTO 
+18ID:userTran9.OUTN 
+18ID:userTran9.OUTM 
+18ID:userTran9.OUTL 
+18ID:userTran9.OUTK 
+18ID:userTran9.OUTJ 
+18ID:userTran9.OUTI 
+18ID:userTran9.OUTH 
+18ID:userTran9.OUTG 
+18ID:userTran9.OUTF 
+18ID:userTran9.OUTE 
+18ID:userTran9.OUTD 
+18ID:userTran9.OUTC 
+18ID:userTran9.OUTB 
+18ID:userTran9.OUTA 
+18ID:userTran9.INPP 
+18ID:userTran9.INPO 
+18ID:userTran9.INPN 
+18ID:userTran9.INPM 
+18ID:userTran9.INPL 
+18ID:userTran9.INPK 
+18ID:userTran9.INPJ 
+18ID:userTran9.INPI 
+18ID:userTran9.INPH 
+18ID:userTran9.INPG 
+18ID:userTran9.INPF 
+18ID:userTran9.INPE 
+18ID:userTran9.INPD 
+18ID:userTran9.INPC 
+18ID:userTran9.INPB 
+18ID:userTran9.INPA 
+18ID:userTran9.CMTP p
+18ID:userTran9.CMTO o
+18ID:userTran9.CMTN n
+18ID:userTran9.CMTM m
+18ID:userTran9.CMTL l
+18ID:userTran9.CMTK k
+18ID:userTran9.CMTJ j
+18ID:userTran9.CMTI i
+18ID:userTran9.CMTH h
+18ID:userTran9.CMTG g
+18ID:userTran9.CMTF f
+18ID:userTran9.CMTE e
+18ID:userTran9.CMTD d
+18ID:userTran9.CMTC c
+18ID:userTran9.CMTB b
+18ID:userTran9.CMTA a
+18ID:userTran9.P 0
+18ID:userTran9.O 0
+18ID:userTran9.N 0
+18ID:userTran9.M 0
+18ID:userTran9.L 0
+18ID:userTran9.K 0
+18ID:userTran9.J 0
+18ID:userTran9.I 0
+18ID:userTran9.H 0
+18ID:userTran9.G 0
+18ID:userTran9.F 0
+18ID:userTran9.E 0
+18ID:userTran9.D 0
+18ID:userTran9.C 0
+18ID:userTran9.B 0
+18ID:userTran9.A 0
+18ID:userTran9.PREC 3
+18ID:userTran9.SCAN 0
+18ID:userTran9.DESC user Transform 9
+18ID:userTran8.OUTP 
+18ID:userTran8.OUTO 
+18ID:userTran8.OUTN 
+18ID:userTran8.OUTM 
+18ID:userTran8.OUTL 
+18ID:userTran8.OUTK 
+18ID:userTran8.OUTJ 
+18ID:userTran8.OUTI 
+18ID:userTran8.OUTH 
+18ID:userTran8.OUTG 
+18ID:userTran8.OUTF 
+18ID:userTran8.OUTE 
+18ID:userTran8.OUTD 
+18ID:userTran8.OUTC 
+18ID:userTran8.OUTB 
+18ID:userTran8.OUTA 
+18ID:userTran8.INPP 
+18ID:userTran8.INPO 
+18ID:userTran8.INPN 
+18ID:userTran8.INPM 
+18ID:userTran8.INPL 
+18ID:userTran8.INPK 
+18ID:userTran8.INPJ 
+18ID:userTran8.INPI 
+18ID:userTran8.INPH 
+18ID:userTran8.INPG 
+18ID:userTran8.INPF 
+18ID:userTran8.INPE 
+18ID:userTran8.INPD 
+18ID:userTran8.INPC 
+18ID:userTran8.INPB 
+18ID:userTran8.INPA 
+18ID:userTran8.CMTP p
+18ID:userTran8.CMTO o
+18ID:userTran8.CMTN n
+18ID:userTran8.CMTM m
+18ID:userTran8.CMTL l
+18ID:userTran8.CMTK k
+18ID:userTran8.CMTJ j
+18ID:userTran8.CMTI i
+18ID:userTran8.CMTH h
+18ID:userTran8.CMTG g
+18ID:userTran8.CMTF f
+18ID:userTran8.CMTE e
+18ID:userTran8.CMTD d
+18ID:userTran8.CMTC c
+18ID:userTran8.CMTB b
+18ID:userTran8.CMTA a
+18ID:userTran8.P 0
+18ID:userTran8.O 0
+18ID:userTran8.N 0
+18ID:userTran8.M 0
+18ID:userTran8.L 0
+18ID:userTran8.K 0
+18ID:userTran8.J 0
+18ID:userTran8.I 0
+18ID:userTran8.H 0
+18ID:userTran8.G 0
+18ID:userTran8.F 0
+18ID:userTran8.E 0
+18ID:userTran8.D 0
+18ID:userTran8.C 0
+18ID:userTran8.B 0
+18ID:userTran8.A 0
+18ID:userTran8.PREC 3
+18ID:userTran8.SCAN 0
+18ID:userTran8.DESC user Transform 8
+18ID:userTran7.OUTP 
+18ID:userTran7.OUTO 
+18ID:userTran7.OUTN 
+18ID:userTran7.OUTM 
+18ID:userTran7.OUTL 
+18ID:userTran7.OUTK 
+18ID:userTran7.OUTJ 
+18ID:userTran7.OUTI 
+18ID:userTran7.OUTH 
+18ID:userTran7.OUTG 
+18ID:userTran7.OUTF 
+18ID:userTran7.OUTE 
+18ID:userTran7.OUTD 
+18ID:userTran7.OUTC 
+18ID:userTran7.OUTB 
+18ID:userTran7.OUTA 
+18ID:userTran7.INPP 
+18ID:userTran7.INPO 
+18ID:userTran7.INPN 
+18ID:userTran7.INPM 
+18ID:userTran7.INPL 
+18ID:userTran7.INPK 
+18ID:userTran7.INPJ 
+18ID:userTran7.INPI 
+18ID:userTran7.INPH 
+18ID:userTran7.INPG 
+18ID:userTran7.INPF 
+18ID:userTran7.INPE 
+18ID:userTran7.INPD 
+18ID:userTran7.INPC 
+18ID:userTran7.INPB 
+18ID:userTran7.INPA 
+18ID:userTran7.CMTP p
+18ID:userTran7.CMTO o
+18ID:userTran7.CMTN n
+18ID:userTran7.CMTM m
+18ID:userTran7.CMTL l
+18ID:userTran7.CMTK k
+18ID:userTran7.CMTJ j
+18ID:userTran7.CMTI i
+18ID:userTran7.CMTH h
+18ID:userTran7.CMTG g
+18ID:userTran7.CMTF f
+18ID:userTran7.CMTE e
+18ID:userTran7.CMTD d
+18ID:userTran7.CMTC c
+18ID:userTran7.CMTB b
+18ID:userTran7.CMTA a
+18ID:userTran7.P 0
+18ID:userTran7.O 0
+18ID:userTran7.N 0
+18ID:userTran7.M 0
+18ID:userTran7.L 0
+18ID:userTran7.K 0
+18ID:userTran7.J 0
+18ID:userTran7.I 0
+18ID:userTran7.H 0
+18ID:userTran7.G 0
+18ID:userTran7.F 0
+18ID:userTran7.E 0
+18ID:userTran7.D 0
+18ID:userTran7.C 0
+18ID:userTran7.B 0
+18ID:userTran7.A 0
+18ID:userTran7.PREC 3
+18ID:userTran7.SCAN 0
+18ID:userTran7.DESC user Transform 7
+18ID:userTran6.OUTP 
+18ID:userTran6.OUTO 
+18ID:userTran6.OUTN 
+18ID:userTran6.OUTM 
+18ID:userTran6.OUTL 
+18ID:userTran6.OUTK 
+18ID:userTran6.OUTJ 
+18ID:userTran6.OUTI 
+18ID:userTran6.OUTH 
+18ID:userTran6.OUTG 
+18ID:userTran6.OUTF 
+18ID:userTran6.OUTE 
+18ID:userTran6.OUTD 
+18ID:userTran6.OUTC 
+18ID:userTran6.OUTB 
+18ID:userTran6.OUTA 
+18ID:userTran6.INPP 
+18ID:userTran6.INPO 
+18ID:userTran6.INPN 
+18ID:userTran6.INPM 
+18ID:userTran6.INPL 
+18ID:userTran6.INPK 
+18ID:userTran6.INPJ 
+18ID:userTran6.INPI 
+18ID:userTran6.INPH 
+18ID:userTran6.INPG 
+18ID:userTran6.INPF 
+18ID:userTran6.INPE 
+18ID:userTran6.INPD 
+18ID:userTran6.INPC 
+18ID:userTran6.INPB 
+18ID:userTran6.INPA 
+18ID:userTran6.CMTP p
+18ID:userTran6.CMTO o
+18ID:userTran6.CMTN n
+18ID:userTran6.CMTM m
+18ID:userTran6.CMTL l
+18ID:userTran6.CMTK k
+18ID:userTran6.CMTJ j
+18ID:userTran6.CMTI i
+18ID:userTran6.CMTH h
+18ID:userTran6.CMTG g
+18ID:userTran6.CMTF f
+18ID:userTran6.CMTE e
+18ID:userTran6.CMTD d
+18ID:userTran6.CMTC c
+18ID:userTran6.CMTB b
+18ID:userTran6.CMTA a
+18ID:userTran6.P 0
+18ID:userTran6.O 0
+18ID:userTran6.N 0
+18ID:userTran6.M 0
+18ID:userTran6.L 0
+18ID:userTran6.K 0
+18ID:userTran6.J 0
+18ID:userTran6.I 0
+18ID:userTran6.H 0
+18ID:userTran6.G 0
+18ID:userTran6.F 0
+18ID:userTran6.E 0
+18ID:userTran6.D 0
+18ID:userTran6.C 0
+18ID:userTran6.B 0
+18ID:userTran6.A 0
+18ID:userTran6.PREC 3
+18ID:userTran6.SCAN 0
+18ID:userTran6.DESC user Transform 6
+18ID:userTran5.OUTP 
+18ID:userTran5.OUTO 
+18ID:userTran5.OUTN 
+18ID:userTran5.OUTM 
+18ID:userTran5.OUTL 
+18ID:userTran5.OUTK 
+18ID:userTran5.OUTJ 
+18ID:userTran5.OUTI 
+18ID:userTran5.OUTH 
+18ID:userTran5.OUTG 
+18ID:userTran5.OUTF 
+18ID:userTran5.OUTE 
+18ID:userTran5.OUTD 
+18ID:userTran5.OUTC 
+18ID:userTran5.OUTB 
+18ID:userTran5.OUTA 
+18ID:userTran5.INPP 
+18ID:userTran5.INPO 
+18ID:userTran5.INPN 
+18ID:userTran5.INPM 
+18ID:userTran5.INPL 
+18ID:userTran5.INPK 
+18ID:userTran5.INPJ 
+18ID:userTran5.INPI 
+18ID:userTran5.INPH 
+18ID:userTran5.INPG 
+18ID:userTran5.INPF 
+18ID:userTran5.INPE 
+18ID:userTran5.INPD 
+18ID:userTran5.INPC 
+18ID:userTran5.INPB 
+18ID:userTran5.INPA 
+18ID:userTran5.CMTP p
+18ID:userTran5.CMTO o
+18ID:userTran5.CMTN n
+18ID:userTran5.CMTM m
+18ID:userTran5.CMTL l
+18ID:userTran5.CMTK k
+18ID:userTran5.CMTJ j
+18ID:userTran5.CMTI i
+18ID:userTran5.CMTH h
+18ID:userTran5.CMTG g
+18ID:userTran5.CMTF f
+18ID:userTran5.CMTE e
+18ID:userTran5.CMTD d
+18ID:userTran5.CMTC c
+18ID:userTran5.CMTB b
+18ID:userTran5.CMTA a
+18ID:userTran5.P 0
+18ID:userTran5.O 0
+18ID:userTran5.N 0
+18ID:userTran5.M 0
+18ID:userTran5.L 0
+18ID:userTran5.K 0
+18ID:userTran5.J 0
+18ID:userTran5.I 0
+18ID:userTran5.H 0
+18ID:userTran5.G 0
+18ID:userTran5.F 0
+18ID:userTran5.E 0
+18ID:userTran5.D 0
+18ID:userTran5.C 0
+18ID:userTran5.B 0
+18ID:userTran5.A 0
+18ID:userTran5.PREC 3
+18ID:userTran5.SCAN 0
+18ID:userTran5.DESC user Transform 5
+18ID:userTran4.OUTP 
+18ID:userTran4.OUTO 
+18ID:userTran4.OUTN 
+18ID:userTran4.OUTM 
+18ID:userTran4.OUTL 
+18ID:userTran4.OUTK 
+18ID:userTran4.OUTJ 
+18ID:userTran4.OUTI 
+18ID:userTran4.OUTH 
+18ID:userTran4.OUTG 
+18ID:userTran4.OUTF 
+18ID:userTran4.OUTE 
+18ID:userTran4.OUTD 
+18ID:userTran4.OUTC 
+18ID:userTran4.OUTB 
+18ID:userTran4.OUTA 
+18ID:userTran4.INPP 
+18ID:userTran4.INPO 
+18ID:userTran4.INPN 
+18ID:userTran4.INPM 
+18ID:userTran4.INPL 
+18ID:userTran4.INPK 
+18ID:userTran4.INPJ 
+18ID:userTran4.INPI 
+18ID:userTran4.INPH 
+18ID:userTran4.INPG 
+18ID:userTran4.INPF 
+18ID:userTran4.INPE 
+18ID:userTran4.INPD 
+18ID:userTran4.INPC 
+18ID:userTran4.INPB 
+18ID:userTran4.INPA 
+18ID:userTran4.CMTP p
+18ID:userTran4.CMTO o
+18ID:userTran4.CMTN n
+18ID:userTran4.CMTM m
+18ID:userTran4.CMTL l
+18ID:userTran4.CMTK k
+18ID:userTran4.CMTJ j
+18ID:userTran4.CMTI i
+18ID:userTran4.CMTH h
+18ID:userTran4.CMTG g
+18ID:userTran4.CMTF f
+18ID:userTran4.CMTE e
+18ID:userTran4.CMTD d
+18ID:userTran4.CMTC c
+18ID:userTran4.CMTB b
+18ID:userTran4.CMTA a
+18ID:userTran4.P 0
+18ID:userTran4.O 0
+18ID:userTran4.N 0
+18ID:userTran4.M 0
+18ID:userTran4.L 0
+18ID:userTran4.K 0
+18ID:userTran4.J 0
+18ID:userTran4.I 0
+18ID:userTran4.H 0
+18ID:userTran4.G 0
+18ID:userTran4.F 0
+18ID:userTran4.E 0
+18ID:userTran4.D 0
+18ID:userTran4.C 0
+18ID:userTran4.B 0
+18ID:userTran4.A 0
+18ID:userTran4.PREC 3
+18ID:userTran4.SCAN 0
+18ID:userTran4.DESC user Transform 4
+18ID:userTran3.OUTP 
+18ID:userTran3.OUTO 
+18ID:userTran3.OUTN 
+18ID:userTran3.OUTM 
+18ID:userTran3.OUTL 
+18ID:userTran3.OUTK 
+18ID:userTran3.OUTJ 
+18ID:userTran3.OUTI 
+18ID:userTran3.OUTH 
+18ID:userTran3.OUTG 
+18ID:userTran3.OUTF 
+18ID:userTran3.OUTE 
+18ID:userTran3.OUTD 
+18ID:userTran3.OUTC 
+18ID:userTran3.OUTB 
+18ID:userTran3.OUTA 
+18ID:userTran3.INPP 
+18ID:userTran3.INPO 
+18ID:userTran3.INPN 
+18ID:userTran3.INPM 
+18ID:userTran3.INPL 
+18ID:userTran3.INPK 
+18ID:userTran3.INPJ 
+18ID:userTran3.INPI 
+18ID:userTran3.INPH 
+18ID:userTran3.INPG 
+18ID:userTran3.INPF 
+18ID:userTran3.INPE 
+18ID:userTran3.INPD 
+18ID:userTran3.INPC 
+18ID:userTran3.INPB 
+18ID:userTran3.INPA 
+18ID:userTran3.CMTP p
+18ID:userTran3.CMTO o
+18ID:userTran3.CMTN n
+18ID:userTran3.CMTM m
+18ID:userTran3.CMTL l
+18ID:userTran3.CMTK k
+18ID:userTran3.CMTJ j
+18ID:userTran3.CMTI i
+18ID:userTran3.CMTH h
+18ID:userTran3.CMTG g
+18ID:userTran3.CMTF f
+18ID:userTran3.CMTE e
+18ID:userTran3.CMTD d
+18ID:userTran3.CMTC c
+18ID:userTran3.CMTB b
+18ID:userTran3.CMTA a
+18ID:userTran3.P 0
+18ID:userTran3.O 0
+18ID:userTran3.N 0
+18ID:userTran3.M 0
+18ID:userTran3.L 0
+18ID:userTran3.K 0
+18ID:userTran3.J 0
+18ID:userTran3.I 0
+18ID:userTran3.H 0
+18ID:userTran3.G 0
+18ID:userTran3.F 0
+18ID:userTran3.E 0
+18ID:userTran3.D 0
+18ID:userTran3.C 0
+18ID:userTran3.B 0
+18ID:userTran3.A 0
+18ID:userTran3.PREC 3
+18ID:userTran3.SCAN 0
+18ID:userTran3.DESC user Transform 3
+18ID:userTran2.OUTP 
+18ID:userTran2.OUTO 
+18ID:userTran2.OUTN 
+18ID:userTran2.OUTM 
+18ID:userTran2.OUTL 
+18ID:userTran2.OUTK 
+18ID:userTran2.OUTJ 
+18ID:userTran2.OUTI 
+18ID:userTran2.OUTH 
+18ID:userTran2.OUTG 
+18ID:userTran2.OUTF 
+18ID:userTran2.OUTE 
+18ID:userTran2.OUTD 
+18ID:userTran2.OUTC 
+18ID:userTran2.OUTB 
+18ID:userTran2.OUTA 
+18ID:userTran2.INPP 
+18ID:userTran2.INPO 
+18ID:userTran2.INPN 
+18ID:userTran2.INPM 
+18ID:userTran2.INPL 
+18ID:userTran2.INPK 
+18ID:userTran2.INPJ 
+18ID:userTran2.INPI 
+18ID:userTran2.INPH 
+18ID:userTran2.INPG 
+18ID:userTran2.INPF 
+18ID:userTran2.INPE 
+18ID:userTran2.INPD 
+18ID:userTran2.INPC 
+18ID:userTran2.INPB 
+18ID:userTran2.INPA 
+18ID:userTran2.CMTP p
+18ID:userTran2.CMTO o
+18ID:userTran2.CMTN n
+18ID:userTran2.CMTM m
+18ID:userTran2.CMTL l
+18ID:userTran2.CMTK k
+18ID:userTran2.CMTJ j
+18ID:userTran2.CMTI i
+18ID:userTran2.CMTH h
+18ID:userTran2.CMTG g
+18ID:userTran2.CMTF f
+18ID:userTran2.CMTE e
+18ID:userTran2.CMTD d
+18ID:userTran2.CMTC c
+18ID:userTran2.CMTB b
+18ID:userTran2.CMTA a
+18ID:userTran2.P 0
+18ID:userTran2.O 0
+18ID:userTran2.N 0
+18ID:userTran2.M 0
+18ID:userTran2.L 0
+18ID:userTran2.K 0
+18ID:userTran2.J 0
+18ID:userTran2.I 0
+18ID:userTran2.H 0
+18ID:userTran2.G 0
+18ID:userTran2.F 0
+18ID:userTran2.E 0
+18ID:userTran2.D 0
+18ID:userTran2.C 0
+18ID:userTran2.B 0
+18ID:userTran2.A 0
+18ID:userTran2.PREC 3
+18ID:userTran2.SCAN 0
+18ID:userTran2.DESC user Transform 2
+18ID:userTran1.OUTP 
+18ID:userTran1.OUTO 
+18ID:userTran1.OUTN 
+18ID:userTran1.OUTM 
+18ID:userTran1.OUTL 
+18ID:userTran1.OUTK 
+18ID:userTran1.OUTJ 
+18ID:userTran1.OUTI 
+18ID:userTran1.OUTH 
+18ID:userTran1.OUTG 
+18ID:userTran1.OUTF 
+18ID:userTran1.OUTE 
+18ID:userTran1.OUTD 
+18ID:userTran1.OUTC 
+18ID:userTran1.OUTB 
+18ID:userTran1.OUTA 
+18ID:userTran1.INPP 
+18ID:userTran1.INPO 
+18ID:userTran1.INPN 
+18ID:userTran1.INPM 
+18ID:userTran1.INPL 
+18ID:userTran1.INPK 
+18ID:userTran1.INPJ 
+18ID:userTran1.INPI 
+18ID:userTran1.INPH 
+18ID:userTran1.INPG 
+18ID:userTran1.INPF 
+18ID:userTran1.INPE 
+18ID:userTran1.INPD 
+18ID:userTran1.INPC 
+18ID:userTran1.INPB 
+18ID:userTran1.INPA 
+18ID:userTran1.CLCP 
+18ID:userTran1.CLCO 
+18ID:userTran1.CLCN 
+18ID:userTran1.CLCM 
+18ID:userTran1.CLCL 
+18ID:userTran1.CLCK 
+18ID:userTran1.CLCJ 
+18ID:userTran1.CLCI 
+18ID:userTran1.CLCH 
+18ID:userTran1.CLCG 
+18ID:userTran1.CLCF 
+18ID:userTran1.CLCE 
+18ID:userTran1.CLCD 
+18ID:userTran1.CLCC 
+18ID:userTran1.CLCB 
+18ID:userTran1.CLCA 
+18ID:userTran1.CMTP p
+18ID:userTran1.CMTO o
+18ID:userTran1.CMTN n
+18ID:userTran1.CMTM m
+18ID:userTran1.CMTL l
+18ID:userTran1.CMTK k
+18ID:userTran1.CMTJ j
+18ID:userTran1.CMTI i
+18ID:userTran1.CMTH h
+18ID:userTran1.CMTG g
+18ID:userTran1.CMTF f
+18ID:userTran1.CMTE e
+18ID:userTran1.CMTD d
+18ID:userTran1.CMTC c
+18ID:userTran1.CMTB b
+18ID:userTran1.CMTA a
+18ID:userTran1.P 0
+18ID:userTran1.O 0
+18ID:userTran1.N 0
+18ID:userTran1.M 0
+18ID:userTran1.L 0
+18ID:userTran1.K 0
+18ID:userTran1.J 0
+18ID:userTran1.I 0
+18ID:userTran1.H 0
+18ID:userTran1.G 0
+18ID:userTran1.F 0
+18ID:userTran1.E 0
+18ID:userTran1.D 0
+18ID:userTran1.C 0
+18ID:userTran1.B 0
+18ID:userTran1.A 0
+18ID:userTran1.PREC 3
+18ID:userTran1.SCAN 0
+18ID:userTran1.DESC user Transform 1
+18ID:saveData_realTime1D 0
+18ID:saveData_scanNumber 0
+18ID:saveData_subDir 
+18ID:saveData_fileSystem 
+18ID:mcs1.R9P 0
+18ID:mcs1.R9IP 0
+18ID:mcs1.R9BG 0
+18ID:mcs1.R9HI -1
+18ID:mcs1.R9LO -1
+18ID:mcs1.R8P 0
+18ID:mcs1.R8IP 0
+18ID:mcs1.R8BG 0
+18ID:mcs1.R8HI -1
+18ID:mcs1.R8LO -1
+18ID:mcs1.R7P 0
+18ID:mcs1.R7IP 0
+18ID:mcs1.R7BG 0
+18ID:mcs1.R7HI -1
+18ID:mcs1.R7LO -1
+18ID:mcs1.R6P 0
+18ID:mcs1.R6IP 0
+18ID:mcs1.R6BG 0
+18ID:mcs1.R6HI -1
+18ID:mcs1.R6LO -1
+18ID:mcs1.R5P 0
+18ID:mcs1.R5IP 0
+18ID:mcs1.R5BG 0
+18ID:mcs1.R5HI -1
+18ID:mcs1.R5LO -1
+18ID:mcs1.R4P 0
+18ID:mcs1.R4IP 0
+18ID:mcs1.R4BG 0
+18ID:mcs1.R4HI -1
+18ID:mcs1.R4LO -1
+18ID:mcs1.R3P 0
+18ID:mcs1.R3IP 0
+18ID:mcs1.R3BG 0
+18ID:mcs1.R3HI -1
+18ID:mcs1.R3LO -1
+18ID:mcs1.R2P 0
+18ID:mcs1.R2IP 0
+18ID:mcs1.R2BG 0
+18ID:mcs1.R2HI -1
+18ID:mcs1.R2LO -1
+18ID:mcs1.R1P 0
+18ID:mcs1.R1IP 0
+18ID:mcs1.R1BG 0
+18ID:mcs1.R1HI -1
+18ID:mcs1.R1LO -1
+18ID:mcs1.R0P 0
+18ID:mcs1.R0IP 0
+18ID:mcs1.R0BG 0
+18ID:mcs1.R0HI -1
+18ID:mcs1.R0LO -1
+18ID:mcs1.MODE 0
+18ID:mcs1.PRTM 0
+18ID:mcs1.PLTM 0
+18ID:mcs1.DESC 
+18ID:mcs1.CHAS 0
+18ID:mcs1.MODE 0
+18ID:userCalc5.OEVT 0
+18ID:userCalc5.PREC 5
+18ID:userCalc5.ODLY 0
+18ID:userCalc5.SCAN 0
+18ID:userCalc5.DOLN 
+18ID:userCalc5.DOPT 0
+18ID:userCalc5.OOPT 0
+18ID:userCalc5.OUTN 
+18ID:userCalc5.CALC 
+18ID:userCalc5.INLP 1
+18ID:userCalc5.INKP 1
+18ID:userCalc5.INJP 1
+18ID:userCalc5.INIP 1
+18ID:userCalc5.INHP 1
+18ID:userCalc5.INGP 1
+18ID:userCalc5.INFP 1
+18ID:userCalc5.INEP 1
+18ID:userCalc5.INDP 1
+18ID:userCalc5.INCP 1
+18ID:userCalc5.INBP 1
+18ID:userCalc5.INAP 1
+18ID:userCalc5.INLN 
+18ID:userCalc5.INKN 
+18ID:userCalc5.INJN 
+18ID:userCalc5.ININ 
+18ID:userCalc5.INHN 
+18ID:userCalc5.INGN 
+18ID:userCalc5.INFN 
+18ID:userCalc5.INEN 
+18ID:userCalc5.INDN 
+18ID:userCalc5.INCN 
+18ID:userCalc5.INBN 
+18ID:userCalc5.INAN 
+18ID:userCalc4.OEVT 0
+18ID:userCalc4.PREC 5
+18ID:userCalc4.ODLY 0
+18ID:userCalc4.SCAN 0
+18ID:userCalc4.DOLN 
+18ID:userCalc4.DOPT 0
+18ID:userCalc4.OOPT 0
+18ID:userCalc4.OUTN 
+18ID:userCalc4.CALC 
+18ID:userCalc4.INLP 1
+18ID:userCalc4.INKP 1
+18ID:userCalc4.INJP 1
+18ID:userCalc4.INIP 1
+18ID:userCalc4.INHP 1
+18ID:userCalc4.INGP 1
+18ID:userCalc4.INFP 1
+18ID:userCalc4.INEP 1
+18ID:userCalc4.INDP 1
+18ID:userCalc4.INCP 1
+18ID:userCalc4.INBP 1
+18ID:userCalc4.INAP 1
+18ID:userCalc4.INLN 
+18ID:userCalc4.INKN 
+18ID:userCalc4.INJN 
+18ID:userCalc4.ININ 
+18ID:userCalc4.INHN 
+18ID:userCalc4.INGN 
+18ID:userCalc4.INFN 
+18ID:userCalc4.INEN 
+18ID:userCalc4.INDN 
+18ID:userCalc4.INCN 
+18ID:userCalc4.INBN 
+18ID:userCalc4.INAN 
+18ID:userCalc3.OEVT 0
+18ID:userCalc3.PREC 5
+18ID:userCalc3.ODLY 0
+18ID:userCalc3.SCAN 0
+18ID:userCalc3.DOLN 
+18ID:userCalc3.DOPT 0
+18ID:userCalc3.OOPT 0
+18ID:userCalc3.OUTN 
+18ID:userCalc3.CALC 
+18ID:userCalc3.INLP 1
+18ID:userCalc3.INKP 1
+18ID:userCalc3.INJP 1
+18ID:userCalc3.INIP 1
+18ID:userCalc3.INHP 1
+18ID:userCalc3.INGP 1
+18ID:userCalc3.INFP 1
+18ID:userCalc3.INEP 1
+18ID:userCalc3.INDP 1
+18ID:userCalc3.INCP 1
+18ID:userCalc3.INBP 1
+18ID:userCalc3.INAP 1
+18ID:userCalc3.INLN 
+18ID:userCalc3.INKN 
+18ID:userCalc3.INJN 
+18ID:userCalc3.ININ 
+18ID:userCalc3.INHN 
+18ID:userCalc3.INGN 
+18ID:userCalc3.INFN 
+18ID:userCalc3.INEN 
+18ID:userCalc3.INDN 
+18ID:userCalc3.INCN 
+18ID:userCalc3.INBN 
+18ID:userCalc3.INAN 
+18ID:userCalc2.OEVT 0
+18ID:userCalc2.PREC 5
+18ID:userCalc2.ODLY 0
+18ID:userCalc2.SCAN 0
+18ID:userCalc2.DOLN 
+18ID:userCalc2.DOPT 0
+18ID:userCalc2.OOPT 0
+18ID:userCalc2.OUTN 
+18ID:userCalc2.CALC 
+18ID:userCalc2.INLP 1
+18ID:userCalc2.INKP 1
+18ID:userCalc2.INJP 1
+18ID:userCalc2.INIP 1
+18ID:userCalc2.INHP 1
+18ID:userCalc2.INGP 1
+18ID:userCalc2.INFP 1
+18ID:userCalc2.INEP 1
+18ID:userCalc2.INDP 1
+18ID:userCalc2.INCP 1
+18ID:userCalc2.INBP 1
+18ID:userCalc2.INAP 1
+18ID:userCalc2.INLN 
+18ID:userCalc2.INKN 
+18ID:userCalc2.INJN 
+18ID:userCalc2.ININ 
+18ID:userCalc2.INHN 
+18ID:userCalc2.INGN 
+18ID:userCalc2.INFN 
+18ID:userCalc2.INEN 
+18ID:userCalc2.INDN 
+18ID:userCalc2.INCN 
+18ID:userCalc2.INBN 
+18ID:userCalc2.INAN 
+18ID:userCalc1.OEVT 0
+18ID:userCalc1.PREC 5
+18ID:userCalc1.ODLY 0
+18ID:userCalc1.SCAN 0
+18ID:userCalc1.DOLN 
+18ID:userCalc1.DOPT 0
+18ID:userCalc1.OOPT 0
+18ID:userCalc1.OUTN 
+18ID:userCalc1.CALC 
+18ID:userCalc1.INLP 1
+18ID:userCalc1.INKP 1
+18ID:userCalc1.INJP 1
+18ID:userCalc1.INIP 1
+18ID:userCalc1.INHP 1
+18ID:userCalc1.INGP 1
+18ID:userCalc1.INFP 1
+18ID:userCalc1.INEP 1
+18ID:userCalc1.INDP 1
+18ID:userCalc1.INCP 1
+18ID:userCalc1.INBP 1
+18ID:userCalc1.INAP 1
+18ID:userCalc1.INLN 
+18ID:userCalc1.INKN 
+18ID:userCalc1.INJN 
+18ID:userCalc1.ININ 
+18ID:userCalc1.INHN 
+18ID:userCalc1.INGN 
+18ID:userCalc1.INFN 
+18ID:userCalc1.INEN 
+18ID:userCalc1.INDN 
+18ID:userCalc1.INCN 
+18ID:userCalc1.INBN 
+18ID:userCalc1.INAN 
+18ID:m8:scanParms.AFT 2
+18ID:m8:scanParms.AR 1
+18ID:m8:scanParms.NP 21
+18ID:m8:scanParms.EP 1
+18ID:m8:scanParms.SP -1
+18ID:m7:scanParms.AFT 2
+18ID:m7:scanParms.AR 1
+18ID:m7:scanParms.NP 21
+18ID:m7:scanParms.EP 1
+18ID:m7:scanParms.SP -1
+18ID:m6:scanParms.AFT 2
+18ID:m6:scanParms.AR 1
+18ID:m6:scanParms.NP 21
+18ID:m6:scanParms.EP 1
+18ID:m6:scanParms.SP -1
+18ID:m5:scanParms.AFT 2
+18ID:m5:scanParms.AR 1
+18ID:m5:scanParms.NP 21
+18ID:m5:scanParms.EP 1
+18ID:m5:scanParms.SP -1
+18ID:m4:scanParms.AFT 2
+18ID:m4:scanParms.AR 1
+18ID:m4:scanParms.NP 21
+18ID:m4:scanParms.EP 1
+18ID:m4:scanParms.SP -1
+18ID:m3:scanParms.AFT 2
+18ID:m3:scanParms.AR 1
+18ID:m3:scanParms.NP 21
+18ID:m3:scanParms.EP 1
+18ID:m3:scanParms.SP -1
+18ID:m2:scanParms.AFT 2
+18ID:m2:scanParms.AR 1
+18ID:m2:scanParms.NP 21
+18ID:m2:scanParms.EP 1
+18ID:m2:scanParms.SP -1
+18ID:m1:scanParms.AFT 2
+18ID:m1:scanParms.AR 1
+18ID:m1:scanParms.NP 21
+18ID:m1:scanParms.EP 1
+18ID:m1:scanParms.SP -1
+18ID:scan4.DDLY 0
+18ID:scan4.PDLY 0
+18ID:scan4.DFPV 
+18ID:scan4.DEPV 
+18ID:scan4.DDPV 
+18ID:scan4.DCPV 
+18ID:scan4.DBPV 
+18ID:scan4.DAPV 
+18ID:scan4.D9PV 
+18ID:scan4.D8PV 
+18ID:scan4.D7PV 
+18ID:scan4.D6PV 
+18ID:scan4.D5PV 
+18ID:scan4.P4AR 0
+18ID:scan4.P4EP 0
+18ID:scan4.P4SP 0
+18ID:scan4.P4SM 0
+18ID:scan4.R4PV 
+18ID:scan4.P4PV 
+18ID:scan4.D4PV 
+18ID:scan4.P3AR 0
+18ID:scan4.P3EP 0
+18ID:scan4.P3SP 0
+18ID:scan4.P3SM 0
+18ID:scan4.R3PV 
+18ID:scan4.P3PV 
+18ID:scan4.D3PV 
+18ID:scan4.P2AR 0
+18ID:scan4.P2EP 0
+18ID:scan4.P2SP 0
+18ID:scan4.P2SM 0
+18ID:scan4.R2PV 
+18ID:scan4.P2PV 
+18ID:scan4.D2PV 
+18ID:scan4.P1AR 0
+18ID:scan4.P1EP 0
+18ID:scan4.P1SP 0
+18ID:scan4.P1SM 0
+18ID:scan4.R1PV 
+18ID:scan4.P1PV 
+18ID:scan4.D1PV 
+18ID:scan4.T2CD 1
+18ID:scan4.T2PV 
+18ID:scan4.T1CD 1
+18ID:scan4.T1PV 18ID:scan3.EXSC
+18ID:scan4.ASPV 
+18ID:scan4.BSPV 
+18ID:scan4.SCAN 0
+18ID:scan4.PASM 0
+18ID:scan4.NPTS 10
+18ID:scan3.DDLY 0
+18ID:scan3.PDLY 0
+18ID:scan3.DFPV 
+18ID:scan3.DEPV 
+18ID:scan3.DDPV 
+18ID:scan3.DCPV 
+18ID:scan3.DBPV 
+18ID:scan3.DAPV 
+18ID:scan3.D9PV 
+18ID:scan3.D8PV 
+18ID:scan3.D7PV 
+18ID:scan3.D6PV 
+18ID:scan3.D5PV 
+18ID:scan3.P4AR 0
+18ID:scan3.P4EP 0
+18ID:scan3.P4SP 0
+18ID:scan3.P4SM 0
+18ID:scan3.R4PV 
+18ID:scan3.P4PV 
+18ID:scan3.D4PV 
+18ID:scan3.P3AR 0
+18ID:scan3.P3EP 0
+18ID:scan3.P3SP 0
+18ID:scan3.P3SM 0
+18ID:scan3.R3PV 
+18ID:scan3.P3PV 
+18ID:scan3.D3PV 
+18ID:scan3.P2AR 0
+18ID:scan3.P2EP 0
+18ID:scan3.P2SP 0
+18ID:scan3.P2SM 0
+18ID:scan3.R2PV 
+18ID:scan3.P2PV 
+18ID:scan3.D2PV 
+18ID:scan3.P1AR 0
+18ID:scan3.P1EP 0
+18ID:scan3.P1SP 0
+18ID:scan3.P1SM 0
+18ID:scan3.R1PV 
+18ID:scan3.P1PV 
+18ID:scan3.D1PV 
+18ID:scan3.T2CD 1
+18ID:scan3.T2PV 
+18ID:scan3.T1CD 1
+18ID:scan3.T1PV 18ID:scan2.EXSC
+18ID:scan3.ASPV 
+18ID:scan3.BSPV 
+18ID:scan3.SCAN 0
+18ID:scan3.PASM 0
+18ID:scan3.NPTS 10
+18ID:scan2.DDLY 0
+18ID:scan2.PDLY 0
+18ID:scan2.DFPV 
+18ID:scan2.DEPV 
+18ID:scan2.DDPV 
+18ID:scan2.DCPV 
+18ID:scan2.DBPV 
+18ID:scan2.DAPV 
+18ID:scan2.D9PV 
+18ID:scan2.D8PV 
+18ID:scan2.D7PV 
+18ID:scan2.D6PV 
+18ID:scan2.D5PV 
+18ID:scan2.P4AR 0
+18ID:scan2.P4EP 0
+18ID:scan2.P4SP 0
+18ID:scan2.P4SM 0
+18ID:scan2.R4PV 
+18ID:scan2.P4PV 
+18ID:scan2.D4PV 
+18ID:scan2.P3AR 0
+18ID:scan2.P3EP 0
+18ID:scan2.P3SP 0
+18ID:scan2.P3SM 0
+18ID:scan2.R3PV 
+18ID:scan2.P3PV 
+18ID:scan2.D3PV 
+18ID:scan2.P2AR 0
+18ID:scan2.P2EP 0
+18ID:scan2.P2SP 0
+18ID:scan2.P2SM 0
+18ID:scan2.R2PV 
+18ID:scan2.P2PV 
+18ID:scan2.D2PV 
+18ID:scan2.P1AR 0
+18ID:scan2.P1EP 0
+18ID:scan2.P1SP 0
+18ID:scan2.P1SM 0
+18ID:scan2.R1PV 
+18ID:scan2.P1PV 
+18ID:scan2.D1PV 
+18ID:scan2.T2CD 1
+18ID:scan2.T2PV 
+18ID:scan2.T1CD 1
+18ID:scan2.T1PV 18ID:scan1.EXSC
+18ID:scan2.ASPV 
+18ID:scan2.BSPV 
+18ID:scan2.SCAN 0
+18ID:scan2.PASM 0
+18ID:scan2.NPTS 100
+18ID:scan1.ACQM 0
+18ID:scan1.REFD 1
+18ID:scan1.DDLY 0
+18ID:scan1.PDLY 0
+18ID:scan1.DFPV 
+18ID:scan1.DEPV 
+18ID:scan1.DDPV 
+18ID:scan1.DCPV 
+18ID:scan1.DBPV 
+18ID:scan1.DAPV 
+18ID:scan1.D9PV 
+18ID:scan1.D8PV 
+18ID:scan1.D7PV 
+18ID:scan1.D6PV 
+18ID:scan1.D5PV 
+18ID:scan1.P4AR 0
+18ID:scan1.P4EP 0
+18ID:scan1.P4SP 0
+18ID:scan1.P4SM 0
+18ID:scan1.R4PV 
+18ID:scan1.P4PV 
+18ID:scan1.D4PV 
+18ID:scan1.P3AR 0
+18ID:scan1.P3EP 876.7733
+18ID:scan1.P3SP 892.9134
+18ID:scan1.P3SM 0
+18ID:scan1.R3PV 
+18ID:scan1.P3PV 
+18ID:scan1.D3PV 
+18ID:scan1.P2AR 0
+18ID:scan1.P2EP -480
+18ID:scan1.P2SP -520
+18ID:scan1.P2SM 0
+18ID:scan1.R2PV 
+18ID:scan1.P2PV 
+18ID:scan1.D2PV 
+18ID:scan1.P1AR 0
+18ID:scan1.P1EP 8.184
+18ID:scan1.P1SP 5.573
+18ID:scan1.P1SM 2
+18ID:scan1.R1PV 18ID:m22.RBV
+18ID:scan1.P1PV 18ID:m22.VAL
+18ID:scan1.D1PV 
+18ID:scan1.T2CD 1
+18ID:scan1.T2PV 
+18ID:scan1.T1CD 1
+18ID:scan1.T1PV 18ID:scaler2.CNT
+18ID:scan1.ASCD 1
+18ID:scan1.ASPV 
+18ID:scan1.BSCD 0
+18ID:scan1.BSPV 
+18ID:scan1.PASM 0
+18ID:scan1.NPTS 132
+18ID:scaler1_calc8.CALC H
+18ID:scaler1_calc7.CALC G
+18ID:scaler1_calc6.CALC F
+18ID:scaler1_calc5.CALC E
+18ID:scaler1_calc4.CALC D
+18ID:scaler1_calc3.CALC C
+18ID:scaler1_calc2.CALC B
+18ID:scaler1_calc1.CALC A
+18ID:scaler1_calc_ctrl.VAL 1
+18ID:scaler1_calcEnable.VAL 0
+18ID:scaler1.G16 0
+18ID:scaler1.G15 0
+18ID:scaler1.G14 0
+18ID:scaler1.G13 0
+18ID:scaler1.G12 0
+18ID:scaler1.G11 0
+18ID:scaler1.G10 0
+18ID:scaler1.G9 0
+18ID:scaler1.G8 0
+18ID:scaler1.G7 0
+18ID:scaler1.G6 0
+18ID:scaler1.G5 0
+18ID:scaler1.G4 0
+18ID:scaler1.G3 0
+18ID:scaler1.G2 0
+18ID:scaler1.G1 1
+18ID:scaler1.PR16 0
+18ID:scaler1.PR15 0
+18ID:scaler1.PR14 0
+18ID:scaler1.PR13 0
+18ID:scaler1.PR12 0
+18ID:scaler1.PR11 0
+18ID:scaler1.PR10 0
+18ID:scaler1.PR9 0
+18ID:scaler1.PR8 0
+18ID:scaler1.PR7 0
+18ID:scaler1.PR6 0
+18ID:scaler1.PR5 0
+18ID:scaler1.PR4 0
+18ID:scaler1.PR3 0
+18ID:scaler1.PR2 0
+18ID:scaler1.PR1 25000000
+18ID:scaler1.NM16 zn
+18ID:scaler1.NM15 
+18ID:scaler1.NM14 
+18ID:scaler1.NM13 
+18ID:scaler1.NM12 
+18ID:scaler1.NM11 
+18ID:scaler1.NM10 
+18ID:scaler1.NM9 
+18ID:scaler1.NM8 
+18ID:scaler1.NM7 
+18ID:scaler1.NM6 I0
+18ID:scaler1.NM5 
+18ID:scaler1.NM4 
+18ID:scaler1.NM3 
+18ID:scaler1.NM2 
+18ID:scaler1.NM1 
+18ID:scaler1.DLY 0
+18ID:scaler1.RATE 60
+18ID:scaler1.FREQ 25000000
+18ID:scaler1.PREC 3
+18ID:m32_able.VAL 0
+18ID:m32.FOFF 1
+18ID:m32.DISP 0
+18ID:m32.DISA 0
+18ID:m32.PREC 5
+18ID:m32.URIP 0
+18ID:m32.UEIP 0
+18ID:m32.RTRY 10
+18ID:m32.EGU mm
+18ID:m32.DESC Mono Slits Vertical
+18ID:m32.RDBD 0.000408
+18ID:m32.BACC 0.2
+18ID:m32.BVEL 1
+18ID:m32.BDST 0.1
+18ID:m32.ACCL 0.2
+18ID:m32.VELO 1
+18ID:m32.VBAS 0.5
+18ID:m32.RRES 0
+18ID:m32.ERES 0.00025
+18ID:m32.MRES 0.0008
+18ID:m32.SREV 200
+18ID:m32.TWV 0.075
+18ID:m32.DLLM -1000
+18ID:m32.DHLM 1000
+18ID:m32.DIR 1
+18ID:m31_able.VAL 0
+18ID:m31.FOFF 1
+18ID:m31.DISP 0
+18ID:m31.DISA 0
+18ID:m31.PREC 5
+18ID:m31.URIP 0
+18ID:m31.UEIP 0
+18ID:m31.RTRY 10
+18ID:m31.EGU mm
+18ID:m31.DESC Mono Slits Horizontal
+18ID:m31.RDBD 0.00255
+18ID:m31.BACC 0.2
+18ID:m31.BVEL 2
+18ID:m31.BDST 0.1
+18ID:m31.ACCL 0.2
+18ID:m31.VELO 5
+18ID:m31.VBAS 2
+18ID:m31.RRES 0
+18ID:m31.ERES 0.00025
+18ID:m31.MRES 0.005
+18ID:m31.SREV 200
+18ID:m31.TWV 10
+18ID:m31.DLLM -70.5
+18ID:m31.DHLM 12
+18ID:m31.DIR 0
+18ID:m30_able.VAL 1
+18ID:m30.FOFF 0
+18ID:m30.DISP 1
+18ID:m30.DISA 1
+18ID:m30.PREC 5
+18ID:m30.URIP 0
+18ID:m30.UEIP 0
+18ID:m30.RTRY 10
+18ID:m30.EGU mm
+18ID:m30.DESC Detector Vert
+18ID:m30.RDBD 0.012954
+18ID:m30.BACC 1
+18ID:m30.BVEL 10
+18ID:m30.BDST 0.005
+18ID:m30.ACCL 1
+18ID:m30.VELO 10
+18ID:m30.VBAS 0
+18ID:m30.RRES 0
+18ID:m30.ERES 0.0025
+18ID:m30.MRES 0.0254
+18ID:m30.SREV 200
+18ID:m30.TWV 1
+18ID:m30.DLLM -519.04
+18ID:m30.DHLM 55
+18ID:m30.DIR 0
+18ID:m29_able.VAL 0
+18ID:m29.FOFF 0
+18ID:m29.DISP 0
+18ID:m29.DISA 0
+18ID:m29.PREC 5
+18ID:m29.URIP 0
+18ID:m29.UEIP 0
+18ID:m29.RTRY 10
+18ID:m29.EGU mm
+18ID:m29.DESC LongVelmexX
+18ID:m29.RDBD 0.012954
+18ID:m29.BACC 1
+18ID:m29.BVEL 1.27
+18ID:m29.BDST 0.005
+18ID:m29.ACCL 1
+18ID:m29.VELO 1.27
+18ID:m29.VBAS 0
+18ID:m29.RRES 0
+18ID:m29.ERES 0.0025
+18ID:m29.MRES 0.00508
+18ID:m29.SREV 200
+18ID:m29.TWV 50
+18ID:m29.DLLM -200
+18ID:m29.DHLM 200
+18ID:m29.DIR 1
+18ID:m28_able.VAL 0
+18ID:m28.FOFF 0
+18ID:m28.DISP 0
+18ID:m28.DISA 0
+18ID:m28.PREC 5
+18ID:m28.URIP 0
+18ID:m28.UEIP 0
+18ID:m28.RTRY 10
+18ID:m28.EGU mm
+18ID:m28.DESC beamstop vertical
+18ID:m28.RDBD 0.00091
+18ID:m28.BACC 0.1
+18ID:m28.BVEL 1
+18ID:m28.BDST 0.02
+18ID:m28.ACCL 0.1
+18ID:m28.VELO 1
+18ID:m28.VBAS 0.05
+18ID:m28.RRES 0
+18ID:m28.ERES 0.00176
+18ID:m28.MRES 0.00176
+18ID:m28.SREV 200
+18ID:m28.TWV 0.125
+18ID:m28.DLLM -975.5163
+18ID:m28.DHLM 165.4837
+18ID:m28.DIR 1
+18ID:m27_able.VAL 0
+18ID:m27.FOFF 0
+18ID:m27.DISP 0
+18ID:m27.DISA 0
+18ID:m27.PREC 5
+18ID:m27.URIP 0
+18ID:m27.UEIP 0
+18ID:m27.RTRY 10
+18ID:m27.EGU degrees
+18ID:m27.DESC beamstop horizontal
+18ID:m27.RDBD 0.0025
+18ID:m27.BACC 1
+18ID:m27.BVEL 1
+18ID:m27.BDST 0.01
+18ID:m27.ACCL 1
+18ID:m27.VELO 1
+18ID:m27.VBAS 0
+18ID:m27.RRES 0
+18ID:m27.ERES 0.0025
+18ID:m27.MRES 0.0025
+18ID:m27.SREV 200
+18ID:m27.TWV 0.125
+18ID:m27.DLLM -29.1
+18ID:m27.DHLM 39.0975
+18ID:m27.DIR 0
+18ID:m26_able.VAL 0
+18ID:m26.FOFF 1
+18ID:m26.DISP 0
+18ID:m26.DISA 0
+18ID:m26.PREC 5
+18ID:m26.URIP 0
+18ID:m26.UEIP 0
+18ID:m26.RTRY 10
+18ID:m26.EGU mm
+18ID:m26.DESC Wedge Vertical
+18ID:m26.RDBD 0.0088383
+18ID:m26.BACC 1
+18ID:m26.BVEL 10
+18ID:m26.BDST 0.25
+18ID:m26.ACCL 1
+18ID:m26.VELO 10
+18ID:m26.VBAS 0
+18ID:m26.RRES 0
+18ID:m26.ERES 0.0025
+18ID:m26.MRES 0.002326
+18ID:m26.SREV 200
+18ID:m26.TWV 1
+18ID:m26.DLLM -15
+18ID:m26.DHLM 100
+18ID:m26.DIR 1
+18ID:m25_able.VAL 0
+18ID:m25.FOFF 1
+18ID:m25.DISP 0
+18ID:m25.DISA 0
+18ID:m25.PREC 5
+18ID:m25.URIP 0
+18ID:m25.UEIP 0
+18ID:m25.RTRY 10
+18ID:m25.EGU mm
+18ID:m25.DESC Wedge Horizontal
+18ID:m25.RDBD 0.0032385
+18ID:m25.BACC 0.5
+18ID:m25.BVEL 10
+18ID:m25.BDST 0.25
+18ID:m25.ACCL 0.5
+18ID:m25.VELO 10
+18ID:m25.VBAS 0
+18ID:m25.RRES 0
+18ID:m25.ERES 0.0025
+18ID:m25.MRES 0.00591
+18ID:m25.SREV 200
+18ID:m25.TWV 1
+18ID:m25.DLLM -30
+18ID:m25.DHLM 30
+18ID:m25.DIR 1
+18ID:m24_able.VAL 1
+18ID:m24.FOFF 0
+18ID:m24.DISP 1
+18ID:m24.DISA 1
+18ID:m24.PREC 5
+18ID:m24.URIP 0
+18ID:m24.UEIP 0
+18ID:m24.RTRY 10
+18ID:m24.EGU mm
+18ID:m24.DESC Detector InOut
+18ID:m24.RDBD 0.012954
+18ID:m24.BACC 1
+18ID:m24.BVEL 10
+18ID:m24.BDST 0.005
+18ID:m24.ACCL 1
+18ID:m24.VELO 10
+18ID:m24.VBAS 0
+18ID:m24.RRES 0
+18ID:m24.ERES 0.0025
+18ID:m24.MRES 0.0254
+18ID:m24.SREV 200
+18ID:m24.TWV 1
+18ID:m24.DLLM -9.240401
+18ID:m24.DHLM 109.0094
+18ID:m24.DIR 1
+18ID:m23_able.VAL 1
+18ID:m23.FOFF 0
+18ID:m23.DISP 1
+18ID:m23.DISA 1
+18ID:m23.PREC 5
+18ID:m23.URIP 0
+18ID:m23.UEIP 0
+18ID:m23.RTRY 10
+18ID:m23.EGU mm
+18ID:m23.DESC Detector Horizontal
+18ID:m23.RDBD 0.012954
+18ID:m23.BACC 1
+18ID:m23.BVEL 10
+18ID:m23.BDST 0.005
+18ID:m23.ACCL 1
+18ID:m23.VELO 10
+18ID:m23.VBAS 0
+18ID:m23.RRES 0
+18ID:m23.ERES 0.0025
+18ID:m23.MRES 0.0254
+18ID:m23.SREV 200
+18ID:m23.TWV 1
+18ID:m23.DLLM -519.04
+18ID:m23.DHLM 1431
+18ID:m23.DIR 1
+18ID:m22_able.VAL 0
+18ID:m22.FOFF 1
+18ID:m22.DISP 0
+18ID:m22.DISA 0
+18ID:m22.PREC 5
+18ID:m22.URIP 0
+18ID:m22.UEIP 1
+18ID:m22.RTRY 10
+18ID:m22.EGU mm
+18ID:m22.DESC Sample Horiz Ch 22
+18ID:m22.RDBD 0.000255
+18ID:m22.BACC 1
+18ID:m22.BVEL 10
+18ID:m22.BDST 0
+18ID:m22.ACCL 1
+18ID:m22.VELO 0.04866275
+18ID:m22.VBAS 0
+18ID:m22.RRES 0
+18ID:m22.ERES 0.00025
+18ID:m22.MRES 0.0005
+18ID:m22.SREV 200
+18ID:m22.TWV 0.025
+18ID:m22.DLLM -130.2437
+18ID:m22.DHLM 30
+18ID:m22.DIR 0
+18ID:m21_able.VAL 0
+18ID:m21.FOFF 1
+18ID:m21.DISP 0
+18ID:m21.DISA 0
+18ID:m21.PREC 5
+18ID:m21.URIP 0
+18ID:m21.UEIP 1
+18ID:m21.RTRY 10
+18ID:m21.EGU mm
+18ID:m21.DESC Sample Focus
+18ID:m21.RDBD 1e-04
+18ID:m21.BACC 1
+18ID:m21.BVEL 1
+18ID:m21.BDST 0.005
+18ID:m21.ACCL 1
+18ID:m21.VELO 1
+18ID:m21.VBAS 0
+18ID:m21.RRES 0
+18ID:m21.ERES 0.00025
+18ID:m21.MRES 5e-05
+18ID:m21.SREV 200
+18ID:m21.TWV 0.025
+18ID:m21.DLLM -190
+18ID:m21.DHLM 118.6905
+18ID:m21.DIR 0
+18ID:m20_able.VAL 0
+18ID:m20.FOFF 1
+18ID:m20.DISP 0
+18ID:m20.DISA 0
+18ID:m20.PREC 5
+18ID:m20.URIP 0
+18ID:m20.UEIP 1
+18ID:m20.RTRY 10
+18ID:m20.EGU mm
+18ID:m20.DESC Sample Vertical Ch20
+18ID:m20.RDBD 0.000255
+18ID:m20.BACC 1
+18ID:m20.BVEL 10
+18ID:m20.BDST 0.005
+18ID:m20.ACCL 1
+18ID:m20.VELO 10
+18ID:m20.VBAS 0
+18ID:m20.RRES 0
+18ID:m20.ERES 0.00025
+18ID:m20.MRES 0.0005
+18ID:m20.SREV 200
+18ID:m20.TWV 0.025
+18ID:m20.DLLM -190
+18ID:m20.DHLM 150
+18ID:m20.DIR 0
+18ID:m19_able.VAL 1
+18ID:m19.FOFF 1
+18ID:m19.DISP 1
+18ID:m19.DISA 1
+18ID:m19.PREC 5
+18ID:m19.URIP 0
+18ID:m19.UEIP 0
+18ID:m19.RTRY 0
+18ID:m19.EGU degrees
+18ID:m19.DESC MFVCameraVertical
+18ID:m19.RDBD 0.012954
+18ID:m19.BACC 1
+18ID:m19.BVEL 1
+18ID:m19.BDST 0.005
+18ID:m19.ACCL 1
+18ID:m19.VELO 1
+18ID:m19.VBAS 0
+18ID:m19.RRES 0
+18ID:m19.ERES 0.0025
+18ID:m19.MRES 0.0025
+18ID:m19.SREV 200
+18ID:m19.TWV 0.01
+18ID:m19.DLLM -55
+18ID:m19.DHLM 55
+18ID:m19.DIR 1
+18ID:m18_able.VAL 1
+18ID:m18.FOFF 1
+18ID:m18.DISP 1
+18ID:m18.DISA 1
+18ID:m18.PREC 5
+18ID:m18.URIP 0
+18ID:m18.UEIP 0
+18ID:m18.RTRY 10
+18ID:m18.EGU mm
+18ID:m18.DESC MFVCameraFocus
+18ID:m18.RDBD 0.012954
+18ID:m18.BACC 1
+18ID:m18.BVEL 1
+18ID:m18.BDST 0.005
+18ID:m18.ACCL 1
+18ID:m18.VELO 1
+18ID:m18.VBAS 0
+18ID:m18.RRES 0
+18ID:m18.ERES 0.00025
+18ID:m18.MRES 0.0025
+18ID:m18.SREV 200
+18ID:m18.TWV 0.025
+18ID:m18.DLLM -196.09
+18ID:m18.DHLM 250.4666
+18ID:m18.DIR 1
+18ID:m17_able.VAL 1
+18ID:m17.FOFF 1
+18ID:m17.DISP 1
+18ID:m17.DISA 1
+18ID:m17.PREC 5
+18ID:m17.URIP 0
+18ID:m17.UEIP 0
+18ID:m17.RTRY 10
+18ID:m17.EGU mm
+18ID:m17.DESC MFVCameraHorizontal
+18ID:m17.RDBD 0.012954
+18ID:m17.BACC 1
+18ID:m17.BVEL 1
+18ID:m17.BDST 0.005
+18ID:m17.ACCL 1
+18ID:m17.VELO 1
+18ID:m17.VBAS 0
+18ID:m17.RRES 0
+18ID:m17.ERES 0.0025
+18ID:m17.MRES 0.0025
+18ID:m17.SREV 200
+18ID:m17.TWV 0.02
+18ID:m17.DLLM -519.04
+18ID:m17.DHLM 55
+18ID:m17.DIR 1
+18ID:m16_able.VAL 0
+18ID:m16.FOFF 0
+18ID:m16.DISP 0
+18ID:m16.DISA 0
+18ID:m16.PREC 5
+18ID:m16.URIP 0
+18ID:m16.UEIP 0
+18ID:m16.RTRY 10
+18ID:m16.EGU degrees
+18ID:m16.DESC RotarySampleHolder
+18ID:m16.RDBD 0.51
+18ID:m16.BACC 1
+18ID:m16.BVEL 10
+18ID:m16.BDST 0.005
+18ID:m16.ACCL 1
+18ID:m16.VELO 10
+18ID:m16.VBAS 0
+18ID:m16.RRES 0
+18ID:m16.ERES 0.00025
+18ID:m16.MRES 0.001
+18ID:m16.SREV 200
+18ID:m16.TWV 180
+18ID:m16.DLLM 1714.356
+18ID:m16.DHLM 2294.356
+18ID:m16.DIR 0
+18ID:m15_able.VAL 0
+18ID:m15.FOFF 1
+18ID:m15.DISP 0
+18ID:m15.DISA 0
+18ID:m15.PREC 5
+18ID:m15.URIP 0
+18ID:m15.UEIP 0
+18ID:m15.RTRY 10
+18ID:m15.EGU mm
+18ID:m15.DESC Laue Vertical
+18ID:m15.RDBD 0.0024327
+18ID:m15.BACC 1.5
+18ID:m15.BVEL 1
+18ID:m15.BDST 0.23
+18ID:m15.ACCL 1.5
+18ID:m15.VELO 1
+18ID:m15.VBAS 0
+18ID:m15.RRES 0
+18ID:m15.ERES 0.000228599
+18ID:m15.MRES 0.00158751
+18ID:m15.SREV 200
+18ID:m15.TWV 0.5
+18ID:m15.DLLM -3.8
+18ID:m15.DHLM 17.1
+18ID:m15.DIR 1
+18ID:m14_able.VAL 0
+18ID:m14.FOFF 1
+18ID:m14.DISP 0
+18ID:m14.DISA 0
+18ID:m14.PREC 5
+18ID:m14.URIP 0
+18ID:m14.UEIP 0
+18ID:m14.RTRY 10
+18ID:m14.EGU mm
+18ID:m14.DESC Laue Horizontal
+18ID:m14.RDBD 0.0024327
+18ID:m14.BACC 1.5
+18ID:m14.BVEL 1
+18ID:m14.BDST 0.23
+18ID:m14.ACCL 1.5
+18ID:m14.VELO 1
+18ID:m14.VBAS 0
+18ID:m14.RRES 0
+18ID:m14.ERES 0.000228599
+18ID:m14.MRES 0.00158751
+18ID:m14.SREV 200
+18ID:m14.TWV 1
+18ID:m14.DLLM -12
+18ID:m14.DHLM 17
+18ID:m14.DIR 1
+18ID:m13_able.VAL 0
+18ID:m13.FOFF 1
+18ID:m13.DISP 0
+18ID:m13.DISA 0
+18ID:m13.PREC 5
+18ID:m13.URIP 0
+18ID:m13.UEIP 0
+18ID:m13.RTRY 10
+18ID:m13.EGU degrees
+18ID:m13.DESC RotaryFocusSlit
+18ID:m13.RDBD 0.012954
+18ID:m13.BACC 1
+18ID:m13.BVEL 2
+18ID:m13.BDST 0.005
+18ID:m13.ACCL 1
+18ID:m13.VELO 2
+18ID:m13.VBAS 0
+18ID:m13.RRES 0
+18ID:m13.ERES 0.00025
+18ID:m13.MRES 0.01
+18ID:m13.SREV 200
+18ID:m13.TWV 90
+18ID:m13.DLLM -55
+18ID:m13.DHLM 1000
+18ID:m13.DIR 0
+18ID:m12_able.VAL 1
+18ID:m12.FOFF 1
+18ID:m12.DISP 1
+18ID:m12.DISA 1
+18ID:m12.PREC 5
+18ID:m12.URIP 0
+18ID:m12.UEIP 0
+18ID:m12.RTRY 10
+18ID:m12.EGU mm
+18ID:m12.DESC ADC Top
+18ID:m12.RDBD 0.002
+18ID:m12.BACC 1
+18ID:m12.BVEL 1
+18ID:m12.BDST 0.01
+18ID:m12.ACCL 1
+18ID:m12.VELO 1
+18ID:m12.VBAS 0
+18ID:m12.RRES 0
+18ID:m12.ERES 0.0025
+18ID:m12.MRES 0.0012037
+18ID:m12.SREV 400
+18ID:m12.TWV 0.1
+18ID:m12.DLLM -10
+18ID:m12.DHLM 10
+18ID:m12.DIR 1
+18ID:m11_able.VAL 1
+18ID:m11.FOFF 1
+18ID:m11.DISP 1
+18ID:m11.DISA 1
+18ID:m11.PREC 5
+18ID:m11.URIP 0
+18ID:m11.UEIP 0
+18ID:m11.RTRY 10
+18ID:m11.EGU mm
+18ID:m11.DESC ADC Bot
+18ID:m11.RDBD 0.002
+18ID:m11.BACC 1
+18ID:m11.BVEL 1
+18ID:m11.BDST 0.01
+18ID:m11.ACCL 1
+18ID:m11.VELO 1
+18ID:m11.VBAS 0
+18ID:m11.RRES 0
+18ID:m11.ERES 0.00025
+18ID:m11.MRES 0.0012037
+18ID:m11.SREV 400
+18ID:m11.TWV 0.1
+18ID:m11.DLLM -10
+18ID:m11.DHLM 10
+18ID:m11.DIR 1
+18ID:m10_able.VAL 1
+18ID:m10.FOFF 1
+18ID:m10.DISP 1
+18ID:m10.DISA 1
+18ID:m10.PREC 5
+18ID:m10.URIP 0
+18ID:m10.UEIP 0
+18ID:m10.RTRY 10
+18ID:m10.EGU mm
+18ID:m10.DESC ADC In
+18ID:m10.RDBD 0.002
+18ID:m10.BACC 1
+18ID:m10.BVEL 1
+18ID:m10.BDST 0.01
+18ID:m10.ACCL 1
+18ID:m10.VELO 1
+18ID:m10.VBAS 0
+18ID:m10.RRES 0
+18ID:m10.ERES 0.005
+18ID:m10.MRES 0.0012037
+18ID:m10.SREV 400
+18ID:m10.TWV 0.1
+18ID:m10.DLLM -10
+18ID:m10.DHLM 5
+18ID:m10.DIR 1
+18ID:m9_able.VAL 1
+18ID:m9.FOFF 1
+18ID:m9.DISP 1
+18ID:m9.DISA 1
+18ID:m9.PREC 5
+18ID:m9.URIP 0
+18ID:m9.UEIP 0
+18ID:m9.RTRY 10
+18ID:m9.EGU mm
+18ID:m9.DESC ADC Out
+18ID:m9.RDBD 0.002
+18ID:m9.BACC 1
+18ID:m9.BVEL 1
+18ID:m9.BDST 0.01
+18ID:m9.ACCL 1
+18ID:m9.VELO 1
+18ID:m9.VBAS 0
+18ID:m9.RRES 0
+18ID:m9.ERES 0.0025
+18ID:m9.MRES 0.0012037
+18ID:m9.SREV 400
+18ID:m9.TWV 0.1
+18ID:m9.DLLM -10
+18ID:m9.DHLM 5
+18ID:m9.DIR 0
+18ID:m8_able.VAL 0
+18ID:m8.FOFF 1
+18ID:m8.DISP 0
+18ID:m8.DISA 0
+18ID:m8.PREC 5
+18ID:m8.URIP 0
+18ID:m8.UEIP 0
+18ID:m8.RTRY 1
+18ID:m8.EGU mm
+18ID:m8.DESC JJ2 Outboard M4
+18ID:m8.RDBD 0.0005
+18ID:m8.BACC 1
+18ID:m8.BVEL 0.5
+18ID:m8.BDST 0.01
+18ID:m8.ACCL 1
+18ID:m8.VELO 1
+18ID:m8.VBAS 0
+18ID:m8.RRES 0
+18ID:m8.ERES 0.01265
+18ID:m8.MRES 0.0005
+18ID:m8.SREV 200
+18ID:m8.TWV 5
+18ID:m8.DLLM -14.1
+18ID:m8.DHLM 14.1
+18ID:m8.DIR 1
+18ID:m7_able.VAL 0
+18ID:m7.FOFF 1
+18ID:m7.DISP 0
+18ID:m7.DISA 0
+18ID:m7.PREC 5
+18ID:m7.URIP 0
+18ID:m7.UEIP 0
+18ID:m7.RTRY 1
+18ID:m7.EGU mm
+18ID:m7.DESC JJ2 Inboard M3
+18ID:m7.RDBD 0.0005
+18ID:m7.BACC 1
+18ID:m7.BVEL 0.5
+18ID:m7.BDST 0.01
+18ID:m7.ACCL 1
+18ID:m7.VELO 1
+18ID:m7.VBAS 0
+18ID:m7.RRES 0
+18ID:m7.ERES 0.01265
+18ID:m7.MRES 0.0005
+18ID:m7.SREV 200
+18ID:m7.TWV 0.005
+18ID:m7.DLLM -14.1
+18ID:m7.DHLM 14.1
+18ID:m7.DIR 1
+18ID:m6_able.VAL 0
+18ID:m6.FOFF 1
+18ID:m6.DISP 0
+18ID:m6.DISA 0
+18ID:m6.PREC 5
+18ID:m6.URIP 0
+18ID:m6.UEIP 0
+18ID:m6.RTRY 1
+18ID:m6.EGU mm
+18ID:m6.DESC JJ2 Top M2
+18ID:m6.RDBD 0.0005
+18ID:m6.BACC 1
+18ID:m6.BVEL 0.5
+18ID:m6.BDST 0.01
+18ID:m6.ACCL 1
+18ID:m6.VELO 1
+18ID:m6.VBAS 0
+18ID:m6.RRES 0
+18ID:m6.ERES 0.01265
+18ID:m6.MRES 0.0005
+18ID:m6.SREV 200
+18ID:m6.TWV 0.005
+18ID:m6.DLLM -14.1
+18ID:m6.DHLM 14.1
+18ID:m6.DIR 1
+18ID:m5_able.VAL 0
+18ID:m5.FOFF 1
+18ID:m5.DISP 0
+18ID:m5.DISA 0
+18ID:m5.PREC 5
+18ID:m5.URIP 0
+18ID:m5.UEIP 0
+18ID:m5.RTRY 1
+18ID:m5.EGU mm
+18ID:m5.DESC JJ2 Bottom M1
+18ID:m5.RDBD 0.0005
+18ID:m5.BACC 1
+18ID:m5.BVEL 0.5
+18ID:m5.BDST 0.01
+18ID:m5.ACCL 1
+18ID:m5.VELO 1
+18ID:m5.VBAS 0
+18ID:m5.RRES 0
+18ID:m5.ERES 0.01265
+18ID:m5.MRES 0.0005
+18ID:m5.SREV 200
+18ID:m5.TWV 0.005
+18ID:m5.DLLM -14.1
+18ID:m5.DHLM 14.1
+18ID:m5.DIR 1
+18ID:m4_able.VAL 0
+18ID:m4.FOFF 1
+18ID:m4.DISP 0
+18ID:m4.DISA 0
+18ID:m4.PREC 5
+18ID:m4.URIP 0
+18ID:m4.UEIP 0
+18ID:m4.RTRY 1
+18ID:m4.EGU mm
+18ID:m4.DESC JJ1 Outboard M4
+18ID:m4.RDBD 0.001
+18ID:m4.BACC 1
+18ID:m4.BVEL 1
+18ID:m4.BDST 0.01
+18ID:m4.ACCL 1
+18ID:m4.VELO 1
+18ID:m4.VBAS 1
+18ID:m4.RRES 0
+18ID:m4.ERES 0.01265
+18ID:m4.MRES 0.0005
+18ID:m4.SREV 200
+18ID:m4.TWV 0.05
+18ID:m4.DLLM -14
+18ID:m4.DHLM 14
+18ID:m4.DIR 1
+18ID:m3_able.VAL 0
+18ID:m3.FOFF 1
+18ID:m3.DISP 0
+18ID:m3.DISA 0
+18ID:m3.PREC 5
+18ID:m3.URIP 0
+18ID:m3.UEIP 0
+18ID:m3.RTRY 1
+18ID:m3.EGU mm
+18ID:m3.DESC JJ1 Inboard M3
+18ID:m3.RDBD 0.001
+18ID:m3.BACC 1
+18ID:m3.BVEL 1
+18ID:m3.BDST 0.01
+18ID:m3.ACCL 1
+18ID:m3.VELO 1
+18ID:m3.VBAS 1
+18ID:m3.RRES 0
+18ID:m3.ERES 0.01265
+18ID:m3.MRES 0.0005
+18ID:m3.SREV 200
+18ID:m3.TWV 0.1
+18ID:m3.DLLM -14
+18ID:m3.DHLM 14
+18ID:m3.DIR 1
+18ID:m2_able.VAL 0
+18ID:m2.FOFF 1
+18ID:m2.DISP 0
+18ID:m2.DISA 0
+18ID:m2.PREC 5
+18ID:m2.URIP 0
+18ID:m2.UEIP 0
+18ID:m2.RTRY 1
+18ID:m2.EGU mm
+18ID:m2.DESC JJ1 Top M2
+18ID:m2.RDBD 0.001
+18ID:m2.BACC 1
+18ID:m2.BVEL 0.05
+18ID:m2.BDST 0.01
+18ID:m2.ACCL 1
+18ID:m2.VELO 1
+18ID:m2.VBAS 0
+18ID:m2.RRES 0
+18ID:m2.ERES 0.01265
+18ID:m2.MRES 0.0005
+18ID:m2.SREV 200
+18ID:m2.TWV 0.1
+18ID:m2.DLLM -14
+18ID:m2.DHLM 14
+18ID:m2.DIR 1
+18ID:m1_able.VAL 0
+18ID:m1.FOFF 1
+18ID:m1.DISP 0
+18ID:m1.DISA 0
+18ID:m1.PREC 5
+18ID:m1.URIP 0
+18ID:m1.UEIP 0
+18ID:m1.RTRY 1
+18ID:m1.EGU mm
+18ID:m1.DESC JJ1 Bottom M1
+18ID:m1.RDBD 0.001
+18ID:m1.BACC 1
+18ID:m1.BVEL 1
+18ID:m1.BDST 0.01
+18ID:m1.ACCL 1
+18ID:m1.VELO 1
+18ID:m1.VBAS 1
+18ID:m1.RRES 0
+18ID:m1.ERES 0.01265
+18ID:m1.MRES 0.0005
+18ID:m1.SREV 200
+18ID:m1.TWV 0.1
+18ID:m1.DLLM -14
+18ID:m1.DHLM 14
+18ID:m1.DIR 1
+<END>
