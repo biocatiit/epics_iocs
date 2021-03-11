@@ -20,6 +20,8 @@ ioc18idLinux_registerRecordDeviceDriver(pdbbase)
 
 ###   LabJack Support   ###
 < LabJack_T4_1.cmd
+< LabJack_T4_2.cmd
+< LabJack_T4_3.cmd
 
 ### Remote shutter sequences ###
 < rshtr.cmd
@@ -61,6 +63,28 @@ dbpf 18ID:LJT4:1:DO12 0
 dbpf 18ID:LJT4:1:DO13 0
 dbpf 18ID:LJT4:1:DO14 0
 dbpf 18ID:LJT4:1:DO15 0
+dbpf 18ID:LJT4:1:AO0 0
+dbpf 18ID:LJT4:1:AO1 0
+dbpf 18ID:LJT4:2:DO0 1
+dbpf 18ID:LJT4:2:DO1 1
+dbpf 18ID:LJT4:2:DO2 1
+dbpf 18ID:LJT4:2:DO3 1
+dbpf 18ID:LJT4:2:DO4 1
+dbpf 18ID:LJT4:2:DO5 1
+dbpf 18ID:LJT4:2:DO6 1
+dbpf 18ID:LJT4:2:DO7 1
+dbpf 18ID:LJT4:2:DO8 0
+dbpf 18ID:LJT4:2:DO9 0
+dbpf 18ID:LJT4:2:DO10 0
+dbpf 18ID:LJT4:2:DO11 0
+dbpf 18ID:LJT4:2:DO12 0
+dbpf 18ID:LJT4:2:DO13 0
+dbpf 18ID:LJT4:2:DO14 0
+dbpf 18ID:LJT4:2:DO15 0
+dbpf 18ID:LJT4:2:AO0 0
+dbpf 18ID:LJT4:2:AO1 0
+dbpf 18ID:LJT4:3:AO0 0
+dbpf 18ID:LJT4:3:AO1 0
 
 # print the time our boot was finished
 date

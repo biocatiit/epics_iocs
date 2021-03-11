@@ -163,9 +163,9 @@ pattern
 {18ID:,  "BLEPS:IG9_WARNING",       "IG9.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "209 Ion Gauge 9 Warning"}
 {18ID:,  "BLEPS:IG10_WARNING",       "IG10.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "210 Ion Gauge 10 Warning"}
 
-{18ID:,  "BLEPS:PS_1_WARNING",        "Power Supply 1.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "3 Power Supply 1 Warning"}
-{18ID:,  "BLEPS:PS_2_WARNING",        "Power Supply 2.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "4 Power Supply 2 Warning"}
-{18ID:,  "BLEPS:OR_WARNING",        "OR'ing Module.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "5 OR'ing Module Warning"}
+{18ID:,  "BLEPS:PS_1_WARNING",        "Power_Supply_1.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "3 Power Supply 1 Warning"}
+{18ID:,  "BLEPS:PS_2_WARNING",        "Power_Supply_2.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "4 Power Supply 2 Warning"}
+{18ID:,  "BLEPS:OR_WARNING",        "OR'ing_Module.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "5 OR'ing Module Warning"}
 
 }
 
