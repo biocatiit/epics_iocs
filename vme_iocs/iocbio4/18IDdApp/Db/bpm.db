@@ -2,10 +2,10 @@ record(calc,"$(P)BPM:CMono:Intensity") {
     field(DESC, "C Hutch monochromatic BPM intensity")
     field(SCAN,".1 second")
     field(CALC,"ABS(A+B+C+D)")
-    field(INPA,"$(P)IP330_03.VAL")
-    field(INPB,"$(P)IP330_01.VAL")
-    field(INPC,"$(P)IP330_02.VAL")
-    field(INPD,"$(P)IP330_04.VAL")
+    field(INPA,"$(P)IP330_01.VAL")
+    field(INPB,"$(P)IP330_03.VAL")
+    field(INPC,"$(P)IP330_04.VAL")
+    field(INPD,"$(P)IP330_02.VAL")
     field(PREC,2)
 }
 
@@ -13,10 +13,10 @@ record(calc,"$(P)BPM:CMono:X") {
     field(DESC, "C Hutch monochromatic BPM X")
     field(SCAN,".1 second")
     field(CALC,"((A+D)-(B+C))/(A+B+C+D)")
-    field(INPA,"$(P)IP330_03.VAL")
-    field(INPB,"$(P)IP330_01.VAL")
-    field(INPC,"$(P)IP330_02.VAL")
-    field(INPD,"$(P)IP330_04.VAL")
+    field(INPA,"$(P)IP330_01.VAL")
+    field(INPB,"$(P)IP330_03.VAL")
+    field(INPC,"$(P)IP330_04.VAL")
+    field(INPD,"$(P)IP330_02.VAL")
     field(PREC,2)
 }
 
@@ -24,9 +24,9 @@ record(calc,"$(P)BPM:CMono:Y") {
     field(DESC, "C Hutch monochromatic BPM Y")
     field(SCAN,".1 second")
     field(CALC,"((A+B)-(C+D))/(A+B+C+D)")
-    field(INPA,"$(P)IP330_03.VAL")
-    field(INPB,"$(P)IP330_01.VAL")
-    field(INPC,"$(P)IP330_02.VAL")
-    field(INPD,"$(P)IP330_04.VAL")
+    field(INPA,"$(P)IP330_01.VAL")
+    field(INPB,"$(P)IP330_03.VAL")
+    field(INPC,"$(P)IP330_04.VAL")
+    field(INPD,"$(P)IP330_02.VAL")
     field(PREC,2)
 }
