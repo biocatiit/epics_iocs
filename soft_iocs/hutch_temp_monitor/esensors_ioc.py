@@ -20,6 +20,7 @@ class ESensor:
         self.tempc_pv = tempc_pv
         self.humid_pv = humid_pv
         self.timestamp_pv = timestamp_pv
+        self.session = requests.Session()
 
         if self.format == 'xml':
             self.tattr = "tm0"
@@ -51,7 +52,7 @@ class ESensor:
         return val
 
     def read(self):
-        resp = requests.get(self.url, timeout=0.5)
+        resp = self.session.get(self.url, timeout=0.5)
         tdat = self.reader(resp.content.decode("utf-8"))
 
         tunt = self.getval(tdat, self.tunit, force_float=False)
@@ -67,9 +68,9 @@ class ESensor:
         else:
             tval_c = tval
             tval_f = (tval_c * 9.0/5) + 32
-        tval_f = float("%.3f" % tval_f)
-        tval_c = float("%.3f" % tval_c)
-        hval   = float("%.3f" % hval)
+        tval_f = round(tval_f, 2)
+        tval_c = round(tval_c, 2)
+        hval   = round(hval, 2)
 
         self.tempc_pv.set(tval_c)
         self.tempf_pv.set(tval_f)
