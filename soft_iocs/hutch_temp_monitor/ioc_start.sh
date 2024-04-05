@@ -44,14 +44,17 @@ SNAME=${BASH_SOURCE:-$0}
 SELECTION=$1
 
 # uncomment for your OS here (comment out all the others)
-IOC_STARTUP_FILE=`${IOC_BINARY}`
+IOC_STARTUP_FILE="${IOC_BINARY}"
 
 if [ -z "$IOC_STARTUP_DIR" ] ; then
     # If no startup dir is specified, use the script's directory
     IOC_STARTUP_DIR=`dirname ${SNAME}`
 fi
 IOC_CMD="python ${IOC_STARTUP_DIR}/${IOC_STARTUP_FILE}"
-#!${ECHO} ${IOC_STARTUP_DIR}
+#${ECHO} ${IOC_BINARY}
+#${ECHO} ${IOC_STARTUP_DIR}
+#${ECHO} ${IOC_CMD}
+#${ECHO} ${IOC_STARTUP_FILE}
 
 #####################################################################
 
@@ -66,8 +69,9 @@ screenpid() {
 checkpid() {
     MY_UID=`${ID} -u`
     # The '\$' is needed in the pgrep pattern to select 18id, but not 18id.sh
-    IOC_PID=`${PGREP} ${IOC_BINARY}\$ -u ${MY_UID}`
-    #!${ECHO} "IOC_PID=${IOC_PID}"
+    IOC_PID=`${PGREP} -fx "${IOC_CMD}$" -u ${MY_UID}`
+    #${ECHO} "IOC_PID=${IOC_PID}"
+    #${ECHO} ${MY_UID}
 
     if [ "${IOC_PID}" != "" ] ; then
         # Assume the IOC is down until proven otherwise
