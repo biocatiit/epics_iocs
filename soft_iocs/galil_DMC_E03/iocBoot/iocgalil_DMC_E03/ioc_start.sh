@@ -10,9 +10,9 @@
 #!EPICS_HOST_ARCH=linux-x86_64
 #!EPICS_HOST_ARCH=linux-x86_64-debug
 
-IOC_NAME=esensors_ioc
+IOC_NAME=IOC_18ID_DMC_E03
 # The name of the IOC binary isn't necessarily the same as the name of the IOC
-IOC_BINARY="esensors_ioc.py"
+IOC_BINARY="../../bin/linux-x86_64/galil_DMC_E03"
 
 # Change YES to NO in the following line to disable screen-PID lookup
 GET_SCREEN_PID=YES
@@ -44,17 +44,13 @@ SNAME=${BASH_SOURCE:-$0}
 SELECTION=$1
 
 # uncomment for your OS here (comment out all the others)
-IOC_STARTUP_FILE="${IOC_BINARY}"
+IOC_STARTUP_FILE="st.cmd"
 
 if [ -z "$IOC_STARTUP_DIR" ] ; then
     # If no startup dir is specified, use the script's directory
     IOC_STARTUP_DIR=`dirname ${SNAME}`
 fi
-IOC_CMD="python ${IOC_STARTUP_DIR}/${IOC_STARTUP_FILE}"
-#${ECHO} ${IOC_BINARY}
-#${ECHO} ${IOC_STARTUP_DIR}
-#${ECHO} ${IOC_CMD}
-#${ECHO} ${IOC_STARTUP_FILE}
+IOC_CMD="${IOC_BINARY} ${IOC_STARTUP_DIR}/${IOC_STARTUP_FILE}"
 
 #####################################################################
 
@@ -141,8 +137,6 @@ start() {
         ${ECHO} "Starting ${IOC_NAME}"
         cd ${IOC_STARTUP_DIR}
         # Run 18id inside a screen session
-        conda init -q
-        conda activate softioc
         ${SCREEN} -dm -S ${IOC_NAME} -h 5000 ${IOC_CMD}
     fi
 }
@@ -190,8 +184,6 @@ run() {
         ${ECHO} "Starting ${IOC_NAME}"
         cd ${IOC_STARTUP_DIR}
         # Run 18id outside of a screen session, which is helpful for debugging
-        conda init -q
-        conda activate softioc
         ${IOC_CMD}
     fi
 }
