@@ -1,0 +1,30 @@
+# bi record template for binary inputs
+record(bi,"$(P)Bi$(N)") {
+     field(DESC, "Ch $(N) Dig In")
+     field(DTYP, "asynUInt32Digital")
+     field(INP,  "@asynMask($(PORT) 0 $(MASK))DIGITAL_IN_WORD")
+     field(ZNAM, "$(ZNAM)")
+     field(ONAM, "$(ONAM)")
+     field(SCAN, "I/O Intr")
+}
+
+
+# bo record template for binary outputs
+record(bo,"$(P)Bo$(N)") {
+     field(DESC, "Ch $(N) Dig Out")
+     field(DTYP,"asynUInt32Digital")
+     field(OUT,"@asynMask($(PORT) $(M) 0x1)DIGITAL_OUT_BIT")
+     field(ZNAM,"$(ZNAM)")
+     field(ONAM,"$(ONAM)")
+}
+
+# bo record template for binary direction control
+record(bo, "$(P)Bd$(N)")
+{
+    field(PINI, "YES")
+    field(DTYP, "asynUInt32Digital")
+    field(OUT,  "@asynMask($(PORT) 0 $(MASK))DIGITAL_DIRECTION")
+    field(ZNAM, "In")
+    field(ONAM, "Out")
+    field(VAL,  "$(DIR)")
+ }

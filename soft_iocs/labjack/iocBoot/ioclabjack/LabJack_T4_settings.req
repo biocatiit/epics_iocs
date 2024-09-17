@@ -1,0 +1,64 @@
+# Device-wide settings
+file "LabJack_device_settings.req", P=$(P)
+
+# Digital input, output direction
+file "LabJack_binary_settings.req", P=$(P), N=0
+file "LabJack_binary_settings.req", P=$(P), N=1
+file "LabJack_binary_settings.req", P=$(P), N=2
+file "LabJack_binary_settings.req", P=$(P), N=3
+file "LabJack_binary_settings.req", P=$(P), N=4
+file "LabJack_binary_settings.req", P=$(P), N=5
+file "LabJack_binary_settings.req", P=$(P), N=6
+file "LabJack_binary_settings.req", P=$(P), N=7
+file "LabJack_binary_settings.req", P=$(P), N=8
+file "LabJack_binary_settings.req", P=$(P), N=9
+file "LabJack_binary_settings.req", P=$(P), N=10
+file "LabJack_binary_settings.req", P=$(P), N=11
+file "LabJack_binary_settings.req", P=$(P), N=12
+file "LabJack_binary_settings.req", P=$(P), N=13
+file "LabJack_binary_settings.req", P=$(P), N=14
+file "LabJack_binary_settings.req", P=$(P), N=15
+file "LabJack_binary_settings.req", P=$(P), N=16
+file "LabJack_binary_settings.req", P=$(P), N=17
+file "LabJack_binary_settings.req", P=$(P), N=18
+#file "LabJack_binary_settings.req", P=$(P), N=19
+#file "LabJack_binary_settings.req", P=$(P), N=20
+#file "LabJack_binary_settings.req", P=$(P), N=21
+#file "LabJack_binary_settings.req", P=$(P), N=22
+
+# Analog Inputs
+file "LabJack_ai_settings.req", P=$(P), N=0
+file "LabJack_ai_settings.req", P=$(P), N=1
+file "LabJack_ai_settings.req", P=$(P), N=2
+file "LabJack_ai_settings.req", P=$(P), N=3
+#file "LabJack_ai_settings.req", P=$(P), N=4
+#file "LabJack_ai_settings.req", P=$(P), N=5
+#file "LabJack_ai_settings.req", P=$(P), N=6
+#file "LabJack_ai_settings.req", P=$(P), N=7
+#file "LabJack_ai_settings.req", P=$(P), N=8
+#file "LabJack_ai_settings.req", P=$(P), N=9
+#file "LabJack_ai_settings.req", P=$(P), N=10
+#file "LabJack_ai_settings.req", P=$(P), N=11
+#file "LabJack_ai_settings.req", P=$(P), N=12
+#file "LabJack_ai_settings.req", P=$(P), N=13
+
+# Ai Configuration
+$(P)AiDiff0
+$(P)AiDiff2
+#$(P)AiDiff4
+#$(P)AiDiff6
+#$(P)AiDiff8
+#$(P)AiDiff10
+#$(P)AiDiff12
+
+# Analog Outputs
+file "LabJack_ao_settings.req", P=$(P), N=0
+file "LabJack_ao_settings.req", P=$(P), N=1
+
+# Waveform digitizer
+file "LabJack_waveformDig_settings.req", P=$(P)
+
+# Waveform generator
+file "LabJack_waveformGen_settings.req", P=$(P)
+file "LabJack_waveformGenN_settings.req", P=$(P), N=0
+file "LabJack_waveformGenN_settings.req", P=$(P), N=1
