@@ -1,0 +1,23 @@
+record(seq, "$(P)rshtr:A:OPEN") {
+  field(DESC, "D Shutter Open Sequence")
+#  field(SDIS, "FE:18:ID:FEshutter")
+#  field(DISV, "0")
+  field(SCAN, "Passive")
+  field(DOL1, "1")
+  field(LNK1, "$(P)LJT4:1:Bo$(OUT1).VAL PP")
+  field(DLY2, "1")
+  field(DOL2, "0")
+  field(LNK2, "$(P)LJT4:1:Bo$(OUT1).VAL PP")
+}
+
+record(seq, "$(P)rshtr:A:CLOSE") {
+  field(DESC, "D Shutter Close Sequence")
+#  field(SDIS, "FE:18:ID:FEshutter")
+#  field(DISV, "1")
+  field(SCAN, "Passive")
+  field(DOL1, "1")
+  field(LNK1, "$(P)LJT4:1:Bo$(OUT2).VAL PP")
+  field(DLY2, "1")
+  field(DOL2, "0")
+  field(LNK2, "$(P)LJT4:1:Bo$(OUT2).VAL PP")
+}

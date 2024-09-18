@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 240918-114554
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 240918-112622
 18ID:LJT4:1:PollSleepMS 50
 18ID:LJT4:1:AiAllSettlingUS 0
 18ID:LJT4:1:AiAllResolution 0
@@ -272,8 +272,8 @@
 18ID:LJT4:2:WaveDigReadWF.SCAN 6
 18ID:LJT4:2:WaveGenUserNumPoints 1
 18ID:LJT4:2:WaveGenIntNumPoints 1
-18ID:LJT4:2:WaveGenUserFrequency 1000
-18ID:LJT4:2:WaveGenIntFrequency 1000
+18ID:LJT4:2:WaveGenUserFrequency 0
+18ID:LJT4:2:WaveGenIntFrequency 0
 18ID:LJT4:2:WaveGenExtTrigger 0
 18ID:LJT4:2:WaveGenExtClock 0
 18ID:LJT4:2:WaveGenContinuous 0

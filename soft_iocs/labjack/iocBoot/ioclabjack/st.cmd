@@ -31,6 +31,9 @@ dbLoadTemplate("./LabJack_T4.substitutions", "P=$(PREFIX), PORT=$(PORT), WDIG_PO
 dbLoadTemplate("./LabJack_T4.substitutions", "P=$(PREFIX2), PORT=$(PORT2), WDIG_POINTS=$(WDIG_POINTS), WGEN_POINTS=$(WGEN_POINTS)")
 dbLoadTemplate("./LabJack_T4.substitutions", "P=$(PREFIX3), PORT=$(PORT3), WDIG_POINTS=$(WDIG_POINTS), WGEN_POINTS=$(WGEN_POINTS)")
 #------------------------------------------------------------------------------
+### Remote shutter sequences ###
+< rshtr.cmd
+#------------------------------------------------------------------------------
 # Configure auto save/restore
 #
 iocshLoad("./save_restore.cmd", PREFIX=$(PREFIX))
