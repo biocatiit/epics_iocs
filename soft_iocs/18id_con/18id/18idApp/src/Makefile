@@ -43,9 +43,9 @@ DBD  += $(DBD_NAME).dbd
 #####
 # Adding extra module
 
-ifdef LABJACK
-  $(DBD_NAME)_DBD += LabJackApp.dbd
-endif
+# ifdef LABJACK
+#   $(DBD_NAME)_DBD += LabJackApp.dbd
+# endif
 
 ####
 
@@ -219,7 +219,7 @@ endif
 
 
 ##################################################################
-ifeq ($(OS_CLASS), WIN32) 
+ifeq ($(OS_CLASS), WIN32)
   ifdef MEASCOMP
     $(DBD_NAME)_DBD += measCompSupport.dbd
     $(PROD_NAME)_LIBS := measComp $($(PROD_NAME)_LIBS)
@@ -252,7 +252,7 @@ ifeq ($(OS_CLASS), WIN32)
       $(PROD_NAME)_SYS_LIBS += setupapi
     endif
   endif
-  
+
   ifdef DXPSITORO
     $(DBD_NAME)_DBD += dxpSITOROSupport.dbd
     $(PROD_NAME)_LIBS := dxpSITORO handelSITORO $($(PROD_NAME)_LIBS)
@@ -260,7 +260,7 @@ ifeq ($(OS_CLASS), WIN32)
 endif
 
 ##################################################################
-ifeq ($(OS_CLASS), vxWorks) 
+ifeq ($(OS_CLASS), vxWorks)
   ifdef ALLEN_BRADLEY
     $(PROD_NAME)_LIBS := allenBradley $($(PROD_NAME)_LIBS)
   endif
@@ -346,14 +346,14 @@ ifeq ($(OS_CLASS), vxWorks)
 endif
 
 ##################################################################
-ifeq ($(OS_CLASS), Linux) 
+ifeq ($(OS_CLASS), Linux)
   ifdef DXP
     # If your host supports parallel port or USB interfaces to Saturn DXP, set
     # LINUX_USB_INSTALLED to YES in <synApps>/configure/CONFIG_SITE.
     ifeq ($(LINUX_USB_INSTALLED), YES)
       $(DBD_NAME)_DBD += dxpSupport.dbd
       $(PROD_NAME)_LIBS  := dxp handel $($(PROD_NAME)_LIBS)
-      $(PROD_NAME)_SYS_LIBS += usb 
+      $(PROD_NAME)_SYS_LIBS += usb
     endif
   endif
 
@@ -399,12 +399,12 @@ ifeq ($(OS_CLASS), Linux)
     $(DBD_NAME)_DBD += softGlueSupport.dbd
     $(PROD_NAME)_LIBS := softGlue $($(PROD_NAME)_LIBS)
   endif
-  
-  ifdef SOFTGLUEZYNQ
-    $(DBD_NAME)_DBD += softGlueZynqSupport.dbd
-    $(PROD_NAME)_LIBS := softGlueZynq $($(PROD_NAME)_LIBS)
-  endif
-    
+
+#   ifdef SOFTGLUEZYNQ
+#     $(DBD_NAME)_DBD += softGlueZynqSupport.dbd
+#     $(PROD_NAME)_LIBS := softGlueZynq $($(PROD_NAME)_LIBS)
+#   endif
+
   ifdef YOKOGAWA_DAS
     $(DBD_NAME)_DBD += mw100Support.dbd
     $(PROD_NAME)_LIBS := mw100 $($(PROD_NAME)_LIBS)
@@ -414,7 +414,7 @@ endif
 $(PROD_NAME)_LIBS += $(EPICS_BASE_IOC_LIBS)
 
 # <name>_registerRecordDeviceDriver.cpp will be created from <name>.dbd
-ifeq ($(OS_CLASS), vxWorks) 
+ifeq ($(OS_CLASS), vxWorks)
   $(PROD_NAME)_SRCS  += $(DBD_NAME)_registerRecordDeviceDriver.cpp
 else
   $(PROD_NAME)_SRCS  += $(DBD_NAME)_registerRecordDeviceDriver.cpp $(PROD_NAME)Main.cpp

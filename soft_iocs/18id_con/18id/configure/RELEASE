@@ -26,7 +26,7 @@
 ##############################################################################
 
 # Define the path to the synApps support directory and uncomment.
-SUPPORT=/opt/epics/synApps/support
+SUPPORT=/opt/epics/synApps_6_3/support
 -include $(TOP)/../configure/SUPPORT.$(EPICS_HOST_ARCH)
 
 # Specify the standard synApps configuration.
@@ -34,12 +34,15 @@ SUPPORT=/opt/epics/synApps/support
 
 # We might need to redefine SUPPORT and EPICS_BASE after including that file
 -include $(TOP)/../configure/SUPPORT.$(EPICS_HOST_ARCH)
--include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH) 
+-include $(TOP)/../configure/EPICS_BASE.$(EPICS_HOST_ARCH)
+
+# EPICS_BASE should appear last so earlier modules can override stuff:
+EPICS_BASE = /opt/epics/base
 
 # Include any non-standard support
-#TDS3000 = 
-#FLY = 
-LABJACK = /opt/epics/other_support/LabJack
+#TDS3000 =
+#FLY =
+#LABJACK = /opt/epics/other_support/LabJack
 
 # For a local, custom configuration; copy $(SUPPORT)/configure/RELEASE
 # to this directory as the file MASTER_RELEASE, edit the file, comment out

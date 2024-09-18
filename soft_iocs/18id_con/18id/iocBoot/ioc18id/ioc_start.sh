@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -i
 #
 # description: start/stop/restart an EPICS IOC in a screen session
 #
@@ -10,11 +10,11 @@
 #!EPICS_HOST_ARCH=linux-x86_64
 #!EPICS_HOST_ARCH=linux-x86_64-debug
 
-IOC_NAME=18id
+IOC_NAME=IOC_BLEPS
 # The name of the IOC binary isn't necessarily the same as the name of the IOC
-IOC_BINARY=18id
+IOC_BINARY="../../bin/linux-x86_64/18id"
 
-# Change YES to NO in the following line to disable screen-PID lookup 
+# Change YES to NO in the following line to disable screen-PID lookup
 GET_SCREEN_PID=YES
 
 # Commands needed by this script
@@ -45,20 +45,12 @@ SELECTION=$1
 
 # uncomment for your OS here (comment out all the others)
 IOC_STARTUP_FILE="st.cmd"
-#IOC_STARTUP_FILE="st.cmd.Cygwin"
-#IOC_STARTUP_FILE="st.cmd.Linux"
-#IOC_STARTUP_FILE="st.cmd.vxWorks"
-#IOC_STARTUP_FILE="st.cmd.Win32"
-#IOC_STARTUP_FILE="st.cmd.Win64"
 
 if [ -z "$IOC_STARTUP_DIR" ] ; then
-    # If no startup dir is specified, use the directory above the script's directory
-    IOC_STARTUP_DIR=`dirname ${SNAME}`/..
-    IOC_CMD="../../bin/${EPICS_HOST_ARCH}/${IOC_BINARY} ${IOC_STARTUP_FILE}"
-else
-    IOC_CMD="${IOC_STARTUP_DIR}/../../bin/${EPICS_HOST_ARCH}/${IOC_BINARY} ${IOC_STARTUP_DIR}/${IOC_STARTUP_FILE}"
+    # If no startup dir is specified, use the script's directory
+    IOC_STARTUP_DIR=`dirname ${SNAME}`
 fi
-#!${ECHO} ${IOC_STARTUP_DIR}
+IOC_CMD="${IOC_BINARY} ${IOC_STARTUP_DIR}/${IOC_STARTUP_FILE}"
 
 #####################################################################
 
@@ -73,30 +65,31 @@ screenpid() {
 checkpid() {
     MY_UID=`${ID} -u`
     # The '\$' is needed in the pgrep pattern to select 18id, but not 18id.sh
-    IOC_PID=`${PGREP} ${IOC_BINARY}\$ -u ${MY_UID}`
-    #!${ECHO} "IOC_PID=${IOC_PID}"
+    IOC_PID=`${PGREP} -fx "${IOC_CMD}$" -u ${MY_UID}`
+    #${ECHO} "IOC_PID=${IOC_PID}"
+    #${ECHO} ${MY_UID}
 
     if [ "${IOC_PID}" != "" ] ; then
         # Assume the IOC is down until proven otherwise
         IOC_DOWN=1
 
-        # At least one instance of the IOC binary is running; 
+        # At least one instance of the IOC binary is running;
         # Find the binary that is associated with this script/IOC
         for pid in ${IOC_PID}; do
             BIN_CWD=`${READLINK} /proc/${pid}/cwd`
             IOC_CWD=`${READLINK} -f ${IOC_STARTUP_DIR}`
-            
+
                 if [ "$BIN_CWD" = "$IOC_CWD" ] ; then
                     # The IOC is running; the binary with PID=$pid is the IOC that was run from $IOC_STARTUP_DIR
                     IOC_PID=${pid}
                     IOC_DOWN=0
-                    
+
                     SCREEN_PID=""
 
                     if [ "${GET_SCREEN_PID}" = "YES" ] ; then
                         # Get the PID of the parent of the IOC (shell or screen)
                         P_PID=`${PS} -p ${IOC_PID} -o ppid=`
-                        
+
                         # Get the PID of the grandparent of the IOC (sshd, screen, or ???)
                         GP_PID=`${PS} -p ${P_PID} -o ppid=`
 
@@ -104,7 +97,7 @@ checkpid() {
 
                         # Get the screen PIDs
                         S_PIDS=`${PGREP} screen`
-                    
+
                         for s_pid in ${S_PIDS} ; do
                             #!${ECHO} ${s_pid}
 
@@ -112,15 +105,15 @@ checkpid() {
                                 SCREEN_PID=${s_pid}
                                 break
                             fi
-                    
+
                             if [ ${s_pid} -eq ${GP_PID} ] ; then
                                 SCREEN_PID=${s_pid}
                                 break
                             fi
-                    
+
                         done
                     fi
-                    
+
                     break
                     #else
                     #    ${ECHO} "PATHS are different"
@@ -195,16 +188,8 @@ run() {
     fi
 }
 
-start_medm() {
-    ${IOC_STARTUP_DIR}/../../start_MEDM_18id
-}
-
-start_caqtdm() {
-    ${IOC_STARTUP_DIR}/../../start_caQtDM_18id
-}
-
 usage() {
-    ${ECHO} "Usage: $(${BASENAME} ${SNAME}) {start|stop|restart|status|console|run|medm|caqtdm}"
+    ${ECHO} "Usage: $(${BASENAME} ${SNAME}) {start|stop|restart|status|console|run}"
 }
 
 #####################################################################
@@ -236,14 +221,6 @@ else
 
         run)
             run
-        ;;
-        
-        medm)
-            start_medm
-        ;;
-        
-        caqtdm)
-            start_caqtdm
         ;;
 
         *)

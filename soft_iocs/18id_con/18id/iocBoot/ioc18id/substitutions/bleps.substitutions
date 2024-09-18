@@ -21,84 +21,84 @@ pattern
 
 
 {18ID:,	"BLEPS:BIV_FAIL_TO_CLOSE",		"BIV.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"100 BIV Fail to Close"}
-{18ID:,	"BLEPS:FES_FAIL_TO_CLOSE",		"FES.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"101 FES Fail to Close"}									
-{18ID:,	"BLEPS:SDS_FAIL_TO_CLOSE",		"SDS.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"104 SDS Fail to Close"}									
+{18ID:,	"BLEPS:FES_FAIL_TO_CLOSE",		"FES.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"101 FES Fail to Close"}
+{18ID:,	"BLEPS:SDS_FAIL_TO_CLOSE",		"SDS.Fail_to_Close",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"104 SDS Fail to Close"}
 
 
-{18ID:,	"BLEPS:GV1_FAULTED",			"GV1.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1010 GV1_Faulted"}			
+{18ID:,	"BLEPS:GV1_FAULTED",			"GV1.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1010 GV1_Faulted"}
 {18ID:,	"BLEPS:GV1_BOTH_SWITCH",		"GV1.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1011 GV1 Both Switch"}
 {18ID:,	"BLEPS:GV1_OPENED_SWITCH",		"GV1.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1012 GV1 Opened Switch"}
 {18ID:,	"BLEPS:GV1_FAIL_TO_OPEN",		"GV1.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1013 GV1 Fail to Open"}
 {18ID:,	"BLEPS:GV1_FULLY_OPEN",			"GV1.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1014 GV1 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV1_CLOSED_SWITCH",		"GV1.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1015 GV1 Closed Switch"}
 {18ID:,	"BLEPS:GV1_FAIL_TO_CLOSE",		"GV1.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1016 GV1 Fail to Close"}
-{18ID:,	"BLEPS:GV1_FULLY_CLOSE",		"GV1.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1017 GV1 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV1_FULLY_CLOSE",		"GV1.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1017 GV1 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV1_BEAM_EXPOSURE",		"GV1.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1018 GV1 Beam Exposure"}
 {18ID:,	"BLEPS:GV1_NO_SWITCH",			"GV1.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1019 GV1 No Switch"}
 
-{18ID:,	"BLEPS:GV2_FAULTED",			"GV2.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1020 GV2_Faulted"}			
+{18ID:,	"BLEPS:GV2_FAULTED",			"GV2.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1020 GV2_Faulted"}
 {18ID:,	"BLEPS:GV2_BOTH_SWITCH",		"GV2.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1021 GV2 Both Switch"}
 {18ID:,	"BLEPS:GV2_OPENED_SWITCH",		"GV2.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1022 GV2 Opened Switch"}
 {18ID:,	"BLEPS:GV2_FAIL_TO_OPEN",		"GV2.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1023 GV2 Fail to Open"}
 {18ID:,	"BLEPS:GV2_FULLY_OPEN",			"GV2.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1024 GV2 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV2_CLOSED_SWITCH",		"GV2.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1025 GV2 Closed Switch"}
 {18ID:,	"BLEPS:GV2_FAIL_TO_CLOSE",		"GV2.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1026 GV2 Fail to Close"}
-{18ID:,	"BLEPS:GV2_FULLY_CLOSE",		"GV2.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1027 GV2 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV2_FULLY_CLOSE",		"GV2.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1027 GV2 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV2_BEAM_EXPOSURE",		"GV2.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1028 GV2 Beam Exposure"}
 {18ID:,	"BLEPS:GV2_NO_SWITCH",			"GV2.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1029 GV2 No Switch"}
 
-{18ID:,	"BLEPS:GV3_FAULTED",			"GV3.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1030 GV3_Faulted"}			
+{18ID:,	"BLEPS:GV3_FAULTED",			"GV3.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1030 GV3_Faulted"}
 {18ID:,	"BLEPS:GV3_BOTH_SWITCH",		"GV3.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1031 GV3 Both Switch"}
 {18ID:,	"BLEPS:GV3_OPENED_SWITCH",		"GV3.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1032 GV3 Opened Switch"}
 {18ID:,	"BLEPS:GV3_FAIL_TO_OPEN",		"GV3.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1033 GV3 Fail to Open"}
 {18ID:,	"BLEPS:GV3_FULLY_OPEN",			"GV3.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1034 GV3 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV3_CLOSED_SWITCH",		"GV3.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1035 GV3 Closed Switch"}
 {18ID:,	"BLEPS:GV3_FAIL_TO_CLOSE",		"GV3.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1036 GV3 Fail to Close"}
-{18ID:,	"BLEPS:GV3_FULLY_CLOSE",		"GV3.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1037 GV3 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV3_FULLY_CLOSE",		"GV3.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1037 GV3 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV3_BEAM_EXPOSURE",		"GV3.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1038 GV3 Beam Exposure"}
 {18ID:,	"BLEPS:GV3_NO_SWITCH",			"GV3.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1039 GV3 No Switch"}
 
-{18ID:,	"BLEPS:GV4_FAULTED",			"GV4.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1040 GV4_Faulted"}			
+{18ID:,	"BLEPS:GV4_FAULTED",			"GV4.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1040 GV4_Faulted"}
 {18ID:,	"BLEPS:GV4_BOTH_SWITCH",		"GV4.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1041 GV4 Both Switch"}
 {18ID:,	"BLEPS:GV4_OPENED_SWITCH",		"GV4.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1042 GV4 Opened Switch"}
 {18ID:,	"BLEPS:GV4_FAIL_TO_OPEN",		"GV4.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1043 GV4 Fail to Open"}
 {18ID:,	"BLEPS:GV4_FULLY_OPEN",			"GV4.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1044 GV4 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV4_CLOSED_SWITCH",		"GV4.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1045 GV4 Closed Switch"}
 {18ID:,	"BLEPS:GV4_FAIL_TO_CLOSE",		"GV4.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1046 GV4 Fail to Close"}
-{18ID:,	"BLEPS:GV4_FULLY_CLOSE",		"GV4.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1047 GV4 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV4_FULLY_CLOSE",		"GV4.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1047 GV4 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV4_BEAM_EXPOSURE",		"GV4.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1048 GV4 Beam Exposure"}
 {18ID:,	"BLEPS:GV4_NO_SWITCH",			"GV4.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1049 GV4 No Switch"}
 
-{18ID:,	"BLEPS:GV5_FAULTED",			"GV5.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1050 GV5_Faulted"}			
+{18ID:,	"BLEPS:GV5_FAULTED",			"GV5.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1050 GV5_Faulted"}
 {18ID:,	"BLEPS:GV5_BOTH_SWITCH",		"GV5.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1051 GV5 Both Switch"}
 {18ID:,	"BLEPS:GV5_OPENED_SWITCH",		"GV5.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1052 GV5 Opened Switch"}
 {18ID:,	"BLEPS:GV5_FAIL_TO_OPEN",		"GV5.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1053 GV5 Fail to Open"}
 {18ID:,	"BLEPS:GV5_FULLY_OPEN",			"GV5.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1054 GV5 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV5_CLOSED_SWITCH",		"GV5.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1055 GV5 Closed Switch"}
 {18ID:,	"BLEPS:GV5_FAIL_TO_CLOSE",		"GV5.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1056 GV5 Fail to Close"}
-{18ID:,	"BLEPS:GV5_FULLY_CLOSE",		"GV5.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1057 GV5 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV5_FULLY_CLOSE",		"GV5.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1057 GV5 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV5_BEAM_EXPOSURE",		"GV5.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1058 GV5 Beam Exposure"}
 {18ID:,	"BLEPS:GV5_NO_SWITCH",			"GV5.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1059 GV5 No Switch"}
 
-{18ID:,	"BLEPS:GV6_FAULTED",			"GV6.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1060 GV6_Faulted"}			
+{18ID:,	"BLEPS:GV6_FAULTED",			"GV6.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1060 GV6_Faulted"}
 {18ID:,	"BLEPS:GV6_BOTH_SWITCH",		"GV6.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1061 GV6 Both Switch"}
 {18ID:,	"BLEPS:GV6_OPENED_SWITCH",		"GV6.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1062 GV6 Opened Switch"}
 {18ID:,	"BLEPS:GV6_FAIL_TO_OPEN",		"GV6.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1063 GV6 Fail to Open"}
 {18ID:,	"BLEPS:GV6_FULLY_OPEN",			"GV6.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1064 GV6 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV6_CLOSED_SWITCH",		"GV6.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1065 GV6 Closed Switch"}
 {18ID:,	"BLEPS:GV6_FAIL_TO_CLOSE",		"GV6.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1066 GV6 Fail to Close"}
-{18ID:,	"BLEPS:GV6_FULLY_CLOSE",		"GV6.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1067 GV6 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV6_FULLY_CLOSE",		"GV6.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1067 GV6 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV6_BEAM_EXPOSURE",		"GV6.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1068 GV6 Beam Exposure"}
 {18ID:,	"BLEPS:GV6_NO_SWITCH",			"GV6.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1069 GV6 No Switch"}
 
-{18ID:,	"BLEPS:GV7_FAULTED",			"GV7.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1070 GV7_Faulted"}			
+{18ID:,	"BLEPS:GV7_FAULTED",			"GV7.Faulted",				"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1070 GV7_Faulted"}
 {18ID:,	"BLEPS:GV7_BOTH_SWITCH",		"GV7.Fault.Both_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1071 GV7 Both Switch"}
 {18ID:,	"BLEPS:GV7_OPENED_SWITCH",		"GV7.Fault.Opened_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1072 GV7 Opened Switch"}
 {18ID:,	"BLEPS:GV7_FAIL_TO_OPEN",		"GV7.Fault.Fail_to_Open",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1073 GV7 Fail to Open"}
 {18ID:,	"BLEPS:GV7_FULLY_OPEN",			"GV7.Fault.Fully_Open",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1074 GV7 Fail To Fully Open"}
 {18ID:,	"BLEPS:GV7_CLOSED_SWITCH",		"GV7.Fault.Closed_Switch",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1075 GV7 Closed Switch"}
 {18ID:,	"BLEPS:GV7_FAIL_TO_CLOSE",		"GV7.Fault.Fail_to_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1076 GV7 Fail to Close"}
-{18ID:,	"BLEPS:GV7_FULLY_CLOSE",		"GV7.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1077 GV7 Fail To Fully Close"} 
+{18ID:,	"BLEPS:GV7_FULLY_CLOSE",		"GV7.Fault.Fully_Close",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1077 GV7 Fail To Fully Close"}
 {18ID:,	"BLEPS:GV7_BEAM_EXPOSURE",		"GV7.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1078 GV7 Beam Exposure"}
 {18ID:,	"BLEPS:GV7_NO_SWITCH",			"GV7.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1079 GV7 No Switch"}
 
@@ -140,8 +140,16 @@ pattern
 {P,     		N                           TAG                 SCAN    	ZNAM    	ONAM        	ZSV         OSV         DESC}
 {18ID:,  "BLEPS:WARNING_EXISTS",     	"Warning_Exists",    			"2.0",  "NO WARNING", "WARNING",	"NO_ALARM", "MAJOR",   "Any Warn Exists"}
 {18ID:,  "BLEPS:PLC_BATTERY_DEAD_WRN",    "PLC_Battery_Dead_Wrn",  		"2.0",  "NO WARNING", "WARNING",	"NO_ALARM", "MAJOR",   "2 PLC Battery Dead Warn"}
+
 {18ID:,  "BLEPS:FLOW_1_UNDER_WRN",     "Flow1.Under_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "11 Flow 1 Under Range Warn"}
 {18ID:,  "BLEPS:FLOW_2_UNDER_WRN",     "Flow2.Under_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "12 Flow 2 Under Range Warn"}
+
+{18ID:,  "BLEPS:TEMP_1_OVER_WRN",     "Temp1.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "51 Temp 1 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_3_OVER_WRN",     "Temp3.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "53 Temp 3 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_4_OVER_WRN",     "Temp4.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "54 Temp 4 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_9_OVER_WRN",     "Temp9.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "59 Temp 9 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_11_OVER_WRN",     "Temp11.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "60 Temp 11 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_12_OVER_WRN",     "Temp12.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "61 Temp 12 Over Range Warn"}
 
 {18ID:,  "BLEPS:IP1_WARNING",       "IP1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "101 Ion Pump 1 Warning"}
 {18ID:,  "BLEPS:IP2_WARNING",       "IP2.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "102 Ion Pump 2 Warning"}
@@ -175,6 +183,9 @@ file "$(TOP)/db/bleps_bi.db"
 {
 pattern
 {P,     N                           TAG                         SCAN    ZNAM        ONAM        ZSV         OSV         DESC}
+{18ID:,  "BLEPS:FLSinsertedSwitch", "FLS.InsertedStatus",       "2.0",  "OUT",     "IN",      "NO_ALARM", "MAJOR",   "Fluorescent Screen Inserted"}
+{18ID:,  "BLEPS:FLSretractedSwitch","FLS.RetractedStatus",      "2.0",  "IN",     "OUT",      "MAJOR", "NO_ALARM",   "Fluorescent Screen Retracted"}
+
 {18ID:,  "BLEPS:BIV_CLOSED",         "BIV.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Beamline Iso Valve Closed"}
 {18ID:,  "BLEPS:FES_CLOSED",         "FES.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Front End Shutter Closed"}
 {18ID:,  "BLEPS:SDS_CLOSED",         "SDS.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Station D Shutter Closed"}
@@ -264,6 +275,7 @@ pattern
 {18ID:,  "BLEPS:GREEN_LIGHT",  "Green_Light",             		"2.0",  "",       "PRESENT",  	   "NO_ALARM", 	"NO_ALARM",    	"Green Beacon Light"}
 {18ID:,  "BLEPS:BUZZER",       "Buzzer",                  		"2.0",  "",       "PRESENT",   	   "NO_ALARM", 	"MINOR",    	"Audio Buzzer"}
 
+{18ID:,  "BLEPS:FLSinsert_Command",  "FLSinsert_Command",         "5.0",  "BAD",    "GOOD",      "MAJOR", "NO_ALARM", "Fluorescent Screen Command"}
 }
 
 # Display
@@ -319,6 +331,9 @@ pattern
 
 {18ID:,  "BLEPS:GV7_EPICS_OPEN",   "GV7.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV07 Open Request"}
 {18ID:,  "BLEPS:GV7_EPICS_CLOSE",  "GV7.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV07 Close Request"}
+
+{18ID:,  "BLEPS:FLSinsertEPICS",   "FLSinsertEPICS",        "0.5",      "",     "IN",         "FLS Insert Request"}
+{18ID:,  "BLEPS:FLSretractEPICS",  "FLSretractEPICS",       "0.5",      "",     "OUT",        "FLS Retract Request"}
 
 }
 #### | ~ . ~ . ~ |	END SECTION	| ~ . ~ . ~ | ###
@@ -593,25 +608,25 @@ pattern
 {18ID:,  "BLEPS:MINOR_FLT_TYPE",      "Info.Minor_Fault.Type",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault Type"}
 {18ID:,  "BLEPS:MINOR_FLT_CODE",      "Info.Minor_Fault.Code",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault Code"}
 {18ID:,  "BLEPS:MINOR_FLT_INFO",      "Info.Minor_Fault.Info",       "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Minor Fault info"}
-{18ID:,  "BLEPS:COMM_FAULTS",         "Info.Communication_Faults",   "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Control Net Faults"}
+{18ID:,  "BLEPS:COMMUNICATION_FAULTS",         "Info.Communication_Faults",   "5.0",	"0",    "",     "",     "",     "",     "",     "",     "",     "",     "", 	"Control Net Faults"}
 }
 
-# Flows 
+# Flows
 file "$(TOP)/db/bleps_ai.db"
 {
 pattern
 {P,     N                         TAG                     SCAN    PREC    EGU     HIHI    HIGH    LOW     LOLO    HHSV    HSV     LSV     LLSV    DESC}
 {18ID:,  "BLEPS:FLOW1_SCALING",    "Flow1.Scaling_Factor", "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Scaling factor for 1st Flow"}
 {18ID:,  "BLEPS:FLOW1_SET_POINT",  "Flow1.Set_Point",      "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Low Setpoint for 1st Flow"}
-{18ID:,  "BLEPS:FLOW1_CURRENT",    "Flow1.Current_Value",  "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Current value for 1st Flow"}  
+{18ID:,  "BLEPS:FLOW1_CURRENT",    "Flow1.Current_Value",  "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Current value for 1st Flow"}
 
 {18ID:,  "BLEPS:FLOW2_SCALING",    "Flow2.Scaling_Factor", "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Scaling factor for 2nd Flow"}
 {18ID:,  "BLEPS:FLOW2_SET_POINT",  "Flow2.Set_Point",      "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Low Setpoint for 2nd Flow"}
-{18ID:,  "BLEPS:FLOW2_CURRENT",    "Flow2.Current_Value",  "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Current value for 2nd Flow"}  
+{18ID:,  "BLEPS:FLOW2_CURRENT",    "Flow2.Current_Value",  "2.0",  "1",    "gpm",  "",     "",     "",     "",     "",     "",     "",     "",     "Current value for 2nd Flow"}
 
 }
- 
-# Temps 
+
+# Temps
 file "$(TOP)/db/bleps_ai.db"
 {
 pattern
@@ -651,4 +666,4 @@ pattern
 {18ID:,  "BLEPS:TEMP16_CURRENT",    "Temp16.Current_value", "2.0",  "1",    "C",  "",     "",     "",     "",     "",     "",     "",     "",     "Current Value for 16th Temp"}
 
 }
- 
+
