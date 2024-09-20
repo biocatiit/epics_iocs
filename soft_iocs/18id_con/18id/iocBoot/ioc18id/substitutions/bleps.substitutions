@@ -102,6 +102,17 @@ pattern
 {18ID:,	"BLEPS:GV7_BEAM_EXPOSURE",		"GV7.Fault.Beam_Exposure",	"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1078 GV7 Beam Exposure"}
 {18ID:,	"BLEPS:GV7_NO_SWITCH",			"GV7.Fault.No_Switch",		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",	"1079 GV7 No Switch"}
 
+{18ID:, "BLEPS:GV8_FAULTED",            "GV8.Faulted",              "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1080 GV8_Faulted"}
+{18ID:, "BLEPS:GV8_BOTH_SWITCH",        "GV8.Fault.Both_Switch",    "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1081 GV8 Both Switch"}
+{18ID:, "BLEPS:GV8_OPENED_SWITCH",      "GV8.Fault.Opened_Switch",  "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1082 GV8 Opened Switch"}
+{18ID:, "BLEPS:GV8_FAIL_TO_OPEN",       "GV8.Fault.Fail_to_Open",   "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1083 GV8 Fail to Open"}
+{18ID:, "BLEPS:GV8_FULLY_OPEN",         "GV8.Fault.Fully_Open",     "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1084 GV8 Fail To Fully Open"}
+{18ID:, "BLEPS:GV8_CLOSED_SWITCH",      "GV8.Fault.Closed_Switch",  "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1085 GV8 Closed Switch"}
+{18ID:, "BLEPS:GV8_FAIL_TO_CLOSE",      "GV8.Fault.Fail_to_Close",  "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1086 GV8 Fail to Close"}
+{18ID:, "BLEPS:GV8_FULLY_CLOSE",        "GV8.Fault.Fully_Close",    "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1087 GV8 Fail To Fully Close"}
+{18ID:, "BLEPS:GV8_BEAM_EXPOSURE",      "GV8.Fault.Beam_Exposure",  "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1088 GV8 Beam Exposure"}
+{18ID:, "BLEPS:GV8_NO_SWITCH",          "GV8.Fault.No_Switch",      "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "1089 GV8 No Switch"}
+
 }
 
 # Read Trip Status
@@ -130,6 +141,8 @@ pattern
 {18ID:,  "BLEPS:VS6_TRIP",      	 "VS6.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "106 Vacuum Section 6"}
 {18ID:,  "BLEPS:VS7_TRIP",      	 "VS7.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "107 Vacuum Section 7"}
 {18ID:,  "BLEPS:VS8_TRIP",      	 "VS8.Trip",             		"2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "108 Vacuum Section 8"}
+{18ID:,  "BLEPS:VS9_TRIP",           "VS9.Trip",                    "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "109 Vacuum Section 9"}
+{18ID:,  "BLEPS:VS10_TRIP",          "VS10.Trip",                   "2.0",  "NO FAULT", "FAULT",    "NO_ALARM", "MAJOR",    "110 Vacuum Section 10"}
 
 }
 
@@ -148,8 +161,8 @@ pattern
 {18ID:,  "BLEPS:TEMP_3_OVER_WRN",     "Temp3.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "53 Temp 3 Over Range Warn"}
 {18ID:,  "BLEPS:TEMP_4_OVER_WRN",     "Temp4.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "54 Temp 4 Over Range Warn"}
 {18ID:,  "BLEPS:TEMP_9_OVER_WRN",     "Temp9.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "59 Temp 9 Over Range Warn"}
-{18ID:,  "BLEPS:TEMP_11_OVER_WRN",     "Temp11.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "60 Temp 11 Over Range Warn"}
-{18ID:,  "BLEPS:TEMP_12_OVER_WRN",     "Temp12.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "61 Temp 12 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_11_OVER_WRN",    "Temp11.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "60 Temp 11 Over Range Warn"}
+{18ID:,  "BLEPS:TEMP_12_OVER_WRN",    "Temp12.Over_Range_Warning",    "2.0",  "NO WARNING", "WARNING",    "NO_ALARM", "MAJOR",   "61 Temp 12 Over Range Warn"}
 
 {18ID:,  "BLEPS:IP1_WARNING",       "IP1.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "101 Ion Pump 1 Warning"}
 {18ID:,  "BLEPS:IP2_WARNING",       "IP2.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "102 Ion Pump 2 Warning"}
@@ -169,11 +182,13 @@ pattern
 {18ID:,  "BLEPS:IG7_WARNING",       "IG7.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "207 Ion Gauge 7 Warning"}
 {18ID:,  "BLEPS:IG8_WARNING",       "IG8.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "208 Ion Gauge 8 Warning"}
 {18ID:,  "BLEPS:IG9_WARNING",       "IG9.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "209 Ion Gauge 9 Warning"}
-{18ID:,  "BLEPS:IG10_WARNING",       "IG10.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "210 Ion Gauge 10 Warning"}
+{18ID:,  "BLEPS:IG10_WARNING",      "IG10.Warning",               	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "210 Ion Gauge 10 Warning"}
+{18ID:,  "BLEPS:IG11_WARNING",      "IG11.Warning",                 "2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "211 Ion Gauge 11 Warning"}
+{18ID:,  "BLEPS:IG12_WARNING",      "IG12.Warning",                 "2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "212 Ion Gauge 12 Warning"}
 
-{18ID:,  "BLEPS:PS_1_WARNING",        "Power_Supply_1.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "3 Power Supply 1 Warning"}
-{18ID:,  "BLEPS:PS_2_WARNING",        "Power_Supply_2.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "4 Power Supply 2 Warning"}
-{18ID:,  "BLEPS:OR_WARNING",        "OR'ing_Module.Warning",     	"2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "5 OR'ing Module Warning"}
+{18ID:,  "BLEPS:PS_1_WARNING",      "PS_1_Warning",     	        "2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "3 PS 1 Warning"}
+{18ID:,  "BLEPS:PS_2_WARNING",      "PS_2_Warning",     	        "2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "4 PS 2 Warning"}
+{18ID:,  "BLEPS:OR_WARNING",        "OR_Warning",     	            "2.0",  "NO WARNING",  "WARNING",      "NO_ALARM",    "MAJOR",    "5 PS Oring Ckt Warning"}
 
 }
 
@@ -183,8 +198,8 @@ file "$(TOP)/db/bleps_bi.db"
 {
 pattern
 {P,     N                           TAG                         SCAN    ZNAM        ONAM        ZSV         OSV         DESC}
-{18ID:,  "BLEPS:FLSinsertedSwitch", "FLS.InsertedStatus",       "2.0",  "OUT",     "IN",      "NO_ALARM", "MAJOR",   "Fluorescent Screen Inserted"}
-{18ID:,  "BLEPS:FLSretractedSwitch","FLS.RetractedStatus",      "2.0",  "IN",     "OUT",      "MAJOR", "NO_ALARM",   "Fluorescent Screen Retracted"}
+{18ID:,  "BLEPS:FLSinsertedSwitch", "FLSinsertedSwitch",       "2.0",  "OUT",     "IN",      "NO_ALARM", "MAJOR",   "Fluorescent Screen Inserted"}
+{18ID:,  "BLEPS:FLSretractedSwitch","FLSretractedSwitch",      "2.0",  "IN",     "OUT",      "MAJOR", "NO_ALARM",   "Fluorescent Screen Retracted"}
 
 {18ID:,  "BLEPS:BIV_CLOSED",         "BIV.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Beamline Iso Valve Closed"}
 {18ID:,  "BLEPS:FES_CLOSED",         "FES.Closed",               "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR",	"Front End Shutter Closed"}
@@ -209,7 +224,9 @@ pattern
 {18ID:,  "BLEPS:IG7_STATUS",       "IG7.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 7 Vacuum Status"}
 {18ID:,  "BLEPS:IG8_STATUS",       "IG8.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 8 Vacuum Status"}
 {18ID:,  "BLEPS:IG9_STATUS",       "IG9.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 9 Vacuum Status"}
-{18ID:,  "BLEPS:IG10_STATUS",       "IG10.Status",               	"2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 10 Vacuum Status"}
+{18ID:,  "BLEPS:IG10_STATUS",      "IG10.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM", 	"Ion Gauge 10 Vacuum Status"}
+{18ID:,  "BLEPS:IG11_STATUS",      "IG11.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM",    "Ion Gauge 11 Vacuum Status"}
+{18ID:,  "BLEPS:IG12_STATUS",      "IG12.Status",               "2.0",  "BAD",     "GOOD",      "MAJOR", "NO_ALARM",    "Ion Gauge 12 Vacuum Status"}
 
 {18ID:,  "BLEPS:GV1_CLOSED_LS",      "GV1.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 1 Closed"}
 {18ID:,  "BLEPS:GV1_OPENED_LS",      "GV1.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 1 Opened"}
@@ -231,6 +248,9 @@ pattern
 
 {18ID:,  "BLEPS:GV7_CLOSED_LS",      "GV7.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",	 "Vacuum Gate Valve 7 Closed"}
 {18ID:,  "BLEPS:GV7_OPENED_LS",      "GV7.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 7 Opened"}
+
+{18ID:,  "BLEPS:GV8_CLOSED_LS",      "GV8.Closed_LS",            "2.0",  "OPEN",     "CLOSED",   "NO_ALARM", "MAJOR",    "Vacuum Gate Valve 8 Closed"}
+{18ID:,  "BLEPS:GV8_OPENED_LS",      "GV8.Opened_LS",            "2.0",  "CLOSED",   "OPEN",     "MAJOR",    "NO_ALARM", "Vacuum Gate Valve 8 Opened"}
 
 {18ID:,  "BLEPS:FLOW1_STATUS",       "Flow1.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Flow 1 Status"}
 {18ID:,  "BLEPS:FLOW2_STATUS",       "Flow2.Status",             "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", 	"Digital Flow 2 Status"}
@@ -269,6 +289,7 @@ pattern
 {18ID:,  "BLEPS:GV4_OPEN_COMMAND",  "GV4.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 4 Open Command"}
 {18ID:,  "BLEPS:GV6_OPEN_COMMAND",  "GV6.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 6 Open Command"}
 {18ID:,  "BLEPS:GV7_OPEN_COMMAND",  "GV7.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 7 Open Command"}
+{18ID:,  "BLEPS:GV8_OPEN_COMMAND",  "GV8.Open_Command",         "5.0",  "GOOD",    "BAD",      "NO_ALARM", "MAJOR", "Gate Valve 8 Open Command"}
 
 {18ID:,  "BLEPS:RED_LIGHT",    "Red_Light",               		"2.0",  "",       "PRESENT",  	   "NO_ALARM", 	"MAJOR",    	"Red Beacon Light"}
 {18ID:,  "BLEPS:YELLOW_LIGHT", "Yellow_Light",            		"2.0",  "",       "PRESENT",  	   "NO_ALARM", 	"MINOR",    	"Yellow Beaon Light"}
@@ -293,13 +314,16 @@ pattern
 {18ID:,  "BLEPS:GV3_CLOSE_PERMIT",   "GV3.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV3 Close Permit"}
 
 {18ID:,  "BLEPS:GV4_OPEN_PERMIT",    "GV4.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV4 Open Permit"}
-{18ID:,  "BLEPS:GV4_CLOSE_PERMIT",   "GV4.Close_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV4 Close Permit"}
+{18ID:,  "BLEPS:GV4_CLOSE_PERMIT",   "GV4.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV4 Close Permit"}
 
 {18ID:,  "BLEPS:GV6_OPEN_PERMIT",    "GV6.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV6 Open Permit"}
-{18ID:,  "BLEPS:GV6_CLOSE_PERMIT",   "GV6.Close_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV6 Close Permit"}
+{18ID:,  "BLEPS:GV6_CLOSE_PERMIT",   "GV6.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV6 Close Permit"}
 
 {18ID:,  "BLEPS:GV7_OPEN_PERMIT",    "GV7.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV7 Open Permit"}
-{18ID:,  "BLEPS:GV7_CLOSE_PERMIT",   "GV7.Close_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV7 Close Permit"}
+{18ID:,  "BLEPS:GV7_CLOSE_PERMIT",   "GV7.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV7 Close Permit"}
+
+{18ID:,  "BLEPS:GV8_OPEN_PERMIT",    "GV8.Open_Permit",          "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV8 Open Permit"}
+{18ID:,  "BLEPS:GV8_CLOSE_PERMIT",   "GV8.Close_Permit",         "2.0",  "GOOD",     "BAD",      "NO_ALARM", "MAJOR", "GV8 Close Permit"}
 
 }
 
@@ -331,6 +355,9 @@ pattern
 
 {18ID:,  "BLEPS:GV7_EPICS_OPEN",   "GV7.EPICS_Open",        "0.5",  	"",     "OPEN",   		"GV07 Open Request"}
 {18ID:,  "BLEPS:GV7_EPICS_CLOSE",  "GV7.EPICS_Close",       "0.5",  	"",     "CLOSE",  		"GV07 Close Request"}
+
+{18ID:,  "BLEPS:GV8_EPICS_OPEN",   "GV8.EPICS_Open",        "0.5",      "",     "OPEN",         "GV08 Open Request"}
+{18ID:,  "BLEPS:GV8_EPICS_CLOSE",  "GV8.EPICS_Close",       "0.5",      "",     "CLOSE",        "GV08 Close Request"}
 
 {18ID:,  "BLEPS:FLSinsertEPICS",   "FLSinsertEPICS",        "0.5",      "",     "IN",         "FLS Insert Request"}
 {18ID:,  "BLEPS:FLSretractEPICS",  "FLSretractEPICS",       "0.5",      "",     "OUT",        "FLS Retract Request"}
