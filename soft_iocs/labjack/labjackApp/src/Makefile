@@ -16,7 +16,6 @@ DBD += labjack.dbd
 labjack_DBD += base.dbd
 
 # Include dbd files from all support applications:
-labjack_DBD += base.dbd
 labjack_DBD += asyn.dbd
 labjack_DBD += busySupport.dbd
 labjack_DBD += asSupport.dbd

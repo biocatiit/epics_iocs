@@ -22,7 +22,6 @@
 # the CONFIG_SITE file.
 
 # Variables and paths to dependent modules:
-#MODULES = /path/to/modules
 SUPPORT=/opt/epics/synApps_6_3/support/
 AUTOSAVE=$(SUPPORT)autosave-R5-11
 ASYN=$(SUPPORT)asyn-R4-44-2

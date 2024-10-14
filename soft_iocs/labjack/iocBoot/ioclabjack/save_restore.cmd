@@ -3,8 +3,8 @@ save_restoreSet_Debug(0)
 
 # Set PV prefix
 save_restoreSet_status_prefix("$(PREFIX)")
-save_restoreSet_status_prefix("$(PREFIX2)")
-save_restoreSet_status_prefix("$(PREFIX3)")
+#save_restoreSet_status_prefix("$(PREFIX2)")
+#save_restoreSet_status_prefix("$(PREFIX3)")
 
 # Ok to save/restore save sets with missing values (no CA connection to PV)?
 save_restoreSet_IncompleteSetsOk(1)
@@ -33,5 +33,5 @@ set_requestfile_path($(LABJACK), "db")
 
 # Load database
 dbLoadRecords("$(AUTOSAVE)/db/save_restoreStatus.db", "P=$(PREFIX)")
-dbLoadRecords("$(AUTOSAVE)/db/save_restoreStatus.db", "P=$(PREFIX2)")
-dbLoadRecords("$(AUTOSAVE)/db/save_restoreStatus.db", "P=$(PREFIX3)")
+#dbLoadRecords("$(AUTOSAVE)/db/save_restoreStatus.db", "P=$(PREFIX2)")
+#dbLoadRecords("$(AUTOSAVE)/db/save_restoreStatus.db", "P=$(PREFIX3)")
