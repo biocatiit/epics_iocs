@@ -7,10 +7,19 @@
 dbLoadDatabase "../../dbd/meas_comp.dbd"
 meas_comp_registerRecordDeviceDriver pdbbase
 
+# E-TC
 epicsEnvSet("PREFIX",        "18ID:ETC:")
 epicsEnvSet("PORT",          "ETC_1")
 epicsEnvSet("UNIQUE_ID",     "164.54.204.159")
 
+# E-1608
+epicsEnvSet("PREFIX2",        "18ID:E1608:")
+epicsEnvSet("PORT2",          "E1608_1")
+epicsEnvSet("WDIG_POINTS",   "2048")
+epicsEnvSet("UNIQUE_ID2",     "164.54.204.158")
+
+
+# E-TC
 ## Configure port driver
 # MultiFunctionConfig((portName,        # The name to give to this asyn port driver
 #                      uniqueID,        # For USB the serial number.  For Ethernet the MAC address or IP address.
@@ -21,6 +30,11 @@ MultiFunctionConfig("$(PORT)", "$(UNIQUE_ID)", 1, 1)
 #asynSetTraceMask($(PORT), -1, ERROR|FLOW|DRIVER)
 
 dbLoadTemplate("$(MEASCOMP)/db/ETC.substitutions", "P=$(PREFIX),PORT=$(PORT)")
+
+# E-1608
+MultiFunctionConfig("$(PORT2)", "$(UNIQUE_ID2)", $(WDIG_POINTS), 1)
+
+dbLoadTemplate("$(MEASCOMP)/db/E1608.substitutions", "P=$(PREFIX2),PORT=$(PORT2),WDIG_POINTS=$(WDIG_POINTS)")
 
 < save_restore.cmd
 
