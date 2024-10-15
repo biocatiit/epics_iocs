@@ -8,4 +8,5 @@ BUSY=$(SUPPORT)busy-R1-7-4
 MOTOR=$(SUPPORT)motor-R7-3-1
 GALIL=$(SUPPORT)Galil-4-0-00
 IPAC=$(SUPPORT)ipac-2-16
+OPTICS=$(SUPPORT)optics-R2-14
 EPICS_BASE=/opt/epics/base

@@ -24,11 +24,12 @@ galil_DMC_E04_DBD += calcSupport.dbd
 galil_DMC_E04_DBD += sscanSupport.dbd
 galil_DMC_E04_DBD += asSupport.dbd
 galil_DMC_E04_DBD += busySupport.dbd
+galil_DMC_E04_DBD += opticsSupport.dbd
 galil_DMC_E04_DBD += GalilSupport.dbd
 
 # Add all the support libraries needed by this IOC
 galil_DMC_E04_LIBS += GalilSupport
-galil_DMC_E04_LIBS += motor busy asyn calc sscan autosave
+galil_DMC_E04_LIBS += motor busy asyn calc sscan autosave optics
 ifdef SNCSEQ
 galil_DMC_E04_LIBS += seq pv
 endif

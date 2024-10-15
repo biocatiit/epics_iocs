@@ -32,6 +32,17 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=$(IOCPREFIX)")
 
 ##################################################################################################
 
+### Set up slit pseudo motors
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit.db","P=18ID_DMC_E04:,SLIT=XenocsUS_V,mXp=25,mXn=26")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit.db","P=18ID_DMC_E04:,SLIT=XenocsUS_H,mXp=28,mXn=27")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit.db","P=18ID_DMC_E04:,SLIT=XenocsDS_V,mXp=29,mXn=30")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit.db","P=18ID_DMC_E04:,SLIT=XenocsDS_H,mXp=32,mXn=31")
+# Note: the _soft definitions doen't seem to work:
+#dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E04:,SLIT=XenocsUS_V,mXp=25,mXn=26")
+
+
+##################################################################################################
+
 < autosave.cmd
 
 # Start the IOC
@@ -48,6 +59,9 @@ saveData_Init("saveData.req", "P=$(IOCPREFIX)")
 
 # Create RIO autosave monitor sets
 #< RIO01CreateMonitorSet.cmd
+
+# Slit autosave monitor sets
+create_monitor_set("slit_settings.req",30,"P=18ID_DMC_E04:")
 
 ##################################################################################################
 date
