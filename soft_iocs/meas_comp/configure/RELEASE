@@ -26,6 +26,9 @@ SUPPORT=/opt/epics/synApps_6_3/support/
 AUTOSAVE=$(SUPPORT)autosave-R5-11
 ASYN=$(SUPPORT)asyn-R4-44-2
 BUSY=$(SUPPORT)busy-R1-7-4
+SSCAN=$(SUPPORT)sscan-R2-11-6
+CALC=$(SUPPORT)calc-R3-7-5
+SCALER=$(SUPPORT)scaler-4-1
 MEASCOMP=$(SUPPORT)measComp-master
 
 # If using the sequencer, point SNCSEQ at its top directory:
