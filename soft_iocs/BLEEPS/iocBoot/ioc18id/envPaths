@@ -1,5 +1,5 @@
 epicsEnvSet("IOC","ioc18id")
-epicsEnvSet("TOP","/opt/epics/iocs/epics_iocs/soft_iocs/18id_con")
+epicsEnvSet("TOP","/opt/epics/iocs/epics_iocs/soft_iocs/BLEEPS")
 epicsEnvSet("SUPPORT","/opt/epics/synApps_6_3/support")
 epicsEnvSet("EPICS_BASE","/opt/epics/base")
 epicsEnvSet("ALIVE","/opt/epics/synApps_6_3/support/alive-R1-4-1")
