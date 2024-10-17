@@ -97,10 +97,14 @@ if __name__ == '__main__':
         builder.SetDeviceName(prefix)
 
         # Create some records
-        ai_c = builder.aIn('TempC', initial_value=0, DESC='Temperature (C)')
-        ai_f = builder.aIn('TempF', initial_value=0, DESC='Temperature (F)')
-        ai_h = builder.aIn('Humid', initial_value=0, DESC='Humidity (percent)')
-        si_t = builder.stringIn('TimeStamp', initial_value="", DESC='Timestamp of last update')
+        ai_c = builder.aIn('TempC', initial_value=0.0, DESC='Temperature (C)',
+            EGU='C', PREC=1)
+        ai_f = builder.aIn('TempF', initial_value=0.0, DESC='Temperature (F)',
+            EGU='F', PREC=1)
+        ai_h = builder.aIn('Humid', initial_value=0.0, DESC='Humidity (percent)',
+            EGU='%', PREC=1)
+        si_t = builder.stringIn('TimeStamp', initial_value="",
+            DESC='Timestamp of last update')
 
         esensor = ESensor(prefix, url, ai_c, ai_f, ai_h, si_t)
         esensors.append(esensor)
