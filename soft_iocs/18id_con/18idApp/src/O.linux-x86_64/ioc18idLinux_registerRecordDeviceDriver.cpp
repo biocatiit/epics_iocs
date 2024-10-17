@@ -836,7 +836,7 @@ static struct iocshVarDef vardefs[] = {
 int ioc18idLinux_registerRecordDeviceDriver(DBBASE *pbase)
 {
     static int executed = 0;
-    const char *bldTop = "/opt/epics/iocs/epics_iocs/soft_iocs/18id_con/18id";
+    const char *bldTop = "/opt/epics/iocs/epics_iocs/soft_iocs/18id_con";
     const char *envTop = getenv("TOP");
 
     if (envTop && strcmp(envTop, bldTop)) {

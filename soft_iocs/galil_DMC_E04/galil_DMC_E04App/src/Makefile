@@ -20,6 +20,7 @@ galil_DMC_E04_DBD += asyn.dbd
 galil_DMC_E04_DBD += drvAsynSerialPort.dbd
 galil_DMC_E04_DBD += drvAsynIPPort.dbd
 galil_DMC_E04_DBD += motorSupport.dbd
+galil_DMC_E04_DBD += devSoftMotor.dbd
 galil_DMC_E04_DBD += calcSupport.dbd
 galil_DMC_E04_DBD += sscanSupport.dbd
 galil_DMC_E04_DBD += asSupport.dbd
@@ -29,7 +30,7 @@ galil_DMC_E04_DBD += GalilSupport.dbd
 
 # Add all the support libraries needed by this IOC
 galil_DMC_E04_LIBS += GalilSupport
-galil_DMC_E04_LIBS += motor busy asyn calc sscan autosave optics
+galil_DMC_E04_LIBS += motor busy asyn calc sscan autosave optics softMotor
 ifdef SNCSEQ
 galil_DMC_E04_LIBS += seq pv
 endif
