@@ -8,4 +8,5 @@ pushd /opt/epics/epics_iocs/shortcuts
 ./start_ioc_labjack.sh start
 ./start_ioc_meas_comp.sh start
 ./start_ioc_meas_comp_etc.sh start
+./start_ioc_meas_comp_e1608.sh start
 popd
