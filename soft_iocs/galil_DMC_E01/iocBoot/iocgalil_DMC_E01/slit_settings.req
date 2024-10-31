@@ -1,0 +1,2 @@
+file "2slit_soft_settings.req", P=$(P), SLIT=XenocsUS_V:
+file "2slit_soft_settings.req", P=$(P), SLIT=XenocsUS_H:
