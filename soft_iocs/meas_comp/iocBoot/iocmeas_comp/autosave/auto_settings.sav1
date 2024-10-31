@@ -1,76 +1,77 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 241023-095719
-18ID:ETC:Bd1 0
-18ID:ETC:Bd2 0
-18ID:ETC:Bd3 0
-18ID:ETC:Bd4 0
-18ID:ETC:Bd5 1
-18ID:ETC:Bd6 1
-18ID:ETC:Bd7 1
-18ID:ETC:Bd8 1
-18ID:ETC:Ti1Scale 0
-18ID:ETC:Ti1TCType 2
-18ID:ETC:Ti1OpenTCDetect 1
-18ID:ETC:Ti1Filter 0
-18ID:ETC:Ti1.LOPR 0
-18ID:ETC:Ti1.HOPR 0
-18ID:ETC:Ti1.PREC 2
-18ID:ETC:Ti1.SCAN 9
-18ID:ETC:Ti2Scale 0
-18ID:ETC:Ti2TCType 0
-18ID:ETC:Ti2OpenTCDetect 1
-18ID:ETC:Ti2Filter 0
-18ID:ETC:Ti2.LOPR 0
-18ID:ETC:Ti2.HOPR 0
-18ID:ETC:Ti2.PREC 2
-18ID:ETC:Ti2.SCAN 6
-18ID:ETC:Ti3Scale 0
-18ID:ETC:Ti3TCType 0
-18ID:ETC:Ti3OpenTCDetect 1
-18ID:ETC:Ti3Filter 0
-18ID:ETC:Ti3.LOPR 0
-18ID:ETC:Ti3.HOPR 0
-18ID:ETC:Ti3.PREC 2
-18ID:ETC:Ti3.SCAN 6
-18ID:ETC:Ti4Scale 0
-18ID:ETC:Ti4TCType 0
-18ID:ETC:Ti4OpenTCDetect 1
-18ID:ETC:Ti4Filter 0
-18ID:ETC:Ti4.LOPR 0
-18ID:ETC:Ti4.HOPR 0
-18ID:ETC:Ti4.PREC 2
-18ID:ETC:Ti4.SCAN 6
-18ID:ETC:Ti5Scale 0
-18ID:ETC:Ti5TCType 0
-18ID:ETC:Ti5OpenTCDetect 1
-18ID:ETC:Ti5Filter 0
-18ID:ETC:Ti5.LOPR 0
-18ID:ETC:Ti5.HOPR 0
-18ID:ETC:Ti5.PREC 2
-18ID:ETC:Ti5.SCAN 6
-18ID:ETC:Ti6Scale 0
-18ID:ETC:Ti6TCType 0
-18ID:ETC:Ti6OpenTCDetect 1
-18ID:ETC:Ti6Filter 0
-18ID:ETC:Ti6.LOPR 0
-18ID:ETC:Ti6.HOPR 0
-18ID:ETC:Ti6.PREC 2
-18ID:ETC:Ti6.SCAN 6
-18ID:ETC:Ti7Scale 0
-18ID:ETC:Ti7TCType 0
-18ID:ETC:Ti7OpenTCDetect 1
-18ID:ETC:Ti7Filter 0
-18ID:ETC:Ti7.LOPR 0
-18ID:ETC:Ti7.HOPR 0
-18ID:ETC:Ti7.PREC 2
-18ID:ETC:Ti7.SCAN 6
-18ID:ETC:Ti8Scale 0
-18ID:ETC:Ti8TCType 0
-18ID:ETC:Ti8OpenTCDetect 1
-18ID:ETC:Ti8Filter 0
-18ID:ETC:Ti8.LOPR 0
-18ID:ETC:Ti8.HOPR 0
-18ID:ETC:Ti8.PREC 2
-18ID:ETC:Ti8.SCAN 6
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 241031-103635
+! 72 channel(s) not connected - or not all gets were successful
+#18ID:ETC:Bd1 Search Issued
+#18ID:ETC:Bd2 Search Issued
+#18ID:ETC:Bd3 Search Issued
+#18ID:ETC:Bd4 Search Issued
+#18ID:ETC:Bd5 Search Issued
+#18ID:ETC:Bd6 Search Issued
+#18ID:ETC:Bd7 Search Issued
+#18ID:ETC:Bd8 Search Issued
+#18ID:ETC:Ti1Scale Search Issued
+#18ID:ETC:Ti1TCType Search Issued
+#18ID:ETC:Ti1OpenTCDetect Search Issued
+#18ID:ETC:Ti1Filter Search Issued
+#18ID:ETC:Ti1.LOPR Search Issued
+#18ID:ETC:Ti1.HOPR Search Issued
+#18ID:ETC:Ti1.PREC Search Issued
+#18ID:ETC:Ti1.SCAN Search Issued
+#18ID:ETC:Ti2Scale Search Issued
+#18ID:ETC:Ti2TCType Search Issued
+#18ID:ETC:Ti2OpenTCDetect Search Issued
+#18ID:ETC:Ti2Filter Search Issued
+#18ID:ETC:Ti2.LOPR Search Issued
+#18ID:ETC:Ti2.HOPR Search Issued
+#18ID:ETC:Ti2.PREC Search Issued
+#18ID:ETC:Ti2.SCAN Search Issued
+#18ID:ETC:Ti3Scale Search Issued
+#18ID:ETC:Ti3TCType Search Issued
+#18ID:ETC:Ti3OpenTCDetect Search Issued
+#18ID:ETC:Ti3Filter Search Issued
+#18ID:ETC:Ti3.LOPR Search Issued
+#18ID:ETC:Ti3.HOPR Search Issued
+#18ID:ETC:Ti3.PREC Search Issued
+#18ID:ETC:Ti3.SCAN Search Issued
+#18ID:ETC:Ti4Scale Search Issued
+#18ID:ETC:Ti4TCType Search Issued
+#18ID:ETC:Ti4OpenTCDetect Search Issued
+#18ID:ETC:Ti4Filter Search Issued
+#18ID:ETC:Ti4.LOPR Search Issued
+#18ID:ETC:Ti4.HOPR Search Issued
+#18ID:ETC:Ti4.PREC Search Issued
+#18ID:ETC:Ti4.SCAN Search Issued
+#18ID:ETC:Ti5Scale Search Issued
+#18ID:ETC:Ti5TCType Search Issued
+#18ID:ETC:Ti5OpenTCDetect Search Issued
+#18ID:ETC:Ti5Filter Search Issued
+#18ID:ETC:Ti5.LOPR Search Issued
+#18ID:ETC:Ti5.HOPR Search Issued
+#18ID:ETC:Ti5.PREC Search Issued
+#18ID:ETC:Ti5.SCAN Search Issued
+#18ID:ETC:Ti6Scale Search Issued
+#18ID:ETC:Ti6TCType Search Issued
+#18ID:ETC:Ti6OpenTCDetect Search Issued
+#18ID:ETC:Ti6Filter Search Issued
+#18ID:ETC:Ti6.LOPR Search Issued
+#18ID:ETC:Ti6.HOPR Search Issued
+#18ID:ETC:Ti6.PREC Search Issued
+#18ID:ETC:Ti6.SCAN Search Issued
+#18ID:ETC:Ti7Scale Search Issued
+#18ID:ETC:Ti7TCType Search Issued
+#18ID:ETC:Ti7OpenTCDetect Search Issued
+#18ID:ETC:Ti7Filter Search Issued
+#18ID:ETC:Ti7.LOPR Search Issued
+#18ID:ETC:Ti7.HOPR Search Issued
+#18ID:ETC:Ti7.PREC Search Issued
+#18ID:ETC:Ti7.SCAN Search Issued
+#18ID:ETC:Ti8Scale Search Issued
+#18ID:ETC:Ti8TCType Search Issued
+#18ID:ETC:Ti8OpenTCDetect Search Issued
+#18ID:ETC:Ti8Filter Search Issued
+#18ID:ETC:Ti8.LOPR Search Issued
+#18ID:ETC:Ti8.HOPR Search Issued
+#18ID:ETC:Ti8.PREC Search Issued
+#18ID:ETC:Ti8.SCAN Search Issued
 18ID:E1608:Bd1 0
 18ID:E1608:Bd2 0
 18ID:E1608:Bd3 0
@@ -80,7 +81,7 @@
 18ID:E1608:Bd7 1
 18ID:E1608:Bd8 1
 18ID:E1608:AiMode 0
-18ID:E1608:Ai1Range 0
+18ID:E1608:Ai1Range 3
 18ID:E1608:Ai1Type 0
 18ID:E1608:Ai1Rate 60
 18ID:E1608:Ai1.LOPR -10
@@ -88,8 +89,8 @@
 18ID:E1608:Ai1.EGUF 10
 18ID:E1608:Ai1.EGUL -10
 18ID:E1608:Ai1.PREC 4
-18ID:E1608:Ai1.SCAN 9
-18ID:E1608:Ai2Range 0
+18ID:E1608:Ai1.SCAN 6
+18ID:E1608:Ai2Range 3
 18ID:E1608:Ai2Type 0
 18ID:E1608:Ai2Rate 60
 18ID:E1608:Ai2.LOPR -10
@@ -97,8 +98,8 @@
 18ID:E1608:Ai2.EGUF 10
 18ID:E1608:Ai2.EGUL -10
 18ID:E1608:Ai2.PREC 4
-18ID:E1608:Ai2.SCAN 9
-18ID:E1608:Ai3Range 0
+18ID:E1608:Ai2.SCAN 6
+18ID:E1608:Ai3Range 2
 18ID:E1608:Ai3Type 0
 18ID:E1608:Ai3Rate 60
 18ID:E1608:Ai3.LOPR -5
@@ -107,7 +108,7 @@
 18ID:E1608:Ai3.EGUL -5
 18ID:E1608:Ai3.PREC 4
 18ID:E1608:Ai3.SCAN 6
-18ID:E1608:Ai4Range 0
+18ID:E1608:Ai4Range 2
 18ID:E1608:Ai4Type 0
 18ID:E1608:Ai4Rate 60
 18ID:E1608:Ai4.LOPR -5

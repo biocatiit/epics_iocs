@@ -27,10 +27,10 @@ AUTOSAVE=$(SUPPORT)autosave-R5-11
 ASYN=$(SUPPORT)asyn-R4-44-2
 BUSY=$(SUPPORT)busy-R1-7-4
 LABJACK=$(SUPPORT)LabJack-master
-
+CALC=$(SUPPORT)calc-R3-7-5
 
 # If using the sequencer, point SNCSEQ at its top directory:
-#SNCSEQ = $(MODULES)/seq-ver
+SNCSEQ=$(SUPPORT)sequencer-mirror-R2-2-9
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
 EPICS_BASE = /opt/epics/base

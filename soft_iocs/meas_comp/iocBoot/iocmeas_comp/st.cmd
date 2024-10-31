@@ -18,6 +18,12 @@ epicsEnvSet("PORT2",          "E1608_1")
 epicsEnvSet("WDIG_POINTS",   "2048")
 epicsEnvSet("UNIQUE_ID2",     "164.54.204.158")
 
+# USB-1608G
+epicsEnvSet("PREFIX3",        "18ID:USB1608G_1:")
+epicsEnvSet("PORT3",          "USB1608G_1")
+epicsEnvSet("WDIG_POINTS3",   "1048576")
+epicsEnvSet("UNIQUE_ID3",     "020A8A7E")
+
 
 # E-TC
 ## Configure port driver
@@ -31,10 +37,15 @@ MultiFunctionConfig("$(PORT)", "$(UNIQUE_ID)", 1, 1)
 
 dbLoadTemplate("$(MEASCOMP)/db/ETC.substitutions", "P=$(PREFIX),PORT=$(PORT)")
 
+
 # E-1608
 MultiFunctionConfig("$(PORT2)", "$(UNIQUE_ID2)", $(WDIG_POINTS), 1)
-
 dbLoadTemplate("$(MEASCOMP)/db/E1608.substitutions", "P=$(PREFIX2),PORT=$(PORT2),WDIG_POINTS=$(WDIG_POINTS)")
+
+
+# USB-1608G
+MultiFunctionConfig("$(PORT3)", "$(UNIQUE_ID3)", $(WDIG_POINTS), 1)
+dbLoadTemplate("$(MEASCOMP)/db/USB1608G.substitutions", "P=$(PREFIX3),PORT=$(PORT3),WDIG_POINTS=$(WDIG_POINTS3)")
 
 < save_restore.cmd
 
