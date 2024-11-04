@@ -33,8 +33,8 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=$(IOCPREFIX)")
 ##################################################################################################
 
 ### Set up slit pseudo motors
-#dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E04:,SLIT=XenocsUS_V:,mXp=25,mXn=26")
-#dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E04:,SLIT=XenocsUS_H:,mXp=28,mXn=27")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E02:,SLIT=JJ_C_V:,mXp=9,mXn=10")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E02:,SLIT=JJ_C_H:,mXp=12,mXn=11")
 
 ##################################################################################################
 
@@ -56,7 +56,7 @@ saveData_Init("saveData.req", "P=$(IOCPREFIX)")
 # < RIO01CreateMonitorSet.cmd
 
 # Slit autosave monitor sets
-#create_monitor_set("slit_settings.req",30,"P=18ID_DMC_E04:")
+create_monitor_set("slit_settings.req",30,"P=18ID_DMC_E02:")
 
 ##################################################################################################
 

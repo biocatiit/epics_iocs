@@ -1,2 +1,2 @@
-file "2slit_soft_settings.req", P=$(P), SLIT=XenocsUS_V:
-file "2slit_soft_settings.req", P=$(P), SLIT=XenocsUS_H:
+file "2slit_soft_settings.req", P=$(P), SLIT=JJ_C_V:
+file "2slit_soft_settings.req", P=$(P), SLIT=JJ_C_H:
