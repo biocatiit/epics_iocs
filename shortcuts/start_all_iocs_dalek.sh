@@ -11,4 +11,7 @@ pushd /opt/epics/epics_iocs/shortcuts
 ./start_ioc_meas_comp.sh start
 ./start_ioc_meas_comp_etc.sh start
 ./start_ioc_meas_comp_e1608.sh start
+./start_ioc_newport_d_hutch.sh start
+./start_ioc_newport_tr.sh start
+./start_ioc_newport_hexapod.sh start
 popd
