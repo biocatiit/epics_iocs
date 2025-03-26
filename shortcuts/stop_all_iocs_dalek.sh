@@ -8,6 +8,7 @@ pushd /opt/epics/epics_iocs/shortcuts
 ./start_ioc_galil_dmc_e05.sh stop
 ./start_ioc_galil_dmc_a01.sh stop
 ./start_ioc_hutch_temp_monitor.sh stop
+./start_ioc_coflow_temp_monitor.sh stop
 ./start_ioc_labjack.sh stop
 ./start_ioc_meas_comp.sh stop
 ./start_ioc_meas_comp_etc.sh stop
