@@ -1,0 +1,8 @@
+file "calc_settings.req", P=18ID:Vac:A:PS2
+file "calc_settings.req", P=18ID:Vac:A:PS3
+file "calc_settings.req", P=18ID:Vac:C:F230
+file "calc_settings.req", P=18ID:Vac:C:Mono1
+file "calc_settings.req", P=18ID:Vac:C:Mono2
+file "calc_settings.req", P=18ID:Vac:C:Mirror
+file "calc_settings.req", P=18ID:Vac:C:DS_Support
+file "calc_settings.req", P=18ID:Vac:D:DS_Support

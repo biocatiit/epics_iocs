@@ -1,0 +1,8 @@
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:A:PS2,P=18ID:USB1608G_1:Ai1")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:A:PS3,P=18ID:USB1608G_1:Ai2")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:C:F230,P=18ID:USB1608G_1:Ai3")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:C:Mono1,P=18ID:USB1608G_1:Ai4")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:C:Mono2,P=18ID:USB1608G_1:Ai5")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:C:Mirror,P=18ID:USB1608G_1:Ai6")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:C:DS_Support,P=18ID:USB1608G_1:Ai7")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:Vac:D:DS_Support,P=18ID:USB1608G_1:Ai8")

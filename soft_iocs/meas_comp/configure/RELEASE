@@ -35,7 +35,7 @@ MEASCOMP=$(SUPPORT)measComp-master
 #SNCSEQ = $(MODULES)/seq-ver
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
-EPICS_BASE = /opt/epics/base-7.0.8
+EPICS_BASE = /opt/epics/base-7.0.9
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:

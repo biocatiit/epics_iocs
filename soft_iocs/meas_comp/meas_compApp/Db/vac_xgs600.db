@@ -1,0 +1,8 @@
+record(calc,"$(O)") {
+    field(DESC, "")
+    field(SCAN,"1 second")
+    field(CALC,"10**(A-11)")
+    field(INPA,"$(P)")
+    field(PREC,3)
+    field(EGU,"Torr")
+}
