@@ -42,6 +42,7 @@ MultiFunctionConfig("$(PORT3)", "$(UNIQUE_ID3)", $(WDIG_POINTS3), $(WGEN_POINTS3
 dbLoadTemplate("$(MEASCOMP)/db/USB1608G_2AO.substitutions", "P=$(PREFIX3),PORT=$(PORT3),WDIG_POINTS=$(WDIG_POINTS3),WGEN_POINTS=$(WGEN_POINTS3)")
 
 < vacuum_subs.cmd
+< intensity_subs.cmd
 
 < save_restore.cmd
 
