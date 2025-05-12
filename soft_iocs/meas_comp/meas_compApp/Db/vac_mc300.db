@@ -2,6 +2,7 @@ record(calc,"$(O)") {
     field(DESC, "")
     field(SCAN,"1 second")
     field(CALC,"(A-FLOOR(A))*10**(FLOOR(A)-6)")
-    field(INPA,"$(I)")
-    field(PREC,8)
+    field(INPA,"$(P)")
+    field(PREC,3)
+    field(EGU,"Torr")
 }
