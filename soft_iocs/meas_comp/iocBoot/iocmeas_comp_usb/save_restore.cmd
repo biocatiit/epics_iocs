@@ -26,7 +26,9 @@ set_savefile_path(".", "autosave")
 # in the directory specified in set_savefile_path(), or, if that function
 # has not been called, from the directory current when iocInit is invoked
 set_pass0_restoreFile("auto_settings.sav")
+set_pass0_restoreFile("auto_vac_settings.sav")
 set_pass1_restoreFile("auto_settings.sav")
+set_pass1_restoreFile("auto_vac_settings.sav")
 
 # specify directories in which to to search for included request files
 # Note cdCommands defines 'startup', but envPaths does not
@@ -37,3 +39,4 @@ set_requestfile_path($(CALC),     "db")
 set_requestfile_path($(SCALER),   "db")
 set_requestfile_path($(SSCAN),    "db")
 set_requestfile_path($(MEASCOMP), "db")
+set_requestfile_path($(TOP)/meas_compApp, "Db")
