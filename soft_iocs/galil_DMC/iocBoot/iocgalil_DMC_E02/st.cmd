@@ -33,7 +33,7 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=$(IOCPREFIX)")
 ##################################################################################################
 
 ### Set up slit pseudo motors
-dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E02:,SLIT=JJ_C_V:,mXp=9,mXn=13")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E02:,SLIT=JJ_C_V:,mXp=9,mXn=10")
 dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E02:,SLIT=JJ_C_H:,mXp=12,mXn=11")
 
 ##################################################################################################
