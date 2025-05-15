@@ -49,3 +49,45 @@ iocInit()
 create_monitor_set("auto_settings.req", 10, "P=$(PREFIX), P2=$(PREFIX2), P3=$(PREFIX3)")
 
 date
+
+
+# The binary outputs sometimes start with undefined values, so set the appropriate
+dbpf 18ID:LJT4:1:Bo0 0
+dbpf 18ID:LJT4:1:Bo1 0
+dbpf 18ID:LJT4:1:Bo2 0
+dbpf 18ID:LJT4:1:Bo3 0
+dbpf 18ID:LJT4:1:Bo4 0
+dbpf 18ID:LJT4:1:Bo5 0
+dbpf 18ID:LJT4:1:Bo6 0
+dbpf 18ID:LJT4:1:Bo7 0
+dbpf 18ID:LJT4:1:Bo8 0
+dbpf 18ID:LJT4:1:Bo9 0
+dbpf 18ID:LJT4:1:Bo10 0
+dbpf 18ID:LJT4:1:Bo12 0
+dbpf 18ID:LJT4:1:Bo12 0
+dbpf 18ID:LJT4:1:Bo13 0
+dbpf 18ID:LJT4:1:Bo14 0
+dbpf 18ID:LJT4:1:Bo15 0
+dbpf 18ID:LJT4:1:Bo16 0
+dbpf 18ID:LJT4:1:Bo17 0
+dbpf 18ID:LJT4:1:Bo18 0
+
+dbpf 18ID:LJT4:2:Bo0 1
+dbpf 18ID:LJT4:2:Bo1 1
+dbpf 18ID:LJT4:2:Bo2 1
+dbpf 18ID:LJT4:2:Bo3 1
+dbpf 18ID:LJT4:2:Bo4 1
+dbpf 18ID:LJT4:2:Bo5 1
+dbpf 18ID:LJT4:2:Bo6 1
+dbpf 18ID:LJT4:2:Bo7 1
+dbpf 18ID:LJT4:2:Bo8 0
+dbpf 18ID:LJT4:2:Bo9 0
+dbpf 18ID:LJT4:2:Bo10 0
+dbpf 18ID:LJT4:2:Bo12 0
+dbpf 18ID:LJT4:2:Bo12 0
+dbpf 18ID:LJT4:2:Bo13 0
+dbpf 18ID:LJT4:2:Bo14 0
+dbpf 18ID:LJT4:2:Bo15 0
+dbpf 18ID:LJT4:2:Bo16 0
+dbpf 18ID:LJT4:2:Bo17 0
+dbpf 18ID:LJT4:2:Bo18 0

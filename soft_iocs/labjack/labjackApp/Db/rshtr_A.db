@@ -1,24 +1,25 @@
-record(seq, "$(P)rshtr:A:OPEN") {
+record(seq, "$(P1)rshtr:A:OPEN") {
   field(DESC, "A Shutter Open Sequence")
-#  field(SDIS, "FE:18:ID:FEshutter")
-#  field(DISV, "0")
-  field(SCAN, "Passive")
-  field(DOL1, "1")
-  field(LNK1, "$(P)LJT4:1:Bi$(OUT1).VAL PP")
-  field(DLY2, "1")
-  field(DOL2, "0")
-  field(LNK2, "$(P)LJT4:1:Bi$(OUT1).VAL PP")
-}
-
-record(sseq, "$(P)rshtr:A:CLOSE") {
-  field(DESC, "A Shutter Close Sequence")
-#  field(SDIS, "FE:18:ID:FEshutter")
-#  field(DISV, "1")
+  field(SDIS, "PA:18ID:STA_A_FES_OPEN_PL")
+  field(DISV, "1")
   field(SELM, "All")
   field(SCAN, "Passive")
-  field(DOL1, "1")
-  field(LNK1, "$(P)LJT4:1:Bi$(OUT2).VAL PP")
-  field(DLY2, "1")
-  field(DOL2, "0")
-  field(LNK2, "$(P)LJT4:1:Bi$(OUT2).VAL PP")
+  field(DOL0, "1")
+  field(LNK0, "$(P)$(OUT1) PP")
+  field(DLY1, "1")
+  field(DOL1, "0")
+  field(LNK1, "$(P)$(OUT1) PP")
+}
+
+record(seq, "$(P1)rshtr:A:CLOSE") {
+  field(DESC, "A Shutter Close Sequence")
+  field(SDIS, "PA:18ID:STA_A_FES_OPEN_PL")
+  field(DISV, "0")
+  field(SELM, "All")
+  field(SCAN, "Passive")
+  field(DOL0, "1")
+  field(LNK0, "$(P)$(OUT2) PP")
+  field(DLY1, "1")
+  field(DOL1, "0")
+  field(LNK1, "$(P)$(OUT2) PP")
 }
