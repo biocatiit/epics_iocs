@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export EPICS_CA_MAX_ARRAY_BYTES=41000000
+
+# ADCore
+export CAQTDM_DISPLAY_PATH=/opt/epics/synApps/support/areaDetector-master/ADCore/ADApp/op/ui/:/opt/epics/synApps/support/areaDetector-master/ADCore/ADApp/op/ui/autoconvert/:$CAQTDM_DISPLAY_PATH
+
+#ADEiger
+export CAQTDM_DISPLAY_PATH=/opt/epics/synApps/support/areaDetector-master/ADmarCCD/marCCDApp/op/ui/:/opt/epics/synApps/support/areaDetector-master/ADmarCCD/marCCDApp/op/ui/autoconvert/:$CAQTDM_DISPLAY_PATH
+
+caQtDM -macro "P=Mar165:, R=cam1:" marCCD.ui
+
