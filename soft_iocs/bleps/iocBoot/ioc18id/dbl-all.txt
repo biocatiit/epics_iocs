@@ -546,10 +546,6 @@
 18ID:SR_5_Status
 18ID:SR_6_Status
 18ID:SR_7_Status
-18ID:rshtr:A:OPEN
-18ID:rshtr:A:CLOSE
-18ID:rshtr:D:OPEN
-18ID:rshtr:D:CLOSE
 18ID:SR_recentlyStr
 18ID:SR_rebootStatusStr
 18ID:SR_rebootTime

@@ -11,7 +11,7 @@
 epicsEnvSet("PORT", "18ID_DMC_A01")
 
 # Controller address (IP address, serial port)
-epicsEnvSet("ADDRESS", "10.10.10.3")
+epicsEnvSet("ADDRESS", "10.10.10.2")
 
 # Controller update period Unit = millisecond
 # Range 2-200
