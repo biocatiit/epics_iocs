@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250515-153351
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250516-093153
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -57,7 +57,7 @@
 18ID:EIG2:cam1:StreamDecompress 1
 18ID:EIG2:cam1:ROIMode 0
 18ID:EIG2:cam1:CompressionAlgo 1
-18ID:EIG2:cam1:FlatfieldApplied 0
+18ID:EIG2:cam1:FlatfieldApplied 1
 18ID:EIG2:cam1:CountrateCorrApplied 1
 18ID:EIG2:cam1:PixelMaskApplied 1
 18ID:EIG2:cam1:AutoSummation 1

@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250515-171119
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250516-093042
 Mar165:cam1:BinX 2
 Mar165:cam1:BinY 2
 Mar165:cam1:MinX 0
@@ -8,7 +8,7 @@ Mar165:cam1:SizeY 1
 Mar165:cam1:ReverseX 0
 Mar165:cam1:ReverseY 0
 Mar165:cam1:AcquireTime 1
-Mar165:cam1:AcquirePeriod 3
+Mar165:cam1:AcquirePeriod 0
 Mar165:cam1:Gain 1
 Mar165:cam1:FrameType 0
 Mar165:cam1:ImageMode 0
@@ -37,7 +37,7 @@ Mar165:cam1:NumPreAllocBuffers 100
 Mar165:cam1:WaitForPlugins 0
 Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "109" "97" "114" "47" "50" "48" "50" "53" "95" "82" "117" "110" "49" "47" "115" "101" "116" "117" "112" "0" }
 Mar165:cam1:FileName @array@ { "116" "101" "115" "116" "101" "114" "0" }
-Mar165:cam1:FileNumber 5
+Mar165:cam1:FileNumber 7
 Mar165:cam1:AutoIncrement 1
 Mar165:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "53" "46" "53" "100" "46" "116" "105" "102" "0" }
 Mar165:cam1:AutoSave 1
@@ -49,7 +49,7 @@ Mar165:cam1:CreateDirectory 0
 Mar165:cam1:LazyOpen 0
 Mar165:cam1:TempSuffix 
 Mar165:cam1:ReadTiffTimeout 20
-Mar165:cam1:OverlapMode 0
+Mar165:cam1:OverlapMode 1
 Mar165:cam1:AutoSave 1
 Mar165:cam1:FrameShift 0
 Mar165:cam1:Stability 0
@@ -60,7 +60,7 @@ Mar165:cam1:StartPhi 0
 Mar165:cam1:RotationAxis 
 Mar165:cam1:RotationRange 0
 Mar165:cam1:TwoTheta 0
-Mar165:cam1:Wavelength 0
+Mar165:cam1:Wavelength 1.0332
 Mar165:cam1:FileComments 0
 Mar165:cam1:DatasetComments 0
 Mar165:cam1:GateMode 0
