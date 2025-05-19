@@ -13,10 +13,10 @@ epicsEnvSet("XSIZE",  "1030")
 epicsEnvSet("YSIZE",  "1065")
 epicsEnvSet("NCHANS", "2048")
 epicsEnvSet("CBUFFS", "500")
-# This is an Eiger2 500K
-epicsEnvSet("EIGERIP", "164.54.204.141")
+# This is an Eiger2 XE 9M
+epicsEnvSet("EIGERIP", "164.54.204.140")
 epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(ADCORE)/db:$(ADEIGER)/db")
-epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", "5000000")
+epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", "41000000")
 
 eigerDetectorConfig("$(PORT)", "$(EIGERIP)", 0, 0)
 dbLoadRecords("$(ADEIGER)/db/eiger2.template", "P=$(PREFIX),R=cam1:,PORT=$(PORT),ADDR=0,TIMEOUT=1")

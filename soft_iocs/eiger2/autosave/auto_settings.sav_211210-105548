@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 211202-151518
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 211210-105005
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -7,14 +7,14 @@
 18ID:EIG2:cam1:SizeY 1
 18ID:EIG2:cam1:ReverseX 0
 18ID:EIG2:cam1:ReverseY 0
-18ID:EIG2:cam1:AcquireTime 2
-18ID:EIG2:cam1:AcquirePeriod 1.0000001
+18ID:EIG2:cam1:AcquireTime 1
+18ID:EIG2:cam1:AcquirePeriod 2
 18ID:EIG2:cam1:Gain 1
 18ID:EIG2:cam1:FrameType 0
 18ID:EIG2:cam1:ImageMode 1
 18ID:EIG2:cam1:TriggerMode 0
 18ID:EIG2:cam1:NumExposures 1
-18ID:EIG2:cam1:NumImages 5
+18ID:EIG2:cam1:NumImages 2
 18ID:EIG2:cam1:ShutterMode 0
 18ID:EIG2:cam1:ShutterOpenDelay 0
 18ID:EIG2:cam1:ShutterCloseDelay 0
@@ -52,7 +52,7 @@
 18ID:EIG2:cam1:NumTriggers 1
 18ID:EIG2:cam1:ManualTrigger 0
 18ID:EIG2:cam1:TriggerExposure 0
-18ID:EIG2:cam1:DataSource 2
+18ID:EIG2:cam1:DataSource 0
 18ID:EIG2:cam1:StreamDecompress 1
 18ID:EIG2:cam1:ROIMode 0
 18ID:EIG2:cam1:CompressionAlgo 1
@@ -69,7 +69,7 @@
 18ID:EIG2:cam1:FileOwner 
 18ID:EIG2:cam1:FileOwnerGrp 
 18ID:EIG2:cam1:FilePerms 420
-18ID:EIG2:cam1:StreamEnable 1
+18ID:EIG2:cam1:StreamEnable 0
 18ID:EIG2:cam1:StreamHdrDetail 1
 18ID:EIG2:cam1:StreamHdrAppendix 0
 18ID:EIG2:cam1:StreamImgAppendix 0
