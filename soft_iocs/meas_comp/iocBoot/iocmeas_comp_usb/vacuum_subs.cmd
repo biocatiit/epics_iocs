@@ -6,6 +6,7 @@ dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:VAC:C:Mono2,P=18ID:
 dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:VAC:C:Mirror,P=18ID:USB1608G_1:Ai6")
 dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:VAC:C:DS_Support,P=18ID:USB1608G_1:Ai7")
 dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:VAC:D:DS_Support,P=18ID:USB1608G_1:Ai8")
+dbLoadRecords("$(TOP)/meas_compApp/Db/vac_xgs600.db","O=18ID:VAC:C:PS4,P=18ID:USB1608G_2AO_1:Ai3")
 dbLoadRecords("$(TOP)/meas_compApp/Db/vac_mc300.db","O=18ID:VAC:D:Cols,P=18ID:USB1608G_2:Ai1")
 dbLoadRecords("$(TOP)/meas_compApp/Db/vac_mc300.db","O=18ID:VAC:D:Guards,P=18ID:USB1608G_2:Ai2")
 dbLoadRecords("$(TOP)/meas_compApp/Db/vac_mc300.db","O=18ID:VAC:D:ScatterChamber,P=18ID:USB1608G_2:Ai3")
