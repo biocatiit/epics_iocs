@@ -85,8 +85,8 @@ if __name__ == '__main__':
 
     # Define as prefix, url
     sensor_defs = [
-        ['18ID:EnvMon:HPLCInc', "http://164.54.204.194/status.json"],
-        ['18ID:EnvMon:CoflowInc', "http://164.54.204.195/status.json"],
+        ['18ID:EnvMon:HPLCInc', "http://164.54.204.195/status.json"],
+        ['18ID:EnvMon:CoflowInc', "http://164.54.204.194/status.json"],
         ]
 
     for sensor_def in sensor_defs:

@@ -14,13 +14,8 @@ ioc18idLinux_registerRecordDeviceDriver(pdbbase)
 
 < common.iocsh
 
-#< iocsh/motors.iocsh
-
 ###   Beamline EPS Support   ###
 < bleps.cmd
-
-### Remote shutter sequences ###
-< rshtr.cmd
 
 # devIocStats
 #dbLoadRecords("$(DEVIOCSTATS)/db/iocAdminSoft.db","IOC=18id")

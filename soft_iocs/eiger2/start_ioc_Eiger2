@@ -1,0 +1,10 @@
+#!/bin/bash
+
+pushd /opt/epics/epics_iocs/soft_iocs/eiger2
+
+export EPICS_CA_MAX_ARRAY_BYTES=41000000
+
+/opt/epics/synApps/support/areaDetector-master/ADEiger/iocs/eigerIOC/bin/${EPICS_HOST_ARCH}/eigerDetectorApp ./st.cmd
+
+popd
+
