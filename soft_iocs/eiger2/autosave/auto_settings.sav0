@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250515-153822
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250716-160246
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -7,12 +7,12 @@
 18ID:EIG2:cam1:SizeY 1
 18ID:EIG2:cam1:ReverseX 0
 18ID:EIG2:cam1:ReverseY 0
-18ID:EIG2:cam1:AcquireTime 0.045
-18ID:EIG2:cam1:AcquirePeriod 0.05
+18ID:EIG2:cam1:AcquireTime 0.99
+18ID:EIG2:cam1:AcquirePeriod 1
 18ID:EIG2:cam1:Gain 1
 18ID:EIG2:cam1:FrameType 0
 18ID:EIG2:cam1:ImageMode 1
-18ID:EIG2:cam1:TriggerMode 0
+18ID:EIG2:cam1:TriggerMode 3
 18ID:EIG2:cam1:NumExposures 1
 18ID:EIG2:cam1:NumImages 1
 18ID:EIG2:cam1:ShutterMode 0
@@ -35,7 +35,7 @@
 18ID:EIG2:cam1:PoolPollStats.SCAN 6
 18ID:EIG2:cam1:NumPreAllocBuffers 100
 18ID:EIG2:cam1:WaitForPlugins 0
-18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "53" "95" "82" "117" "110" "49" "47" "50" "48" "50" "53" "95" "48" "52" "95" "50" "51" "95" "72" "111" "112" "107" "105" "110" "115" "47" "100" "97" "109" "97" "103" "101" "95" "108" "121" "115" "95" "98" "117" "102" "102" "0" }
+18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "53" "95" "82" "117" "110" "50" "47" "50" "48" "50" "53" "95" "48" "55" "95" "49" "54" "95" "77" "97" "101" "104" "105" "103" "97" "115" "104" "105" "47" "84" "77" "48" "52" "47" "105" "109" "97" "103" "101" "115" "0" }
 18ID:EIG2:cam1:FileName 0
 18ID:EIG2:cam1:FileNumber 0
 18ID:EIG2:cam1:AutoIncrement 0
@@ -50,9 +50,9 @@
 18ID:EIG2:cam1:TempSuffix 
 18ID:EIG2:cam1:PhotonEnergy 12000
 18ID:EIG2:cam1:ThresholdEnergy 6000
-18ID:EIG2:cam1:NumTriggers 1
+18ID:EIG2:cam1:NumTriggers 2376
 18ID:EIG2:cam1:ManualTrigger 0
-18ID:EIG2:cam1:TriggerExposure 0.1
+18ID:EIG2:cam1:TriggerExposure 0.5
 18ID:EIG2:cam1:DataSource 1
 18ID:EIG2:cam1:StreamDecompress 1
 18ID:EIG2:cam1:ROIMode 0
@@ -63,8 +63,8 @@
 18ID:EIG2:cam1:AutoSummation 1
 18ID:EIG2:cam1:FWEnable 1
 18ID:EIG2:cam1:FWCompression 1
-18ID:EIG2:cam1:FWNamePattern @array@ { "100" "108" "98" "48" "52" "95" "48" "50" "50" "0" }
-18ID:EIG2:cam1:FWNImagesPerFile 1
+18ID:EIG2:cam1:FWNamePattern @array@ { "84" "77" "48" "52" "95" "48" "48" "52" "0" }
+18ID:EIG2:cam1:FWNImagesPerFile 300
 18ID:EIG2:cam1:FWAutoRemove 1
 18ID:EIG2:cam1:SaveFiles 1
 18ID:EIG2:cam1:FileOwner 
