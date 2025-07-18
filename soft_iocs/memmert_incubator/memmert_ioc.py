@@ -60,8 +60,8 @@ if __name__ == '__main__':
 
     # Define as prefix, url
     sensor_defs = [
-        ['18ID:Memmert:SEC_SAXS', "http://164.54.204.116/atmoweb?"],
-        ['18ID:Memmert:Coflow', "http://164.54.204.117/atmoweb?"],
+        ['18ID:Memmert:HPLCInc', "http://164.54.204.116/atmoweb?"],
+        ['18ID:Memmert:CoflowInc', "http://164.54.204.117/atmoweb?"],
         ]
 
     for sensor_def in sensor_defs:
