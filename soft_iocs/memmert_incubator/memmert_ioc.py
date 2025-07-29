@@ -45,7 +45,7 @@ class MemmertIncubator:
         cur_temp, setpoint, set_range, min_setpoint, max_setpoint = self.read()
 
         self.temp_pv.set(cur_temp)
-        self.setpoint_pv.set(setpoint)
+        self.setpoint_pv.set()
         self.timestamp_pv.set(time.ctime())
 
     def set_temperature(self, value):
