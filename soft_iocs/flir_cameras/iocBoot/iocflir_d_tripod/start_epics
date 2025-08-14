@@ -1,0 +1,3 @@
+medm -x -macro "P=13SP1:, R=cam1:" ADSpinnaker.adl &
+../../bin/linux-x86_64/spinnakerApp st.cmd.bflys_usb3
+
