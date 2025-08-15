@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250814-151414
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-095307
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Tripod:cam1:BinX 1
 18ID:FLIR:D:Tripod:cam1:BinY 1
@@ -31,8 +31,8 @@
 18ID:FLIR:D:Tripod:cam1:DataType 1
 18ID:FLIR:D:Tripod:cam1:ColorMode 0
 18ID:FLIR:D:Tripod:cam1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:cam1:NDAttributesFile 
-18ID:FLIR:D:Tripod:cam1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:cam1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:cam1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:cam1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:cam1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:cam1:WaitForPlugins 0
@@ -75,16 +75,16 @@
 18ID:FLIR:D:Tripod:image1:DataType 0
 18ID:FLIR:D:Tripod:image1:ColorMode 0
 18ID:FLIR:D:Tripod:image1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:image1:NDAttributesFile 
-18ID:FLIR:D:Tripod:image1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:image1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:image1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:image1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:image1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:image1:WaitForPlugins 0
-18ID:FLIR:D:Tripod:netCDF1:FilePath 
-18ID:FLIR:D:Tripod:netCDF1:FileName 
+18ID:FLIR:D:Tripod:netCDF1:FilePath 0
+18ID:FLIR:D:Tripod:netCDF1:FileName 0
 18ID:FLIR:D:Tripod:netCDF1:FileNumber 0
 18ID:FLIR:D:Tripod:netCDF1:AutoIncrement 0
-18ID:FLIR:D:Tripod:netCDF1:FileTemplate 
+18ID:FLIR:D:Tripod:netCDF1:FileTemplate 0
 18ID:FLIR:D:Tripod:netCDF1:AutoSave 0
 18ID:FLIR:D:Tripod:netCDF1:FileFormat 0
 18ID:FLIR:D:Tripod:netCDF1:FileWriteMode 0
@@ -107,16 +107,16 @@
 18ID:FLIR:D:Tripod:netCDF1:DataType 0
 18ID:FLIR:D:Tripod:netCDF1:ColorMode 0
 18ID:FLIR:D:Tripod:netCDF1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:netCDF1:NDAttributesFile 
-18ID:FLIR:D:Tripod:netCDF1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:netCDF1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:netCDF1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:netCDF1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:netCDF1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:netCDF1:WaitForPlugins 0
-18ID:FLIR:D:Tripod:TIFF1:FilePath 
-18ID:FLIR:D:Tripod:TIFF1:FileName 
+18ID:FLIR:D:Tripod:TIFF1:FilePath 0
+18ID:FLIR:D:Tripod:TIFF1:FileName 0
 18ID:FLIR:D:Tripod:TIFF1:FileNumber 0
 18ID:FLIR:D:Tripod:TIFF1:AutoIncrement 0
-18ID:FLIR:D:Tripod:TIFF1:FileTemplate 
+18ID:FLIR:D:Tripod:TIFF1:FileTemplate 0
 18ID:FLIR:D:Tripod:TIFF1:AutoSave 0
 18ID:FLIR:D:Tripod:TIFF1:FileFormat 0
 18ID:FLIR:D:Tripod:TIFF1:FileWriteMode 0
@@ -139,17 +139,17 @@
 18ID:FLIR:D:Tripod:TIFF1:DataType 0
 18ID:FLIR:D:Tripod:TIFF1:ColorMode 0
 18ID:FLIR:D:Tripod:TIFF1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:TIFF1:NDAttributesFile 
-18ID:FLIR:D:Tripod:TIFF1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:TIFF1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:TIFF1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:TIFF1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:TIFF1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:TIFF1:WaitForPlugins 0
 18ID:FLIR:D:Tripod:JPEG1:JPEGQuality 50
-18ID:FLIR:D:Tripod:JPEG1:FilePath 
-18ID:FLIR:D:Tripod:JPEG1:FileName 
+18ID:FLIR:D:Tripod:JPEG1:FilePath 0
+18ID:FLIR:D:Tripod:JPEG1:FileName 0
 18ID:FLIR:D:Tripod:JPEG1:FileNumber 0
 18ID:FLIR:D:Tripod:JPEG1:AutoIncrement 0
-18ID:FLIR:D:Tripod:JPEG1:FileTemplate 
+18ID:FLIR:D:Tripod:JPEG1:FileTemplate 0
 18ID:FLIR:D:Tripod:JPEG1:AutoSave 0
 18ID:FLIR:D:Tripod:JPEG1:FileFormat 0
 18ID:FLIR:D:Tripod:JPEG1:FileWriteMode 0
@@ -172,18 +172,18 @@
 18ID:FLIR:D:Tripod:JPEG1:DataType 0
 18ID:FLIR:D:Tripod:JPEG1:ColorMode 0
 18ID:FLIR:D:Tripod:JPEG1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:JPEG1:NDAttributesFile 
-18ID:FLIR:D:Tripod:JPEG1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:JPEG1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:JPEG1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:JPEG1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:JPEG1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:JPEG1:WaitForPlugins 0
-18ID:FLIR:D:Tripod:Nexus1:TemplateFilePath 
-18ID:FLIR:D:Tripod:Nexus1:TemplateFileName 
-18ID:FLIR:D:Tripod:Nexus1:FilePath 
-18ID:FLIR:D:Tripod:Nexus1:FileName 
+18ID:FLIR:D:Tripod:Nexus1:TemplateFilePath 0
+18ID:FLIR:D:Tripod:Nexus1:TemplateFileName 0
+18ID:FLIR:D:Tripod:Nexus1:FilePath 0
+18ID:FLIR:D:Tripod:Nexus1:FileName 0
 18ID:FLIR:D:Tripod:Nexus1:FileNumber 0
 18ID:FLIR:D:Tripod:Nexus1:AutoIncrement 0
-18ID:FLIR:D:Tripod:Nexus1:FileTemplate 
+18ID:FLIR:D:Tripod:Nexus1:FileTemplate 0
 18ID:FLIR:D:Tripod:Nexus1:AutoSave 0
 18ID:FLIR:D:Tripod:Nexus1:FileFormat 0
 18ID:FLIR:D:Tripod:Nexus1:FileWriteMode 0
@@ -206,8 +206,8 @@
 18ID:FLIR:D:Tripod:Nexus1:DataType 0
 18ID:FLIR:D:Tripod:Nexus1:ColorMode 0
 18ID:FLIR:D:Tripod:Nexus1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:Nexus1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Nexus1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Nexus1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Nexus1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Nexus1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Nexus1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Nexus1:WaitForPlugins 0
@@ -241,13 +241,13 @@
 18ID:FLIR:D:Tripod:HDF1:ExtraDimSizeN 1
 18ID:FLIR:D:Tripod:HDF1:ExtraDimSizeX 1
 18ID:FLIR:D:Tripod:HDF1:ExtraDimSizeY 1
-18ID:FLIR:D:Tripod:HDF1:XMLFileName 
+18ID:FLIR:D:Tripod:HDF1:XMLFileName 0
 18ID:FLIR:D:Tripod:HDF1:SWMRMode 0
-18ID:FLIR:D:Tripod:HDF1:FilePath 
-18ID:FLIR:D:Tripod:HDF1:FileName 
+18ID:FLIR:D:Tripod:HDF1:FilePath 0
+18ID:FLIR:D:Tripod:HDF1:FileName 0
 18ID:FLIR:D:Tripod:HDF1:FileNumber 0
 18ID:FLIR:D:Tripod:HDF1:AutoIncrement 0
-18ID:FLIR:D:Tripod:HDF1:FileTemplate 
+18ID:FLIR:D:Tripod:HDF1:FileTemplate 0
 18ID:FLIR:D:Tripod:HDF1:AutoSave 0
 18ID:FLIR:D:Tripod:HDF1:FileFormat 0
 18ID:FLIR:D:Tripod:HDF1:FileWriteMode 0
@@ -270,8 +270,8 @@
 18ID:FLIR:D:Tripod:HDF1:DataType 0
 18ID:FLIR:D:Tripod:HDF1:ColorMode 0
 18ID:FLIR:D:Tripod:HDF1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:HDF1:NDAttributesFile 
-18ID:FLIR:D:Tripod:HDF1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:HDF1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:HDF1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:HDF1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:HDF1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:HDF1:WaitForPlugins 0
@@ -312,8 +312,8 @@
 18ID:FLIR:D:Tripod:ROI1:DataType 0
 18ID:FLIR:D:Tripod:ROI1:ColorMode 0
 18ID:FLIR:D:Tripod:ROI1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:ROI1:NDAttributesFile 
-18ID:FLIR:D:Tripod:ROI1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:ROI1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:ROI1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:ROI1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:ROI1:WaitForPlugins 0
@@ -354,8 +354,8 @@
 18ID:FLIR:D:Tripod:ROI2:DataType 0
 18ID:FLIR:D:Tripod:ROI2:ColorMode 0
 18ID:FLIR:D:Tripod:ROI2:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:ROI2:NDAttributesFile 
-18ID:FLIR:D:Tripod:ROI2:NDAttributesMacros 
+18ID:FLIR:D:Tripod:ROI2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI2:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:ROI2:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:ROI2:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:ROI2:WaitForPlugins 0
@@ -396,8 +396,8 @@
 18ID:FLIR:D:Tripod:ROI3:DataType 0
 18ID:FLIR:D:Tripod:ROI3:ColorMode 0
 18ID:FLIR:D:Tripod:ROI3:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:ROI3:NDAttributesFile 
-18ID:FLIR:D:Tripod:ROI3:NDAttributesMacros 
+18ID:FLIR:D:Tripod:ROI3:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI3:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:ROI3:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:ROI3:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:ROI3:WaitForPlugins 0
@@ -438,8 +438,8 @@
 18ID:FLIR:D:Tripod:ROI4:DataType 0
 18ID:FLIR:D:Tripod:ROI4:ColorMode 0
 18ID:FLIR:D:Tripod:ROI4:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:ROI4:NDAttributesFile 
-18ID:FLIR:D:Tripod:ROI4:NDAttributesMacros 
+18ID:FLIR:D:Tripod:ROI4:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI4:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:ROI4:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:ROI4:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:ROI4:WaitForPlugins 0
@@ -490,16 +490,16 @@
 18ID:FLIR:D:Tripod:Proc1:DataType 0
 18ID:FLIR:D:Tripod:Proc1:ColorMode 0
 18ID:FLIR:D:Tripod:Proc1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Proc1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Proc1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Proc1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Proc1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Proc1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Proc1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Proc1:WaitForPlugins 0
-18ID:FLIR:D:Tripod:Proc1:TIFF:FilePath 
-18ID:FLIR:D:Tripod:Proc1:TIFF:FileName 
+18ID:FLIR:D:Tripod:Proc1:TIFF:FilePath 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileName 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:FileNumber 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:AutoIncrement 0
-18ID:FLIR:D:Tripod:Proc1:TIFF:FileTemplate 
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileTemplate 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:AutoSave 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:FileFormat 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:FileWriteMode 0
@@ -522,8 +522,8 @@
 18ID:FLIR:D:Tripod:Proc1:TIFF:DataType 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:ColorMode 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:Proc1:TIFF:NDAttributesFile 
-18ID:FLIR:D:Tripod:Proc1:TIFF:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Proc1:TIFF:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Proc1:TIFF:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Proc1:TIFF:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Proc1:TIFF:WaitForPlugins 0
@@ -541,8 +541,8 @@
 18ID:FLIR:D:Tripod:Scatter1:DataType 0
 18ID:FLIR:D:Tripod:Scatter1:ColorMode 0
 18ID:FLIR:D:Tripod:Scatter1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Scatter1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Scatter1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Scatter1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Scatter1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Scatter1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Scatter1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Scatter1:WaitForPlugins 0
@@ -560,8 +560,8 @@
 18ID:FLIR:D:Tripod:Gather1:DataType 0
 18ID:FLIR:D:Tripod:Gather1:ColorMode 0
 18ID:FLIR:D:Tripod:Gather1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Gather1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Gather1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Gather1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Gather1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Gather1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Gather1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Gather1:WaitForPlugins 0
@@ -611,8 +611,8 @@
 18ID:FLIR:D:Tripod:Stats1:TS:DataType 0
 18ID:FLIR:D:Tripod:Stats1:TS:ColorMode 0
 18ID:FLIR:D:Tripod:Stats1:TS:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats1:TS:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats1:TS:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats1:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats1:TS:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats1:TS:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats1:TS:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats1:TS:WaitForPlugins 0
@@ -630,8 +630,8 @@
 18ID:FLIR:D:Tripod:Stats1:DataType 0
 18ID:FLIR:D:Tripod:Stats1:ColorMode 0
 18ID:FLIR:D:Tripod:Stats1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats1:WaitForPlugins 0
@@ -642,13 +642,13 @@
 18ID:FLIR:D:Tripod:Stats1:Reset.DOL1 
 18ID:FLIR:D:Tripod:Stats1:Reset.DO1 0
 18ID:FLIR:D:Tripod:Stats1:Reset.STR1 0
-18ID:FLIR:D:Tripod:Stats1:Reset.LNK1 18ID:FLIR:D:Tripod:Stats1:MinValue PP M
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK1 18ID:FLIR:D:Tripod:Stats1:MinValue PP N
 18ID:FLIR:D:Tripod:Stats1:Reset.WAIT1 0
 18ID:FLIR:D:Tripod:Stats1:Reset.DLY2 0
 18ID:FLIR:D:Tripod:Stats1:Reset.DOL2 
 18ID:FLIR:D:Tripod:Stats1:Reset.DO2 0
 18ID:FLIR:D:Tripod:Stats1:Reset.STR2 0
-18ID:FLIR:D:Tripod:Stats1:Reset.LNK2 18ID:FLIR:D:Tripod:Stats1:MaxValue PP M
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK2 18ID:FLIR:D:Tripod:Stats1:MaxValue PP N
 18ID:FLIR:D:Tripod:Stats1:Reset.WAIT2 0
 18ID:FLIR:D:Tripod:Stats1:Reset.DLY3 0
 18ID:FLIR:D:Tripod:Stats1:Reset.DOL3 
@@ -782,7 +782,7 @@
 18ID:FLIR:D:Tripod:Stats1:Reset2.DOL2 
 18ID:FLIR:D:Tripod:Stats1:Reset2.DO2 0
 18ID:FLIR:D:Tripod:Stats1:Reset2.STR2 0
-18ID:FLIR:D:Tripod:Stats1:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats1:Orientation P
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats1:Orientation N
 18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT2 0
 18ID:FLIR:D:Tripod:Stats1:Reset2.DLY3 0
 18ID:FLIR:D:Tripod:Stats1:Reset2.DOL3 
@@ -800,7 +800,7 @@
 18ID:FLIR:D:Tripod:Stats1:Reset2.DOL5 
 18ID:FLIR:D:Tripod:Stats1:Reset2.DO5 0
 18ID:FLIR:D:Tripod:Stats1:Reset2.STR5 0
-18ID:FLIR:D:Tripod:Stats1:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats1:HistEntropy P
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats1:HistEntropy N
 18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT5 0
 18ID:FLIR:D:Tripod:Stats1:Reset2.DLY6 0
 18ID:FLIR:D:Tripod:Stats1:Reset2.DOL6 
@@ -866,8 +866,8 @@
 18ID:FLIR:D:Tripod:Stats2:TS:DataType 0
 18ID:FLIR:D:Tripod:Stats2:TS:ColorMode 0
 18ID:FLIR:D:Tripod:Stats2:TS:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats2:TS:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats2:TS:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats2:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats2:TS:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats2:TS:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats2:TS:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats2:TS:WaitForPlugins 0
@@ -885,8 +885,8 @@
 18ID:FLIR:D:Tripod:Stats2:DataType 0
 18ID:FLIR:D:Tripod:Stats2:ColorMode 0
 18ID:FLIR:D:Tripod:Stats2:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats2:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats2:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats2:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats2:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats2:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats2:WaitForPlugins 0
@@ -897,13 +897,13 @@
 18ID:FLIR:D:Tripod:Stats2:Reset.DOL1 
 18ID:FLIR:D:Tripod:Stats2:Reset.DO1 0
 18ID:FLIR:D:Tripod:Stats2:Reset.STR1 0
-18ID:FLIR:D:Tripod:Stats2:Reset.LNK1 18ID:FLIR:D:Tripod:Stats2:MinValue PP M
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK1 18ID:FLIR:D:Tripod:Stats2:MinValue PP N
 18ID:FLIR:D:Tripod:Stats2:Reset.WAIT1 0
 18ID:FLIR:D:Tripod:Stats2:Reset.DLY2 0
 18ID:FLIR:D:Tripod:Stats2:Reset.DOL2 
 18ID:FLIR:D:Tripod:Stats2:Reset.DO2 0
 18ID:FLIR:D:Tripod:Stats2:Reset.STR2 0
-18ID:FLIR:D:Tripod:Stats2:Reset.LNK2 18ID:FLIR:D:Tripod:Stats2:MaxValue PP M
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK2 18ID:FLIR:D:Tripod:Stats2:MaxValue PP N
 18ID:FLIR:D:Tripod:Stats2:Reset.WAIT2 0
 18ID:FLIR:D:Tripod:Stats2:Reset.DLY3 0
 18ID:FLIR:D:Tripod:Stats2:Reset.DOL3 
@@ -1037,7 +1037,7 @@
 18ID:FLIR:D:Tripod:Stats2:Reset2.DOL2 
 18ID:FLIR:D:Tripod:Stats2:Reset2.DO2 0
 18ID:FLIR:D:Tripod:Stats2:Reset2.STR2 0
-18ID:FLIR:D:Tripod:Stats2:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats2:Orientation P
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats2:Orientation N
 18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT2 0
 18ID:FLIR:D:Tripod:Stats2:Reset2.DLY3 0
 18ID:FLIR:D:Tripod:Stats2:Reset2.DOL3 
@@ -1055,7 +1055,7 @@
 18ID:FLIR:D:Tripod:Stats2:Reset2.DOL5 
 18ID:FLIR:D:Tripod:Stats2:Reset2.DO5 0
 18ID:FLIR:D:Tripod:Stats2:Reset2.STR5 0
-18ID:FLIR:D:Tripod:Stats2:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats2:HistEntropy P
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats2:HistEntropy N
 18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT5 0
 18ID:FLIR:D:Tripod:Stats2:Reset2.DLY6 0
 18ID:FLIR:D:Tripod:Stats2:Reset2.DOL6 
@@ -1121,8 +1121,8 @@
 18ID:FLIR:D:Tripod:Stats3:TS:DataType 0
 18ID:FLIR:D:Tripod:Stats3:TS:ColorMode 0
 18ID:FLIR:D:Tripod:Stats3:TS:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats3:TS:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats3:TS:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats3:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats3:TS:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats3:TS:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats3:TS:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats3:TS:WaitForPlugins 0
@@ -1140,8 +1140,8 @@
 18ID:FLIR:D:Tripod:Stats3:DataType 0
 18ID:FLIR:D:Tripod:Stats3:ColorMode 0
 18ID:FLIR:D:Tripod:Stats3:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats3:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats3:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats3:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats3:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats3:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats3:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats3:WaitForPlugins 0
@@ -1152,13 +1152,13 @@
 18ID:FLIR:D:Tripod:Stats3:Reset.DOL1 
 18ID:FLIR:D:Tripod:Stats3:Reset.DO1 0
 18ID:FLIR:D:Tripod:Stats3:Reset.STR1 0
-18ID:FLIR:D:Tripod:Stats3:Reset.LNK1 18ID:FLIR:D:Tripod:Stats3:MinValue PP M
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK1 18ID:FLIR:D:Tripod:Stats3:MinValue PP N
 18ID:FLIR:D:Tripod:Stats3:Reset.WAIT1 0
 18ID:FLIR:D:Tripod:Stats3:Reset.DLY2 0
 18ID:FLIR:D:Tripod:Stats3:Reset.DOL2 
 18ID:FLIR:D:Tripod:Stats3:Reset.DO2 0
 18ID:FLIR:D:Tripod:Stats3:Reset.STR2 0
-18ID:FLIR:D:Tripod:Stats3:Reset.LNK2 18ID:FLIR:D:Tripod:Stats3:MaxValue PP M
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK2 18ID:FLIR:D:Tripod:Stats3:MaxValue PP N
 18ID:FLIR:D:Tripod:Stats3:Reset.WAIT2 0
 18ID:FLIR:D:Tripod:Stats3:Reset.DLY3 0
 18ID:FLIR:D:Tripod:Stats3:Reset.DOL3 
@@ -1292,7 +1292,7 @@
 18ID:FLIR:D:Tripod:Stats3:Reset2.DOL2 
 18ID:FLIR:D:Tripod:Stats3:Reset2.DO2 0
 18ID:FLIR:D:Tripod:Stats3:Reset2.STR2 0
-18ID:FLIR:D:Tripod:Stats3:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats3:Orientation P
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats3:Orientation N
 18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT2 0
 18ID:FLIR:D:Tripod:Stats3:Reset2.DLY3 0
 18ID:FLIR:D:Tripod:Stats3:Reset2.DOL3 
@@ -1310,7 +1310,7 @@
 18ID:FLIR:D:Tripod:Stats3:Reset2.DOL5 
 18ID:FLIR:D:Tripod:Stats3:Reset2.DO5 0
 18ID:FLIR:D:Tripod:Stats3:Reset2.STR5 0
-18ID:FLIR:D:Tripod:Stats3:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats3:HistEntropy P
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats3:HistEntropy N
 18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT5 0
 18ID:FLIR:D:Tripod:Stats3:Reset2.DLY6 0
 18ID:FLIR:D:Tripod:Stats3:Reset2.DOL6 
@@ -1376,8 +1376,8 @@
 18ID:FLIR:D:Tripod:Stats4:TS:DataType 0
 18ID:FLIR:D:Tripod:Stats4:TS:ColorMode 0
 18ID:FLIR:D:Tripod:Stats4:TS:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats4:TS:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats4:TS:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats4:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats4:TS:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats4:TS:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats4:TS:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats4:TS:WaitForPlugins 0
@@ -1395,8 +1395,8 @@
 18ID:FLIR:D:Tripod:Stats4:DataType 0
 18ID:FLIR:D:Tripod:Stats4:ColorMode 0
 18ID:FLIR:D:Tripod:Stats4:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats4:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats4:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats4:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats4:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats4:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats4:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats4:WaitForPlugins 0
@@ -1407,13 +1407,13 @@
 18ID:FLIR:D:Tripod:Stats4:Reset.DOL1 
 18ID:FLIR:D:Tripod:Stats4:Reset.DO1 0
 18ID:FLIR:D:Tripod:Stats4:Reset.STR1 0
-18ID:FLIR:D:Tripod:Stats4:Reset.LNK1 18ID:FLIR:D:Tripod:Stats4:MinValue PP M
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK1 18ID:FLIR:D:Tripod:Stats4:MinValue PP N
 18ID:FLIR:D:Tripod:Stats4:Reset.WAIT1 0
 18ID:FLIR:D:Tripod:Stats4:Reset.DLY2 0
 18ID:FLIR:D:Tripod:Stats4:Reset.DOL2 
 18ID:FLIR:D:Tripod:Stats4:Reset.DO2 0
 18ID:FLIR:D:Tripod:Stats4:Reset.STR2 0
-18ID:FLIR:D:Tripod:Stats4:Reset.LNK2 18ID:FLIR:D:Tripod:Stats4:MaxValue PP M
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK2 18ID:FLIR:D:Tripod:Stats4:MaxValue PP N
 18ID:FLIR:D:Tripod:Stats4:Reset.WAIT2 0
 18ID:FLIR:D:Tripod:Stats4:Reset.DLY3 0
 18ID:FLIR:D:Tripod:Stats4:Reset.DOL3 
@@ -1547,7 +1547,7 @@
 18ID:FLIR:D:Tripod:Stats4:Reset2.DOL2 
 18ID:FLIR:D:Tripod:Stats4:Reset2.DO2 0
 18ID:FLIR:D:Tripod:Stats4:Reset2.STR2 0
-18ID:FLIR:D:Tripod:Stats4:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats4:Orientation P
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats4:Orientation N
 18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT2 0
 18ID:FLIR:D:Tripod:Stats4:Reset2.DLY3 0
 18ID:FLIR:D:Tripod:Stats4:Reset2.DOL3 
@@ -1565,7 +1565,7 @@
 18ID:FLIR:D:Tripod:Stats4:Reset2.DOL5 
 18ID:FLIR:D:Tripod:Stats4:Reset2.DO5 0
 18ID:FLIR:D:Tripod:Stats4:Reset2.STR5 0
-18ID:FLIR:D:Tripod:Stats4:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats4:HistEntropy P
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats4:HistEntropy N
 18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT5 0
 18ID:FLIR:D:Tripod:Stats4:Reset2.DLY6 0
 18ID:FLIR:D:Tripod:Stats4:Reset2.DOL6 
@@ -1631,8 +1631,8 @@
 18ID:FLIR:D:Tripod:Stats5:TS:DataType 0
 18ID:FLIR:D:Tripod:Stats5:TS:ColorMode 0
 18ID:FLIR:D:Tripod:Stats5:TS:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats5:TS:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats5:TS:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats5:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats5:TS:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats5:TS:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats5:TS:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats5:TS:WaitForPlugins 0
@@ -1650,8 +1650,8 @@
 18ID:FLIR:D:Tripod:Stats5:DataType 0
 18ID:FLIR:D:Tripod:Stats5:ColorMode 0
 18ID:FLIR:D:Tripod:Stats5:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Stats5:NDAttributesFile 
-18ID:FLIR:D:Tripod:Stats5:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Stats5:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats5:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Stats5:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Stats5:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Stats5:WaitForPlugins 0
@@ -1662,13 +1662,13 @@
 18ID:FLIR:D:Tripod:Stats5:Reset.DOL1 
 18ID:FLIR:D:Tripod:Stats5:Reset.DO1 0
 18ID:FLIR:D:Tripod:Stats5:Reset.STR1 0
-18ID:FLIR:D:Tripod:Stats5:Reset.LNK1 18ID:FLIR:D:Tripod:Stats5:MinValue PP M
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK1 18ID:FLIR:D:Tripod:Stats5:MinValue PP N
 18ID:FLIR:D:Tripod:Stats5:Reset.WAIT1 0
 18ID:FLIR:D:Tripod:Stats5:Reset.DLY2 0
 18ID:FLIR:D:Tripod:Stats5:Reset.DOL2 
 18ID:FLIR:D:Tripod:Stats5:Reset.DO2 0
 18ID:FLIR:D:Tripod:Stats5:Reset.STR2 0
-18ID:FLIR:D:Tripod:Stats5:Reset.LNK2 18ID:FLIR:D:Tripod:Stats5:MaxValue PP M
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK2 18ID:FLIR:D:Tripod:Stats5:MaxValue PP N
 18ID:FLIR:D:Tripod:Stats5:Reset.WAIT2 0
 18ID:FLIR:D:Tripod:Stats5:Reset.DLY3 0
 18ID:FLIR:D:Tripod:Stats5:Reset.DOL3 
@@ -1802,7 +1802,7 @@
 18ID:FLIR:D:Tripod:Stats5:Reset2.DOL2 
 18ID:FLIR:D:Tripod:Stats5:Reset2.DO2 0
 18ID:FLIR:D:Tripod:Stats5:Reset2.STR2 0
-18ID:FLIR:D:Tripod:Stats5:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats5:Orientation P
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats5:Orientation N
 18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT2 0
 18ID:FLIR:D:Tripod:Stats5:Reset2.DLY3 0
 18ID:FLIR:D:Tripod:Stats5:Reset2.DOL3 
@@ -1820,7 +1820,7 @@
 18ID:FLIR:D:Tripod:Stats5:Reset2.DOL5 
 18ID:FLIR:D:Tripod:Stats5:Reset2.DO5 0
 18ID:FLIR:D:Tripod:Stats5:Reset2.STR5 0
-18ID:FLIR:D:Tripod:Stats5:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats5:HistEntropy P
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats5:HistEntropy N
 18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT5 0
 18ID:FLIR:D:Tripod:Stats5:Reset2.DLY6 0
 18ID:FLIR:D:Tripod:Stats5:Reset2.DOL6 
@@ -1872,8 +1872,8 @@
 18ID:FLIR:D:Tripod:ROIStat1:DataType 0
 18ID:FLIR:D:Tripod:ROIStat1:ColorMode 0
 18ID:FLIR:D:Tripod:ROIStat1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:ROIStat1:NDAttributesFile 
-18ID:FLIR:D:Tripod:ROIStat1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:ROIStat1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROIStat1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:ROIStat1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:ROIStat1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:ROIStat1:WaitForPlugins 0
@@ -1948,8 +1948,8 @@
 18ID:FLIR:D:Tripod:Trans1:DataType 0
 18ID:FLIR:D:Tripod:Trans1:ColorMode 0
 18ID:FLIR:D:Tripod:Trans1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Trans1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Trans1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Trans1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Trans1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Trans1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Trans1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Trans1:WaitForPlugins 0
@@ -1967,21 +1967,21 @@
 18ID:FLIR:D:Tripod:Over1:DataType 0
 18ID:FLIR:D:Tripod:Over1:ColorMode 0
 18ID:FLIR:D:Tripod:Over1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Over1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Over1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Over1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Over1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Over1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Over1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Over1:WaitForPlugins 0
 18ID:FLIR:D:Tripod:Over1:1:Name ROI1
 18ID:FLIR:D:Tripod:Over1:1:Use 1
 18ID:FLIR:D:Tripod:Over1:1:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI1:MinX_RBV CP MS
-18ID:FLIR:D:Tripod:Over1:1:PositionX 575
+18ID:FLIR:D:Tripod:Over1:1:PositionX 0
 18ID:FLIR:D:Tripod:Over1:1:PositionYLink.DOL 18ID:FLIR:D:Tripod:ROI1:MinY_RBV CP MS
-18ID:FLIR:D:Tripod:Over1:1:PositionY 367
+18ID:FLIR:D:Tripod:Over1:1:PositionY 0
 18ID:FLIR:D:Tripod:Over1:1:SizeXLink.DOL 18ID:FLIR:D:Tripod:ROI1:SizeX_RBV CP MS
-18ID:FLIR:D:Tripod:Over1:1:SizeX 226
+18ID:FLIR:D:Tripod:Over1:1:SizeX 1000000
 18ID:FLIR:D:Tripod:Over1:1:SizeYLink.DOL 18ID:FLIR:D:Tripod:ROI1:SizeY_RBV CP MS
-18ID:FLIR:D:Tripod:Over1:1:SizeY 176
+18ID:FLIR:D:Tripod:Over1:1:SizeY 1000000
 18ID:FLIR:D:Tripod:Over1:1:WidthXLink.DOL CP NPP MS
 18ID:FLIR:D:Tripod:Over1:1:WidthX 2
 18ID:FLIR:D:Tripod:Over1:1:WidthYLink.DOL CP NPP MS
@@ -1993,7 +1993,7 @@
 18ID:FLIR:D:Tripod:Over1:1:Blue 255
 18ID:FLIR:D:Tripod:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:1:Font 0
-18ID:FLIR:D:Tripod:Over1:1:DisplayText 
+18ID:FLIR:D:Tripod:Over1:1:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:2:Name ROI2
 18ID:FLIR:D:Tripod:Over1:2:Use 0
 18ID:FLIR:D:Tripod:Over1:2:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI2:MinX_RBV CP MS
@@ -2015,7 +2015,7 @@
 18ID:FLIR:D:Tripod:Over1:2:Blue 1
 18ID:FLIR:D:Tripod:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:2:Font 0
-18ID:FLIR:D:Tripod:Over1:2:DisplayText 
+18ID:FLIR:D:Tripod:Over1:2:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:3:Name ROI3
 18ID:FLIR:D:Tripod:Over1:3:Use 0
 18ID:FLIR:D:Tripod:Over1:3:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI3:MinX_RBV CP MS
@@ -2037,7 +2037,7 @@
 18ID:FLIR:D:Tripod:Over1:3:Blue 1
 18ID:FLIR:D:Tripod:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:3:Font 0
-18ID:FLIR:D:Tripod:Over1:3:DisplayText 
+18ID:FLIR:D:Tripod:Over1:3:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:4:Name ROI4
 18ID:FLIR:D:Tripod:Over1:4:Use 0
 18ID:FLIR:D:Tripod:Over1:4:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI4:MinX_RBV CP MS
@@ -2059,7 +2059,7 @@
 18ID:FLIR:D:Tripod:Over1:4:Blue 1
 18ID:FLIR:D:Tripod:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:4:Font 0
-18ID:FLIR:D:Tripod:Over1:4:DisplayText 
+18ID:FLIR:D:Tripod:Over1:4:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:5:Name Cursor1
 18ID:FLIR:D:Tripod:Over1:5:Use 0
 18ID:FLIR:D:Tripod:Over1:5:PositionXLink.DOL junk CP MS
@@ -2081,7 +2081,7 @@
 18ID:FLIR:D:Tripod:Over1:5:Blue 1
 18ID:FLIR:D:Tripod:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:5:Font 0
-18ID:FLIR:D:Tripod:Over1:5:DisplayText 
+18ID:FLIR:D:Tripod:Over1:5:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:6:Name Cursor2
 18ID:FLIR:D:Tripod:Over1:6:Use 0
 18ID:FLIR:D:Tripod:Over1:6:PositionXLink.DOL junk CP MS
@@ -2103,7 +2103,7 @@
 18ID:FLIR:D:Tripod:Over1:6:Blue 1
 18ID:FLIR:D:Tripod:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:6:Font 0
-18ID:FLIR:D:Tripod:Over1:6:DisplayText 
+18ID:FLIR:D:Tripod:Over1:6:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:7:Name Box1
 18ID:FLIR:D:Tripod:Over1:7:Use 0
 18ID:FLIR:D:Tripod:Over1:7:PositionXLink.DOL junk CP MS
@@ -2125,7 +2125,7 @@
 18ID:FLIR:D:Tripod:Over1:7:Blue 1
 18ID:FLIR:D:Tripod:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:7:Font 0
-18ID:FLIR:D:Tripod:Over1:7:DisplayText 
+18ID:FLIR:D:Tripod:Over1:7:DisplayText 0
 18ID:FLIR:D:Tripod:Over1:8:Name Box2
 18ID:FLIR:D:Tripod:Over1:8:Use 0
 18ID:FLIR:D:Tripod:Over1:8:PositionXLink.DOL junk CP MS
@@ -2147,7 +2147,7 @@
 18ID:FLIR:D:Tripod:Over1:8:Blue 1
 18ID:FLIR:D:Tripod:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:8:Font 0
-18ID:FLIR:D:Tripod:Over1:8:DisplayText 
+18ID:FLIR:D:Tripod:Over1:8:DisplayText 0
 18ID:FLIR:D:Tripod:CC1:ColorModeOut 0
 18ID:FLIR:D:Tripod:CC1:NDArrayPort SP1
 18ID:FLIR:D:Tripod:CC1:NDArrayAddress 0
@@ -2163,8 +2163,8 @@
 18ID:FLIR:D:Tripod:CC1:DataType 0
 18ID:FLIR:D:Tripod:CC1:ColorMode 0
 18ID:FLIR:D:Tripod:CC1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:CC1:NDAttributesFile 
-18ID:FLIR:D:Tripod:CC1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:CC1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:CC1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:CC1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:CC1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:CC1:WaitForPlugins 0
@@ -2183,14 +2183,14 @@
 18ID:FLIR:D:Tripod:CC2:DataType 0
 18ID:FLIR:D:Tripod:CC2:ColorMode 0
 18ID:FLIR:D:Tripod:CC2:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:CC2:NDAttributesFile 
-18ID:FLIR:D:Tripod:CC2:NDAttributesMacros 
+18ID:FLIR:D:Tripod:CC2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:CC2:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:CC2:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:CC2:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:CC2:WaitForPlugins 0
 18ID:FLIR:D:Tripod:CB1:TriggerA 
 18ID:FLIR:D:Tripod:CB1:TriggerB 
-18ID:FLIR:D:Tripod:CB1:TriggerCalc 
+18ID:FLIR:D:Tripod:CB1:TriggerCalc 0
 18ID:FLIR:D:Tripod:CB1:PreCount 100
 18ID:FLIR:D:Tripod:CB1:PostCount 100
 18ID:FLIR:D:Tripod:CB1:PresetTriggerCount 1
@@ -2209,8 +2209,8 @@
 18ID:FLIR:D:Tripod:CB1:DataType 0
 18ID:FLIR:D:Tripod:CB1:ColorMode 0
 18ID:FLIR:D:Tripod:CB1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:CB1:NDAttributesFile 
-18ID:FLIR:D:Tripod:CB1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:CB1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:CB1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:CB1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:CB1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:CB1:WaitForPlugins 0
@@ -2233,8 +2233,8 @@
 18ID:FLIR:D:Tripod:Attr1:TS:DataType 0
 18ID:FLIR:D:Tripod:Attr1:TS:ColorMode 0
 18ID:FLIR:D:Tripod:Attr1:TS:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Attr1:TS:NDAttributesFile 
-18ID:FLIR:D:Tripod:Attr1:TS:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Attr1:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Attr1:TS:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Attr1:TS:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Attr1:TS:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Attr1:TS:WaitForPlugins 0
@@ -2252,19 +2252,19 @@
 18ID:FLIR:D:Tripod:Attr1:DataType 0
 18ID:FLIR:D:Tripod:Attr1:ColorMode 0
 18ID:FLIR:D:Tripod:Attr1:ArrayCallbacks 0
-18ID:FLIR:D:Tripod:Attr1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Attr1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Attr1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Attr1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Attr1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Attr1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Attr1:WaitForPlugins 0
-18ID:FLIR:D:Tripod:Attr1:1:AttrName 
-18ID:FLIR:D:Tripod:Attr1:2:AttrName 
-18ID:FLIR:D:Tripod:Attr1:3:AttrName 
-18ID:FLIR:D:Tripod:Attr1:4:AttrName 
-18ID:FLIR:D:Tripod:Attr1:5:AttrName 
-18ID:FLIR:D:Tripod:Attr1:6:AttrName 
-18ID:FLIR:D:Tripod:Attr1:7:AttrName 
-18ID:FLIR:D:Tripod:Attr1:8:AttrName 
+18ID:FLIR:D:Tripod:Attr1:1:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:2:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:3:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:4:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:5:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:6:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:7:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:8:AttrName 0
 18ID:FLIR:D:Tripod:FFT1:NDArrayPort SP1
 18ID:FLIR:D:Tripod:FFT1:NDArrayAddress 0
 18ID:FLIR:D:Tripod:FFT1:EnableCallbacks 0
@@ -2279,8 +2279,8 @@
 18ID:FLIR:D:Tripod:FFT1:DataType 0
 18ID:FLIR:D:Tripod:FFT1:ColorMode 0
 18ID:FLIR:D:Tripod:FFT1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:FFT1:NDAttributesFile 
-18ID:FLIR:D:Tripod:FFT1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:FFT1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:FFT1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:FFT1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:FFT1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:FFT1:WaitForPlugins 0
@@ -2309,8 +2309,8 @@
 18ID:FLIR:D:Tripod:Codec1:DataType 0
 18ID:FLIR:D:Tripod:Codec1:ColorMode 0
 18ID:FLIR:D:Tripod:Codec1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Codec1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Codec1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Codec1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Codec1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Codec1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Codec1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Codec1:WaitForPlugins 0
@@ -2335,12 +2335,12 @@
 18ID:FLIR:D:Tripod:Codec2:DataType 0
 18ID:FLIR:D:Tripod:Codec2:ColorMode 0
 18ID:FLIR:D:Tripod:Codec2:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Codec2:NDAttributesFile 
-18ID:FLIR:D:Tripod:Codec2:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Codec2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Codec2:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Codec2:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Codec2:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Codec2:WaitForPlugins 0
-18ID:FLIR:D:Tripod:BadPix1:FileName 
+18ID:FLIR:D:Tripod:BadPix1:FileName 0
 18ID:FLIR:D:Tripod:BadPix1:NDArrayPort SP1
 18ID:FLIR:D:Tripod:BadPix1:NDArrayAddress 0
 18ID:FLIR:D:Tripod:BadPix1:EnableCallbacks 0
@@ -2355,8 +2355,8 @@
 18ID:FLIR:D:Tripod:BadPix1:DataType 0
 18ID:FLIR:D:Tripod:BadPix1:ColorMode 0
 18ID:FLIR:D:Tripod:BadPix1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:BadPix1:NDAttributesFile 
-18ID:FLIR:D:Tripod:BadPix1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:BadPix1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:BadPix1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:BadPix1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:BadPix1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:BadPix1:WaitForPlugins 0
@@ -2374,8 +2374,8 @@
 18ID:FLIR:D:Tripod:Pva1:DataType 0
 18ID:FLIR:D:Tripod:Pva1:ColorMode 0
 18ID:FLIR:D:Tripod:Pva1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:Pva1:NDAttributesFile 
-18ID:FLIR:D:Tripod:Pva1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:Pva1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Pva1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:Pva1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:Pva1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Pva1:WaitForPlugins 0
@@ -2393,8 +2393,8 @@
 18ID:FLIR:D:Tripod:ffmstream1:DataType 0
 18ID:FLIR:D:Tripod:ffmstream1:ColorMode 0
 18ID:FLIR:D:Tripod:ffmstream1:ArrayCallbacks 1
-18ID:FLIR:D:Tripod:ffmstream1:NDAttributesFile 
-18ID:FLIR:D:Tripod:ffmstream1:NDAttributesMacros 
+18ID:FLIR:D:Tripod:ffmstream1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ffmstream1:NDAttributesMacros 0
 18ID:FLIR:D:Tripod:ffmstream1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Tripod:ffmstream1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:ffmstream1:WaitForPlugins 0

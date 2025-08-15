@@ -21,6 +21,8 @@ epicsEnvSet("CBUFFS", "500")
 epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(ADCORE)/db:$(ADGENICAM)/db:$(ADSPINNAKER)/db")
 # Define NELEMENTS to be enough for a 1920*1080*3 (color) image
 epicsEnvSet("NELEMENTS", "6220800")
+#Set EPICS_CA_MAX_ARRAY_BYTES if using standard array plugins
+epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", "7000000")
 
 # ADSpinnakerConfig(const char *portName, const char *cameraId, int numSPBuffers,
 #                   size_t maxMemory, int priority, int stackSize)
