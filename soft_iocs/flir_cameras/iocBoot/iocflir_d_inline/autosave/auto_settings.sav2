@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-101912
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-114805
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Inline:cam1:BinX 1
 18ID:FLIR:D:Inline:cam1:BinY 1
@@ -2381,7 +2381,7 @@
 18ID:FLIR:D:Inline:Pva1:WaitForPlugins 0
 18ID:FLIR:D:Inline:ffmstream1:NDArrayPort OVER1
 18ID:FLIR:D:Inline:ffmstream1:NDArrayAddress 0
-18ID:FLIR:D:Inline:ffmstream1:EnableCallbacks 0
+18ID:FLIR:D:Inline:ffmstream1:EnableCallbacks 1
 18ID:FLIR:D:Inline:ffmstream1:MinCallbackTime 0
 18ID:FLIR:D:Inline:ffmstream1:MaxByteRate 0
 18ID:FLIR:D:Inline:ffmstream1:BlockingCallbacks 0

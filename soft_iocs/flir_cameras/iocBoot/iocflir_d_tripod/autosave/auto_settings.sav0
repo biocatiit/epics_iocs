@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-095307
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-114001
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Tripod:cam1:BinX 1
 18ID:FLIR:D:Tripod:cam1:BinY 1
@@ -1973,7 +1973,7 @@
 18ID:FLIR:D:Tripod:Over1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Over1:WaitForPlugins 0
 18ID:FLIR:D:Tripod:Over1:1:Name ROI1
-18ID:FLIR:D:Tripod:Over1:1:Use 1
+18ID:FLIR:D:Tripod:Over1:1:Use 0
 18ID:FLIR:D:Tripod:Over1:1:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI1:MinX_RBV CP MS
 18ID:FLIR:D:Tripod:Over1:1:PositionX 0
 18ID:FLIR:D:Tripod:Over1:1:PositionYLink.DOL 18ID:FLIR:D:Tripod:ROI1:MinY_RBV CP MS
