@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-114805
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250818-103040
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Inline:cam1:BinX 1
 18ID:FLIR:D:Inline:cam1:BinY 1
@@ -10,7 +10,7 @@
 18ID:FLIR:D:Inline:cam1:ReverseY 0
 18ID:FLIR:D:Inline:cam1:AcquireTime 0.02
 18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.05001588
-18ID:FLIR:D:Inline:cam1:Gain 17.897908896642
+18ID:FLIR:D:Inline:cam1:Gain 20
 18ID:FLIR:D:Inline:cam1:FrameType 0
 18ID:FLIR:D:Inline:cam1:ImageMode 2
 18ID:FLIR:D:Inline:cam1:TriggerMode 0
@@ -1974,14 +1974,14 @@
 18ID:FLIR:D:Inline:Over1:WaitForPlugins 0
 18ID:FLIR:D:Inline:Over1:1:Name ROI1
 18ID:FLIR:D:Inline:Over1:1:Use 1
-18ID:FLIR:D:Inline:Over1:1:PositionXLink.DOL 18ID:FLIR:D:Inline:ROI1:MinX_RBV CP MS
-18ID:FLIR:D:Inline:Over1:1:PositionX 0
-18ID:FLIR:D:Inline:Over1:1:PositionYLink.DOL 18ID:FLIR:D:Inline:ROI1:MinY_RBV CP MS
-18ID:FLIR:D:Inline:Over1:1:PositionY 0
-18ID:FLIR:D:Inline:Over1:1:SizeXLink.DOL 18ID:FLIR:D:Inline:ROI1:SizeX_RBV CP MS
-18ID:FLIR:D:Inline:Over1:1:SizeX 1000000
-18ID:FLIR:D:Inline:Over1:1:SizeYLink.DOL 18ID:FLIR:D:Inline:ROI1:SizeY_RBV CP MS
-18ID:FLIR:D:Inline:Over1:1:SizeY 1000000
+18ID:FLIR:D:Inline:Over1:1:PositionXLink.DOL CP NPP MS
+18ID:FLIR:D:Inline:Over1:1:PositionX 150
+18ID:FLIR:D:Inline:Over1:1:PositionYLink.DOL CP NPP MS
+18ID:FLIR:D:Inline:Over1:1:PositionY 150
+18ID:FLIR:D:Inline:Over1:1:SizeXLink.DOL CP NPP MS
+18ID:FLIR:D:Inline:Over1:1:SizeX 100
+18ID:FLIR:D:Inline:Over1:1:SizeYLink.DOL CP NPP MS
+18ID:FLIR:D:Inline:Over1:1:SizeY 100
 18ID:FLIR:D:Inline:Over1:1:WidthXLink.DOL CP NPP MS
 18ID:FLIR:D:Inline:Over1:1:WidthX 2
 18ID:FLIR:D:Inline:Over1:1:WidthYLink.DOL CP NPP MS

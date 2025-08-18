@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250815-110942
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250818-103208
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:C:Mono2:cam1:BinX 1
 18ID:FLIR:C:Mono2:cam1:BinY 1
@@ -31,8 +31,8 @@
 18ID:FLIR:C:Mono2:cam1:DataType 1
 18ID:FLIR:C:Mono2:cam1:ColorMode 0
 18ID:FLIR:C:Mono2:cam1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:cam1:NDAttributesFile 
-18ID:FLIR:C:Mono2:cam1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:cam1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:cam1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:cam1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:cam1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:cam1:WaitForPlugins 0
@@ -75,16 +75,16 @@
 18ID:FLIR:C:Mono2:image1:DataType 0
 18ID:FLIR:C:Mono2:image1:ColorMode 0
 18ID:FLIR:C:Mono2:image1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:image1:NDAttributesFile 
-18ID:FLIR:C:Mono2:image1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:image1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:image1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:image1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:image1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:image1:WaitForPlugins 0
-18ID:FLIR:C:Mono2:netCDF1:FilePath 
-18ID:FLIR:C:Mono2:netCDF1:FileName 
+18ID:FLIR:C:Mono2:netCDF1:FilePath 0
+18ID:FLIR:C:Mono2:netCDF1:FileName 0
 18ID:FLIR:C:Mono2:netCDF1:FileNumber 0
 18ID:FLIR:C:Mono2:netCDF1:AutoIncrement 0
-18ID:FLIR:C:Mono2:netCDF1:FileTemplate 
+18ID:FLIR:C:Mono2:netCDF1:FileTemplate 0
 18ID:FLIR:C:Mono2:netCDF1:AutoSave 0
 18ID:FLIR:C:Mono2:netCDF1:FileFormat 0
 18ID:FLIR:C:Mono2:netCDF1:FileWriteMode 0
@@ -107,16 +107,16 @@
 18ID:FLIR:C:Mono2:netCDF1:DataType 0
 18ID:FLIR:C:Mono2:netCDF1:ColorMode 0
 18ID:FLIR:C:Mono2:netCDF1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:netCDF1:NDAttributesFile 
-18ID:FLIR:C:Mono2:netCDF1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:netCDF1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:netCDF1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:netCDF1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:netCDF1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:netCDF1:WaitForPlugins 0
-18ID:FLIR:C:Mono2:TIFF1:FilePath 
-18ID:FLIR:C:Mono2:TIFF1:FileName 
+18ID:FLIR:C:Mono2:TIFF1:FilePath 0
+18ID:FLIR:C:Mono2:TIFF1:FileName 0
 18ID:FLIR:C:Mono2:TIFF1:FileNumber 0
 18ID:FLIR:C:Mono2:TIFF1:AutoIncrement 0
-18ID:FLIR:C:Mono2:TIFF1:FileTemplate 
+18ID:FLIR:C:Mono2:TIFF1:FileTemplate 0
 18ID:FLIR:C:Mono2:TIFF1:AutoSave 0
 18ID:FLIR:C:Mono2:TIFF1:FileFormat 0
 18ID:FLIR:C:Mono2:TIFF1:FileWriteMode 0
@@ -139,17 +139,17 @@
 18ID:FLIR:C:Mono2:TIFF1:DataType 0
 18ID:FLIR:C:Mono2:TIFF1:ColorMode 0
 18ID:FLIR:C:Mono2:TIFF1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:TIFF1:NDAttributesFile 
-18ID:FLIR:C:Mono2:TIFF1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:TIFF1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:TIFF1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:TIFF1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:TIFF1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:TIFF1:WaitForPlugins 0
 18ID:FLIR:C:Mono2:JPEG1:JPEGQuality 50
-18ID:FLIR:C:Mono2:JPEG1:FilePath 
-18ID:FLIR:C:Mono2:JPEG1:FileName 
+18ID:FLIR:C:Mono2:JPEG1:FilePath 0
+18ID:FLIR:C:Mono2:JPEG1:FileName 0
 18ID:FLIR:C:Mono2:JPEG1:FileNumber 0
 18ID:FLIR:C:Mono2:JPEG1:AutoIncrement 0
-18ID:FLIR:C:Mono2:JPEG1:FileTemplate 
+18ID:FLIR:C:Mono2:JPEG1:FileTemplate 0
 18ID:FLIR:C:Mono2:JPEG1:AutoSave 0
 18ID:FLIR:C:Mono2:JPEG1:FileFormat 0
 18ID:FLIR:C:Mono2:JPEG1:FileWriteMode 0
@@ -172,18 +172,18 @@
 18ID:FLIR:C:Mono2:JPEG1:DataType 0
 18ID:FLIR:C:Mono2:JPEG1:ColorMode 0
 18ID:FLIR:C:Mono2:JPEG1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:JPEG1:NDAttributesFile 
-18ID:FLIR:C:Mono2:JPEG1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:JPEG1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:JPEG1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:JPEG1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:JPEG1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:JPEG1:WaitForPlugins 0
-18ID:FLIR:C:Mono2:Nexus1:TemplateFilePath 
-18ID:FLIR:C:Mono2:Nexus1:TemplateFileName 
-18ID:FLIR:C:Mono2:Nexus1:FilePath 
-18ID:FLIR:C:Mono2:Nexus1:FileName 
+18ID:FLIR:C:Mono2:Nexus1:TemplateFilePath 0
+18ID:FLIR:C:Mono2:Nexus1:TemplateFileName 0
+18ID:FLIR:C:Mono2:Nexus1:FilePath 0
+18ID:FLIR:C:Mono2:Nexus1:FileName 0
 18ID:FLIR:C:Mono2:Nexus1:FileNumber 0
 18ID:FLIR:C:Mono2:Nexus1:AutoIncrement 0
-18ID:FLIR:C:Mono2:Nexus1:FileTemplate 
+18ID:FLIR:C:Mono2:Nexus1:FileTemplate 0
 18ID:FLIR:C:Mono2:Nexus1:AutoSave 0
 18ID:FLIR:C:Mono2:Nexus1:FileFormat 0
 18ID:FLIR:C:Mono2:Nexus1:FileWriteMode 0
@@ -206,8 +206,8 @@
 18ID:FLIR:C:Mono2:Nexus1:DataType 0
 18ID:FLIR:C:Mono2:Nexus1:ColorMode 0
 18ID:FLIR:C:Mono2:Nexus1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:Nexus1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Nexus1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Nexus1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Nexus1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Nexus1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Nexus1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Nexus1:WaitForPlugins 0
@@ -241,13 +241,13 @@
 18ID:FLIR:C:Mono2:HDF1:ExtraDimSizeN 1
 18ID:FLIR:C:Mono2:HDF1:ExtraDimSizeX 1
 18ID:FLIR:C:Mono2:HDF1:ExtraDimSizeY 1
-18ID:FLIR:C:Mono2:HDF1:XMLFileName 
+18ID:FLIR:C:Mono2:HDF1:XMLFileName 0
 18ID:FLIR:C:Mono2:HDF1:SWMRMode 0
-18ID:FLIR:C:Mono2:HDF1:FilePath 
-18ID:FLIR:C:Mono2:HDF1:FileName 
+18ID:FLIR:C:Mono2:HDF1:FilePath 0
+18ID:FLIR:C:Mono2:HDF1:FileName 0
 18ID:FLIR:C:Mono2:HDF1:FileNumber 0
 18ID:FLIR:C:Mono2:HDF1:AutoIncrement 0
-18ID:FLIR:C:Mono2:HDF1:FileTemplate 
+18ID:FLIR:C:Mono2:HDF1:FileTemplate 0
 18ID:FLIR:C:Mono2:HDF1:AutoSave 0
 18ID:FLIR:C:Mono2:HDF1:FileFormat 0
 18ID:FLIR:C:Mono2:HDF1:FileWriteMode 0
@@ -270,8 +270,8 @@
 18ID:FLIR:C:Mono2:HDF1:DataType 0
 18ID:FLIR:C:Mono2:HDF1:ColorMode 0
 18ID:FLIR:C:Mono2:HDF1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:HDF1:NDAttributesFile 
-18ID:FLIR:C:Mono2:HDF1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:HDF1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:HDF1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:HDF1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:HDF1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:HDF1:WaitForPlugins 0
@@ -312,8 +312,8 @@
 18ID:FLIR:C:Mono2:ROI1:DataType 0
 18ID:FLIR:C:Mono2:ROI1:ColorMode 0
 18ID:FLIR:C:Mono2:ROI1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:ROI1:NDAttributesFile 
-18ID:FLIR:C:Mono2:ROI1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:ROI1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:ROI1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:ROI1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:ROI1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:ROI1:WaitForPlugins 0
@@ -354,8 +354,8 @@
 18ID:FLIR:C:Mono2:ROI2:DataType 0
 18ID:FLIR:C:Mono2:ROI2:ColorMode 0
 18ID:FLIR:C:Mono2:ROI2:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:ROI2:NDAttributesFile 
-18ID:FLIR:C:Mono2:ROI2:NDAttributesMacros 
+18ID:FLIR:C:Mono2:ROI2:NDAttributesFile 0
+18ID:FLIR:C:Mono2:ROI2:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:ROI2:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:ROI2:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:ROI2:WaitForPlugins 0
@@ -396,8 +396,8 @@
 18ID:FLIR:C:Mono2:ROI3:DataType 0
 18ID:FLIR:C:Mono2:ROI3:ColorMode 0
 18ID:FLIR:C:Mono2:ROI3:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:ROI3:NDAttributesFile 
-18ID:FLIR:C:Mono2:ROI3:NDAttributesMacros 
+18ID:FLIR:C:Mono2:ROI3:NDAttributesFile 0
+18ID:FLIR:C:Mono2:ROI3:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:ROI3:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:ROI3:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:ROI3:WaitForPlugins 0
@@ -438,8 +438,8 @@
 18ID:FLIR:C:Mono2:ROI4:DataType 0
 18ID:FLIR:C:Mono2:ROI4:ColorMode 0
 18ID:FLIR:C:Mono2:ROI4:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:ROI4:NDAttributesFile 
-18ID:FLIR:C:Mono2:ROI4:NDAttributesMacros 
+18ID:FLIR:C:Mono2:ROI4:NDAttributesFile 0
+18ID:FLIR:C:Mono2:ROI4:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:ROI4:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:ROI4:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:ROI4:WaitForPlugins 0
@@ -490,16 +490,16 @@
 18ID:FLIR:C:Mono2:Proc1:DataType 0
 18ID:FLIR:C:Mono2:Proc1:ColorMode 0
 18ID:FLIR:C:Mono2:Proc1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Proc1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Proc1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Proc1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Proc1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Proc1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Proc1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Proc1:WaitForPlugins 0
-18ID:FLIR:C:Mono2:Proc1:TIFF:FilePath 
-18ID:FLIR:C:Mono2:Proc1:TIFF:FileName 
+18ID:FLIR:C:Mono2:Proc1:TIFF:FilePath 0
+18ID:FLIR:C:Mono2:Proc1:TIFF:FileName 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:FileNumber 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:AutoIncrement 0
-18ID:FLIR:C:Mono2:Proc1:TIFF:FileTemplate 
+18ID:FLIR:C:Mono2:Proc1:TIFF:FileTemplate 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:AutoSave 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:FileFormat 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:FileWriteMode 0
@@ -522,8 +522,8 @@
 18ID:FLIR:C:Mono2:Proc1:TIFF:DataType 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:ColorMode 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:Proc1:TIFF:NDAttributesFile 
-18ID:FLIR:C:Mono2:Proc1:TIFF:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Proc1:TIFF:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Proc1:TIFF:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Proc1:TIFF:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Proc1:TIFF:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Proc1:TIFF:WaitForPlugins 0
@@ -541,8 +541,8 @@
 18ID:FLIR:C:Mono2:Scatter1:DataType 0
 18ID:FLIR:C:Mono2:Scatter1:ColorMode 0
 18ID:FLIR:C:Mono2:Scatter1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Scatter1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Scatter1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Scatter1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Scatter1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Scatter1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Scatter1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Scatter1:WaitForPlugins 0
@@ -560,8 +560,8 @@
 18ID:FLIR:C:Mono2:Gather1:DataType 0
 18ID:FLIR:C:Mono2:Gather1:ColorMode 0
 18ID:FLIR:C:Mono2:Gather1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Gather1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Gather1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Gather1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Gather1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Gather1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Gather1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Gather1:WaitForPlugins 0
@@ -611,8 +611,8 @@
 18ID:FLIR:C:Mono2:Stats1:TS:DataType 0
 18ID:FLIR:C:Mono2:Stats1:TS:ColorMode 0
 18ID:FLIR:C:Mono2:Stats1:TS:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats1:TS:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats1:TS:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats1:TS:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats1:TS:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats1:TS:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats1:TS:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats1:TS:WaitForPlugins 0
@@ -630,8 +630,8 @@
 18ID:FLIR:C:Mono2:Stats1:DataType 0
 18ID:FLIR:C:Mono2:Stats1:ColorMode 0
 18ID:FLIR:C:Mono2:Stats1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats1:WaitForPlugins 0
@@ -654,7 +654,7 @@
 18ID:FLIR:C:Mono2:Stats1:Reset.DOL3 
 18ID:FLIR:C:Mono2:Stats1:Reset.DO3 0
 18ID:FLIR:C:Mono2:Stats1:Reset.STR3 0
-18ID:FLIR:C:Mono2:Stats1:Reset.LNK3 18ID:FLIR:C:Mono2:Stats1:MeanValue PP M
+18ID:FLIR:C:Mono2:Stats1:Reset.LNK3 18ID:FLIR:C:Mono2:Stats1:MeanValue PP N
 18ID:FLIR:C:Mono2:Stats1:Reset.WAIT3 0
 18ID:FLIR:C:Mono2:Stats1:Reset.DLY4 0
 18ID:FLIR:C:Mono2:Stats1:Reset.DOL4 
@@ -709,13 +709,13 @@
 18ID:FLIR:C:Mono2:Stats1:Reset1.DOL1 
 18ID:FLIR:C:Mono2:Stats1:Reset1.DO1 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.STR1 0
-18ID:FLIR:C:Mono2:Stats1:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats1:CentroidX PP M
+18ID:FLIR:C:Mono2:Stats1:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats1:CentroidX PP N
 18ID:FLIR:C:Mono2:Stats1:Reset1.WAIT1 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.DLY2 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.DOL2 
 18ID:FLIR:C:Mono2:Stats1:Reset1.DO2 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.STR2 0
-18ID:FLIR:C:Mono2:Stats1:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats1:CentroidY PP M
+18ID:FLIR:C:Mono2:Stats1:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats1:CentroidY PP N
 18ID:FLIR:C:Mono2:Stats1:Reset1.WAIT2 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.DLY3 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.DOL3 
@@ -757,13 +757,13 @@
 18ID:FLIR:C:Mono2:Stats1:Reset1.DOL9 
 18ID:FLIR:C:Mono2:Stats1:Reset1.DO9 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.STR9 0
-18ID:FLIR:C:Mono2:Stats1:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats1:KurtosisX PP M
+18ID:FLIR:C:Mono2:Stats1:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats1:KurtosisX PP N
 18ID:FLIR:C:Mono2:Stats1:Reset1.WAIT9 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.DLYA 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.DOLA 
 18ID:FLIR:C:Mono2:Stats1:Reset1.DOA 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.STRA 0
-18ID:FLIR:C:Mono2:Stats1:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats1:KurtosisY PP M
+18ID:FLIR:C:Mono2:Stats1:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats1:KurtosisY PP N
 18ID:FLIR:C:Mono2:Stats1:Reset1.WAITA 0
 18ID:FLIR:C:Mono2:Stats1:Reset1.FLNK 18ID:FLIR:C:Mono2:Stats1:Reset2
 18ID:FLIR:C:Mono2:Stats1:Reset1.SELL 
@@ -776,7 +776,7 @@
 18ID:FLIR:C:Mono2:Stats1:Reset2.DOL1 
 18ID:FLIR:C:Mono2:Stats1:Reset2.DO1 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.STR1 0
-18ID:FLIR:C:Mono2:Stats1:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats1:Eccentricity P
+18ID:FLIR:C:Mono2:Stats1:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats1:Eccentricity N
 18ID:FLIR:C:Mono2:Stats1:Reset2.WAIT1 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.DLY2 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.DOL2 
@@ -788,13 +788,13 @@
 18ID:FLIR:C:Mono2:Stats1:Reset2.DOL3 
 18ID:FLIR:C:Mono2:Stats1:Reset2.DO3 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.STR3 0
-18ID:FLIR:C:Mono2:Stats1:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats1:HistBelow PP M
+18ID:FLIR:C:Mono2:Stats1:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats1:HistBelow PP N
 18ID:FLIR:C:Mono2:Stats1:Reset2.WAIT3 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.DLY4 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.DOL4 
 18ID:FLIR:C:Mono2:Stats1:Reset2.DO4 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.STR4 0
-18ID:FLIR:C:Mono2:Stats1:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats1:HistAbove PP M
+18ID:FLIR:C:Mono2:Stats1:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats1:HistAbove PP N
 18ID:FLIR:C:Mono2:Stats1:Reset2.WAIT4 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.DLY5 0
 18ID:FLIR:C:Mono2:Stats1:Reset2.DOL5 
@@ -866,8 +866,8 @@
 18ID:FLIR:C:Mono2:Stats2:TS:DataType 0
 18ID:FLIR:C:Mono2:Stats2:TS:ColorMode 0
 18ID:FLIR:C:Mono2:Stats2:TS:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats2:TS:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats2:TS:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats2:TS:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats2:TS:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats2:TS:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats2:TS:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats2:TS:WaitForPlugins 0
@@ -885,8 +885,8 @@
 18ID:FLIR:C:Mono2:Stats2:DataType 0
 18ID:FLIR:C:Mono2:Stats2:ColorMode 0
 18ID:FLIR:C:Mono2:Stats2:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats2:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats2:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats2:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats2:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats2:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats2:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats2:WaitForPlugins 0
@@ -909,7 +909,7 @@
 18ID:FLIR:C:Mono2:Stats2:Reset.DOL3 
 18ID:FLIR:C:Mono2:Stats2:Reset.DO3 0
 18ID:FLIR:C:Mono2:Stats2:Reset.STR3 0
-18ID:FLIR:C:Mono2:Stats2:Reset.LNK3 18ID:FLIR:C:Mono2:Stats2:MeanValue PP M
+18ID:FLIR:C:Mono2:Stats2:Reset.LNK3 18ID:FLIR:C:Mono2:Stats2:MeanValue PP N
 18ID:FLIR:C:Mono2:Stats2:Reset.WAIT3 0
 18ID:FLIR:C:Mono2:Stats2:Reset.DLY4 0
 18ID:FLIR:C:Mono2:Stats2:Reset.DOL4 
@@ -964,13 +964,13 @@
 18ID:FLIR:C:Mono2:Stats2:Reset1.DOL1 
 18ID:FLIR:C:Mono2:Stats2:Reset1.DO1 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.STR1 0
-18ID:FLIR:C:Mono2:Stats2:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats2:CentroidX PP M
+18ID:FLIR:C:Mono2:Stats2:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats2:CentroidX PP N
 18ID:FLIR:C:Mono2:Stats2:Reset1.WAIT1 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.DLY2 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.DOL2 
 18ID:FLIR:C:Mono2:Stats2:Reset1.DO2 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.STR2 0
-18ID:FLIR:C:Mono2:Stats2:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats2:CentroidY PP M
+18ID:FLIR:C:Mono2:Stats2:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats2:CentroidY PP N
 18ID:FLIR:C:Mono2:Stats2:Reset1.WAIT2 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.DLY3 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.DOL3 
@@ -1012,13 +1012,13 @@
 18ID:FLIR:C:Mono2:Stats2:Reset1.DOL9 
 18ID:FLIR:C:Mono2:Stats2:Reset1.DO9 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.STR9 0
-18ID:FLIR:C:Mono2:Stats2:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats2:KurtosisX PP M
+18ID:FLIR:C:Mono2:Stats2:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats2:KurtosisX PP N
 18ID:FLIR:C:Mono2:Stats2:Reset1.WAIT9 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.DLYA 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.DOLA 
 18ID:FLIR:C:Mono2:Stats2:Reset1.DOA 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.STRA 0
-18ID:FLIR:C:Mono2:Stats2:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats2:KurtosisY PP M
+18ID:FLIR:C:Mono2:Stats2:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats2:KurtosisY PP N
 18ID:FLIR:C:Mono2:Stats2:Reset1.WAITA 0
 18ID:FLIR:C:Mono2:Stats2:Reset1.FLNK 18ID:FLIR:C:Mono2:Stats2:Reset2
 18ID:FLIR:C:Mono2:Stats2:Reset1.SELL 
@@ -1031,7 +1031,7 @@
 18ID:FLIR:C:Mono2:Stats2:Reset2.DOL1 
 18ID:FLIR:C:Mono2:Stats2:Reset2.DO1 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.STR1 0
-18ID:FLIR:C:Mono2:Stats2:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats2:Eccentricity P
+18ID:FLIR:C:Mono2:Stats2:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats2:Eccentricity N
 18ID:FLIR:C:Mono2:Stats2:Reset2.WAIT1 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.DLY2 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.DOL2 
@@ -1043,13 +1043,13 @@
 18ID:FLIR:C:Mono2:Stats2:Reset2.DOL3 
 18ID:FLIR:C:Mono2:Stats2:Reset2.DO3 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.STR3 0
-18ID:FLIR:C:Mono2:Stats2:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats2:HistBelow PP M
+18ID:FLIR:C:Mono2:Stats2:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats2:HistBelow PP N
 18ID:FLIR:C:Mono2:Stats2:Reset2.WAIT3 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.DLY4 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.DOL4 
 18ID:FLIR:C:Mono2:Stats2:Reset2.DO4 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.STR4 0
-18ID:FLIR:C:Mono2:Stats2:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats2:HistAbove PP M
+18ID:FLIR:C:Mono2:Stats2:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats2:HistAbove PP N
 18ID:FLIR:C:Mono2:Stats2:Reset2.WAIT4 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.DLY5 0
 18ID:FLIR:C:Mono2:Stats2:Reset2.DOL5 
@@ -1121,8 +1121,8 @@
 18ID:FLIR:C:Mono2:Stats3:TS:DataType 0
 18ID:FLIR:C:Mono2:Stats3:TS:ColorMode 0
 18ID:FLIR:C:Mono2:Stats3:TS:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats3:TS:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats3:TS:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats3:TS:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats3:TS:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats3:TS:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats3:TS:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats3:TS:WaitForPlugins 0
@@ -1140,8 +1140,8 @@
 18ID:FLIR:C:Mono2:Stats3:DataType 0
 18ID:FLIR:C:Mono2:Stats3:ColorMode 0
 18ID:FLIR:C:Mono2:Stats3:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats3:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats3:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats3:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats3:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats3:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats3:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats3:WaitForPlugins 0
@@ -1164,7 +1164,7 @@
 18ID:FLIR:C:Mono2:Stats3:Reset.DOL3 
 18ID:FLIR:C:Mono2:Stats3:Reset.DO3 0
 18ID:FLIR:C:Mono2:Stats3:Reset.STR3 0
-18ID:FLIR:C:Mono2:Stats3:Reset.LNK3 18ID:FLIR:C:Mono2:Stats3:MeanValue PP M
+18ID:FLIR:C:Mono2:Stats3:Reset.LNK3 18ID:FLIR:C:Mono2:Stats3:MeanValue PP N
 18ID:FLIR:C:Mono2:Stats3:Reset.WAIT3 0
 18ID:FLIR:C:Mono2:Stats3:Reset.DLY4 0
 18ID:FLIR:C:Mono2:Stats3:Reset.DOL4 
@@ -1219,13 +1219,13 @@
 18ID:FLIR:C:Mono2:Stats3:Reset1.DOL1 
 18ID:FLIR:C:Mono2:Stats3:Reset1.DO1 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.STR1 0
-18ID:FLIR:C:Mono2:Stats3:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats3:CentroidX PP M
+18ID:FLIR:C:Mono2:Stats3:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats3:CentroidX PP N
 18ID:FLIR:C:Mono2:Stats3:Reset1.WAIT1 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.DLY2 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.DOL2 
 18ID:FLIR:C:Mono2:Stats3:Reset1.DO2 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.STR2 0
-18ID:FLIR:C:Mono2:Stats3:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats3:CentroidY PP M
+18ID:FLIR:C:Mono2:Stats3:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats3:CentroidY PP N
 18ID:FLIR:C:Mono2:Stats3:Reset1.WAIT2 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.DLY3 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.DOL3 
@@ -1267,13 +1267,13 @@
 18ID:FLIR:C:Mono2:Stats3:Reset1.DOL9 
 18ID:FLIR:C:Mono2:Stats3:Reset1.DO9 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.STR9 0
-18ID:FLIR:C:Mono2:Stats3:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats3:KurtosisX PP M
+18ID:FLIR:C:Mono2:Stats3:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats3:KurtosisX PP N
 18ID:FLIR:C:Mono2:Stats3:Reset1.WAIT9 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.DLYA 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.DOLA 
 18ID:FLIR:C:Mono2:Stats3:Reset1.DOA 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.STRA 0
-18ID:FLIR:C:Mono2:Stats3:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats3:KurtosisY PP M
+18ID:FLIR:C:Mono2:Stats3:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats3:KurtosisY PP N
 18ID:FLIR:C:Mono2:Stats3:Reset1.WAITA 0
 18ID:FLIR:C:Mono2:Stats3:Reset1.FLNK 18ID:FLIR:C:Mono2:Stats3:Reset2
 18ID:FLIR:C:Mono2:Stats3:Reset1.SELL 
@@ -1286,7 +1286,7 @@
 18ID:FLIR:C:Mono2:Stats3:Reset2.DOL1 
 18ID:FLIR:C:Mono2:Stats3:Reset2.DO1 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.STR1 0
-18ID:FLIR:C:Mono2:Stats3:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats3:Eccentricity P
+18ID:FLIR:C:Mono2:Stats3:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats3:Eccentricity N
 18ID:FLIR:C:Mono2:Stats3:Reset2.WAIT1 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.DLY2 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.DOL2 
@@ -1298,13 +1298,13 @@
 18ID:FLIR:C:Mono2:Stats3:Reset2.DOL3 
 18ID:FLIR:C:Mono2:Stats3:Reset2.DO3 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.STR3 0
-18ID:FLIR:C:Mono2:Stats3:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats3:HistBelow PP M
+18ID:FLIR:C:Mono2:Stats3:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats3:HistBelow PP N
 18ID:FLIR:C:Mono2:Stats3:Reset2.WAIT3 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.DLY4 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.DOL4 
 18ID:FLIR:C:Mono2:Stats3:Reset2.DO4 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.STR4 0
-18ID:FLIR:C:Mono2:Stats3:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats3:HistAbove PP M
+18ID:FLIR:C:Mono2:Stats3:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats3:HistAbove PP N
 18ID:FLIR:C:Mono2:Stats3:Reset2.WAIT4 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.DLY5 0
 18ID:FLIR:C:Mono2:Stats3:Reset2.DOL5 
@@ -1376,8 +1376,8 @@
 18ID:FLIR:C:Mono2:Stats4:TS:DataType 0
 18ID:FLIR:C:Mono2:Stats4:TS:ColorMode 0
 18ID:FLIR:C:Mono2:Stats4:TS:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats4:TS:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats4:TS:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats4:TS:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats4:TS:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats4:TS:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats4:TS:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats4:TS:WaitForPlugins 0
@@ -1395,8 +1395,8 @@
 18ID:FLIR:C:Mono2:Stats4:DataType 0
 18ID:FLIR:C:Mono2:Stats4:ColorMode 0
 18ID:FLIR:C:Mono2:Stats4:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats4:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats4:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats4:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats4:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats4:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats4:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats4:WaitForPlugins 0
@@ -1419,7 +1419,7 @@
 18ID:FLIR:C:Mono2:Stats4:Reset.DOL3 
 18ID:FLIR:C:Mono2:Stats4:Reset.DO3 0
 18ID:FLIR:C:Mono2:Stats4:Reset.STR3 0
-18ID:FLIR:C:Mono2:Stats4:Reset.LNK3 18ID:FLIR:C:Mono2:Stats4:MeanValue PP M
+18ID:FLIR:C:Mono2:Stats4:Reset.LNK3 18ID:FLIR:C:Mono2:Stats4:MeanValue PP N
 18ID:FLIR:C:Mono2:Stats4:Reset.WAIT3 0
 18ID:FLIR:C:Mono2:Stats4:Reset.DLY4 0
 18ID:FLIR:C:Mono2:Stats4:Reset.DOL4 
@@ -1474,13 +1474,13 @@
 18ID:FLIR:C:Mono2:Stats4:Reset1.DOL1 
 18ID:FLIR:C:Mono2:Stats4:Reset1.DO1 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.STR1 0
-18ID:FLIR:C:Mono2:Stats4:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats4:CentroidX PP M
+18ID:FLIR:C:Mono2:Stats4:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats4:CentroidX PP N
 18ID:FLIR:C:Mono2:Stats4:Reset1.WAIT1 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.DLY2 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.DOL2 
 18ID:FLIR:C:Mono2:Stats4:Reset1.DO2 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.STR2 0
-18ID:FLIR:C:Mono2:Stats4:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats4:CentroidY PP M
+18ID:FLIR:C:Mono2:Stats4:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats4:CentroidY PP N
 18ID:FLIR:C:Mono2:Stats4:Reset1.WAIT2 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.DLY3 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.DOL3 
@@ -1522,13 +1522,13 @@
 18ID:FLIR:C:Mono2:Stats4:Reset1.DOL9 
 18ID:FLIR:C:Mono2:Stats4:Reset1.DO9 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.STR9 0
-18ID:FLIR:C:Mono2:Stats4:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats4:KurtosisX PP M
+18ID:FLIR:C:Mono2:Stats4:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats4:KurtosisX PP N
 18ID:FLIR:C:Mono2:Stats4:Reset1.WAIT9 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.DLYA 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.DOLA 
 18ID:FLIR:C:Mono2:Stats4:Reset1.DOA 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.STRA 0
-18ID:FLIR:C:Mono2:Stats4:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats4:KurtosisY PP M
+18ID:FLIR:C:Mono2:Stats4:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats4:KurtosisY PP N
 18ID:FLIR:C:Mono2:Stats4:Reset1.WAITA 0
 18ID:FLIR:C:Mono2:Stats4:Reset1.FLNK 18ID:FLIR:C:Mono2:Stats4:Reset2
 18ID:FLIR:C:Mono2:Stats4:Reset1.SELL 
@@ -1541,7 +1541,7 @@
 18ID:FLIR:C:Mono2:Stats4:Reset2.DOL1 
 18ID:FLIR:C:Mono2:Stats4:Reset2.DO1 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.STR1 0
-18ID:FLIR:C:Mono2:Stats4:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats4:Eccentricity P
+18ID:FLIR:C:Mono2:Stats4:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats4:Eccentricity N
 18ID:FLIR:C:Mono2:Stats4:Reset2.WAIT1 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.DLY2 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.DOL2 
@@ -1553,13 +1553,13 @@
 18ID:FLIR:C:Mono2:Stats4:Reset2.DOL3 
 18ID:FLIR:C:Mono2:Stats4:Reset2.DO3 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.STR3 0
-18ID:FLIR:C:Mono2:Stats4:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats4:HistBelow PP M
+18ID:FLIR:C:Mono2:Stats4:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats4:HistBelow PP N
 18ID:FLIR:C:Mono2:Stats4:Reset2.WAIT3 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.DLY4 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.DOL4 
 18ID:FLIR:C:Mono2:Stats4:Reset2.DO4 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.STR4 0
-18ID:FLIR:C:Mono2:Stats4:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats4:HistAbove PP M
+18ID:FLIR:C:Mono2:Stats4:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats4:HistAbove PP N
 18ID:FLIR:C:Mono2:Stats4:Reset2.WAIT4 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.DLY5 0
 18ID:FLIR:C:Mono2:Stats4:Reset2.DOL5 
@@ -1631,8 +1631,8 @@
 18ID:FLIR:C:Mono2:Stats5:TS:DataType 0
 18ID:FLIR:C:Mono2:Stats5:TS:ColorMode 0
 18ID:FLIR:C:Mono2:Stats5:TS:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats5:TS:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats5:TS:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats5:TS:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats5:TS:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats5:TS:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats5:TS:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats5:TS:WaitForPlugins 0
@@ -1650,8 +1650,8 @@
 18ID:FLIR:C:Mono2:Stats5:DataType 0
 18ID:FLIR:C:Mono2:Stats5:ColorMode 0
 18ID:FLIR:C:Mono2:Stats5:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Stats5:NDAttributesFile 
-18ID:FLIR:C:Mono2:Stats5:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Stats5:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Stats5:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Stats5:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Stats5:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Stats5:WaitForPlugins 0
@@ -1674,7 +1674,7 @@
 18ID:FLIR:C:Mono2:Stats5:Reset.DOL3 
 18ID:FLIR:C:Mono2:Stats5:Reset.DO3 0
 18ID:FLIR:C:Mono2:Stats5:Reset.STR3 0
-18ID:FLIR:C:Mono2:Stats5:Reset.LNK3 18ID:FLIR:C:Mono2:Stats5:MeanValue PP M
+18ID:FLIR:C:Mono2:Stats5:Reset.LNK3 18ID:FLIR:C:Mono2:Stats5:MeanValue PP N
 18ID:FLIR:C:Mono2:Stats5:Reset.WAIT3 0
 18ID:FLIR:C:Mono2:Stats5:Reset.DLY4 0
 18ID:FLIR:C:Mono2:Stats5:Reset.DOL4 
@@ -1729,13 +1729,13 @@
 18ID:FLIR:C:Mono2:Stats5:Reset1.DOL1 
 18ID:FLIR:C:Mono2:Stats5:Reset1.DO1 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.STR1 0
-18ID:FLIR:C:Mono2:Stats5:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats5:CentroidX PP M
+18ID:FLIR:C:Mono2:Stats5:Reset1.LNK1 18ID:FLIR:C:Mono2:Stats5:CentroidX PP N
 18ID:FLIR:C:Mono2:Stats5:Reset1.WAIT1 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.DLY2 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.DOL2 
 18ID:FLIR:C:Mono2:Stats5:Reset1.DO2 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.STR2 0
-18ID:FLIR:C:Mono2:Stats5:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats5:CentroidY PP M
+18ID:FLIR:C:Mono2:Stats5:Reset1.LNK2 18ID:FLIR:C:Mono2:Stats5:CentroidY PP N
 18ID:FLIR:C:Mono2:Stats5:Reset1.WAIT2 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.DLY3 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.DOL3 
@@ -1777,13 +1777,13 @@
 18ID:FLIR:C:Mono2:Stats5:Reset1.DOL9 
 18ID:FLIR:C:Mono2:Stats5:Reset1.DO9 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.STR9 0
-18ID:FLIR:C:Mono2:Stats5:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats5:KurtosisX PP M
+18ID:FLIR:C:Mono2:Stats5:Reset1.LNK9 18ID:FLIR:C:Mono2:Stats5:KurtosisX PP N
 18ID:FLIR:C:Mono2:Stats5:Reset1.WAIT9 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.DLYA 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.DOLA 
 18ID:FLIR:C:Mono2:Stats5:Reset1.DOA 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.STRA 0
-18ID:FLIR:C:Mono2:Stats5:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats5:KurtosisY PP M
+18ID:FLIR:C:Mono2:Stats5:Reset1.LNKA 18ID:FLIR:C:Mono2:Stats5:KurtosisY PP N
 18ID:FLIR:C:Mono2:Stats5:Reset1.WAITA 0
 18ID:FLIR:C:Mono2:Stats5:Reset1.FLNK 18ID:FLIR:C:Mono2:Stats5:Reset2
 18ID:FLIR:C:Mono2:Stats5:Reset1.SELL 
@@ -1796,7 +1796,7 @@
 18ID:FLIR:C:Mono2:Stats5:Reset2.DOL1 
 18ID:FLIR:C:Mono2:Stats5:Reset2.DO1 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.STR1 0
-18ID:FLIR:C:Mono2:Stats5:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats5:Eccentricity P
+18ID:FLIR:C:Mono2:Stats5:Reset2.LNK1 18ID:FLIR:C:Mono2:Stats5:Eccentricity N
 18ID:FLIR:C:Mono2:Stats5:Reset2.WAIT1 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.DLY2 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.DOL2 
@@ -1808,13 +1808,13 @@
 18ID:FLIR:C:Mono2:Stats5:Reset2.DOL3 
 18ID:FLIR:C:Mono2:Stats5:Reset2.DO3 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.STR3 0
-18ID:FLIR:C:Mono2:Stats5:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats5:HistBelow PP M
+18ID:FLIR:C:Mono2:Stats5:Reset2.LNK3 18ID:FLIR:C:Mono2:Stats5:HistBelow PP N
 18ID:FLIR:C:Mono2:Stats5:Reset2.WAIT3 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.DLY4 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.DOL4 
 18ID:FLIR:C:Mono2:Stats5:Reset2.DO4 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.STR4 0
-18ID:FLIR:C:Mono2:Stats5:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats5:HistAbove PP M
+18ID:FLIR:C:Mono2:Stats5:Reset2.LNK4 18ID:FLIR:C:Mono2:Stats5:HistAbove PP N
 18ID:FLIR:C:Mono2:Stats5:Reset2.WAIT4 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.DLY5 0
 18ID:FLIR:C:Mono2:Stats5:Reset2.DOL5 
@@ -1872,8 +1872,8 @@
 18ID:FLIR:C:Mono2:ROIStat1:DataType 0
 18ID:FLIR:C:Mono2:ROIStat1:ColorMode 0
 18ID:FLIR:C:Mono2:ROIStat1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:ROIStat1:NDAttributesFile 
-18ID:FLIR:C:Mono2:ROIStat1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:ROIStat1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:ROIStat1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:ROIStat1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:ROIStat1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:ROIStat1:WaitForPlugins 0
@@ -1948,8 +1948,8 @@
 18ID:FLIR:C:Mono2:Trans1:DataType 0
 18ID:FLIR:C:Mono2:Trans1:ColorMode 0
 18ID:FLIR:C:Mono2:Trans1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Trans1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Trans1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Trans1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Trans1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Trans1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Trans1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Trans1:WaitForPlugins 0
@@ -1967,8 +1967,8 @@
 18ID:FLIR:C:Mono2:Over1:DataType 0
 18ID:FLIR:C:Mono2:Over1:ColorMode 0
 18ID:FLIR:C:Mono2:Over1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Over1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Over1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Over1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Over1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Over1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Over1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Over1:WaitForPlugins 0
@@ -1979,9 +1979,9 @@
 18ID:FLIR:C:Mono2:Over1:1:PositionYLink.DOL 18ID:FLIR:C:Mono2:ROI1:MinY_RBV CP MS
 18ID:FLIR:C:Mono2:Over1:1:PositionY 0
 18ID:FLIR:C:Mono2:Over1:1:SizeXLink.DOL 18ID:FLIR:C:Mono2:ROI1:SizeX_RBV CP MS
-18ID:FLIR:C:Mono2:Over1:1:SizeX 200
+18ID:FLIR:C:Mono2:Over1:1:SizeX 1000000
 18ID:FLIR:C:Mono2:Over1:1:SizeYLink.DOL 18ID:FLIR:C:Mono2:ROI1:SizeY_RBV CP MS
-18ID:FLIR:C:Mono2:Over1:1:SizeY 200
+18ID:FLIR:C:Mono2:Over1:1:SizeY 1000000
 18ID:FLIR:C:Mono2:Over1:1:WidthXLink.DOL CP NPP MS
 18ID:FLIR:C:Mono2:Over1:1:WidthX 2
 18ID:FLIR:C:Mono2:Over1:1:WidthYLink.DOL CP NPP MS
@@ -1993,7 +1993,7 @@
 18ID:FLIR:C:Mono2:Over1:1:Blue 1
 18ID:FLIR:C:Mono2:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:1:Font 0
-18ID:FLIR:C:Mono2:Over1:1:DisplayText 
+18ID:FLIR:C:Mono2:Over1:1:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:2:Name ROI2
 18ID:FLIR:C:Mono2:Over1:2:Use 0
 18ID:FLIR:C:Mono2:Over1:2:PositionXLink.DOL 18ID:FLIR:C:Mono2:ROI2:MinX_RBV CP MS
@@ -2015,7 +2015,7 @@
 18ID:FLIR:C:Mono2:Over1:2:Blue 1
 18ID:FLIR:C:Mono2:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:2:Font 0
-18ID:FLIR:C:Mono2:Over1:2:DisplayText 
+18ID:FLIR:C:Mono2:Over1:2:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:3:Name ROI3
 18ID:FLIR:C:Mono2:Over1:3:Use 0
 18ID:FLIR:C:Mono2:Over1:3:PositionXLink.DOL 18ID:FLIR:C:Mono2:ROI3:MinX_RBV CP MS
@@ -2037,7 +2037,7 @@
 18ID:FLIR:C:Mono2:Over1:3:Blue 1
 18ID:FLIR:C:Mono2:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:3:Font 0
-18ID:FLIR:C:Mono2:Over1:3:DisplayText 
+18ID:FLIR:C:Mono2:Over1:3:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:4:Name ROI4
 18ID:FLIR:C:Mono2:Over1:4:Use 0
 18ID:FLIR:C:Mono2:Over1:4:PositionXLink.DOL 18ID:FLIR:C:Mono2:ROI4:MinX_RBV CP MS
@@ -2059,7 +2059,7 @@
 18ID:FLIR:C:Mono2:Over1:4:Blue 1
 18ID:FLIR:C:Mono2:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:4:Font 0
-18ID:FLIR:C:Mono2:Over1:4:DisplayText 
+18ID:FLIR:C:Mono2:Over1:4:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:5:Name Cursor1
 18ID:FLIR:C:Mono2:Over1:5:Use 0
 18ID:FLIR:C:Mono2:Over1:5:PositionXLink.DOL junk CP MS
@@ -2081,7 +2081,7 @@
 18ID:FLIR:C:Mono2:Over1:5:Blue 1
 18ID:FLIR:C:Mono2:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:5:Font 0
-18ID:FLIR:C:Mono2:Over1:5:DisplayText 
+18ID:FLIR:C:Mono2:Over1:5:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:6:Name Cursor2
 18ID:FLIR:C:Mono2:Over1:6:Use 0
 18ID:FLIR:C:Mono2:Over1:6:PositionXLink.DOL junk CP MS
@@ -2103,7 +2103,7 @@
 18ID:FLIR:C:Mono2:Over1:6:Blue 1
 18ID:FLIR:C:Mono2:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:6:Font 0
-18ID:FLIR:C:Mono2:Over1:6:DisplayText 
+18ID:FLIR:C:Mono2:Over1:6:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:7:Name Box1
 18ID:FLIR:C:Mono2:Over1:7:Use 0
 18ID:FLIR:C:Mono2:Over1:7:PositionXLink.DOL junk CP MS
@@ -2125,7 +2125,7 @@
 18ID:FLIR:C:Mono2:Over1:7:Blue 1
 18ID:FLIR:C:Mono2:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:7:Font 0
-18ID:FLIR:C:Mono2:Over1:7:DisplayText 
+18ID:FLIR:C:Mono2:Over1:7:DisplayText 0
 18ID:FLIR:C:Mono2:Over1:8:Name Box2
 18ID:FLIR:C:Mono2:Over1:8:Use 0
 18ID:FLIR:C:Mono2:Over1:8:PositionXLink.DOL junk CP MS
@@ -2147,7 +2147,7 @@
 18ID:FLIR:C:Mono2:Over1:8:Blue 1
 18ID:FLIR:C:Mono2:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:C:Mono2:Over1:8:Font 0
-18ID:FLIR:C:Mono2:Over1:8:DisplayText 
+18ID:FLIR:C:Mono2:Over1:8:DisplayText 0
 18ID:FLIR:C:Mono2:CC1:ColorModeOut 0
 18ID:FLIR:C:Mono2:CC1:NDArrayPort SP1
 18ID:FLIR:C:Mono2:CC1:NDArrayAddress 0
@@ -2163,8 +2163,8 @@
 18ID:FLIR:C:Mono2:CC1:DataType 0
 18ID:FLIR:C:Mono2:CC1:ColorMode 0
 18ID:FLIR:C:Mono2:CC1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:CC1:NDAttributesFile 
-18ID:FLIR:C:Mono2:CC1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:CC1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:CC1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:CC1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:CC1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:CC1:WaitForPlugins 0
@@ -2183,14 +2183,14 @@
 18ID:FLIR:C:Mono2:CC2:DataType 0
 18ID:FLIR:C:Mono2:CC2:ColorMode 0
 18ID:FLIR:C:Mono2:CC2:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:CC2:NDAttributesFile 
-18ID:FLIR:C:Mono2:CC2:NDAttributesMacros 
+18ID:FLIR:C:Mono2:CC2:NDAttributesFile 0
+18ID:FLIR:C:Mono2:CC2:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:CC2:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:CC2:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:CC2:WaitForPlugins 0
 18ID:FLIR:C:Mono2:CB1:TriggerA 
 18ID:FLIR:C:Mono2:CB1:TriggerB 
-18ID:FLIR:C:Mono2:CB1:TriggerCalc 
+18ID:FLIR:C:Mono2:CB1:TriggerCalc 0
 18ID:FLIR:C:Mono2:CB1:PreCount 100
 18ID:FLIR:C:Mono2:CB1:PostCount 100
 18ID:FLIR:C:Mono2:CB1:PresetTriggerCount 1
@@ -2209,8 +2209,8 @@
 18ID:FLIR:C:Mono2:CB1:DataType 0
 18ID:FLIR:C:Mono2:CB1:ColorMode 0
 18ID:FLIR:C:Mono2:CB1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:CB1:NDAttributesFile 
-18ID:FLIR:C:Mono2:CB1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:CB1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:CB1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:CB1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:CB1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:CB1:WaitForPlugins 0
@@ -2233,8 +2233,8 @@
 18ID:FLIR:C:Mono2:Attr1:TS:DataType 0
 18ID:FLIR:C:Mono2:Attr1:TS:ColorMode 0
 18ID:FLIR:C:Mono2:Attr1:TS:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Attr1:TS:NDAttributesFile 
-18ID:FLIR:C:Mono2:Attr1:TS:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Attr1:TS:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Attr1:TS:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Attr1:TS:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Attr1:TS:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Attr1:TS:WaitForPlugins 0
@@ -2252,19 +2252,19 @@
 18ID:FLIR:C:Mono2:Attr1:DataType 0
 18ID:FLIR:C:Mono2:Attr1:ColorMode 0
 18ID:FLIR:C:Mono2:Attr1:ArrayCallbacks 0
-18ID:FLIR:C:Mono2:Attr1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Attr1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Attr1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Attr1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Attr1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Attr1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Attr1:WaitForPlugins 0
-18ID:FLIR:C:Mono2:Attr1:1:AttrName 
-18ID:FLIR:C:Mono2:Attr1:2:AttrName 
-18ID:FLIR:C:Mono2:Attr1:3:AttrName 
-18ID:FLIR:C:Mono2:Attr1:4:AttrName 
-18ID:FLIR:C:Mono2:Attr1:5:AttrName 
-18ID:FLIR:C:Mono2:Attr1:6:AttrName 
-18ID:FLIR:C:Mono2:Attr1:7:AttrName 
-18ID:FLIR:C:Mono2:Attr1:8:AttrName 
+18ID:FLIR:C:Mono2:Attr1:1:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:2:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:3:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:4:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:5:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:6:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:7:AttrName 0
+18ID:FLIR:C:Mono2:Attr1:8:AttrName 0
 18ID:FLIR:C:Mono2:FFT1:NDArrayPort SP1
 18ID:FLIR:C:Mono2:FFT1:NDArrayAddress 0
 18ID:FLIR:C:Mono2:FFT1:EnableCallbacks 0
@@ -2279,8 +2279,8 @@
 18ID:FLIR:C:Mono2:FFT1:DataType 0
 18ID:FLIR:C:Mono2:FFT1:ColorMode 0
 18ID:FLIR:C:Mono2:FFT1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:FFT1:NDAttributesFile 
-18ID:FLIR:C:Mono2:FFT1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:FFT1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:FFT1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:FFT1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:FFT1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:FFT1:WaitForPlugins 0
@@ -2309,8 +2309,8 @@
 18ID:FLIR:C:Mono2:Codec1:DataType 0
 18ID:FLIR:C:Mono2:Codec1:ColorMode 0
 18ID:FLIR:C:Mono2:Codec1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Codec1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Codec1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Codec1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Codec1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Codec1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Codec1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Codec1:WaitForPlugins 0
@@ -2335,12 +2335,12 @@
 18ID:FLIR:C:Mono2:Codec2:DataType 0
 18ID:FLIR:C:Mono2:Codec2:ColorMode 0
 18ID:FLIR:C:Mono2:Codec2:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Codec2:NDAttributesFile 
-18ID:FLIR:C:Mono2:Codec2:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Codec2:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Codec2:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Codec2:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Codec2:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Codec2:WaitForPlugins 0
-18ID:FLIR:C:Mono2:BadPix1:FileName 
+18ID:FLIR:C:Mono2:BadPix1:FileName 0
 18ID:FLIR:C:Mono2:BadPix1:NDArrayPort SP1
 18ID:FLIR:C:Mono2:BadPix1:NDArrayAddress 0
 18ID:FLIR:C:Mono2:BadPix1:EnableCallbacks 0
@@ -2355,8 +2355,8 @@
 18ID:FLIR:C:Mono2:BadPix1:DataType 0
 18ID:FLIR:C:Mono2:BadPix1:ColorMode 0
 18ID:FLIR:C:Mono2:BadPix1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:BadPix1:NDAttributesFile 
-18ID:FLIR:C:Mono2:BadPix1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:BadPix1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:BadPix1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:BadPix1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:BadPix1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:BadPix1:WaitForPlugins 0
@@ -2374,8 +2374,8 @@
 18ID:FLIR:C:Mono2:Pva1:DataType 0
 18ID:FLIR:C:Mono2:Pva1:ColorMode 0
 18ID:FLIR:C:Mono2:Pva1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:Pva1:NDAttributesFile 
-18ID:FLIR:C:Mono2:Pva1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:Pva1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:Pva1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:Pva1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:Pva1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:Pva1:WaitForPlugins 0
@@ -2393,8 +2393,8 @@
 18ID:FLIR:C:Mono2:ffmstream1:DataType 0
 18ID:FLIR:C:Mono2:ffmstream1:ColorMode 0
 18ID:FLIR:C:Mono2:ffmstream1:ArrayCallbacks 1
-18ID:FLIR:C:Mono2:ffmstream1:NDAttributesFile 
-18ID:FLIR:C:Mono2:ffmstream1:NDAttributesMacros 
+18ID:FLIR:C:Mono2:ffmstream1:NDAttributesFile 0
+18ID:FLIR:C:Mono2:ffmstream1:NDAttributesMacros 0
 18ID:FLIR:C:Mono2:ffmstream1:PoolPollStats.SCAN 6
 18ID:FLIR:C:Mono2:ffmstream1:NumPreAllocBuffers 100
 18ID:FLIR:C:Mono2:ffmstream1:WaitForPlugins 0
