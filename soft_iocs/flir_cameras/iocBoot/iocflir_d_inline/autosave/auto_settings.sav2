@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250818-103040
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250923-123736
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Inline:cam1:BinX 1
 18ID:FLIR:D:Inline:cam1:BinY 1
@@ -8,9 +8,9 @@
 18ID:FLIR:D:Inline:cam1:SizeY 1200
 18ID:FLIR:D:Inline:cam1:ReverseX 0
 18ID:FLIR:D:Inline:cam1:ReverseY 0
-18ID:FLIR:D:Inline:cam1:AcquireTime 0.02
-18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.05001588
-18ID:FLIR:D:Inline:cam1:Gain 20
+18ID:FLIR:D:Inline:cam1:AcquireTime 0.024
+18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.024329432
+18ID:FLIR:D:Inline:cam1:Gain 40
 18ID:FLIR:D:Inline:cam1:FrameType 0
 18ID:FLIR:D:Inline:cam1:ImageMode 2
 18ID:FLIR:D:Inline:cam1:TriggerMode 0
@@ -40,8 +40,8 @@
 18ID:FLIR:D:Inline:cam1:TriggerSource 0
 18ID:FLIR:D:Inline:cam1:TriggerOverlap 0
 18ID:FLIR:D:Inline:cam1:ExposureMode 0
-18ID:FLIR:D:Inline:cam1:ExposureAuto 2
-18ID:FLIR:D:Inline:cam1:GainAuto 2
+18ID:FLIR:D:Inline:cam1:ExposureAuto 1
+18ID:FLIR:D:Inline:cam1:GainAuto 0
 18ID:FLIR:D:Inline:cam1:PixelFormat 3
 18ID:FLIR:D:Inline:cam1:TimeStampMode 0
 18ID:FLIR:D:Inline:cam1:UniqueIdMode 0
@@ -1975,9 +1975,9 @@
 18ID:FLIR:D:Inline:Over1:1:Name ROI1
 18ID:FLIR:D:Inline:Over1:1:Use 1
 18ID:FLIR:D:Inline:Over1:1:PositionXLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:PositionX 150
+18ID:FLIR:D:Inline:Over1:1:PositionX 869
 18ID:FLIR:D:Inline:Over1:1:PositionYLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:PositionY 150
+18ID:FLIR:D:Inline:Over1:1:PositionY 507
 18ID:FLIR:D:Inline:Over1:1:SizeXLink.DOL CP NPP MS
 18ID:FLIR:D:Inline:Over1:1:SizeX 100
 18ID:FLIR:D:Inline:Over1:1:SizeYLink.DOL CP NPP MS

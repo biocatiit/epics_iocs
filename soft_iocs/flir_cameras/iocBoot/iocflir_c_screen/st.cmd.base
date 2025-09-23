@@ -9,7 +9,7 @@ epicsEnvSet("QSIZE",  "2000")
 # The maximim image width; used for row profiles in the NDPluginStats plugin
 epicsEnvSet("XSIZE",  "1920")
 # The maximim image height; used for column profiles in the NDPluginStats plugin
-epicsEnvSet("YSIZE",  "1080")
+epicsEnvSet("YSIZE",  "1200")
 # The maximum number of time series points in the NDPluginStats plugin
 epicsEnvSet("NCHANS", "2048")
 # The maximum number of frames buffered in the NDPluginCircularBuff plugin
@@ -19,8 +19,8 @@ epicsEnvSet("CBUFFS", "500")
 #epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(ADCORE)/db;$(ADGENICAM)/db;$(ADSPINNAKER)/db")
 # This is for Linux
 epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(ADCORE)/db:$(ADGENICAM)/db:$(ADSPINNAKER)/db")
-# Define NELEMENTS to be enough for a 1920*1080*3 (color) image
-epicsEnvSet("NELEMENTS", "6220800")
+# Define NELEMENTS to be enough for a 1920*1200*1 (mono) image
+epicsEnvSet("NELEMENTS", "2304000")
 #Set EPICS_CA_MAX_ARRAY_BYTES if using standard array plugins
 epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", "2400000")
 
