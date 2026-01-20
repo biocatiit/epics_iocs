@@ -4,8 +4,8 @@ pattern
 {P,    N,   M,         DTYP,     PORT, ADDR, DESC,      EGU,     DIR,   VELO,  VBAS, ACCL, BDST, BVEL, BACC,    MRES, PREC,   DHLM,   DLLM, INIT}
 #{18ID_Newport_D:, 1, "m$(N)", "asynMotor",  XPS1,  0, "Dummy1",   degrees,  Neg,    4.0,   0.1,   .5,    0,    1,   .2,    .00025,   4,    190, -190, ""}
 #{18ID_Newport_D:, 2, "m$(N)", "asynMotor",  XPS1,  1, "Dummy1",   degrees,  Neg,    4.0,   0.1,   .5,    0,    1,   .2,    .00025,   4,    190, -190, ""}
-{18ID_Newport_D:,  7,  "m$(N)",  "asynMotor",  XPS1,  2,     "scan X",    mm,    Pos,  50.,     0,    0.25,    0,     1,    .2,    0.0005,  4,     25.0,     -25.0,      ""}
-{18ID_Newport_D:,  7,  "m$(N)",  "asynMotor",  XPS1,  3,     "scan Y",    mm,    Pos,  50.,     0,    0.25,    0,     1,    .2,    0.0005,  4,     25.0,     -25.0,      ""}
+{18ID_Newport_D:,  3,  "m$(N)",  "asynMotor",  XPS1,  2,     "scan X",    mm,    Pos,  50.,     0,    0.25,    0,     1,    .2,    0.0005,  4,     25.0,     -25.0,      ""}
+{18ID_Newport_D:,  4,  "m$(N)",  "asynMotor",  XPS1,  3,     "scan Y",    mm,    Pos,  50.,     0,    0.25,    0,     1,    .2,    0.0005,  4,     25.0,     -25.0,      ""}
 #{18ID_Newport_D:, 5, "m$(N)", "asynMotor",  XPS1,  4, "Dummy1",   degrees,  Neg,    4.0,   0.1,   .5,    0,    1,   .2,    .00025,   4,    190, -190, ""}
 {18ID_Newport_D:,  6,  "m$(N)",  "asynMotor",  XPS1,  5,     "size Rot",  deg,   Pos,  20.,     0,    0.25,    0,     1,    .2,    0.02,    2,     1000000.0,  -1000000.0,      ""}
 {18ID_Newport_D:,  7,  "m$(N)",  "asynMotor",  XPS1,  6,     "size X",    mm,    Pos,  50.,     0,    0.25,    0,     1,    .2,    0.0005,  4,     25.0,     -25.0,      ""}

@@ -1,0 +1,2401 @@
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250923-124523
+! 7 channel(s) not connected - or not all gets were successful
+18ID:FLIR:D:Tripod:cam1:BinX 1
+18ID:FLIR:D:Tripod:cam1:BinY 1
+18ID:FLIR:D:Tripod:cam1:MinX 0
+18ID:FLIR:D:Tripod:cam1:MinY 0
+18ID:FLIR:D:Tripod:cam1:SizeX 1920
+18ID:FLIR:D:Tripod:cam1:SizeY 1200
+18ID:FLIR:D:Tripod:cam1:ReverseX 0
+18ID:FLIR:D:Tripod:cam1:ReverseY 0
+18ID:FLIR:D:Tripod:cam1:AcquireTime 0.025
+18ID:FLIR:D:Tripod:cam1:AcquirePeriod 0.025007944
+18ID:FLIR:D:Tripod:cam1:Gain 30
+18ID:FLIR:D:Tripod:cam1:FrameType 0
+18ID:FLIR:D:Tripod:cam1:ImageMode 2
+18ID:FLIR:D:Tripod:cam1:TriggerMode 0
+18ID:FLIR:D:Tripod:cam1:NumExposures 1
+18ID:FLIR:D:Tripod:cam1:NumImages 2
+18ID:FLIR:D:Tripod:cam1:ShutterMode 0
+18ID:FLIR:D:Tripod:cam1:ShutterOpenDelay 0
+18ID:FLIR:D:Tripod:cam1:ShutterCloseDelay 0
+18ID:FLIR:D:Tripod:cam1:ShutterOpenEPICS.OUT 
+18ID:FLIR:D:Tripod:cam1:ShutterCloseEPICS.OUT 
+18ID:FLIR:D:Tripod:cam1:ShutterOpenEPICS.OCAL 1
+18ID:FLIR:D:Tripod:cam1:ShutterCloseEPICS.OCAL 0
+18ID:FLIR:D:Tripod:cam1:ShutterStatusEPICS_RBV.INP test CP MS
+18ID:FLIR:D:Tripod:cam1:ShutterStatusEPICS_RBV.ZRVL 0
+18ID:FLIR:D:Tripod:cam1:ShutterStatusEPICS_RBV.ONVL 1
+18ID:FLIR:D:Tripod:cam1:Temperature 25
+18ID:FLIR:D:Tripod:cam1:ReadStatus.SCAN 0
+18ID:FLIR:D:Tripod:cam1:DataType 1
+18ID:FLIR:D:Tripod:cam1:ColorMode 0
+18ID:FLIR:D:Tripod:cam1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:cam1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:cam1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:cam1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:cam1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:cam1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:cam1:FrameRateEnable 1
+18ID:FLIR:D:Tripod:cam1:TriggerSource 0
+18ID:FLIR:D:Tripod:cam1:TriggerOverlap 0
+18ID:FLIR:D:Tripod:cam1:ExposureMode 0
+18ID:FLIR:D:Tripod:cam1:ExposureAuto 0
+18ID:FLIR:D:Tripod:cam1:GainAuto 0
+18ID:FLIR:D:Tripod:cam1:PixelFormat 3
+18ID:FLIR:D:Tripod:cam1:TimeStampMode 0
+18ID:FLIR:D:Tripod:cam1:UniqueIdMode 0
+18ID:FLIR:D:Tripod:cam1:ConvertPixelFormat 4
+18ID:FLIR:D:Tripod:cam1:GC_BlackLevel 0
+#18ID:FLIR:D:Tripod:cam1:GC_BlackLevelAuto Search Issued
+18ID:FLIR:D:Tripod:cam1:GC_BalanceRatio 1.2244873046875
+18ID:FLIR:D:Tripod:cam1:GC_BalRatioSelector 0
+18ID:FLIR:D:Tripod:cam1:GC_BalanceWhiteAuto 2
+18ID:FLIR:D:Tripod:cam1:GC_Saturation 0
+#18ID:FLIR:D:Tripod:cam1:GC_SaturationEnabled Search Issued
+18ID:FLIR:D:Tripod:cam1:GC_Gamma 0.800048828125
+#18ID:FLIR:D:Tripod:cam1:GC_GammaEnabled Search Issued
+#18ID:FLIR:D:Tripod:cam1:GC_Sharpness Search Issued
+#18ID:FLIR:D:Tripod:cam1:GC_SharpnessAuto Search Issued
+#18ID:FLIR:D:Tripod:cam1:GC_SharpnessEnabled Search Issued
+18ID:FLIR:D:Tripod:cam1:GC_TriggerActivation 0
+18ID:FLIR:D:Tripod:cam1:GC_TriggerDelay 4e-05
+#18ID:FLIR:D:Tripod:cam1:GC_TriDelayEnabled Search Issued
+18ID:FLIR:D:Tripod:image1:NDArrayPort OVER1
+18ID:FLIR:D:Tripod:image1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:image1:EnableCallbacks 1
+18ID:FLIR:D:Tripod:image1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:image1:MaxByteRate 0
+18ID:FLIR:D:Tripod:image1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:image1:QueueSize 5
+18ID:FLIR:D:Tripod:image1:NumThreads 1
+18ID:FLIR:D:Tripod:image1:SortTime 0.1
+18ID:FLIR:D:Tripod:image1:SortMode 0
+18ID:FLIR:D:Tripod:image1:SortSize 20
+18ID:FLIR:D:Tripod:image1:DataType 0
+18ID:FLIR:D:Tripod:image1:ColorMode 0
+18ID:FLIR:D:Tripod:image1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:image1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:image1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:image1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:image1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:image1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:netCDF1:FilePath 0
+18ID:FLIR:D:Tripod:netCDF1:FileName 0
+18ID:FLIR:D:Tripod:netCDF1:FileNumber 0
+18ID:FLIR:D:Tripod:netCDF1:AutoIncrement 0
+18ID:FLIR:D:Tripod:netCDF1:FileTemplate 0
+18ID:FLIR:D:Tripod:netCDF1:AutoSave 0
+18ID:FLIR:D:Tripod:netCDF1:FileFormat 0
+18ID:FLIR:D:Tripod:netCDF1:FileWriteMode 0
+18ID:FLIR:D:Tripod:netCDF1:NumCapture 1
+18ID:FLIR:D:Tripod:netCDF1:DeleteDriverFile 0
+18ID:FLIR:D:Tripod:netCDF1:CreateDirectory 0
+18ID:FLIR:D:Tripod:netCDF1:LazyOpen 0
+18ID:FLIR:D:Tripod:netCDF1:TempSuffix 
+18ID:FLIR:D:Tripod:netCDF1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:netCDF1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:netCDF1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:netCDF1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:netCDF1:MaxByteRate 0
+18ID:FLIR:D:Tripod:netCDF1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:netCDF1:QueueSize 2000
+18ID:FLIR:D:Tripod:netCDF1:NumThreads 1
+18ID:FLIR:D:Tripod:netCDF1:SortTime 0.1
+18ID:FLIR:D:Tripod:netCDF1:SortMode 0
+18ID:FLIR:D:Tripod:netCDF1:SortSize 20
+18ID:FLIR:D:Tripod:netCDF1:DataType 0
+18ID:FLIR:D:Tripod:netCDF1:ColorMode 0
+18ID:FLIR:D:Tripod:netCDF1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:netCDF1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:netCDF1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:netCDF1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:netCDF1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:netCDF1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:TIFF1:FilePath 0
+18ID:FLIR:D:Tripod:TIFF1:FileName 0
+18ID:FLIR:D:Tripod:TIFF1:FileNumber 0
+18ID:FLIR:D:Tripod:TIFF1:AutoIncrement 0
+18ID:FLIR:D:Tripod:TIFF1:FileTemplate 0
+18ID:FLIR:D:Tripod:TIFF1:AutoSave 0
+18ID:FLIR:D:Tripod:TIFF1:FileFormat 0
+18ID:FLIR:D:Tripod:TIFF1:FileWriteMode 0
+18ID:FLIR:D:Tripod:TIFF1:NumCapture 1
+18ID:FLIR:D:Tripod:TIFF1:DeleteDriverFile 0
+18ID:FLIR:D:Tripod:TIFF1:CreateDirectory 0
+18ID:FLIR:D:Tripod:TIFF1:LazyOpen 0
+18ID:FLIR:D:Tripod:TIFF1:TempSuffix 
+18ID:FLIR:D:Tripod:TIFF1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:TIFF1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:TIFF1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:TIFF1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:TIFF1:MaxByteRate 0
+18ID:FLIR:D:Tripod:TIFF1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:TIFF1:QueueSize 2000
+18ID:FLIR:D:Tripod:TIFF1:NumThreads 1
+18ID:FLIR:D:Tripod:TIFF1:SortTime 0.1
+18ID:FLIR:D:Tripod:TIFF1:SortMode 0
+18ID:FLIR:D:Tripod:TIFF1:SortSize 20
+18ID:FLIR:D:Tripod:TIFF1:DataType 0
+18ID:FLIR:D:Tripod:TIFF1:ColorMode 0
+18ID:FLIR:D:Tripod:TIFF1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:TIFF1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:TIFF1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:TIFF1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:TIFF1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:TIFF1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:JPEG1:JPEGQuality 50
+18ID:FLIR:D:Tripod:JPEG1:FilePath 0
+18ID:FLIR:D:Tripod:JPEG1:FileName 0
+18ID:FLIR:D:Tripod:JPEG1:FileNumber 0
+18ID:FLIR:D:Tripod:JPEG1:AutoIncrement 0
+18ID:FLIR:D:Tripod:JPEG1:FileTemplate 0
+18ID:FLIR:D:Tripod:JPEG1:AutoSave 0
+18ID:FLIR:D:Tripod:JPEG1:FileFormat 0
+18ID:FLIR:D:Tripod:JPEG1:FileWriteMode 0
+18ID:FLIR:D:Tripod:JPEG1:NumCapture 1
+18ID:FLIR:D:Tripod:JPEG1:DeleteDriverFile 0
+18ID:FLIR:D:Tripod:JPEG1:CreateDirectory 0
+18ID:FLIR:D:Tripod:JPEG1:LazyOpen 0
+18ID:FLIR:D:Tripod:JPEG1:TempSuffix 
+18ID:FLIR:D:Tripod:JPEG1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:JPEG1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:JPEG1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:JPEG1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:JPEG1:MaxByteRate 0
+18ID:FLIR:D:Tripod:JPEG1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:JPEG1:QueueSize 2000
+18ID:FLIR:D:Tripod:JPEG1:NumThreads 1
+18ID:FLIR:D:Tripod:JPEG1:SortTime 0.1
+18ID:FLIR:D:Tripod:JPEG1:SortMode 0
+18ID:FLIR:D:Tripod:JPEG1:SortSize 20
+18ID:FLIR:D:Tripod:JPEG1:DataType 0
+18ID:FLIR:D:Tripod:JPEG1:ColorMode 0
+18ID:FLIR:D:Tripod:JPEG1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:JPEG1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:JPEG1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:JPEG1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:JPEG1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:JPEG1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Nexus1:TemplateFilePath 0
+18ID:FLIR:D:Tripod:Nexus1:TemplateFileName 0
+18ID:FLIR:D:Tripod:Nexus1:FilePath 0
+18ID:FLIR:D:Tripod:Nexus1:FileName 0
+18ID:FLIR:D:Tripod:Nexus1:FileNumber 0
+18ID:FLIR:D:Tripod:Nexus1:AutoIncrement 0
+18ID:FLIR:D:Tripod:Nexus1:FileTemplate 0
+18ID:FLIR:D:Tripod:Nexus1:AutoSave 0
+18ID:FLIR:D:Tripod:Nexus1:FileFormat 0
+18ID:FLIR:D:Tripod:Nexus1:FileWriteMode 0
+18ID:FLIR:D:Tripod:Nexus1:NumCapture 1
+18ID:FLIR:D:Tripod:Nexus1:DeleteDriverFile 0
+18ID:FLIR:D:Tripod:Nexus1:CreateDirectory 0
+18ID:FLIR:D:Tripod:Nexus1:LazyOpen 0
+18ID:FLIR:D:Tripod:Nexus1:TempSuffix 
+18ID:FLIR:D:Tripod:Nexus1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Nexus1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Nexus1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Nexus1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Nexus1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Nexus1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Nexus1:QueueSize 2000
+18ID:FLIR:D:Tripod:Nexus1:NumThreads 1
+18ID:FLIR:D:Tripod:Nexus1:SortTime 0.1
+18ID:FLIR:D:Tripod:Nexus1:SortMode 0
+18ID:FLIR:D:Tripod:Nexus1:SortSize 20
+18ID:FLIR:D:Tripod:Nexus1:DataType 0
+18ID:FLIR:D:Tripod:Nexus1:ColorMode 0
+18ID:FLIR:D:Tripod:Nexus1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:Nexus1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Nexus1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Nexus1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Nexus1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Nexus1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSizeAuto 1
+18ID:FLIR:D:Tripod:HDF1:NumRowChunks 0
+18ID:FLIR:D:Tripod:HDF1:NumColChunks 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize2 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize3 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize4 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize5 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize6 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize7 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize8 0
+18ID:FLIR:D:Tripod:HDF1:ChunkSize9 0
+18ID:FLIR:D:Tripod:HDF1:NumFramesChunks 0
+18ID:FLIR:D:Tripod:HDF1:BoundaryAlign 0
+18ID:FLIR:D:Tripod:HDF1:BoundaryThreshold 65536
+18ID:FLIR:D:Tripod:HDF1:NumFramesFlush 0
+18ID:FLIR:D:Tripod:HDF1:Compression 0
+18ID:FLIR:D:Tripod:HDF1:NumDataBits 8
+18ID:FLIR:D:Tripod:HDF1:DataBitsOffset 0
+18ID:FLIR:D:Tripod:HDF1:SZipNumPixels 16
+18ID:FLIR:D:Tripod:HDF1:ZLevel 6
+18ID:FLIR:D:Tripod:HDF1:BloscShuffle 1
+18ID:FLIR:D:Tripod:HDF1:BloscCompressor 0
+18ID:FLIR:D:Tripod:HDF1:BloscLevel 5
+18ID:FLIR:D:Tripod:HDF1:JPEGQuality 90
+18ID:FLIR:D:Tripod:HDF1:StorePerform 1
+18ID:FLIR:D:Tripod:HDF1:StoreAttr 1
+18ID:FLIR:D:Tripod:HDF1:NumExtraDims 0
+18ID:FLIR:D:Tripod:HDF1:ExtraDimSizeN 1
+18ID:FLIR:D:Tripod:HDF1:ExtraDimSizeX 1
+18ID:FLIR:D:Tripod:HDF1:ExtraDimSizeY 1
+18ID:FLIR:D:Tripod:HDF1:XMLFileName 0
+18ID:FLIR:D:Tripod:HDF1:SWMRMode 0
+18ID:FLIR:D:Tripod:HDF1:FilePath 0
+18ID:FLIR:D:Tripod:HDF1:FileName 0
+18ID:FLIR:D:Tripod:HDF1:FileNumber 0
+18ID:FLIR:D:Tripod:HDF1:AutoIncrement 0
+18ID:FLIR:D:Tripod:HDF1:FileTemplate 0
+18ID:FLIR:D:Tripod:HDF1:AutoSave 0
+18ID:FLIR:D:Tripod:HDF1:FileFormat 0
+18ID:FLIR:D:Tripod:HDF1:FileWriteMode 0
+18ID:FLIR:D:Tripod:HDF1:NumCapture 1
+18ID:FLIR:D:Tripod:HDF1:DeleteDriverFile 0
+18ID:FLIR:D:Tripod:HDF1:CreateDirectory 0
+18ID:FLIR:D:Tripod:HDF1:LazyOpen 0
+18ID:FLIR:D:Tripod:HDF1:TempSuffix 
+18ID:FLIR:D:Tripod:HDF1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:HDF1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:HDF1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:HDF1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:HDF1:MaxByteRate 0
+18ID:FLIR:D:Tripod:HDF1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:HDF1:QueueSize 2000
+18ID:FLIR:D:Tripod:HDF1:NumThreads 1
+18ID:FLIR:D:Tripod:HDF1:SortTime 0.1
+18ID:FLIR:D:Tripod:HDF1:SortMode 0
+18ID:FLIR:D:Tripod:HDF1:SortSize 20
+18ID:FLIR:D:Tripod:HDF1:DataType 0
+18ID:FLIR:D:Tripod:HDF1:ColorMode 0
+18ID:FLIR:D:Tripod:HDF1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:HDF1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:HDF1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:HDF1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:HDF1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:HDF1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:ROI1:Name 
+18ID:FLIR:D:Tripod:ROI1:DataTypeOut 10
+18ID:FLIR:D:Tripod:ROI1:BinX 1
+18ID:FLIR:D:Tripod:ROI1:BinY 1
+18ID:FLIR:D:Tripod:ROI1:BinZ 1
+18ID:FLIR:D:Tripod:ROI1:MinX 0
+18ID:FLIR:D:Tripod:ROI1:MinY 0
+18ID:FLIR:D:Tripod:ROI1:MinZ 0
+18ID:FLIR:D:Tripod:ROI1:SizeX 1000000
+18ID:FLIR:D:Tripod:ROI1:SizeY 1000000
+18ID:FLIR:D:Tripod:ROI1:SizeZ 1000000
+18ID:FLIR:D:Tripod:ROI1:ReverseX 0
+18ID:FLIR:D:Tripod:ROI1:ReverseY 0
+18ID:FLIR:D:Tripod:ROI1:ReverseZ 0
+18ID:FLIR:D:Tripod:ROI1:AutoSizeX 0
+18ID:FLIR:D:Tripod:ROI1:AutoSizeY 0
+18ID:FLIR:D:Tripod:ROI1:AutoSizeZ 0
+18ID:FLIR:D:Tripod:ROI1:EnableX 1
+18ID:FLIR:D:Tripod:ROI1:EnableY 1
+18ID:FLIR:D:Tripod:ROI1:EnableZ 1
+18ID:FLIR:D:Tripod:ROI1:EnableScale 0
+18ID:FLIR:D:Tripod:ROI1:Scale 1
+18ID:FLIR:D:Tripod:ROI1:CollapseDims 0
+18ID:FLIR:D:Tripod:ROI1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:ROI1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:ROI1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:ROI1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:ROI1:MaxByteRate 0
+18ID:FLIR:D:Tripod:ROI1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:ROI1:QueueSize 2000
+18ID:FLIR:D:Tripod:ROI1:NumThreads 1
+18ID:FLIR:D:Tripod:ROI1:SortTime 0.1
+18ID:FLIR:D:Tripod:ROI1:SortMode 0
+18ID:FLIR:D:Tripod:ROI1:SortSize 20
+18ID:FLIR:D:Tripod:ROI1:DataType 0
+18ID:FLIR:D:Tripod:ROI1:ColorMode 0
+18ID:FLIR:D:Tripod:ROI1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:ROI1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:ROI1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:ROI1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:ROI1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:ROI2:Name 
+18ID:FLIR:D:Tripod:ROI2:DataTypeOut 10
+18ID:FLIR:D:Tripod:ROI2:BinX 1
+18ID:FLIR:D:Tripod:ROI2:BinY 1
+18ID:FLIR:D:Tripod:ROI2:BinZ 1
+18ID:FLIR:D:Tripod:ROI2:MinX 0
+18ID:FLIR:D:Tripod:ROI2:MinY 0
+18ID:FLIR:D:Tripod:ROI2:MinZ 0
+18ID:FLIR:D:Tripod:ROI2:SizeX 1000000
+18ID:FLIR:D:Tripod:ROI2:SizeY 1000000
+18ID:FLIR:D:Tripod:ROI2:SizeZ 1000000
+18ID:FLIR:D:Tripod:ROI2:ReverseX 0
+18ID:FLIR:D:Tripod:ROI2:ReverseY 0
+18ID:FLIR:D:Tripod:ROI2:ReverseZ 0
+18ID:FLIR:D:Tripod:ROI2:AutoSizeX 0
+18ID:FLIR:D:Tripod:ROI2:AutoSizeY 0
+18ID:FLIR:D:Tripod:ROI2:AutoSizeZ 0
+18ID:FLIR:D:Tripod:ROI2:EnableX 1
+18ID:FLIR:D:Tripod:ROI2:EnableY 1
+18ID:FLIR:D:Tripod:ROI2:EnableZ 1
+18ID:FLIR:D:Tripod:ROI2:EnableScale 0
+18ID:FLIR:D:Tripod:ROI2:Scale 1
+18ID:FLIR:D:Tripod:ROI2:CollapseDims 0
+18ID:FLIR:D:Tripod:ROI2:NDArrayPort SP1
+18ID:FLIR:D:Tripod:ROI2:NDArrayAddress 0
+18ID:FLIR:D:Tripod:ROI2:EnableCallbacks 0
+18ID:FLIR:D:Tripod:ROI2:MinCallbackTime 0
+18ID:FLIR:D:Tripod:ROI2:MaxByteRate 0
+18ID:FLIR:D:Tripod:ROI2:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:ROI2:QueueSize 2000
+18ID:FLIR:D:Tripod:ROI2:NumThreads 1
+18ID:FLIR:D:Tripod:ROI2:SortTime 0.1
+18ID:FLIR:D:Tripod:ROI2:SortMode 0
+18ID:FLIR:D:Tripod:ROI2:SortSize 20
+18ID:FLIR:D:Tripod:ROI2:DataType 0
+18ID:FLIR:D:Tripod:ROI2:ColorMode 0
+18ID:FLIR:D:Tripod:ROI2:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:ROI2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI2:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:ROI2:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:ROI2:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:ROI2:WaitForPlugins 0
+18ID:FLIR:D:Tripod:ROI3:Name 
+18ID:FLIR:D:Tripod:ROI3:DataTypeOut 10
+18ID:FLIR:D:Tripod:ROI3:BinX 1
+18ID:FLIR:D:Tripod:ROI3:BinY 1
+18ID:FLIR:D:Tripod:ROI3:BinZ 1
+18ID:FLIR:D:Tripod:ROI3:MinX 0
+18ID:FLIR:D:Tripod:ROI3:MinY 0
+18ID:FLIR:D:Tripod:ROI3:MinZ 0
+18ID:FLIR:D:Tripod:ROI3:SizeX 1000000
+18ID:FLIR:D:Tripod:ROI3:SizeY 1000000
+18ID:FLIR:D:Tripod:ROI3:SizeZ 1000000
+18ID:FLIR:D:Tripod:ROI3:ReverseX 0
+18ID:FLIR:D:Tripod:ROI3:ReverseY 0
+18ID:FLIR:D:Tripod:ROI3:ReverseZ 0
+18ID:FLIR:D:Tripod:ROI3:AutoSizeX 0
+18ID:FLIR:D:Tripod:ROI3:AutoSizeY 0
+18ID:FLIR:D:Tripod:ROI3:AutoSizeZ 0
+18ID:FLIR:D:Tripod:ROI3:EnableX 1
+18ID:FLIR:D:Tripod:ROI3:EnableY 1
+18ID:FLIR:D:Tripod:ROI3:EnableZ 1
+18ID:FLIR:D:Tripod:ROI3:EnableScale 0
+18ID:FLIR:D:Tripod:ROI3:Scale 1
+18ID:FLIR:D:Tripod:ROI3:CollapseDims 0
+18ID:FLIR:D:Tripod:ROI3:NDArrayPort SP1
+18ID:FLIR:D:Tripod:ROI3:NDArrayAddress 0
+18ID:FLIR:D:Tripod:ROI3:EnableCallbacks 0
+18ID:FLIR:D:Tripod:ROI3:MinCallbackTime 0
+18ID:FLIR:D:Tripod:ROI3:MaxByteRate 0
+18ID:FLIR:D:Tripod:ROI3:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:ROI3:QueueSize 2000
+18ID:FLIR:D:Tripod:ROI3:NumThreads 1
+18ID:FLIR:D:Tripod:ROI3:SortTime 0.1
+18ID:FLIR:D:Tripod:ROI3:SortMode 0
+18ID:FLIR:D:Tripod:ROI3:SortSize 20
+18ID:FLIR:D:Tripod:ROI3:DataType 0
+18ID:FLIR:D:Tripod:ROI3:ColorMode 0
+18ID:FLIR:D:Tripod:ROI3:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:ROI3:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI3:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:ROI3:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:ROI3:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:ROI3:WaitForPlugins 0
+18ID:FLIR:D:Tripod:ROI4:Name 
+18ID:FLIR:D:Tripod:ROI4:DataTypeOut 10
+18ID:FLIR:D:Tripod:ROI4:BinX 1
+18ID:FLIR:D:Tripod:ROI4:BinY 1
+18ID:FLIR:D:Tripod:ROI4:BinZ 1
+18ID:FLIR:D:Tripod:ROI4:MinX 0
+18ID:FLIR:D:Tripod:ROI4:MinY 0
+18ID:FLIR:D:Tripod:ROI4:MinZ 0
+18ID:FLIR:D:Tripod:ROI4:SizeX 1000000
+18ID:FLIR:D:Tripod:ROI4:SizeY 1000000
+18ID:FLIR:D:Tripod:ROI4:SizeZ 1000000
+18ID:FLIR:D:Tripod:ROI4:ReverseX 0
+18ID:FLIR:D:Tripod:ROI4:ReverseY 0
+18ID:FLIR:D:Tripod:ROI4:ReverseZ 0
+18ID:FLIR:D:Tripod:ROI4:AutoSizeX 0
+18ID:FLIR:D:Tripod:ROI4:AutoSizeY 0
+18ID:FLIR:D:Tripod:ROI4:AutoSizeZ 0
+18ID:FLIR:D:Tripod:ROI4:EnableX 1
+18ID:FLIR:D:Tripod:ROI4:EnableY 1
+18ID:FLIR:D:Tripod:ROI4:EnableZ 1
+18ID:FLIR:D:Tripod:ROI4:EnableScale 0
+18ID:FLIR:D:Tripod:ROI4:Scale 1
+18ID:FLIR:D:Tripod:ROI4:CollapseDims 0
+18ID:FLIR:D:Tripod:ROI4:NDArrayPort SP1
+18ID:FLIR:D:Tripod:ROI4:NDArrayAddress 0
+18ID:FLIR:D:Tripod:ROI4:EnableCallbacks 0
+18ID:FLIR:D:Tripod:ROI4:MinCallbackTime 0
+18ID:FLIR:D:Tripod:ROI4:MaxByteRate 0
+18ID:FLIR:D:Tripod:ROI4:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:ROI4:QueueSize 2000
+18ID:FLIR:D:Tripod:ROI4:NumThreads 1
+18ID:FLIR:D:Tripod:ROI4:SortTime 0.1
+18ID:FLIR:D:Tripod:ROI4:SortMode 0
+18ID:FLIR:D:Tripod:ROI4:SortSize 20
+18ID:FLIR:D:Tripod:ROI4:DataType 0
+18ID:FLIR:D:Tripod:ROI4:ColorMode 0
+18ID:FLIR:D:Tripod:ROI4:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:ROI4:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROI4:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:ROI4:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:ROI4:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:ROI4:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Proc1:DataTypeOut 10
+18ID:FLIR:D:Tripod:Proc1:EnableBackground 0
+18ID:FLIR:D:Tripod:Proc1:EnableFlatField 0
+18ID:FLIR:D:Tripod:Proc1:ScaleFlatField 255
+18ID:FLIR:D:Tripod:Proc1:EnableOffsetScale 0
+18ID:FLIR:D:Tripod:Proc1:Offset 0
+18ID:FLIR:D:Tripod:Proc1:Scale 1
+18ID:FLIR:D:Tripod:Proc1:EnableLowClip 0
+18ID:FLIR:D:Tripod:Proc1:LowClipThresh 0
+18ID:FLIR:D:Tripod:Proc1:LowClipValue 0
+18ID:FLIR:D:Tripod:Proc1:EnableHighClip 0
+18ID:FLIR:D:Tripod:Proc1:HighClipThresh 100
+18ID:FLIR:D:Tripod:Proc1:HighClipValue 100
+18ID:FLIR:D:Tripod:Proc1:EnableFilter 0
+18ID:FLIR:D:Tripod:Proc1:AutoResetFilter 0
+18ID:FLIR:D:Tripod:Proc1:FilterCallbacks 0
+18ID:FLIR:D:Tripod:Proc1:NumFilter 1
+18ID:FLIR:D:Tripod:Proc1:FilterType 0
+18ID:FLIR:D:Tripod:Proc1:OOffset 0
+18ID:FLIR:D:Tripod:Proc1:OScale 1
+18ID:FLIR:D:Tripod:Proc1:OC1 1
+18ID:FLIR:D:Tripod:Proc1:OC2 -1
+18ID:FLIR:D:Tripod:Proc1:OC3 0
+18ID:FLIR:D:Tripod:Proc1:OC4 1
+18ID:FLIR:D:Tripod:Proc1:FOffset 0
+18ID:FLIR:D:Tripod:Proc1:FScale 1
+18ID:FLIR:D:Tripod:Proc1:FC1 1
+18ID:FLIR:D:Tripod:Proc1:FC2 -1
+18ID:FLIR:D:Tripod:Proc1:FC3 0
+18ID:FLIR:D:Tripod:Proc1:FC4 1
+18ID:FLIR:D:Tripod:Proc1:ROffset 0
+18ID:FLIR:D:Tripod:Proc1:RC1 0
+18ID:FLIR:D:Tripod:Proc1:RC2 1
+18ID:FLIR:D:Tripod:Proc1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Proc1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Proc1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Proc1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Proc1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Proc1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Proc1:QueueSize 2000
+18ID:FLIR:D:Tripod:Proc1:NumThreads 1
+18ID:FLIR:D:Tripod:Proc1:SortTime 0.1
+18ID:FLIR:D:Tripod:Proc1:SortMode 0
+18ID:FLIR:D:Tripod:Proc1:SortSize 20
+18ID:FLIR:D:Tripod:Proc1:DataType 0
+18ID:FLIR:D:Tripod:Proc1:ColorMode 0
+18ID:FLIR:D:Tripod:Proc1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Proc1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Proc1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Proc1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Proc1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Proc1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FilePath 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileName 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileNumber 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:AutoIncrement 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileTemplate 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:AutoSave 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileFormat 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:FileWriteMode 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:NumCapture 1
+18ID:FLIR:D:Tripod:Proc1:TIFF:DeleteDriverFile 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:CreateDirectory 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:LazyOpen 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:TempSuffix 
+18ID:FLIR:D:Tripod:Proc1:TIFF:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Proc1:TIFF:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:MaxByteRate 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:QueueSize 2000
+18ID:FLIR:D:Tripod:Proc1:TIFF:NumThreads 1
+18ID:FLIR:D:Tripod:Proc1:TIFF:SortTime 0.1
+18ID:FLIR:D:Tripod:Proc1:TIFF:SortMode 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:SortSize 20
+18ID:FLIR:D:Tripod:Proc1:TIFF:DataType 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:ColorMode 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Proc1:TIFF:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Proc1:TIFF:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Proc1:TIFF:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Scatter1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Scatter1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Scatter1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Scatter1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Scatter1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Scatter1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Scatter1:QueueSize 2000
+18ID:FLIR:D:Tripod:Scatter1:NumThreads 1
+18ID:FLIR:D:Tripod:Scatter1:SortTime 0.1
+18ID:FLIR:D:Tripod:Scatter1:SortMode 0
+18ID:FLIR:D:Tripod:Scatter1:SortSize 20
+18ID:FLIR:D:Tripod:Scatter1:DataType 0
+18ID:FLIR:D:Tripod:Scatter1:ColorMode 0
+18ID:FLIR:D:Tripod:Scatter1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Scatter1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Scatter1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Scatter1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Scatter1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Scatter1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Gather1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Gather1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Gather1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Gather1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Gather1:QueueSize 2000
+18ID:FLIR:D:Tripod:Gather1:NumThreads 1
+18ID:FLIR:D:Tripod:Gather1:SortTime 0.1
+18ID:FLIR:D:Tripod:Gather1:SortMode 0
+18ID:FLIR:D:Tripod:Gather1:SortSize 20
+18ID:FLIR:D:Tripod:Gather1:DataType 0
+18ID:FLIR:D:Tripod:Gather1:ColorMode 0
+18ID:FLIR:D:Tripod:Gather1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Gather1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Gather1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Gather1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Gather1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Gather1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_1 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_1 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_2 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_2 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_3 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_3 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_4 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_4 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_5 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_5 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_6 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_6 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_7 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_7 0
+18ID:FLIR:D:Tripod:Gather1:NDArrayPort_8 SP1
+18ID:FLIR:D:Tripod:Gather1:NDArrayAddress_8 0
+18ID:FLIR:D:Tripod:Stats1:BgdWidth 1
+18ID:FLIR:D:Tripod:Stats1:ComputeStatistics 1
+18ID:FLIR:D:Tripod:Stats1:ComputeCentroid 0
+18ID:FLIR:D:Tripod:Stats1:CentroidThreshold 1
+18ID:FLIR:D:Tripod:Stats1:ComputeProfiles 0
+18ID:FLIR:D:Tripod:Stats1:CursorX 256
+18ID:FLIR:D:Tripod:Stats1:CursorY 256
+18ID:FLIR:D:Tripod:Stats1:ComputeHistogram 0
+18ID:FLIR:D:Tripod:Stats1:HistSize 256
+18ID:FLIR:D:Tripod:Stats1:HistMin 0
+18ID:FLIR:D:Tripod:Stats1:HistMax 255
+18ID:FLIR:D:Tripod:Stats1:TS:TSNumPoints 2048
+18ID:FLIR:D:Tripod:Stats1:TS:TSTimePerPointLink.DOL 0.1
+18ID:FLIR:D:Tripod:Stats1:TS:TSAveragingTime 0.1
+18ID:FLIR:D:Tripod:Stats1:TS:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:Stats1:TS:TSAcquireMode 0
+18ID:FLIR:D:Tripod:Stats1:TS:NDArrayPort STATS1
+18ID:FLIR:D:Tripod:Stats1:TS:NDArrayAddress 1
+18ID:FLIR:D:Tripod:Stats1:TS:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Stats1:TS:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats1:TS:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats1:TS:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats1:TS:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats1:TS:NumThreads 1
+18ID:FLIR:D:Tripod:Stats1:TS:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats1:TS:SortMode 0
+18ID:FLIR:D:Tripod:Stats1:TS:SortSize 20
+18ID:FLIR:D:Tripod:Stats1:TS:DataType 0
+18ID:FLIR:D:Tripod:Stats1:TS:ColorMode 0
+18ID:FLIR:D:Tripod:Stats1:TS:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats1:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats1:TS:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats1:TS:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats1:TS:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats1:TS:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Stats1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Stats1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Stats1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats1:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats1:NumThreads 1
+18ID:FLIR:D:Tripod:Stats1:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats1:SortMode 0
+18ID:FLIR:D:Tripod:Stats1:SortSize 20
+18ID:FLIR:D:Tripod:Stats1:DataType 0
+18ID:FLIR:D:Tripod:Stats1:ColorMode 0
+18ID:FLIR:D:Tripod:Stats1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats1:Reset.SCAN 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DESC 
+18ID:FLIR:D:Tripod:Stats1:Reset.PREC 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY1 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL1 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO1 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR1 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK1 18ID:FLIR:D:Tripod:Stats1:MinValue PP N
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT1 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY2 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL2 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO2 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR2 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK2 18ID:FLIR:D:Tripod:Stats1:MaxValue PP N
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT2 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY3 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL3 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO3 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR3 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK3 18ID:FLIR:D:Tripod:Stats1:MeanValue PP 
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT3 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY4 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL4 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO4 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR4 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK4 18ID:FLIR:D:Tripod:Stats1:SigmaValue PP
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT4 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY5 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL5 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO5 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR5 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK5 18ID:FLIR:D:Tripod:Stats1:Total PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT5 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY6 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL6 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO6 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR6 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK6 18ID:FLIR:D:Tripod:Stats1:Net PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT6 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY7 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL7 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO7 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR7 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK7 18ID:FLIR:D:Tripod:Stats1:MinX PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT7 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY8 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL8 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO8 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR8 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK8 18ID:FLIR:D:Tripod:Stats1:MinY PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT8 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLY9 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOL9 
+18ID:FLIR:D:Tripod:Stats1:Reset.DO9 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STR9 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNK9 18ID:FLIR:D:Tripod:Stats1:MaxX PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset.WAIT9 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DLYA 0
+18ID:FLIR:D:Tripod:Stats1:Reset.DOLA 
+18ID:FLIR:D:Tripod:Stats1:Reset.DOA 0
+18ID:FLIR:D:Tripod:Stats1:Reset.STRA 0
+18ID:FLIR:D:Tripod:Stats1:Reset.LNKA 18ID:FLIR:D:Tripod:Stats1:MaxY PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset.WAITA 0
+18ID:FLIR:D:Tripod:Stats1:Reset.FLNK 18ID:FLIR:D:Tripod:Stats1:Reset1
+18ID:FLIR:D:Tripod:Stats1:Reset.SELL 
+18ID:FLIR:D:Tripod:Stats1:Reset.SELN 1
+18ID:FLIR:D:Tripod:Stats1:Reset.SELM 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.SCAN 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DESC 
+18ID:FLIR:D:Tripod:Stats1:Reset1.PREC 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY1 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL1 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO1 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR1 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK1 18ID:FLIR:D:Tripod:Stats1:CentroidX PP 
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT1 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY2 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL2 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO2 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR2 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK2 18ID:FLIR:D:Tripod:Stats1:CentroidY PP 
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT2 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY3 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL3 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO3 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR3 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK3 18ID:FLIR:D:Tripod:Stats1:SigmaX PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT3 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY4 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL4 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO4 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR4 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK4 18ID:FLIR:D:Tripod:Stats1:SigmaY PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT4 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY5 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL5 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO5 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR5 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK5 18ID:FLIR:D:Tripod:Stats1:SigmaXY PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT5 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY6 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL6 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO6 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR6 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK6 18ID:FLIR:D:Tripod:Stats1:CentroidTotal
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT6 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY7 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL7 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO7 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR7 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK7 18ID:FLIR:D:Tripod:Stats1:SkewX PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT7 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY8 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL8 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO8 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR8 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK8 18ID:FLIR:D:Tripod:Stats1:SkewY PP MS
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT8 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLY9 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOL9 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DO9 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STR9 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNK9 18ID:FLIR:D:Tripod:Stats1:KurtosisX PP 
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAIT9 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DLYA 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOLA 
+18ID:FLIR:D:Tripod:Stats1:Reset1.DOA 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.STRA 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.LNKA 18ID:FLIR:D:Tripod:Stats1:KurtosisY PP 
+18ID:FLIR:D:Tripod:Stats1:Reset1.WAITA 0
+18ID:FLIR:D:Tripod:Stats1:Reset1.FLNK 18ID:FLIR:D:Tripod:Stats1:Reset2
+18ID:FLIR:D:Tripod:Stats1:Reset1.SELL 
+18ID:FLIR:D:Tripod:Stats1:Reset1.SELN 1
+18ID:FLIR:D:Tripod:Stats1:Reset1.SELM 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.SCAN 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DESC 
+18ID:FLIR:D:Tripod:Stats1:Reset2.PREC 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY1 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL1 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO1 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR1 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK1 18ID:FLIR:D:Tripod:Stats1:Eccentricity 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT1 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY2 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL2 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO2 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR2 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats1:Orientation N
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT2 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY3 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL3 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO3 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR3 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK3 18ID:FLIR:D:Tripod:Stats1:HistBelow PP 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT3 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY4 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL4 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO4 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR4 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK4 18ID:FLIR:D:Tripod:Stats1:HistAbove PP 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT4 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY5 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL5 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO5 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR5 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats1:HistEntropy N
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT5 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY6 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL6 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO6 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR6 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK6 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT6 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY7 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL7 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO7 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR7 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK7 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT7 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY8 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL8 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO8 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR8 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK8 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT8 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLY9 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOL9 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DO9 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STR9 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNK9 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAIT9 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DLYA 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOLA 
+18ID:FLIR:D:Tripod:Stats1:Reset2.DOA 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.STRA 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.LNKA 
+18ID:FLIR:D:Tripod:Stats1:Reset2.WAITA 0
+18ID:FLIR:D:Tripod:Stats1:Reset2.FLNK 
+18ID:FLIR:D:Tripod:Stats1:Reset2.SELL 
+18ID:FLIR:D:Tripod:Stats1:Reset2.SELN 1
+18ID:FLIR:D:Tripod:Stats1:Reset2.SELM 0
+18ID:FLIR:D:Tripod:Stats2:BgdWidth 1
+18ID:FLIR:D:Tripod:Stats2:ComputeStatistics 1
+18ID:FLIR:D:Tripod:Stats2:ComputeCentroid 0
+18ID:FLIR:D:Tripod:Stats2:CentroidThreshold 1
+18ID:FLIR:D:Tripod:Stats2:ComputeProfiles 0
+18ID:FLIR:D:Tripod:Stats2:CursorX 256
+18ID:FLIR:D:Tripod:Stats2:CursorY 256
+18ID:FLIR:D:Tripod:Stats2:ComputeHistogram 0
+18ID:FLIR:D:Tripod:Stats2:HistSize 256
+18ID:FLIR:D:Tripod:Stats2:HistMin 0
+18ID:FLIR:D:Tripod:Stats2:HistMax 255
+18ID:FLIR:D:Tripod:Stats2:TS:TSNumPoints 2048
+18ID:FLIR:D:Tripod:Stats2:TS:TSTimePerPointLink.DOL 0.1
+18ID:FLIR:D:Tripod:Stats2:TS:TSAveragingTime 0.1
+18ID:FLIR:D:Tripod:Stats2:TS:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:Stats2:TS:TSAcquireMode 0
+18ID:FLIR:D:Tripod:Stats2:TS:NDArrayPort STATS2
+18ID:FLIR:D:Tripod:Stats2:TS:NDArrayAddress 1
+18ID:FLIR:D:Tripod:Stats2:TS:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Stats2:TS:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats2:TS:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats2:TS:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats2:TS:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats2:TS:NumThreads 1
+18ID:FLIR:D:Tripod:Stats2:TS:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats2:TS:SortMode 0
+18ID:FLIR:D:Tripod:Stats2:TS:SortSize 20
+18ID:FLIR:D:Tripod:Stats2:TS:DataType 0
+18ID:FLIR:D:Tripod:Stats2:TS:ColorMode 0
+18ID:FLIR:D:Tripod:Stats2:TS:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats2:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats2:TS:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats2:TS:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats2:TS:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats2:TS:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats2:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Stats2:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Stats2:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Stats2:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats2:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats2:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats2:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats2:NumThreads 1
+18ID:FLIR:D:Tripod:Stats2:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats2:SortMode 0
+18ID:FLIR:D:Tripod:Stats2:SortSize 20
+18ID:FLIR:D:Tripod:Stats2:DataType 0
+18ID:FLIR:D:Tripod:Stats2:ColorMode 0
+18ID:FLIR:D:Tripod:Stats2:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats2:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats2:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats2:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats2:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats2:Reset.SCAN 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DESC 
+18ID:FLIR:D:Tripod:Stats2:Reset.PREC 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY1 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL1 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO1 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR1 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK1 18ID:FLIR:D:Tripod:Stats2:MinValue PP N
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT1 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY2 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL2 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO2 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR2 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK2 18ID:FLIR:D:Tripod:Stats2:MaxValue PP N
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT2 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY3 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL3 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO3 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR3 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK3 18ID:FLIR:D:Tripod:Stats2:MeanValue PP 
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT3 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY4 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL4 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO4 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR4 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK4 18ID:FLIR:D:Tripod:Stats2:SigmaValue PP
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT4 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY5 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL5 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO5 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR5 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK5 18ID:FLIR:D:Tripod:Stats2:Total PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT5 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY6 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL6 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO6 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR6 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK6 18ID:FLIR:D:Tripod:Stats2:Net PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT6 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY7 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL7 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO7 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR7 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK7 18ID:FLIR:D:Tripod:Stats2:MinX PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT7 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY8 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL8 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO8 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR8 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK8 18ID:FLIR:D:Tripod:Stats2:MinY PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT8 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLY9 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOL9 
+18ID:FLIR:D:Tripod:Stats2:Reset.DO9 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STR9 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNK9 18ID:FLIR:D:Tripod:Stats2:MaxX PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset.WAIT9 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DLYA 0
+18ID:FLIR:D:Tripod:Stats2:Reset.DOLA 
+18ID:FLIR:D:Tripod:Stats2:Reset.DOA 0
+18ID:FLIR:D:Tripod:Stats2:Reset.STRA 0
+18ID:FLIR:D:Tripod:Stats2:Reset.LNKA 18ID:FLIR:D:Tripod:Stats2:MaxY PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset.WAITA 0
+18ID:FLIR:D:Tripod:Stats2:Reset.FLNK 18ID:FLIR:D:Tripod:Stats2:Reset1
+18ID:FLIR:D:Tripod:Stats2:Reset.SELL 
+18ID:FLIR:D:Tripod:Stats2:Reset.SELN 1
+18ID:FLIR:D:Tripod:Stats2:Reset.SELM 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.SCAN 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DESC 
+18ID:FLIR:D:Tripod:Stats2:Reset1.PREC 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY1 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL1 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO1 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR1 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK1 18ID:FLIR:D:Tripod:Stats2:CentroidX PP 
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT1 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY2 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL2 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO2 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR2 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK2 18ID:FLIR:D:Tripod:Stats2:CentroidY PP 
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT2 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY3 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL3 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO3 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR3 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK3 18ID:FLIR:D:Tripod:Stats2:SigmaX PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT3 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY4 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL4 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO4 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR4 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK4 18ID:FLIR:D:Tripod:Stats2:SigmaY PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT4 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY5 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL5 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO5 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR5 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK5 18ID:FLIR:D:Tripod:Stats2:SigmaXY PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT5 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY6 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL6 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO6 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR6 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK6 18ID:FLIR:D:Tripod:Stats2:CentroidTotal
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT6 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY7 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL7 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO7 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR7 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK7 18ID:FLIR:D:Tripod:Stats2:SkewX PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT7 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY8 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL8 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO8 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR8 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK8 18ID:FLIR:D:Tripod:Stats2:SkewY PP MS
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT8 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLY9 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOL9 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DO9 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STR9 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNK9 18ID:FLIR:D:Tripod:Stats2:KurtosisX PP 
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAIT9 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DLYA 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOLA 
+18ID:FLIR:D:Tripod:Stats2:Reset1.DOA 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.STRA 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.LNKA 18ID:FLIR:D:Tripod:Stats2:KurtosisY PP 
+18ID:FLIR:D:Tripod:Stats2:Reset1.WAITA 0
+18ID:FLIR:D:Tripod:Stats2:Reset1.FLNK 18ID:FLIR:D:Tripod:Stats2:Reset2
+18ID:FLIR:D:Tripod:Stats2:Reset1.SELL 
+18ID:FLIR:D:Tripod:Stats2:Reset1.SELN 1
+18ID:FLIR:D:Tripod:Stats2:Reset1.SELM 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.SCAN 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DESC 
+18ID:FLIR:D:Tripod:Stats2:Reset2.PREC 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY1 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL1 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO1 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR1 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK1 18ID:FLIR:D:Tripod:Stats2:Eccentricity 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT1 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY2 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL2 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO2 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR2 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats2:Orientation N
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT2 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY3 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL3 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO3 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR3 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK3 18ID:FLIR:D:Tripod:Stats2:HistBelow PP 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT3 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY4 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL4 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO4 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR4 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK4 18ID:FLIR:D:Tripod:Stats2:HistAbove PP 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT4 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY5 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL5 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO5 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR5 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats2:HistEntropy N
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT5 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY6 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL6 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO6 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR6 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK6 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT6 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY7 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL7 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO7 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR7 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK7 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT7 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY8 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL8 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO8 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR8 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK8 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT8 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLY9 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOL9 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DO9 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STR9 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNK9 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAIT9 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DLYA 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOLA 
+18ID:FLIR:D:Tripod:Stats2:Reset2.DOA 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.STRA 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.LNKA 
+18ID:FLIR:D:Tripod:Stats2:Reset2.WAITA 0
+18ID:FLIR:D:Tripod:Stats2:Reset2.FLNK 
+18ID:FLIR:D:Tripod:Stats2:Reset2.SELL 
+18ID:FLIR:D:Tripod:Stats2:Reset2.SELN 1
+18ID:FLIR:D:Tripod:Stats2:Reset2.SELM 0
+18ID:FLIR:D:Tripod:Stats3:BgdWidth 1
+18ID:FLIR:D:Tripod:Stats3:ComputeStatistics 1
+18ID:FLIR:D:Tripod:Stats3:ComputeCentroid 0
+18ID:FLIR:D:Tripod:Stats3:CentroidThreshold 1
+18ID:FLIR:D:Tripod:Stats3:ComputeProfiles 0
+18ID:FLIR:D:Tripod:Stats3:CursorX 256
+18ID:FLIR:D:Tripod:Stats3:CursorY 256
+18ID:FLIR:D:Tripod:Stats3:ComputeHistogram 0
+18ID:FLIR:D:Tripod:Stats3:HistSize 256
+18ID:FLIR:D:Tripod:Stats3:HistMin 0
+18ID:FLIR:D:Tripod:Stats3:HistMax 255
+18ID:FLIR:D:Tripod:Stats3:TS:TSNumPoints 2048
+18ID:FLIR:D:Tripod:Stats3:TS:TSTimePerPointLink.DOL 0.1
+18ID:FLIR:D:Tripod:Stats3:TS:TSAveragingTime 0.1
+18ID:FLIR:D:Tripod:Stats3:TS:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:Stats3:TS:TSAcquireMode 0
+18ID:FLIR:D:Tripod:Stats3:TS:NDArrayPort STATS3
+18ID:FLIR:D:Tripod:Stats3:TS:NDArrayAddress 1
+18ID:FLIR:D:Tripod:Stats3:TS:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Stats3:TS:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats3:TS:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats3:TS:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats3:TS:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats3:TS:NumThreads 1
+18ID:FLIR:D:Tripod:Stats3:TS:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats3:TS:SortMode 0
+18ID:FLIR:D:Tripod:Stats3:TS:SortSize 20
+18ID:FLIR:D:Tripod:Stats3:TS:DataType 0
+18ID:FLIR:D:Tripod:Stats3:TS:ColorMode 0
+18ID:FLIR:D:Tripod:Stats3:TS:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats3:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats3:TS:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats3:TS:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats3:TS:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats3:TS:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats3:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Stats3:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Stats3:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Stats3:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats3:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats3:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats3:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats3:NumThreads 1
+18ID:FLIR:D:Tripod:Stats3:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats3:SortMode 0
+18ID:FLIR:D:Tripod:Stats3:SortSize 20
+18ID:FLIR:D:Tripod:Stats3:DataType 0
+18ID:FLIR:D:Tripod:Stats3:ColorMode 0
+18ID:FLIR:D:Tripod:Stats3:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats3:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats3:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats3:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats3:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats3:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats3:Reset.SCAN 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DESC 
+18ID:FLIR:D:Tripod:Stats3:Reset.PREC 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY1 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL1 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO1 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR1 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK1 18ID:FLIR:D:Tripod:Stats3:MinValue PP N
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT1 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY2 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL2 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO2 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR2 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK2 18ID:FLIR:D:Tripod:Stats3:MaxValue PP N
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT2 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY3 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL3 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO3 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR3 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK3 18ID:FLIR:D:Tripod:Stats3:MeanValue PP 
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT3 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY4 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL4 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO4 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR4 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK4 18ID:FLIR:D:Tripod:Stats3:SigmaValue PP
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT4 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY5 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL5 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO5 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR5 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK5 18ID:FLIR:D:Tripod:Stats3:Total PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT5 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY6 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL6 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO6 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR6 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK6 18ID:FLIR:D:Tripod:Stats3:Net PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT6 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY7 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL7 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO7 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR7 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK7 18ID:FLIR:D:Tripod:Stats3:MinX PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT7 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY8 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL8 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO8 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR8 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK8 18ID:FLIR:D:Tripod:Stats3:MinY PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT8 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLY9 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOL9 
+18ID:FLIR:D:Tripod:Stats3:Reset.DO9 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STR9 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNK9 18ID:FLIR:D:Tripod:Stats3:MaxX PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset.WAIT9 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DLYA 0
+18ID:FLIR:D:Tripod:Stats3:Reset.DOLA 
+18ID:FLIR:D:Tripod:Stats3:Reset.DOA 0
+18ID:FLIR:D:Tripod:Stats3:Reset.STRA 0
+18ID:FLIR:D:Tripod:Stats3:Reset.LNKA 18ID:FLIR:D:Tripod:Stats3:MaxY PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset.WAITA 0
+18ID:FLIR:D:Tripod:Stats3:Reset.FLNK 18ID:FLIR:D:Tripod:Stats3:Reset1
+18ID:FLIR:D:Tripod:Stats3:Reset.SELL 
+18ID:FLIR:D:Tripod:Stats3:Reset.SELN 1
+18ID:FLIR:D:Tripod:Stats3:Reset.SELM 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.SCAN 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DESC 
+18ID:FLIR:D:Tripod:Stats3:Reset1.PREC 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY1 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL1 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO1 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR1 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK1 18ID:FLIR:D:Tripod:Stats3:CentroidX PP 
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT1 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY2 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL2 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO2 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR2 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK2 18ID:FLIR:D:Tripod:Stats3:CentroidY PP 
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT2 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY3 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL3 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO3 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR3 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK3 18ID:FLIR:D:Tripod:Stats3:SigmaX PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT3 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY4 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL4 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO4 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR4 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK4 18ID:FLIR:D:Tripod:Stats3:SigmaY PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT4 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY5 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL5 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO5 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR5 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK5 18ID:FLIR:D:Tripod:Stats3:SigmaXY PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT5 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY6 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL6 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO6 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR6 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK6 18ID:FLIR:D:Tripod:Stats3:CentroidTotal
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT6 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY7 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL7 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO7 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR7 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK7 18ID:FLIR:D:Tripod:Stats3:SkewX PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT7 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY8 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL8 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO8 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR8 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK8 18ID:FLIR:D:Tripod:Stats3:SkewY PP MS
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT8 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLY9 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOL9 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DO9 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STR9 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNK9 18ID:FLIR:D:Tripod:Stats3:KurtosisX PP 
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAIT9 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DLYA 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOLA 
+18ID:FLIR:D:Tripod:Stats3:Reset1.DOA 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.STRA 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.LNKA 18ID:FLIR:D:Tripod:Stats3:KurtosisY PP 
+18ID:FLIR:D:Tripod:Stats3:Reset1.WAITA 0
+18ID:FLIR:D:Tripod:Stats3:Reset1.FLNK 18ID:FLIR:D:Tripod:Stats3:Reset2
+18ID:FLIR:D:Tripod:Stats3:Reset1.SELL 
+18ID:FLIR:D:Tripod:Stats3:Reset1.SELN 1
+18ID:FLIR:D:Tripod:Stats3:Reset1.SELM 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.SCAN 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DESC 
+18ID:FLIR:D:Tripod:Stats3:Reset2.PREC 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY1 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL1 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO1 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR1 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK1 18ID:FLIR:D:Tripod:Stats3:Eccentricity 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT1 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY2 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL2 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO2 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR2 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats3:Orientation N
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT2 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY3 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL3 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO3 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR3 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK3 18ID:FLIR:D:Tripod:Stats3:HistBelow PP 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT3 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY4 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL4 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO4 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR4 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK4 18ID:FLIR:D:Tripod:Stats3:HistAbove PP 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT4 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY5 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL5 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO5 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR5 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats3:HistEntropy N
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT5 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY6 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL6 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO6 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR6 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK6 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT6 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY7 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL7 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO7 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR7 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK7 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT7 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY8 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL8 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO8 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR8 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK8 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT8 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLY9 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOL9 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DO9 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STR9 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNK9 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAIT9 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DLYA 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOLA 
+18ID:FLIR:D:Tripod:Stats3:Reset2.DOA 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.STRA 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.LNKA 
+18ID:FLIR:D:Tripod:Stats3:Reset2.WAITA 0
+18ID:FLIR:D:Tripod:Stats3:Reset2.FLNK 
+18ID:FLIR:D:Tripod:Stats3:Reset2.SELL 
+18ID:FLIR:D:Tripod:Stats3:Reset2.SELN 1
+18ID:FLIR:D:Tripod:Stats3:Reset2.SELM 0
+18ID:FLIR:D:Tripod:Stats4:BgdWidth 1
+18ID:FLIR:D:Tripod:Stats4:ComputeStatistics 1
+18ID:FLIR:D:Tripod:Stats4:ComputeCentroid 0
+18ID:FLIR:D:Tripod:Stats4:CentroidThreshold 1
+18ID:FLIR:D:Tripod:Stats4:ComputeProfiles 0
+18ID:FLIR:D:Tripod:Stats4:CursorX 256
+18ID:FLIR:D:Tripod:Stats4:CursorY 256
+18ID:FLIR:D:Tripod:Stats4:ComputeHistogram 0
+18ID:FLIR:D:Tripod:Stats4:HistSize 256
+18ID:FLIR:D:Tripod:Stats4:HistMin 0
+18ID:FLIR:D:Tripod:Stats4:HistMax 255
+18ID:FLIR:D:Tripod:Stats4:TS:TSNumPoints 2048
+18ID:FLIR:D:Tripod:Stats4:TS:TSTimePerPointLink.DOL 0.1
+18ID:FLIR:D:Tripod:Stats4:TS:TSAveragingTime 0.1
+18ID:FLIR:D:Tripod:Stats4:TS:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:Stats4:TS:TSAcquireMode 0
+18ID:FLIR:D:Tripod:Stats4:TS:NDArrayPort STATS4
+18ID:FLIR:D:Tripod:Stats4:TS:NDArrayAddress 1
+18ID:FLIR:D:Tripod:Stats4:TS:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Stats4:TS:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats4:TS:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats4:TS:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats4:TS:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats4:TS:NumThreads 1
+18ID:FLIR:D:Tripod:Stats4:TS:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats4:TS:SortMode 0
+18ID:FLIR:D:Tripod:Stats4:TS:SortSize 20
+18ID:FLIR:D:Tripod:Stats4:TS:DataType 0
+18ID:FLIR:D:Tripod:Stats4:TS:ColorMode 0
+18ID:FLIR:D:Tripod:Stats4:TS:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats4:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats4:TS:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats4:TS:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats4:TS:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats4:TS:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats4:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Stats4:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Stats4:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Stats4:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats4:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats4:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats4:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats4:NumThreads 1
+18ID:FLIR:D:Tripod:Stats4:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats4:SortMode 0
+18ID:FLIR:D:Tripod:Stats4:SortSize 20
+18ID:FLIR:D:Tripod:Stats4:DataType 0
+18ID:FLIR:D:Tripod:Stats4:ColorMode 0
+18ID:FLIR:D:Tripod:Stats4:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats4:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats4:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats4:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats4:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats4:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats4:Reset.SCAN 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DESC 
+18ID:FLIR:D:Tripod:Stats4:Reset.PREC 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY1 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL1 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO1 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR1 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK1 18ID:FLIR:D:Tripod:Stats4:MinValue PP N
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT1 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY2 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL2 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO2 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR2 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK2 18ID:FLIR:D:Tripod:Stats4:MaxValue PP N
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT2 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY3 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL3 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO3 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR3 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK3 18ID:FLIR:D:Tripod:Stats4:MeanValue PP 
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT3 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY4 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL4 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO4 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR4 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK4 18ID:FLIR:D:Tripod:Stats4:SigmaValue PP
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT4 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY5 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL5 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO5 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR5 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK5 18ID:FLIR:D:Tripod:Stats4:Total PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT5 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY6 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL6 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO6 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR6 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK6 18ID:FLIR:D:Tripod:Stats4:Net PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT6 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY7 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL7 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO7 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR7 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK7 18ID:FLIR:D:Tripod:Stats4:MinX PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT7 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY8 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL8 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO8 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR8 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK8 18ID:FLIR:D:Tripod:Stats4:MinY PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT8 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLY9 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOL9 
+18ID:FLIR:D:Tripod:Stats4:Reset.DO9 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STR9 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNK9 18ID:FLIR:D:Tripod:Stats4:MaxX PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset.WAIT9 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DLYA 0
+18ID:FLIR:D:Tripod:Stats4:Reset.DOLA 
+18ID:FLIR:D:Tripod:Stats4:Reset.DOA 0
+18ID:FLIR:D:Tripod:Stats4:Reset.STRA 0
+18ID:FLIR:D:Tripod:Stats4:Reset.LNKA 18ID:FLIR:D:Tripod:Stats4:MaxY PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset.WAITA 0
+18ID:FLIR:D:Tripod:Stats4:Reset.FLNK 18ID:FLIR:D:Tripod:Stats4:Reset1
+18ID:FLIR:D:Tripod:Stats4:Reset.SELL 
+18ID:FLIR:D:Tripod:Stats4:Reset.SELN 1
+18ID:FLIR:D:Tripod:Stats4:Reset.SELM 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.SCAN 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DESC 
+18ID:FLIR:D:Tripod:Stats4:Reset1.PREC 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY1 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL1 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO1 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR1 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK1 18ID:FLIR:D:Tripod:Stats4:CentroidX PP 
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT1 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY2 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL2 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO2 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR2 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK2 18ID:FLIR:D:Tripod:Stats4:CentroidY PP 
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT2 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY3 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL3 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO3 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR3 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK3 18ID:FLIR:D:Tripod:Stats4:SigmaX PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT3 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY4 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL4 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO4 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR4 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK4 18ID:FLIR:D:Tripod:Stats4:SigmaY PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT4 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY5 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL5 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO5 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR5 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK5 18ID:FLIR:D:Tripod:Stats4:SigmaXY PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT5 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY6 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL6 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO6 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR6 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK6 18ID:FLIR:D:Tripod:Stats4:CentroidTotal
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT6 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY7 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL7 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO7 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR7 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK7 18ID:FLIR:D:Tripod:Stats4:SkewX PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT7 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY8 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL8 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO8 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR8 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK8 18ID:FLIR:D:Tripod:Stats4:SkewY PP MS
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT8 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLY9 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOL9 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DO9 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STR9 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNK9 18ID:FLIR:D:Tripod:Stats4:KurtosisX PP 
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAIT9 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DLYA 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOLA 
+18ID:FLIR:D:Tripod:Stats4:Reset1.DOA 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.STRA 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.LNKA 18ID:FLIR:D:Tripod:Stats4:KurtosisY PP 
+18ID:FLIR:D:Tripod:Stats4:Reset1.WAITA 0
+18ID:FLIR:D:Tripod:Stats4:Reset1.FLNK 18ID:FLIR:D:Tripod:Stats4:Reset2
+18ID:FLIR:D:Tripod:Stats4:Reset1.SELL 
+18ID:FLIR:D:Tripod:Stats4:Reset1.SELN 1
+18ID:FLIR:D:Tripod:Stats4:Reset1.SELM 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.SCAN 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DESC 
+18ID:FLIR:D:Tripod:Stats4:Reset2.PREC 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY1 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL1 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO1 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR1 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK1 18ID:FLIR:D:Tripod:Stats4:Eccentricity 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT1 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY2 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL2 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO2 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR2 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats4:Orientation N
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT2 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY3 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL3 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO3 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR3 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK3 18ID:FLIR:D:Tripod:Stats4:HistBelow PP 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT3 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY4 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL4 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO4 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR4 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK4 18ID:FLIR:D:Tripod:Stats4:HistAbove PP 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT4 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY5 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL5 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO5 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR5 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats4:HistEntropy N
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT5 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY6 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL6 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO6 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR6 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK6 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT6 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY7 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL7 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO7 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR7 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK7 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT7 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY8 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL8 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO8 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR8 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK8 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT8 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLY9 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOL9 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DO9 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STR9 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNK9 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAIT9 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DLYA 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOLA 
+18ID:FLIR:D:Tripod:Stats4:Reset2.DOA 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.STRA 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.LNKA 
+18ID:FLIR:D:Tripod:Stats4:Reset2.WAITA 0
+18ID:FLIR:D:Tripod:Stats4:Reset2.FLNK 
+18ID:FLIR:D:Tripod:Stats4:Reset2.SELL 
+18ID:FLIR:D:Tripod:Stats4:Reset2.SELN 1
+18ID:FLIR:D:Tripod:Stats4:Reset2.SELM 0
+18ID:FLIR:D:Tripod:Stats5:BgdWidth 1
+18ID:FLIR:D:Tripod:Stats5:ComputeStatistics 1
+18ID:FLIR:D:Tripod:Stats5:ComputeCentroid 0
+18ID:FLIR:D:Tripod:Stats5:CentroidThreshold 1
+18ID:FLIR:D:Tripod:Stats5:ComputeProfiles 0
+18ID:FLIR:D:Tripod:Stats5:CursorX 256
+18ID:FLIR:D:Tripod:Stats5:CursorY 256
+18ID:FLIR:D:Tripod:Stats5:ComputeHistogram 0
+18ID:FLIR:D:Tripod:Stats5:HistSize 256
+18ID:FLIR:D:Tripod:Stats5:HistMin 0
+18ID:FLIR:D:Tripod:Stats5:HistMax 255
+18ID:FLIR:D:Tripod:Stats5:TS:TSNumPoints 2048
+18ID:FLIR:D:Tripod:Stats5:TS:TSTimePerPointLink.DOL 0.1
+18ID:FLIR:D:Tripod:Stats5:TS:TSAveragingTime 0.1
+18ID:FLIR:D:Tripod:Stats5:TS:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:Stats5:TS:TSAcquireMode 0
+18ID:FLIR:D:Tripod:Stats5:TS:NDArrayPort STATS5
+18ID:FLIR:D:Tripod:Stats5:TS:NDArrayAddress 1
+18ID:FLIR:D:Tripod:Stats5:TS:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Stats5:TS:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats5:TS:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats5:TS:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats5:TS:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats5:TS:NumThreads 1
+18ID:FLIR:D:Tripod:Stats5:TS:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats5:TS:SortMode 0
+18ID:FLIR:D:Tripod:Stats5:TS:SortSize 20
+18ID:FLIR:D:Tripod:Stats5:TS:DataType 0
+18ID:FLIR:D:Tripod:Stats5:TS:ColorMode 0
+18ID:FLIR:D:Tripod:Stats5:TS:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats5:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats5:TS:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats5:TS:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats5:TS:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats5:TS:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats5:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Stats5:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Stats5:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Stats5:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Stats5:MaxByteRate 0
+18ID:FLIR:D:Tripod:Stats5:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Stats5:QueueSize 2000
+18ID:FLIR:D:Tripod:Stats5:NumThreads 1
+18ID:FLIR:D:Tripod:Stats5:SortTime 0.1
+18ID:FLIR:D:Tripod:Stats5:SortMode 0
+18ID:FLIR:D:Tripod:Stats5:SortSize 20
+18ID:FLIR:D:Tripod:Stats5:DataType 0
+18ID:FLIR:D:Tripod:Stats5:ColorMode 0
+18ID:FLIR:D:Tripod:Stats5:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Stats5:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Stats5:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Stats5:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Stats5:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Stats5:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Stats5:Reset.SCAN 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DESC 
+18ID:FLIR:D:Tripod:Stats5:Reset.PREC 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY1 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL1 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO1 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR1 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK1 18ID:FLIR:D:Tripod:Stats5:MinValue PP N
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT1 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY2 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL2 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO2 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR2 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK2 18ID:FLIR:D:Tripod:Stats5:MaxValue PP N
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT2 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY3 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL3 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO3 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR3 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK3 18ID:FLIR:D:Tripod:Stats5:MeanValue PP 
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT3 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY4 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL4 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO4 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR4 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK4 18ID:FLIR:D:Tripod:Stats5:SigmaValue PP
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT4 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY5 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL5 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO5 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR5 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK5 18ID:FLIR:D:Tripod:Stats5:Total PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT5 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY6 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL6 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO6 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR6 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK6 18ID:FLIR:D:Tripod:Stats5:Net PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT6 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY7 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL7 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO7 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR7 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK7 18ID:FLIR:D:Tripod:Stats5:MinX PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT7 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY8 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL8 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO8 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR8 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK8 18ID:FLIR:D:Tripod:Stats5:MinY PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT8 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLY9 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOL9 
+18ID:FLIR:D:Tripod:Stats5:Reset.DO9 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STR9 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNK9 18ID:FLIR:D:Tripod:Stats5:MaxX PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset.WAIT9 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DLYA 0
+18ID:FLIR:D:Tripod:Stats5:Reset.DOLA 
+18ID:FLIR:D:Tripod:Stats5:Reset.DOA 0
+18ID:FLIR:D:Tripod:Stats5:Reset.STRA 0
+18ID:FLIR:D:Tripod:Stats5:Reset.LNKA 18ID:FLIR:D:Tripod:Stats5:MaxY PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset.WAITA 0
+18ID:FLIR:D:Tripod:Stats5:Reset.FLNK 18ID:FLIR:D:Tripod:Stats5:Reset1
+18ID:FLIR:D:Tripod:Stats5:Reset.SELL 
+18ID:FLIR:D:Tripod:Stats5:Reset.SELN 1
+18ID:FLIR:D:Tripod:Stats5:Reset.SELM 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.SCAN 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DESC 
+18ID:FLIR:D:Tripod:Stats5:Reset1.PREC 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY1 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL1 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO1 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR1 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK1 18ID:FLIR:D:Tripod:Stats5:CentroidX PP 
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT1 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY2 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL2 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO2 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR2 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK2 18ID:FLIR:D:Tripod:Stats5:CentroidY PP 
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT2 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY3 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL3 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO3 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR3 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK3 18ID:FLIR:D:Tripod:Stats5:SigmaX PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT3 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY4 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL4 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO4 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR4 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK4 18ID:FLIR:D:Tripod:Stats5:SigmaY PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT4 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY5 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL5 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO5 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR5 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK5 18ID:FLIR:D:Tripod:Stats5:SigmaXY PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT5 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY6 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL6 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO6 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR6 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK6 18ID:FLIR:D:Tripod:Stats5:CentroidTotal
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT6 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY7 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL7 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO7 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR7 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK7 18ID:FLIR:D:Tripod:Stats5:SkewX PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT7 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY8 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL8 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO8 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR8 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK8 18ID:FLIR:D:Tripod:Stats5:SkewY PP MS
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT8 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLY9 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOL9 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DO9 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STR9 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNK9 18ID:FLIR:D:Tripod:Stats5:KurtosisX PP 
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAIT9 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DLYA 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOLA 
+18ID:FLIR:D:Tripod:Stats5:Reset1.DOA 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.STRA 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.LNKA 18ID:FLIR:D:Tripod:Stats5:KurtosisY PP 
+18ID:FLIR:D:Tripod:Stats5:Reset1.WAITA 0
+18ID:FLIR:D:Tripod:Stats5:Reset1.FLNK 18ID:FLIR:D:Tripod:Stats5:Reset2
+18ID:FLIR:D:Tripod:Stats5:Reset1.SELL 
+18ID:FLIR:D:Tripod:Stats5:Reset1.SELN 1
+18ID:FLIR:D:Tripod:Stats5:Reset1.SELM 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.SCAN 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DESC 
+18ID:FLIR:D:Tripod:Stats5:Reset2.PREC 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY1 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL1 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO1 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR1 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK1 18ID:FLIR:D:Tripod:Stats5:Eccentricity 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT1 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY2 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL2 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO2 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR2 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK2 18ID:FLIR:D:Tripod:Stats5:Orientation N
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT2 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY3 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL3 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO3 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR3 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK3 18ID:FLIR:D:Tripod:Stats5:HistBelow PP 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT3 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY4 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL4 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO4 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR4 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK4 18ID:FLIR:D:Tripod:Stats5:HistAbove PP 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT4 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY5 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL5 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO5 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR5 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK5 18ID:FLIR:D:Tripod:Stats5:HistEntropy N
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT5 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY6 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL6 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO6 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR6 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK6 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT6 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY7 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL7 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO7 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR7 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK7 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT7 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY8 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL8 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO8 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR8 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK8 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT8 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLY9 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOL9 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DO9 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STR9 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNK9 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAIT9 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DLYA 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOLA 
+18ID:FLIR:D:Tripod:Stats5:Reset2.DOA 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.STRA 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.LNKA 
+18ID:FLIR:D:Tripod:Stats5:Reset2.WAITA 0
+18ID:FLIR:D:Tripod:Stats5:Reset2.FLNK 
+18ID:FLIR:D:Tripod:Stats5:Reset2.SELL 
+18ID:FLIR:D:Tripod:Stats5:Reset2.SELN 1
+18ID:FLIR:D:Tripod:Stats5:Reset2.SELM 0
+18ID:FLIR:D:Tripod:ROIStat1:TSNumPoints 2048
+18ID:FLIR:D:Tripod:ROIStat1:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:ROIStat1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:ROIStat1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:ROIStat1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:ROIStat1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:ROIStat1:MaxByteRate 0
+18ID:FLIR:D:Tripod:ROIStat1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:ROIStat1:QueueSize 2000
+18ID:FLIR:D:Tripod:ROIStat1:NumThreads 1
+18ID:FLIR:D:Tripod:ROIStat1:SortTime 0.1
+18ID:FLIR:D:Tripod:ROIStat1:SortMode 0
+18ID:FLIR:D:Tripod:ROIStat1:SortSize 20
+18ID:FLIR:D:Tripod:ROIStat1:DataType 0
+18ID:FLIR:D:Tripod:ROIStat1:ColorMode 0
+18ID:FLIR:D:Tripod:ROIStat1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:ROIStat1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ROIStat1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:ROIStat1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:ROIStat1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:ROIStat1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:ROIStat1:1:Name 
+18ID:FLIR:D:Tripod:ROIStat1:1:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:1:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:1:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:1:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:1:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:1:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:2:Name 
+18ID:FLIR:D:Tripod:ROIStat1:2:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:2:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:2:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:2:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:2:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:2:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:3:Name 
+18ID:FLIR:D:Tripod:ROIStat1:3:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:3:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:3:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:3:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:3:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:3:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:4:Name 
+18ID:FLIR:D:Tripod:ROIStat1:4:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:4:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:4:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:4:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:4:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:4:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:5:Name 
+18ID:FLIR:D:Tripod:ROIStat1:5:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:5:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:5:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:5:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:5:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:5:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:6:Name 
+18ID:FLIR:D:Tripod:ROIStat1:6:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:6:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:6:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:6:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:6:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:6:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:7:Name 
+18ID:FLIR:D:Tripod:ROIStat1:7:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:7:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:7:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:7:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:7:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:7:SizeY 0
+18ID:FLIR:D:Tripod:ROIStat1:8:Name 
+18ID:FLIR:D:Tripod:ROIStat1:8:Use 0
+18ID:FLIR:D:Tripod:ROIStat1:8:BgdWidth 0
+18ID:FLIR:D:Tripod:ROIStat1:8:MinX 0
+18ID:FLIR:D:Tripod:ROIStat1:8:MinY 0
+18ID:FLIR:D:Tripod:ROIStat1:8:SizeX 0
+18ID:FLIR:D:Tripod:ROIStat1:8:SizeY 0
+18ID:FLIR:D:Tripod:Trans1:Type 0
+18ID:FLIR:D:Tripod:Trans1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Trans1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Trans1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Trans1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Trans1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Trans1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Trans1:QueueSize 2000
+18ID:FLIR:D:Tripod:Trans1:NumThreads 1
+18ID:FLIR:D:Tripod:Trans1:SortTime 0.1
+18ID:FLIR:D:Tripod:Trans1:SortMode 0
+18ID:FLIR:D:Tripod:Trans1:SortSize 20
+18ID:FLIR:D:Tripod:Trans1:DataType 0
+18ID:FLIR:D:Tripod:Trans1:ColorMode 0
+18ID:FLIR:D:Tripod:Trans1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Trans1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Trans1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Trans1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Trans1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Trans1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Over1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Over1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Over1:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Over1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Over1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Over1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Over1:QueueSize 2000
+18ID:FLIR:D:Tripod:Over1:NumThreads 1
+18ID:FLIR:D:Tripod:Over1:SortTime 0.1
+18ID:FLIR:D:Tripod:Over1:SortMode 0
+18ID:FLIR:D:Tripod:Over1:SortSize 20
+18ID:FLIR:D:Tripod:Over1:DataType 0
+18ID:FLIR:D:Tripod:Over1:ColorMode 0
+18ID:FLIR:D:Tripod:Over1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Over1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Over1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Over1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Over1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Over1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Over1:1:Name ROI1
+18ID:FLIR:D:Tripod:Over1:1:Use 0
+18ID:FLIR:D:Tripod:Over1:1:PositionXLink.DOL 
+18ID:FLIR:D:Tripod:Over1:1:PositionX 650
+18ID:FLIR:D:Tripod:Over1:1:PositionYLink.DOL 
+18ID:FLIR:D:Tripod:Over1:1:PositionY 239
+18ID:FLIR:D:Tripod:Over1:1:SizeXLink.DOL 
+18ID:FLIR:D:Tripod:Over1:1:SizeX 300
+18ID:FLIR:D:Tripod:Over1:1:SizeYLink.DOL 
+18ID:FLIR:D:Tripod:Over1:1:SizeY 300
+18ID:FLIR:D:Tripod:Over1:1:WidthXLink.DOL 
+18ID:FLIR:D:Tripod:Over1:1:WidthX 2
+18ID:FLIR:D:Tripod:Over1:1:WidthYLink.DOL 
+18ID:FLIR:D:Tripod:Over1:1:WidthY 2
+18ID:FLIR:D:Tripod:Over1:1:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:1:Shape 0
+18ID:FLIR:D:Tripod:Over1:1:Red 255
+18ID:FLIR:D:Tripod:Over1:1:Green 255
+18ID:FLIR:D:Tripod:Over1:1:Blue 255
+18ID:FLIR:D:Tripod:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:1:Font 0
+18ID:FLIR:D:Tripod:Over1:1:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:2:Name ROI2
+18ID:FLIR:D:Tripod:Over1:2:Use 0
+18ID:FLIR:D:Tripod:Over1:2:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI2:MinX_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:2:PositionX 0
+18ID:FLIR:D:Tripod:Over1:2:PositionYLink.DOL 18ID:FLIR:D:Tripod:ROI2:MinY_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:2:PositionY 0
+18ID:FLIR:D:Tripod:Over1:2:SizeXLink.DOL 18ID:FLIR:D:Tripod:ROI2:SizeX_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:2:SizeX 1000000
+18ID:FLIR:D:Tripod:Over1:2:SizeYLink.DOL 18ID:FLIR:D:Tripod:ROI2:SizeY_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:2:SizeY 1000000
+18ID:FLIR:D:Tripod:Over1:2:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:2:WidthX 0
+18ID:FLIR:D:Tripod:Over1:2:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:2:WidthY 0
+18ID:FLIR:D:Tripod:Over1:2:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:2:Shape 1
+18ID:FLIR:D:Tripod:Over1:2:Red 1
+18ID:FLIR:D:Tripod:Over1:2:Green 1
+18ID:FLIR:D:Tripod:Over1:2:Blue 1
+18ID:FLIR:D:Tripod:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:2:Font 0
+18ID:FLIR:D:Tripod:Over1:2:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:3:Name ROI3
+18ID:FLIR:D:Tripod:Over1:3:Use 0
+18ID:FLIR:D:Tripod:Over1:3:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI3:MinX_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:3:PositionX 0
+18ID:FLIR:D:Tripod:Over1:3:PositionYLink.DOL 18ID:FLIR:D:Tripod:ROI3:MinY_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:3:PositionY 0
+18ID:FLIR:D:Tripod:Over1:3:SizeXLink.DOL 18ID:FLIR:D:Tripod:ROI3:SizeX_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:3:SizeX 1000000
+18ID:FLIR:D:Tripod:Over1:3:SizeYLink.DOL 18ID:FLIR:D:Tripod:ROI3:SizeY_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:3:SizeY 1000000
+18ID:FLIR:D:Tripod:Over1:3:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:3:WidthX 0
+18ID:FLIR:D:Tripod:Over1:3:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:3:WidthY 0
+18ID:FLIR:D:Tripod:Over1:3:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:3:Shape 1
+18ID:FLIR:D:Tripod:Over1:3:Red 1
+18ID:FLIR:D:Tripod:Over1:3:Green 1
+18ID:FLIR:D:Tripod:Over1:3:Blue 1
+18ID:FLIR:D:Tripod:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:3:Font 0
+18ID:FLIR:D:Tripod:Over1:3:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:4:Name ROI4
+18ID:FLIR:D:Tripod:Over1:4:Use 0
+18ID:FLIR:D:Tripod:Over1:4:PositionXLink.DOL 18ID:FLIR:D:Tripod:ROI4:MinX_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:4:PositionX 0
+18ID:FLIR:D:Tripod:Over1:4:PositionYLink.DOL 18ID:FLIR:D:Tripod:ROI4:MinY_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:4:PositionY 0
+18ID:FLIR:D:Tripod:Over1:4:SizeXLink.DOL 18ID:FLIR:D:Tripod:ROI4:SizeX_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:4:SizeX 1000000
+18ID:FLIR:D:Tripod:Over1:4:SizeYLink.DOL 18ID:FLIR:D:Tripod:ROI4:SizeY_RBV CP MS
+18ID:FLIR:D:Tripod:Over1:4:SizeY 1000000
+18ID:FLIR:D:Tripod:Over1:4:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:4:WidthX 0
+18ID:FLIR:D:Tripod:Over1:4:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:4:WidthY 0
+18ID:FLIR:D:Tripod:Over1:4:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:4:Shape 1
+18ID:FLIR:D:Tripod:Over1:4:Red 1
+18ID:FLIR:D:Tripod:Over1:4:Green 1
+18ID:FLIR:D:Tripod:Over1:4:Blue 1
+18ID:FLIR:D:Tripod:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:4:Font 0
+18ID:FLIR:D:Tripod:Over1:4:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:5:Name Cursor1
+18ID:FLIR:D:Tripod:Over1:5:Use 0
+18ID:FLIR:D:Tripod:Over1:5:PositionXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:5:PositionX 0
+18ID:FLIR:D:Tripod:Over1:5:PositionYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:5:PositionY 0
+18ID:FLIR:D:Tripod:Over1:5:SizeXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:5:SizeX 1
+18ID:FLIR:D:Tripod:Over1:5:SizeYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:5:SizeY 0
+18ID:FLIR:D:Tripod:Over1:5:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:5:WidthX 0
+18ID:FLIR:D:Tripod:Over1:5:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:5:WidthY 0
+18ID:FLIR:D:Tripod:Over1:5:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:5:Shape 1
+18ID:FLIR:D:Tripod:Over1:5:Red 1
+18ID:FLIR:D:Tripod:Over1:5:Green 1
+18ID:FLIR:D:Tripod:Over1:5:Blue 1
+18ID:FLIR:D:Tripod:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:5:Font 0
+18ID:FLIR:D:Tripod:Over1:5:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:6:Name Cursor2
+18ID:FLIR:D:Tripod:Over1:6:Use 0
+18ID:FLIR:D:Tripod:Over1:6:PositionXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:6:PositionX 0
+18ID:FLIR:D:Tripod:Over1:6:PositionYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:6:PositionY 0
+18ID:FLIR:D:Tripod:Over1:6:SizeXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:6:SizeX 1
+18ID:FLIR:D:Tripod:Over1:6:SizeYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:6:SizeY 0
+18ID:FLIR:D:Tripod:Over1:6:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:6:WidthX 0
+18ID:FLIR:D:Tripod:Over1:6:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:6:WidthY 0
+18ID:FLIR:D:Tripod:Over1:6:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:6:Shape 1
+18ID:FLIR:D:Tripod:Over1:6:Red 1
+18ID:FLIR:D:Tripod:Over1:6:Green 1
+18ID:FLIR:D:Tripod:Over1:6:Blue 1
+18ID:FLIR:D:Tripod:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:6:Font 0
+18ID:FLIR:D:Tripod:Over1:6:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:7:Name Box1
+18ID:FLIR:D:Tripod:Over1:7:Use 0
+18ID:FLIR:D:Tripod:Over1:7:PositionXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:7:PositionX 0
+18ID:FLIR:D:Tripod:Over1:7:PositionYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:7:PositionY 0
+18ID:FLIR:D:Tripod:Over1:7:SizeXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:7:SizeX 1
+18ID:FLIR:D:Tripod:Over1:7:SizeYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:7:SizeY 0
+18ID:FLIR:D:Tripod:Over1:7:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:7:WidthX 0
+18ID:FLIR:D:Tripod:Over1:7:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:7:WidthY 0
+18ID:FLIR:D:Tripod:Over1:7:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:7:Shape 1
+18ID:FLIR:D:Tripod:Over1:7:Red 1
+18ID:FLIR:D:Tripod:Over1:7:Green 1
+18ID:FLIR:D:Tripod:Over1:7:Blue 1
+18ID:FLIR:D:Tripod:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:7:Font 0
+18ID:FLIR:D:Tripod:Over1:7:DisplayText 0
+18ID:FLIR:D:Tripod:Over1:8:Name Box2
+18ID:FLIR:D:Tripod:Over1:8:Use 0
+18ID:FLIR:D:Tripod:Over1:8:PositionXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:8:PositionX 0
+18ID:FLIR:D:Tripod:Over1:8:PositionYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:8:PositionY 0
+18ID:FLIR:D:Tripod:Over1:8:SizeXLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:8:SizeX 1
+18ID:FLIR:D:Tripod:Over1:8:SizeYLink.DOL junk CP MS
+18ID:FLIR:D:Tripod:Over1:8:SizeY 0
+18ID:FLIR:D:Tripod:Over1:8:WidthXLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:8:WidthX 0
+18ID:FLIR:D:Tripod:Over1:8:WidthYLink.DOL CP NPP MS
+18ID:FLIR:D:Tripod:Over1:8:WidthY 0
+18ID:FLIR:D:Tripod:Over1:8:DrawMode 0
+18ID:FLIR:D:Tripod:Over1:8:Shape 1
+18ID:FLIR:D:Tripod:Over1:8:Red 1
+18ID:FLIR:D:Tripod:Over1:8:Green 1
+18ID:FLIR:D:Tripod:Over1:8:Blue 1
+18ID:FLIR:D:Tripod:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:FLIR:D:Tripod:Over1:8:Font 0
+18ID:FLIR:D:Tripod:Over1:8:DisplayText 0
+18ID:FLIR:D:Tripod:CC1:ColorModeOut 0
+18ID:FLIR:D:Tripod:CC1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:CC1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:CC1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:CC1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:CC1:MaxByteRate 0
+18ID:FLIR:D:Tripod:CC1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:CC1:QueueSize 2000
+18ID:FLIR:D:Tripod:CC1:NumThreads 1
+18ID:FLIR:D:Tripod:CC1:SortTime 0.1
+18ID:FLIR:D:Tripod:CC1:SortMode 0
+18ID:FLIR:D:Tripod:CC1:SortSize 20
+18ID:FLIR:D:Tripod:CC1:DataType 0
+18ID:FLIR:D:Tripod:CC1:ColorMode 0
+18ID:FLIR:D:Tripod:CC1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:CC1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:CC1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:CC1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:CC1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:CC1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:CC2:ColorModeOut 0
+18ID:FLIR:D:Tripod:CC2:NDArrayPort SP1
+18ID:FLIR:D:Tripod:CC2:NDArrayAddress 0
+18ID:FLIR:D:Tripod:CC2:EnableCallbacks 0
+18ID:FLIR:D:Tripod:CC2:MinCallbackTime 0
+18ID:FLIR:D:Tripod:CC2:MaxByteRate 0
+18ID:FLIR:D:Tripod:CC2:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:CC2:QueueSize 2000
+18ID:FLIR:D:Tripod:CC2:NumThreads 1
+18ID:FLIR:D:Tripod:CC2:SortTime 0.1
+18ID:FLIR:D:Tripod:CC2:SortMode 0
+18ID:FLIR:D:Tripod:CC2:SortSize 20
+18ID:FLIR:D:Tripod:CC2:DataType 0
+18ID:FLIR:D:Tripod:CC2:ColorMode 0
+18ID:FLIR:D:Tripod:CC2:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:CC2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:CC2:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:CC2:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:CC2:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:CC2:WaitForPlugins 0
+18ID:FLIR:D:Tripod:CB1:TriggerA 
+18ID:FLIR:D:Tripod:CB1:TriggerB 
+18ID:FLIR:D:Tripod:CB1:TriggerCalc 0
+18ID:FLIR:D:Tripod:CB1:PreCount 100
+18ID:FLIR:D:Tripod:CB1:PostCount 100
+18ID:FLIR:D:Tripod:CB1:PresetTriggerCount 1
+18ID:FLIR:D:Tripod:CB1:FlushOnSoftTrg 0
+18ID:FLIR:D:Tripod:CB1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:CB1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:CB1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:CB1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:CB1:MaxByteRate 0
+18ID:FLIR:D:Tripod:CB1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:CB1:QueueSize 2000
+18ID:FLIR:D:Tripod:CB1:NumThreads 1
+18ID:FLIR:D:Tripod:CB1:SortTime 0.1
+18ID:FLIR:D:Tripod:CB1:SortMode 0
+18ID:FLIR:D:Tripod:CB1:SortSize 20
+18ID:FLIR:D:Tripod:CB1:DataType 0
+18ID:FLIR:D:Tripod:CB1:ColorMode 0
+18ID:FLIR:D:Tripod:CB1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:CB1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:CB1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:CB1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:CB1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:CB1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Attr1:TS:TSNumPoints 2048
+18ID:FLIR:D:Tripod:Attr1:TS:TSTimePerPointLink.DOL 0.1
+18ID:FLIR:D:Tripod:Attr1:TS:TSAveragingTime 0.1
+18ID:FLIR:D:Tripod:Attr1:TS:TSRead.SCAN 6
+18ID:FLIR:D:Tripod:Attr1:TS:TSAcquireMode 0
+18ID:FLIR:D:Tripod:Attr1:TS:NDArrayPort ATTR1
+18ID:FLIR:D:Tripod:Attr1:TS:NDArrayAddress 1
+18ID:FLIR:D:Tripod:Attr1:TS:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Attr1:TS:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Attr1:TS:MaxByteRate 0
+18ID:FLIR:D:Tripod:Attr1:TS:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Attr1:TS:QueueSize 2000
+18ID:FLIR:D:Tripod:Attr1:TS:NumThreads 1
+18ID:FLIR:D:Tripod:Attr1:TS:SortTime 0.1
+18ID:FLIR:D:Tripod:Attr1:TS:SortMode 0
+18ID:FLIR:D:Tripod:Attr1:TS:SortSize 20
+18ID:FLIR:D:Tripod:Attr1:TS:DataType 0
+18ID:FLIR:D:Tripod:Attr1:TS:ColorMode 0
+18ID:FLIR:D:Tripod:Attr1:TS:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Attr1:TS:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Attr1:TS:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Attr1:TS:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Attr1:TS:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Attr1:TS:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Attr1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Attr1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Attr1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Attr1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Attr1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Attr1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Attr1:QueueSize 2000
+18ID:FLIR:D:Tripod:Attr1:NumThreads 1
+18ID:FLIR:D:Tripod:Attr1:SortTime 0.1
+18ID:FLIR:D:Tripod:Attr1:SortMode 0
+18ID:FLIR:D:Tripod:Attr1:SortSize 20
+18ID:FLIR:D:Tripod:Attr1:DataType 0
+18ID:FLIR:D:Tripod:Attr1:ColorMode 0
+18ID:FLIR:D:Tripod:Attr1:ArrayCallbacks 0
+18ID:FLIR:D:Tripod:Attr1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Attr1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Attr1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Attr1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Attr1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Attr1:1:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:2:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:3:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:4:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:5:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:6:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:7:AttrName 0
+18ID:FLIR:D:Tripod:Attr1:8:AttrName 0
+18ID:FLIR:D:Tripod:FFT1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:FFT1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:FFT1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:FFT1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:FFT1:MaxByteRate 0
+18ID:FLIR:D:Tripod:FFT1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:FFT1:QueueSize 2000
+18ID:FLIR:D:Tripod:FFT1:NumThreads 1
+18ID:FLIR:D:Tripod:FFT1:SortTime 0.1
+18ID:FLIR:D:Tripod:FFT1:SortMode 0
+18ID:FLIR:D:Tripod:FFT1:SortSize 20
+18ID:FLIR:D:Tripod:FFT1:DataType 0
+18ID:FLIR:D:Tripod:FFT1:ColorMode 0
+18ID:FLIR:D:Tripod:FFT1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:FFT1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:FFT1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:FFT1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:FFT1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:FFT1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:FFT1:FFTDirection 0
+18ID:FLIR:D:Tripod:FFT1:FFTSuppressDC 0
+18ID:FLIR:D:Tripod:FFT1:FFTNumAverage 1
+18ID:FLIR:D:Tripod:FFT1:Name FFT1
+18ID:FLIR:D:Tripod:Codec1:Mode 0
+18ID:FLIR:D:Tripod:Codec1:Compressor 1
+18ID:FLIR:D:Tripod:Codec1:JPEGQuality 85
+18ID:FLIR:D:Tripod:Codec1:BloscCompressor 0
+18ID:FLIR:D:Tripod:Codec1:BloscCLevel 5
+18ID:FLIR:D:Tripod:Codec1:BloscShuffle 0
+18ID:FLIR:D:Tripod:Codec1:BloscNumThreads 1
+18ID:FLIR:D:Tripod:Codec1:NDArrayPort OVER1
+18ID:FLIR:D:Tripod:Codec1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Codec1:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Codec1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Codec1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Codec1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Codec1:QueueSize 2000
+18ID:FLIR:D:Tripod:Codec1:NumThreads 3
+18ID:FLIR:D:Tripod:Codec1:SortTime 0.1
+18ID:FLIR:D:Tripod:Codec1:SortMode 1
+18ID:FLIR:D:Tripod:Codec1:SortSize 20
+18ID:FLIR:D:Tripod:Codec1:DataType 0
+18ID:FLIR:D:Tripod:Codec1:ColorMode 0
+18ID:FLIR:D:Tripod:Codec1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Codec1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Codec1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Codec1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Codec1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Codec1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Codec2:Mode 0
+18ID:FLIR:D:Tripod:Codec2:Compressor 0
+18ID:FLIR:D:Tripod:Codec2:JPEGQuality 85
+18ID:FLIR:D:Tripod:Codec2:BloscCompressor 0
+18ID:FLIR:D:Tripod:Codec2:BloscCLevel 5
+18ID:FLIR:D:Tripod:Codec2:BloscShuffle 0
+18ID:FLIR:D:Tripod:Codec2:BloscNumThreads 1
+18ID:FLIR:D:Tripod:Codec2:NDArrayPort SP1
+18ID:FLIR:D:Tripod:Codec2:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Codec2:EnableCallbacks 0
+18ID:FLIR:D:Tripod:Codec2:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Codec2:MaxByteRate 0
+18ID:FLIR:D:Tripod:Codec2:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Codec2:QueueSize 2000
+18ID:FLIR:D:Tripod:Codec2:NumThreads 1
+18ID:FLIR:D:Tripod:Codec2:SortTime 0.1
+18ID:FLIR:D:Tripod:Codec2:SortMode 0
+18ID:FLIR:D:Tripod:Codec2:SortSize 20
+18ID:FLIR:D:Tripod:Codec2:DataType 0
+18ID:FLIR:D:Tripod:Codec2:ColorMode 0
+18ID:FLIR:D:Tripod:Codec2:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Codec2:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Codec2:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Codec2:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Codec2:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Codec2:WaitForPlugins 0
+18ID:FLIR:D:Tripod:BadPix1:FileName 0
+18ID:FLIR:D:Tripod:BadPix1:NDArrayPort SP1
+18ID:FLIR:D:Tripod:BadPix1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:BadPix1:EnableCallbacks 0
+18ID:FLIR:D:Tripod:BadPix1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:BadPix1:MaxByteRate 0
+18ID:FLIR:D:Tripod:BadPix1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:BadPix1:QueueSize 2000
+18ID:FLIR:D:Tripod:BadPix1:NumThreads 1
+18ID:FLIR:D:Tripod:BadPix1:SortTime 0.1
+18ID:FLIR:D:Tripod:BadPix1:SortMode 0
+18ID:FLIR:D:Tripod:BadPix1:SortSize 20
+18ID:FLIR:D:Tripod:BadPix1:DataType 0
+18ID:FLIR:D:Tripod:BadPix1:ColorMode 0
+18ID:FLIR:D:Tripod:BadPix1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:BadPix1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:BadPix1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:BadPix1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:BadPix1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:BadPix1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:Pva1:NDArrayPort CODEC1
+18ID:FLIR:D:Tripod:Pva1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:Pva1:EnableCallbacks 1
+18ID:FLIR:D:Tripod:Pva1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:Pva1:MaxByteRate 0
+18ID:FLIR:D:Tripod:Pva1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:Pva1:QueueSize 2000
+18ID:FLIR:D:Tripod:Pva1:NumThreads 1
+18ID:FLIR:D:Tripod:Pva1:SortTime 0.1
+18ID:FLIR:D:Tripod:Pva1:SortMode 0
+18ID:FLIR:D:Tripod:Pva1:SortSize 20
+18ID:FLIR:D:Tripod:Pva1:DataType 0
+18ID:FLIR:D:Tripod:Pva1:ColorMode 0
+18ID:FLIR:D:Tripod:Pva1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:Pva1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:Pva1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:Pva1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:Pva1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:Pva1:WaitForPlugins 0
+18ID:FLIR:D:Tripod:ffmstream1:NDArrayPort OVER1
+18ID:FLIR:D:Tripod:ffmstream1:NDArrayAddress 0
+18ID:FLIR:D:Tripod:ffmstream1:EnableCallbacks 1
+18ID:FLIR:D:Tripod:ffmstream1:MinCallbackTime 0
+18ID:FLIR:D:Tripod:ffmstream1:MaxByteRate 0
+18ID:FLIR:D:Tripod:ffmstream1:BlockingCallbacks 0
+18ID:FLIR:D:Tripod:ffmstream1:QueueSize 2
+18ID:FLIR:D:Tripod:ffmstream1:NumThreads 1
+18ID:FLIR:D:Tripod:ffmstream1:SortTime 0.1
+18ID:FLIR:D:Tripod:ffmstream1:SortMode 0
+18ID:FLIR:D:Tripod:ffmstream1:SortSize 20
+18ID:FLIR:D:Tripod:ffmstream1:DataType 0
+18ID:FLIR:D:Tripod:ffmstream1:ColorMode 0
+18ID:FLIR:D:Tripod:ffmstream1:ArrayCallbacks 1
+18ID:FLIR:D:Tripod:ffmstream1:NDAttributesFile 0
+18ID:FLIR:D:Tripod:ffmstream1:NDAttributesMacros 0
+18ID:FLIR:D:Tripod:ffmstream1:PoolPollStats.SCAN 6
+18ID:FLIR:D:Tripod:ffmstream1:NumPreAllocBuffers 100
+18ID:FLIR:D:Tripod:ffmstream1:WaitForPlugins 0
+<END>
