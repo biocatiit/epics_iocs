@@ -51,6 +51,7 @@ create_monitor_set("auto_settings.req",30,"P1=$(PREFIX1),P2=$(PREFIX2),P3=$(PREF
 
 date
 
+# Tells EPICS to process all records to make sure the SR570 is synced with EPICS.
 dbpf "18ID:SR570:1:asyn_1init.PROC" 1
 dbpf "18ID:SR570:2:asyn_2init.PROC" 1
 dbpf "18ID:SR570:3:asyn_3init.PROC" 1
