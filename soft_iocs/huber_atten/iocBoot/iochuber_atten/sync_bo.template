@@ -1,0 +1,6 @@
+# bo record template for syncing inputs and outputs
+record(bo,"$(P)$(R)SyncOutput") {
+    field(DOL,"$(P)$(I) CP MS")
+    field(OMSL, "closed_loop")
+    field(OUT,"$(P)$(O) PP NMS")
+}

@@ -1,10 +1,10 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260122-103924
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260123-142600
 18ID:SR570:1:asyn_1bias_put.VAL 0
 18ID:SR570:1:asyn_1bias_tweak.VAL 0
 18ID:SR570:1:asyn_1bias_on.VAL 0
 18ID:SR570:1:asyn_1off_u_put.VAL 1000
 18ID:SR570:1:asyn_1offset_u_tweak.VAL 0
-18ID:SR570:1:asyn_1offset_cal.VAL 1
+18ID:SR570:1:asyn_1offset_cal.VAL 0
 18ID:SR570:1:asyn_1filter_type.VAL 0
 18ID:SR570:1:asyn_1low_freq.VAL 0
 18ID:SR570:1:asyn_1high_freq.VAL 0
@@ -23,7 +23,7 @@
 18ID:SR570:2:asyn_2bias_on.VAL 0
 18ID:SR570:2:asyn_2off_u_put.VAL 1000
 18ID:SR570:2:asyn_2offset_u_tweak.VAL 0
-18ID:SR570:2:asyn_2offset_cal.VAL 1
+18ID:SR570:2:asyn_2offset_cal.VAL 0
 18ID:SR570:2:asyn_2filter_type.VAL 0
 18ID:SR570:2:asyn_2low_freq.VAL 0
 18ID:SR570:2:asyn_2high_freq.VAL 0
@@ -42,7 +42,7 @@
 18ID:SR570:3:asyn_3bias_on.VAL 0
 18ID:SR570:3:asyn_3off_u_put.VAL 1000
 18ID:SR570:3:asyn_3offset_u_tweak.VAL 0
-18ID:SR570:3:asyn_3offset_cal.VAL 1
+18ID:SR570:3:asyn_3offset_cal.VAL 0
 18ID:SR570:3:asyn_3filter_type.VAL 0
 18ID:SR570:3:asyn_3low_freq.VAL 0
 18ID:SR570:3:asyn_3high_freq.VAL 0
@@ -61,7 +61,7 @@
 18ID:SR570:4:asyn_4bias_on.VAL 0
 18ID:SR570:4:asyn_4off_u_put.VAL 1000
 18ID:SR570:4:asyn_4offset_u_tweak.VAL 0
-18ID:SR570:4:asyn_4offset_cal.VAL 1
+18ID:SR570:4:asyn_4offset_cal.VAL 0
 18ID:SR570:4:asyn_4filter_type.VAL 0
 18ID:SR570:4:asyn_4low_freq.VAL 0
 18ID:SR570:4:asyn_4high_freq.VAL 0
