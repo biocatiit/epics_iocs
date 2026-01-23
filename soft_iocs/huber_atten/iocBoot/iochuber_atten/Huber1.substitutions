@@ -65,17 +65,17 @@ file "$(MODBUS)/db/statistics.template" { pattern
 
 
 # These sync between Yn inputs and outputs in case value is changed through a different interface
-#file "sync_bo.template" { pattern
-#{P,           R,          I,        O}
-#{18ID:HUBER1:,       A1,     A1In,     A1Out}
-#{18ID:HUBER1:,       A2,     A2In,     A2Out}
-#{18ID:HUBER1:,       A3,     A3In,     A3Out}
-#{18ID:HUBER1:,       A4,     A4In,     A4Out}
-#{18ID:HUBER1:,       A5,     A5In,     A5Out}
-#{18ID:HUBER1:,       A6,     A6In,     A6Out}
-#{18ID:HUBER1:,       A7,     A7In,     A7Out}
-#{18ID:HUBER1:,       A8,     A8In,     A8Out}
-#}
+file "sync_bo.template" { pattern
+{P,           R,          I,        O}
+{18ID:HUBER1:,       A1,     A1In,     A1Out}
+{18ID:HUBER1:,       A2,     A2In,     A2Out}
+{18ID:HUBER1:,       A3,     A3In,     A3Out}
+{18ID:HUBER1:,       A4,     A4In,     A4Out}
+{18ID:HUBER1:,       A5,     A5In,     A5Out}
+{18ID:HUBER1:,       A6,     A6In,     A6Out}
+{18ID:HUBER1:,       A7,     A7In,     A7Out}
+{18ID:HUBER1:,       A8,     A8In,     A8Out}
+}
 
 
 # These are the Tn values (attenuator thickness) done with word access.  T0-T7 

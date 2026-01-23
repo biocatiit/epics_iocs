@@ -72,6 +72,20 @@ dbLoadTemplate("Huber1.substitutions")
 
 iocInit
 
+# Wait after init for first modbus connections/polling
+epicsThreadSleep 2
+
+# Set the An in/out sync records to on, so that works
+# NOTE: If they're on initially then the attenuators all get set to out on iocInit
+dbpf 18ID:HUBER1:A1SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A2SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A3SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A4SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A5SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A6SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A7SyncOutput.DISA 0
+dbpf 18ID:HUBER1:A8SyncOutput.DISA 0
+
 date
 
 
