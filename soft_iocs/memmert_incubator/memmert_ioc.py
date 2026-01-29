@@ -30,7 +30,7 @@ class MemmertIncubator:
             DESC='Timestamp of last update')
 
     def read(self):
-        resp = self.session.get(self.status_url, timeout=0.5)
+        resp = self.session.get(self.status_url, timeout=1)
         tdat = resp.text
 
         cur_temp = float(tdat.split(',')[0].split(':')[1])
@@ -45,12 +45,12 @@ class MemmertIncubator:
         cur_temp, setpoint, set_range, min_setpoint, max_setpoint = self.read()
 
         self.temp_pv.set(cur_temp)
-        self.setpoint_pv.set()
+        self.setpoint_pv.set(setpoint)
         self.timestamp_pv.set(time.ctime())
 
     def set_temperature(self, value):
         value = round(float(value), 1)
-        self.session.get('{}{}'.format(self.status_url,value), timeout=0.5)
+        self.session.get('{}{}'.format(self.status_url,value), timeout=1)
 
 if __name__ == '__main__':
     # Create an asyncio dispatcher, the event loop is now running
@@ -83,7 +83,7 @@ if __name__ == '__main__':
             try:
                 [inc.update() for inc in incubators]
             except Exception:
-                # traceback.print_exc()
+                traceback.print_exc()
                 pass
             await asyncio.sleep(0.5)
 

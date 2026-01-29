@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250923-123736
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260129-131622
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Inline:cam1:BinX 1
 18ID:FLIR:D:Inline:cam1:BinY 1
@@ -8,9 +8,9 @@
 18ID:FLIR:D:Inline:cam1:SizeY 1200
 18ID:FLIR:D:Inline:cam1:ReverseX 0
 18ID:FLIR:D:Inline:cam1:ReverseY 0
-18ID:FLIR:D:Inline:cam1:AcquireTime 0.024
-18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.024329432
-18ID:FLIR:D:Inline:cam1:Gain 40
+18ID:FLIR:D:Inline:cam1:AcquireTime 0.025
+18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.025027328
+18ID:FLIR:D:Inline:cam1:Gain 35
 18ID:FLIR:D:Inline:cam1:FrameType 0
 18ID:FLIR:D:Inline:cam1:ImageMode 2
 18ID:FLIR:D:Inline:cam1:TriggerMode 0
@@ -40,7 +40,7 @@
 18ID:FLIR:D:Inline:cam1:TriggerSource 0
 18ID:FLIR:D:Inline:cam1:TriggerOverlap 0
 18ID:FLIR:D:Inline:cam1:ExposureMode 0
-18ID:FLIR:D:Inline:cam1:ExposureAuto 1
+18ID:FLIR:D:Inline:cam1:ExposureAuto 0
 18ID:FLIR:D:Inline:cam1:GainAuto 0
 18ID:FLIR:D:Inline:cam1:PixelFormat 3
 18ID:FLIR:D:Inline:cam1:TimeStampMode 0
@@ -1933,10 +1933,10 @@
 18ID:FLIR:D:Inline:ROIStat1:8:MinY 0
 18ID:FLIR:D:Inline:ROIStat1:8:SizeX 0
 18ID:FLIR:D:Inline:ROIStat1:8:SizeY 0
-18ID:FLIR:D:Inline:Trans1:Type 0
+18ID:FLIR:D:Inline:Trans1:Type 4
 18ID:FLIR:D:Inline:Trans1:NDArrayPort SP1
 18ID:FLIR:D:Inline:Trans1:NDArrayAddress 0
-18ID:FLIR:D:Inline:Trans1:EnableCallbacks 0
+18ID:FLIR:D:Inline:Trans1:EnableCallbacks 1
 18ID:FLIR:D:Inline:Trans1:MinCallbackTime 0
 18ID:FLIR:D:Inline:Trans1:MaxByteRate 0
 18ID:FLIR:D:Inline:Trans1:BlockingCallbacks 0
@@ -1953,7 +1953,7 @@
 18ID:FLIR:D:Inline:Trans1:PoolPollStats.SCAN 6
 18ID:FLIR:D:Inline:Trans1:NumPreAllocBuffers 100
 18ID:FLIR:D:Inline:Trans1:WaitForPlugins 0
-18ID:FLIR:D:Inline:Over1:NDArrayPort SP1
+18ID:FLIR:D:Inline:Over1:NDArrayPort TRANS1
 18ID:FLIR:D:Inline:Over1:NDArrayAddress 0
 18ID:FLIR:D:Inline:Over1:EnableCallbacks 1
 18ID:FLIR:D:Inline:Over1:MinCallbackTime 0
@@ -1975,9 +1975,9 @@
 18ID:FLIR:D:Inline:Over1:1:Name ROI1
 18ID:FLIR:D:Inline:Over1:1:Use 1
 18ID:FLIR:D:Inline:Over1:1:PositionXLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:PositionX 869
+18ID:FLIR:D:Inline:Over1:1:PositionX 902
 18ID:FLIR:D:Inline:Over1:1:PositionYLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:PositionY 507
+18ID:FLIR:D:Inline:Over1:1:PositionY 543
 18ID:FLIR:D:Inline:Over1:1:SizeXLink.DOL CP NPP MS
 18ID:FLIR:D:Inline:Over1:1:SizeX 100
 18ID:FLIR:D:Inline:Over1:1:SizeYLink.DOL CP NPP MS
@@ -1988,9 +1988,9 @@
 18ID:FLIR:D:Inline:Over1:1:WidthY 2
 18ID:FLIR:D:Inline:Over1:1:DrawMode 0
 18ID:FLIR:D:Inline:Over1:1:Shape 0
-18ID:FLIR:D:Inline:Over1:1:Red 255
-18ID:FLIR:D:Inline:Over1:1:Green 255
-18ID:FLIR:D:Inline:Over1:1:Blue 255
+18ID:FLIR:D:Inline:Over1:1:Red 178
+18ID:FLIR:D:Inline:Over1:1:Green 17
+18ID:FLIR:D:Inline:Over1:1:Blue 130
 18ID:FLIR:D:Inline:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Inline:Over1:1:Font 0
 18ID:FLIR:D:Inline:Over1:1:DisplayText 0
