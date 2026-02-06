@@ -14,11 +14,12 @@ dbLoadDatabase "../../dbd/toaster.dbd"
 toaster_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
-#dbLoadRecords("toast.db", "P=18ID:,D=H:,MOTOR=18ID_DMC_E05:33")
-dbLoadRecords("toast2.db", "P=18ID:,D=H:,MOTOR=18ID_DMC_E05:33")
-dbLoadRecords("toast2.db", "P=18ID:,D=V:,MOTOR=18ID_DMC_E05:34")
+dbLoadRecords("toast.db", "P=18ID:,D=H:,MOTOR=18ID_DMC_E05:33")
+dbLoadRecords("toast.db", "P=18ID:,D=V:,MOTOR=18ID_DMC_E05:34")
 
 iocInit
 
 ## Start any sequence programs
 #seq sncxxx,"user=biocat"
+
+date

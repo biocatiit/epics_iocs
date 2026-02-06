@@ -1,25 +1,22 @@
-record(seq, "$(P)Toast:$(D)Move") {
+record(ao, "$(P)Toast:$(D)High") {}
+record(ao, "$(P)Toast:$(D)Low") {}
+
+record(sseq, "$(P)Toast:$(D)Move") {
   field(DESC, "Toast motor")
   field(SCAN, "Passive")
-  field(DOL0, "5")
-  field(LNK0, "$(MOTOR).VAL PP")
-  field(DOL1, "-5")
-  field(LNK1, "$(MOTOR).VAL PP")
-  field(SELM, "2")
-  field(SHFT, "0")
-  #field(SELN, "1")
-  field(SELL, "$(P)Toast:$(D)Check.OVAL")
-}
+  field(DOL1, "$(P)Toast:$(D)High.OVAL")
+  field(WAIT1, "Wait")
+  field(LNK1, "$(MOTOR).VAL CA PP")
+  field(DOL2, "$(P)Toast:$(D)Low.OVAL")
+  field(WAIT2, "Wait")
+  field(LNK2, "$(MOTOR).VAL CA PP")
+  field(LNK3, "$(P)Toast:$(D)Reset PP")
+  field(DOL3, "1")
+ }
 
-record(calcout, "$(P)Toast:$(D)Check") {
-  field(DESC, "Check if toast motor moves")
-  field(INPA, "$(MOTOR).RBV")
-  #field(INPA, "0")
-  field(INPB, "5")
-  field(INPC, "-5")
-  field(CALC, "((A >= B) || (A <= C)) ? 1: 0")
-  field("OOPT", 3)
-  field("DOPT", 1)
-  field("OCAL", "(A >= B) ? 2 : 1")
-  field("OUT", "$(P)Toast:$(D)Move PP")
+ record(seq, "$(P)Toast:$(D)Reset") {
+  field(DESC, "Reset toast")
+  field(SCAN, "Passive")
+  field(DOL0, "1")
+  field(LNK0, "$(P)Toast:$(D)Move PP")
 }
