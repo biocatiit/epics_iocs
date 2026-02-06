@@ -1,0 +1,2 @@
+file "USBCTR_settings.req", P=$(P), SP=$(P), MP=$(MP)
+
