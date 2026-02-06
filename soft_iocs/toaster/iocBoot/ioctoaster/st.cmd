@@ -14,8 +14,11 @@ dbLoadDatabase "../../dbd/toaster.dbd"
 toaster_registerRecordDeviceDriver pdbbase
 
 ## Load record instances
+# Horizontal motor toaster. Change MOTOR=pv_name to the PV name for the motor being used.
 dbLoadRecords("toast.db", "P=18ID:,D=H:,MOTOR=18ID_DMC_E05:33")
-dbLoadRecords("toast.db", "P=18ID:,D=V:,MOTOR=18ID_DMC_E05:34")
+
+# Vertical motor toaster. Change MOTOR=pv_name to the PV name for the motor being used.
+#dbLoadRecords("toast.db", "P=18ID:,D=V:,MOTOR=18ID_DMC_E05:34")
 
 iocInit
 
