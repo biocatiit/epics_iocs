@@ -1,10 +1,13 @@
 record(ao, "$(P)Toast:$(D)High") {
   field(DESC, "Toast high limit")
   field(SCAN, "Passive")
+  field(PREC, 3)
 }
+
 record(ao, "$(P)Toast:$(D)Low") {
   field(DESC, "Toast low limit")
   field(SCAN, "Passive")
+  field(PREC, 3)
 }
 
 record(sseq, "$(P)Toast:$(D)Move") {
