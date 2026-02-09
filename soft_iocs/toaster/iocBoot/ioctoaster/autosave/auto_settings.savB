@@ -1,0 +1,156 @@
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260209-104038
+18ID:Toast:H:High.VAL 5
+18ID:Toast:H:High.DRVH 0
+18ID:Toast:H:High.DRVL 0
+18ID:Toast:H:High.DESC Toast high limit
+18ID:Toast:H:High.EGU 
+18ID:Toast:H:Low.VAL -5
+18ID:Toast:H:Low.DRVH 0
+18ID:Toast:H:Low.DRVL 0
+18ID:Toast:H:Low.DESC Toast low limit
+18ID:Toast:H:Low.EGU 
+18ID:Toast:H:Move.SCAN 0
+18ID:Toast:H:Move.DESC Toast motor
+18ID:Toast:H:Move.PREC 0
+18ID:Toast:H:Move.DLY1 0
+18ID:Toast:H:Move.DOL1 18ID:Toast:H:High.OVAL NPP NMS
+18ID:Toast:H:Move.DO1 5
+18ID:Toast:H:Move.STR1 5
+18ID:Toast:H:Move.LNK1 18ID_DMC_E05:33.VAL CA NMS
+18ID:Toast:H:Move.WAIT1 1
+18ID:Toast:H:Move.DLY2 0
+18ID:Toast:H:Move.DOL2 18ID:Toast:H:Low.OVAL NPP NMS
+18ID:Toast:H:Move.DO2 -5
+18ID:Toast:H:Move.STR2 -5
+18ID:Toast:H:Move.LNK2 18ID_DMC_E05:33.VAL CA NMS
+18ID:Toast:H:Move.WAIT2 1
+18ID:Toast:H:Move.DLY3 0
+18ID:Toast:H:Move.DOL3 1
+18ID:Toast:H:Move.DO3 1
+18ID:Toast:H:Move.STR3 1
+18ID:Toast:H:Move.LNK3 18ID:Toast:H:Reset PP NMS
+18ID:Toast:H:Move.WAIT3 0
+18ID:Toast:H:Move.DLY4 0
+18ID:Toast:H:Move.DOL4 
+18ID:Toast:H:Move.DO4 0
+18ID:Toast:H:Move.STR4 0
+18ID:Toast:H:Move.LNK4 
+18ID:Toast:H:Move.WAIT4 0
+18ID:Toast:H:Move.DLY5 0
+18ID:Toast:H:Move.DOL5 
+18ID:Toast:H:Move.DO5 0
+18ID:Toast:H:Move.STR5 0
+18ID:Toast:H:Move.LNK5 
+18ID:Toast:H:Move.WAIT5 0
+18ID:Toast:H:Move.DLY6 0
+18ID:Toast:H:Move.DOL6 
+18ID:Toast:H:Move.DO6 0
+18ID:Toast:H:Move.STR6 0
+18ID:Toast:H:Move.LNK6 
+18ID:Toast:H:Move.WAIT6 0
+18ID:Toast:H:Move.DLY7 0
+18ID:Toast:H:Move.DOL7 
+18ID:Toast:H:Move.DO7 0
+18ID:Toast:H:Move.STR7 0
+18ID:Toast:H:Move.LNK7 
+18ID:Toast:H:Move.WAIT7 0
+18ID:Toast:H:Move.DLY8 0
+18ID:Toast:H:Move.DOL8 
+18ID:Toast:H:Move.DO8 0
+18ID:Toast:H:Move.STR8 0
+18ID:Toast:H:Move.LNK8 
+18ID:Toast:H:Move.WAIT8 0
+18ID:Toast:H:Move.DLY9 0
+18ID:Toast:H:Move.DOL9 
+18ID:Toast:H:Move.DO9 0
+18ID:Toast:H:Move.STR9 0
+18ID:Toast:H:Move.LNK9 
+18ID:Toast:H:Move.WAIT9 0
+18ID:Toast:H:Move.DLYA 0
+18ID:Toast:H:Move.DOLA 
+18ID:Toast:H:Move.DOA 0
+18ID:Toast:H:Move.STRA 0
+18ID:Toast:H:Move.LNKA 
+18ID:Toast:H:Move.WAITA 0
+18ID:Toast:H:Move.FLNK 
+18ID:Toast:H:Move.SELL 
+18ID:Toast:H:Move.SELN 1
+18ID:Toast:H:Move.SELM 0
+18ID:Toast:V:High.VAL 5
+18ID:Toast:V:High.DRVH 0
+18ID:Toast:V:High.DRVL 0
+18ID:Toast:V:High.DESC Toast high limit
+18ID:Toast:V:High.EGU 
+18ID:Toast:V:Low.VAL -5
+18ID:Toast:V:Low.DRVH 0
+18ID:Toast:V:Low.DRVL 0
+18ID:Toast:V:Low.DESC Toast low limit
+18ID:Toast:V:Low.EGU 
+18ID:Toast:V:Move.SCAN 0
+18ID:Toast:V:Move.DESC Toast motor
+18ID:Toast:V:Move.PREC 0
+18ID:Toast:V:Move.DLY1 0
+18ID:Toast:V:Move.DOL1 18ID:Toast:V:High.OVAL NPP NMS
+18ID:Toast:V:Move.DO1 5
+18ID:Toast:V:Move.STR1 5
+18ID:Toast:V:Move.LNK1 18ID_DMC_E05:34.VAL CA NMS
+18ID:Toast:V:Move.WAIT1 1
+18ID:Toast:V:Move.DLY2 0
+18ID:Toast:V:Move.DOL2 18ID:Toast:V:Low.OVAL NPP NMS
+18ID:Toast:V:Move.DO2 -5
+18ID:Toast:V:Move.STR2 -5
+18ID:Toast:V:Move.LNK2 18ID_DMC_E05:34.VAL CA NMS
+18ID:Toast:V:Move.WAIT2 1
+18ID:Toast:V:Move.DLY3 0
+18ID:Toast:V:Move.DOL3 1
+18ID:Toast:V:Move.DO3 1
+18ID:Toast:V:Move.STR3 1
+18ID:Toast:V:Move.LNK3 18ID:Toast:V:Reset PP NMS
+18ID:Toast:V:Move.WAIT3 0
+18ID:Toast:V:Move.DLY4 0
+18ID:Toast:V:Move.DOL4 
+18ID:Toast:V:Move.DO4 0
+18ID:Toast:V:Move.STR4 0
+18ID:Toast:V:Move.LNK4 
+18ID:Toast:V:Move.WAIT4 0
+18ID:Toast:V:Move.DLY5 0
+18ID:Toast:V:Move.DOL5 
+18ID:Toast:V:Move.DO5 0
+18ID:Toast:V:Move.STR5 0
+18ID:Toast:V:Move.LNK5 
+18ID:Toast:V:Move.WAIT5 0
+18ID:Toast:V:Move.DLY6 0
+18ID:Toast:V:Move.DOL6 
+18ID:Toast:V:Move.DO6 0
+18ID:Toast:V:Move.STR6 0
+18ID:Toast:V:Move.LNK6 
+18ID:Toast:V:Move.WAIT6 0
+18ID:Toast:V:Move.DLY7 0
+18ID:Toast:V:Move.DOL7 
+18ID:Toast:V:Move.DO7 0
+18ID:Toast:V:Move.STR7 0
+18ID:Toast:V:Move.LNK7 
+18ID:Toast:V:Move.WAIT7 0
+18ID:Toast:V:Move.DLY8 0
+18ID:Toast:V:Move.DOL8 
+18ID:Toast:V:Move.DO8 0
+18ID:Toast:V:Move.STR8 0
+18ID:Toast:V:Move.LNK8 
+18ID:Toast:V:Move.WAIT8 0
+18ID:Toast:V:Move.DLY9 0
+18ID:Toast:V:Move.DOL9 
+18ID:Toast:V:Move.DO9 0
+18ID:Toast:V:Move.STR9 0
+18ID:Toast:V:Move.LNK9 
+18ID:Toast:V:Move.WAIT9 0
+18ID:Toast:V:Move.DLYA 0
+18ID:Toast:V:Move.DOLA 
+18ID:Toast:V:Move.DOA 0
+18ID:Toast:V:Move.STRA 0
+18ID:Toast:V:Move.LNKA 
+18ID:Toast:V:Move.WAITA 0
+18ID:Toast:V:Move.FLNK 
+18ID:Toast:V:Move.SELL 
+18ID:Toast:V:Move.SELN 1
+18ID:Toast:V:Move.SELM 0
+<END>

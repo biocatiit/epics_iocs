@@ -1,15 +1,21 @@
-record(ao, "$(P)Toast:$(D)High") {}
-record(ao, "$(P)Toast:$(D)Low") {}
+record(ao, "$(P)Toast:$(D)High") {
+  field(DESC, "Toast high limit")
+  field(SCAN, "Passive")
+}
+record(ao, "$(P)Toast:$(D)Low") {
+  field(DESC, "Toast low limit")
+  field(SCAN, "Passive")
+}
 
 record(sseq, "$(P)Toast:$(D)Move") {
   field(DESC, "Toast motor")
   field(SCAN, "Passive")
   field(DOL1, "$(P)Toast:$(D)High.OVAL")
   field(WAIT1, "Wait")
-  field(LNK1, "$(MOTOR).VAL CA PP")
+  field(LNK1, "$(MOTOR).VAL CA")
   field(DOL2, "$(P)Toast:$(D)Low.OVAL")
   field(WAIT2, "Wait")
-  field(LNK2, "$(MOTOR).VAL CA PP")
+  field(LNK2, "$(MOTOR).VAL CA")
   field(LNK3, "$(P)Toast:$(D)Reset PP")
   field(DOL3, "1")
  }
