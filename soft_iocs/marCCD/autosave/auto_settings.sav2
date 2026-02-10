@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250712-050116
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260210-155311
 Mar165:cam1:BinX 2
 Mar165:cam1:BinY 2
 Mar165:cam1:MinX 0
@@ -7,7 +7,7 @@ Mar165:cam1:SizeX 1
 Mar165:cam1:SizeY 1
 Mar165:cam1:ReverseX 0
 Mar165:cam1:ReverseY 0
-Mar165:cam1:AcquireTime 2
+Mar165:cam1:AcquireTime 1
 Mar165:cam1:AcquirePeriod 2
 Mar165:cam1:Gain 1
 Mar165:cam1:FrameType 0
@@ -35,9 +35,9 @@ Mar165:cam1:NDAttributesMacros 0
 Mar165:cam1:PoolPollStats.SCAN 6
 Mar165:cam1:NumPreAllocBuffers 100
 Mar165:cam1:WaitForPlugins 0
-Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "109" "97" "114" "47" "50" "48" "50" "53" "95" "82" "117" "110" "50" "47" "115" "101" "116" "117" "112" "0" }
-Mar165:cam1:FileName @array@ { "116" "101" "115" "116" "121" "0" }
-Mar165:cam1:FileNumber 2
+Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "109" "97" "114" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "50" "48" "51" "95" "71" "111" "110" "103" "0" }
+Mar165:cam1:FileName @array@ { "70" "50" "54" "95" "48" "50" "48" "54" "53" "95" "80" "49" "95" "76" "86" "95" "83" "76" "50" "51" "95" "112" "67" "97" "52" "53" "0" }
+Mar165:cam1:FileNumber 4
 Mar165:cam1:AutoIncrement 1
 Mar165:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "53" "46" "53" "100" "46" "116" "105" "102" "0" }
 Mar165:cam1:AutoSave 1
@@ -65,7 +65,7 @@ Mar165:cam1:FileComments 0
 Mar165:cam1:DatasetComments 0
 Mar165:cam1:GateMode 0
 Mar165:cam1:ReadoutMode 0
-Mar165:cam1:SeriesFileTemplate @array@ { "51" "0" }
+Mar165:cam1:SeriesFileTemplate @array@ { "49" "0" }
 Mar165:cam1:SeriesFileDigits 5
 Mar165:cam1:SeriesFileFirst 1
 Mar165:image1:NDArrayPort MAR
