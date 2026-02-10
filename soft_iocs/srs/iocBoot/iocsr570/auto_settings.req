@@ -1,0 +1,4 @@
+file "SR570_settings.req", P=$(P1), A=$(A1)
+file "SR570_settings.req", P=$(P2), A=$(A2)
+file "SR570_settings.req", P=$(P3), A=$(A3)
+file "SR570_settings.req", P=$(P4), A=$(A4)

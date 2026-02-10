@@ -29,10 +29,11 @@ BUSY=$(SUPPORT)busy-R1-7-4
 SSCAN=$(SUPPORT)sscan-R2-11-6
 CALC=$(SUPPORT)calc-R3-7-5
 SCALER=$(SUPPORT)scaler-4-1
+MCA=$(SUPPORT)mca-R7-10
 MEASCOMP=$(SUPPORT)measComp-master
 
 # If using the sequencer, point SNCSEQ at its top directory:
-#SNCSEQ = $(MODULES)/seq-ver
+SNCSEQ = $(SUPPORT)/sequencer-mirror-R2-2-9
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
 EPICS_BASE = /opt/epics/base-7.0.9

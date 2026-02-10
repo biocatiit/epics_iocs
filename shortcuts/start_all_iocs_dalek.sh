@@ -15,4 +15,10 @@ pushd /opt/epics/epics_iocs/shortcuts
 ./start_ioc_newport_d_hutch.sh start
 ./start_ioc_newport_tr.sh start
 ./start_ioc_newport_hexapod.sh start
+./start_ioc_memmert_incubator.sh start
+./start_ioc_camera_inline.sh start
+./start_ioc_camera_tripod.sh start
+./start_ioc_camera_screen.sh start
+./start_ioc_camera_mono2.sh start
+./start_ioc_camera_mono1.sh start
 popd

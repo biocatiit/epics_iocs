@@ -1,0 +1,7 @@
+file "ao.req", P=$(P)Toast:, D=H:, R=High
+file "ao.req", P=$(P)Toast:, D=H:, R=Low
+file "sseqRecord_settings.req", P=$(P)Toast:, S=H:Move
+
+file "ao.req", P=$(P)Toast:, D=V:, R=High
+file "ao.req", P=$(P)Toast:, D=V:, R=Low
+file "sseqRecord_settings.req", P=$(P)Toast:, S=V:Move

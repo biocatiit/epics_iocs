@@ -1,0 +1,5 @@
+epicsEnvSet("SERIAL_NUMBER", "11")
+epicsEnvSet("MODULE_ID", "6")
+epicsEnvSet("BROADCAST", "127.0.0.1")
+epicsEnvSet("PREFIX", "18ID:")
+epicsEnvSet("RECORD", "C_Mono_BPM:")

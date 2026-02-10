@@ -22,6 +22,7 @@ meas_comp_DBD += asSupport.dbd
 meas_comp_DBD += calc.dbd
 meas_comp_DBD += scalerSupport.dbd
 meas_comp_DBD += sscan.dbd
+meas_comp_DBD += mcaSupport.dbd
 meas_comp_DBD += measCompSupport.dbd
 
 # Add all the support libraries needed by this IOC
@@ -31,6 +32,8 @@ meas_comp_LIBS += asyn
 meas_comp_LIBS += calc
 meas_comp_LIBS += scaler
 meas_comp_LIBS += sscan
+meas_comp_LIBS += mca
+meas_comp_LIBS += seq pv
 meas_comp_LIBS += measComp
 
 meas_comp_SYS_LIBS += uldaq
