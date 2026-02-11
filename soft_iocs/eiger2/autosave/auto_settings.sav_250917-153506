@@ -1,0 +1,4927 @@
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 250917-153059
+18ID:EIG2:cam1:BinX 1
+18ID:EIG2:cam1:BinY 1
+18ID:EIG2:cam1:MinX 0
+18ID:EIG2:cam1:MinY 0
+18ID:EIG2:cam1:SizeX 1
+18ID:EIG2:cam1:SizeY 1
+18ID:EIG2:cam1:ReverseX 0
+18ID:EIG2:cam1:ReverseY 0
+18ID:EIG2:cam1:AcquireTime 0.5
+18ID:EIG2:cam1:AcquirePeriod 0.5001
+18ID:EIG2:cam1:Gain 1
+18ID:EIG2:cam1:FrameType 0
+18ID:EIG2:cam1:ImageMode 1
+18ID:EIG2:cam1:TriggerMode 3
+18ID:EIG2:cam1:NumExposures 1
+18ID:EIG2:cam1:NumImages 1
+18ID:EIG2:cam1:ShutterMode 0
+18ID:EIG2:cam1:ShutterOpenDelay 0
+18ID:EIG2:cam1:ShutterCloseDelay 0
+18ID:EIG2:cam1:ShutterOpenEPICS.OUT 
+18ID:EIG2:cam1:ShutterCloseEPICS.OUT 
+18ID:EIG2:cam1:ShutterOpenEPICS.OCAL 1
+18ID:EIG2:cam1:ShutterCloseEPICS.OCAL 0
+18ID:EIG2:cam1:ShutterStatusEPICS_RBV.INP test CP MS
+18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ZRVL 0
+18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ONVL 1
+18ID:EIG2:cam1:Temperature 25
+18ID:EIG2:cam1:ReadStatus.SCAN 0
+18ID:EIG2:cam1:DataType 5
+18ID:EIG2:cam1:ColorMode 0
+18ID:EIG2:cam1:ArrayCallbacks 1
+18ID:EIG2:cam1:NDAttributesFile 0
+18ID:EIG2:cam1:NDAttributesMacros 0
+18ID:EIG2:cam1:PoolPollStats.SCAN 6
+18ID:EIG2:cam1:NumPreAllocBuffers 100
+18ID:EIG2:cam1:WaitForPlugins 0
+18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "53" "95" "82" "117" "110" "51" "47" "50" "48" "50" "53" "95" "48" "57" "95" "49" "55" "95" "72" "111" "112" "107" "105" "110" "115" "47" "115" "101" "116" "117" "112" "47" "115" "108" "105" "116" "115" "0" }
+18ID:EIG2:cam1:FileName 0
+18ID:EIG2:cam1:FileNumber 0
+18ID:EIG2:cam1:AutoIncrement 0
+18ID:EIG2:cam1:FileTemplate 0
+18ID:EIG2:cam1:AutoSave 0
+18ID:EIG2:cam1:FileFormat 0
+18ID:EIG2:cam1:FileWriteMode 0
+18ID:EIG2:cam1:NumCapture 1
+18ID:EIG2:cam1:DeleteDriverFile 0
+18ID:EIG2:cam1:CreateDirectory 0
+18ID:EIG2:cam1:LazyOpen 0
+18ID:EIG2:cam1:TempSuffix 
+18ID:EIG2:cam1:PhotonEnergy 12000
+18ID:EIG2:cam1:ThresholdEnergy 6000
+18ID:EIG2:cam1:NumTriggers 20
+18ID:EIG2:cam1:ManualTrigger 0
+18ID:EIG2:cam1:TriggerExposure 0.5
+18ID:EIG2:cam1:DataSource 1
+18ID:EIG2:cam1:StreamDecompress 1
+18ID:EIG2:cam1:ROIMode 0
+18ID:EIG2:cam1:CompressionAlgo 1
+18ID:EIG2:cam1:FlatfieldApplied 1
+18ID:EIG2:cam1:CountrateCorrApplied 1
+18ID:EIG2:cam1:PixelMaskApplied 1
+18ID:EIG2:cam1:AutoSummation 1
+18ID:EIG2:cam1:FWEnable 1
+18ID:EIG2:cam1:FWCompression 1
+18ID:EIG2:cam1:FWNamePattern @array@ { "115" "99" "97" "110" "0" }
+18ID:EIG2:cam1:FWNImagesPerFile 1
+18ID:EIG2:cam1:FWAutoRemove 1
+18ID:EIG2:cam1:SaveFiles 1
+18ID:EIG2:cam1:FileOwner 
+18ID:EIG2:cam1:FileOwnerGrp 
+18ID:EIG2:cam1:FilePerms 420
+18ID:EIG2:cam1:StreamEnable 1
+18ID:EIG2:cam1:StreamHdrDetail 1
+18ID:EIG2:cam1:StreamHdrAppendix 0
+18ID:EIG2:cam1:StreamImgAppendix 0
+18ID:EIG2:cam1:MonitorEnable 0
+18ID:EIG2:cam1:MonitorTimeout 500
+18ID:EIG2:cam1:DetDist 0
+18ID:EIG2:cam1:BeamX 0
+18ID:EIG2:cam1:BeamY 0
+18ID:EIG2:cam1:ChiStart 0
+18ID:EIG2:cam1:ChiIncr 0
+18ID:EIG2:cam1:KappaStart 0
+18ID:EIG2:cam1:KappaIncr 0
+18ID:EIG2:cam1:PhiStart 0
+18ID:EIG2:cam1:PhiIncr 0
+18ID:EIG2:cam1:OmegaStart 0
+18ID:EIG2:cam1:OmegaIncr 0
+18ID:EIG2:cam1:TwoThetaStart 0
+18ID:EIG2:cam1:TwoThetaIncr 0
+18ID:EIG2:cam1:WavelengthEps 0.0005
+18ID:EIG2:cam1:EnergyEps 0.05
+18ID:EIG2:cam1:HVResetTime 30
+18ID:EIG2:cam1:Threshold1Enable 1
+18ID:EIG2:cam1:Threshold2Energy 16800
+18ID:EIG2:cam1:Threshold2Enable 0
+18ID:EIG2:cam1:ThresholdDiffEnable 0
+18ID:EIG2:cam1:CountingMode 1
+18ID:EIG2:cam1:ExtGateMode 0
+18ID:EIG2:cam1:TriggerStartDelay 0
+18ID:EIG2:image1:NDArrayPort EIG
+18ID:EIG2:image1:NDArrayAddress 0
+18ID:EIG2:image1:EnableCallbacks 0
+18ID:EIG2:image1:MinCallbackTime 0
+18ID:EIG2:image1:MaxByteRate 0
+18ID:EIG2:image1:BlockingCallbacks 0
+18ID:EIG2:image1:QueueSize 5
+18ID:EIG2:image1:NumThreads 1
+18ID:EIG2:image1:SortTime 0.1
+18ID:EIG2:image1:SortMode 0
+18ID:EIG2:image1:SortSize 20
+18ID:EIG2:image1:DataType 0
+18ID:EIG2:image1:ColorMode 0
+18ID:EIG2:image1:ArrayCallbacks 0
+18ID:EIG2:image1:NDAttributesFile 0
+18ID:EIG2:image1:NDAttributesMacros 0
+18ID:EIG2:image1:PoolPollStats.SCAN 6
+18ID:EIG2:image1:NumPreAllocBuffers 100
+18ID:EIG2:image1:WaitForPlugins 0
+18ID:EIG2:image2:NDArrayPort EIG
+18ID:EIG2:image2:NDArrayAddress 1
+18ID:EIG2:image2:EnableCallbacks 0
+18ID:EIG2:image2:MinCallbackTime 0
+18ID:EIG2:image2:MaxByteRate 0
+18ID:EIG2:image2:BlockingCallbacks 0
+18ID:EIG2:image2:QueueSize 5
+18ID:EIG2:image2:NumThreads 1
+18ID:EIG2:image2:SortTime 0.1
+18ID:EIG2:image2:SortMode 0
+18ID:EIG2:image2:SortSize 20
+18ID:EIG2:image2:DataType 0
+18ID:EIG2:image2:ColorMode 0
+18ID:EIG2:image2:ArrayCallbacks 0
+18ID:EIG2:image2:NDAttributesFile 0
+18ID:EIG2:image2:NDAttributesMacros 0
+18ID:EIG2:image2:PoolPollStats.SCAN 6
+18ID:EIG2:image2:NumPreAllocBuffers 100
+18ID:EIG2:image2:WaitForPlugins 0
+18ID:EIG2:netCDF1:FilePath 0
+18ID:EIG2:netCDF1:FileName 0
+18ID:EIG2:netCDF1:FileNumber 0
+18ID:EIG2:netCDF1:AutoIncrement 0
+18ID:EIG2:netCDF1:FileTemplate 0
+18ID:EIG2:netCDF1:AutoSave 0
+18ID:EIG2:netCDF1:FileFormat 0
+18ID:EIG2:netCDF1:FileWriteMode 0
+18ID:EIG2:netCDF1:NumCapture 1
+18ID:EIG2:netCDF1:DeleteDriverFile 0
+18ID:EIG2:netCDF1:CreateDirectory 0
+18ID:EIG2:netCDF1:LazyOpen 0
+18ID:EIG2:netCDF1:TempSuffix 
+18ID:EIG2:netCDF1:NDArrayPort EIG
+18ID:EIG2:netCDF1:NDArrayAddress 0
+18ID:EIG2:netCDF1:EnableCallbacks 0
+18ID:EIG2:netCDF1:MinCallbackTime 0
+18ID:EIG2:netCDF1:MaxByteRate 0
+18ID:EIG2:netCDF1:BlockingCallbacks 0
+18ID:EIG2:netCDF1:QueueSize 20
+18ID:EIG2:netCDF1:NumThreads 1
+18ID:EIG2:netCDF1:SortTime 0.1
+18ID:EIG2:netCDF1:SortMode 0
+18ID:EIG2:netCDF1:SortSize 20
+18ID:EIG2:netCDF1:DataType 0
+18ID:EIG2:netCDF1:ColorMode 0
+18ID:EIG2:netCDF1:ArrayCallbacks 0
+18ID:EIG2:netCDF1:NDAttributesFile 0
+18ID:EIG2:netCDF1:NDAttributesMacros 0
+18ID:EIG2:netCDF1:PoolPollStats.SCAN 6
+18ID:EIG2:netCDF1:NumPreAllocBuffers 100
+18ID:EIG2:netCDF1:WaitForPlugins 0
+18ID:EIG2:TIFF1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "101" "57" "77" "47" "50" "48" "50" "50" "95" "82" "117" "110" "49" "47" "50" "48" "50" "50" "48" "51" "49" "54" "95" "72" "111" "112" "107" "105" "110" "115" "47" "83" "101" "116" "117" "112" "47" "83" "108" "105" "116" "115" "0" }
+18ID:EIG2:TIFF1:FileName @array@ { "115" "108" "105" "116" "115" "48" "49" "95" "48" "48" "51" "0" }
+18ID:EIG2:TIFF1:FileNumber 2
+18ID:EIG2:TIFF1:AutoIncrement 1
+18ID:EIG2:TIFF1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "52" "46" "52" "100" "46" "116" "105" "102" "0" }
+18ID:EIG2:TIFF1:AutoSave 1
+18ID:EIG2:TIFF1:FileFormat 0
+18ID:EIG2:TIFF1:FileWriteMode 0
+18ID:EIG2:TIFF1:NumCapture 1
+18ID:EIG2:TIFF1:DeleteDriverFile 0
+18ID:EIG2:TIFF1:CreateDirectory 0
+18ID:EIG2:TIFF1:LazyOpen 0
+18ID:EIG2:TIFF1:TempSuffix 
+18ID:EIG2:TIFF1:NDArrayPort EIG
+18ID:EIG2:TIFF1:NDArrayAddress 0
+18ID:EIG2:TIFF1:EnableCallbacks 0
+18ID:EIG2:TIFF1:MinCallbackTime 0
+18ID:EIG2:TIFF1:MaxByteRate 0
+18ID:EIG2:TIFF1:BlockingCallbacks 0
+18ID:EIG2:TIFF1:QueueSize 20
+18ID:EIG2:TIFF1:NumThreads 1
+18ID:EIG2:TIFF1:SortTime 0.1
+18ID:EIG2:TIFF1:SortMode 0
+18ID:EIG2:TIFF1:SortSize 20
+18ID:EIG2:TIFF1:DataType 0
+18ID:EIG2:TIFF1:ColorMode 0
+18ID:EIG2:TIFF1:ArrayCallbacks 0
+18ID:EIG2:TIFF1:NDAttributesFile 0
+18ID:EIG2:TIFF1:NDAttributesMacros 0
+18ID:EIG2:TIFF1:PoolPollStats.SCAN 6
+18ID:EIG2:TIFF1:NumPreAllocBuffers 100
+18ID:EIG2:TIFF1:WaitForPlugins 0
+18ID:EIG2:JPEG1:JPEGQuality 50
+18ID:EIG2:JPEG1:FilePath 0
+18ID:EIG2:JPEG1:FileName 0
+18ID:EIG2:JPEG1:FileNumber 0
+18ID:EIG2:JPEG1:AutoIncrement 0
+18ID:EIG2:JPEG1:FileTemplate 0
+18ID:EIG2:JPEG1:AutoSave 0
+18ID:EIG2:JPEG1:FileFormat 0
+18ID:EIG2:JPEG1:FileWriteMode 0
+18ID:EIG2:JPEG1:NumCapture 1
+18ID:EIG2:JPEG1:DeleteDriverFile 0
+18ID:EIG2:JPEG1:CreateDirectory 0
+18ID:EIG2:JPEG1:LazyOpen 0
+18ID:EIG2:JPEG1:TempSuffix 
+18ID:EIG2:JPEG1:NDArrayPort EIG
+18ID:EIG2:JPEG1:NDArrayAddress 0
+18ID:EIG2:JPEG1:EnableCallbacks 0
+18ID:EIG2:JPEG1:MinCallbackTime 0
+18ID:EIG2:JPEG1:MaxByteRate 0
+18ID:EIG2:JPEG1:BlockingCallbacks 0
+18ID:EIG2:JPEG1:QueueSize 20
+18ID:EIG2:JPEG1:NumThreads 1
+18ID:EIG2:JPEG1:SortTime 0.1
+18ID:EIG2:JPEG1:SortMode 0
+18ID:EIG2:JPEG1:SortSize 20
+18ID:EIG2:JPEG1:DataType 0
+18ID:EIG2:JPEG1:ColorMode 0
+18ID:EIG2:JPEG1:ArrayCallbacks 0
+18ID:EIG2:JPEG1:NDAttributesFile 0
+18ID:EIG2:JPEG1:NDAttributesMacros 0
+18ID:EIG2:JPEG1:PoolPollStats.SCAN 6
+18ID:EIG2:JPEG1:NumPreAllocBuffers 100
+18ID:EIG2:JPEG1:WaitForPlugins 0
+18ID:EIG2:Nexus1:TemplateFilePath 0
+18ID:EIG2:Nexus1:TemplateFileName 0
+18ID:EIG2:Nexus1:FilePath 0
+18ID:EIG2:Nexus1:FileName 0
+18ID:EIG2:Nexus1:FileNumber 0
+18ID:EIG2:Nexus1:AutoIncrement 0
+18ID:EIG2:Nexus1:FileTemplate 0
+18ID:EIG2:Nexus1:AutoSave 0
+18ID:EIG2:Nexus1:FileFormat 0
+18ID:EIG2:Nexus1:FileWriteMode 0
+18ID:EIG2:Nexus1:NumCapture 1
+18ID:EIG2:Nexus1:DeleteDriverFile 0
+18ID:EIG2:Nexus1:CreateDirectory 0
+18ID:EIG2:Nexus1:LazyOpen 0
+18ID:EIG2:Nexus1:TempSuffix 
+18ID:EIG2:Nexus1:NDArrayPort EIG
+18ID:EIG2:Nexus1:NDArrayAddress 0
+18ID:EIG2:Nexus1:EnableCallbacks 0
+18ID:EIG2:Nexus1:MinCallbackTime 0
+18ID:EIG2:Nexus1:MaxByteRate 0
+18ID:EIG2:Nexus1:BlockingCallbacks 0
+18ID:EIG2:Nexus1:QueueSize 20
+18ID:EIG2:Nexus1:NumThreads 1
+18ID:EIG2:Nexus1:SortTime 0.1
+18ID:EIG2:Nexus1:SortMode 0
+18ID:EIG2:Nexus1:SortSize 20
+18ID:EIG2:Nexus1:DataType 0
+18ID:EIG2:Nexus1:ColorMode 0
+18ID:EIG2:Nexus1:ArrayCallbacks 0
+18ID:EIG2:Nexus1:NDAttributesFile 0
+18ID:EIG2:Nexus1:NDAttributesMacros 0
+18ID:EIG2:Nexus1:PoolPollStats.SCAN 6
+18ID:EIG2:Nexus1:NumPreAllocBuffers 100
+18ID:EIG2:Nexus1:WaitForPlugins 0
+18ID:EIG2:HDF1:ChunkSizeAuto 1
+18ID:EIG2:HDF1:NumRowChunks 0
+18ID:EIG2:HDF1:NumColChunks 0
+18ID:EIG2:HDF1:ChunkSize2 0
+18ID:EIG2:HDF1:ChunkSize3 0
+18ID:EIG2:HDF1:ChunkSize4 0
+18ID:EIG2:HDF1:ChunkSize5 0
+18ID:EIG2:HDF1:ChunkSize6 0
+18ID:EIG2:HDF1:ChunkSize7 0
+18ID:EIG2:HDF1:ChunkSize8 0
+18ID:EIG2:HDF1:ChunkSize9 0
+18ID:EIG2:HDF1:NumFramesChunks 0
+18ID:EIG2:HDF1:BoundaryAlign 0
+18ID:EIG2:HDF1:BoundaryThreshold 65536
+18ID:EIG2:HDF1:NumFramesFlush 0
+18ID:EIG2:HDF1:Compression 0
+18ID:EIG2:HDF1:NumDataBits 8
+18ID:EIG2:HDF1:DataBitsOffset 0
+18ID:EIG2:HDF1:SZipNumPixels 16
+18ID:EIG2:HDF1:ZLevel 6
+18ID:EIG2:HDF1:BloscShuffle 1
+18ID:EIG2:HDF1:BloscCompressor 0
+18ID:EIG2:HDF1:BloscLevel 5
+18ID:EIG2:HDF1:JPEGQuality 90
+18ID:EIG2:HDF1:StorePerform 1
+18ID:EIG2:HDF1:StoreAttr 1
+18ID:EIG2:HDF1:NumExtraDims 0
+18ID:EIG2:HDF1:ExtraDimSizeN 1
+18ID:EIG2:HDF1:ExtraDimSizeX 1
+18ID:EIG2:HDF1:ExtraDimSizeY 1
+18ID:EIG2:HDF1:XMLFileName 0
+18ID:EIG2:HDF1:SWMRMode 0
+18ID:EIG2:HDF1:FilePath 0
+18ID:EIG2:HDF1:FileName 0
+18ID:EIG2:HDF1:FileNumber 0
+18ID:EIG2:HDF1:AutoIncrement 0
+18ID:EIG2:HDF1:FileTemplate 0
+18ID:EIG2:HDF1:AutoSave 0
+18ID:EIG2:HDF1:FileFormat 0
+18ID:EIG2:HDF1:FileWriteMode 0
+18ID:EIG2:HDF1:NumCapture 1
+18ID:EIG2:HDF1:DeleteDriverFile 0
+18ID:EIG2:HDF1:CreateDirectory 0
+18ID:EIG2:HDF1:LazyOpen 0
+18ID:EIG2:HDF1:TempSuffix 
+18ID:EIG2:HDF1:NDArrayPort EIG
+18ID:EIG2:HDF1:NDArrayAddress 0
+18ID:EIG2:HDF1:EnableCallbacks 0
+18ID:EIG2:HDF1:MinCallbackTime 0
+18ID:EIG2:HDF1:MaxByteRate 0
+18ID:EIG2:HDF1:BlockingCallbacks 0
+18ID:EIG2:HDF1:QueueSize 20
+18ID:EIG2:HDF1:NumThreads 1
+18ID:EIG2:HDF1:SortTime 0.1
+18ID:EIG2:HDF1:SortMode 0
+18ID:EIG2:HDF1:SortSize 20
+18ID:EIG2:HDF1:DataType 0
+18ID:EIG2:HDF1:ColorMode 0
+18ID:EIG2:HDF1:ArrayCallbacks 0
+18ID:EIG2:HDF1:NDAttributesFile 0
+18ID:EIG2:HDF1:NDAttributesMacros 0
+18ID:EIG2:HDF1:PoolPollStats.SCAN 6
+18ID:EIG2:HDF1:NumPreAllocBuffers 100
+18ID:EIG2:HDF1:WaitForPlugins 0
+18ID:EIG2:ROI1:Name 
+18ID:EIG2:ROI1:DataTypeOut 10
+18ID:EIG2:ROI1:BinX 1
+18ID:EIG2:ROI1:BinY 1
+18ID:EIG2:ROI1:BinZ 1
+18ID:EIG2:ROI1:MinX 0
+18ID:EIG2:ROI1:MinY 0
+18ID:EIG2:ROI1:MinZ 0
+18ID:EIG2:ROI1:SizeX 1000000
+18ID:EIG2:ROI1:SizeY 1000000
+18ID:EIG2:ROI1:SizeZ 1000000
+18ID:EIG2:ROI1:ReverseX 0
+18ID:EIG2:ROI1:ReverseY 0
+18ID:EIG2:ROI1:ReverseZ 0
+18ID:EIG2:ROI1:AutoSizeX 0
+18ID:EIG2:ROI1:AutoSizeY 0
+18ID:EIG2:ROI1:AutoSizeZ 0
+18ID:EIG2:ROI1:EnableX 1
+18ID:EIG2:ROI1:EnableY 1
+18ID:EIG2:ROI1:EnableZ 1
+18ID:EIG2:ROI1:EnableScale 0
+18ID:EIG2:ROI1:Scale 1
+18ID:EIG2:ROI1:CollapseDims 0
+18ID:EIG2:ROI1:NDArrayPort EIG
+18ID:EIG2:ROI1:NDArrayAddress 0
+18ID:EIG2:ROI1:EnableCallbacks 0
+18ID:EIG2:ROI1:MinCallbackTime 0
+18ID:EIG2:ROI1:MaxByteRate 0
+18ID:EIG2:ROI1:BlockingCallbacks 0
+18ID:EIG2:ROI1:QueueSize 20
+18ID:EIG2:ROI1:NumThreads 1
+18ID:EIG2:ROI1:SortTime 0.1
+18ID:EIG2:ROI1:SortMode 0
+18ID:EIG2:ROI1:SortSize 20
+18ID:EIG2:ROI1:DataType 0
+18ID:EIG2:ROI1:ColorMode 0
+18ID:EIG2:ROI1:ArrayCallbacks 1
+18ID:EIG2:ROI1:NDAttributesFile 0
+18ID:EIG2:ROI1:NDAttributesMacros 0
+18ID:EIG2:ROI1:PoolPollStats.SCAN 6
+18ID:EIG2:ROI1:NumPreAllocBuffers 100
+18ID:EIG2:ROI1:WaitForPlugins 0
+18ID:EIG2:ROI2:Name 
+18ID:EIG2:ROI2:DataTypeOut 10
+18ID:EIG2:ROI2:BinX 1
+18ID:EIG2:ROI2:BinY 1
+18ID:EIG2:ROI2:BinZ 1
+18ID:EIG2:ROI2:MinX 0
+18ID:EIG2:ROI2:MinY 0
+18ID:EIG2:ROI2:MinZ 0
+18ID:EIG2:ROI2:SizeX 1000000
+18ID:EIG2:ROI2:SizeY 1000000
+18ID:EIG2:ROI2:SizeZ 1000000
+18ID:EIG2:ROI2:ReverseX 0
+18ID:EIG2:ROI2:ReverseY 0
+18ID:EIG2:ROI2:ReverseZ 0
+18ID:EIG2:ROI2:AutoSizeX 0
+18ID:EIG2:ROI2:AutoSizeY 0
+18ID:EIG2:ROI2:AutoSizeZ 0
+18ID:EIG2:ROI2:EnableX 1
+18ID:EIG2:ROI2:EnableY 1
+18ID:EIG2:ROI2:EnableZ 1
+18ID:EIG2:ROI2:EnableScale 0
+18ID:EIG2:ROI2:Scale 1
+18ID:EIG2:ROI2:CollapseDims 0
+18ID:EIG2:ROI2:NDArrayPort EIG
+18ID:EIG2:ROI2:NDArrayAddress 0
+18ID:EIG2:ROI2:EnableCallbacks 0
+18ID:EIG2:ROI2:MinCallbackTime 0
+18ID:EIG2:ROI2:MaxByteRate 0
+18ID:EIG2:ROI2:BlockingCallbacks 0
+18ID:EIG2:ROI2:QueueSize 20
+18ID:EIG2:ROI2:NumThreads 1
+18ID:EIG2:ROI2:SortTime 0.1
+18ID:EIG2:ROI2:SortMode 0
+18ID:EIG2:ROI2:SortSize 20
+18ID:EIG2:ROI2:DataType 0
+18ID:EIG2:ROI2:ColorMode 0
+18ID:EIG2:ROI2:ArrayCallbacks 1
+18ID:EIG2:ROI2:NDAttributesFile 0
+18ID:EIG2:ROI2:NDAttributesMacros 0
+18ID:EIG2:ROI2:PoolPollStats.SCAN 6
+18ID:EIG2:ROI2:NumPreAllocBuffers 100
+18ID:EIG2:ROI2:WaitForPlugins 0
+18ID:EIG2:ROI3:Name 
+18ID:EIG2:ROI3:DataTypeOut 10
+18ID:EIG2:ROI3:BinX 1
+18ID:EIG2:ROI3:BinY 1
+18ID:EIG2:ROI3:BinZ 1
+18ID:EIG2:ROI3:MinX 0
+18ID:EIG2:ROI3:MinY 0
+18ID:EIG2:ROI3:MinZ 0
+18ID:EIG2:ROI3:SizeX 1000000
+18ID:EIG2:ROI3:SizeY 1000000
+18ID:EIG2:ROI3:SizeZ 1000000
+18ID:EIG2:ROI3:ReverseX 0
+18ID:EIG2:ROI3:ReverseY 0
+18ID:EIG2:ROI3:ReverseZ 0
+18ID:EIG2:ROI3:AutoSizeX 0
+18ID:EIG2:ROI3:AutoSizeY 0
+18ID:EIG2:ROI3:AutoSizeZ 0
+18ID:EIG2:ROI3:EnableX 1
+18ID:EIG2:ROI3:EnableY 1
+18ID:EIG2:ROI3:EnableZ 1
+18ID:EIG2:ROI3:EnableScale 0
+18ID:EIG2:ROI3:Scale 1
+18ID:EIG2:ROI3:CollapseDims 0
+18ID:EIG2:ROI3:NDArrayPort EIG
+18ID:EIG2:ROI3:NDArrayAddress 0
+18ID:EIG2:ROI3:EnableCallbacks 0
+18ID:EIG2:ROI3:MinCallbackTime 0
+18ID:EIG2:ROI3:MaxByteRate 0
+18ID:EIG2:ROI3:BlockingCallbacks 0
+18ID:EIG2:ROI3:QueueSize 20
+18ID:EIG2:ROI3:NumThreads 1
+18ID:EIG2:ROI3:SortTime 0.1
+18ID:EIG2:ROI3:SortMode 0
+18ID:EIG2:ROI3:SortSize 20
+18ID:EIG2:ROI3:DataType 0
+18ID:EIG2:ROI3:ColorMode 0
+18ID:EIG2:ROI3:ArrayCallbacks 1
+18ID:EIG2:ROI3:NDAttributesFile 0
+18ID:EIG2:ROI3:NDAttributesMacros 0
+18ID:EIG2:ROI3:PoolPollStats.SCAN 6
+18ID:EIG2:ROI3:NumPreAllocBuffers 100
+18ID:EIG2:ROI3:WaitForPlugins 0
+18ID:EIG2:ROI4:Name 
+18ID:EIG2:ROI4:DataTypeOut 10
+18ID:EIG2:ROI4:BinX 1
+18ID:EIG2:ROI4:BinY 1
+18ID:EIG2:ROI4:BinZ 1
+18ID:EIG2:ROI4:MinX 0
+18ID:EIG2:ROI4:MinY 0
+18ID:EIG2:ROI4:MinZ 0
+18ID:EIG2:ROI4:SizeX 1000000
+18ID:EIG2:ROI4:SizeY 1000000
+18ID:EIG2:ROI4:SizeZ 1000000
+18ID:EIG2:ROI4:ReverseX 0
+18ID:EIG2:ROI4:ReverseY 0
+18ID:EIG2:ROI4:ReverseZ 0
+18ID:EIG2:ROI4:AutoSizeX 0
+18ID:EIG2:ROI4:AutoSizeY 0
+18ID:EIG2:ROI4:AutoSizeZ 0
+18ID:EIG2:ROI4:EnableX 1
+18ID:EIG2:ROI4:EnableY 1
+18ID:EIG2:ROI4:EnableZ 1
+18ID:EIG2:ROI4:EnableScale 0
+18ID:EIG2:ROI4:Scale 1
+18ID:EIG2:ROI4:CollapseDims 0
+18ID:EIG2:ROI4:NDArrayPort EIG
+18ID:EIG2:ROI4:NDArrayAddress 0
+18ID:EIG2:ROI4:EnableCallbacks 0
+18ID:EIG2:ROI4:MinCallbackTime 0
+18ID:EIG2:ROI4:MaxByteRate 0
+18ID:EIG2:ROI4:BlockingCallbacks 0
+18ID:EIG2:ROI4:QueueSize 20
+18ID:EIG2:ROI4:NumThreads 1
+18ID:EIG2:ROI4:SortTime 0.1
+18ID:EIG2:ROI4:SortMode 0
+18ID:EIG2:ROI4:SortSize 20
+18ID:EIG2:ROI4:DataType 0
+18ID:EIG2:ROI4:ColorMode 0
+18ID:EIG2:ROI4:ArrayCallbacks 1
+18ID:EIG2:ROI4:NDAttributesFile 0
+18ID:EIG2:ROI4:NDAttributesMacros 0
+18ID:EIG2:ROI4:PoolPollStats.SCAN 6
+18ID:EIG2:ROI4:NumPreAllocBuffers 100
+18ID:EIG2:ROI4:WaitForPlugins 0
+18ID:EIG2:Proc1:DataTypeOut 10
+18ID:EIG2:Proc1:EnableBackground 0
+18ID:EIG2:Proc1:EnableFlatField 0
+18ID:EIG2:Proc1:ScaleFlatField 255
+18ID:EIG2:Proc1:EnableOffsetScale 0
+18ID:EIG2:Proc1:Offset 0
+18ID:EIG2:Proc1:Scale 1
+18ID:EIG2:Proc1:EnableLowClip 0
+18ID:EIG2:Proc1:LowClipThresh 0
+18ID:EIG2:Proc1:LowClipValue 0
+18ID:EIG2:Proc1:EnableHighClip 0
+18ID:EIG2:Proc1:HighClipThresh 100
+18ID:EIG2:Proc1:HighClipValue 100
+18ID:EIG2:Proc1:EnableFilter 0
+18ID:EIG2:Proc1:AutoResetFilter 0
+18ID:EIG2:Proc1:FilterCallbacks 0
+18ID:EIG2:Proc1:NumFilter 1
+18ID:EIG2:Proc1:FilterType 0
+18ID:EIG2:Proc1:OOffset 0
+18ID:EIG2:Proc1:OScale 1
+18ID:EIG2:Proc1:OC1 1
+18ID:EIG2:Proc1:OC2 -1
+18ID:EIG2:Proc1:OC3 0
+18ID:EIG2:Proc1:OC4 1
+18ID:EIG2:Proc1:FOffset 0
+18ID:EIG2:Proc1:FScale 1
+18ID:EIG2:Proc1:FC1 1
+18ID:EIG2:Proc1:FC2 -1
+18ID:EIG2:Proc1:FC3 0
+18ID:EIG2:Proc1:FC4 1
+18ID:EIG2:Proc1:ROffset 0
+18ID:EIG2:Proc1:RC1 0
+18ID:EIG2:Proc1:RC2 1
+18ID:EIG2:Proc1:NDArrayPort EIG
+18ID:EIG2:Proc1:NDArrayAddress 0
+18ID:EIG2:Proc1:EnableCallbacks 0
+18ID:EIG2:Proc1:MinCallbackTime 0
+18ID:EIG2:Proc1:MaxByteRate 0
+18ID:EIG2:Proc1:BlockingCallbacks 0
+18ID:EIG2:Proc1:QueueSize 20
+18ID:EIG2:Proc1:NumThreads 1
+18ID:EIG2:Proc1:SortTime 0.1
+18ID:EIG2:Proc1:SortMode 0
+18ID:EIG2:Proc1:SortSize 20
+18ID:EIG2:Proc1:DataType 0
+18ID:EIG2:Proc1:ColorMode 0
+18ID:EIG2:Proc1:ArrayCallbacks 1
+18ID:EIG2:Proc1:NDAttributesFile 0
+18ID:EIG2:Proc1:NDAttributesMacros 0
+18ID:EIG2:Proc1:PoolPollStats.SCAN 6
+18ID:EIG2:Proc1:NumPreAllocBuffers 100
+18ID:EIG2:Proc1:WaitForPlugins 0
+18ID:EIG2:Proc1:TIFF:FilePath 0
+18ID:EIG2:Proc1:TIFF:FileName 0
+18ID:EIG2:Proc1:TIFF:FileNumber 0
+18ID:EIG2:Proc1:TIFF:AutoIncrement 0
+18ID:EIG2:Proc1:TIFF:FileTemplate 0
+18ID:EIG2:Proc1:TIFF:AutoSave 0
+18ID:EIG2:Proc1:TIFF:FileFormat 0
+18ID:EIG2:Proc1:TIFF:FileWriteMode 0
+18ID:EIG2:Proc1:TIFF:NumCapture 1
+18ID:EIG2:Proc1:TIFF:DeleteDriverFile 0
+18ID:EIG2:Proc1:TIFF:CreateDirectory 0
+18ID:EIG2:Proc1:TIFF:LazyOpen 0
+18ID:EIG2:Proc1:TIFF:TempSuffix 
+18ID:EIG2:Proc1:TIFF:NDArrayPort EIG
+18ID:EIG2:Proc1:TIFF:NDArrayAddress 0
+18ID:EIG2:Proc1:TIFF:EnableCallbacks 0
+18ID:EIG2:Proc1:TIFF:MinCallbackTime 0
+18ID:EIG2:Proc1:TIFF:MaxByteRate 0
+18ID:EIG2:Proc1:TIFF:BlockingCallbacks 0
+18ID:EIG2:Proc1:TIFF:QueueSize 20
+18ID:EIG2:Proc1:TIFF:NumThreads 1
+18ID:EIG2:Proc1:TIFF:SortTime 0.1
+18ID:EIG2:Proc1:TIFF:SortMode 0
+18ID:EIG2:Proc1:TIFF:SortSize 20
+18ID:EIG2:Proc1:TIFF:DataType 0
+18ID:EIG2:Proc1:TIFF:ColorMode 0
+18ID:EIG2:Proc1:TIFF:ArrayCallbacks 0
+18ID:EIG2:Proc1:TIFF:NDAttributesFile 0
+18ID:EIG2:Proc1:TIFF:NDAttributesMacros 0
+18ID:EIG2:Proc1:TIFF:PoolPollStats.SCAN 6
+18ID:EIG2:Proc1:TIFF:NumPreAllocBuffers 100
+18ID:EIG2:Proc1:TIFF:WaitForPlugins 0
+18ID:EIG2:Scatter1:NDArrayPort EIG
+18ID:EIG2:Scatter1:NDArrayAddress 0
+18ID:EIG2:Scatter1:EnableCallbacks 0
+18ID:EIG2:Scatter1:MinCallbackTime 0
+18ID:EIG2:Scatter1:MaxByteRate 0
+18ID:EIG2:Scatter1:BlockingCallbacks 0
+18ID:EIG2:Scatter1:QueueSize 20
+18ID:EIG2:Scatter1:NumThreads 1
+18ID:EIG2:Scatter1:SortTime 0.1
+18ID:EIG2:Scatter1:SortMode 0
+18ID:EIG2:Scatter1:SortSize 20
+18ID:EIG2:Scatter1:DataType 0
+18ID:EIG2:Scatter1:ColorMode 0
+18ID:EIG2:Scatter1:ArrayCallbacks 1
+18ID:EIG2:Scatter1:NDAttributesFile 0
+18ID:EIG2:Scatter1:NDAttributesMacros 0
+18ID:EIG2:Scatter1:PoolPollStats.SCAN 6
+18ID:EIG2:Scatter1:NumPreAllocBuffers 100
+18ID:EIG2:Scatter1:WaitForPlugins 0
+18ID:EIG2:Gather1:NDArrayPort EIG
+18ID:EIG2:Gather1:NDArrayAddress 0
+18ID:EIG2:Gather1:EnableCallbacks 0
+18ID:EIG2:Gather1:MinCallbackTime 0
+18ID:EIG2:Gather1:MaxByteRate 0
+18ID:EIG2:Gather1:BlockingCallbacks 0
+18ID:EIG2:Gather1:QueueSize 20
+18ID:EIG2:Gather1:NumThreads 1
+18ID:EIG2:Gather1:SortTime 0.1
+18ID:EIG2:Gather1:SortMode 0
+18ID:EIG2:Gather1:SortSize 20
+18ID:EIG2:Gather1:DataType 0
+18ID:EIG2:Gather1:ColorMode 0
+18ID:EIG2:Gather1:ArrayCallbacks 1
+18ID:EIG2:Gather1:NDAttributesFile 0
+18ID:EIG2:Gather1:NDAttributesMacros 0
+18ID:EIG2:Gather1:PoolPollStats.SCAN 6
+18ID:EIG2:Gather1:NumPreAllocBuffers 100
+18ID:EIG2:Gather1:WaitForPlugins 0
+18ID:EIG2:Gather1:NDArrayPort_1 EIG
+18ID:EIG2:Gather1:NDArrayAddress_1 0
+18ID:EIG2:Gather1:NDArrayPort_2 EIG
+18ID:EIG2:Gather1:NDArrayAddress_2 0
+18ID:EIG2:Gather1:NDArrayPort_3 EIG
+18ID:EIG2:Gather1:NDArrayAddress_3 0
+18ID:EIG2:Gather1:NDArrayPort_4 EIG
+18ID:EIG2:Gather1:NDArrayAddress_4 0
+18ID:EIG2:Gather1:NDArrayPort_5 EIG
+18ID:EIG2:Gather1:NDArrayAddress_5 0
+18ID:EIG2:Gather1:NDArrayPort_6 EIG
+18ID:EIG2:Gather1:NDArrayAddress_6 0
+18ID:EIG2:Gather1:NDArrayPort_7 EIG
+18ID:EIG2:Gather1:NDArrayAddress_7 0
+18ID:EIG2:Gather1:NDArrayPort_8 EIG
+18ID:EIG2:Gather1:NDArrayAddress_8 0
+18ID:EIG2:Stats1:BgdWidth 1
+18ID:EIG2:Stats1:ComputeStatistics 1
+18ID:EIG2:Stats1:ComputeCentroid 0
+18ID:EIG2:Stats1:CentroidThreshold 1
+18ID:EIG2:Stats1:ComputeProfiles 0
+18ID:EIG2:Stats1:CursorX 256
+18ID:EIG2:Stats1:CursorY 256
+18ID:EIG2:Stats1:ComputeHistogram 0
+18ID:EIG2:Stats1:HistSize 256
+18ID:EIG2:Stats1:HistMin 0
+18ID:EIG2:Stats1:HistMax 255
+18ID:EIG2:Stats1:TS:TSNumPoints 2048
+18ID:EIG2:Stats1:TS:TSTimePerPointLink.DOL 0.1
+18ID:EIG2:Stats1:TS:TSAveragingTime 0.1
+18ID:EIG2:Stats1:TS:TSRead.SCAN 6
+18ID:EIG2:Stats1:TS:TSAcquireMode 0
+18ID:EIG2:Stats1:TS:NDArrayPort STATS1
+18ID:EIG2:Stats1:TS:NDArrayAddress 1
+18ID:EIG2:Stats1:TS:EnableCallbacks 1
+18ID:EIG2:Stats1:TS:MinCallbackTime 0
+18ID:EIG2:Stats1:TS:MaxByteRate 0
+18ID:EIG2:Stats1:TS:BlockingCallbacks 0
+18ID:EIG2:Stats1:TS:QueueSize 20
+18ID:EIG2:Stats1:TS:NumThreads 1
+18ID:EIG2:Stats1:TS:SortTime 0.1
+18ID:EIG2:Stats1:TS:SortMode 0
+18ID:EIG2:Stats1:TS:SortSize 20
+18ID:EIG2:Stats1:TS:DataType 0
+18ID:EIG2:Stats1:TS:ColorMode 0
+18ID:EIG2:Stats1:TS:ArrayCallbacks 1
+18ID:EIG2:Stats1:TS:NDAttributesFile 0
+18ID:EIG2:Stats1:TS:NDAttributesMacros 0
+18ID:EIG2:Stats1:TS:PoolPollStats.SCAN 6
+18ID:EIG2:Stats1:TS:NumPreAllocBuffers 100
+18ID:EIG2:Stats1:TS:WaitForPlugins 0
+18ID:EIG2:Stats1:NDArrayPort EIG
+18ID:EIG2:Stats1:NDArrayAddress 0
+18ID:EIG2:Stats1:EnableCallbacks 0
+18ID:EIG2:Stats1:MinCallbackTime 0
+18ID:EIG2:Stats1:MaxByteRate 0
+18ID:EIG2:Stats1:BlockingCallbacks 0
+18ID:EIG2:Stats1:QueueSize 20
+18ID:EIG2:Stats1:NumThreads 1
+18ID:EIG2:Stats1:SortTime 0.1
+18ID:EIG2:Stats1:SortMode 0
+18ID:EIG2:Stats1:SortSize 20
+18ID:EIG2:Stats1:DataType 0
+18ID:EIG2:Stats1:ColorMode 0
+18ID:EIG2:Stats1:ArrayCallbacks 1
+18ID:EIG2:Stats1:NDAttributesFile 0
+18ID:EIG2:Stats1:NDAttributesMacros 0
+18ID:EIG2:Stats1:PoolPollStats.SCAN 6
+18ID:EIG2:Stats1:NumPreAllocBuffers 100
+18ID:EIG2:Stats1:WaitForPlugins 0
+18ID:EIG2:Stats1:Reset.SCAN 0
+18ID:EIG2:Stats1:Reset.DESC 
+18ID:EIG2:Stats1:Reset.PREC 0
+18ID:EIG2:Stats1:Reset.DLY1 0
+18ID:EIG2:Stats1:Reset.DOL1 
+18ID:EIG2:Stats1:Reset.DO1 0
+18ID:EIG2:Stats1:Reset.STR1 0
+18ID:EIG2:Stats1:Reset.LNK1 18ID:EIG2:Stats1:MinValue PP MS
+18ID:EIG2:Stats1:Reset.WAIT1 0
+18ID:EIG2:Stats1:Reset.DLY2 0
+18ID:EIG2:Stats1:Reset.DOL2 
+18ID:EIG2:Stats1:Reset.DO2 0
+18ID:EIG2:Stats1:Reset.STR2 0
+18ID:EIG2:Stats1:Reset.LNK2 18ID:EIG2:Stats1:MaxValue PP MS
+18ID:EIG2:Stats1:Reset.WAIT2 0
+18ID:EIG2:Stats1:Reset.DLY3 0
+18ID:EIG2:Stats1:Reset.DOL3 
+18ID:EIG2:Stats1:Reset.DO3 0
+18ID:EIG2:Stats1:Reset.STR3 0
+18ID:EIG2:Stats1:Reset.LNK3 18ID:EIG2:Stats1:MeanValue PP MS
+18ID:EIG2:Stats1:Reset.WAIT3 0
+18ID:EIG2:Stats1:Reset.DLY4 0
+18ID:EIG2:Stats1:Reset.DOL4 
+18ID:EIG2:Stats1:Reset.DO4 0
+18ID:EIG2:Stats1:Reset.STR4 0
+18ID:EIG2:Stats1:Reset.LNK4 18ID:EIG2:Stats1:SigmaValue PP MS
+18ID:EIG2:Stats1:Reset.WAIT4 0
+18ID:EIG2:Stats1:Reset.DLY5 0
+18ID:EIG2:Stats1:Reset.DOL5 
+18ID:EIG2:Stats1:Reset.DO5 0
+18ID:EIG2:Stats1:Reset.STR5 0
+18ID:EIG2:Stats1:Reset.LNK5 18ID:EIG2:Stats1:Total PP MS
+18ID:EIG2:Stats1:Reset.WAIT5 0
+18ID:EIG2:Stats1:Reset.DLY6 0
+18ID:EIG2:Stats1:Reset.DOL6 
+18ID:EIG2:Stats1:Reset.DO6 0
+18ID:EIG2:Stats1:Reset.STR6 0
+18ID:EIG2:Stats1:Reset.LNK6 18ID:EIG2:Stats1:Net PP MS
+18ID:EIG2:Stats1:Reset.WAIT6 0
+18ID:EIG2:Stats1:Reset.DLY7 0
+18ID:EIG2:Stats1:Reset.DOL7 
+18ID:EIG2:Stats1:Reset.DO7 0
+18ID:EIG2:Stats1:Reset.STR7 0
+18ID:EIG2:Stats1:Reset.LNK7 18ID:EIG2:Stats1:MinX PP MS
+18ID:EIG2:Stats1:Reset.WAIT7 0
+18ID:EIG2:Stats1:Reset.DLY8 0
+18ID:EIG2:Stats1:Reset.DOL8 
+18ID:EIG2:Stats1:Reset.DO8 0
+18ID:EIG2:Stats1:Reset.STR8 0
+18ID:EIG2:Stats1:Reset.LNK8 18ID:EIG2:Stats1:MinY PP MS
+18ID:EIG2:Stats1:Reset.WAIT8 0
+18ID:EIG2:Stats1:Reset.DLY9 0
+18ID:EIG2:Stats1:Reset.DOL9 
+18ID:EIG2:Stats1:Reset.DO9 0
+18ID:EIG2:Stats1:Reset.STR9 0
+18ID:EIG2:Stats1:Reset.LNK9 18ID:EIG2:Stats1:MaxX PP MS
+18ID:EIG2:Stats1:Reset.WAIT9 0
+18ID:EIG2:Stats1:Reset.DLYA 0
+18ID:EIG2:Stats1:Reset.DOLA 
+18ID:EIG2:Stats1:Reset.DOA 0
+18ID:EIG2:Stats1:Reset.STRA 0
+18ID:EIG2:Stats1:Reset.LNKA 18ID:EIG2:Stats1:MaxY PP MS
+18ID:EIG2:Stats1:Reset.WAITA 0
+18ID:EIG2:Stats1:Reset.FLNK 18ID:EIG2:Stats1:Reset1
+18ID:EIG2:Stats1:Reset.SELL 
+18ID:EIG2:Stats1:Reset.SELN 1
+18ID:EIG2:Stats1:Reset.SELM 0
+18ID:EIG2:Stats1:Reset1.SCAN 0
+18ID:EIG2:Stats1:Reset1.DESC 
+18ID:EIG2:Stats1:Reset1.PREC 0
+18ID:EIG2:Stats1:Reset1.DLY1 0
+18ID:EIG2:Stats1:Reset1.DOL1 
+18ID:EIG2:Stats1:Reset1.DO1 0
+18ID:EIG2:Stats1:Reset1.STR1 0
+18ID:EIG2:Stats1:Reset1.LNK1 18ID:EIG2:Stats1:CentroidX PP MS
+18ID:EIG2:Stats1:Reset1.WAIT1 0
+18ID:EIG2:Stats1:Reset1.DLY2 0
+18ID:EIG2:Stats1:Reset1.DOL2 
+18ID:EIG2:Stats1:Reset1.DO2 0
+18ID:EIG2:Stats1:Reset1.STR2 0
+18ID:EIG2:Stats1:Reset1.LNK2 18ID:EIG2:Stats1:CentroidY PP MS
+18ID:EIG2:Stats1:Reset1.WAIT2 0
+18ID:EIG2:Stats1:Reset1.DLY3 0
+18ID:EIG2:Stats1:Reset1.DOL3 
+18ID:EIG2:Stats1:Reset1.DO3 0
+18ID:EIG2:Stats1:Reset1.STR3 0
+18ID:EIG2:Stats1:Reset1.LNK3 18ID:EIG2:Stats1:SigmaX PP MS
+18ID:EIG2:Stats1:Reset1.WAIT3 0
+18ID:EIG2:Stats1:Reset1.DLY4 0
+18ID:EIG2:Stats1:Reset1.DOL4 
+18ID:EIG2:Stats1:Reset1.DO4 0
+18ID:EIG2:Stats1:Reset1.STR4 0
+18ID:EIG2:Stats1:Reset1.LNK4 18ID:EIG2:Stats1:SigmaY PP MS
+18ID:EIG2:Stats1:Reset1.WAIT4 0
+18ID:EIG2:Stats1:Reset1.DLY5 0
+18ID:EIG2:Stats1:Reset1.DOL5 
+18ID:EIG2:Stats1:Reset1.DO5 0
+18ID:EIG2:Stats1:Reset1.STR5 0
+18ID:EIG2:Stats1:Reset1.LNK5 18ID:EIG2:Stats1:SigmaXY PP MS
+18ID:EIG2:Stats1:Reset1.WAIT5 0
+18ID:EIG2:Stats1:Reset1.DLY6 0
+18ID:EIG2:Stats1:Reset1.DOL6 
+18ID:EIG2:Stats1:Reset1.DO6 0
+18ID:EIG2:Stats1:Reset1.STR6 0
+18ID:EIG2:Stats1:Reset1.LNK6 18ID:EIG2:Stats1:CentroidTotal PP MS
+18ID:EIG2:Stats1:Reset1.WAIT6 0
+18ID:EIG2:Stats1:Reset1.DLY7 0
+18ID:EIG2:Stats1:Reset1.DOL7 
+18ID:EIG2:Stats1:Reset1.DO7 0
+18ID:EIG2:Stats1:Reset1.STR7 0
+18ID:EIG2:Stats1:Reset1.LNK7 18ID:EIG2:Stats1:SkewX PP MS
+18ID:EIG2:Stats1:Reset1.WAIT7 0
+18ID:EIG2:Stats1:Reset1.DLY8 0
+18ID:EIG2:Stats1:Reset1.DOL8 
+18ID:EIG2:Stats1:Reset1.DO8 0
+18ID:EIG2:Stats1:Reset1.STR8 0
+18ID:EIG2:Stats1:Reset1.LNK8 18ID:EIG2:Stats1:SkewY PP MS
+18ID:EIG2:Stats1:Reset1.WAIT8 0
+18ID:EIG2:Stats1:Reset1.DLY9 0
+18ID:EIG2:Stats1:Reset1.DOL9 
+18ID:EIG2:Stats1:Reset1.DO9 0
+18ID:EIG2:Stats1:Reset1.STR9 0
+18ID:EIG2:Stats1:Reset1.LNK9 18ID:EIG2:Stats1:KurtosisX PP MS
+18ID:EIG2:Stats1:Reset1.WAIT9 0
+18ID:EIG2:Stats1:Reset1.DLYA 0
+18ID:EIG2:Stats1:Reset1.DOLA 
+18ID:EIG2:Stats1:Reset1.DOA 0
+18ID:EIG2:Stats1:Reset1.STRA 0
+18ID:EIG2:Stats1:Reset1.LNKA 18ID:EIG2:Stats1:KurtosisY PP MS
+18ID:EIG2:Stats1:Reset1.WAITA 0
+18ID:EIG2:Stats1:Reset1.FLNK 18ID:EIG2:Stats1:Reset2
+18ID:EIG2:Stats1:Reset1.SELL 
+18ID:EIG2:Stats1:Reset1.SELN 1
+18ID:EIG2:Stats1:Reset1.SELM 0
+18ID:EIG2:Stats1:Reset2.SCAN 0
+18ID:EIG2:Stats1:Reset2.DESC 
+18ID:EIG2:Stats1:Reset2.PREC 0
+18ID:EIG2:Stats1:Reset2.DLY1 0
+18ID:EIG2:Stats1:Reset2.DOL1 
+18ID:EIG2:Stats1:Reset2.DO1 0
+18ID:EIG2:Stats1:Reset2.STR1 0
+18ID:EIG2:Stats1:Reset2.LNK1 18ID:EIG2:Stats1:Eccentricity PP MS
+18ID:EIG2:Stats1:Reset2.WAIT1 0
+18ID:EIG2:Stats1:Reset2.DLY2 0
+18ID:EIG2:Stats1:Reset2.DOL2 
+18ID:EIG2:Stats1:Reset2.DO2 0
+18ID:EIG2:Stats1:Reset2.STR2 0
+18ID:EIG2:Stats1:Reset2.LNK2 18ID:EIG2:Stats1:Orientation PP MS
+18ID:EIG2:Stats1:Reset2.WAIT2 0
+18ID:EIG2:Stats1:Reset2.DLY3 0
+18ID:EIG2:Stats1:Reset2.DOL3 
+18ID:EIG2:Stats1:Reset2.DO3 0
+18ID:EIG2:Stats1:Reset2.STR3 0
+18ID:EIG2:Stats1:Reset2.LNK3 18ID:EIG2:Stats1:HistBelow PP MS
+18ID:EIG2:Stats1:Reset2.WAIT3 0
+18ID:EIG2:Stats1:Reset2.DLY4 0
+18ID:EIG2:Stats1:Reset2.DOL4 
+18ID:EIG2:Stats1:Reset2.DO4 0
+18ID:EIG2:Stats1:Reset2.STR4 0
+18ID:EIG2:Stats1:Reset2.LNK4 18ID:EIG2:Stats1:HistAbove PP MS
+18ID:EIG2:Stats1:Reset2.WAIT4 0
+18ID:EIG2:Stats1:Reset2.DLY5 0
+18ID:EIG2:Stats1:Reset2.DOL5 
+18ID:EIG2:Stats1:Reset2.DO5 0
+18ID:EIG2:Stats1:Reset2.STR5 0
+18ID:EIG2:Stats1:Reset2.LNK5 18ID:EIG2:Stats1:HistEntropy PP MS
+18ID:EIG2:Stats1:Reset2.WAIT5 0
+18ID:EIG2:Stats1:Reset2.DLY6 0
+18ID:EIG2:Stats1:Reset2.DOL6 
+18ID:EIG2:Stats1:Reset2.DO6 0
+18ID:EIG2:Stats1:Reset2.STR6 0
+18ID:EIG2:Stats1:Reset2.LNK6 
+18ID:EIG2:Stats1:Reset2.WAIT6 0
+18ID:EIG2:Stats1:Reset2.DLY7 0
+18ID:EIG2:Stats1:Reset2.DOL7 
+18ID:EIG2:Stats1:Reset2.DO7 0
+18ID:EIG2:Stats1:Reset2.STR7 0
+18ID:EIG2:Stats1:Reset2.LNK7 
+18ID:EIG2:Stats1:Reset2.WAIT7 0
+18ID:EIG2:Stats1:Reset2.DLY8 0
+18ID:EIG2:Stats1:Reset2.DOL8 
+18ID:EIG2:Stats1:Reset2.DO8 0
+18ID:EIG2:Stats1:Reset2.STR8 0
+18ID:EIG2:Stats1:Reset2.LNK8 
+18ID:EIG2:Stats1:Reset2.WAIT8 0
+18ID:EIG2:Stats1:Reset2.DLY9 0
+18ID:EIG2:Stats1:Reset2.DOL9 
+18ID:EIG2:Stats1:Reset2.DO9 0
+18ID:EIG2:Stats1:Reset2.STR9 0
+18ID:EIG2:Stats1:Reset2.LNK9 
+18ID:EIG2:Stats1:Reset2.WAIT9 0
+18ID:EIG2:Stats1:Reset2.DLYA 0
+18ID:EIG2:Stats1:Reset2.DOLA 
+18ID:EIG2:Stats1:Reset2.DOA 0
+18ID:EIG2:Stats1:Reset2.STRA 0
+18ID:EIG2:Stats1:Reset2.LNKA 
+18ID:EIG2:Stats1:Reset2.WAITA 0
+18ID:EIG2:Stats1:Reset2.FLNK 
+18ID:EIG2:Stats1:Reset2.SELL 
+18ID:EIG2:Stats1:Reset2.SELN 1
+18ID:EIG2:Stats1:Reset2.SELM 0
+18ID:EIG2:Stats2:BgdWidth 1
+18ID:EIG2:Stats2:ComputeStatistics 1
+18ID:EIG2:Stats2:ComputeCentroid 0
+18ID:EIG2:Stats2:CentroidThreshold 1
+18ID:EIG2:Stats2:ComputeProfiles 0
+18ID:EIG2:Stats2:CursorX 256
+18ID:EIG2:Stats2:CursorY 256
+18ID:EIG2:Stats2:ComputeHistogram 0
+18ID:EIG2:Stats2:HistSize 256
+18ID:EIG2:Stats2:HistMin 0
+18ID:EIG2:Stats2:HistMax 255
+18ID:EIG2:Stats2:TS:TSNumPoints 2048
+18ID:EIG2:Stats2:TS:TSTimePerPointLink.DOL 0.1
+18ID:EIG2:Stats2:TS:TSAveragingTime 0.1
+18ID:EIG2:Stats2:TS:TSRead.SCAN 6
+18ID:EIG2:Stats2:TS:TSAcquireMode 0
+18ID:EIG2:Stats2:TS:NDArrayPort STATS2
+18ID:EIG2:Stats2:TS:NDArrayAddress 1
+18ID:EIG2:Stats2:TS:EnableCallbacks 1
+18ID:EIG2:Stats2:TS:MinCallbackTime 0
+18ID:EIG2:Stats2:TS:MaxByteRate 0
+18ID:EIG2:Stats2:TS:BlockingCallbacks 0
+18ID:EIG2:Stats2:TS:QueueSize 20
+18ID:EIG2:Stats2:TS:NumThreads 1
+18ID:EIG2:Stats2:TS:SortTime 0.1
+18ID:EIG2:Stats2:TS:SortMode 0
+18ID:EIG2:Stats2:TS:SortSize 20
+18ID:EIG2:Stats2:TS:DataType 0
+18ID:EIG2:Stats2:TS:ColorMode 0
+18ID:EIG2:Stats2:TS:ArrayCallbacks 1
+18ID:EIG2:Stats2:TS:NDAttributesFile 0
+18ID:EIG2:Stats2:TS:NDAttributesMacros 0
+18ID:EIG2:Stats2:TS:PoolPollStats.SCAN 6
+18ID:EIG2:Stats2:TS:NumPreAllocBuffers 100
+18ID:EIG2:Stats2:TS:WaitForPlugins 0
+18ID:EIG2:Stats2:NDArrayPort EIG
+18ID:EIG2:Stats2:NDArrayAddress 0
+18ID:EIG2:Stats2:EnableCallbacks 0
+18ID:EIG2:Stats2:MinCallbackTime 0
+18ID:EIG2:Stats2:MaxByteRate 0
+18ID:EIG2:Stats2:BlockingCallbacks 0
+18ID:EIG2:Stats2:QueueSize 20
+18ID:EIG2:Stats2:NumThreads 1
+18ID:EIG2:Stats2:SortTime 0.1
+18ID:EIG2:Stats2:SortMode 0
+18ID:EIG2:Stats2:SortSize 20
+18ID:EIG2:Stats2:DataType 0
+18ID:EIG2:Stats2:ColorMode 0
+18ID:EIG2:Stats2:ArrayCallbacks 1
+18ID:EIG2:Stats2:NDAttributesFile 0
+18ID:EIG2:Stats2:NDAttributesMacros 0
+18ID:EIG2:Stats2:PoolPollStats.SCAN 6
+18ID:EIG2:Stats2:NumPreAllocBuffers 100
+18ID:EIG2:Stats2:WaitForPlugins 0
+18ID:EIG2:Stats2:Reset.SCAN 0
+18ID:EIG2:Stats2:Reset.DESC 
+18ID:EIG2:Stats2:Reset.PREC 0
+18ID:EIG2:Stats2:Reset.DLY1 0
+18ID:EIG2:Stats2:Reset.DOL1 
+18ID:EIG2:Stats2:Reset.DO1 0
+18ID:EIG2:Stats2:Reset.STR1 0
+18ID:EIG2:Stats2:Reset.LNK1 18ID:EIG2:Stats2:MinValue PP MS
+18ID:EIG2:Stats2:Reset.WAIT1 0
+18ID:EIG2:Stats2:Reset.DLY2 0
+18ID:EIG2:Stats2:Reset.DOL2 
+18ID:EIG2:Stats2:Reset.DO2 0
+18ID:EIG2:Stats2:Reset.STR2 0
+18ID:EIG2:Stats2:Reset.LNK2 18ID:EIG2:Stats2:MaxValue PP MS
+18ID:EIG2:Stats2:Reset.WAIT2 0
+18ID:EIG2:Stats2:Reset.DLY3 0
+18ID:EIG2:Stats2:Reset.DOL3 
+18ID:EIG2:Stats2:Reset.DO3 0
+18ID:EIG2:Stats2:Reset.STR3 0
+18ID:EIG2:Stats2:Reset.LNK3 18ID:EIG2:Stats2:MeanValue PP MS
+18ID:EIG2:Stats2:Reset.WAIT3 0
+18ID:EIG2:Stats2:Reset.DLY4 0
+18ID:EIG2:Stats2:Reset.DOL4 
+18ID:EIG2:Stats2:Reset.DO4 0
+18ID:EIG2:Stats2:Reset.STR4 0
+18ID:EIG2:Stats2:Reset.LNK4 18ID:EIG2:Stats2:SigmaValue PP MS
+18ID:EIG2:Stats2:Reset.WAIT4 0
+18ID:EIG2:Stats2:Reset.DLY5 0
+18ID:EIG2:Stats2:Reset.DOL5 
+18ID:EIG2:Stats2:Reset.DO5 0
+18ID:EIG2:Stats2:Reset.STR5 0
+18ID:EIG2:Stats2:Reset.LNK5 18ID:EIG2:Stats2:Total PP MS
+18ID:EIG2:Stats2:Reset.WAIT5 0
+18ID:EIG2:Stats2:Reset.DLY6 0
+18ID:EIG2:Stats2:Reset.DOL6 
+18ID:EIG2:Stats2:Reset.DO6 0
+18ID:EIG2:Stats2:Reset.STR6 0
+18ID:EIG2:Stats2:Reset.LNK6 18ID:EIG2:Stats2:Net PP MS
+18ID:EIG2:Stats2:Reset.WAIT6 0
+18ID:EIG2:Stats2:Reset.DLY7 0
+18ID:EIG2:Stats2:Reset.DOL7 
+18ID:EIG2:Stats2:Reset.DO7 0
+18ID:EIG2:Stats2:Reset.STR7 0
+18ID:EIG2:Stats2:Reset.LNK7 18ID:EIG2:Stats2:MinX PP MS
+18ID:EIG2:Stats2:Reset.WAIT7 0
+18ID:EIG2:Stats2:Reset.DLY8 0
+18ID:EIG2:Stats2:Reset.DOL8 
+18ID:EIG2:Stats2:Reset.DO8 0
+18ID:EIG2:Stats2:Reset.STR8 0
+18ID:EIG2:Stats2:Reset.LNK8 18ID:EIG2:Stats2:MinY PP MS
+18ID:EIG2:Stats2:Reset.WAIT8 0
+18ID:EIG2:Stats2:Reset.DLY9 0
+18ID:EIG2:Stats2:Reset.DOL9 
+18ID:EIG2:Stats2:Reset.DO9 0
+18ID:EIG2:Stats2:Reset.STR9 0
+18ID:EIG2:Stats2:Reset.LNK9 18ID:EIG2:Stats2:MaxX PP MS
+18ID:EIG2:Stats2:Reset.WAIT9 0
+18ID:EIG2:Stats2:Reset.DLYA 0
+18ID:EIG2:Stats2:Reset.DOLA 
+18ID:EIG2:Stats2:Reset.DOA 0
+18ID:EIG2:Stats2:Reset.STRA 0
+18ID:EIG2:Stats2:Reset.LNKA 18ID:EIG2:Stats2:MaxY PP MS
+18ID:EIG2:Stats2:Reset.WAITA 0
+18ID:EIG2:Stats2:Reset.FLNK 18ID:EIG2:Stats2:Reset1
+18ID:EIG2:Stats2:Reset.SELL 
+18ID:EIG2:Stats2:Reset.SELN 1
+18ID:EIG2:Stats2:Reset.SELM 0
+18ID:EIG2:Stats2:Reset1.SCAN 0
+18ID:EIG2:Stats2:Reset1.DESC 
+18ID:EIG2:Stats2:Reset1.PREC 0
+18ID:EIG2:Stats2:Reset1.DLY1 0
+18ID:EIG2:Stats2:Reset1.DOL1 
+18ID:EIG2:Stats2:Reset1.DO1 0
+18ID:EIG2:Stats2:Reset1.STR1 0
+18ID:EIG2:Stats2:Reset1.LNK1 18ID:EIG2:Stats2:CentroidX PP MS
+18ID:EIG2:Stats2:Reset1.WAIT1 0
+18ID:EIG2:Stats2:Reset1.DLY2 0
+18ID:EIG2:Stats2:Reset1.DOL2 
+18ID:EIG2:Stats2:Reset1.DO2 0
+18ID:EIG2:Stats2:Reset1.STR2 0
+18ID:EIG2:Stats2:Reset1.LNK2 18ID:EIG2:Stats2:CentroidY PP MS
+18ID:EIG2:Stats2:Reset1.WAIT2 0
+18ID:EIG2:Stats2:Reset1.DLY3 0
+18ID:EIG2:Stats2:Reset1.DOL3 
+18ID:EIG2:Stats2:Reset1.DO3 0
+18ID:EIG2:Stats2:Reset1.STR3 0
+18ID:EIG2:Stats2:Reset1.LNK3 18ID:EIG2:Stats2:SigmaX PP MS
+18ID:EIG2:Stats2:Reset1.WAIT3 0
+18ID:EIG2:Stats2:Reset1.DLY4 0
+18ID:EIG2:Stats2:Reset1.DOL4 
+18ID:EIG2:Stats2:Reset1.DO4 0
+18ID:EIG2:Stats2:Reset1.STR4 0
+18ID:EIG2:Stats2:Reset1.LNK4 18ID:EIG2:Stats2:SigmaY PP MS
+18ID:EIG2:Stats2:Reset1.WAIT4 0
+18ID:EIG2:Stats2:Reset1.DLY5 0
+18ID:EIG2:Stats2:Reset1.DOL5 
+18ID:EIG2:Stats2:Reset1.DO5 0
+18ID:EIG2:Stats2:Reset1.STR5 0
+18ID:EIG2:Stats2:Reset1.LNK5 18ID:EIG2:Stats2:SigmaXY PP MS
+18ID:EIG2:Stats2:Reset1.WAIT5 0
+18ID:EIG2:Stats2:Reset1.DLY6 0
+18ID:EIG2:Stats2:Reset1.DOL6 
+18ID:EIG2:Stats2:Reset1.DO6 0
+18ID:EIG2:Stats2:Reset1.STR6 0
+18ID:EIG2:Stats2:Reset1.LNK6 18ID:EIG2:Stats2:CentroidTotal PP MS
+18ID:EIG2:Stats2:Reset1.WAIT6 0
+18ID:EIG2:Stats2:Reset1.DLY7 0
+18ID:EIG2:Stats2:Reset1.DOL7 
+18ID:EIG2:Stats2:Reset1.DO7 0
+18ID:EIG2:Stats2:Reset1.STR7 0
+18ID:EIG2:Stats2:Reset1.LNK7 18ID:EIG2:Stats2:SkewX PP MS
+18ID:EIG2:Stats2:Reset1.WAIT7 0
+18ID:EIG2:Stats2:Reset1.DLY8 0
+18ID:EIG2:Stats2:Reset1.DOL8 
+18ID:EIG2:Stats2:Reset1.DO8 0
+18ID:EIG2:Stats2:Reset1.STR8 0
+18ID:EIG2:Stats2:Reset1.LNK8 18ID:EIG2:Stats2:SkewY PP MS
+18ID:EIG2:Stats2:Reset1.WAIT8 0
+18ID:EIG2:Stats2:Reset1.DLY9 0
+18ID:EIG2:Stats2:Reset1.DOL9 
+18ID:EIG2:Stats2:Reset1.DO9 0
+18ID:EIG2:Stats2:Reset1.STR9 0
+18ID:EIG2:Stats2:Reset1.LNK9 18ID:EIG2:Stats2:KurtosisX PP MS
+18ID:EIG2:Stats2:Reset1.WAIT9 0
+18ID:EIG2:Stats2:Reset1.DLYA 0
+18ID:EIG2:Stats2:Reset1.DOLA 
+18ID:EIG2:Stats2:Reset1.DOA 0
+18ID:EIG2:Stats2:Reset1.STRA 0
+18ID:EIG2:Stats2:Reset1.LNKA 18ID:EIG2:Stats2:KurtosisY PP MS
+18ID:EIG2:Stats2:Reset1.WAITA 0
+18ID:EIG2:Stats2:Reset1.FLNK 18ID:EIG2:Stats2:Reset2
+18ID:EIG2:Stats2:Reset1.SELL 
+18ID:EIG2:Stats2:Reset1.SELN 1
+18ID:EIG2:Stats2:Reset1.SELM 0
+18ID:EIG2:Stats2:Reset2.SCAN 0
+18ID:EIG2:Stats2:Reset2.DESC 
+18ID:EIG2:Stats2:Reset2.PREC 0
+18ID:EIG2:Stats2:Reset2.DLY1 0
+18ID:EIG2:Stats2:Reset2.DOL1 
+18ID:EIG2:Stats2:Reset2.DO1 0
+18ID:EIG2:Stats2:Reset2.STR1 0
+18ID:EIG2:Stats2:Reset2.LNK1 18ID:EIG2:Stats2:Eccentricity PP MS
+18ID:EIG2:Stats2:Reset2.WAIT1 0
+18ID:EIG2:Stats2:Reset2.DLY2 0
+18ID:EIG2:Stats2:Reset2.DOL2 
+18ID:EIG2:Stats2:Reset2.DO2 0
+18ID:EIG2:Stats2:Reset2.STR2 0
+18ID:EIG2:Stats2:Reset2.LNK2 18ID:EIG2:Stats2:Orientation PP MS
+18ID:EIG2:Stats2:Reset2.WAIT2 0
+18ID:EIG2:Stats2:Reset2.DLY3 0
+18ID:EIG2:Stats2:Reset2.DOL3 
+18ID:EIG2:Stats2:Reset2.DO3 0
+18ID:EIG2:Stats2:Reset2.STR3 0
+18ID:EIG2:Stats2:Reset2.LNK3 18ID:EIG2:Stats2:HistBelow PP MS
+18ID:EIG2:Stats2:Reset2.WAIT3 0
+18ID:EIG2:Stats2:Reset2.DLY4 0
+18ID:EIG2:Stats2:Reset2.DOL4 
+18ID:EIG2:Stats2:Reset2.DO4 0
+18ID:EIG2:Stats2:Reset2.STR4 0
+18ID:EIG2:Stats2:Reset2.LNK4 18ID:EIG2:Stats2:HistAbove PP MS
+18ID:EIG2:Stats2:Reset2.WAIT4 0
+18ID:EIG2:Stats2:Reset2.DLY5 0
+18ID:EIG2:Stats2:Reset2.DOL5 
+18ID:EIG2:Stats2:Reset2.DO5 0
+18ID:EIG2:Stats2:Reset2.STR5 0
+18ID:EIG2:Stats2:Reset2.LNK5 18ID:EIG2:Stats2:HistEntropy PP MS
+18ID:EIG2:Stats2:Reset2.WAIT5 0
+18ID:EIG2:Stats2:Reset2.DLY6 0
+18ID:EIG2:Stats2:Reset2.DOL6 
+18ID:EIG2:Stats2:Reset2.DO6 0
+18ID:EIG2:Stats2:Reset2.STR6 0
+18ID:EIG2:Stats2:Reset2.LNK6 
+18ID:EIG2:Stats2:Reset2.WAIT6 0
+18ID:EIG2:Stats2:Reset2.DLY7 0
+18ID:EIG2:Stats2:Reset2.DOL7 
+18ID:EIG2:Stats2:Reset2.DO7 0
+18ID:EIG2:Stats2:Reset2.STR7 0
+18ID:EIG2:Stats2:Reset2.LNK7 
+18ID:EIG2:Stats2:Reset2.WAIT7 0
+18ID:EIG2:Stats2:Reset2.DLY8 0
+18ID:EIG2:Stats2:Reset2.DOL8 
+18ID:EIG2:Stats2:Reset2.DO8 0
+18ID:EIG2:Stats2:Reset2.STR8 0
+18ID:EIG2:Stats2:Reset2.LNK8 
+18ID:EIG2:Stats2:Reset2.WAIT8 0
+18ID:EIG2:Stats2:Reset2.DLY9 0
+18ID:EIG2:Stats2:Reset2.DOL9 
+18ID:EIG2:Stats2:Reset2.DO9 0
+18ID:EIG2:Stats2:Reset2.STR9 0
+18ID:EIG2:Stats2:Reset2.LNK9 
+18ID:EIG2:Stats2:Reset2.WAIT9 0
+18ID:EIG2:Stats2:Reset2.DLYA 0
+18ID:EIG2:Stats2:Reset2.DOLA 
+18ID:EIG2:Stats2:Reset2.DOA 0
+18ID:EIG2:Stats2:Reset2.STRA 0
+18ID:EIG2:Stats2:Reset2.LNKA 
+18ID:EIG2:Stats2:Reset2.WAITA 0
+18ID:EIG2:Stats2:Reset2.FLNK 
+18ID:EIG2:Stats2:Reset2.SELL 
+18ID:EIG2:Stats2:Reset2.SELN 1
+18ID:EIG2:Stats2:Reset2.SELM 0
+18ID:EIG2:Stats3:BgdWidth 1
+18ID:EIG2:Stats3:ComputeStatistics 1
+18ID:EIG2:Stats3:ComputeCentroid 0
+18ID:EIG2:Stats3:CentroidThreshold 1
+18ID:EIG2:Stats3:ComputeProfiles 0
+18ID:EIG2:Stats3:CursorX 256
+18ID:EIG2:Stats3:CursorY 256
+18ID:EIG2:Stats3:ComputeHistogram 0
+18ID:EIG2:Stats3:HistSize 256
+18ID:EIG2:Stats3:HistMin 0
+18ID:EIG2:Stats3:HistMax 255
+18ID:EIG2:Stats3:TS:TSNumPoints 2048
+18ID:EIG2:Stats3:TS:TSTimePerPointLink.DOL 0.1
+18ID:EIG2:Stats3:TS:TSAveragingTime 0.1
+18ID:EIG2:Stats3:TS:TSRead.SCAN 6
+18ID:EIG2:Stats3:TS:TSAcquireMode 0
+18ID:EIG2:Stats3:TS:NDArrayPort STATS3
+18ID:EIG2:Stats3:TS:NDArrayAddress 1
+18ID:EIG2:Stats3:TS:EnableCallbacks 1
+18ID:EIG2:Stats3:TS:MinCallbackTime 0
+18ID:EIG2:Stats3:TS:MaxByteRate 0
+18ID:EIG2:Stats3:TS:BlockingCallbacks 0
+18ID:EIG2:Stats3:TS:QueueSize 20
+18ID:EIG2:Stats3:TS:NumThreads 1
+18ID:EIG2:Stats3:TS:SortTime 0.1
+18ID:EIG2:Stats3:TS:SortMode 0
+18ID:EIG2:Stats3:TS:SortSize 20
+18ID:EIG2:Stats3:TS:DataType 0
+18ID:EIG2:Stats3:TS:ColorMode 0
+18ID:EIG2:Stats3:TS:ArrayCallbacks 1
+18ID:EIG2:Stats3:TS:NDAttributesFile 0
+18ID:EIG2:Stats3:TS:NDAttributesMacros 0
+18ID:EIG2:Stats3:TS:PoolPollStats.SCAN 6
+18ID:EIG2:Stats3:TS:NumPreAllocBuffers 100
+18ID:EIG2:Stats3:TS:WaitForPlugins 0
+18ID:EIG2:Stats3:NDArrayPort EIG
+18ID:EIG2:Stats3:NDArrayAddress 0
+18ID:EIG2:Stats3:EnableCallbacks 0
+18ID:EIG2:Stats3:MinCallbackTime 0
+18ID:EIG2:Stats3:MaxByteRate 0
+18ID:EIG2:Stats3:BlockingCallbacks 0
+18ID:EIG2:Stats3:QueueSize 20
+18ID:EIG2:Stats3:NumThreads 1
+18ID:EIG2:Stats3:SortTime 0.1
+18ID:EIG2:Stats3:SortMode 0
+18ID:EIG2:Stats3:SortSize 20
+18ID:EIG2:Stats3:DataType 0
+18ID:EIG2:Stats3:ColorMode 0
+18ID:EIG2:Stats3:ArrayCallbacks 1
+18ID:EIG2:Stats3:NDAttributesFile 0
+18ID:EIG2:Stats3:NDAttributesMacros 0
+18ID:EIG2:Stats3:PoolPollStats.SCAN 6
+18ID:EIG2:Stats3:NumPreAllocBuffers 100
+18ID:EIG2:Stats3:WaitForPlugins 0
+18ID:EIG2:Stats3:Reset.SCAN 0
+18ID:EIG2:Stats3:Reset.DESC 
+18ID:EIG2:Stats3:Reset.PREC 0
+18ID:EIG2:Stats3:Reset.DLY1 0
+18ID:EIG2:Stats3:Reset.DOL1 
+18ID:EIG2:Stats3:Reset.DO1 0
+18ID:EIG2:Stats3:Reset.STR1 0
+18ID:EIG2:Stats3:Reset.LNK1 18ID:EIG2:Stats3:MinValue PP MS
+18ID:EIG2:Stats3:Reset.WAIT1 0
+18ID:EIG2:Stats3:Reset.DLY2 0
+18ID:EIG2:Stats3:Reset.DOL2 
+18ID:EIG2:Stats3:Reset.DO2 0
+18ID:EIG2:Stats3:Reset.STR2 0
+18ID:EIG2:Stats3:Reset.LNK2 18ID:EIG2:Stats3:MaxValue PP MS
+18ID:EIG2:Stats3:Reset.WAIT2 0
+18ID:EIG2:Stats3:Reset.DLY3 0
+18ID:EIG2:Stats3:Reset.DOL3 
+18ID:EIG2:Stats3:Reset.DO3 0
+18ID:EIG2:Stats3:Reset.STR3 0
+18ID:EIG2:Stats3:Reset.LNK3 18ID:EIG2:Stats3:MeanValue PP MS
+18ID:EIG2:Stats3:Reset.WAIT3 0
+18ID:EIG2:Stats3:Reset.DLY4 0
+18ID:EIG2:Stats3:Reset.DOL4 
+18ID:EIG2:Stats3:Reset.DO4 0
+18ID:EIG2:Stats3:Reset.STR4 0
+18ID:EIG2:Stats3:Reset.LNK4 18ID:EIG2:Stats3:SigmaValue PP MS
+18ID:EIG2:Stats3:Reset.WAIT4 0
+18ID:EIG2:Stats3:Reset.DLY5 0
+18ID:EIG2:Stats3:Reset.DOL5 
+18ID:EIG2:Stats3:Reset.DO5 0
+18ID:EIG2:Stats3:Reset.STR5 0
+18ID:EIG2:Stats3:Reset.LNK5 18ID:EIG2:Stats3:Total PP MS
+18ID:EIG2:Stats3:Reset.WAIT5 0
+18ID:EIG2:Stats3:Reset.DLY6 0
+18ID:EIG2:Stats3:Reset.DOL6 
+18ID:EIG2:Stats3:Reset.DO6 0
+18ID:EIG2:Stats3:Reset.STR6 0
+18ID:EIG2:Stats3:Reset.LNK6 18ID:EIG2:Stats3:Net PP MS
+18ID:EIG2:Stats3:Reset.WAIT6 0
+18ID:EIG2:Stats3:Reset.DLY7 0
+18ID:EIG2:Stats3:Reset.DOL7 
+18ID:EIG2:Stats3:Reset.DO7 0
+18ID:EIG2:Stats3:Reset.STR7 0
+18ID:EIG2:Stats3:Reset.LNK7 18ID:EIG2:Stats3:MinX PP MS
+18ID:EIG2:Stats3:Reset.WAIT7 0
+18ID:EIG2:Stats3:Reset.DLY8 0
+18ID:EIG2:Stats3:Reset.DOL8 
+18ID:EIG2:Stats3:Reset.DO8 0
+18ID:EIG2:Stats3:Reset.STR8 0
+18ID:EIG2:Stats3:Reset.LNK8 18ID:EIG2:Stats3:MinY PP MS
+18ID:EIG2:Stats3:Reset.WAIT8 0
+18ID:EIG2:Stats3:Reset.DLY9 0
+18ID:EIG2:Stats3:Reset.DOL9 
+18ID:EIG2:Stats3:Reset.DO9 0
+18ID:EIG2:Stats3:Reset.STR9 0
+18ID:EIG2:Stats3:Reset.LNK9 18ID:EIG2:Stats3:MaxX PP MS
+18ID:EIG2:Stats3:Reset.WAIT9 0
+18ID:EIG2:Stats3:Reset.DLYA 0
+18ID:EIG2:Stats3:Reset.DOLA 
+18ID:EIG2:Stats3:Reset.DOA 0
+18ID:EIG2:Stats3:Reset.STRA 0
+18ID:EIG2:Stats3:Reset.LNKA 18ID:EIG2:Stats3:MaxY PP MS
+18ID:EIG2:Stats3:Reset.WAITA 0
+18ID:EIG2:Stats3:Reset.FLNK 18ID:EIG2:Stats3:Reset1
+18ID:EIG2:Stats3:Reset.SELL 
+18ID:EIG2:Stats3:Reset.SELN 1
+18ID:EIG2:Stats3:Reset.SELM 0
+18ID:EIG2:Stats3:Reset1.SCAN 0
+18ID:EIG2:Stats3:Reset1.DESC 
+18ID:EIG2:Stats3:Reset1.PREC 0
+18ID:EIG2:Stats3:Reset1.DLY1 0
+18ID:EIG2:Stats3:Reset1.DOL1 
+18ID:EIG2:Stats3:Reset1.DO1 0
+18ID:EIG2:Stats3:Reset1.STR1 0
+18ID:EIG2:Stats3:Reset1.LNK1 18ID:EIG2:Stats3:CentroidX PP MS
+18ID:EIG2:Stats3:Reset1.WAIT1 0
+18ID:EIG2:Stats3:Reset1.DLY2 0
+18ID:EIG2:Stats3:Reset1.DOL2 
+18ID:EIG2:Stats3:Reset1.DO2 0
+18ID:EIG2:Stats3:Reset1.STR2 0
+18ID:EIG2:Stats3:Reset1.LNK2 18ID:EIG2:Stats3:CentroidY PP MS
+18ID:EIG2:Stats3:Reset1.WAIT2 0
+18ID:EIG2:Stats3:Reset1.DLY3 0
+18ID:EIG2:Stats3:Reset1.DOL3 
+18ID:EIG2:Stats3:Reset1.DO3 0
+18ID:EIG2:Stats3:Reset1.STR3 0
+18ID:EIG2:Stats3:Reset1.LNK3 18ID:EIG2:Stats3:SigmaX PP MS
+18ID:EIG2:Stats3:Reset1.WAIT3 0
+18ID:EIG2:Stats3:Reset1.DLY4 0
+18ID:EIG2:Stats3:Reset1.DOL4 
+18ID:EIG2:Stats3:Reset1.DO4 0
+18ID:EIG2:Stats3:Reset1.STR4 0
+18ID:EIG2:Stats3:Reset1.LNK4 18ID:EIG2:Stats3:SigmaY PP MS
+18ID:EIG2:Stats3:Reset1.WAIT4 0
+18ID:EIG2:Stats3:Reset1.DLY5 0
+18ID:EIG2:Stats3:Reset1.DOL5 
+18ID:EIG2:Stats3:Reset1.DO5 0
+18ID:EIG2:Stats3:Reset1.STR5 0
+18ID:EIG2:Stats3:Reset1.LNK5 18ID:EIG2:Stats3:SigmaXY PP MS
+18ID:EIG2:Stats3:Reset1.WAIT5 0
+18ID:EIG2:Stats3:Reset1.DLY6 0
+18ID:EIG2:Stats3:Reset1.DOL6 
+18ID:EIG2:Stats3:Reset1.DO6 0
+18ID:EIG2:Stats3:Reset1.STR6 0
+18ID:EIG2:Stats3:Reset1.LNK6 18ID:EIG2:Stats3:CentroidTotal PP MS
+18ID:EIG2:Stats3:Reset1.WAIT6 0
+18ID:EIG2:Stats3:Reset1.DLY7 0
+18ID:EIG2:Stats3:Reset1.DOL7 
+18ID:EIG2:Stats3:Reset1.DO7 0
+18ID:EIG2:Stats3:Reset1.STR7 0
+18ID:EIG2:Stats3:Reset1.LNK7 18ID:EIG2:Stats3:SkewX PP MS
+18ID:EIG2:Stats3:Reset1.WAIT7 0
+18ID:EIG2:Stats3:Reset1.DLY8 0
+18ID:EIG2:Stats3:Reset1.DOL8 
+18ID:EIG2:Stats3:Reset1.DO8 0
+18ID:EIG2:Stats3:Reset1.STR8 0
+18ID:EIG2:Stats3:Reset1.LNK8 18ID:EIG2:Stats3:SkewY PP MS
+18ID:EIG2:Stats3:Reset1.WAIT8 0
+18ID:EIG2:Stats3:Reset1.DLY9 0
+18ID:EIG2:Stats3:Reset1.DOL9 
+18ID:EIG2:Stats3:Reset1.DO9 0
+18ID:EIG2:Stats3:Reset1.STR9 0
+18ID:EIG2:Stats3:Reset1.LNK9 18ID:EIG2:Stats3:KurtosisX PP MS
+18ID:EIG2:Stats3:Reset1.WAIT9 0
+18ID:EIG2:Stats3:Reset1.DLYA 0
+18ID:EIG2:Stats3:Reset1.DOLA 
+18ID:EIG2:Stats3:Reset1.DOA 0
+18ID:EIG2:Stats3:Reset1.STRA 0
+18ID:EIG2:Stats3:Reset1.LNKA 18ID:EIG2:Stats3:KurtosisY PP MS
+18ID:EIG2:Stats3:Reset1.WAITA 0
+18ID:EIG2:Stats3:Reset1.FLNK 18ID:EIG2:Stats3:Reset2
+18ID:EIG2:Stats3:Reset1.SELL 
+18ID:EIG2:Stats3:Reset1.SELN 1
+18ID:EIG2:Stats3:Reset1.SELM 0
+18ID:EIG2:Stats3:Reset2.SCAN 0
+18ID:EIG2:Stats3:Reset2.DESC 
+18ID:EIG2:Stats3:Reset2.PREC 0
+18ID:EIG2:Stats3:Reset2.DLY1 0
+18ID:EIG2:Stats3:Reset2.DOL1 
+18ID:EIG2:Stats3:Reset2.DO1 0
+18ID:EIG2:Stats3:Reset2.STR1 0
+18ID:EIG2:Stats3:Reset2.LNK1 18ID:EIG2:Stats3:Eccentricity PP MS
+18ID:EIG2:Stats3:Reset2.WAIT1 0
+18ID:EIG2:Stats3:Reset2.DLY2 0
+18ID:EIG2:Stats3:Reset2.DOL2 
+18ID:EIG2:Stats3:Reset2.DO2 0
+18ID:EIG2:Stats3:Reset2.STR2 0
+18ID:EIG2:Stats3:Reset2.LNK2 18ID:EIG2:Stats3:Orientation PP MS
+18ID:EIG2:Stats3:Reset2.WAIT2 0
+18ID:EIG2:Stats3:Reset2.DLY3 0
+18ID:EIG2:Stats3:Reset2.DOL3 
+18ID:EIG2:Stats3:Reset2.DO3 0
+18ID:EIG2:Stats3:Reset2.STR3 0
+18ID:EIG2:Stats3:Reset2.LNK3 18ID:EIG2:Stats3:HistBelow PP MS
+18ID:EIG2:Stats3:Reset2.WAIT3 0
+18ID:EIG2:Stats3:Reset2.DLY4 0
+18ID:EIG2:Stats3:Reset2.DOL4 
+18ID:EIG2:Stats3:Reset2.DO4 0
+18ID:EIG2:Stats3:Reset2.STR4 0
+18ID:EIG2:Stats3:Reset2.LNK4 18ID:EIG2:Stats3:HistAbove PP MS
+18ID:EIG2:Stats3:Reset2.WAIT4 0
+18ID:EIG2:Stats3:Reset2.DLY5 0
+18ID:EIG2:Stats3:Reset2.DOL5 
+18ID:EIG2:Stats3:Reset2.DO5 0
+18ID:EIG2:Stats3:Reset2.STR5 0
+18ID:EIG2:Stats3:Reset2.LNK5 18ID:EIG2:Stats3:HistEntropy PP MS
+18ID:EIG2:Stats3:Reset2.WAIT5 0
+18ID:EIG2:Stats3:Reset2.DLY6 0
+18ID:EIG2:Stats3:Reset2.DOL6 
+18ID:EIG2:Stats3:Reset2.DO6 0
+18ID:EIG2:Stats3:Reset2.STR6 0
+18ID:EIG2:Stats3:Reset2.LNK6 
+18ID:EIG2:Stats3:Reset2.WAIT6 0
+18ID:EIG2:Stats3:Reset2.DLY7 0
+18ID:EIG2:Stats3:Reset2.DOL7 
+18ID:EIG2:Stats3:Reset2.DO7 0
+18ID:EIG2:Stats3:Reset2.STR7 0
+18ID:EIG2:Stats3:Reset2.LNK7 
+18ID:EIG2:Stats3:Reset2.WAIT7 0
+18ID:EIG2:Stats3:Reset2.DLY8 0
+18ID:EIG2:Stats3:Reset2.DOL8 
+18ID:EIG2:Stats3:Reset2.DO8 0
+18ID:EIG2:Stats3:Reset2.STR8 0
+18ID:EIG2:Stats3:Reset2.LNK8 
+18ID:EIG2:Stats3:Reset2.WAIT8 0
+18ID:EIG2:Stats3:Reset2.DLY9 0
+18ID:EIG2:Stats3:Reset2.DOL9 
+18ID:EIG2:Stats3:Reset2.DO9 0
+18ID:EIG2:Stats3:Reset2.STR9 0
+18ID:EIG2:Stats3:Reset2.LNK9 
+18ID:EIG2:Stats3:Reset2.WAIT9 0
+18ID:EIG2:Stats3:Reset2.DLYA 0
+18ID:EIG2:Stats3:Reset2.DOLA 
+18ID:EIG2:Stats3:Reset2.DOA 0
+18ID:EIG2:Stats3:Reset2.STRA 0
+18ID:EIG2:Stats3:Reset2.LNKA 
+18ID:EIG2:Stats3:Reset2.WAITA 0
+18ID:EIG2:Stats3:Reset2.FLNK 
+18ID:EIG2:Stats3:Reset2.SELL 
+18ID:EIG2:Stats3:Reset2.SELN 1
+18ID:EIG2:Stats3:Reset2.SELM 0
+18ID:EIG2:Stats4:BgdWidth 1
+18ID:EIG2:Stats4:ComputeStatistics 1
+18ID:EIG2:Stats4:ComputeCentroid 0
+18ID:EIG2:Stats4:CentroidThreshold 1
+18ID:EIG2:Stats4:ComputeProfiles 0
+18ID:EIG2:Stats4:CursorX 256
+18ID:EIG2:Stats4:CursorY 256
+18ID:EIG2:Stats4:ComputeHistogram 0
+18ID:EIG2:Stats4:HistSize 256
+18ID:EIG2:Stats4:HistMin 0
+18ID:EIG2:Stats4:HistMax 255
+18ID:EIG2:Stats4:TS:TSNumPoints 2048
+18ID:EIG2:Stats4:TS:TSTimePerPointLink.DOL 0.1
+18ID:EIG2:Stats4:TS:TSAveragingTime 0.1
+18ID:EIG2:Stats4:TS:TSRead.SCAN 6
+18ID:EIG2:Stats4:TS:TSAcquireMode 0
+18ID:EIG2:Stats4:TS:NDArrayPort STATS4
+18ID:EIG2:Stats4:TS:NDArrayAddress 1
+18ID:EIG2:Stats4:TS:EnableCallbacks 1
+18ID:EIG2:Stats4:TS:MinCallbackTime 0
+18ID:EIG2:Stats4:TS:MaxByteRate 0
+18ID:EIG2:Stats4:TS:BlockingCallbacks 0
+18ID:EIG2:Stats4:TS:QueueSize 20
+18ID:EIG2:Stats4:TS:NumThreads 1
+18ID:EIG2:Stats4:TS:SortTime 0.1
+18ID:EIG2:Stats4:TS:SortMode 0
+18ID:EIG2:Stats4:TS:SortSize 20
+18ID:EIG2:Stats4:TS:DataType 0
+18ID:EIG2:Stats4:TS:ColorMode 0
+18ID:EIG2:Stats4:TS:ArrayCallbacks 1
+18ID:EIG2:Stats4:TS:NDAttributesFile 0
+18ID:EIG2:Stats4:TS:NDAttributesMacros 0
+18ID:EIG2:Stats4:TS:PoolPollStats.SCAN 6
+18ID:EIG2:Stats4:TS:NumPreAllocBuffers 100
+18ID:EIG2:Stats4:TS:WaitForPlugins 0
+18ID:EIG2:Stats4:NDArrayPort EIG
+18ID:EIG2:Stats4:NDArrayAddress 0
+18ID:EIG2:Stats4:EnableCallbacks 0
+18ID:EIG2:Stats4:MinCallbackTime 0
+18ID:EIG2:Stats4:MaxByteRate 0
+18ID:EIG2:Stats4:BlockingCallbacks 0
+18ID:EIG2:Stats4:QueueSize 20
+18ID:EIG2:Stats4:NumThreads 1
+18ID:EIG2:Stats4:SortTime 0.1
+18ID:EIG2:Stats4:SortMode 0
+18ID:EIG2:Stats4:SortSize 20
+18ID:EIG2:Stats4:DataType 0
+18ID:EIG2:Stats4:ColorMode 0
+18ID:EIG2:Stats4:ArrayCallbacks 1
+18ID:EIG2:Stats4:NDAttributesFile 0
+18ID:EIG2:Stats4:NDAttributesMacros 0
+18ID:EIG2:Stats4:PoolPollStats.SCAN 6
+18ID:EIG2:Stats4:NumPreAllocBuffers 100
+18ID:EIG2:Stats4:WaitForPlugins 0
+18ID:EIG2:Stats4:Reset.SCAN 0
+18ID:EIG2:Stats4:Reset.DESC 
+18ID:EIG2:Stats4:Reset.PREC 0
+18ID:EIG2:Stats4:Reset.DLY1 0
+18ID:EIG2:Stats4:Reset.DOL1 
+18ID:EIG2:Stats4:Reset.DO1 0
+18ID:EIG2:Stats4:Reset.STR1 0
+18ID:EIG2:Stats4:Reset.LNK1 18ID:EIG2:Stats4:MinValue PP MS
+18ID:EIG2:Stats4:Reset.WAIT1 0
+18ID:EIG2:Stats4:Reset.DLY2 0
+18ID:EIG2:Stats4:Reset.DOL2 
+18ID:EIG2:Stats4:Reset.DO2 0
+18ID:EIG2:Stats4:Reset.STR2 0
+18ID:EIG2:Stats4:Reset.LNK2 18ID:EIG2:Stats4:MaxValue PP MS
+18ID:EIG2:Stats4:Reset.WAIT2 0
+18ID:EIG2:Stats4:Reset.DLY3 0
+18ID:EIG2:Stats4:Reset.DOL3 
+18ID:EIG2:Stats4:Reset.DO3 0
+18ID:EIG2:Stats4:Reset.STR3 0
+18ID:EIG2:Stats4:Reset.LNK3 18ID:EIG2:Stats4:MeanValue PP MS
+18ID:EIG2:Stats4:Reset.WAIT3 0
+18ID:EIG2:Stats4:Reset.DLY4 0
+18ID:EIG2:Stats4:Reset.DOL4 
+18ID:EIG2:Stats4:Reset.DO4 0
+18ID:EIG2:Stats4:Reset.STR4 0
+18ID:EIG2:Stats4:Reset.LNK4 18ID:EIG2:Stats4:SigmaValue PP MS
+18ID:EIG2:Stats4:Reset.WAIT4 0
+18ID:EIG2:Stats4:Reset.DLY5 0
+18ID:EIG2:Stats4:Reset.DOL5 
+18ID:EIG2:Stats4:Reset.DO5 0
+18ID:EIG2:Stats4:Reset.STR5 0
+18ID:EIG2:Stats4:Reset.LNK5 18ID:EIG2:Stats4:Total PP MS
+18ID:EIG2:Stats4:Reset.WAIT5 0
+18ID:EIG2:Stats4:Reset.DLY6 0
+18ID:EIG2:Stats4:Reset.DOL6 
+18ID:EIG2:Stats4:Reset.DO6 0
+18ID:EIG2:Stats4:Reset.STR6 0
+18ID:EIG2:Stats4:Reset.LNK6 18ID:EIG2:Stats4:Net PP MS
+18ID:EIG2:Stats4:Reset.WAIT6 0
+18ID:EIG2:Stats4:Reset.DLY7 0
+18ID:EIG2:Stats4:Reset.DOL7 
+18ID:EIG2:Stats4:Reset.DO7 0
+18ID:EIG2:Stats4:Reset.STR7 0
+18ID:EIG2:Stats4:Reset.LNK7 18ID:EIG2:Stats4:MinX PP MS
+18ID:EIG2:Stats4:Reset.WAIT7 0
+18ID:EIG2:Stats4:Reset.DLY8 0
+18ID:EIG2:Stats4:Reset.DOL8 
+18ID:EIG2:Stats4:Reset.DO8 0
+18ID:EIG2:Stats4:Reset.STR8 0
+18ID:EIG2:Stats4:Reset.LNK8 18ID:EIG2:Stats4:MinY PP MS
+18ID:EIG2:Stats4:Reset.WAIT8 0
+18ID:EIG2:Stats4:Reset.DLY9 0
+18ID:EIG2:Stats4:Reset.DOL9 
+18ID:EIG2:Stats4:Reset.DO9 0
+18ID:EIG2:Stats4:Reset.STR9 0
+18ID:EIG2:Stats4:Reset.LNK9 18ID:EIG2:Stats4:MaxX PP MS
+18ID:EIG2:Stats4:Reset.WAIT9 0
+18ID:EIG2:Stats4:Reset.DLYA 0
+18ID:EIG2:Stats4:Reset.DOLA 
+18ID:EIG2:Stats4:Reset.DOA 0
+18ID:EIG2:Stats4:Reset.STRA 0
+18ID:EIG2:Stats4:Reset.LNKA 18ID:EIG2:Stats4:MaxY PP MS
+18ID:EIG2:Stats4:Reset.WAITA 0
+18ID:EIG2:Stats4:Reset.FLNK 18ID:EIG2:Stats4:Reset1
+18ID:EIG2:Stats4:Reset.SELL 
+18ID:EIG2:Stats4:Reset.SELN 1
+18ID:EIG2:Stats4:Reset.SELM 0
+18ID:EIG2:Stats4:Reset1.SCAN 0
+18ID:EIG2:Stats4:Reset1.DESC 
+18ID:EIG2:Stats4:Reset1.PREC 0
+18ID:EIG2:Stats4:Reset1.DLY1 0
+18ID:EIG2:Stats4:Reset1.DOL1 
+18ID:EIG2:Stats4:Reset1.DO1 0
+18ID:EIG2:Stats4:Reset1.STR1 0
+18ID:EIG2:Stats4:Reset1.LNK1 18ID:EIG2:Stats4:CentroidX PP MS
+18ID:EIG2:Stats4:Reset1.WAIT1 0
+18ID:EIG2:Stats4:Reset1.DLY2 0
+18ID:EIG2:Stats4:Reset1.DOL2 
+18ID:EIG2:Stats4:Reset1.DO2 0
+18ID:EIG2:Stats4:Reset1.STR2 0
+18ID:EIG2:Stats4:Reset1.LNK2 18ID:EIG2:Stats4:CentroidY PP MS
+18ID:EIG2:Stats4:Reset1.WAIT2 0
+18ID:EIG2:Stats4:Reset1.DLY3 0
+18ID:EIG2:Stats4:Reset1.DOL3 
+18ID:EIG2:Stats4:Reset1.DO3 0
+18ID:EIG2:Stats4:Reset1.STR3 0
+18ID:EIG2:Stats4:Reset1.LNK3 18ID:EIG2:Stats4:SigmaX PP MS
+18ID:EIG2:Stats4:Reset1.WAIT3 0
+18ID:EIG2:Stats4:Reset1.DLY4 0
+18ID:EIG2:Stats4:Reset1.DOL4 
+18ID:EIG2:Stats4:Reset1.DO4 0
+18ID:EIG2:Stats4:Reset1.STR4 0
+18ID:EIG2:Stats4:Reset1.LNK4 18ID:EIG2:Stats4:SigmaY PP MS
+18ID:EIG2:Stats4:Reset1.WAIT4 0
+18ID:EIG2:Stats4:Reset1.DLY5 0
+18ID:EIG2:Stats4:Reset1.DOL5 
+18ID:EIG2:Stats4:Reset1.DO5 0
+18ID:EIG2:Stats4:Reset1.STR5 0
+18ID:EIG2:Stats4:Reset1.LNK5 18ID:EIG2:Stats4:SigmaXY PP MS
+18ID:EIG2:Stats4:Reset1.WAIT5 0
+18ID:EIG2:Stats4:Reset1.DLY6 0
+18ID:EIG2:Stats4:Reset1.DOL6 
+18ID:EIG2:Stats4:Reset1.DO6 0
+18ID:EIG2:Stats4:Reset1.STR6 0
+18ID:EIG2:Stats4:Reset1.LNK6 18ID:EIG2:Stats4:CentroidTotal PP MS
+18ID:EIG2:Stats4:Reset1.WAIT6 0
+18ID:EIG2:Stats4:Reset1.DLY7 0
+18ID:EIG2:Stats4:Reset1.DOL7 
+18ID:EIG2:Stats4:Reset1.DO7 0
+18ID:EIG2:Stats4:Reset1.STR7 0
+18ID:EIG2:Stats4:Reset1.LNK7 18ID:EIG2:Stats4:SkewX PP MS
+18ID:EIG2:Stats4:Reset1.WAIT7 0
+18ID:EIG2:Stats4:Reset1.DLY8 0
+18ID:EIG2:Stats4:Reset1.DOL8 
+18ID:EIG2:Stats4:Reset1.DO8 0
+18ID:EIG2:Stats4:Reset1.STR8 0
+18ID:EIG2:Stats4:Reset1.LNK8 18ID:EIG2:Stats4:SkewY PP MS
+18ID:EIG2:Stats4:Reset1.WAIT8 0
+18ID:EIG2:Stats4:Reset1.DLY9 0
+18ID:EIG2:Stats4:Reset1.DOL9 
+18ID:EIG2:Stats4:Reset1.DO9 0
+18ID:EIG2:Stats4:Reset1.STR9 0
+18ID:EIG2:Stats4:Reset1.LNK9 18ID:EIG2:Stats4:KurtosisX PP MS
+18ID:EIG2:Stats4:Reset1.WAIT9 0
+18ID:EIG2:Stats4:Reset1.DLYA 0
+18ID:EIG2:Stats4:Reset1.DOLA 
+18ID:EIG2:Stats4:Reset1.DOA 0
+18ID:EIG2:Stats4:Reset1.STRA 0
+18ID:EIG2:Stats4:Reset1.LNKA 18ID:EIG2:Stats4:KurtosisY PP MS
+18ID:EIG2:Stats4:Reset1.WAITA 0
+18ID:EIG2:Stats4:Reset1.FLNK 18ID:EIG2:Stats4:Reset2
+18ID:EIG2:Stats4:Reset1.SELL 
+18ID:EIG2:Stats4:Reset1.SELN 1
+18ID:EIG2:Stats4:Reset1.SELM 0
+18ID:EIG2:Stats4:Reset2.SCAN 0
+18ID:EIG2:Stats4:Reset2.DESC 
+18ID:EIG2:Stats4:Reset2.PREC 0
+18ID:EIG2:Stats4:Reset2.DLY1 0
+18ID:EIG2:Stats4:Reset2.DOL1 
+18ID:EIG2:Stats4:Reset2.DO1 0
+18ID:EIG2:Stats4:Reset2.STR1 0
+18ID:EIG2:Stats4:Reset2.LNK1 18ID:EIG2:Stats4:Eccentricity PP MS
+18ID:EIG2:Stats4:Reset2.WAIT1 0
+18ID:EIG2:Stats4:Reset2.DLY2 0
+18ID:EIG2:Stats4:Reset2.DOL2 
+18ID:EIG2:Stats4:Reset2.DO2 0
+18ID:EIG2:Stats4:Reset2.STR2 0
+18ID:EIG2:Stats4:Reset2.LNK2 18ID:EIG2:Stats4:Orientation PP MS
+18ID:EIG2:Stats4:Reset2.WAIT2 0
+18ID:EIG2:Stats4:Reset2.DLY3 0
+18ID:EIG2:Stats4:Reset2.DOL3 
+18ID:EIG2:Stats4:Reset2.DO3 0
+18ID:EIG2:Stats4:Reset2.STR3 0
+18ID:EIG2:Stats4:Reset2.LNK3 18ID:EIG2:Stats4:HistBelow PP MS
+18ID:EIG2:Stats4:Reset2.WAIT3 0
+18ID:EIG2:Stats4:Reset2.DLY4 0
+18ID:EIG2:Stats4:Reset2.DOL4 
+18ID:EIG2:Stats4:Reset2.DO4 0
+18ID:EIG2:Stats4:Reset2.STR4 0
+18ID:EIG2:Stats4:Reset2.LNK4 18ID:EIG2:Stats4:HistAbove PP MS
+18ID:EIG2:Stats4:Reset2.WAIT4 0
+18ID:EIG2:Stats4:Reset2.DLY5 0
+18ID:EIG2:Stats4:Reset2.DOL5 
+18ID:EIG2:Stats4:Reset2.DO5 0
+18ID:EIG2:Stats4:Reset2.STR5 0
+18ID:EIG2:Stats4:Reset2.LNK5 18ID:EIG2:Stats4:HistEntropy PP MS
+18ID:EIG2:Stats4:Reset2.WAIT5 0
+18ID:EIG2:Stats4:Reset2.DLY6 0
+18ID:EIG2:Stats4:Reset2.DOL6 
+18ID:EIG2:Stats4:Reset2.DO6 0
+18ID:EIG2:Stats4:Reset2.STR6 0
+18ID:EIG2:Stats4:Reset2.LNK6 
+18ID:EIG2:Stats4:Reset2.WAIT6 0
+18ID:EIG2:Stats4:Reset2.DLY7 0
+18ID:EIG2:Stats4:Reset2.DOL7 
+18ID:EIG2:Stats4:Reset2.DO7 0
+18ID:EIG2:Stats4:Reset2.STR7 0
+18ID:EIG2:Stats4:Reset2.LNK7 
+18ID:EIG2:Stats4:Reset2.WAIT7 0
+18ID:EIG2:Stats4:Reset2.DLY8 0
+18ID:EIG2:Stats4:Reset2.DOL8 
+18ID:EIG2:Stats4:Reset2.DO8 0
+18ID:EIG2:Stats4:Reset2.STR8 0
+18ID:EIG2:Stats4:Reset2.LNK8 
+18ID:EIG2:Stats4:Reset2.WAIT8 0
+18ID:EIG2:Stats4:Reset2.DLY9 0
+18ID:EIG2:Stats4:Reset2.DOL9 
+18ID:EIG2:Stats4:Reset2.DO9 0
+18ID:EIG2:Stats4:Reset2.STR9 0
+18ID:EIG2:Stats4:Reset2.LNK9 
+18ID:EIG2:Stats4:Reset2.WAIT9 0
+18ID:EIG2:Stats4:Reset2.DLYA 0
+18ID:EIG2:Stats4:Reset2.DOLA 
+18ID:EIG2:Stats4:Reset2.DOA 0
+18ID:EIG2:Stats4:Reset2.STRA 0
+18ID:EIG2:Stats4:Reset2.LNKA 
+18ID:EIG2:Stats4:Reset2.WAITA 0
+18ID:EIG2:Stats4:Reset2.FLNK 
+18ID:EIG2:Stats4:Reset2.SELL 
+18ID:EIG2:Stats4:Reset2.SELN 1
+18ID:EIG2:Stats4:Reset2.SELM 0
+18ID:EIG2:Stats5:BgdWidth 1
+18ID:EIG2:Stats5:ComputeStatistics 1
+18ID:EIG2:Stats5:ComputeCentroid 0
+18ID:EIG2:Stats5:CentroidThreshold 1
+18ID:EIG2:Stats5:ComputeProfiles 0
+18ID:EIG2:Stats5:CursorX 256
+18ID:EIG2:Stats5:CursorY 256
+18ID:EIG2:Stats5:ComputeHistogram 0
+18ID:EIG2:Stats5:HistSize 256
+18ID:EIG2:Stats5:HistMin 0
+18ID:EIG2:Stats5:HistMax 255
+18ID:EIG2:Stats5:TS:TSNumPoints 2048
+18ID:EIG2:Stats5:TS:TSTimePerPointLink.DOL 0.1
+18ID:EIG2:Stats5:TS:TSAveragingTime 0.1
+18ID:EIG2:Stats5:TS:TSRead.SCAN 6
+18ID:EIG2:Stats5:TS:TSAcquireMode 0
+18ID:EIG2:Stats5:TS:NDArrayPort STATS5
+18ID:EIG2:Stats5:TS:NDArrayAddress 1
+18ID:EIG2:Stats5:TS:EnableCallbacks 1
+18ID:EIG2:Stats5:TS:MinCallbackTime 0
+18ID:EIG2:Stats5:TS:MaxByteRate 0
+18ID:EIG2:Stats5:TS:BlockingCallbacks 0
+18ID:EIG2:Stats5:TS:QueueSize 20
+18ID:EIG2:Stats5:TS:NumThreads 1
+18ID:EIG2:Stats5:TS:SortTime 0.1
+18ID:EIG2:Stats5:TS:SortMode 0
+18ID:EIG2:Stats5:TS:SortSize 20
+18ID:EIG2:Stats5:TS:DataType 0
+18ID:EIG2:Stats5:TS:ColorMode 0
+18ID:EIG2:Stats5:TS:ArrayCallbacks 1
+18ID:EIG2:Stats5:TS:NDAttributesFile 0
+18ID:EIG2:Stats5:TS:NDAttributesMacros 0
+18ID:EIG2:Stats5:TS:PoolPollStats.SCAN 6
+18ID:EIG2:Stats5:TS:NumPreAllocBuffers 100
+18ID:EIG2:Stats5:TS:WaitForPlugins 0
+18ID:EIG2:Stats5:NDArrayPort EIG
+18ID:EIG2:Stats5:NDArrayAddress 0
+18ID:EIG2:Stats5:EnableCallbacks 0
+18ID:EIG2:Stats5:MinCallbackTime 0
+18ID:EIG2:Stats5:MaxByteRate 0
+18ID:EIG2:Stats5:BlockingCallbacks 0
+18ID:EIG2:Stats5:QueueSize 20
+18ID:EIG2:Stats5:NumThreads 1
+18ID:EIG2:Stats5:SortTime 0.1
+18ID:EIG2:Stats5:SortMode 0
+18ID:EIG2:Stats5:SortSize 20
+18ID:EIG2:Stats5:DataType 0
+18ID:EIG2:Stats5:ColorMode 0
+18ID:EIG2:Stats5:ArrayCallbacks 1
+18ID:EIG2:Stats5:NDAttributesFile 0
+18ID:EIG2:Stats5:NDAttributesMacros 0
+18ID:EIG2:Stats5:PoolPollStats.SCAN 6
+18ID:EIG2:Stats5:NumPreAllocBuffers 100
+18ID:EIG2:Stats5:WaitForPlugins 0
+18ID:EIG2:Stats5:Reset.SCAN 0
+18ID:EIG2:Stats5:Reset.DESC 
+18ID:EIG2:Stats5:Reset.PREC 0
+18ID:EIG2:Stats5:Reset.DLY1 0
+18ID:EIG2:Stats5:Reset.DOL1 
+18ID:EIG2:Stats5:Reset.DO1 0
+18ID:EIG2:Stats5:Reset.STR1 0
+18ID:EIG2:Stats5:Reset.LNK1 18ID:EIG2:Stats5:MinValue PP MS
+18ID:EIG2:Stats5:Reset.WAIT1 0
+18ID:EIG2:Stats5:Reset.DLY2 0
+18ID:EIG2:Stats5:Reset.DOL2 
+18ID:EIG2:Stats5:Reset.DO2 0
+18ID:EIG2:Stats5:Reset.STR2 0
+18ID:EIG2:Stats5:Reset.LNK2 18ID:EIG2:Stats5:MaxValue PP MS
+18ID:EIG2:Stats5:Reset.WAIT2 0
+18ID:EIG2:Stats5:Reset.DLY3 0
+18ID:EIG2:Stats5:Reset.DOL3 
+18ID:EIG2:Stats5:Reset.DO3 0
+18ID:EIG2:Stats5:Reset.STR3 0
+18ID:EIG2:Stats5:Reset.LNK3 18ID:EIG2:Stats5:MeanValue PP MS
+18ID:EIG2:Stats5:Reset.WAIT3 0
+18ID:EIG2:Stats5:Reset.DLY4 0
+18ID:EIG2:Stats5:Reset.DOL4 
+18ID:EIG2:Stats5:Reset.DO4 0
+18ID:EIG2:Stats5:Reset.STR4 0
+18ID:EIG2:Stats5:Reset.LNK4 18ID:EIG2:Stats5:SigmaValue PP MS
+18ID:EIG2:Stats5:Reset.WAIT4 0
+18ID:EIG2:Stats5:Reset.DLY5 0
+18ID:EIG2:Stats5:Reset.DOL5 
+18ID:EIG2:Stats5:Reset.DO5 0
+18ID:EIG2:Stats5:Reset.STR5 0
+18ID:EIG2:Stats5:Reset.LNK5 18ID:EIG2:Stats5:Total PP MS
+18ID:EIG2:Stats5:Reset.WAIT5 0
+18ID:EIG2:Stats5:Reset.DLY6 0
+18ID:EIG2:Stats5:Reset.DOL6 
+18ID:EIG2:Stats5:Reset.DO6 0
+18ID:EIG2:Stats5:Reset.STR6 0
+18ID:EIG2:Stats5:Reset.LNK6 18ID:EIG2:Stats5:Net PP MS
+18ID:EIG2:Stats5:Reset.WAIT6 0
+18ID:EIG2:Stats5:Reset.DLY7 0
+18ID:EIG2:Stats5:Reset.DOL7 
+18ID:EIG2:Stats5:Reset.DO7 0
+18ID:EIG2:Stats5:Reset.STR7 0
+18ID:EIG2:Stats5:Reset.LNK7 18ID:EIG2:Stats5:MinX PP MS
+18ID:EIG2:Stats5:Reset.WAIT7 0
+18ID:EIG2:Stats5:Reset.DLY8 0
+18ID:EIG2:Stats5:Reset.DOL8 
+18ID:EIG2:Stats5:Reset.DO8 0
+18ID:EIG2:Stats5:Reset.STR8 0
+18ID:EIG2:Stats5:Reset.LNK8 18ID:EIG2:Stats5:MinY PP MS
+18ID:EIG2:Stats5:Reset.WAIT8 0
+18ID:EIG2:Stats5:Reset.DLY9 0
+18ID:EIG2:Stats5:Reset.DOL9 
+18ID:EIG2:Stats5:Reset.DO9 0
+18ID:EIG2:Stats5:Reset.STR9 0
+18ID:EIG2:Stats5:Reset.LNK9 18ID:EIG2:Stats5:MaxX PP MS
+18ID:EIG2:Stats5:Reset.WAIT9 0
+18ID:EIG2:Stats5:Reset.DLYA 0
+18ID:EIG2:Stats5:Reset.DOLA 
+18ID:EIG2:Stats5:Reset.DOA 0
+18ID:EIG2:Stats5:Reset.STRA 0
+18ID:EIG2:Stats5:Reset.LNKA 18ID:EIG2:Stats5:MaxY PP MS
+18ID:EIG2:Stats5:Reset.WAITA 0
+18ID:EIG2:Stats5:Reset.FLNK 18ID:EIG2:Stats5:Reset1
+18ID:EIG2:Stats5:Reset.SELL 
+18ID:EIG2:Stats5:Reset.SELN 1
+18ID:EIG2:Stats5:Reset.SELM 0
+18ID:EIG2:Stats5:Reset1.SCAN 0
+18ID:EIG2:Stats5:Reset1.DESC 
+18ID:EIG2:Stats5:Reset1.PREC 0
+18ID:EIG2:Stats5:Reset1.DLY1 0
+18ID:EIG2:Stats5:Reset1.DOL1 
+18ID:EIG2:Stats5:Reset1.DO1 0
+18ID:EIG2:Stats5:Reset1.STR1 0
+18ID:EIG2:Stats5:Reset1.LNK1 18ID:EIG2:Stats5:CentroidX PP MS
+18ID:EIG2:Stats5:Reset1.WAIT1 0
+18ID:EIG2:Stats5:Reset1.DLY2 0
+18ID:EIG2:Stats5:Reset1.DOL2 
+18ID:EIG2:Stats5:Reset1.DO2 0
+18ID:EIG2:Stats5:Reset1.STR2 0
+18ID:EIG2:Stats5:Reset1.LNK2 18ID:EIG2:Stats5:CentroidY PP MS
+18ID:EIG2:Stats5:Reset1.WAIT2 0
+18ID:EIG2:Stats5:Reset1.DLY3 0
+18ID:EIG2:Stats5:Reset1.DOL3 
+18ID:EIG2:Stats5:Reset1.DO3 0
+18ID:EIG2:Stats5:Reset1.STR3 0
+18ID:EIG2:Stats5:Reset1.LNK3 18ID:EIG2:Stats5:SigmaX PP MS
+18ID:EIG2:Stats5:Reset1.WAIT3 0
+18ID:EIG2:Stats5:Reset1.DLY4 0
+18ID:EIG2:Stats5:Reset1.DOL4 
+18ID:EIG2:Stats5:Reset1.DO4 0
+18ID:EIG2:Stats5:Reset1.STR4 0
+18ID:EIG2:Stats5:Reset1.LNK4 18ID:EIG2:Stats5:SigmaY PP MS
+18ID:EIG2:Stats5:Reset1.WAIT4 0
+18ID:EIG2:Stats5:Reset1.DLY5 0
+18ID:EIG2:Stats5:Reset1.DOL5 
+18ID:EIG2:Stats5:Reset1.DO5 0
+18ID:EIG2:Stats5:Reset1.STR5 0
+18ID:EIG2:Stats5:Reset1.LNK5 18ID:EIG2:Stats5:SigmaXY PP MS
+18ID:EIG2:Stats5:Reset1.WAIT5 0
+18ID:EIG2:Stats5:Reset1.DLY6 0
+18ID:EIG2:Stats5:Reset1.DOL6 
+18ID:EIG2:Stats5:Reset1.DO6 0
+18ID:EIG2:Stats5:Reset1.STR6 0
+18ID:EIG2:Stats5:Reset1.LNK6 18ID:EIG2:Stats5:CentroidTotal PP MS
+18ID:EIG2:Stats5:Reset1.WAIT6 0
+18ID:EIG2:Stats5:Reset1.DLY7 0
+18ID:EIG2:Stats5:Reset1.DOL7 
+18ID:EIG2:Stats5:Reset1.DO7 0
+18ID:EIG2:Stats5:Reset1.STR7 0
+18ID:EIG2:Stats5:Reset1.LNK7 18ID:EIG2:Stats5:SkewX PP MS
+18ID:EIG2:Stats5:Reset1.WAIT7 0
+18ID:EIG2:Stats5:Reset1.DLY8 0
+18ID:EIG2:Stats5:Reset1.DOL8 
+18ID:EIG2:Stats5:Reset1.DO8 0
+18ID:EIG2:Stats5:Reset1.STR8 0
+18ID:EIG2:Stats5:Reset1.LNK8 18ID:EIG2:Stats5:SkewY PP MS
+18ID:EIG2:Stats5:Reset1.WAIT8 0
+18ID:EIG2:Stats5:Reset1.DLY9 0
+18ID:EIG2:Stats5:Reset1.DOL9 
+18ID:EIG2:Stats5:Reset1.DO9 0
+18ID:EIG2:Stats5:Reset1.STR9 0
+18ID:EIG2:Stats5:Reset1.LNK9 18ID:EIG2:Stats5:KurtosisX PP MS
+18ID:EIG2:Stats5:Reset1.WAIT9 0
+18ID:EIG2:Stats5:Reset1.DLYA 0
+18ID:EIG2:Stats5:Reset1.DOLA 
+18ID:EIG2:Stats5:Reset1.DOA 0
+18ID:EIG2:Stats5:Reset1.STRA 0
+18ID:EIG2:Stats5:Reset1.LNKA 18ID:EIG2:Stats5:KurtosisY PP MS
+18ID:EIG2:Stats5:Reset1.WAITA 0
+18ID:EIG2:Stats5:Reset1.FLNK 18ID:EIG2:Stats5:Reset2
+18ID:EIG2:Stats5:Reset1.SELL 
+18ID:EIG2:Stats5:Reset1.SELN 1
+18ID:EIG2:Stats5:Reset1.SELM 0
+18ID:EIG2:Stats5:Reset2.SCAN 0
+18ID:EIG2:Stats5:Reset2.DESC 
+18ID:EIG2:Stats5:Reset2.PREC 0
+18ID:EIG2:Stats5:Reset2.DLY1 0
+18ID:EIG2:Stats5:Reset2.DOL1 
+18ID:EIG2:Stats5:Reset2.DO1 0
+18ID:EIG2:Stats5:Reset2.STR1 0
+18ID:EIG2:Stats5:Reset2.LNK1 18ID:EIG2:Stats5:Eccentricity PP MS
+18ID:EIG2:Stats5:Reset2.WAIT1 0
+18ID:EIG2:Stats5:Reset2.DLY2 0
+18ID:EIG2:Stats5:Reset2.DOL2 
+18ID:EIG2:Stats5:Reset2.DO2 0
+18ID:EIG2:Stats5:Reset2.STR2 0
+18ID:EIG2:Stats5:Reset2.LNK2 18ID:EIG2:Stats5:Orientation PP MS
+18ID:EIG2:Stats5:Reset2.WAIT2 0
+18ID:EIG2:Stats5:Reset2.DLY3 0
+18ID:EIG2:Stats5:Reset2.DOL3 
+18ID:EIG2:Stats5:Reset2.DO3 0
+18ID:EIG2:Stats5:Reset2.STR3 0
+18ID:EIG2:Stats5:Reset2.LNK3 18ID:EIG2:Stats5:HistBelow PP MS
+18ID:EIG2:Stats5:Reset2.WAIT3 0
+18ID:EIG2:Stats5:Reset2.DLY4 0
+18ID:EIG2:Stats5:Reset2.DOL4 
+18ID:EIG2:Stats5:Reset2.DO4 0
+18ID:EIG2:Stats5:Reset2.STR4 0
+18ID:EIG2:Stats5:Reset2.LNK4 18ID:EIG2:Stats5:HistAbove PP MS
+18ID:EIG2:Stats5:Reset2.WAIT4 0
+18ID:EIG2:Stats5:Reset2.DLY5 0
+18ID:EIG2:Stats5:Reset2.DOL5 
+18ID:EIG2:Stats5:Reset2.DO5 0
+18ID:EIG2:Stats5:Reset2.STR5 0
+18ID:EIG2:Stats5:Reset2.LNK5 18ID:EIG2:Stats5:HistEntropy PP MS
+18ID:EIG2:Stats5:Reset2.WAIT5 0
+18ID:EIG2:Stats5:Reset2.DLY6 0
+18ID:EIG2:Stats5:Reset2.DOL6 
+18ID:EIG2:Stats5:Reset2.DO6 0
+18ID:EIG2:Stats5:Reset2.STR6 0
+18ID:EIG2:Stats5:Reset2.LNK6 
+18ID:EIG2:Stats5:Reset2.WAIT6 0
+18ID:EIG2:Stats5:Reset2.DLY7 0
+18ID:EIG2:Stats5:Reset2.DOL7 
+18ID:EIG2:Stats5:Reset2.DO7 0
+18ID:EIG2:Stats5:Reset2.STR7 0
+18ID:EIG2:Stats5:Reset2.LNK7 
+18ID:EIG2:Stats5:Reset2.WAIT7 0
+18ID:EIG2:Stats5:Reset2.DLY8 0
+18ID:EIG2:Stats5:Reset2.DOL8 
+18ID:EIG2:Stats5:Reset2.DO8 0
+18ID:EIG2:Stats5:Reset2.STR8 0
+18ID:EIG2:Stats5:Reset2.LNK8 
+18ID:EIG2:Stats5:Reset2.WAIT8 0
+18ID:EIG2:Stats5:Reset2.DLY9 0
+18ID:EIG2:Stats5:Reset2.DOL9 
+18ID:EIG2:Stats5:Reset2.DO9 0
+18ID:EIG2:Stats5:Reset2.STR9 0
+18ID:EIG2:Stats5:Reset2.LNK9 
+18ID:EIG2:Stats5:Reset2.WAIT9 0
+18ID:EIG2:Stats5:Reset2.DLYA 0
+18ID:EIG2:Stats5:Reset2.DOLA 
+18ID:EIG2:Stats5:Reset2.DOA 0
+18ID:EIG2:Stats5:Reset2.STRA 0
+18ID:EIG2:Stats5:Reset2.LNKA 
+18ID:EIG2:Stats5:Reset2.WAITA 0
+18ID:EIG2:Stats5:Reset2.FLNK 
+18ID:EIG2:Stats5:Reset2.SELL 
+18ID:EIG2:Stats5:Reset2.SELN 1
+18ID:EIG2:Stats5:Reset2.SELM 0
+18ID:EIG2:ROIStat1:TSNumPoints 2048
+18ID:EIG2:ROIStat1:TSRead.SCAN 6
+18ID:EIG2:ROIStat1:NDArrayPort EIG
+18ID:EIG2:ROIStat1:NDArrayAddress 0
+18ID:EIG2:ROIStat1:EnableCallbacks 0
+18ID:EIG2:ROIStat1:MinCallbackTime 0
+18ID:EIG2:ROIStat1:MaxByteRate 0
+18ID:EIG2:ROIStat1:BlockingCallbacks 0
+18ID:EIG2:ROIStat1:QueueSize 20
+18ID:EIG2:ROIStat1:NumThreads 1
+18ID:EIG2:ROIStat1:SortTime 0.1
+18ID:EIG2:ROIStat1:SortMode 0
+18ID:EIG2:ROIStat1:SortSize 20
+18ID:EIG2:ROIStat1:DataType 0
+18ID:EIG2:ROIStat1:ColorMode 0
+18ID:EIG2:ROIStat1:ArrayCallbacks 1
+18ID:EIG2:ROIStat1:NDAttributesFile 0
+18ID:EIG2:ROIStat1:NDAttributesMacros 0
+18ID:EIG2:ROIStat1:PoolPollStats.SCAN 6
+18ID:EIG2:ROIStat1:NumPreAllocBuffers 100
+18ID:EIG2:ROIStat1:WaitForPlugins 0
+18ID:EIG2:ROIStat1:1:Name 
+18ID:EIG2:ROIStat1:1:Use 0
+18ID:EIG2:ROIStat1:1:BgdWidth 0
+18ID:EIG2:ROIStat1:1:MinX 0
+18ID:EIG2:ROIStat1:1:MinY 0
+18ID:EIG2:ROIStat1:1:SizeX 0
+18ID:EIG2:ROIStat1:1:SizeY 0
+18ID:EIG2:ROIStat1:2:Name 
+18ID:EIG2:ROIStat1:2:Use 0
+18ID:EIG2:ROIStat1:2:BgdWidth 0
+18ID:EIG2:ROIStat1:2:MinX 0
+18ID:EIG2:ROIStat1:2:MinY 0
+18ID:EIG2:ROIStat1:2:SizeX 0
+18ID:EIG2:ROIStat1:2:SizeY 0
+18ID:EIG2:ROIStat1:3:Name 
+18ID:EIG2:ROIStat1:3:Use 0
+18ID:EIG2:ROIStat1:3:BgdWidth 0
+18ID:EIG2:ROIStat1:3:MinX 0
+18ID:EIG2:ROIStat1:3:MinY 0
+18ID:EIG2:ROIStat1:3:SizeX 0
+18ID:EIG2:ROIStat1:3:SizeY 0
+18ID:EIG2:ROIStat1:4:Name 
+18ID:EIG2:ROIStat1:4:Use 0
+18ID:EIG2:ROIStat1:4:BgdWidth 0
+18ID:EIG2:ROIStat1:4:MinX 0
+18ID:EIG2:ROIStat1:4:MinY 0
+18ID:EIG2:ROIStat1:4:SizeX 0
+18ID:EIG2:ROIStat1:4:SizeY 0
+18ID:EIG2:ROIStat1:5:Name 
+18ID:EIG2:ROIStat1:5:Use 0
+18ID:EIG2:ROIStat1:5:BgdWidth 0
+18ID:EIG2:ROIStat1:5:MinX 0
+18ID:EIG2:ROIStat1:5:MinY 0
+18ID:EIG2:ROIStat1:5:SizeX 0
+18ID:EIG2:ROIStat1:5:SizeY 0
+18ID:EIG2:ROIStat1:6:Name 
+18ID:EIG2:ROIStat1:6:Use 0
+18ID:EIG2:ROIStat1:6:BgdWidth 0
+18ID:EIG2:ROIStat1:6:MinX 0
+18ID:EIG2:ROIStat1:6:MinY 0
+18ID:EIG2:ROIStat1:6:SizeX 0
+18ID:EIG2:ROIStat1:6:SizeY 0
+18ID:EIG2:ROIStat1:7:Name 
+18ID:EIG2:ROIStat1:7:Use 0
+18ID:EIG2:ROIStat1:7:BgdWidth 0
+18ID:EIG2:ROIStat1:7:MinX 0
+18ID:EIG2:ROIStat1:7:MinY 0
+18ID:EIG2:ROIStat1:7:SizeX 0
+18ID:EIG2:ROIStat1:7:SizeY 0
+18ID:EIG2:ROIStat1:8:Name 
+18ID:EIG2:ROIStat1:8:Use 0
+18ID:EIG2:ROIStat1:8:BgdWidth 0
+18ID:EIG2:ROIStat1:8:MinX 0
+18ID:EIG2:ROIStat1:8:MinY 0
+18ID:EIG2:ROIStat1:8:SizeX 0
+18ID:EIG2:ROIStat1:8:SizeY 0
+18ID:EIG2:Trans1:Type 0
+18ID:EIG2:Trans1:NDArrayPort EIG
+18ID:EIG2:Trans1:NDArrayAddress 0
+18ID:EIG2:Trans1:EnableCallbacks 0
+18ID:EIG2:Trans1:MinCallbackTime 0
+18ID:EIG2:Trans1:MaxByteRate 0
+18ID:EIG2:Trans1:BlockingCallbacks 0
+18ID:EIG2:Trans1:QueueSize 20
+18ID:EIG2:Trans1:NumThreads 1
+18ID:EIG2:Trans1:SortTime 0.1
+18ID:EIG2:Trans1:SortMode 0
+18ID:EIG2:Trans1:SortSize 20
+18ID:EIG2:Trans1:DataType 0
+18ID:EIG2:Trans1:ColorMode 0
+18ID:EIG2:Trans1:ArrayCallbacks 1
+18ID:EIG2:Trans1:NDAttributesFile 0
+18ID:EIG2:Trans1:NDAttributesMacros 0
+18ID:EIG2:Trans1:PoolPollStats.SCAN 6
+18ID:EIG2:Trans1:NumPreAllocBuffers 100
+18ID:EIG2:Trans1:WaitForPlugins 0
+18ID:EIG2:Over1:NDArrayPort EIG
+18ID:EIG2:Over1:NDArrayAddress 0
+18ID:EIG2:Over1:EnableCallbacks 0
+18ID:EIG2:Over1:MinCallbackTime 0
+18ID:EIG2:Over1:MaxByteRate 0
+18ID:EIG2:Over1:BlockingCallbacks 0
+18ID:EIG2:Over1:QueueSize 20
+18ID:EIG2:Over1:NumThreads 1
+18ID:EIG2:Over1:SortTime 0.1
+18ID:EIG2:Over1:SortMode 0
+18ID:EIG2:Over1:SortSize 20
+18ID:EIG2:Over1:DataType 0
+18ID:EIG2:Over1:ColorMode 0
+18ID:EIG2:Over1:ArrayCallbacks 1
+18ID:EIG2:Over1:NDAttributesFile 0
+18ID:EIG2:Over1:NDAttributesMacros 0
+18ID:EIG2:Over1:PoolPollStats.SCAN 6
+18ID:EIG2:Over1:NumPreAllocBuffers 100
+18ID:EIG2:Over1:WaitForPlugins 0
+18ID:EIG2:Over1:1:Name ROI1
+18ID:EIG2:Over1:1:Use 0
+18ID:EIG2:Over1:1:PositionXLink.DOL 18ID:EIG2:ROI1:MinX_RBV CP MS
+18ID:EIG2:Over1:1:PositionX 0
+18ID:EIG2:Over1:1:PositionYLink.DOL 18ID:EIG2:ROI1:MinY_RBV CP MS
+18ID:EIG2:Over1:1:PositionY 0
+18ID:EIG2:Over1:1:SizeXLink.DOL 18ID:EIG2:ROI1:SizeX_RBV CP MS
+18ID:EIG2:Over1:1:SizeX 1000000
+18ID:EIG2:Over1:1:SizeYLink.DOL 18ID:EIG2:ROI1:SizeY_RBV CP MS
+18ID:EIG2:Over1:1:SizeY 1000000
+18ID:EIG2:Over1:1:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:1:WidthX 0
+18ID:EIG2:Over1:1:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:1:WidthY 0
+18ID:EIG2:Over1:1:DrawMode 0
+18ID:EIG2:Over1:1:Shape 1
+18ID:EIG2:Over1:1:Red 1
+18ID:EIG2:Over1:1:Green 1
+18ID:EIG2:Over1:1:Blue 1
+18ID:EIG2:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:1:Font 0
+18ID:EIG2:Over1:1:DisplayText 0
+18ID:EIG2:Over1:2:Name ROI2
+18ID:EIG2:Over1:2:Use 0
+18ID:EIG2:Over1:2:PositionXLink.DOL 18ID:EIG2:ROI2:MinX_RBV CP MS
+18ID:EIG2:Over1:2:PositionX 0
+18ID:EIG2:Over1:2:PositionYLink.DOL 18ID:EIG2:ROI2:MinY_RBV CP MS
+18ID:EIG2:Over1:2:PositionY 0
+18ID:EIG2:Over1:2:SizeXLink.DOL 18ID:EIG2:ROI2:SizeX_RBV CP MS
+18ID:EIG2:Over1:2:SizeX 1000000
+18ID:EIG2:Over1:2:SizeYLink.DOL 18ID:EIG2:ROI2:SizeY_RBV CP MS
+18ID:EIG2:Over1:2:SizeY 1000000
+18ID:EIG2:Over1:2:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:2:WidthX 0
+18ID:EIG2:Over1:2:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:2:WidthY 0
+18ID:EIG2:Over1:2:DrawMode 0
+18ID:EIG2:Over1:2:Shape 1
+18ID:EIG2:Over1:2:Red 1
+18ID:EIG2:Over1:2:Green 1
+18ID:EIG2:Over1:2:Blue 1
+18ID:EIG2:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:2:Font 0
+18ID:EIG2:Over1:2:DisplayText 0
+18ID:EIG2:Over1:3:Name ROI3
+18ID:EIG2:Over1:3:Use 0
+18ID:EIG2:Over1:3:PositionXLink.DOL 18ID:EIG2:ROI3:MinX_RBV CP MS
+18ID:EIG2:Over1:3:PositionX 0
+18ID:EIG2:Over1:3:PositionYLink.DOL 18ID:EIG2:ROI3:MinY_RBV CP MS
+18ID:EIG2:Over1:3:PositionY 0
+18ID:EIG2:Over1:3:SizeXLink.DOL 18ID:EIG2:ROI3:SizeX_RBV CP MS
+18ID:EIG2:Over1:3:SizeX 1000000
+18ID:EIG2:Over1:3:SizeYLink.DOL 18ID:EIG2:ROI3:SizeY_RBV CP MS
+18ID:EIG2:Over1:3:SizeY 1000000
+18ID:EIG2:Over1:3:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:3:WidthX 0
+18ID:EIG2:Over1:3:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:3:WidthY 0
+18ID:EIG2:Over1:3:DrawMode 0
+18ID:EIG2:Over1:3:Shape 1
+18ID:EIG2:Over1:3:Red 1
+18ID:EIG2:Over1:3:Green 1
+18ID:EIG2:Over1:3:Blue 1
+18ID:EIG2:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:3:Font 0
+18ID:EIG2:Over1:3:DisplayText 0
+18ID:EIG2:Over1:4:Name ROI4
+18ID:EIG2:Over1:4:Use 0
+18ID:EIG2:Over1:4:PositionXLink.DOL 18ID:EIG2:ROI4:MinX_RBV CP MS
+18ID:EIG2:Over1:4:PositionX 0
+18ID:EIG2:Over1:4:PositionYLink.DOL 18ID:EIG2:ROI4:MinY_RBV CP MS
+18ID:EIG2:Over1:4:PositionY 0
+18ID:EIG2:Over1:4:SizeXLink.DOL 18ID:EIG2:ROI4:SizeX_RBV CP MS
+18ID:EIG2:Over1:4:SizeX 1000000
+18ID:EIG2:Over1:4:SizeYLink.DOL 18ID:EIG2:ROI4:SizeY_RBV CP MS
+18ID:EIG2:Over1:4:SizeY 1000000
+18ID:EIG2:Over1:4:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:4:WidthX 0
+18ID:EIG2:Over1:4:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:4:WidthY 0
+18ID:EIG2:Over1:4:DrawMode 0
+18ID:EIG2:Over1:4:Shape 1
+18ID:EIG2:Over1:4:Red 1
+18ID:EIG2:Over1:4:Green 1
+18ID:EIG2:Over1:4:Blue 1
+18ID:EIG2:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:4:Font 0
+18ID:EIG2:Over1:4:DisplayText 0
+18ID:EIG2:Over1:5:Name Cursor1
+18ID:EIG2:Over1:5:Use 0
+18ID:EIG2:Over1:5:PositionXLink.DOL junk CP MS
+18ID:EIG2:Over1:5:PositionX 0
+18ID:EIG2:Over1:5:PositionYLink.DOL junk CP MS
+18ID:EIG2:Over1:5:PositionY 0
+18ID:EIG2:Over1:5:SizeXLink.DOL junk CP MS
+18ID:EIG2:Over1:5:SizeX 1
+18ID:EIG2:Over1:5:SizeYLink.DOL junk CP MS
+18ID:EIG2:Over1:5:SizeY 0
+18ID:EIG2:Over1:5:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:5:WidthX 0
+18ID:EIG2:Over1:5:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:5:WidthY 0
+18ID:EIG2:Over1:5:DrawMode 0
+18ID:EIG2:Over1:5:Shape 1
+18ID:EIG2:Over1:5:Red 1
+18ID:EIG2:Over1:5:Green 1
+18ID:EIG2:Over1:5:Blue 1
+18ID:EIG2:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:5:Font 0
+18ID:EIG2:Over1:5:DisplayText 0
+18ID:EIG2:Over1:6:Name Cursor2
+18ID:EIG2:Over1:6:Use 0
+18ID:EIG2:Over1:6:PositionXLink.DOL junk CP MS
+18ID:EIG2:Over1:6:PositionX 0
+18ID:EIG2:Over1:6:PositionYLink.DOL junk CP MS
+18ID:EIG2:Over1:6:PositionY 0
+18ID:EIG2:Over1:6:SizeXLink.DOL junk CP MS
+18ID:EIG2:Over1:6:SizeX 1
+18ID:EIG2:Over1:6:SizeYLink.DOL junk CP MS
+18ID:EIG2:Over1:6:SizeY 0
+18ID:EIG2:Over1:6:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:6:WidthX 0
+18ID:EIG2:Over1:6:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:6:WidthY 0
+18ID:EIG2:Over1:6:DrawMode 0
+18ID:EIG2:Over1:6:Shape 1
+18ID:EIG2:Over1:6:Red 1
+18ID:EIG2:Over1:6:Green 1
+18ID:EIG2:Over1:6:Blue 1
+18ID:EIG2:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:6:Font 0
+18ID:EIG2:Over1:6:DisplayText 0
+18ID:EIG2:Over1:7:Name Box1
+18ID:EIG2:Over1:7:Use 0
+18ID:EIG2:Over1:7:PositionXLink.DOL junk CP MS
+18ID:EIG2:Over1:7:PositionX 0
+18ID:EIG2:Over1:7:PositionYLink.DOL junk CP MS
+18ID:EIG2:Over1:7:PositionY 0
+18ID:EIG2:Over1:7:SizeXLink.DOL junk CP MS
+18ID:EIG2:Over1:7:SizeX 1
+18ID:EIG2:Over1:7:SizeYLink.DOL junk CP MS
+18ID:EIG2:Over1:7:SizeY 0
+18ID:EIG2:Over1:7:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:7:WidthX 0
+18ID:EIG2:Over1:7:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:7:WidthY 0
+18ID:EIG2:Over1:7:DrawMode 0
+18ID:EIG2:Over1:7:Shape 1
+18ID:EIG2:Over1:7:Red 1
+18ID:EIG2:Over1:7:Green 1
+18ID:EIG2:Over1:7:Blue 1
+18ID:EIG2:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:7:Font 0
+18ID:EIG2:Over1:7:DisplayText 0
+18ID:EIG2:Over1:8:Name Box2
+18ID:EIG2:Over1:8:Use 0
+18ID:EIG2:Over1:8:PositionXLink.DOL junk CP MS
+18ID:EIG2:Over1:8:PositionX 0
+18ID:EIG2:Over1:8:PositionYLink.DOL junk CP MS
+18ID:EIG2:Over1:8:PositionY 0
+18ID:EIG2:Over1:8:SizeXLink.DOL junk CP MS
+18ID:EIG2:Over1:8:SizeX 1
+18ID:EIG2:Over1:8:SizeYLink.DOL junk CP MS
+18ID:EIG2:Over1:8:SizeY 0
+18ID:EIG2:Over1:8:WidthXLink.DOL CP NPP MS
+18ID:EIG2:Over1:8:WidthX 0
+18ID:EIG2:Over1:8:WidthYLink.DOL CP NPP MS
+18ID:EIG2:Over1:8:WidthY 0
+18ID:EIG2:Over1:8:DrawMode 0
+18ID:EIG2:Over1:8:Shape 1
+18ID:EIG2:Over1:8:Red 1
+18ID:EIG2:Over1:8:Green 1
+18ID:EIG2:Over1:8:Blue 1
+18ID:EIG2:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18ID:EIG2:Over1:8:Font 0
+18ID:EIG2:Over1:8:DisplayText 0
+18ID:EIG2:CC1:ColorModeOut 0
+18ID:EIG2:CC1:NDArrayPort EIG
+18ID:EIG2:CC1:NDArrayAddress 0
+18ID:EIG2:CC1:EnableCallbacks 0
+18ID:EIG2:CC1:MinCallbackTime 0
+18ID:EIG2:CC1:MaxByteRate 0
+18ID:EIG2:CC1:BlockingCallbacks 0
+18ID:EIG2:CC1:QueueSize 20
+18ID:EIG2:CC1:NumThreads 1
+18ID:EIG2:CC1:SortTime 0.1
+18ID:EIG2:CC1:SortMode 0
+18ID:EIG2:CC1:SortSize 20
+18ID:EIG2:CC1:DataType 0
+18ID:EIG2:CC1:ColorMode 0
+18ID:EIG2:CC1:ArrayCallbacks 1
+18ID:EIG2:CC1:NDAttributesFile 0
+18ID:EIG2:CC1:NDAttributesMacros 0
+18ID:EIG2:CC1:PoolPollStats.SCAN 6
+18ID:EIG2:CC1:NumPreAllocBuffers 100
+18ID:EIG2:CC1:WaitForPlugins 0
+18ID:EIG2:CC2:ColorModeOut 0
+18ID:EIG2:CC2:NDArrayPort EIG
+18ID:EIG2:CC2:NDArrayAddress 0
+18ID:EIG2:CC2:EnableCallbacks 0
+18ID:EIG2:CC2:MinCallbackTime 0
+18ID:EIG2:CC2:MaxByteRate 0
+18ID:EIG2:CC2:BlockingCallbacks 0
+18ID:EIG2:CC2:QueueSize 20
+18ID:EIG2:CC2:NumThreads 1
+18ID:EIG2:CC2:SortTime 0.1
+18ID:EIG2:CC2:SortMode 0
+18ID:EIG2:CC2:SortSize 20
+18ID:EIG2:CC2:DataType 0
+18ID:EIG2:CC2:ColorMode 0
+18ID:EIG2:CC2:ArrayCallbacks 1
+18ID:EIG2:CC2:NDAttributesFile 0
+18ID:EIG2:CC2:NDAttributesMacros 0
+18ID:EIG2:CC2:PoolPollStats.SCAN 6
+18ID:EIG2:CC2:NumPreAllocBuffers 100
+18ID:EIG2:CC2:WaitForPlugins 0
+18ID:EIG2:CB1:TriggerA 
+18ID:EIG2:CB1:TriggerB 
+18ID:EIG2:CB1:TriggerCalc 0
+18ID:EIG2:CB1:PreCount 100
+18ID:EIG2:CB1:PostCount 100
+18ID:EIG2:CB1:PresetTriggerCount 1
+18ID:EIG2:CB1:FlushOnSoftTrg 0
+18ID:EIG2:CB1:NDArrayPort EIG
+18ID:EIG2:CB1:NDArrayAddress 0
+18ID:EIG2:CB1:EnableCallbacks 0
+18ID:EIG2:CB1:MinCallbackTime 0
+18ID:EIG2:CB1:MaxByteRate 0
+18ID:EIG2:CB1:BlockingCallbacks 0
+18ID:EIG2:CB1:QueueSize 20
+18ID:EIG2:CB1:NumThreads 1
+18ID:EIG2:CB1:SortTime 0.1
+18ID:EIG2:CB1:SortMode 0
+18ID:EIG2:CB1:SortSize 20
+18ID:EIG2:CB1:DataType 0
+18ID:EIG2:CB1:ColorMode 0
+18ID:EIG2:CB1:ArrayCallbacks 1
+18ID:EIG2:CB1:NDAttributesFile 0
+18ID:EIG2:CB1:NDAttributesMacros 0
+18ID:EIG2:CB1:PoolPollStats.SCAN 6
+18ID:EIG2:CB1:NumPreAllocBuffers 100
+18ID:EIG2:CB1:WaitForPlugins 0
+18ID:EIG2:Attr1:TS:TSNumPoints 2048
+18ID:EIG2:Attr1:TS:TSTimePerPointLink.DOL 0.1
+18ID:EIG2:Attr1:TS:TSAveragingTime 0.1
+18ID:EIG2:Attr1:TS:TSRead.SCAN 6
+18ID:EIG2:Attr1:TS:TSAcquireMode 0
+18ID:EIG2:Attr1:TS:NDArrayPort ATTR1
+18ID:EIG2:Attr1:TS:NDArrayAddress 1
+18ID:EIG2:Attr1:TS:EnableCallbacks 1
+18ID:EIG2:Attr1:TS:MinCallbackTime 0
+18ID:EIG2:Attr1:TS:MaxByteRate 0
+18ID:EIG2:Attr1:TS:BlockingCallbacks 0
+18ID:EIG2:Attr1:TS:QueueSize 20
+18ID:EIG2:Attr1:TS:NumThreads 1
+18ID:EIG2:Attr1:TS:SortTime 0.1
+18ID:EIG2:Attr1:TS:SortMode 0
+18ID:EIG2:Attr1:TS:SortSize 20
+18ID:EIG2:Attr1:TS:DataType 0
+18ID:EIG2:Attr1:TS:ColorMode 0
+18ID:EIG2:Attr1:TS:ArrayCallbacks 1
+18ID:EIG2:Attr1:TS:NDAttributesFile 0
+18ID:EIG2:Attr1:TS:NDAttributesMacros 0
+18ID:EIG2:Attr1:TS:PoolPollStats.SCAN 6
+18ID:EIG2:Attr1:TS:NumPreAllocBuffers 100
+18ID:EIG2:Attr1:TS:WaitForPlugins 0
+18ID:EIG2:Attr1:NDArrayPort EIG
+18ID:EIG2:Attr1:NDArrayAddress 0
+18ID:EIG2:Attr1:EnableCallbacks 0
+18ID:EIG2:Attr1:MinCallbackTime 0
+18ID:EIG2:Attr1:MaxByteRate 0
+18ID:EIG2:Attr1:BlockingCallbacks 0
+18ID:EIG2:Attr1:QueueSize 20
+18ID:EIG2:Attr1:NumThreads 1
+18ID:EIG2:Attr1:SortTime 0.1
+18ID:EIG2:Attr1:SortMode 0
+18ID:EIG2:Attr1:SortSize 20
+18ID:EIG2:Attr1:DataType 0
+18ID:EIG2:Attr1:ColorMode 0
+18ID:EIG2:Attr1:ArrayCallbacks 0
+18ID:EIG2:Attr1:NDAttributesFile 0
+18ID:EIG2:Attr1:NDAttributesMacros 0
+18ID:EIG2:Attr1:PoolPollStats.SCAN 6
+18ID:EIG2:Attr1:NumPreAllocBuffers 100
+18ID:EIG2:Attr1:WaitForPlugins 0
+18ID:EIG2:Attr1:1:AttrName 0
+18ID:EIG2:Attr1:2:AttrName 0
+18ID:EIG2:Attr1:3:AttrName 0
+18ID:EIG2:Attr1:4:AttrName 0
+18ID:EIG2:Attr1:5:AttrName 0
+18ID:EIG2:Attr1:6:AttrName 0
+18ID:EIG2:Attr1:7:AttrName 0
+18ID:EIG2:Attr1:8:AttrName 0
+18ID:EIG2:FFT1:NDArrayPort EIG
+18ID:EIG2:FFT1:NDArrayAddress 0
+18ID:EIG2:FFT1:EnableCallbacks 0
+18ID:EIG2:FFT1:MinCallbackTime 0
+18ID:EIG2:FFT1:MaxByteRate 0
+18ID:EIG2:FFT1:BlockingCallbacks 0
+18ID:EIG2:FFT1:QueueSize 20
+18ID:EIG2:FFT1:NumThreads 1
+18ID:EIG2:FFT1:SortTime 0.1
+18ID:EIG2:FFT1:SortMode 0
+18ID:EIG2:FFT1:SortSize 20
+18ID:EIG2:FFT1:DataType 0
+18ID:EIG2:FFT1:ColorMode 0
+18ID:EIG2:FFT1:ArrayCallbacks 1
+18ID:EIG2:FFT1:NDAttributesFile 0
+18ID:EIG2:FFT1:NDAttributesMacros 0
+18ID:EIG2:FFT1:PoolPollStats.SCAN 6
+18ID:EIG2:FFT1:NumPreAllocBuffers 100
+18ID:EIG2:FFT1:WaitForPlugins 0
+18ID:EIG2:FFT1:FFTDirection 0
+18ID:EIG2:FFT1:FFTSuppressDC 0
+18ID:EIG2:FFT1:FFTNumAverage 1
+18ID:EIG2:FFT1:Name FFT1
+18ID:EIG2:Codec1:Mode 0
+18ID:EIG2:Codec1:Compressor 0
+18ID:EIG2:Codec1:JPEGQuality 85
+18ID:EIG2:Codec1:BloscCompressor 0
+18ID:EIG2:Codec1:BloscCLevel 5
+18ID:EIG2:Codec1:BloscShuffle 0
+18ID:EIG2:Codec1:BloscNumThreads 1
+18ID:EIG2:Codec1:NDArrayPort EIG
+18ID:EIG2:Codec1:NDArrayAddress 0
+18ID:EIG2:Codec1:EnableCallbacks 0
+18ID:EIG2:Codec1:MinCallbackTime 0
+18ID:EIG2:Codec1:MaxByteRate 0
+18ID:EIG2:Codec1:BlockingCallbacks 0
+18ID:EIG2:Codec1:QueueSize 20
+18ID:EIG2:Codec1:NumThreads 1
+18ID:EIG2:Codec1:SortTime 0.1
+18ID:EIG2:Codec1:SortMode 0
+18ID:EIG2:Codec1:SortSize 20
+18ID:EIG2:Codec1:DataType 0
+18ID:EIG2:Codec1:ColorMode 0
+18ID:EIG2:Codec1:ArrayCallbacks 1
+18ID:EIG2:Codec1:NDAttributesFile 0
+18ID:EIG2:Codec1:NDAttributesMacros 0
+18ID:EIG2:Codec1:PoolPollStats.SCAN 6
+18ID:EIG2:Codec1:NumPreAllocBuffers 100
+18ID:EIG2:Codec1:WaitForPlugins 0
+18ID:EIG2:Codec2:Mode 0
+18ID:EIG2:Codec2:Compressor 0
+18ID:EIG2:Codec2:JPEGQuality 85
+18ID:EIG2:Codec2:BloscCompressor 0
+18ID:EIG2:Codec2:BloscCLevel 5
+18ID:EIG2:Codec2:BloscShuffle 0
+18ID:EIG2:Codec2:BloscNumThreads 1
+18ID:EIG2:Codec2:NDArrayPort EIG
+18ID:EIG2:Codec2:NDArrayAddress 0
+18ID:EIG2:Codec2:EnableCallbacks 0
+18ID:EIG2:Codec2:MinCallbackTime 0
+18ID:EIG2:Codec2:MaxByteRate 0
+18ID:EIG2:Codec2:BlockingCallbacks 0
+18ID:EIG2:Codec2:QueueSize 20
+18ID:EIG2:Codec2:NumThreads 1
+18ID:EIG2:Codec2:SortTime 0.1
+18ID:EIG2:Codec2:SortMode 0
+18ID:EIG2:Codec2:SortSize 20
+18ID:EIG2:Codec2:DataType 0
+18ID:EIG2:Codec2:ColorMode 0
+18ID:EIG2:Codec2:ArrayCallbacks 1
+18ID:EIG2:Codec2:NDAttributesFile 0
+18ID:EIG2:Codec2:NDAttributesMacros 0
+18ID:EIG2:Codec2:PoolPollStats.SCAN 6
+18ID:EIG2:Codec2:NumPreAllocBuffers 100
+18ID:EIG2:Codec2:WaitForPlugins 0
+18ID:EIG2:BadPix1:FileName 0
+18ID:EIG2:BadPix1:NDArrayPort EIG
+18ID:EIG2:BadPix1:NDArrayAddress 0
+18ID:EIG2:BadPix1:EnableCallbacks 0
+18ID:EIG2:BadPix1:MinCallbackTime 0
+18ID:EIG2:BadPix1:MaxByteRate 0
+18ID:EIG2:BadPix1:BlockingCallbacks 0
+18ID:EIG2:BadPix1:QueueSize 20
+18ID:EIG2:BadPix1:NumThreads 1
+18ID:EIG2:BadPix1:SortTime 0.1
+18ID:EIG2:BadPix1:SortMode 0
+18ID:EIG2:BadPix1:SortSize 20
+18ID:EIG2:BadPix1:DataType 0
+18ID:EIG2:BadPix1:ColorMode 0
+18ID:EIG2:BadPix1:ArrayCallbacks 1
+18ID:EIG2:BadPix1:NDAttributesFile 0
+18ID:EIG2:BadPix1:NDAttributesMacros 0
+18ID:EIG2:BadPix1:PoolPollStats.SCAN 6
+18ID:EIG2:BadPix1:NumPreAllocBuffers 100
+18ID:EIG2:BadPix1:WaitForPlugins 0
+18ID:EIG2:scan1.ATIME 0
+18ID:EIG2:scan1.COPYTO 0
+18ID:EIG2:scan1.AAWAIT 0
+18ID:EIG2:scan1.FLNK 
+18ID:EIG2:scan1.NPTS 10
+18ID:EIG2:scan1.ACQT 0
+18ID:EIG2:scan1.ACQM 0
+18ID:EIG2:scan1.PASM 0
+18ID:EIG2:scan1.BSPV 
+18ID:EIG2:scan1.BSCD 1
+18ID:EIG2:scan1.BSWAIT 0
+18ID:EIG2:scan1.ASPV 
+18ID:EIG2:scan1.ASCD 1
+18ID:EIG2:scan1.ASWAIT 0
+18ID:EIG2:scan1.T1PV 
+18ID:EIG2:scan1.T1CD 1
+18ID:EIG2:scan1.T2PV 
+18ID:EIG2:scan1.T2CD 1
+18ID:EIG2:scan1.T3PV 
+18ID:EIG2:scan1.T3CD 1
+18ID:EIG2:scan1.T4PV 
+18ID:EIG2:scan1.T4CD 1
+18ID:EIG2:scan1.P1PV 
+18ID:EIG2:scan1.R1PV 
+18ID:EIG2:scan1.P1SM 0
+18ID:EIG2:scan1.P1SP 0
+18ID:EIG2:scan1.P1EP 0
+18ID:EIG2:scan1.P1AR 0
+18ID:EIG2:scan1.P2PV 
+18ID:EIG2:scan1.R2PV 
+18ID:EIG2:scan1.P2SM 0
+18ID:EIG2:scan1.P2SP 0
+18ID:EIG2:scan1.P2EP 0
+18ID:EIG2:scan1.P2AR 0
+18ID:EIG2:scan1.P3PV 
+18ID:EIG2:scan1.R3PV 
+18ID:EIG2:scan1.P3SM 0
+18ID:EIG2:scan1.P3SP 0
+18ID:EIG2:scan1.P3EP 0
+18ID:EIG2:scan1.P3AR 0
+18ID:EIG2:scan1.P4PV 
+18ID:EIG2:scan1.R4PV 
+18ID:EIG2:scan1.P4SM 0
+18ID:EIG2:scan1.P4SP 0
+18ID:EIG2:scan1.P4EP 0
+18ID:EIG2:scan1.P4AR 0
+18ID:EIG2:scan1.PDLY 0
+18ID:EIG2:scan1.DDLY 0
+18ID:EIG2:scan1.REFD 1
+18ID:EIG2:scan1.AWCT 0
+18ID:EIG2:scan1.A1PV 
+18ID:EIG2:scan1.A1CD 1
+18ID:EIG2:scan1.D01PV 
+18ID:EIG2:scan1.D02PV 
+18ID:EIG2:scan1.D03PV 
+18ID:EIG2:scan1.D04PV 
+18ID:EIG2:scan1.D05PV 
+18ID:EIG2:scan1.D06PV 
+18ID:EIG2:scan1.D07PV 
+18ID:EIG2:scan1.D08PV 
+18ID:EIG2:scan1.D09PV 
+18ID:EIG2:scan1.D10PV 
+18ID:EIG2:scan1.D11PV 
+18ID:EIG2:scan1.D12PV 
+18ID:EIG2:scan1.D13PV 
+18ID:EIG2:scan1.D14PV 
+18ID:EIG2:scan1.D15PV 
+18ID:EIG2:scan1.D16PV 
+18ID:EIG2:scan1.D17PV 
+18ID:EIG2:scan1.D18PV 
+18ID:EIG2:scan1.D19PV 
+18ID:EIG2:scan1.D20PV 
+18ID:EIG2:scan1.D21PV 
+18ID:EIG2:scan1.D22PV 
+18ID:EIG2:scan1.D23PV 
+18ID:EIG2:scan1.D24PV 
+18ID:EIG2:scan1.D25PV 
+18ID:EIG2:scan1.D26PV 
+18ID:EIG2:scan1.D27PV 
+18ID:EIG2:scan1.D28PV 
+18ID:EIG2:scan1.D29PV 
+18ID:EIG2:scan1.D30PV 
+18ID:EIG2:scan1.D31PV 
+18ID:EIG2:scan1.D32PV 
+18ID:EIG2:scan1.D33PV 
+18ID:EIG2:scan1.D34PV 
+18ID:EIG2:scan1.D35PV 
+18ID:EIG2:scan1.D36PV 
+18ID:EIG2:scan1.D37PV 
+18ID:EIG2:scan1.D38PV 
+18ID:EIG2:scan1.D39PV 
+18ID:EIG2:scan1.D40PV 
+18ID:EIG2:scan1.D41PV 
+18ID:EIG2:scan1.D42PV 
+18ID:EIG2:scan1.D43PV 
+18ID:EIG2:scan1.D44PV 
+18ID:EIG2:scan1.D45PV 
+18ID:EIG2:scan1.D46PV 
+18ID:EIG2:scan1.D47PV 
+18ID:EIG2:scan1.D48PV 
+18ID:EIG2:scan1.D49PV 
+18ID:EIG2:scan1.D50PV 
+18ID:EIG2:scan1.D51PV 
+18ID:EIG2:scan1.D52PV 
+18ID:EIG2:scan1.D53PV 
+18ID:EIG2:scan1.D54PV 
+18ID:EIG2:scan1.D55PV 
+18ID:EIG2:scan1.D56PV 
+18ID:EIG2:scan1.D57PV 
+18ID:EIG2:scan1.D58PV 
+18ID:EIG2:scan1.D59PV 
+18ID:EIG2:scan1.D60PV 
+18ID:EIG2:scan1.D61PV 
+18ID:EIG2:scan1.D62PV 
+18ID:EIG2:scan1.D63PV 
+18ID:EIG2:scan1.D64PV 
+18ID:EIG2:scan1.D65PV 
+18ID:EIG2:scan1.D66PV 
+18ID:EIG2:scan1.D67PV 
+18ID:EIG2:scan1.D68PV 
+18ID:EIG2:scan1.D69PV 
+18ID:EIG2:scan1.D70PV 
+18ID:EIG2:scan2.ATIME 0
+18ID:EIG2:scan2.COPYTO 0
+18ID:EIG2:scan2.AAWAIT 0
+18ID:EIG2:scan2.FLNK 
+18ID:EIG2:scan2.NPTS 10
+18ID:EIG2:scan2.ACQT 0
+18ID:EIG2:scan2.ACQM 0
+18ID:EIG2:scan2.PASM 0
+18ID:EIG2:scan2.BSPV 
+18ID:EIG2:scan2.BSCD 1
+18ID:EIG2:scan2.BSWAIT 0
+18ID:EIG2:scan2.ASPV 
+18ID:EIG2:scan2.ASCD 1
+18ID:EIG2:scan2.ASWAIT 0
+18ID:EIG2:scan2.T1PV 18ID:EIG2:scan1.EXSC
+18ID:EIG2:scan2.T1CD 1
+18ID:EIG2:scan2.T2PV 
+18ID:EIG2:scan2.T2CD 1
+18ID:EIG2:scan2.T3PV 
+18ID:EIG2:scan2.T3CD 1
+18ID:EIG2:scan2.T4PV 
+18ID:EIG2:scan2.T4CD 1
+18ID:EIG2:scan2.P1PV 
+18ID:EIG2:scan2.R1PV 
+18ID:EIG2:scan2.P1SM 0
+18ID:EIG2:scan2.P1SP 0
+18ID:EIG2:scan2.P1EP 0
+18ID:EIG2:scan2.P1AR 0
+18ID:EIG2:scan2.P2PV 
+18ID:EIG2:scan2.R2PV 
+18ID:EIG2:scan2.P2SM 0
+18ID:EIG2:scan2.P2SP 0
+18ID:EIG2:scan2.P2EP 0
+18ID:EIG2:scan2.P2AR 0
+18ID:EIG2:scan2.P3PV 
+18ID:EIG2:scan2.R3PV 
+18ID:EIG2:scan2.P3SM 0
+18ID:EIG2:scan2.P3SP 0
+18ID:EIG2:scan2.P3EP 0
+18ID:EIG2:scan2.P3AR 0
+18ID:EIG2:scan2.P4PV 
+18ID:EIG2:scan2.R4PV 
+18ID:EIG2:scan2.P4SM 0
+18ID:EIG2:scan2.P4SP 0
+18ID:EIG2:scan2.P4EP 0
+18ID:EIG2:scan2.P4AR 0
+18ID:EIG2:scan2.PDLY 0
+18ID:EIG2:scan2.DDLY 0
+18ID:EIG2:scan2.REFD 1
+18ID:EIG2:scan2.AWCT 0
+18ID:EIG2:scan2.A1PV 
+18ID:EIG2:scan2.A1CD 1
+18ID:EIG2:scan2.D01PV 
+18ID:EIG2:scan2.D02PV 
+18ID:EIG2:scan2.D03PV 
+18ID:EIG2:scan2.D04PV 
+18ID:EIG2:scan2.D05PV 
+18ID:EIG2:scan2.D06PV 
+18ID:EIG2:scan2.D07PV 
+18ID:EIG2:scan2.D08PV 
+18ID:EIG2:scan2.D09PV 
+18ID:EIG2:scan2.D10PV 
+18ID:EIG2:scan2.D11PV 
+18ID:EIG2:scan2.D12PV 
+18ID:EIG2:scan2.D13PV 
+18ID:EIG2:scan2.D14PV 
+18ID:EIG2:scan2.D15PV 
+18ID:EIG2:scan2.D16PV 
+18ID:EIG2:scan2.D17PV 
+18ID:EIG2:scan2.D18PV 
+18ID:EIG2:scan2.D19PV 
+18ID:EIG2:scan2.D20PV 
+18ID:EIG2:scan2.D21PV 
+18ID:EIG2:scan2.D22PV 
+18ID:EIG2:scan2.D23PV 
+18ID:EIG2:scan2.D24PV 
+18ID:EIG2:scan2.D25PV 
+18ID:EIG2:scan2.D26PV 
+18ID:EIG2:scan2.D27PV 
+18ID:EIG2:scan2.D28PV 
+18ID:EIG2:scan2.D29PV 
+18ID:EIG2:scan2.D30PV 
+18ID:EIG2:scan2.D31PV 
+18ID:EIG2:scan2.D32PV 
+18ID:EIG2:scan2.D33PV 
+18ID:EIG2:scan2.D34PV 
+18ID:EIG2:scan2.D35PV 
+18ID:EIG2:scan2.D36PV 
+18ID:EIG2:scan2.D37PV 
+18ID:EIG2:scan2.D38PV 
+18ID:EIG2:scan2.D39PV 
+18ID:EIG2:scan2.D40PV 
+18ID:EIG2:scan2.D41PV 
+18ID:EIG2:scan2.D42PV 
+18ID:EIG2:scan2.D43PV 
+18ID:EIG2:scan2.D44PV 
+18ID:EIG2:scan2.D45PV 
+18ID:EIG2:scan2.D46PV 
+18ID:EIG2:scan2.D47PV 
+18ID:EIG2:scan2.D48PV 
+18ID:EIG2:scan2.D49PV 
+18ID:EIG2:scan2.D50PV 
+18ID:EIG2:scan2.D51PV 
+18ID:EIG2:scan2.D52PV 
+18ID:EIG2:scan2.D53PV 
+18ID:EIG2:scan2.D54PV 
+18ID:EIG2:scan2.D55PV 
+18ID:EIG2:scan2.D56PV 
+18ID:EIG2:scan2.D57PV 
+18ID:EIG2:scan2.D58PV 
+18ID:EIG2:scan2.D59PV 
+18ID:EIG2:scan2.D60PV 
+18ID:EIG2:scan2.D61PV 
+18ID:EIG2:scan2.D62PV 
+18ID:EIG2:scan2.D63PV 
+18ID:EIG2:scan2.D64PV 
+18ID:EIG2:scan2.D65PV 
+18ID:EIG2:scan2.D66PV 
+18ID:EIG2:scan2.D67PV 
+18ID:EIG2:scan2.D68PV 
+18ID:EIG2:scan2.D69PV 
+18ID:EIG2:scan2.D70PV 
+18ID:EIG2:scan3.ATIME 0
+18ID:EIG2:scan3.COPYTO 0
+18ID:EIG2:scan3.AAWAIT 0
+18ID:EIG2:scan3.FLNK 
+18ID:EIG2:scan3.NPTS 10
+18ID:EIG2:scan3.ACQT 0
+18ID:EIG2:scan3.ACQM 0
+18ID:EIG2:scan3.PASM 0
+18ID:EIG2:scan3.BSPV 
+18ID:EIG2:scan3.BSCD 1
+18ID:EIG2:scan3.BSWAIT 0
+18ID:EIG2:scan3.ASPV 
+18ID:EIG2:scan3.ASCD 1
+18ID:EIG2:scan3.ASWAIT 0
+18ID:EIG2:scan3.T1PV 18ID:EIG2:scan2.EXSC
+18ID:EIG2:scan3.T1CD 1
+18ID:EIG2:scan3.T2PV 
+18ID:EIG2:scan3.T2CD 1
+18ID:EIG2:scan3.T3PV 
+18ID:EIG2:scan3.T3CD 1
+18ID:EIG2:scan3.T4PV 
+18ID:EIG2:scan3.T4CD 1
+18ID:EIG2:scan3.P1PV 
+18ID:EIG2:scan3.R1PV 
+18ID:EIG2:scan3.P1SM 0
+18ID:EIG2:scan3.P1SP 0
+18ID:EIG2:scan3.P1EP 0
+18ID:EIG2:scan3.P1AR 0
+18ID:EIG2:scan3.P2PV 
+18ID:EIG2:scan3.R2PV 
+18ID:EIG2:scan3.P2SM 0
+18ID:EIG2:scan3.P2SP 0
+18ID:EIG2:scan3.P2EP 0
+18ID:EIG2:scan3.P2AR 0
+18ID:EIG2:scan3.P3PV 
+18ID:EIG2:scan3.R3PV 
+18ID:EIG2:scan3.P3SM 0
+18ID:EIG2:scan3.P3SP 0
+18ID:EIG2:scan3.P3EP 0
+18ID:EIG2:scan3.P3AR 0
+18ID:EIG2:scan3.P4PV 
+18ID:EIG2:scan3.R4PV 
+18ID:EIG2:scan3.P4SM 0
+18ID:EIG2:scan3.P4SP 0
+18ID:EIG2:scan3.P4EP 0
+18ID:EIG2:scan3.P4AR 0
+18ID:EIG2:scan3.PDLY 0
+18ID:EIG2:scan3.DDLY 0
+18ID:EIG2:scan3.REFD 1
+18ID:EIG2:scan3.AWCT 0
+18ID:EIG2:scan3.A1PV 
+18ID:EIG2:scan3.A1CD 1
+18ID:EIG2:scan3.D01PV 
+18ID:EIG2:scan3.D02PV 
+18ID:EIG2:scan3.D03PV 
+18ID:EIG2:scan3.D04PV 
+18ID:EIG2:scan3.D05PV 
+18ID:EIG2:scan3.D06PV 
+18ID:EIG2:scan3.D07PV 
+18ID:EIG2:scan3.D08PV 
+18ID:EIG2:scan3.D09PV 
+18ID:EIG2:scan3.D10PV 
+18ID:EIG2:scan3.D11PV 
+18ID:EIG2:scan3.D12PV 
+18ID:EIG2:scan3.D13PV 
+18ID:EIG2:scan3.D14PV 
+18ID:EIG2:scan3.D15PV 
+18ID:EIG2:scan3.D16PV 
+18ID:EIG2:scan3.D17PV 
+18ID:EIG2:scan3.D18PV 
+18ID:EIG2:scan3.D19PV 
+18ID:EIG2:scan3.D20PV 
+18ID:EIG2:scan3.D21PV 
+18ID:EIG2:scan3.D22PV 
+18ID:EIG2:scan3.D23PV 
+18ID:EIG2:scan3.D24PV 
+18ID:EIG2:scan3.D25PV 
+18ID:EIG2:scan3.D26PV 
+18ID:EIG2:scan3.D27PV 
+18ID:EIG2:scan3.D28PV 
+18ID:EIG2:scan3.D29PV 
+18ID:EIG2:scan3.D30PV 
+18ID:EIG2:scan3.D31PV 
+18ID:EIG2:scan3.D32PV 
+18ID:EIG2:scan3.D33PV 
+18ID:EIG2:scan3.D34PV 
+18ID:EIG2:scan3.D35PV 
+18ID:EIG2:scan3.D36PV 
+18ID:EIG2:scan3.D37PV 
+18ID:EIG2:scan3.D38PV 
+18ID:EIG2:scan3.D39PV 
+18ID:EIG2:scan3.D40PV 
+18ID:EIG2:scan3.D41PV 
+18ID:EIG2:scan3.D42PV 
+18ID:EIG2:scan3.D43PV 
+18ID:EIG2:scan3.D44PV 
+18ID:EIG2:scan3.D45PV 
+18ID:EIG2:scan3.D46PV 
+18ID:EIG2:scan3.D47PV 
+18ID:EIG2:scan3.D48PV 
+18ID:EIG2:scan3.D49PV 
+18ID:EIG2:scan3.D50PV 
+18ID:EIG2:scan3.D51PV 
+18ID:EIG2:scan3.D52PV 
+18ID:EIG2:scan3.D53PV 
+18ID:EIG2:scan3.D54PV 
+18ID:EIG2:scan3.D55PV 
+18ID:EIG2:scan3.D56PV 
+18ID:EIG2:scan3.D57PV 
+18ID:EIG2:scan3.D58PV 
+18ID:EIG2:scan3.D59PV 
+18ID:EIG2:scan3.D60PV 
+18ID:EIG2:scan3.D61PV 
+18ID:EIG2:scan3.D62PV 
+18ID:EIG2:scan3.D63PV 
+18ID:EIG2:scan3.D64PV 
+18ID:EIG2:scan3.D65PV 
+18ID:EIG2:scan3.D66PV 
+18ID:EIG2:scan3.D67PV 
+18ID:EIG2:scan3.D68PV 
+18ID:EIG2:scan3.D69PV 
+18ID:EIG2:scan3.D70PV 
+18ID:EIG2:scan4.ATIME 0
+18ID:EIG2:scan4.COPYTO 0
+18ID:EIG2:scan4.AAWAIT 0
+18ID:EIG2:scan4.FLNK 
+18ID:EIG2:scan4.NPTS 10
+18ID:EIG2:scan4.ACQT 0
+18ID:EIG2:scan4.ACQM 0
+18ID:EIG2:scan4.PASM 0
+18ID:EIG2:scan4.BSPV 
+18ID:EIG2:scan4.BSCD 1
+18ID:EIG2:scan4.BSWAIT 0
+18ID:EIG2:scan4.ASPV 
+18ID:EIG2:scan4.ASCD 1
+18ID:EIG2:scan4.ASWAIT 0
+18ID:EIG2:scan4.T1PV 18ID:EIG2:scan3.EXSC
+18ID:EIG2:scan4.T1CD 1
+18ID:EIG2:scan4.T2PV 
+18ID:EIG2:scan4.T2CD 1
+18ID:EIG2:scan4.T3PV 
+18ID:EIG2:scan4.T3CD 1
+18ID:EIG2:scan4.T4PV 
+18ID:EIG2:scan4.T4CD 1
+18ID:EIG2:scan4.P1PV 
+18ID:EIG2:scan4.R1PV 
+18ID:EIG2:scan4.P1SM 0
+18ID:EIG2:scan4.P1SP 0
+18ID:EIG2:scan4.P1EP 0
+18ID:EIG2:scan4.P1AR 0
+18ID:EIG2:scan4.P2PV 
+18ID:EIG2:scan4.R2PV 
+18ID:EIG2:scan4.P2SM 0
+18ID:EIG2:scan4.P2SP 0
+18ID:EIG2:scan4.P2EP 0
+18ID:EIG2:scan4.P2AR 0
+18ID:EIG2:scan4.P3PV 
+18ID:EIG2:scan4.R3PV 
+18ID:EIG2:scan4.P3SM 0
+18ID:EIG2:scan4.P3SP 0
+18ID:EIG2:scan4.P3EP 0
+18ID:EIG2:scan4.P3AR 0
+18ID:EIG2:scan4.P4PV 
+18ID:EIG2:scan4.R4PV 
+18ID:EIG2:scan4.P4SM 0
+18ID:EIG2:scan4.P4SP 0
+18ID:EIG2:scan4.P4EP 0
+18ID:EIG2:scan4.P4AR 0
+18ID:EIG2:scan4.PDLY 0
+18ID:EIG2:scan4.DDLY 0
+18ID:EIG2:scan4.REFD 1
+18ID:EIG2:scan4.AWCT 0
+18ID:EIG2:scan4.A1PV 
+18ID:EIG2:scan4.A1CD 1
+18ID:EIG2:scan4.D01PV 
+18ID:EIG2:scan4.D02PV 
+18ID:EIG2:scan4.D03PV 
+18ID:EIG2:scan4.D04PV 
+18ID:EIG2:scan4.D05PV 
+18ID:EIG2:scan4.D06PV 
+18ID:EIG2:scan4.D07PV 
+18ID:EIG2:scan4.D08PV 
+18ID:EIG2:scan4.D09PV 
+18ID:EIG2:scan4.D10PV 
+18ID:EIG2:scan4.D11PV 
+18ID:EIG2:scan4.D12PV 
+18ID:EIG2:scan4.D13PV 
+18ID:EIG2:scan4.D14PV 
+18ID:EIG2:scan4.D15PV 
+18ID:EIG2:scan4.D16PV 
+18ID:EIG2:scan4.D17PV 
+18ID:EIG2:scan4.D18PV 
+18ID:EIG2:scan4.D19PV 
+18ID:EIG2:scan4.D20PV 
+18ID:EIG2:scan4.D21PV 
+18ID:EIG2:scan4.D22PV 
+18ID:EIG2:scan4.D23PV 
+18ID:EIG2:scan4.D24PV 
+18ID:EIG2:scan4.D25PV 
+18ID:EIG2:scan4.D26PV 
+18ID:EIG2:scan4.D27PV 
+18ID:EIG2:scan4.D28PV 
+18ID:EIG2:scan4.D29PV 
+18ID:EIG2:scan4.D30PV 
+18ID:EIG2:scan4.D31PV 
+18ID:EIG2:scan4.D32PV 
+18ID:EIG2:scan4.D33PV 
+18ID:EIG2:scan4.D34PV 
+18ID:EIG2:scan4.D35PV 
+18ID:EIG2:scan4.D36PV 
+18ID:EIG2:scan4.D37PV 
+18ID:EIG2:scan4.D38PV 
+18ID:EIG2:scan4.D39PV 
+18ID:EIG2:scan4.D40PV 
+18ID:EIG2:scan4.D41PV 
+18ID:EIG2:scan4.D42PV 
+18ID:EIG2:scan4.D43PV 
+18ID:EIG2:scan4.D44PV 
+18ID:EIG2:scan4.D45PV 
+18ID:EIG2:scan4.D46PV 
+18ID:EIG2:scan4.D47PV 
+18ID:EIG2:scan4.D48PV 
+18ID:EIG2:scan4.D49PV 
+18ID:EIG2:scan4.D50PV 
+18ID:EIG2:scan4.D51PV 
+18ID:EIG2:scan4.D52PV 
+18ID:EIG2:scan4.D53PV 
+18ID:EIG2:scan4.D54PV 
+18ID:EIG2:scan4.D55PV 
+18ID:EIG2:scan4.D56PV 
+18ID:EIG2:scan4.D57PV 
+18ID:EIG2:scan4.D58PV 
+18ID:EIG2:scan4.D59PV 
+18ID:EIG2:scan4.D60PV 
+18ID:EIG2:scan4.D61PV 
+18ID:EIG2:scan4.D62PV 
+18ID:EIG2:scan4.D63PV 
+18ID:EIG2:scan4.D64PV 
+18ID:EIG2:scan4.D65PV 
+18ID:EIG2:scan4.D66PV 
+18ID:EIG2:scan4.D67PV 
+18ID:EIG2:scan4.D68PV 
+18ID:EIG2:scan4.D69PV 
+18ID:EIG2:scan4.D70PV 
+18ID:EIG2:scanH.ATIME 0
+18ID:EIG2:scanH.COPYTO 0
+18ID:EIG2:scanH.AAWAIT 0
+18ID:EIG2:scanH.FLNK 
+18ID:EIG2:scanH.NPTS 10
+18ID:EIG2:scanH.ACQT 1
+18ID:EIG2:scanH.ACQM 0
+18ID:EIG2:scanH.PASM 0
+18ID:EIG2:scanH.BSPV 
+18ID:EIG2:scanH.BSCD 1
+18ID:EIG2:scanH.BSWAIT 0
+18ID:EIG2:scanH.ASPV 
+18ID:EIG2:scanH.ASCD 1
+18ID:EIG2:scanH.ASWAIT 0
+18ID:EIG2:scanH.T1PV 
+18ID:EIG2:scanH.T1CD 1
+18ID:EIG2:scanH.T2PV 
+18ID:EIG2:scanH.T2CD 1
+18ID:EIG2:scanH.T3PV 
+18ID:EIG2:scanH.T3CD 1
+18ID:EIG2:scanH.T4PV 
+18ID:EIG2:scanH.T4CD 1
+18ID:EIG2:scanH.P1PV 
+18ID:EIG2:scanH.R1PV 
+18ID:EIG2:scanH.P1SM 0
+18ID:EIG2:scanH.P1SP 0
+18ID:EIG2:scanH.P1EP 0
+18ID:EIG2:scanH.P1AR 0
+18ID:EIG2:scanH.P2PV 
+18ID:EIG2:scanH.R2PV 
+18ID:EIG2:scanH.P2SM 0
+18ID:EIG2:scanH.P2SP 0
+18ID:EIG2:scanH.P2EP 0
+18ID:EIG2:scanH.P2AR 0
+18ID:EIG2:scanH.P3PV 
+18ID:EIG2:scanH.R3PV 
+18ID:EIG2:scanH.P3SM 0
+18ID:EIG2:scanH.P3SP 0
+18ID:EIG2:scanH.P3EP 0
+18ID:EIG2:scanH.P3AR 0
+18ID:EIG2:scanH.P4PV 
+18ID:EIG2:scanH.R4PV 
+18ID:EIG2:scanH.P4SM 0
+18ID:EIG2:scanH.P4SP 0
+18ID:EIG2:scanH.P4EP 0
+18ID:EIG2:scanH.P4AR 0
+18ID:EIG2:scanH.PDLY 0
+18ID:EIG2:scanH.DDLY 0
+18ID:EIG2:scanH.REFD 1
+18ID:EIG2:scanH.AWCT 0
+18ID:EIG2:scanH.A1PV 
+18ID:EIG2:scanH.A1CD 1
+18ID:EIG2:scanH.D01PV 
+18ID:EIG2:scanH.D02PV 
+18ID:EIG2:scanH.D03PV 
+18ID:EIG2:scanH.D04PV 
+18ID:EIG2:scanH.D05PV 
+18ID:EIG2:scanH.D06PV 
+18ID:EIG2:scanH.D07PV 
+18ID:EIG2:scanH.D08PV 
+18ID:EIG2:scanH.D09PV 
+18ID:EIG2:scanH.D10PV 
+18ID:EIG2:scanH.D11PV 
+18ID:EIG2:scanH.D12PV 
+18ID:EIG2:scanH.D13PV 
+18ID:EIG2:scanH.D14PV 
+18ID:EIG2:scanH.D15PV 
+18ID:EIG2:scanH.D16PV 
+18ID:EIG2:scanH.D17PV 
+18ID:EIG2:scanH.D18PV 
+18ID:EIG2:scanH.D19PV 
+18ID:EIG2:scanH.D20PV 
+18ID:EIG2:scanH.D21PV 
+18ID:EIG2:scanH.D22PV 
+18ID:EIG2:scanH.D23PV 
+18ID:EIG2:scanH.D24PV 
+18ID:EIG2:scanH.D25PV 
+18ID:EIG2:scanH.D26PV 
+18ID:EIG2:scanH.D27PV 
+18ID:EIG2:scanH.D28PV 
+18ID:EIG2:scanH.D29PV 
+18ID:EIG2:scanH.D30PV 
+18ID:EIG2:scanH.D31PV 
+18ID:EIG2:scanH.D32PV 
+18ID:EIG2:scanH.D33PV 
+18ID:EIG2:scanH.D34PV 
+18ID:EIG2:scanH.D35PV 
+18ID:EIG2:scanH.D36PV 
+18ID:EIG2:scanH.D37PV 
+18ID:EIG2:scanH.D38PV 
+18ID:EIG2:scanH.D39PV 
+18ID:EIG2:scanH.D40PV 
+18ID:EIG2:scanH.D41PV 
+18ID:EIG2:scanH.D42PV 
+18ID:EIG2:scanH.D43PV 
+18ID:EIG2:scanH.D44PV 
+18ID:EIG2:scanH.D45PV 
+18ID:EIG2:scanH.D46PV 
+18ID:EIG2:scanH.D47PV 
+18ID:EIG2:scanH.D48PV 
+18ID:EIG2:scanH.D49PV 
+18ID:EIG2:scanH.D50PV 
+18ID:EIG2:scanH.D51PV 
+18ID:EIG2:scanH.D52PV 
+18ID:EIG2:scanH.D53PV 
+18ID:EIG2:scanH.D54PV 
+18ID:EIG2:scanH.D55PV 
+18ID:EIG2:scanH.D56PV 
+18ID:EIG2:scanH.D57PV 
+18ID:EIG2:scanH.D58PV 
+18ID:EIG2:scanH.D59PV 
+18ID:EIG2:scanH.D60PV 
+18ID:EIG2:scanH.D61PV 
+18ID:EIG2:scanH.D62PV 
+18ID:EIG2:scanH.D63PV 
+18ID:EIG2:scanH.D64PV 
+18ID:EIG2:scanH.D65PV 
+18ID:EIG2:scanH.D66PV 
+18ID:EIG2:scanH.D67PV 
+18ID:EIG2:scanH.D68PV 
+18ID:EIG2:scanH.D69PV 
+18ID:EIG2:scanH.D70PV 
+18ID:EIG2:scan1.ATIME 0
+18ID:EIG2:scan1.COPYTO 0
+18ID:EIG2:scan1.AAWAIT 0
+18ID:EIG2:scan1.FLNK 
+18ID:EIG2:scan1.NPTS 10
+18ID:EIG2:scan1.ACQT 0
+18ID:EIG2:scan1.ACQM 0
+18ID:EIG2:scan1.PASM 0
+18ID:EIG2:scan1.BSPV 
+18ID:EIG2:scan1.BSCD 1
+18ID:EIG2:scan1.BSWAIT 0
+18ID:EIG2:scan1.ASPV 
+18ID:EIG2:scan1.ASCD 1
+18ID:EIG2:scan1.ASWAIT 0
+18ID:EIG2:scan1.T1PV 
+18ID:EIG2:scan1.T1CD 1
+18ID:EIG2:scan1.T2PV 
+18ID:EIG2:scan1.T2CD 1
+18ID:EIG2:scan1.T3PV 
+18ID:EIG2:scan1.T3CD 1
+18ID:EIG2:scan1.T4PV 
+18ID:EIG2:scan1.T4CD 1
+18ID:EIG2:scan1.P1PV 
+18ID:EIG2:scan1.R1PV 
+18ID:EIG2:scan1.P1SM 0
+18ID:EIG2:scan1.P1SP 0
+18ID:EIG2:scan1.P1EP 0
+18ID:EIG2:scan1.P1AR 0
+18ID:EIG2:scan1.P2PV 
+18ID:EIG2:scan1.R2PV 
+18ID:EIG2:scan1.P2SM 0
+18ID:EIG2:scan1.P2SP 0
+18ID:EIG2:scan1.P2EP 0
+18ID:EIG2:scan1.P2AR 0
+18ID:EIG2:scan1.P3PV 
+18ID:EIG2:scan1.R3PV 
+18ID:EIG2:scan1.P3SM 0
+18ID:EIG2:scan1.P3SP 0
+18ID:EIG2:scan1.P3EP 0
+18ID:EIG2:scan1.P3AR 0
+18ID:EIG2:scan1.P4PV 
+18ID:EIG2:scan1.R4PV 
+18ID:EIG2:scan1.P4SM 0
+18ID:EIG2:scan1.P4SP 0
+18ID:EIG2:scan1.P4EP 0
+18ID:EIG2:scan1.P4AR 0
+18ID:EIG2:scan1.PDLY 0
+18ID:EIG2:scan1.DDLY 0
+18ID:EIG2:scan1.REFD 1
+18ID:EIG2:scan1.AWCT 0
+18ID:EIG2:scan1.A1PV 
+18ID:EIG2:scan1.A1CD 1
+18ID:EIG2:scan1.D01PV 
+18ID:EIG2:scan1.D02PV 
+18ID:EIG2:scan1.D03PV 
+18ID:EIG2:scan1.D04PV 
+18ID:EIG2:scan1.D05PV 
+18ID:EIG2:scan1.D06PV 
+18ID:EIG2:scan1.D07PV 
+18ID:EIG2:scan1.D08PV 
+18ID:EIG2:scan1.D09PV 
+18ID:EIG2:scan1.D10PV 
+18ID:EIG2:scan1.D11PV 
+18ID:EIG2:scan1.D12PV 
+18ID:EIG2:scan1.D13PV 
+18ID:EIG2:scan1.D14PV 
+18ID:EIG2:scan1.D15PV 
+18ID:EIG2:scan1.D16PV 
+18ID:EIG2:scan1.D17PV 
+18ID:EIG2:scan1.D18PV 
+18ID:EIG2:scan1.D19PV 
+18ID:EIG2:scan1.D20PV 
+18ID:EIG2:scan1.D21PV 
+18ID:EIG2:scan1.D22PV 
+18ID:EIG2:scan1.D23PV 
+18ID:EIG2:scan1.D24PV 
+18ID:EIG2:scan1.D25PV 
+18ID:EIG2:scan1.D26PV 
+18ID:EIG2:scan1.D27PV 
+18ID:EIG2:scan1.D28PV 
+18ID:EIG2:scan1.D29PV 
+18ID:EIG2:scan1.D30PV 
+18ID:EIG2:scan1.D31PV 
+18ID:EIG2:scan1.D32PV 
+18ID:EIG2:scan1.D33PV 
+18ID:EIG2:scan1.D34PV 
+18ID:EIG2:scan1.D35PV 
+18ID:EIG2:scan1.D36PV 
+18ID:EIG2:scan1.D37PV 
+18ID:EIG2:scan1.D38PV 
+18ID:EIG2:scan1.D39PV 
+18ID:EIG2:scan1.D40PV 
+18ID:EIG2:scan1.D41PV 
+18ID:EIG2:scan1.D42PV 
+18ID:EIG2:scan1.D43PV 
+18ID:EIG2:scan1.D44PV 
+18ID:EIG2:scan1.D45PV 
+18ID:EIG2:scan1.D46PV 
+18ID:EIG2:scan1.D47PV 
+18ID:EIG2:scan1.D48PV 
+18ID:EIG2:scan1.D49PV 
+18ID:EIG2:scan1.D50PV 
+18ID:EIG2:scan1.D51PV 
+18ID:EIG2:scan1.D52PV 
+18ID:EIG2:scan1.D53PV 
+18ID:EIG2:scan1.D54PV 
+18ID:EIG2:scan1.D55PV 
+18ID:EIG2:scan1.D56PV 
+18ID:EIG2:scan1.D57PV 
+18ID:EIG2:scan1.D58PV 
+18ID:EIG2:scan1.D59PV 
+18ID:EIG2:scan1.D60PV 
+18ID:EIG2:scan1.D61PV 
+18ID:EIG2:scan1.D62PV 
+18ID:EIG2:scan1.D63PV 
+18ID:EIG2:scan1.D64PV 
+18ID:EIG2:scan1.D65PV 
+18ID:EIG2:scan1.D66PV 
+18ID:EIG2:scan1.D67PV 
+18ID:EIG2:scan1.D68PV 
+18ID:EIG2:scan1.D69PV 
+18ID:EIG2:scan1.D70PV 
+18ID:EIG2:scan2.ATIME 0
+18ID:EIG2:scan2.COPYTO 0
+18ID:EIG2:scan2.AAWAIT 0
+18ID:EIG2:scan2.FLNK 
+18ID:EIG2:scan2.NPTS 10
+18ID:EIG2:scan2.ACQT 0
+18ID:EIG2:scan2.ACQM 0
+18ID:EIG2:scan2.PASM 0
+18ID:EIG2:scan2.BSPV 
+18ID:EIG2:scan2.BSCD 1
+18ID:EIG2:scan2.BSWAIT 0
+18ID:EIG2:scan2.ASPV 
+18ID:EIG2:scan2.ASCD 1
+18ID:EIG2:scan2.ASWAIT 0
+18ID:EIG2:scan2.T1PV 18ID:EIG2:scan1.EXSC
+18ID:EIG2:scan2.T1CD 1
+18ID:EIG2:scan2.T2PV 
+18ID:EIG2:scan2.T2CD 1
+18ID:EIG2:scan2.T3PV 
+18ID:EIG2:scan2.T3CD 1
+18ID:EIG2:scan2.T4PV 
+18ID:EIG2:scan2.T4CD 1
+18ID:EIG2:scan2.P1PV 
+18ID:EIG2:scan2.R1PV 
+18ID:EIG2:scan2.P1SM 0
+18ID:EIG2:scan2.P1SP 0
+18ID:EIG2:scan2.P1EP 0
+18ID:EIG2:scan2.P1AR 0
+18ID:EIG2:scan2.P2PV 
+18ID:EIG2:scan2.R2PV 
+18ID:EIG2:scan2.P2SM 0
+18ID:EIG2:scan2.P2SP 0
+18ID:EIG2:scan2.P2EP 0
+18ID:EIG2:scan2.P2AR 0
+18ID:EIG2:scan2.P3PV 
+18ID:EIG2:scan2.R3PV 
+18ID:EIG2:scan2.P3SM 0
+18ID:EIG2:scan2.P3SP 0
+18ID:EIG2:scan2.P3EP 0
+18ID:EIG2:scan2.P3AR 0
+18ID:EIG2:scan2.P4PV 
+18ID:EIG2:scan2.R4PV 
+18ID:EIG2:scan2.P4SM 0
+18ID:EIG2:scan2.P4SP 0
+18ID:EIG2:scan2.P4EP 0
+18ID:EIG2:scan2.P4AR 0
+18ID:EIG2:scan2.PDLY 0
+18ID:EIG2:scan2.DDLY 0
+18ID:EIG2:scan2.REFD 1
+18ID:EIG2:scan2.AWCT 0
+18ID:EIG2:scan2.A1PV 
+18ID:EIG2:scan2.A1CD 1
+18ID:EIG2:scan2.D01PV 
+18ID:EIG2:scan2.D02PV 
+18ID:EIG2:scan2.D03PV 
+18ID:EIG2:scan2.D04PV 
+18ID:EIG2:scan2.D05PV 
+18ID:EIG2:scan2.D06PV 
+18ID:EIG2:scan2.D07PV 
+18ID:EIG2:scan2.D08PV 
+18ID:EIG2:scan2.D09PV 
+18ID:EIG2:scan2.D10PV 
+18ID:EIG2:scan2.D11PV 
+18ID:EIG2:scan2.D12PV 
+18ID:EIG2:scan2.D13PV 
+18ID:EIG2:scan2.D14PV 
+18ID:EIG2:scan2.D15PV 
+18ID:EIG2:scan2.D16PV 
+18ID:EIG2:scan2.D17PV 
+18ID:EIG2:scan2.D18PV 
+18ID:EIG2:scan2.D19PV 
+18ID:EIG2:scan2.D20PV 
+18ID:EIG2:scan2.D21PV 
+18ID:EIG2:scan2.D22PV 
+18ID:EIG2:scan2.D23PV 
+18ID:EIG2:scan2.D24PV 
+18ID:EIG2:scan2.D25PV 
+18ID:EIG2:scan2.D26PV 
+18ID:EIG2:scan2.D27PV 
+18ID:EIG2:scan2.D28PV 
+18ID:EIG2:scan2.D29PV 
+18ID:EIG2:scan2.D30PV 
+18ID:EIG2:scan2.D31PV 
+18ID:EIG2:scan2.D32PV 
+18ID:EIG2:scan2.D33PV 
+18ID:EIG2:scan2.D34PV 
+18ID:EIG2:scan2.D35PV 
+18ID:EIG2:scan2.D36PV 
+18ID:EIG2:scan2.D37PV 
+18ID:EIG2:scan2.D38PV 
+18ID:EIG2:scan2.D39PV 
+18ID:EIG2:scan2.D40PV 
+18ID:EIG2:scan2.D41PV 
+18ID:EIG2:scan2.D42PV 
+18ID:EIG2:scan2.D43PV 
+18ID:EIG2:scan2.D44PV 
+18ID:EIG2:scan2.D45PV 
+18ID:EIG2:scan2.D46PV 
+18ID:EIG2:scan2.D47PV 
+18ID:EIG2:scan2.D48PV 
+18ID:EIG2:scan2.D49PV 
+18ID:EIG2:scan2.D50PV 
+18ID:EIG2:scan2.D51PV 
+18ID:EIG2:scan2.D52PV 
+18ID:EIG2:scan2.D53PV 
+18ID:EIG2:scan2.D54PV 
+18ID:EIG2:scan2.D55PV 
+18ID:EIG2:scan2.D56PV 
+18ID:EIG2:scan2.D57PV 
+18ID:EIG2:scan2.D58PV 
+18ID:EIG2:scan2.D59PV 
+18ID:EIG2:scan2.D60PV 
+18ID:EIG2:scan2.D61PV 
+18ID:EIG2:scan2.D62PV 
+18ID:EIG2:scan2.D63PV 
+18ID:EIG2:scan2.D64PV 
+18ID:EIG2:scan2.D65PV 
+18ID:EIG2:scan2.D66PV 
+18ID:EIG2:scan2.D67PV 
+18ID:EIG2:scan2.D68PV 
+18ID:EIG2:scan2.D69PV 
+18ID:EIG2:scan2.D70PV 
+18ID:EIG2:scan3.ATIME 0
+18ID:EIG2:scan3.COPYTO 0
+18ID:EIG2:scan3.AAWAIT 0
+18ID:EIG2:scan3.FLNK 
+18ID:EIG2:scan3.NPTS 10
+18ID:EIG2:scan3.ACQT 0
+18ID:EIG2:scan3.ACQM 0
+18ID:EIG2:scan3.PASM 0
+18ID:EIG2:scan3.BSPV 
+18ID:EIG2:scan3.BSCD 1
+18ID:EIG2:scan3.BSWAIT 0
+18ID:EIG2:scan3.ASPV 
+18ID:EIG2:scan3.ASCD 1
+18ID:EIG2:scan3.ASWAIT 0
+18ID:EIG2:scan3.T1PV 18ID:EIG2:scan2.EXSC
+18ID:EIG2:scan3.T1CD 1
+18ID:EIG2:scan3.T2PV 
+18ID:EIG2:scan3.T2CD 1
+18ID:EIG2:scan3.T3PV 
+18ID:EIG2:scan3.T3CD 1
+18ID:EIG2:scan3.T4PV 
+18ID:EIG2:scan3.T4CD 1
+18ID:EIG2:scan3.P1PV 
+18ID:EIG2:scan3.R1PV 
+18ID:EIG2:scan3.P1SM 0
+18ID:EIG2:scan3.P1SP 0
+18ID:EIG2:scan3.P1EP 0
+18ID:EIG2:scan3.P1AR 0
+18ID:EIG2:scan3.P2PV 
+18ID:EIG2:scan3.R2PV 
+18ID:EIG2:scan3.P2SM 0
+18ID:EIG2:scan3.P2SP 0
+18ID:EIG2:scan3.P2EP 0
+18ID:EIG2:scan3.P2AR 0
+18ID:EIG2:scan3.P3PV 
+18ID:EIG2:scan3.R3PV 
+18ID:EIG2:scan3.P3SM 0
+18ID:EIG2:scan3.P3SP 0
+18ID:EIG2:scan3.P3EP 0
+18ID:EIG2:scan3.P3AR 0
+18ID:EIG2:scan3.P4PV 
+18ID:EIG2:scan3.R4PV 
+18ID:EIG2:scan3.P4SM 0
+18ID:EIG2:scan3.P4SP 0
+18ID:EIG2:scan3.P4EP 0
+18ID:EIG2:scan3.P4AR 0
+18ID:EIG2:scan3.PDLY 0
+18ID:EIG2:scan3.DDLY 0
+18ID:EIG2:scan3.REFD 1
+18ID:EIG2:scan3.AWCT 0
+18ID:EIG2:scan3.A1PV 
+18ID:EIG2:scan3.A1CD 1
+18ID:EIG2:scan3.D01PV 
+18ID:EIG2:scan3.D02PV 
+18ID:EIG2:scan3.D03PV 
+18ID:EIG2:scan3.D04PV 
+18ID:EIG2:scan3.D05PV 
+18ID:EIG2:scan3.D06PV 
+18ID:EIG2:scan3.D07PV 
+18ID:EIG2:scan3.D08PV 
+18ID:EIG2:scan3.D09PV 
+18ID:EIG2:scan3.D10PV 
+18ID:EIG2:scan3.D11PV 
+18ID:EIG2:scan3.D12PV 
+18ID:EIG2:scan3.D13PV 
+18ID:EIG2:scan3.D14PV 
+18ID:EIG2:scan3.D15PV 
+18ID:EIG2:scan3.D16PV 
+18ID:EIG2:scan3.D17PV 
+18ID:EIG2:scan3.D18PV 
+18ID:EIG2:scan3.D19PV 
+18ID:EIG2:scan3.D20PV 
+18ID:EIG2:scan3.D21PV 
+18ID:EIG2:scan3.D22PV 
+18ID:EIG2:scan3.D23PV 
+18ID:EIG2:scan3.D24PV 
+18ID:EIG2:scan3.D25PV 
+18ID:EIG2:scan3.D26PV 
+18ID:EIG2:scan3.D27PV 
+18ID:EIG2:scan3.D28PV 
+18ID:EIG2:scan3.D29PV 
+18ID:EIG2:scan3.D30PV 
+18ID:EIG2:scan3.D31PV 
+18ID:EIG2:scan3.D32PV 
+18ID:EIG2:scan3.D33PV 
+18ID:EIG2:scan3.D34PV 
+18ID:EIG2:scan3.D35PV 
+18ID:EIG2:scan3.D36PV 
+18ID:EIG2:scan3.D37PV 
+18ID:EIG2:scan3.D38PV 
+18ID:EIG2:scan3.D39PV 
+18ID:EIG2:scan3.D40PV 
+18ID:EIG2:scan3.D41PV 
+18ID:EIG2:scan3.D42PV 
+18ID:EIG2:scan3.D43PV 
+18ID:EIG2:scan3.D44PV 
+18ID:EIG2:scan3.D45PV 
+18ID:EIG2:scan3.D46PV 
+18ID:EIG2:scan3.D47PV 
+18ID:EIG2:scan3.D48PV 
+18ID:EIG2:scan3.D49PV 
+18ID:EIG2:scan3.D50PV 
+18ID:EIG2:scan3.D51PV 
+18ID:EIG2:scan3.D52PV 
+18ID:EIG2:scan3.D53PV 
+18ID:EIG2:scan3.D54PV 
+18ID:EIG2:scan3.D55PV 
+18ID:EIG2:scan3.D56PV 
+18ID:EIG2:scan3.D57PV 
+18ID:EIG2:scan3.D58PV 
+18ID:EIG2:scan3.D59PV 
+18ID:EIG2:scan3.D60PV 
+18ID:EIG2:scan3.D61PV 
+18ID:EIG2:scan3.D62PV 
+18ID:EIG2:scan3.D63PV 
+18ID:EIG2:scan3.D64PV 
+18ID:EIG2:scan3.D65PV 
+18ID:EIG2:scan3.D66PV 
+18ID:EIG2:scan3.D67PV 
+18ID:EIG2:scan3.D68PV 
+18ID:EIG2:scan3.D69PV 
+18ID:EIG2:scan3.D70PV 
+18ID:EIG2:scan4.ATIME 0
+18ID:EIG2:scan4.COPYTO 0
+18ID:EIG2:scan4.AAWAIT 0
+18ID:EIG2:scan4.FLNK 
+18ID:EIG2:scan4.NPTS 10
+18ID:EIG2:scan4.ACQT 0
+18ID:EIG2:scan4.ACQM 0
+18ID:EIG2:scan4.PASM 0
+18ID:EIG2:scan4.BSPV 
+18ID:EIG2:scan4.BSCD 1
+18ID:EIG2:scan4.BSWAIT 0
+18ID:EIG2:scan4.ASPV 
+18ID:EIG2:scan4.ASCD 1
+18ID:EIG2:scan4.ASWAIT 0
+18ID:EIG2:scan4.T1PV 18ID:EIG2:scan3.EXSC
+18ID:EIG2:scan4.T1CD 1
+18ID:EIG2:scan4.T2PV 
+18ID:EIG2:scan4.T2CD 1
+18ID:EIG2:scan4.T3PV 
+18ID:EIG2:scan4.T3CD 1
+18ID:EIG2:scan4.T4PV 
+18ID:EIG2:scan4.T4CD 1
+18ID:EIG2:scan4.P1PV 
+18ID:EIG2:scan4.R1PV 
+18ID:EIG2:scan4.P1SM 0
+18ID:EIG2:scan4.P1SP 0
+18ID:EIG2:scan4.P1EP 0
+18ID:EIG2:scan4.P1AR 0
+18ID:EIG2:scan4.P2PV 
+18ID:EIG2:scan4.R2PV 
+18ID:EIG2:scan4.P2SM 0
+18ID:EIG2:scan4.P2SP 0
+18ID:EIG2:scan4.P2EP 0
+18ID:EIG2:scan4.P2AR 0
+18ID:EIG2:scan4.P3PV 
+18ID:EIG2:scan4.R3PV 
+18ID:EIG2:scan4.P3SM 0
+18ID:EIG2:scan4.P3SP 0
+18ID:EIG2:scan4.P3EP 0
+18ID:EIG2:scan4.P3AR 0
+18ID:EIG2:scan4.P4PV 
+18ID:EIG2:scan4.R4PV 
+18ID:EIG2:scan4.P4SM 0
+18ID:EIG2:scan4.P4SP 0
+18ID:EIG2:scan4.P4EP 0
+18ID:EIG2:scan4.P4AR 0
+18ID:EIG2:scan4.PDLY 0
+18ID:EIG2:scan4.DDLY 0
+18ID:EIG2:scan4.REFD 1
+18ID:EIG2:scan4.AWCT 0
+18ID:EIG2:scan4.A1PV 
+18ID:EIG2:scan4.A1CD 1
+18ID:EIG2:scan4.D01PV 
+18ID:EIG2:scan4.D02PV 
+18ID:EIG2:scan4.D03PV 
+18ID:EIG2:scan4.D04PV 
+18ID:EIG2:scan4.D05PV 
+18ID:EIG2:scan4.D06PV 
+18ID:EIG2:scan4.D07PV 
+18ID:EIG2:scan4.D08PV 
+18ID:EIG2:scan4.D09PV 
+18ID:EIG2:scan4.D10PV 
+18ID:EIG2:scan4.D11PV 
+18ID:EIG2:scan4.D12PV 
+18ID:EIG2:scan4.D13PV 
+18ID:EIG2:scan4.D14PV 
+18ID:EIG2:scan4.D15PV 
+18ID:EIG2:scan4.D16PV 
+18ID:EIG2:scan4.D17PV 
+18ID:EIG2:scan4.D18PV 
+18ID:EIG2:scan4.D19PV 
+18ID:EIG2:scan4.D20PV 
+18ID:EIG2:scan4.D21PV 
+18ID:EIG2:scan4.D22PV 
+18ID:EIG2:scan4.D23PV 
+18ID:EIG2:scan4.D24PV 
+18ID:EIG2:scan4.D25PV 
+18ID:EIG2:scan4.D26PV 
+18ID:EIG2:scan4.D27PV 
+18ID:EIG2:scan4.D28PV 
+18ID:EIG2:scan4.D29PV 
+18ID:EIG2:scan4.D30PV 
+18ID:EIG2:scan4.D31PV 
+18ID:EIG2:scan4.D32PV 
+18ID:EIG2:scan4.D33PV 
+18ID:EIG2:scan4.D34PV 
+18ID:EIG2:scan4.D35PV 
+18ID:EIG2:scan4.D36PV 
+18ID:EIG2:scan4.D37PV 
+18ID:EIG2:scan4.D38PV 
+18ID:EIG2:scan4.D39PV 
+18ID:EIG2:scan4.D40PV 
+18ID:EIG2:scan4.D41PV 
+18ID:EIG2:scan4.D42PV 
+18ID:EIG2:scan4.D43PV 
+18ID:EIG2:scan4.D44PV 
+18ID:EIG2:scan4.D45PV 
+18ID:EIG2:scan4.D46PV 
+18ID:EIG2:scan4.D47PV 
+18ID:EIG2:scan4.D48PV 
+18ID:EIG2:scan4.D49PV 
+18ID:EIG2:scan4.D50PV 
+18ID:EIG2:scan4.D51PV 
+18ID:EIG2:scan4.D52PV 
+18ID:EIG2:scan4.D53PV 
+18ID:EIG2:scan4.D54PV 
+18ID:EIG2:scan4.D55PV 
+18ID:EIG2:scan4.D56PV 
+18ID:EIG2:scan4.D57PV 
+18ID:EIG2:scan4.D58PV 
+18ID:EIG2:scan4.D59PV 
+18ID:EIG2:scan4.D60PV 
+18ID:EIG2:scan4.D61PV 
+18ID:EIG2:scan4.D62PV 
+18ID:EIG2:scan4.D63PV 
+18ID:EIG2:scan4.D64PV 
+18ID:EIG2:scan4.D65PV 
+18ID:EIG2:scan4.D66PV 
+18ID:EIG2:scan4.D67PV 
+18ID:EIG2:scan4.D68PV 
+18ID:EIG2:scan4.D69PV 
+18ID:EIG2:scan4.D70PV 
+18ID:EIG2:scanH.ATIME 0
+18ID:EIG2:scanH.COPYTO 0
+18ID:EIG2:scanH.AAWAIT 0
+18ID:EIG2:scanH.FLNK 
+18ID:EIG2:scanH.NPTS 10
+18ID:EIG2:scanH.ACQT 1
+18ID:EIG2:scanH.ACQM 0
+18ID:EIG2:scanH.PASM 0
+18ID:EIG2:scanH.BSPV 
+18ID:EIG2:scanH.BSCD 1
+18ID:EIG2:scanH.BSWAIT 0
+18ID:EIG2:scanH.ASPV 
+18ID:EIG2:scanH.ASCD 1
+18ID:EIG2:scanH.ASWAIT 0
+18ID:EIG2:scanH.T1PV 
+18ID:EIG2:scanH.T1CD 1
+18ID:EIG2:scanH.T2PV 
+18ID:EIG2:scanH.T2CD 1
+18ID:EIG2:scanH.T3PV 
+18ID:EIG2:scanH.T3CD 1
+18ID:EIG2:scanH.T4PV 
+18ID:EIG2:scanH.T4CD 1
+18ID:EIG2:scanH.P1PV 
+18ID:EIG2:scanH.R1PV 
+18ID:EIG2:scanH.P1SM 0
+18ID:EIG2:scanH.P1SP 0
+18ID:EIG2:scanH.P1EP 0
+18ID:EIG2:scanH.P1AR 0
+18ID:EIG2:scanH.P2PV 
+18ID:EIG2:scanH.R2PV 
+18ID:EIG2:scanH.P2SM 0
+18ID:EIG2:scanH.P2SP 0
+18ID:EIG2:scanH.P2EP 0
+18ID:EIG2:scanH.P2AR 0
+18ID:EIG2:scanH.P3PV 
+18ID:EIG2:scanH.R3PV 
+18ID:EIG2:scanH.P3SM 0
+18ID:EIG2:scanH.P3SP 0
+18ID:EIG2:scanH.P3EP 0
+18ID:EIG2:scanH.P3AR 0
+18ID:EIG2:scanH.P4PV 
+18ID:EIG2:scanH.R4PV 
+18ID:EIG2:scanH.P4SM 0
+18ID:EIG2:scanH.P4SP 0
+18ID:EIG2:scanH.P4EP 0
+18ID:EIG2:scanH.P4AR 0
+18ID:EIG2:scanH.PDLY 0
+18ID:EIG2:scanH.DDLY 0
+18ID:EIG2:scanH.REFD 1
+18ID:EIG2:scanH.AWCT 0
+18ID:EIG2:scanH.A1PV 
+18ID:EIG2:scanH.A1CD 1
+18ID:EIG2:scanH.D01PV 
+18ID:EIG2:scanH.D02PV 
+18ID:EIG2:scanH.D03PV 
+18ID:EIG2:scanH.D04PV 
+18ID:EIG2:scanH.D05PV 
+18ID:EIG2:scanH.D06PV 
+18ID:EIG2:scanH.D07PV 
+18ID:EIG2:scanH.D08PV 
+18ID:EIG2:scanH.D09PV 
+18ID:EIG2:scanH.D10PV 
+18ID:EIG2:scanH.D11PV 
+18ID:EIG2:scanH.D12PV 
+18ID:EIG2:scanH.D13PV 
+18ID:EIG2:scanH.D14PV 
+18ID:EIG2:scanH.D15PV 
+18ID:EIG2:scanH.D16PV 
+18ID:EIG2:scanH.D17PV 
+18ID:EIG2:scanH.D18PV 
+18ID:EIG2:scanH.D19PV 
+18ID:EIG2:scanH.D20PV 
+18ID:EIG2:scanH.D21PV 
+18ID:EIG2:scanH.D22PV 
+18ID:EIG2:scanH.D23PV 
+18ID:EIG2:scanH.D24PV 
+18ID:EIG2:scanH.D25PV 
+18ID:EIG2:scanH.D26PV 
+18ID:EIG2:scanH.D27PV 
+18ID:EIG2:scanH.D28PV 
+18ID:EIG2:scanH.D29PV 
+18ID:EIG2:scanH.D30PV 
+18ID:EIG2:scanH.D31PV 
+18ID:EIG2:scanH.D32PV 
+18ID:EIG2:scanH.D33PV 
+18ID:EIG2:scanH.D34PV 
+18ID:EIG2:scanH.D35PV 
+18ID:EIG2:scanH.D36PV 
+18ID:EIG2:scanH.D37PV 
+18ID:EIG2:scanH.D38PV 
+18ID:EIG2:scanH.D39PV 
+18ID:EIG2:scanH.D40PV 
+18ID:EIG2:scanH.D41PV 
+18ID:EIG2:scanH.D42PV 
+18ID:EIG2:scanH.D43PV 
+18ID:EIG2:scanH.D44PV 
+18ID:EIG2:scanH.D45PV 
+18ID:EIG2:scanH.D46PV 
+18ID:EIG2:scanH.D47PV 
+18ID:EIG2:scanH.D48PV 
+18ID:EIG2:scanH.D49PV 
+18ID:EIG2:scanH.D50PV 
+18ID:EIG2:scanH.D51PV 
+18ID:EIG2:scanH.D52PV 
+18ID:EIG2:scanH.D53PV 
+18ID:EIG2:scanH.D54PV 
+18ID:EIG2:scanH.D55PV 
+18ID:EIG2:scanH.D56PV 
+18ID:EIG2:scanH.D57PV 
+18ID:EIG2:scanH.D58PV 
+18ID:EIG2:scanH.D59PV 
+18ID:EIG2:scanH.D60PV 
+18ID:EIG2:scanH.D61PV 
+18ID:EIG2:scanH.D62PV 
+18ID:EIG2:scanH.D63PV 
+18ID:EIG2:scanH.D64PV 
+18ID:EIG2:scanH.D65PV 
+18ID:EIG2:scanH.D66PV 
+18ID:EIG2:scanH.D67PV 
+18ID:EIG2:scanH.D68PV 
+18ID:EIG2:scanH.D69PV 
+18ID:EIG2:scanH.D70PV 
+18ID:EIG2:scan1.ATIME 0
+18ID:EIG2:scan1.COPYTO 0
+18ID:EIG2:scan1.AAWAIT 0
+18ID:EIG2:scan1.FLNK 
+18ID:EIG2:scan1.NPTS 10
+18ID:EIG2:scan1.ACQT 0
+18ID:EIG2:scan1.ACQM 0
+18ID:EIG2:scan1.PASM 0
+18ID:EIG2:scan1.BSPV 
+18ID:EIG2:scan1.BSCD 1
+18ID:EIG2:scan1.BSWAIT 0
+18ID:EIG2:scan1.ASPV 
+18ID:EIG2:scan1.ASCD 1
+18ID:EIG2:scan1.ASWAIT 0
+18ID:EIG2:scan1.T1PV 
+18ID:EIG2:scan1.T1CD 1
+18ID:EIG2:scan1.T2PV 
+18ID:EIG2:scan1.T2CD 1
+18ID:EIG2:scan1.T3PV 
+18ID:EIG2:scan1.T3CD 1
+18ID:EIG2:scan1.T4PV 
+18ID:EIG2:scan1.T4CD 1
+18ID:EIG2:scan1.P1PV 
+18ID:EIG2:scan1.R1PV 
+18ID:EIG2:scan1.P1SM 0
+18ID:EIG2:scan1.P1SP 0
+18ID:EIG2:scan1.P1EP 0
+18ID:EIG2:scan1.P1AR 0
+18ID:EIG2:scan1.P2PV 
+18ID:EIG2:scan1.R2PV 
+18ID:EIG2:scan1.P2SM 0
+18ID:EIG2:scan1.P2SP 0
+18ID:EIG2:scan1.P2EP 0
+18ID:EIG2:scan1.P2AR 0
+18ID:EIG2:scan1.P3PV 
+18ID:EIG2:scan1.R3PV 
+18ID:EIG2:scan1.P3SM 0
+18ID:EIG2:scan1.P3SP 0
+18ID:EIG2:scan1.P3EP 0
+18ID:EIG2:scan1.P3AR 0
+18ID:EIG2:scan1.P4PV 
+18ID:EIG2:scan1.R4PV 
+18ID:EIG2:scan1.P4SM 0
+18ID:EIG2:scan1.P4SP 0
+18ID:EIG2:scan1.P4EP 0
+18ID:EIG2:scan1.P4AR 0
+18ID:EIG2:scan1.PDLY 0
+18ID:EIG2:scan1.DDLY 0
+18ID:EIG2:scan1.REFD 1
+18ID:EIG2:scan1.AWCT 0
+18ID:EIG2:scan1.A1PV 
+18ID:EIG2:scan1.A1CD 1
+18ID:EIG2:scan1.D01PV 
+18ID:EIG2:scan1.D02PV 
+18ID:EIG2:scan1.D03PV 
+18ID:EIG2:scan1.D04PV 
+18ID:EIG2:scan1.D05PV 
+18ID:EIG2:scan1.D06PV 
+18ID:EIG2:scan1.D07PV 
+18ID:EIG2:scan1.D08PV 
+18ID:EIG2:scan1.D09PV 
+18ID:EIG2:scan1.D10PV 
+18ID:EIG2:scan1.D11PV 
+18ID:EIG2:scan1.D12PV 
+18ID:EIG2:scan1.D13PV 
+18ID:EIG2:scan1.D14PV 
+18ID:EIG2:scan1.D15PV 
+18ID:EIG2:scan1.D16PV 
+18ID:EIG2:scan1.D17PV 
+18ID:EIG2:scan1.D18PV 
+18ID:EIG2:scan1.D19PV 
+18ID:EIG2:scan1.D20PV 
+18ID:EIG2:scan1.D21PV 
+18ID:EIG2:scan1.D22PV 
+18ID:EIG2:scan1.D23PV 
+18ID:EIG2:scan1.D24PV 
+18ID:EIG2:scan1.D25PV 
+18ID:EIG2:scan1.D26PV 
+18ID:EIG2:scan1.D27PV 
+18ID:EIG2:scan1.D28PV 
+18ID:EIG2:scan1.D29PV 
+18ID:EIG2:scan1.D30PV 
+18ID:EIG2:scan1.D31PV 
+18ID:EIG2:scan1.D32PV 
+18ID:EIG2:scan1.D33PV 
+18ID:EIG2:scan1.D34PV 
+18ID:EIG2:scan1.D35PV 
+18ID:EIG2:scan1.D36PV 
+18ID:EIG2:scan1.D37PV 
+18ID:EIG2:scan1.D38PV 
+18ID:EIG2:scan1.D39PV 
+18ID:EIG2:scan1.D40PV 
+18ID:EIG2:scan1.D41PV 
+18ID:EIG2:scan1.D42PV 
+18ID:EIG2:scan1.D43PV 
+18ID:EIG2:scan1.D44PV 
+18ID:EIG2:scan1.D45PV 
+18ID:EIG2:scan1.D46PV 
+18ID:EIG2:scan1.D47PV 
+18ID:EIG2:scan1.D48PV 
+18ID:EIG2:scan1.D49PV 
+18ID:EIG2:scan1.D50PV 
+18ID:EIG2:scan1.D51PV 
+18ID:EIG2:scan1.D52PV 
+18ID:EIG2:scan1.D53PV 
+18ID:EIG2:scan1.D54PV 
+18ID:EIG2:scan1.D55PV 
+18ID:EIG2:scan1.D56PV 
+18ID:EIG2:scan1.D57PV 
+18ID:EIG2:scan1.D58PV 
+18ID:EIG2:scan1.D59PV 
+18ID:EIG2:scan1.D60PV 
+18ID:EIG2:scan1.D61PV 
+18ID:EIG2:scan1.D62PV 
+18ID:EIG2:scan1.D63PV 
+18ID:EIG2:scan1.D64PV 
+18ID:EIG2:scan1.D65PV 
+18ID:EIG2:scan1.D66PV 
+18ID:EIG2:scan1.D67PV 
+18ID:EIG2:scan1.D68PV 
+18ID:EIG2:scan1.D69PV 
+18ID:EIG2:scan1.D70PV 
+18ID:EIG2:scan2.ATIME 0
+18ID:EIG2:scan2.COPYTO 0
+18ID:EIG2:scan2.AAWAIT 0
+18ID:EIG2:scan2.FLNK 
+18ID:EIG2:scan2.NPTS 10
+18ID:EIG2:scan2.ACQT 0
+18ID:EIG2:scan2.ACQM 0
+18ID:EIG2:scan2.PASM 0
+18ID:EIG2:scan2.BSPV 
+18ID:EIG2:scan2.BSCD 1
+18ID:EIG2:scan2.BSWAIT 0
+18ID:EIG2:scan2.ASPV 
+18ID:EIG2:scan2.ASCD 1
+18ID:EIG2:scan2.ASWAIT 0
+18ID:EIG2:scan2.T1PV 18ID:EIG2:scan1.EXSC
+18ID:EIG2:scan2.T1CD 1
+18ID:EIG2:scan2.T2PV 
+18ID:EIG2:scan2.T2CD 1
+18ID:EIG2:scan2.T3PV 
+18ID:EIG2:scan2.T3CD 1
+18ID:EIG2:scan2.T4PV 
+18ID:EIG2:scan2.T4CD 1
+18ID:EIG2:scan2.P1PV 
+18ID:EIG2:scan2.R1PV 
+18ID:EIG2:scan2.P1SM 0
+18ID:EIG2:scan2.P1SP 0
+18ID:EIG2:scan2.P1EP 0
+18ID:EIG2:scan2.P1AR 0
+18ID:EIG2:scan2.P2PV 
+18ID:EIG2:scan2.R2PV 
+18ID:EIG2:scan2.P2SM 0
+18ID:EIG2:scan2.P2SP 0
+18ID:EIG2:scan2.P2EP 0
+18ID:EIG2:scan2.P2AR 0
+18ID:EIG2:scan2.P3PV 
+18ID:EIG2:scan2.R3PV 
+18ID:EIG2:scan2.P3SM 0
+18ID:EIG2:scan2.P3SP 0
+18ID:EIG2:scan2.P3EP 0
+18ID:EIG2:scan2.P3AR 0
+18ID:EIG2:scan2.P4PV 
+18ID:EIG2:scan2.R4PV 
+18ID:EIG2:scan2.P4SM 0
+18ID:EIG2:scan2.P4SP 0
+18ID:EIG2:scan2.P4EP 0
+18ID:EIG2:scan2.P4AR 0
+18ID:EIG2:scan2.PDLY 0
+18ID:EIG2:scan2.DDLY 0
+18ID:EIG2:scan2.REFD 1
+18ID:EIG2:scan2.AWCT 0
+18ID:EIG2:scan2.A1PV 
+18ID:EIG2:scan2.A1CD 1
+18ID:EIG2:scan2.D01PV 
+18ID:EIG2:scan2.D02PV 
+18ID:EIG2:scan2.D03PV 
+18ID:EIG2:scan2.D04PV 
+18ID:EIG2:scan2.D05PV 
+18ID:EIG2:scan2.D06PV 
+18ID:EIG2:scan2.D07PV 
+18ID:EIG2:scan2.D08PV 
+18ID:EIG2:scan2.D09PV 
+18ID:EIG2:scan2.D10PV 
+18ID:EIG2:scan2.D11PV 
+18ID:EIG2:scan2.D12PV 
+18ID:EIG2:scan2.D13PV 
+18ID:EIG2:scan2.D14PV 
+18ID:EIG2:scan2.D15PV 
+18ID:EIG2:scan2.D16PV 
+18ID:EIG2:scan2.D17PV 
+18ID:EIG2:scan2.D18PV 
+18ID:EIG2:scan2.D19PV 
+18ID:EIG2:scan2.D20PV 
+18ID:EIG2:scan2.D21PV 
+18ID:EIG2:scan2.D22PV 
+18ID:EIG2:scan2.D23PV 
+18ID:EIG2:scan2.D24PV 
+18ID:EIG2:scan2.D25PV 
+18ID:EIG2:scan2.D26PV 
+18ID:EIG2:scan2.D27PV 
+18ID:EIG2:scan2.D28PV 
+18ID:EIG2:scan2.D29PV 
+18ID:EIG2:scan2.D30PV 
+18ID:EIG2:scan2.D31PV 
+18ID:EIG2:scan2.D32PV 
+18ID:EIG2:scan2.D33PV 
+18ID:EIG2:scan2.D34PV 
+18ID:EIG2:scan2.D35PV 
+18ID:EIG2:scan2.D36PV 
+18ID:EIG2:scan2.D37PV 
+18ID:EIG2:scan2.D38PV 
+18ID:EIG2:scan2.D39PV 
+18ID:EIG2:scan2.D40PV 
+18ID:EIG2:scan2.D41PV 
+18ID:EIG2:scan2.D42PV 
+18ID:EIG2:scan2.D43PV 
+18ID:EIG2:scan2.D44PV 
+18ID:EIG2:scan2.D45PV 
+18ID:EIG2:scan2.D46PV 
+18ID:EIG2:scan2.D47PV 
+18ID:EIG2:scan2.D48PV 
+18ID:EIG2:scan2.D49PV 
+18ID:EIG2:scan2.D50PV 
+18ID:EIG2:scan2.D51PV 
+18ID:EIG2:scan2.D52PV 
+18ID:EIG2:scan2.D53PV 
+18ID:EIG2:scan2.D54PV 
+18ID:EIG2:scan2.D55PV 
+18ID:EIG2:scan2.D56PV 
+18ID:EIG2:scan2.D57PV 
+18ID:EIG2:scan2.D58PV 
+18ID:EIG2:scan2.D59PV 
+18ID:EIG2:scan2.D60PV 
+18ID:EIG2:scan2.D61PV 
+18ID:EIG2:scan2.D62PV 
+18ID:EIG2:scan2.D63PV 
+18ID:EIG2:scan2.D64PV 
+18ID:EIG2:scan2.D65PV 
+18ID:EIG2:scan2.D66PV 
+18ID:EIG2:scan2.D67PV 
+18ID:EIG2:scan2.D68PV 
+18ID:EIG2:scan2.D69PV 
+18ID:EIG2:scan2.D70PV 
+18ID:EIG2:scan3.ATIME 0
+18ID:EIG2:scan3.COPYTO 0
+18ID:EIG2:scan3.AAWAIT 0
+18ID:EIG2:scan3.FLNK 
+18ID:EIG2:scan3.NPTS 10
+18ID:EIG2:scan3.ACQT 0
+18ID:EIG2:scan3.ACQM 0
+18ID:EIG2:scan3.PASM 0
+18ID:EIG2:scan3.BSPV 
+18ID:EIG2:scan3.BSCD 1
+18ID:EIG2:scan3.BSWAIT 0
+18ID:EIG2:scan3.ASPV 
+18ID:EIG2:scan3.ASCD 1
+18ID:EIG2:scan3.ASWAIT 0
+18ID:EIG2:scan3.T1PV 18ID:EIG2:scan2.EXSC
+18ID:EIG2:scan3.T1CD 1
+18ID:EIG2:scan3.T2PV 
+18ID:EIG2:scan3.T2CD 1
+18ID:EIG2:scan3.T3PV 
+18ID:EIG2:scan3.T3CD 1
+18ID:EIG2:scan3.T4PV 
+18ID:EIG2:scan3.T4CD 1
+18ID:EIG2:scan3.P1PV 
+18ID:EIG2:scan3.R1PV 
+18ID:EIG2:scan3.P1SM 0
+18ID:EIG2:scan3.P1SP 0
+18ID:EIG2:scan3.P1EP 0
+18ID:EIG2:scan3.P1AR 0
+18ID:EIG2:scan3.P2PV 
+18ID:EIG2:scan3.R2PV 
+18ID:EIG2:scan3.P2SM 0
+18ID:EIG2:scan3.P2SP 0
+18ID:EIG2:scan3.P2EP 0
+18ID:EIG2:scan3.P2AR 0
+18ID:EIG2:scan3.P3PV 
+18ID:EIG2:scan3.R3PV 
+18ID:EIG2:scan3.P3SM 0
+18ID:EIG2:scan3.P3SP 0
+18ID:EIG2:scan3.P3EP 0
+18ID:EIG2:scan3.P3AR 0
+18ID:EIG2:scan3.P4PV 
+18ID:EIG2:scan3.R4PV 
+18ID:EIG2:scan3.P4SM 0
+18ID:EIG2:scan3.P4SP 0
+18ID:EIG2:scan3.P4EP 0
+18ID:EIG2:scan3.P4AR 0
+18ID:EIG2:scan3.PDLY 0
+18ID:EIG2:scan3.DDLY 0
+18ID:EIG2:scan3.REFD 1
+18ID:EIG2:scan3.AWCT 0
+18ID:EIG2:scan3.A1PV 
+18ID:EIG2:scan3.A1CD 1
+18ID:EIG2:scan3.D01PV 
+18ID:EIG2:scan3.D02PV 
+18ID:EIG2:scan3.D03PV 
+18ID:EIG2:scan3.D04PV 
+18ID:EIG2:scan3.D05PV 
+18ID:EIG2:scan3.D06PV 
+18ID:EIG2:scan3.D07PV 
+18ID:EIG2:scan3.D08PV 
+18ID:EIG2:scan3.D09PV 
+18ID:EIG2:scan3.D10PV 
+18ID:EIG2:scan3.D11PV 
+18ID:EIG2:scan3.D12PV 
+18ID:EIG2:scan3.D13PV 
+18ID:EIG2:scan3.D14PV 
+18ID:EIG2:scan3.D15PV 
+18ID:EIG2:scan3.D16PV 
+18ID:EIG2:scan3.D17PV 
+18ID:EIG2:scan3.D18PV 
+18ID:EIG2:scan3.D19PV 
+18ID:EIG2:scan3.D20PV 
+18ID:EIG2:scan3.D21PV 
+18ID:EIG2:scan3.D22PV 
+18ID:EIG2:scan3.D23PV 
+18ID:EIG2:scan3.D24PV 
+18ID:EIG2:scan3.D25PV 
+18ID:EIG2:scan3.D26PV 
+18ID:EIG2:scan3.D27PV 
+18ID:EIG2:scan3.D28PV 
+18ID:EIG2:scan3.D29PV 
+18ID:EIG2:scan3.D30PV 
+18ID:EIG2:scan3.D31PV 
+18ID:EIG2:scan3.D32PV 
+18ID:EIG2:scan3.D33PV 
+18ID:EIG2:scan3.D34PV 
+18ID:EIG2:scan3.D35PV 
+18ID:EIG2:scan3.D36PV 
+18ID:EIG2:scan3.D37PV 
+18ID:EIG2:scan3.D38PV 
+18ID:EIG2:scan3.D39PV 
+18ID:EIG2:scan3.D40PV 
+18ID:EIG2:scan3.D41PV 
+18ID:EIG2:scan3.D42PV 
+18ID:EIG2:scan3.D43PV 
+18ID:EIG2:scan3.D44PV 
+18ID:EIG2:scan3.D45PV 
+18ID:EIG2:scan3.D46PV 
+18ID:EIG2:scan3.D47PV 
+18ID:EIG2:scan3.D48PV 
+18ID:EIG2:scan3.D49PV 
+18ID:EIG2:scan3.D50PV 
+18ID:EIG2:scan3.D51PV 
+18ID:EIG2:scan3.D52PV 
+18ID:EIG2:scan3.D53PV 
+18ID:EIG2:scan3.D54PV 
+18ID:EIG2:scan3.D55PV 
+18ID:EIG2:scan3.D56PV 
+18ID:EIG2:scan3.D57PV 
+18ID:EIG2:scan3.D58PV 
+18ID:EIG2:scan3.D59PV 
+18ID:EIG2:scan3.D60PV 
+18ID:EIG2:scan3.D61PV 
+18ID:EIG2:scan3.D62PV 
+18ID:EIG2:scan3.D63PV 
+18ID:EIG2:scan3.D64PV 
+18ID:EIG2:scan3.D65PV 
+18ID:EIG2:scan3.D66PV 
+18ID:EIG2:scan3.D67PV 
+18ID:EIG2:scan3.D68PV 
+18ID:EIG2:scan3.D69PV 
+18ID:EIG2:scan3.D70PV 
+18ID:EIG2:scan4.ATIME 0
+18ID:EIG2:scan4.COPYTO 0
+18ID:EIG2:scan4.AAWAIT 0
+18ID:EIG2:scan4.FLNK 
+18ID:EIG2:scan4.NPTS 10
+18ID:EIG2:scan4.ACQT 0
+18ID:EIG2:scan4.ACQM 0
+18ID:EIG2:scan4.PASM 0
+18ID:EIG2:scan4.BSPV 
+18ID:EIG2:scan4.BSCD 1
+18ID:EIG2:scan4.BSWAIT 0
+18ID:EIG2:scan4.ASPV 
+18ID:EIG2:scan4.ASCD 1
+18ID:EIG2:scan4.ASWAIT 0
+18ID:EIG2:scan4.T1PV 18ID:EIG2:scan3.EXSC
+18ID:EIG2:scan4.T1CD 1
+18ID:EIG2:scan4.T2PV 
+18ID:EIG2:scan4.T2CD 1
+18ID:EIG2:scan4.T3PV 
+18ID:EIG2:scan4.T3CD 1
+18ID:EIG2:scan4.T4PV 
+18ID:EIG2:scan4.T4CD 1
+18ID:EIG2:scan4.P1PV 
+18ID:EIG2:scan4.R1PV 
+18ID:EIG2:scan4.P1SM 0
+18ID:EIG2:scan4.P1SP 0
+18ID:EIG2:scan4.P1EP 0
+18ID:EIG2:scan4.P1AR 0
+18ID:EIG2:scan4.P2PV 
+18ID:EIG2:scan4.R2PV 
+18ID:EIG2:scan4.P2SM 0
+18ID:EIG2:scan4.P2SP 0
+18ID:EIG2:scan4.P2EP 0
+18ID:EIG2:scan4.P2AR 0
+18ID:EIG2:scan4.P3PV 
+18ID:EIG2:scan4.R3PV 
+18ID:EIG2:scan4.P3SM 0
+18ID:EIG2:scan4.P3SP 0
+18ID:EIG2:scan4.P3EP 0
+18ID:EIG2:scan4.P3AR 0
+18ID:EIG2:scan4.P4PV 
+18ID:EIG2:scan4.R4PV 
+18ID:EIG2:scan4.P4SM 0
+18ID:EIG2:scan4.P4SP 0
+18ID:EIG2:scan4.P4EP 0
+18ID:EIG2:scan4.P4AR 0
+18ID:EIG2:scan4.PDLY 0
+18ID:EIG2:scan4.DDLY 0
+18ID:EIG2:scan4.REFD 1
+18ID:EIG2:scan4.AWCT 0
+18ID:EIG2:scan4.A1PV 
+18ID:EIG2:scan4.A1CD 1
+18ID:EIG2:scan4.D01PV 
+18ID:EIG2:scan4.D02PV 
+18ID:EIG2:scan4.D03PV 
+18ID:EIG2:scan4.D04PV 
+18ID:EIG2:scan4.D05PV 
+18ID:EIG2:scan4.D06PV 
+18ID:EIG2:scan4.D07PV 
+18ID:EIG2:scan4.D08PV 
+18ID:EIG2:scan4.D09PV 
+18ID:EIG2:scan4.D10PV 
+18ID:EIG2:scan4.D11PV 
+18ID:EIG2:scan4.D12PV 
+18ID:EIG2:scan4.D13PV 
+18ID:EIG2:scan4.D14PV 
+18ID:EIG2:scan4.D15PV 
+18ID:EIG2:scan4.D16PV 
+18ID:EIG2:scan4.D17PV 
+18ID:EIG2:scan4.D18PV 
+18ID:EIG2:scan4.D19PV 
+18ID:EIG2:scan4.D20PV 
+18ID:EIG2:scan4.D21PV 
+18ID:EIG2:scan4.D22PV 
+18ID:EIG2:scan4.D23PV 
+18ID:EIG2:scan4.D24PV 
+18ID:EIG2:scan4.D25PV 
+18ID:EIG2:scan4.D26PV 
+18ID:EIG2:scan4.D27PV 
+18ID:EIG2:scan4.D28PV 
+18ID:EIG2:scan4.D29PV 
+18ID:EIG2:scan4.D30PV 
+18ID:EIG2:scan4.D31PV 
+18ID:EIG2:scan4.D32PV 
+18ID:EIG2:scan4.D33PV 
+18ID:EIG2:scan4.D34PV 
+18ID:EIG2:scan4.D35PV 
+18ID:EIG2:scan4.D36PV 
+18ID:EIG2:scan4.D37PV 
+18ID:EIG2:scan4.D38PV 
+18ID:EIG2:scan4.D39PV 
+18ID:EIG2:scan4.D40PV 
+18ID:EIG2:scan4.D41PV 
+18ID:EIG2:scan4.D42PV 
+18ID:EIG2:scan4.D43PV 
+18ID:EIG2:scan4.D44PV 
+18ID:EIG2:scan4.D45PV 
+18ID:EIG2:scan4.D46PV 
+18ID:EIG2:scan4.D47PV 
+18ID:EIG2:scan4.D48PV 
+18ID:EIG2:scan4.D49PV 
+18ID:EIG2:scan4.D50PV 
+18ID:EIG2:scan4.D51PV 
+18ID:EIG2:scan4.D52PV 
+18ID:EIG2:scan4.D53PV 
+18ID:EIG2:scan4.D54PV 
+18ID:EIG2:scan4.D55PV 
+18ID:EIG2:scan4.D56PV 
+18ID:EIG2:scan4.D57PV 
+18ID:EIG2:scan4.D58PV 
+18ID:EIG2:scan4.D59PV 
+18ID:EIG2:scan4.D60PV 
+18ID:EIG2:scan4.D61PV 
+18ID:EIG2:scan4.D62PV 
+18ID:EIG2:scan4.D63PV 
+18ID:EIG2:scan4.D64PV 
+18ID:EIG2:scan4.D65PV 
+18ID:EIG2:scan4.D66PV 
+18ID:EIG2:scan4.D67PV 
+18ID:EIG2:scan4.D68PV 
+18ID:EIG2:scan4.D69PV 
+18ID:EIG2:scan4.D70PV 
+18ID:EIG2:scanH.ATIME 0
+18ID:EIG2:scanH.COPYTO 0
+18ID:EIG2:scanH.AAWAIT 0
+18ID:EIG2:scanH.FLNK 
+18ID:EIG2:scanH.NPTS 10
+18ID:EIG2:scanH.ACQT 1
+18ID:EIG2:scanH.ACQM 0
+18ID:EIG2:scanH.PASM 0
+18ID:EIG2:scanH.BSPV 
+18ID:EIG2:scanH.BSCD 1
+18ID:EIG2:scanH.BSWAIT 0
+18ID:EIG2:scanH.ASPV 
+18ID:EIG2:scanH.ASCD 1
+18ID:EIG2:scanH.ASWAIT 0
+18ID:EIG2:scanH.T1PV 
+18ID:EIG2:scanH.T1CD 1
+18ID:EIG2:scanH.T2PV 
+18ID:EIG2:scanH.T2CD 1
+18ID:EIG2:scanH.T3PV 
+18ID:EIG2:scanH.T3CD 1
+18ID:EIG2:scanH.T4PV 
+18ID:EIG2:scanH.T4CD 1
+18ID:EIG2:scanH.P1PV 
+18ID:EIG2:scanH.R1PV 
+18ID:EIG2:scanH.P1SM 0
+18ID:EIG2:scanH.P1SP 0
+18ID:EIG2:scanH.P1EP 0
+18ID:EIG2:scanH.P1AR 0
+18ID:EIG2:scanH.P2PV 
+18ID:EIG2:scanH.R2PV 
+18ID:EIG2:scanH.P2SM 0
+18ID:EIG2:scanH.P2SP 0
+18ID:EIG2:scanH.P2EP 0
+18ID:EIG2:scanH.P2AR 0
+18ID:EIG2:scanH.P3PV 
+18ID:EIG2:scanH.R3PV 
+18ID:EIG2:scanH.P3SM 0
+18ID:EIG2:scanH.P3SP 0
+18ID:EIG2:scanH.P3EP 0
+18ID:EIG2:scanH.P3AR 0
+18ID:EIG2:scanH.P4PV 
+18ID:EIG2:scanH.R4PV 
+18ID:EIG2:scanH.P4SM 0
+18ID:EIG2:scanH.P4SP 0
+18ID:EIG2:scanH.P4EP 0
+18ID:EIG2:scanH.P4AR 0
+18ID:EIG2:scanH.PDLY 0
+18ID:EIG2:scanH.DDLY 0
+18ID:EIG2:scanH.REFD 1
+18ID:EIG2:scanH.AWCT 0
+18ID:EIG2:scanH.A1PV 
+18ID:EIG2:scanH.A1CD 1
+18ID:EIG2:scanH.D01PV 
+18ID:EIG2:scanH.D02PV 
+18ID:EIG2:scanH.D03PV 
+18ID:EIG2:scanH.D04PV 
+18ID:EIG2:scanH.D05PV 
+18ID:EIG2:scanH.D06PV 
+18ID:EIG2:scanH.D07PV 
+18ID:EIG2:scanH.D08PV 
+18ID:EIG2:scanH.D09PV 
+18ID:EIG2:scanH.D10PV 
+18ID:EIG2:scanH.D11PV 
+18ID:EIG2:scanH.D12PV 
+18ID:EIG2:scanH.D13PV 
+18ID:EIG2:scanH.D14PV 
+18ID:EIG2:scanH.D15PV 
+18ID:EIG2:scanH.D16PV 
+18ID:EIG2:scanH.D17PV 
+18ID:EIG2:scanH.D18PV 
+18ID:EIG2:scanH.D19PV 
+18ID:EIG2:scanH.D20PV 
+18ID:EIG2:scanH.D21PV 
+18ID:EIG2:scanH.D22PV 
+18ID:EIG2:scanH.D23PV 
+18ID:EIG2:scanH.D24PV 
+18ID:EIG2:scanH.D25PV 
+18ID:EIG2:scanH.D26PV 
+18ID:EIG2:scanH.D27PV 
+18ID:EIG2:scanH.D28PV 
+18ID:EIG2:scanH.D29PV 
+18ID:EIG2:scanH.D30PV 
+18ID:EIG2:scanH.D31PV 
+18ID:EIG2:scanH.D32PV 
+18ID:EIG2:scanH.D33PV 
+18ID:EIG2:scanH.D34PV 
+18ID:EIG2:scanH.D35PV 
+18ID:EIG2:scanH.D36PV 
+18ID:EIG2:scanH.D37PV 
+18ID:EIG2:scanH.D38PV 
+18ID:EIG2:scanH.D39PV 
+18ID:EIG2:scanH.D40PV 
+18ID:EIG2:scanH.D41PV 
+18ID:EIG2:scanH.D42PV 
+18ID:EIG2:scanH.D43PV 
+18ID:EIG2:scanH.D44PV 
+18ID:EIG2:scanH.D45PV 
+18ID:EIG2:scanH.D46PV 
+18ID:EIG2:scanH.D47PV 
+18ID:EIG2:scanH.D48PV 
+18ID:EIG2:scanH.D49PV 
+18ID:EIG2:scanH.D50PV 
+18ID:EIG2:scanH.D51PV 
+18ID:EIG2:scanH.D52PV 
+18ID:EIG2:scanH.D53PV 
+18ID:EIG2:scanH.D54PV 
+18ID:EIG2:scanH.D55PV 
+18ID:EIG2:scanH.D56PV 
+18ID:EIG2:scanH.D57PV 
+18ID:EIG2:scanH.D58PV 
+18ID:EIG2:scanH.D59PV 
+18ID:EIG2:scanH.D60PV 
+18ID:EIG2:scanH.D61PV 
+18ID:EIG2:scanH.D62PV 
+18ID:EIG2:scanH.D63PV 
+18ID:EIG2:scanH.D64PV 
+18ID:EIG2:scanH.D65PV 
+18ID:EIG2:scanH.D66PV 
+18ID:EIG2:scanH.D67PV 
+18ID:EIG2:scanH.D68PV 
+18ID:EIG2:scanH.D69PV 
+18ID:EIG2:scanH.D70PV 
+18ID:EIG2:scan1.ATIME 0
+18ID:EIG2:scan1.COPYTO 0
+18ID:EIG2:scan1.AAWAIT 0
+18ID:EIG2:scan1.FLNK 
+18ID:EIG2:scan1.NPTS 10
+18ID:EIG2:scan1.ACQT 0
+18ID:EIG2:scan1.ACQM 0
+18ID:EIG2:scan1.PASM 0
+18ID:EIG2:scan1.BSPV 
+18ID:EIG2:scan1.BSCD 1
+18ID:EIG2:scan1.BSWAIT 0
+18ID:EIG2:scan1.ASPV 
+18ID:EIG2:scan1.ASCD 1
+18ID:EIG2:scan1.ASWAIT 0
+18ID:EIG2:scan1.T1PV 
+18ID:EIG2:scan1.T1CD 1
+18ID:EIG2:scan1.T2PV 
+18ID:EIG2:scan1.T2CD 1
+18ID:EIG2:scan1.T3PV 
+18ID:EIG2:scan1.T3CD 1
+18ID:EIG2:scan1.T4PV 
+18ID:EIG2:scan1.T4CD 1
+18ID:EIG2:scan1.P1PV 
+18ID:EIG2:scan1.R1PV 
+18ID:EIG2:scan1.P1SM 0
+18ID:EIG2:scan1.P1SP 0
+18ID:EIG2:scan1.P1EP 0
+18ID:EIG2:scan1.P1AR 0
+18ID:EIG2:scan1.P2PV 
+18ID:EIG2:scan1.R2PV 
+18ID:EIG2:scan1.P2SM 0
+18ID:EIG2:scan1.P2SP 0
+18ID:EIG2:scan1.P2EP 0
+18ID:EIG2:scan1.P2AR 0
+18ID:EIG2:scan1.P3PV 
+18ID:EIG2:scan1.R3PV 
+18ID:EIG2:scan1.P3SM 0
+18ID:EIG2:scan1.P3SP 0
+18ID:EIG2:scan1.P3EP 0
+18ID:EIG2:scan1.P3AR 0
+18ID:EIG2:scan1.P4PV 
+18ID:EIG2:scan1.R4PV 
+18ID:EIG2:scan1.P4SM 0
+18ID:EIG2:scan1.P4SP 0
+18ID:EIG2:scan1.P4EP 0
+18ID:EIG2:scan1.P4AR 0
+18ID:EIG2:scan1.PDLY 0
+18ID:EIG2:scan1.DDLY 0
+18ID:EIG2:scan1.REFD 1
+18ID:EIG2:scan1.AWCT 0
+18ID:EIG2:scan1.A1PV 
+18ID:EIG2:scan1.A1CD 1
+18ID:EIG2:scan1.D01PV 
+18ID:EIG2:scan1.D02PV 
+18ID:EIG2:scan1.D03PV 
+18ID:EIG2:scan1.D04PV 
+18ID:EIG2:scan1.D05PV 
+18ID:EIG2:scan1.D06PV 
+18ID:EIG2:scan1.D07PV 
+18ID:EIG2:scan1.D08PV 
+18ID:EIG2:scan1.D09PV 
+18ID:EIG2:scan1.D10PV 
+18ID:EIG2:scan1.D11PV 
+18ID:EIG2:scan1.D12PV 
+18ID:EIG2:scan1.D13PV 
+18ID:EIG2:scan1.D14PV 
+18ID:EIG2:scan1.D15PV 
+18ID:EIG2:scan1.D16PV 
+18ID:EIG2:scan1.D17PV 
+18ID:EIG2:scan1.D18PV 
+18ID:EIG2:scan1.D19PV 
+18ID:EIG2:scan1.D20PV 
+18ID:EIG2:scan1.D21PV 
+18ID:EIG2:scan1.D22PV 
+18ID:EIG2:scan1.D23PV 
+18ID:EIG2:scan1.D24PV 
+18ID:EIG2:scan1.D25PV 
+18ID:EIG2:scan1.D26PV 
+18ID:EIG2:scan1.D27PV 
+18ID:EIG2:scan1.D28PV 
+18ID:EIG2:scan1.D29PV 
+18ID:EIG2:scan1.D30PV 
+18ID:EIG2:scan1.D31PV 
+18ID:EIG2:scan1.D32PV 
+18ID:EIG2:scan1.D33PV 
+18ID:EIG2:scan1.D34PV 
+18ID:EIG2:scan1.D35PV 
+18ID:EIG2:scan1.D36PV 
+18ID:EIG2:scan1.D37PV 
+18ID:EIG2:scan1.D38PV 
+18ID:EIG2:scan1.D39PV 
+18ID:EIG2:scan1.D40PV 
+18ID:EIG2:scan1.D41PV 
+18ID:EIG2:scan1.D42PV 
+18ID:EIG2:scan1.D43PV 
+18ID:EIG2:scan1.D44PV 
+18ID:EIG2:scan1.D45PV 
+18ID:EIG2:scan1.D46PV 
+18ID:EIG2:scan1.D47PV 
+18ID:EIG2:scan1.D48PV 
+18ID:EIG2:scan1.D49PV 
+18ID:EIG2:scan1.D50PV 
+18ID:EIG2:scan1.D51PV 
+18ID:EIG2:scan1.D52PV 
+18ID:EIG2:scan1.D53PV 
+18ID:EIG2:scan1.D54PV 
+18ID:EIG2:scan1.D55PV 
+18ID:EIG2:scan1.D56PV 
+18ID:EIG2:scan1.D57PV 
+18ID:EIG2:scan1.D58PV 
+18ID:EIG2:scan1.D59PV 
+18ID:EIG2:scan1.D60PV 
+18ID:EIG2:scan1.D61PV 
+18ID:EIG2:scan1.D62PV 
+18ID:EIG2:scan1.D63PV 
+18ID:EIG2:scan1.D64PV 
+18ID:EIG2:scan1.D65PV 
+18ID:EIG2:scan1.D66PV 
+18ID:EIG2:scan1.D67PV 
+18ID:EIG2:scan1.D68PV 
+18ID:EIG2:scan1.D69PV 
+18ID:EIG2:scan1.D70PV 
+18ID:EIG2:scan2.ATIME 0
+18ID:EIG2:scan2.COPYTO 0
+18ID:EIG2:scan2.AAWAIT 0
+18ID:EIG2:scan2.FLNK 
+18ID:EIG2:scan2.NPTS 10
+18ID:EIG2:scan2.ACQT 0
+18ID:EIG2:scan2.ACQM 0
+18ID:EIG2:scan2.PASM 0
+18ID:EIG2:scan2.BSPV 
+18ID:EIG2:scan2.BSCD 1
+18ID:EIG2:scan2.BSWAIT 0
+18ID:EIG2:scan2.ASPV 
+18ID:EIG2:scan2.ASCD 1
+18ID:EIG2:scan2.ASWAIT 0
+18ID:EIG2:scan2.T1PV 18ID:EIG2:scan1.EXSC
+18ID:EIG2:scan2.T1CD 1
+18ID:EIG2:scan2.T2PV 
+18ID:EIG2:scan2.T2CD 1
+18ID:EIG2:scan2.T3PV 
+18ID:EIG2:scan2.T3CD 1
+18ID:EIG2:scan2.T4PV 
+18ID:EIG2:scan2.T4CD 1
+18ID:EIG2:scan2.P1PV 
+18ID:EIG2:scan2.R1PV 
+18ID:EIG2:scan2.P1SM 0
+18ID:EIG2:scan2.P1SP 0
+18ID:EIG2:scan2.P1EP 0
+18ID:EIG2:scan2.P1AR 0
+18ID:EIG2:scan2.P2PV 
+18ID:EIG2:scan2.R2PV 
+18ID:EIG2:scan2.P2SM 0
+18ID:EIG2:scan2.P2SP 0
+18ID:EIG2:scan2.P2EP 0
+18ID:EIG2:scan2.P2AR 0
+18ID:EIG2:scan2.P3PV 
+18ID:EIG2:scan2.R3PV 
+18ID:EIG2:scan2.P3SM 0
+18ID:EIG2:scan2.P3SP 0
+18ID:EIG2:scan2.P3EP 0
+18ID:EIG2:scan2.P3AR 0
+18ID:EIG2:scan2.P4PV 
+18ID:EIG2:scan2.R4PV 
+18ID:EIG2:scan2.P4SM 0
+18ID:EIG2:scan2.P4SP 0
+18ID:EIG2:scan2.P4EP 0
+18ID:EIG2:scan2.P4AR 0
+18ID:EIG2:scan2.PDLY 0
+18ID:EIG2:scan2.DDLY 0
+18ID:EIG2:scan2.REFD 1
+18ID:EIG2:scan2.AWCT 0
+18ID:EIG2:scan2.A1PV 
+18ID:EIG2:scan2.A1CD 1
+18ID:EIG2:scan2.D01PV 
+18ID:EIG2:scan2.D02PV 
+18ID:EIG2:scan2.D03PV 
+18ID:EIG2:scan2.D04PV 
+18ID:EIG2:scan2.D05PV 
+18ID:EIG2:scan2.D06PV 
+18ID:EIG2:scan2.D07PV 
+18ID:EIG2:scan2.D08PV 
+18ID:EIG2:scan2.D09PV 
+18ID:EIG2:scan2.D10PV 
+18ID:EIG2:scan2.D11PV 
+18ID:EIG2:scan2.D12PV 
+18ID:EIG2:scan2.D13PV 
+18ID:EIG2:scan2.D14PV 
+18ID:EIG2:scan2.D15PV 
+18ID:EIG2:scan2.D16PV 
+18ID:EIG2:scan2.D17PV 
+18ID:EIG2:scan2.D18PV 
+18ID:EIG2:scan2.D19PV 
+18ID:EIG2:scan2.D20PV 
+18ID:EIG2:scan2.D21PV 
+18ID:EIG2:scan2.D22PV 
+18ID:EIG2:scan2.D23PV 
+18ID:EIG2:scan2.D24PV 
+18ID:EIG2:scan2.D25PV 
+18ID:EIG2:scan2.D26PV 
+18ID:EIG2:scan2.D27PV 
+18ID:EIG2:scan2.D28PV 
+18ID:EIG2:scan2.D29PV 
+18ID:EIG2:scan2.D30PV 
+18ID:EIG2:scan2.D31PV 
+18ID:EIG2:scan2.D32PV 
+18ID:EIG2:scan2.D33PV 
+18ID:EIG2:scan2.D34PV 
+18ID:EIG2:scan2.D35PV 
+18ID:EIG2:scan2.D36PV 
+18ID:EIG2:scan2.D37PV 
+18ID:EIG2:scan2.D38PV 
+18ID:EIG2:scan2.D39PV 
+18ID:EIG2:scan2.D40PV 
+18ID:EIG2:scan2.D41PV 
+18ID:EIG2:scan2.D42PV 
+18ID:EIG2:scan2.D43PV 
+18ID:EIG2:scan2.D44PV 
+18ID:EIG2:scan2.D45PV 
+18ID:EIG2:scan2.D46PV 
+18ID:EIG2:scan2.D47PV 
+18ID:EIG2:scan2.D48PV 
+18ID:EIG2:scan2.D49PV 
+18ID:EIG2:scan2.D50PV 
+18ID:EIG2:scan2.D51PV 
+18ID:EIG2:scan2.D52PV 
+18ID:EIG2:scan2.D53PV 
+18ID:EIG2:scan2.D54PV 
+18ID:EIG2:scan2.D55PV 
+18ID:EIG2:scan2.D56PV 
+18ID:EIG2:scan2.D57PV 
+18ID:EIG2:scan2.D58PV 
+18ID:EIG2:scan2.D59PV 
+18ID:EIG2:scan2.D60PV 
+18ID:EIG2:scan2.D61PV 
+18ID:EIG2:scan2.D62PV 
+18ID:EIG2:scan2.D63PV 
+18ID:EIG2:scan2.D64PV 
+18ID:EIG2:scan2.D65PV 
+18ID:EIG2:scan2.D66PV 
+18ID:EIG2:scan2.D67PV 
+18ID:EIG2:scan2.D68PV 
+18ID:EIG2:scan2.D69PV 
+18ID:EIG2:scan2.D70PV 
+18ID:EIG2:scan3.ATIME 0
+18ID:EIG2:scan3.COPYTO 0
+18ID:EIG2:scan3.AAWAIT 0
+18ID:EIG2:scan3.FLNK 
+18ID:EIG2:scan3.NPTS 10
+18ID:EIG2:scan3.ACQT 0
+18ID:EIG2:scan3.ACQM 0
+18ID:EIG2:scan3.PASM 0
+18ID:EIG2:scan3.BSPV 
+18ID:EIG2:scan3.BSCD 1
+18ID:EIG2:scan3.BSWAIT 0
+18ID:EIG2:scan3.ASPV 
+18ID:EIG2:scan3.ASCD 1
+18ID:EIG2:scan3.ASWAIT 0
+18ID:EIG2:scan3.T1PV 18ID:EIG2:scan2.EXSC
+18ID:EIG2:scan3.T1CD 1
+18ID:EIG2:scan3.T2PV 
+18ID:EIG2:scan3.T2CD 1
+18ID:EIG2:scan3.T3PV 
+18ID:EIG2:scan3.T3CD 1
+18ID:EIG2:scan3.T4PV 
+18ID:EIG2:scan3.T4CD 1
+18ID:EIG2:scan3.P1PV 
+18ID:EIG2:scan3.R1PV 
+18ID:EIG2:scan3.P1SM 0
+18ID:EIG2:scan3.P1SP 0
+18ID:EIG2:scan3.P1EP 0
+18ID:EIG2:scan3.P1AR 0
+18ID:EIG2:scan3.P2PV 
+18ID:EIG2:scan3.R2PV 
+18ID:EIG2:scan3.P2SM 0
+18ID:EIG2:scan3.P2SP 0
+18ID:EIG2:scan3.P2EP 0
+18ID:EIG2:scan3.P2AR 0
+18ID:EIG2:scan3.P3PV 
+18ID:EIG2:scan3.R3PV 
+18ID:EIG2:scan3.P3SM 0
+18ID:EIG2:scan3.P3SP 0
+18ID:EIG2:scan3.P3EP 0
+18ID:EIG2:scan3.P3AR 0
+18ID:EIG2:scan3.P4PV 
+18ID:EIG2:scan3.R4PV 
+18ID:EIG2:scan3.P4SM 0
+18ID:EIG2:scan3.P4SP 0
+18ID:EIG2:scan3.P4EP 0
+18ID:EIG2:scan3.P4AR 0
+18ID:EIG2:scan3.PDLY 0
+18ID:EIG2:scan3.DDLY 0
+18ID:EIG2:scan3.REFD 1
+18ID:EIG2:scan3.AWCT 0
+18ID:EIG2:scan3.A1PV 
+18ID:EIG2:scan3.A1CD 1
+18ID:EIG2:scan3.D01PV 
+18ID:EIG2:scan3.D02PV 
+18ID:EIG2:scan3.D03PV 
+18ID:EIG2:scan3.D04PV 
+18ID:EIG2:scan3.D05PV 
+18ID:EIG2:scan3.D06PV 
+18ID:EIG2:scan3.D07PV 
+18ID:EIG2:scan3.D08PV 
+18ID:EIG2:scan3.D09PV 
+18ID:EIG2:scan3.D10PV 
+18ID:EIG2:scan3.D11PV 
+18ID:EIG2:scan3.D12PV 
+18ID:EIG2:scan3.D13PV 
+18ID:EIG2:scan3.D14PV 
+18ID:EIG2:scan3.D15PV 
+18ID:EIG2:scan3.D16PV 
+18ID:EIG2:scan3.D17PV 
+18ID:EIG2:scan3.D18PV 
+18ID:EIG2:scan3.D19PV 
+18ID:EIG2:scan3.D20PV 
+18ID:EIG2:scan3.D21PV 
+18ID:EIG2:scan3.D22PV 
+18ID:EIG2:scan3.D23PV 
+18ID:EIG2:scan3.D24PV 
+18ID:EIG2:scan3.D25PV 
+18ID:EIG2:scan3.D26PV 
+18ID:EIG2:scan3.D27PV 
+18ID:EIG2:scan3.D28PV 
+18ID:EIG2:scan3.D29PV 
+18ID:EIG2:scan3.D30PV 
+18ID:EIG2:scan3.D31PV 
+18ID:EIG2:scan3.D32PV 
+18ID:EIG2:scan3.D33PV 
+18ID:EIG2:scan3.D34PV 
+18ID:EIG2:scan3.D35PV 
+18ID:EIG2:scan3.D36PV 
+18ID:EIG2:scan3.D37PV 
+18ID:EIG2:scan3.D38PV 
+18ID:EIG2:scan3.D39PV 
+18ID:EIG2:scan3.D40PV 
+18ID:EIG2:scan3.D41PV 
+18ID:EIG2:scan3.D42PV 
+18ID:EIG2:scan3.D43PV 
+18ID:EIG2:scan3.D44PV 
+18ID:EIG2:scan3.D45PV 
+18ID:EIG2:scan3.D46PV 
+18ID:EIG2:scan3.D47PV 
+18ID:EIG2:scan3.D48PV 
+18ID:EIG2:scan3.D49PV 
+18ID:EIG2:scan3.D50PV 
+18ID:EIG2:scan3.D51PV 
+18ID:EIG2:scan3.D52PV 
+18ID:EIG2:scan3.D53PV 
+18ID:EIG2:scan3.D54PV 
+18ID:EIG2:scan3.D55PV 
+18ID:EIG2:scan3.D56PV 
+18ID:EIG2:scan3.D57PV 
+18ID:EIG2:scan3.D58PV 
+18ID:EIG2:scan3.D59PV 
+18ID:EIG2:scan3.D60PV 
+18ID:EIG2:scan3.D61PV 
+18ID:EIG2:scan3.D62PV 
+18ID:EIG2:scan3.D63PV 
+18ID:EIG2:scan3.D64PV 
+18ID:EIG2:scan3.D65PV 
+18ID:EIG2:scan3.D66PV 
+18ID:EIG2:scan3.D67PV 
+18ID:EIG2:scan3.D68PV 
+18ID:EIG2:scan3.D69PV 
+18ID:EIG2:scan3.D70PV 
+18ID:EIG2:scan4.ATIME 0
+18ID:EIG2:scan4.COPYTO 0
+18ID:EIG2:scan4.AAWAIT 0
+18ID:EIG2:scan4.FLNK 
+18ID:EIG2:scan4.NPTS 10
+18ID:EIG2:scan4.ACQT 0
+18ID:EIG2:scan4.ACQM 0
+18ID:EIG2:scan4.PASM 0
+18ID:EIG2:scan4.BSPV 
+18ID:EIG2:scan4.BSCD 1
+18ID:EIG2:scan4.BSWAIT 0
+18ID:EIG2:scan4.ASPV 
+18ID:EIG2:scan4.ASCD 1
+18ID:EIG2:scan4.ASWAIT 0
+18ID:EIG2:scan4.T1PV 18ID:EIG2:scan3.EXSC
+18ID:EIG2:scan4.T1CD 1
+18ID:EIG2:scan4.T2PV 
+18ID:EIG2:scan4.T2CD 1
+18ID:EIG2:scan4.T3PV 
+18ID:EIG2:scan4.T3CD 1
+18ID:EIG2:scan4.T4PV 
+18ID:EIG2:scan4.T4CD 1
+18ID:EIG2:scan4.P1PV 
+18ID:EIG2:scan4.R1PV 
+18ID:EIG2:scan4.P1SM 0
+18ID:EIG2:scan4.P1SP 0
+18ID:EIG2:scan4.P1EP 0
+18ID:EIG2:scan4.P1AR 0
+18ID:EIG2:scan4.P2PV 
+18ID:EIG2:scan4.R2PV 
+18ID:EIG2:scan4.P2SM 0
+18ID:EIG2:scan4.P2SP 0
+18ID:EIG2:scan4.P2EP 0
+18ID:EIG2:scan4.P2AR 0
+18ID:EIG2:scan4.P3PV 
+18ID:EIG2:scan4.R3PV 
+18ID:EIG2:scan4.P3SM 0
+18ID:EIG2:scan4.P3SP 0
+18ID:EIG2:scan4.P3EP 0
+18ID:EIG2:scan4.P3AR 0
+18ID:EIG2:scan4.P4PV 
+18ID:EIG2:scan4.R4PV 
+18ID:EIG2:scan4.P4SM 0
+18ID:EIG2:scan4.P4SP 0
+18ID:EIG2:scan4.P4EP 0
+18ID:EIG2:scan4.P4AR 0
+18ID:EIG2:scan4.PDLY 0
+18ID:EIG2:scan4.DDLY 0
+18ID:EIG2:scan4.REFD 1
+18ID:EIG2:scan4.AWCT 0
+18ID:EIG2:scan4.A1PV 
+18ID:EIG2:scan4.A1CD 1
+18ID:EIG2:scan4.D01PV 
+18ID:EIG2:scan4.D02PV 
+18ID:EIG2:scan4.D03PV 
+18ID:EIG2:scan4.D04PV 
+18ID:EIG2:scan4.D05PV 
+18ID:EIG2:scan4.D06PV 
+18ID:EIG2:scan4.D07PV 
+18ID:EIG2:scan4.D08PV 
+18ID:EIG2:scan4.D09PV 
+18ID:EIG2:scan4.D10PV 
+18ID:EIG2:scan4.D11PV 
+18ID:EIG2:scan4.D12PV 
+18ID:EIG2:scan4.D13PV 
+18ID:EIG2:scan4.D14PV 
+18ID:EIG2:scan4.D15PV 
+18ID:EIG2:scan4.D16PV 
+18ID:EIG2:scan4.D17PV 
+18ID:EIG2:scan4.D18PV 
+18ID:EIG2:scan4.D19PV 
+18ID:EIG2:scan4.D20PV 
+18ID:EIG2:scan4.D21PV 
+18ID:EIG2:scan4.D22PV 
+18ID:EIG2:scan4.D23PV 
+18ID:EIG2:scan4.D24PV 
+18ID:EIG2:scan4.D25PV 
+18ID:EIG2:scan4.D26PV 
+18ID:EIG2:scan4.D27PV 
+18ID:EIG2:scan4.D28PV 
+18ID:EIG2:scan4.D29PV 
+18ID:EIG2:scan4.D30PV 
+18ID:EIG2:scan4.D31PV 
+18ID:EIG2:scan4.D32PV 
+18ID:EIG2:scan4.D33PV 
+18ID:EIG2:scan4.D34PV 
+18ID:EIG2:scan4.D35PV 
+18ID:EIG2:scan4.D36PV 
+18ID:EIG2:scan4.D37PV 
+18ID:EIG2:scan4.D38PV 
+18ID:EIG2:scan4.D39PV 
+18ID:EIG2:scan4.D40PV 
+18ID:EIG2:scan4.D41PV 
+18ID:EIG2:scan4.D42PV 
+18ID:EIG2:scan4.D43PV 
+18ID:EIG2:scan4.D44PV 
+18ID:EIG2:scan4.D45PV 
+18ID:EIG2:scan4.D46PV 
+18ID:EIG2:scan4.D47PV 
+18ID:EIG2:scan4.D48PV 
+18ID:EIG2:scan4.D49PV 
+18ID:EIG2:scan4.D50PV 
+18ID:EIG2:scan4.D51PV 
+18ID:EIG2:scan4.D52PV 
+18ID:EIG2:scan4.D53PV 
+18ID:EIG2:scan4.D54PV 
+18ID:EIG2:scan4.D55PV 
+18ID:EIG2:scan4.D56PV 
+18ID:EIG2:scan4.D57PV 
+18ID:EIG2:scan4.D58PV 
+18ID:EIG2:scan4.D59PV 
+18ID:EIG2:scan4.D60PV 
+18ID:EIG2:scan4.D61PV 
+18ID:EIG2:scan4.D62PV 
+18ID:EIG2:scan4.D63PV 
+18ID:EIG2:scan4.D64PV 
+18ID:EIG2:scan4.D65PV 
+18ID:EIG2:scan4.D66PV 
+18ID:EIG2:scan4.D67PV 
+18ID:EIG2:scan4.D68PV 
+18ID:EIG2:scan4.D69PV 
+18ID:EIG2:scan4.D70PV 
+18ID:EIG2:scanH.ATIME 0
+18ID:EIG2:scanH.COPYTO 0
+18ID:EIG2:scanH.AAWAIT 0
+18ID:EIG2:scanH.FLNK 
+18ID:EIG2:scanH.NPTS 10
+18ID:EIG2:scanH.ACQT 1
+18ID:EIG2:scanH.ACQM 0
+18ID:EIG2:scanH.PASM 0
+18ID:EIG2:scanH.BSPV 
+18ID:EIG2:scanH.BSCD 1
+18ID:EIG2:scanH.BSWAIT 0
+18ID:EIG2:scanH.ASPV 
+18ID:EIG2:scanH.ASCD 1
+18ID:EIG2:scanH.ASWAIT 0
+18ID:EIG2:scanH.T1PV 
+18ID:EIG2:scanH.T1CD 1
+18ID:EIG2:scanH.T2PV 
+18ID:EIG2:scanH.T2CD 1
+18ID:EIG2:scanH.T3PV 
+18ID:EIG2:scanH.T3CD 1
+18ID:EIG2:scanH.T4PV 
+18ID:EIG2:scanH.T4CD 1
+18ID:EIG2:scanH.P1PV 
+18ID:EIG2:scanH.R1PV 
+18ID:EIG2:scanH.P1SM 0
+18ID:EIG2:scanH.P1SP 0
+18ID:EIG2:scanH.P1EP 0
+18ID:EIG2:scanH.P1AR 0
+18ID:EIG2:scanH.P2PV 
+18ID:EIG2:scanH.R2PV 
+18ID:EIG2:scanH.P2SM 0
+18ID:EIG2:scanH.P2SP 0
+18ID:EIG2:scanH.P2EP 0
+18ID:EIG2:scanH.P2AR 0
+18ID:EIG2:scanH.P3PV 
+18ID:EIG2:scanH.R3PV 
+18ID:EIG2:scanH.P3SM 0
+18ID:EIG2:scanH.P3SP 0
+18ID:EIG2:scanH.P3EP 0
+18ID:EIG2:scanH.P3AR 0
+18ID:EIG2:scanH.P4PV 
+18ID:EIG2:scanH.R4PV 
+18ID:EIG2:scanH.P4SM 0
+18ID:EIG2:scanH.P4SP 0
+18ID:EIG2:scanH.P4EP 0
+18ID:EIG2:scanH.P4AR 0
+18ID:EIG2:scanH.PDLY 0
+18ID:EIG2:scanH.DDLY 0
+18ID:EIG2:scanH.REFD 1
+18ID:EIG2:scanH.AWCT 0
+18ID:EIG2:scanH.A1PV 
+18ID:EIG2:scanH.A1CD 1
+18ID:EIG2:scanH.D01PV 
+18ID:EIG2:scanH.D02PV 
+18ID:EIG2:scanH.D03PV 
+18ID:EIG2:scanH.D04PV 
+18ID:EIG2:scanH.D05PV 
+18ID:EIG2:scanH.D06PV 
+18ID:EIG2:scanH.D07PV 
+18ID:EIG2:scanH.D08PV 
+18ID:EIG2:scanH.D09PV 
+18ID:EIG2:scanH.D10PV 
+18ID:EIG2:scanH.D11PV 
+18ID:EIG2:scanH.D12PV 
+18ID:EIG2:scanH.D13PV 
+18ID:EIG2:scanH.D14PV 
+18ID:EIG2:scanH.D15PV 
+18ID:EIG2:scanH.D16PV 
+18ID:EIG2:scanH.D17PV 
+18ID:EIG2:scanH.D18PV 
+18ID:EIG2:scanH.D19PV 
+18ID:EIG2:scanH.D20PV 
+18ID:EIG2:scanH.D21PV 
+18ID:EIG2:scanH.D22PV 
+18ID:EIG2:scanH.D23PV 
+18ID:EIG2:scanH.D24PV 
+18ID:EIG2:scanH.D25PV 
+18ID:EIG2:scanH.D26PV 
+18ID:EIG2:scanH.D27PV 
+18ID:EIG2:scanH.D28PV 
+18ID:EIG2:scanH.D29PV 
+18ID:EIG2:scanH.D30PV 
+18ID:EIG2:scanH.D31PV 
+18ID:EIG2:scanH.D32PV 
+18ID:EIG2:scanH.D33PV 
+18ID:EIG2:scanH.D34PV 
+18ID:EIG2:scanH.D35PV 
+18ID:EIG2:scanH.D36PV 
+18ID:EIG2:scanH.D37PV 
+18ID:EIG2:scanH.D38PV 
+18ID:EIG2:scanH.D39PV 
+18ID:EIG2:scanH.D40PV 
+18ID:EIG2:scanH.D41PV 
+18ID:EIG2:scanH.D42PV 
+18ID:EIG2:scanH.D43PV 
+18ID:EIG2:scanH.D44PV 
+18ID:EIG2:scanH.D45PV 
+18ID:EIG2:scanH.D46PV 
+18ID:EIG2:scanH.D47PV 
+18ID:EIG2:scanH.D48PV 
+18ID:EIG2:scanH.D49PV 
+18ID:EIG2:scanH.D50PV 
+18ID:EIG2:scanH.D51PV 
+18ID:EIG2:scanH.D52PV 
+18ID:EIG2:scanH.D53PV 
+18ID:EIG2:scanH.D54PV 
+18ID:EIG2:scanH.D55PV 
+18ID:EIG2:scanH.D56PV 
+18ID:EIG2:scanH.D57PV 
+18ID:EIG2:scanH.D58PV 
+18ID:EIG2:scanH.D59PV 
+18ID:EIG2:scanH.D60PV 
+18ID:EIG2:scanH.D61PV 
+18ID:EIG2:scanH.D62PV 
+18ID:EIG2:scanH.D63PV 
+18ID:EIG2:scanH.D64PV 
+18ID:EIG2:scanH.D65PV 
+18ID:EIG2:scanH.D66PV 
+18ID:EIG2:scanH.D67PV 
+18ID:EIG2:scanH.D68PV 
+18ID:EIG2:scanH.D69PV 
+18ID:EIG2:scanH.D70PV 
+18ID:EIG2:AcquireSequence.SCAN 0
+18ID:EIG2:AcquireSequence.DESC 
+18ID:EIG2:AcquireSequence.PREC 0
+18ID:EIG2:AcquireSequence.DLY1 0
+18ID:EIG2:AcquireSequence.DOL1 
+18ID:EIG2:AcquireSequence.DO1 0
+18ID:EIG2:AcquireSequence.STR1 0
+18ID:EIG2:AcquireSequence.LNK1 
+18ID:EIG2:AcquireSequence.WAIT1 0
+18ID:EIG2:AcquireSequence.DLY2 0
+18ID:EIG2:AcquireSequence.DOL2 
+18ID:EIG2:AcquireSequence.DO2 0
+18ID:EIG2:AcquireSequence.STR2 0
+18ID:EIG2:AcquireSequence.LNK2 
+18ID:EIG2:AcquireSequence.WAIT2 0
+18ID:EIG2:AcquireSequence.DLY3 0
+18ID:EIG2:AcquireSequence.DOL3 
+18ID:EIG2:AcquireSequence.DO3 0
+18ID:EIG2:AcquireSequence.STR3 0
+18ID:EIG2:AcquireSequence.LNK3 
+18ID:EIG2:AcquireSequence.WAIT3 0
+18ID:EIG2:AcquireSequence.DLY4 0
+18ID:EIG2:AcquireSequence.DOL4 
+18ID:EIG2:AcquireSequence.DO4 0
+18ID:EIG2:AcquireSequence.STR4 0
+18ID:EIG2:AcquireSequence.LNK4 
+18ID:EIG2:AcquireSequence.WAIT4 0
+18ID:EIG2:AcquireSequence.DLY5 0
+18ID:EIG2:AcquireSequence.DOL5 
+18ID:EIG2:AcquireSequence.DO5 0
+18ID:EIG2:AcquireSequence.STR5 0
+18ID:EIG2:AcquireSequence.LNK5 
+18ID:EIG2:AcquireSequence.WAIT5 0
+18ID:EIG2:AcquireSequence.DLY6 0
+18ID:EIG2:AcquireSequence.DOL6 
+18ID:EIG2:AcquireSequence.DO6 0
+18ID:EIG2:AcquireSequence.STR6 0
+18ID:EIG2:AcquireSequence.LNK6 
+18ID:EIG2:AcquireSequence.WAIT6 0
+18ID:EIG2:AcquireSequence.DLY7 0
+18ID:EIG2:AcquireSequence.DOL7 
+18ID:EIG2:AcquireSequence.DO7 0
+18ID:EIG2:AcquireSequence.STR7 0
+18ID:EIG2:AcquireSequence.LNK7 
+18ID:EIG2:AcquireSequence.WAIT7 0
+18ID:EIG2:AcquireSequence.DLY8 0
+18ID:EIG2:AcquireSequence.DOL8 
+18ID:EIG2:AcquireSequence.DO8 0
+18ID:EIG2:AcquireSequence.STR8 0
+18ID:EIG2:AcquireSequence.LNK8 
+18ID:EIG2:AcquireSequence.WAIT8 0
+18ID:EIG2:AcquireSequence.DLY9 0
+18ID:EIG2:AcquireSequence.DOL9 
+18ID:EIG2:AcquireSequence.DO9 0
+18ID:EIG2:AcquireSequence.STR9 0
+18ID:EIG2:AcquireSequence.LNK9 
+18ID:EIG2:AcquireSequence.WAIT9 0
+18ID:EIG2:AcquireSequence.DLYA 0
+18ID:EIG2:AcquireSequence.DOLA 
+18ID:EIG2:AcquireSequence.DOA 0
+18ID:EIG2:AcquireSequence.STRA 0
+18ID:EIG2:AcquireSequence.LNKA 
+18ID:EIG2:AcquireSequence.WAITA 0
+18ID:EIG2:AcquireSequence.FLNK 
+18ID:EIG2:AcquireSequence.SELL 
+18ID:EIG2:AcquireSequence.SELN 1
+18ID:EIG2:AcquireSequence.SELM 0
+<END>
