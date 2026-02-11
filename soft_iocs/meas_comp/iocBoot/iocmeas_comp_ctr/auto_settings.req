@@ -1,2 +1,3 @@
-file "USBCTR_settings.req", P=$(P), SP=$(P), MP=$(MP)
+#file "USBCTR_settings.req", P=$(P1), SP=$(P1), MP=$(MP1)
+file "USBCTR_settings.req", P=$(P2), SP=$(P2), MP=$(MP2)
 

@@ -1,5 +1,5 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260209-162101
-18ID:Toast:H:High.VAL 5
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260211-153852
+18ID:Toast:H:High.VAL 5.2
 18ID:Toast:H:High.DRVH 0
 18ID:Toast:H:High.DRVL 0
 18ID:Toast:H:High.DESC Toast high limit
@@ -14,15 +14,15 @@
 18ID:Toast:H:Move.PREC 0
 18ID:Toast:H:Move.DLY1 0
 18ID:Toast:H:Move.DOL1 18ID:Toast:H:High.OVAL NPP NMS
-18ID:Toast:H:Move.DO1 5
+18ID:Toast:H:Move.DO1 5.2
 18ID:Toast:H:Move.STR1 5
-18ID:Toast:H:Move.LNK1 18ID_DMC_E05:33.VAL CA NMS
+18ID:Toast:H:Move.LNK1 18ID_DMC_E05:33 CA NMS
 18ID:Toast:H:Move.WAIT1 1
 18ID:Toast:H:Move.DLY2 0
 18ID:Toast:H:Move.DOL2 18ID:Toast:H:Low.OVAL NPP NMS
 18ID:Toast:H:Move.DO2 -5
 18ID:Toast:H:Move.STR2 -5
-18ID:Toast:H:Move.LNK2 18ID_DMC_E05:33.VAL CA NMS
+18ID:Toast:H:Move.LNK2 18ID_DMC_E05:33 CA NMS
 18ID:Toast:H:Move.WAIT2 1
 18ID:Toast:H:Move.DLY3 0
 18ID:Toast:H:Move.DOL3 1
@@ -93,13 +93,13 @@
 18ID:Toast:V:Move.DOL1 18ID:Toast:V:High.OVAL NPP NMS
 18ID:Toast:V:Move.DO1 5
 18ID:Toast:V:Move.STR1 5
-18ID:Toast:V:Move.LNK1 18ID_DMC_E05:34.VAL CA NMS
+18ID:Toast:V:Move.LNK1 18ID_DMC_E05:34 CA NMS
 18ID:Toast:V:Move.WAIT1 1
 18ID:Toast:V:Move.DLY2 0
 18ID:Toast:V:Move.DOL2 18ID:Toast:V:Low.OVAL NPP NMS
 18ID:Toast:V:Move.DO2 -5
 18ID:Toast:V:Move.STR2 -5
-18ID:Toast:V:Move.LNK2 18ID_DMC_E05:34.VAL CA NMS
+18ID:Toast:V:Move.LNK2 18ID_DMC_E05:34 CA NMS
 18ID:Toast:V:Move.WAIT2 1
 18ID:Toast:V:Move.DLY3 0
 18ID:Toast:V:Move.DOL3 1
