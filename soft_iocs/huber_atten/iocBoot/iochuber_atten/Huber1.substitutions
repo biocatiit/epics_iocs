@@ -1,0 +1,172 @@
+# asyn record for the underlying asyn octet port
+file "$(ASYN)/db/asynRecord.db" { pattern
+{P,           R,       PORT,      ADDR,   IMAX,    OMAX}
+{18ID:HUBER1:    OctetAsyn,    Huber1,     0,      80,      80}
+}
+
+# These are the Yn inputs done with word access Y0-Y7
+file "$(MODBUS)/db/bi_word.template" { pattern
+{P,           R,         PORT,              OFFSET,    MASK,     ZNAM,   ONAM,  ZSV,       OSV,    SCAN}
+{18ID:HUBER1:,    A1In,     H1_An_In_Word,     0,        0x0001,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A2In,     H1_An_In_Word,     0,        0x0002,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A3In,     H1_An_In_Word,     0,        0x0004,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A4In,     H1_An_In_Word,     0,        0x0008,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A5In,     H1_An_In_Word,     0,        0x0010,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A6In,     H1_An_In_Word,     0,        0x0020,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A7In,     H1_An_In_Word,     0,        0x0040,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+{18ID:HUBER1:,    A8In,     H1_An_In_Word,     0,        0x0080,    Out,    In,  NO_ALARM,  MAJOR,  "I/O Intr"}
+}
+file "$(MODBUS)/db/mbbiDirect.template" { pattern
+{P,           R,         PORT,               OFFSET,   MASK, SCAN}
+{18ID:HUBER1:,    AnInL,     H1_An_In_Word,      0,        0xFFFF, "I/O Intr"}
+}
+file "$(MODBUS)/db/intarray_in.template" { pattern
+{P,           R,          PORT,              NELM,   SCAN}
+{18ID:HUBER1:,    AnInArray, H1_An_In_Word,     8,     "I/O Intr"}
+}
+file "$(MODBUS)/db/asynRecord.template" { pattern
+{P,           R,         PORT,             ADDR,     TMOD,  IFACE}
+{18ID:HUBER1:,    AnInAsyn, H1_An_In_Word,    0,        Read,  asynInt32}
+}
+file "$(MODBUS)/db/statistics.template" { pattern
+{P,           R,         PORT,          SCAN}
+{18ID:HUBER1:,    AnIn,     H1_An_In_Word, "10 second"}
+}
+file "$(MODBUS)/db/poll_delay.template" { pattern
+{P,           R,               PORT}
+{18ID:HUBER1:,    AnInPollDelay, H1_An_In_Word}
+}
+
+
+# These are the Yn outputs done with word access.  Y0-Y7 
+file "$(MODBUS)/db/bo_word.template" { pattern
+{P,           R,          PORT,               OFFSET,   MASK,      ZNAM,   ONAM}
+{18ID:HUBER1:,    A1Out,     H1_An_Out_Word,     0,        0x0001,    Out,    In}
+{18ID:HUBER1:,    A2Out,     H1_An_Out_Word,     0,        0x0002,    Out,    In}
+{18ID:HUBER1:,    A3Out,     H1_An_Out_Word,     0,        0x0004,    Out,    In}
+{18ID:HUBER1:,    A4Out,     H1_An_Out_Word,     0,        0x0008,    Out,    In}
+{18ID:HUBER1:,    A5Out,     H1_An_Out_Word,     0,        0x0010,    Out,    In}
+{18ID:HUBER1:,    A6Out,     H1_An_Out_Word,     0,        0x0020,    Out,    In}
+{18ID:HUBER1:,    A7Out,     H1_An_Out_Word,     0,        0x0040,    Out,    In}
+{18ID:HUBER1:,    A8Out,     H1_An_Out_Word,     0,        0x0080,    Out,    In}
+}
+file "$(MODBUS)/db/mbboDirect.template" { pattern
+{P,           R,          PORT,              OFFSET,    MASK}
+{18ID:HUBER1:,    AnOutL,     H1_An_Out_Word,     0,         0xFFFF}
+}
+file "$(MODBUS)/db/asynRecord.template" { pattern
+{P,           R,          PORT,              ADDR,     TMOD,  IFACE}
+{18ID:HUBER1:,    AnOutAsyn, H1_An_Out_Word,    0,        Read,  asynUInt32Digital}
+}
+file "$(MODBUS)/db/statistics.template" { pattern
+{P,           R,          PORT,            SCAN}
+{18ID:HUBER1:,    AnOut,     H1_An_Out_Word,  "10 second"}
+}
+
+
+# These sync between Yn inputs and outputs in case value is changed through a different interface
+file "sync_bo.template" { pattern
+{P,           R,          I,        O}
+{18ID:HUBER1:,       A1,     A1In,     A1Out}
+{18ID:HUBER1:,       A2,     A2In,     A2Out}
+{18ID:HUBER1:,       A3,     A3In,     A3Out}
+{18ID:HUBER1:,       A4,     A4In,     A4Out}
+{18ID:HUBER1:,       A5,     A5In,     A5Out}
+{18ID:HUBER1:,       A6,     A6In,     A6Out}
+{18ID:HUBER1:,       A7,     A7In,     A7Out}
+{18ID:HUBER1:,       A8,     A8In,     A8Out}
+}
+
+
+# These are the Tn values (attenuator thickness) done with word access.  T0-T7 
+file "$(MODBUS)/db/longinInt32.template" { pattern
+{P,           R,          PORT,               OFFSET,   DATA_TYPE,   SCAN}
+{18ID:HUBER1:,    T1,     H1_T1_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T2,     H1_T2_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T3,     H1_T3_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T4,     H1_T4_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T5,     H1_T5_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T6,     H1_T6_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T7,     H1_T7_In_Word,     0,        "UINT16",     "I/O Intr"}
+{18ID:HUBER1:,    T8,     H1_T8_In_Word,     0,        "UINT16",     "I/O Intr"}
+}
+file "$(MODBUS)/db/asynRecord.template" { pattern
+{P,           R,          PORT,              ADDR,     TMOD,  IFACE}
+{18ID:HUBER1:,    T1Asyn, H1_T1_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T2Asyn, H1_T2_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T3Asyn, H1_T3_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T4Asyn, H1_T4_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T5Asyn, H1_T5_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T6Asyn, H1_T6_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T7Asyn, H1_T7_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    T8Asyn, H1_T8_In_Word,    0,        Read,  asynUInt32Digital}
+}
+file "$(MODBUS)/db/statistics.template" { pattern
+{P,           R,          PORT,            SCAN}
+{18ID:HUBER1:,    T1,     H1_T1_In_Word,  "10 second"}
+{18ID:HUBER1:,    T2,     H1_T2_In_Word,  "10 second"}
+{18ID:HUBER1:,    T3,     H1_T3_In_Word,  "10 second"}
+{18ID:HUBER1:,    T4,     H1_T4_In_Word,  "10 second"}
+{18ID:HUBER1:,    T5,     H1_T5_In_Word,  "10 second"}
+{18ID:HUBER1:,    T6,     H1_T6_In_Word,  "10 second"}
+{18ID:HUBER1:,    T7,     H1_T7_In_Word,  "10 second"}
+{18ID:HUBER1:,    T8,     H1_T8_In_Word,  "10 second"}
+}
+file "$(MODBUS)/db/poll_delay.template" { pattern
+{P,           R,               PORT}
+{18ID:HUBER1:,    T1PollDelay, H1_T1_In_Word}
+{18ID:HUBER1:,    T2PollDelay, H1_T2_In_Word}
+{18ID:HUBER1:,    T3PollDelay, H1_T3_In_Word}
+{18ID:HUBER1:,    T4PollDelay, H1_T4_In_Word}
+{18ID:HUBER1:,    T5PollDelay, H1_T5_In_Word}
+{18ID:HUBER1:,    T6PollDelay, H1_T6_In_Word}
+{18ID:HUBER1:,    T7PollDelay, H1_T7_In_Word}
+{18ID:HUBER1:,    T8PollDelay, H1_T8_In_Word}
+}
+
+
+# These are the Ln values (attenuator label, first 4 characters) done with word access.  L0-L7 
+file "$(MODBUS)/db/stringin.template" { pattern
+{P,           R,          PORT,               OFFSET,   DATA_TYPE,   SCAN}
+{18ID:HUBER1:,    L1,     H1_L1_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L2,     H1_L2_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L3,     H1_L3_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L4,     H1_L4_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L5,     H1_L5_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L6,     H1_L6_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L7,     H1_L7_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+{18ID:HUBER1:,    L8,     H1_L8_In_Word,     0,        "ZSTRING_LOW",     "I/O Intr"}
+}
+file "$(MODBUS)/db/asynRecord.template" { pattern
+{P,           R,          PORT,              ADDR,     TMOD,  IFACE}
+{18ID:HUBER1:,    L1Asyn, H1_L1_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L2Asyn, H1_L2_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L3Asyn, H1_L3_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L4Asyn, H1_L4_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L5Asyn, H1_L5_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L6Asyn, H1_L6_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L7Asyn, H1_L7_In_Word,    0,        Read,  asynUInt32Digital}
+{18ID:HUBER1:,    L8Asyn, H1_L8_In_Word,    0,        Read,  asynUInt32Digital}
+}
+file "$(MODBUS)/db/statistics.template" { pattern
+{P,           R,          PORT,            SCAN}
+{18ID:HUBER1:,    L1,     H1_L1_In_Word,  "10 second"}
+{18ID:HUBER1:,    L2,     H1_L2_In_Word,  "10 second"}
+{18ID:HUBER1:,    L3,     H1_L3_In_Word,  "10 second"}
+{18ID:HUBER1:,    L4,     H1_L4_In_Word,  "10 second"}
+{18ID:HUBER1:,    L5,     H1_L5_In_Word,  "10 second"}
+{18ID:HUBER1:,    L6,     H1_L6_In_Word,  "10 second"}
+{18ID:HUBER1:,    L7,     H1_L7_In_Word,  "10 second"}
+{18ID:HUBER1:,    L8,     H1_L8_In_Word,  "10 second"}
+}
+file "$(MODBUS)/db/poll_delay.template" { pattern
+{P,           R,               PORT}
+{18ID:HUBER1:,    L1PollDelay, H1_L1_In_Word}
+{18ID:HUBER1:,    L2PollDelay, H1_L2_In_Word}
+{18ID:HUBER1:,    L3PollDelay, H1_L3_In_Word}
+{18ID:HUBER1:,    L4PollDelay, H1_L4_In_Word}
+{18ID:HUBER1:,    L5PollDelay, H1_L5_In_Word}
+{18ID:HUBER1:,    L6PollDelay, H1_L6_In_Word}
+{18ID:HUBER1:,    L7PollDelay, H1_L7_In_Word}
+{18ID:HUBER1:,    L8PollDelay, H1_L8_In_Word}
+}
