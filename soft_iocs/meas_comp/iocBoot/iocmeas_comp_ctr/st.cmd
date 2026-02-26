@@ -120,6 +120,12 @@ dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R
 dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R=$(RNAME2)9,  INP=@asyn($(PORT2) 8),  CHANS=$(MAX_POINTS2)")
 
 
+### Scan-support software
+# crate-resident scan.  This executes 1D, 2D, 3D, and 4D scans, and caches
+# 1D data, but it doesn't store anything to disk.  (See 'saveData' below for that.)
+dbLoadRecords("$(SSCAN)/sscanApp/Db/standardScans.db","P=18ID:Scans:,MAXPTS1=8000,MAXPTS2=1000,MAXPTS3=10,MAXPTS4=10,MAXPTSH=8000")
+dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=18ID:Scans:")
+
 < save_restore.cmd
 
 iocInit
@@ -127,6 +133,9 @@ iocInit
 seq(USBCTR_SNL, "P=$(MCS_PREFIX), R=$(RNAME), NUM_COUNTERS=$(MAX_COUNTERS), FIELD=$(FIELD)")
 seq(USBCTR_SNL, "P=$(MCS_PREFIX2), R=$(RNAME2), NUM_COUNTERS=$(MAX_COUNTERS2), FIELD=$(FIELD2)")
 
-create_monitor_set("auto_settings.req",30,"P1=$(PREFIX),MP1=$(MCS_PREFIX),P2=$(PREFIX2),MP2=$(MCS_PREFIX2)")
+# Initialize saveData for step scans
+saveData_Init("saveData.req", "P=18ID:Scans:")
+
+create_monitor_set("auto_settings.req",30,"P1=$(PREFIX),MP1=$(MCS_PREFIX),P2=$(PREFIX2),MP2=$(MCS_PREFIX2),SP=18ID:Scans:")
 
 date

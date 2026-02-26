@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260213-115008
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260226-170432
 18ID:SR570:1:asyn_1bias_put.VAL 0
 18ID:SR570:1:asyn_1bias_tweak.VAL 0
 18ID:SR570:1:asyn_1bias_on.VAL 0
@@ -12,11 +12,11 @@
 18ID:SR570:1:asyn_1offset_sign.VAL 0
 18ID:SR570:1:asyn_1offset_num.VAL 0
 18ID:SR570:1:asyn_1offset_unit.VAL 0
-18ID:SR570:1:asyn_1gain_mode.VAL 0
-18ID:SR570:1:asyn_1invert_on.VAL 0
+18ID:SR570:1:asyn_1gain_mode.VAL 2
+18ID:SR570:1:asyn_1invert_on.VAL 1
 18ID:SR570:1:asyn_1blank_on.VAL 0
-18ID:SR570:1:asyn_1sens_num.VAL 0
-18ID:SR570:1:asyn_1sens_unit.VAL 3
+18ID:SR570:1:asyn_1sens_num.VAL 3
+18ID:SR570:1:asyn_1sens_unit.VAL 2
 18ID:SR570:1:asyn_1init.DESC SR570 1: I0
 18ID:SR570:2:asyn_2bias_put.VAL 0
 18ID:SR570:2:asyn_2bias_tweak.VAL 0
