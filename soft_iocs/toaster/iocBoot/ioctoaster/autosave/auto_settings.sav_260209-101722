@@ -1,0 +1,12 @@
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260209-100912
+18ID:Toast:H:High.VAL 5
+18ID:Toast:H:High.DRVH 0
+18ID:Toast:H:High.DRVL 0
+18ID:Toast:H:High.DESC Toast high limit
+18ID:Toast:H:High.EGU 
+18ID:Toast:H:Low.VAL -5
+18ID:Toast:H:Low.DRVH 0
+18ID:Toast:H:Low.DRVL 0
+18ID:Toast:H:Low.DESC Toast low limit
+18ID:Toast:H:Low.EGU 
+<END>

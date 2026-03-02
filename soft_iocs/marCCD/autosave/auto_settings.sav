@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250516-093042
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260210-174312
 Mar165:cam1:BinX 2
 Mar165:cam1:BinY 2
 Mar165:cam1:MinX 0
@@ -8,7 +8,7 @@ Mar165:cam1:SizeY 1
 Mar165:cam1:ReverseX 0
 Mar165:cam1:ReverseY 0
 Mar165:cam1:AcquireTime 1
-Mar165:cam1:AcquirePeriod 0
+Mar165:cam1:AcquirePeriod 2
 Mar165:cam1:Gain 1
 Mar165:cam1:FrameType 0
 Mar165:cam1:ImageMode 0
@@ -31,13 +31,13 @@ Mar165:cam1:DataType 2
 Mar165:cam1:ColorMode 0
 Mar165:cam1:ArrayCallbacks 1
 Mar165:cam1:NDAttributesFile 0
-Mar165:cam1:NDAttributesMacros 
+Mar165:cam1:NDAttributesMacros 0
 Mar165:cam1:PoolPollStats.SCAN 6
 Mar165:cam1:NumPreAllocBuffers 100
 Mar165:cam1:WaitForPlugins 0
-Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "109" "97" "114" "47" "50" "48" "50" "53" "95" "82" "117" "110" "49" "47" "115" "101" "116" "117" "112" "0" }
-Mar165:cam1:FileName @array@ { "116" "101" "115" "116" "101" "114" "0" }
-Mar165:cam1:FileNumber 7
+Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "109" "97" "114" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "50" "48" "51" "95" "71" "111" "110" "103" "0" }
+Mar165:cam1:FileName @array@ { "70" "50" "54" "95" "48" "50" "48" "54" "53" "95" "80" "49" "95" "76" "86" "95" "83" "76" "50" "51" "95" "112" "67" "97" "52" "53" "0" }
+Mar165:cam1:FileNumber 4
 Mar165:cam1:AutoIncrement 1
 Mar165:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "53" "46" "53" "100" "46" "116" "105" "102" "0" }
 Mar165:cam1:AutoSave 1
@@ -65,7 +65,7 @@ Mar165:cam1:FileComments 0
 Mar165:cam1:DatasetComments 0
 Mar165:cam1:GateMode 0
 Mar165:cam1:ReadoutMode 0
-Mar165:cam1:SeriesFileTemplate 
+Mar165:cam1:SeriesFileTemplate @array@ { "49" "0" }
 Mar165:cam1:SeriesFileDigits 5
 Mar165:cam1:SeriesFileFirst 1
 Mar165:image1:NDArrayPort MAR
@@ -83,7 +83,7 @@ Mar165:image1:DataType 0
 Mar165:image1:ColorMode 0
 Mar165:image1:ArrayCallbacks 0
 Mar165:image1:NDAttributesFile 0
-Mar165:image1:NDAttributesMacros 
+Mar165:image1:NDAttributesMacros 0
 Mar165:image1:PoolPollStats.SCAN 6
 Mar165:image1:NumPreAllocBuffers 100
 Mar165:image1:WaitForPlugins 0
@@ -115,7 +115,7 @@ Mar165:netCDF1:DataType 0
 Mar165:netCDF1:ColorMode 0
 Mar165:netCDF1:ArrayCallbacks 0
 Mar165:netCDF1:NDAttributesFile 0
-Mar165:netCDF1:NDAttributesMacros 
+Mar165:netCDF1:NDAttributesMacros 0
 Mar165:netCDF1:PoolPollStats.SCAN 6
 Mar165:netCDF1:NumPreAllocBuffers 100
 Mar165:netCDF1:WaitForPlugins 0
@@ -147,7 +147,7 @@ Mar165:TIFF1:DataType 0
 Mar165:TIFF1:ColorMode 0
 Mar165:TIFF1:ArrayCallbacks 0
 Mar165:TIFF1:NDAttributesFile 0
-Mar165:TIFF1:NDAttributesMacros 
+Mar165:TIFF1:NDAttributesMacros 0
 Mar165:TIFF1:PoolPollStats.SCAN 6
 Mar165:TIFF1:NumPreAllocBuffers 100
 Mar165:TIFF1:WaitForPlugins 0
@@ -180,7 +180,7 @@ Mar165:JPEG1:DataType 0
 Mar165:JPEG1:ColorMode 0
 Mar165:JPEG1:ArrayCallbacks 0
 Mar165:JPEG1:NDAttributesFile 0
-Mar165:JPEG1:NDAttributesMacros 
+Mar165:JPEG1:NDAttributesMacros 0
 Mar165:JPEG1:PoolPollStats.SCAN 6
 Mar165:JPEG1:NumPreAllocBuffers 100
 Mar165:JPEG1:WaitForPlugins 0
@@ -214,7 +214,7 @@ Mar165:Nexus1:DataType 0
 Mar165:Nexus1:ColorMode 0
 Mar165:Nexus1:ArrayCallbacks 0
 Mar165:Nexus1:NDAttributesFile 0
-Mar165:Nexus1:NDAttributesMacros 
+Mar165:Nexus1:NDAttributesMacros 0
 Mar165:Nexus1:PoolPollStats.SCAN 6
 Mar165:Nexus1:NumPreAllocBuffers 100
 Mar165:Nexus1:WaitForPlugins 0
@@ -248,13 +248,13 @@ Mar165:HDF1:NumExtraDims 0
 Mar165:HDF1:ExtraDimSizeN 1
 Mar165:HDF1:ExtraDimSizeX 1
 Mar165:HDF1:ExtraDimSizeY 1
-Mar165:HDF1:XMLFileName 
+Mar165:HDF1:XMLFileName 0
 Mar165:HDF1:SWMRMode 0
-Mar165:HDF1:FilePath 
-Mar165:HDF1:FileName 
+Mar165:HDF1:FilePath 0
+Mar165:HDF1:FileName 0
 Mar165:HDF1:FileNumber 0
 Mar165:HDF1:AutoIncrement 0
-Mar165:HDF1:FileTemplate 
+Mar165:HDF1:FileTemplate 0
 Mar165:HDF1:AutoSave 0
 Mar165:HDF1:FileFormat 0
 Mar165:HDF1:FileWriteMode 0
@@ -277,8 +277,8 @@ Mar165:HDF1:SortSize 20
 Mar165:HDF1:DataType 0
 Mar165:HDF1:ColorMode 0
 Mar165:HDF1:ArrayCallbacks 0
-Mar165:HDF1:NDAttributesFile 
-Mar165:HDF1:NDAttributesMacros 
+Mar165:HDF1:NDAttributesFile 0
+Mar165:HDF1:NDAttributesMacros 0
 Mar165:HDF1:PoolPollStats.SCAN 6
 Mar165:HDF1:NumPreAllocBuffers 100
 Mar165:HDF1:WaitForPlugins 0
@@ -320,7 +320,7 @@ Mar165:ROI1:DataType 0
 Mar165:ROI1:ColorMode 0
 Mar165:ROI1:ArrayCallbacks 1
 Mar165:ROI1:NDAttributesFile 0
-Mar165:ROI1:NDAttributesMacros 
+Mar165:ROI1:NDAttributesMacros 0
 Mar165:ROI1:PoolPollStats.SCAN 6
 Mar165:ROI1:NumPreAllocBuffers 100
 Mar165:ROI1:WaitForPlugins 0
@@ -362,7 +362,7 @@ Mar165:ROI2:DataType 0
 Mar165:ROI2:ColorMode 0
 Mar165:ROI2:ArrayCallbacks 1
 Mar165:ROI2:NDAttributesFile 0
-Mar165:ROI2:NDAttributesMacros 
+Mar165:ROI2:NDAttributesMacros 0
 Mar165:ROI2:PoolPollStats.SCAN 6
 Mar165:ROI2:NumPreAllocBuffers 100
 Mar165:ROI2:WaitForPlugins 0
@@ -404,7 +404,7 @@ Mar165:ROI3:DataType 0
 Mar165:ROI3:ColorMode 0
 Mar165:ROI3:ArrayCallbacks 1
 Mar165:ROI3:NDAttributesFile 0
-Mar165:ROI3:NDAttributesMacros 
+Mar165:ROI3:NDAttributesMacros 0
 Mar165:ROI3:PoolPollStats.SCAN 6
 Mar165:ROI3:NumPreAllocBuffers 100
 Mar165:ROI3:WaitForPlugins 0
@@ -446,7 +446,7 @@ Mar165:ROI4:DataType 0
 Mar165:ROI4:ColorMode 0
 Mar165:ROI4:ArrayCallbacks 1
 Mar165:ROI4:NDAttributesFile 0
-Mar165:ROI4:NDAttributesMacros 
+Mar165:ROI4:NDAttributesMacros 0
 Mar165:ROI4:PoolPollStats.SCAN 6
 Mar165:ROI4:NumPreAllocBuffers 100
 Mar165:ROI4:WaitForPlugins 0
@@ -498,15 +498,15 @@ Mar165:Proc1:DataType 0
 Mar165:Proc1:ColorMode 0
 Mar165:Proc1:ArrayCallbacks 1
 Mar165:Proc1:NDAttributesFile 0
-Mar165:Proc1:NDAttributesMacros 
+Mar165:Proc1:NDAttributesMacros 0
 Mar165:Proc1:PoolPollStats.SCAN 6
 Mar165:Proc1:NumPreAllocBuffers 100
 Mar165:Proc1:WaitForPlugins 0
-Mar165:Proc1:TIFF:FilePath 
-Mar165:Proc1:TIFF:FileName 
+Mar165:Proc1:TIFF:FilePath 0
+Mar165:Proc1:TIFF:FileName 0
 Mar165:Proc1:TIFF:FileNumber 0
 Mar165:Proc1:TIFF:AutoIncrement 0
-Mar165:Proc1:TIFF:FileTemplate 
+Mar165:Proc1:TIFF:FileTemplate 0
 Mar165:Proc1:TIFF:AutoSave 0
 Mar165:Proc1:TIFF:FileFormat 0
 Mar165:Proc1:TIFF:FileWriteMode 0
@@ -529,8 +529,8 @@ Mar165:Proc1:TIFF:SortSize 20
 Mar165:Proc1:TIFF:DataType 0
 Mar165:Proc1:TIFF:ColorMode 0
 Mar165:Proc1:TIFF:ArrayCallbacks 0
-Mar165:Proc1:TIFF:NDAttributesFile 
-Mar165:Proc1:TIFF:NDAttributesMacros 
+Mar165:Proc1:TIFF:NDAttributesFile 0
+Mar165:Proc1:TIFF:NDAttributesMacros 0
 Mar165:Proc1:TIFF:PoolPollStats.SCAN 6
 Mar165:Proc1:TIFF:NumPreAllocBuffers 100
 Mar165:Proc1:TIFF:WaitForPlugins 0
@@ -548,8 +548,8 @@ Mar165:Scatter1:SortSize 20
 Mar165:Scatter1:DataType 0
 Mar165:Scatter1:ColorMode 0
 Mar165:Scatter1:ArrayCallbacks 1
-Mar165:Scatter1:NDAttributesFile 
-Mar165:Scatter1:NDAttributesMacros 
+Mar165:Scatter1:NDAttributesFile 0
+Mar165:Scatter1:NDAttributesMacros 0
 Mar165:Scatter1:PoolPollStats.SCAN 6
 Mar165:Scatter1:NumPreAllocBuffers 100
 Mar165:Scatter1:WaitForPlugins 0
@@ -567,8 +567,8 @@ Mar165:Gather1:SortSize 20
 Mar165:Gather1:DataType 0
 Mar165:Gather1:ColorMode 0
 Mar165:Gather1:ArrayCallbacks 1
-Mar165:Gather1:NDAttributesFile 
-Mar165:Gather1:NDAttributesMacros 
+Mar165:Gather1:NDAttributesFile 0
+Mar165:Gather1:NDAttributesMacros 0
 Mar165:Gather1:PoolPollStats.SCAN 6
 Mar165:Gather1:NumPreAllocBuffers 100
 Mar165:Gather1:WaitForPlugins 0
@@ -618,8 +618,8 @@ Mar165:Stats1:TS:SortSize 20
 Mar165:Stats1:TS:DataType 0
 Mar165:Stats1:TS:ColorMode 0
 Mar165:Stats1:TS:ArrayCallbacks 1
-Mar165:Stats1:TS:NDAttributesFile 
-Mar165:Stats1:TS:NDAttributesMacros 
+Mar165:Stats1:TS:NDAttributesFile 0
+Mar165:Stats1:TS:NDAttributesMacros 0
 Mar165:Stats1:TS:PoolPollStats.SCAN 6
 Mar165:Stats1:TS:NumPreAllocBuffers 100
 Mar165:Stats1:TS:WaitForPlugins 0
@@ -638,7 +638,7 @@ Mar165:Stats1:DataType 0
 Mar165:Stats1:ColorMode 0
 Mar165:Stats1:ArrayCallbacks 1
 Mar165:Stats1:NDAttributesFile 0
-Mar165:Stats1:NDAttributesMacros 
+Mar165:Stats1:NDAttributesMacros 0
 Mar165:Stats1:PoolPollStats.SCAN 6
 Mar165:Stats1:NumPreAllocBuffers 100
 Mar165:Stats1:WaitForPlugins 0
@@ -873,8 +873,8 @@ Mar165:Stats2:TS:SortSize 20
 Mar165:Stats2:TS:DataType 0
 Mar165:Stats2:TS:ColorMode 0
 Mar165:Stats2:TS:ArrayCallbacks 1
-Mar165:Stats2:TS:NDAttributesFile 
-Mar165:Stats2:TS:NDAttributesMacros 
+Mar165:Stats2:TS:NDAttributesFile 0
+Mar165:Stats2:TS:NDAttributesMacros 0
 Mar165:Stats2:TS:PoolPollStats.SCAN 6
 Mar165:Stats2:TS:NumPreAllocBuffers 100
 Mar165:Stats2:TS:WaitForPlugins 0
@@ -893,7 +893,7 @@ Mar165:Stats2:DataType 0
 Mar165:Stats2:ColorMode 0
 Mar165:Stats2:ArrayCallbacks 1
 Mar165:Stats2:NDAttributesFile 0
-Mar165:Stats2:NDAttributesMacros 
+Mar165:Stats2:NDAttributesMacros 0
 Mar165:Stats2:PoolPollStats.SCAN 6
 Mar165:Stats2:NumPreAllocBuffers 100
 Mar165:Stats2:WaitForPlugins 0
@@ -1128,8 +1128,8 @@ Mar165:Stats3:TS:SortSize 20
 Mar165:Stats3:TS:DataType 0
 Mar165:Stats3:TS:ColorMode 0
 Mar165:Stats3:TS:ArrayCallbacks 1
-Mar165:Stats3:TS:NDAttributesFile 
-Mar165:Stats3:TS:NDAttributesMacros 
+Mar165:Stats3:TS:NDAttributesFile 0
+Mar165:Stats3:TS:NDAttributesMacros 0
 Mar165:Stats3:TS:PoolPollStats.SCAN 6
 Mar165:Stats3:TS:NumPreAllocBuffers 100
 Mar165:Stats3:TS:WaitForPlugins 0
@@ -1148,7 +1148,7 @@ Mar165:Stats3:DataType 0
 Mar165:Stats3:ColorMode 0
 Mar165:Stats3:ArrayCallbacks 1
 Mar165:Stats3:NDAttributesFile 0
-Mar165:Stats3:NDAttributesMacros 
+Mar165:Stats3:NDAttributesMacros 0
 Mar165:Stats3:PoolPollStats.SCAN 6
 Mar165:Stats3:NumPreAllocBuffers 100
 Mar165:Stats3:WaitForPlugins 0
@@ -1383,8 +1383,8 @@ Mar165:Stats4:TS:SortSize 20
 Mar165:Stats4:TS:DataType 0
 Mar165:Stats4:TS:ColorMode 0
 Mar165:Stats4:TS:ArrayCallbacks 1
-Mar165:Stats4:TS:NDAttributesFile 
-Mar165:Stats4:TS:NDAttributesMacros 
+Mar165:Stats4:TS:NDAttributesFile 0
+Mar165:Stats4:TS:NDAttributesMacros 0
 Mar165:Stats4:TS:PoolPollStats.SCAN 6
 Mar165:Stats4:TS:NumPreAllocBuffers 100
 Mar165:Stats4:TS:WaitForPlugins 0
@@ -1403,7 +1403,7 @@ Mar165:Stats4:DataType 0
 Mar165:Stats4:ColorMode 0
 Mar165:Stats4:ArrayCallbacks 1
 Mar165:Stats4:NDAttributesFile 0
-Mar165:Stats4:NDAttributesMacros 
+Mar165:Stats4:NDAttributesMacros 0
 Mar165:Stats4:PoolPollStats.SCAN 6
 Mar165:Stats4:NumPreAllocBuffers 100
 Mar165:Stats4:WaitForPlugins 0
@@ -1638,8 +1638,8 @@ Mar165:Stats5:TS:SortSize 20
 Mar165:Stats5:TS:DataType 0
 Mar165:Stats5:TS:ColorMode 0
 Mar165:Stats5:TS:ArrayCallbacks 1
-Mar165:Stats5:TS:NDAttributesFile 
-Mar165:Stats5:TS:NDAttributesMacros 
+Mar165:Stats5:TS:NDAttributesFile 0
+Mar165:Stats5:TS:NDAttributesMacros 0
 Mar165:Stats5:TS:PoolPollStats.SCAN 6
 Mar165:Stats5:TS:NumPreAllocBuffers 100
 Mar165:Stats5:TS:WaitForPlugins 0
@@ -1658,7 +1658,7 @@ Mar165:Stats5:DataType 0
 Mar165:Stats5:ColorMode 0
 Mar165:Stats5:ArrayCallbacks 1
 Mar165:Stats5:NDAttributesFile 0
-Mar165:Stats5:NDAttributesMacros 
+Mar165:Stats5:NDAttributesMacros 0
 Mar165:Stats5:PoolPollStats.SCAN 6
 Mar165:Stats5:NumPreAllocBuffers 100
 Mar165:Stats5:WaitForPlugins 0
@@ -1879,8 +1879,8 @@ Mar165:ROIStat1:SortSize 20
 Mar165:ROIStat1:DataType 0
 Mar165:ROIStat1:ColorMode 0
 Mar165:ROIStat1:ArrayCallbacks 1
-Mar165:ROIStat1:NDAttributesFile 
-Mar165:ROIStat1:NDAttributesMacros 
+Mar165:ROIStat1:NDAttributesFile 0
+Mar165:ROIStat1:NDAttributesMacros 0
 Mar165:ROIStat1:PoolPollStats.SCAN 6
 Mar165:ROIStat1:NumPreAllocBuffers 100
 Mar165:ROIStat1:WaitForPlugins 0
@@ -1956,7 +1956,7 @@ Mar165:Trans1:DataType 0
 Mar165:Trans1:ColorMode 0
 Mar165:Trans1:ArrayCallbacks 1
 Mar165:Trans1:NDAttributesFile 0
-Mar165:Trans1:NDAttributesMacros 
+Mar165:Trans1:NDAttributesMacros 0
 Mar165:Trans1:PoolPollStats.SCAN 6
 Mar165:Trans1:NumPreAllocBuffers 100
 Mar165:Trans1:WaitForPlugins 0
@@ -1975,7 +1975,7 @@ Mar165:Over1:DataType 0
 Mar165:Over1:ColorMode 0
 Mar165:Over1:ArrayCallbacks 1
 Mar165:Over1:NDAttributesFile 0
-Mar165:Over1:NDAttributesMacros 
+Mar165:Over1:NDAttributesMacros 0
 Mar165:Over1:PoolPollStats.SCAN 6
 Mar165:Over1:NumPreAllocBuffers 100
 Mar165:Over1:WaitForPlugins 0
@@ -2000,7 +2000,7 @@ Mar165:Over1:1:Green 1
 Mar165:Over1:1:Blue 1
 Mar165:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:1:Font 0
-Mar165:Over1:1:DisplayText 
+Mar165:Over1:1:DisplayText 0
 Mar165:Over1:2:Name ROI2
 Mar165:Over1:2:Use 0
 Mar165:Over1:2:PositionXLink.DOL Mar165:ROI2:MinX_RBV CP MS
@@ -2022,7 +2022,7 @@ Mar165:Over1:2:Green 1
 Mar165:Over1:2:Blue 1
 Mar165:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:2:Font 0
-Mar165:Over1:2:DisplayText 
+Mar165:Over1:2:DisplayText 0
 Mar165:Over1:3:Name ROI3
 Mar165:Over1:3:Use 0
 Mar165:Over1:3:PositionXLink.DOL Mar165:ROI3:MinX_RBV CP MS
@@ -2044,7 +2044,7 @@ Mar165:Over1:3:Green 1
 Mar165:Over1:3:Blue 1
 Mar165:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:3:Font 0
-Mar165:Over1:3:DisplayText 
+Mar165:Over1:3:DisplayText 0
 Mar165:Over1:4:Name ROI4
 Mar165:Over1:4:Use 0
 Mar165:Over1:4:PositionXLink.DOL Mar165:ROI4:MinX_RBV CP MS
@@ -2066,7 +2066,7 @@ Mar165:Over1:4:Green 1
 Mar165:Over1:4:Blue 1
 Mar165:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:4:Font 0
-Mar165:Over1:4:DisplayText 
+Mar165:Over1:4:DisplayText 0
 Mar165:Over1:5:Name Cursor1
 Mar165:Over1:5:Use 0
 Mar165:Over1:5:PositionXLink.DOL junk CP MS
@@ -2088,7 +2088,7 @@ Mar165:Over1:5:Green 1
 Mar165:Over1:5:Blue 1
 Mar165:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:5:Font 0
-Mar165:Over1:5:DisplayText 
+Mar165:Over1:5:DisplayText 0
 Mar165:Over1:6:Name Cursor2
 Mar165:Over1:6:Use 0
 Mar165:Over1:6:PositionXLink.DOL junk CP MS
@@ -2110,7 +2110,7 @@ Mar165:Over1:6:Green 1
 Mar165:Over1:6:Blue 1
 Mar165:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:6:Font 0
-Mar165:Over1:6:DisplayText 
+Mar165:Over1:6:DisplayText 0
 Mar165:Over1:7:Name Box1
 Mar165:Over1:7:Use 0
 Mar165:Over1:7:PositionXLink.DOL junk CP MS
@@ -2132,7 +2132,7 @@ Mar165:Over1:7:Green 1
 Mar165:Over1:7:Blue 1
 Mar165:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:7:Font 0
-Mar165:Over1:7:DisplayText 
+Mar165:Over1:7:DisplayText 0
 Mar165:Over1:8:Name Box2
 Mar165:Over1:8:Use 0
 Mar165:Over1:8:PositionXLink.DOL junk CP MS
@@ -2154,7 +2154,7 @@ Mar165:Over1:8:Green 1
 Mar165:Over1:8:Blue 1
 Mar165:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 Mar165:Over1:8:Font 0
-Mar165:Over1:8:DisplayText 
+Mar165:Over1:8:DisplayText 0
 Mar165:CC1:ColorModeOut 0
 Mar165:CC1:NDArrayPort MAR
 Mar165:CC1:NDArrayAddress 0
@@ -2171,7 +2171,7 @@ Mar165:CC1:DataType 0
 Mar165:CC1:ColorMode 0
 Mar165:CC1:ArrayCallbacks 1
 Mar165:CC1:NDAttributesFile 0
-Mar165:CC1:NDAttributesMacros 
+Mar165:CC1:NDAttributesMacros 0
 Mar165:CC1:PoolPollStats.SCAN 6
 Mar165:CC1:NumPreAllocBuffers 100
 Mar165:CC1:WaitForPlugins 0
@@ -2191,13 +2191,13 @@ Mar165:CC2:DataType 0
 Mar165:CC2:ColorMode 0
 Mar165:CC2:ArrayCallbacks 1
 Mar165:CC2:NDAttributesFile 0
-Mar165:CC2:NDAttributesMacros 
+Mar165:CC2:NDAttributesMacros 0
 Mar165:CC2:PoolPollStats.SCAN 6
 Mar165:CC2:NumPreAllocBuffers 100
 Mar165:CC2:WaitForPlugins 0
 Mar165:CB1:TriggerA 
 Mar165:CB1:TriggerB 
-Mar165:CB1:TriggerCalc 
+Mar165:CB1:TriggerCalc 0
 Mar165:CB1:PreCount 100
 Mar165:CB1:PostCount 100
 Mar165:CB1:PresetTriggerCount 1
@@ -2216,8 +2216,8 @@ Mar165:CB1:SortSize 20
 Mar165:CB1:DataType 0
 Mar165:CB1:ColorMode 0
 Mar165:CB1:ArrayCallbacks 1
-Mar165:CB1:NDAttributesFile 
-Mar165:CB1:NDAttributesMacros 
+Mar165:CB1:NDAttributesFile 0
+Mar165:CB1:NDAttributesMacros 0
 Mar165:CB1:PoolPollStats.SCAN 6
 Mar165:CB1:NumPreAllocBuffers 100
 Mar165:CB1:WaitForPlugins 0
@@ -2240,8 +2240,8 @@ Mar165:Attr1:TS:SortSize 20
 Mar165:Attr1:TS:DataType 0
 Mar165:Attr1:TS:ColorMode 0
 Mar165:Attr1:TS:ArrayCallbacks 1
-Mar165:Attr1:TS:NDAttributesFile 
-Mar165:Attr1:TS:NDAttributesMacros 
+Mar165:Attr1:TS:NDAttributesFile 0
+Mar165:Attr1:TS:NDAttributesMacros 0
 Mar165:Attr1:TS:PoolPollStats.SCAN 6
 Mar165:Attr1:TS:NumPreAllocBuffers 100
 Mar165:Attr1:TS:WaitForPlugins 0
@@ -2259,19 +2259,19 @@ Mar165:Attr1:SortSize 20
 Mar165:Attr1:DataType 0
 Mar165:Attr1:ColorMode 0
 Mar165:Attr1:ArrayCallbacks 0
-Mar165:Attr1:NDAttributesFile 
-Mar165:Attr1:NDAttributesMacros 
+Mar165:Attr1:NDAttributesFile 0
+Mar165:Attr1:NDAttributesMacros 0
 Mar165:Attr1:PoolPollStats.SCAN 6
 Mar165:Attr1:NumPreAllocBuffers 100
 Mar165:Attr1:WaitForPlugins 0
-Mar165:Attr1:1:AttrName 
-Mar165:Attr1:2:AttrName 
-Mar165:Attr1:3:AttrName 
-Mar165:Attr1:4:AttrName 
-Mar165:Attr1:5:AttrName 
-Mar165:Attr1:6:AttrName 
-Mar165:Attr1:7:AttrName 
-Mar165:Attr1:8:AttrName 
+Mar165:Attr1:1:AttrName 0
+Mar165:Attr1:2:AttrName 0
+Mar165:Attr1:3:AttrName 0
+Mar165:Attr1:4:AttrName 0
+Mar165:Attr1:5:AttrName 0
+Mar165:Attr1:6:AttrName 0
+Mar165:Attr1:7:AttrName 0
+Mar165:Attr1:8:AttrName 0
 Mar165:FFT1:NDArrayPort MAR
 Mar165:FFT1:NDArrayAddress 0
 Mar165:FFT1:EnableCallbacks 0
@@ -2286,8 +2286,8 @@ Mar165:FFT1:SortSize 20
 Mar165:FFT1:DataType 0
 Mar165:FFT1:ColorMode 0
 Mar165:FFT1:ArrayCallbacks 1
-Mar165:FFT1:NDAttributesFile 
-Mar165:FFT1:NDAttributesMacros 
+Mar165:FFT1:NDAttributesFile 0
+Mar165:FFT1:NDAttributesMacros 0
 Mar165:FFT1:PoolPollStats.SCAN 6
 Mar165:FFT1:NumPreAllocBuffers 100
 Mar165:FFT1:WaitForPlugins 0
@@ -2316,8 +2316,8 @@ Mar165:Codec1:SortSize 20
 Mar165:Codec1:DataType 0
 Mar165:Codec1:ColorMode 0
 Mar165:Codec1:ArrayCallbacks 1
-Mar165:Codec1:NDAttributesFile 
-Mar165:Codec1:NDAttributesMacros 
+Mar165:Codec1:NDAttributesFile 0
+Mar165:Codec1:NDAttributesMacros 0
 Mar165:Codec1:PoolPollStats.SCAN 6
 Mar165:Codec1:NumPreAllocBuffers 100
 Mar165:Codec1:WaitForPlugins 0
@@ -2342,12 +2342,12 @@ Mar165:Codec2:SortSize 20
 Mar165:Codec2:DataType 0
 Mar165:Codec2:ColorMode 0
 Mar165:Codec2:ArrayCallbacks 1
-Mar165:Codec2:NDAttributesFile 
-Mar165:Codec2:NDAttributesMacros 
+Mar165:Codec2:NDAttributesFile 0
+Mar165:Codec2:NDAttributesMacros 0
 Mar165:Codec2:PoolPollStats.SCAN 6
 Mar165:Codec2:NumPreAllocBuffers 100
 Mar165:Codec2:WaitForPlugins 0
-Mar165:BadPix1:FileName 
+Mar165:BadPix1:FileName 0
 Mar165:BadPix1:NDArrayPort MAR
 Mar165:BadPix1:NDArrayAddress 0
 Mar165:BadPix1:EnableCallbacks 0
@@ -2362,8 +2362,8 @@ Mar165:BadPix1:SortSize 20
 Mar165:BadPix1:DataType 0
 Mar165:BadPix1:ColorMode 0
 Mar165:BadPix1:ArrayCallbacks 1
-Mar165:BadPix1:NDAttributesFile 
-Mar165:BadPix1:NDAttributesMacros 
+Mar165:BadPix1:NDAttributesFile 0
+Mar165:BadPix1:NDAttributesMacros 0
 Mar165:BadPix1:PoolPollStats.SCAN 6
 Mar165:BadPix1:NumPreAllocBuffers 100
 Mar165:BadPix1:WaitForPlugins 0

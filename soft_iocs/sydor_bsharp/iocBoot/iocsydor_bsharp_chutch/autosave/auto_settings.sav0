@@ -1,15 +1,15 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250730-111352
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260220-152817
 18ID:C_Mono_BPM:Acquire 1
 18ID:C_Mono_BPM:AcquireMode 0
-18ID:C_Mono_BPM:Range 0
+18ID:C_Mono_BPM:Range 7
 18ID:C_Mono_BPM:Range1 0
 18ID:C_Mono_BPM:Range2 0
 18ID:C_Mono_BPM:Range3 0
 18ID:C_Mono_BPM:Range4 0
-18ID:C_Mono_BPM:PingPong 0
-18ID:C_Mono_BPM:IntegrationTime 0.0004
-18ID:C_Mono_BPM:AveragingTime 0.1
-18ID:C_Mono_BPM:FastAveragingTime 0.1
+18ID:C_Mono_BPM:PingPong 2
+18ID:C_Mono_BPM:IntegrationTime 0.00088
+18ID:C_Mono_BPM:AveragingTime 0.5
+18ID:C_Mono_BPM:FastAveragingTime 0.005
 18ID:C_Mono_BPM:FastAverageScan.SCAN 2
 18ID:C_Mono_BPM:TriggerMode 0
 18ID:C_Mono_BPM:TriggerPolarity 0
@@ -18,14 +18,14 @@
 18ID:C_Mono_BPM:BiasState 0
 18ID:C_Mono_BPM:BiasVoltage 0
 18ID:C_Mono_BPM:BiasInterlock 0
-18ID:C_Mono_BPM:ValuesPerRead 5
+18ID:C_Mono_BPM:ValuesPerRead 1
 18ID:C_Mono_BPM:NumAcquire 1
 18ID:C_Mono_BPM:ReadFormat 0
 18ID:C_Mono_BPM:Geometry 1
-18ID:C_Mono_BPM:CurrentName1 1
-18ID:C_Mono_BPM:CurrentName2 2
-18ID:C_Mono_BPM:CurrentName3 3
-18ID:C_Mono_BPM:CurrentName4 4
+18ID:C_Mono_BPM:CurrentName1 OB_Top
+18ID:C_Mono_BPM:CurrentName2 IB_Top
+18ID:C_Mono_BPM:CurrentName3 IB_Bot
+18ID:C_Mono_BPM:CurrentName4 OB_Bot
 18ID:C_Mono_BPM:CurrentOffset1 0
 18ID:C_Mono_BPM:CurrentOffset2 0
 18ID:C_Mono_BPM:CurrentOffset3 0
@@ -40,10 +40,10 @@
 18ID:C_Mono_BPM:CurrentPrec4 3
 18ID:C_Mono_BPM:PositionOffsetX 0
 18ID:C_Mono_BPM:PositionOffsetY 0
-18ID:C_Mono_BPM:PositionScaleX 1000000
-18ID:C_Mono_BPM:PositionScaleY 1000000
-18ID:C_Mono_BPM:PositionPrecX 0
-18ID:C_Mono_BPM:PositionPrecY 0
-18ID:C_Mono_BPM:NDAttributesFile 
-18ID:C_Mono_BPM:ReadStatus.SCAN 0
+18ID:C_Mono_BPM:PositionScaleX 1
+18ID:C_Mono_BPM:PositionScaleY 1
+18ID:C_Mono_BPM:PositionPrecX 4
+18ID:C_Mono_BPM:PositionPrecY 4
+18ID:C_Mono_BPM:NDAttributesFile 0
+18ID:C_Mono_BPM:ReadStatus.SCAN 3
 <END>

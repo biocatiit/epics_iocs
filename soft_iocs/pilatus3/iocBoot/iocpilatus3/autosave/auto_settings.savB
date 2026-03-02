@@ -1,0 +1,4893 @@
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260210-174028
+18IDpil1M:cam1:BinX 1
+18IDpil1M:cam1:BinY 1
+18IDpil1M:cam1:MinX 0
+18IDpil1M:cam1:MinY 0
+18IDpil1M:cam1:SizeX 981
+18IDpil1M:cam1:SizeY 1043
+18IDpil1M:cam1:ReverseX 0
+18IDpil1M:cam1:ReverseY 0
+18IDpil1M:cam1:AcquireTime 0.99
+18IDpil1M:cam1:AcquirePeriod 1
+18IDpil1M:cam1:Gain 1
+18IDpil1M:cam1:FrameType 0
+18IDpil1M:cam1:ImageMode 2
+18IDpil1M:cam1:TriggerMode 2
+18IDpil1M:cam1:NumExposures 1
+18IDpil1M:cam1:NumImages 3600
+18IDpil1M:cam1:ShutterMode 0
+18IDpil1M:cam1:ShutterOpenDelay 0
+18IDpil1M:cam1:ShutterCloseDelay 0
+18IDpil1M:cam1:ShutterOpenEPICS.OUT 
+18IDpil1M:cam1:ShutterCloseEPICS.OUT 
+18IDpil1M:cam1:ShutterOpenEPICS.OCAL 1
+18IDpil1M:cam1:ShutterCloseEPICS.OCAL 0
+18IDpil1M:cam1:ShutterStatusEPICS_RBV.INP test CP MS
+18IDpil1M:cam1:ShutterStatusEPICS_RBV.ZRVL 0
+18IDpil1M:cam1:ShutterStatusEPICS_RBV.ONVL 1
+18IDpil1M:cam1:Temperature 25.5
+18IDpil1M:cam1:ReadStatus.SCAN 0
+18IDpil1M:cam1:DataType 5
+18IDpil1M:cam1:ColorMode 0
+18IDpil1M:cam1:ArrayCallbacks 1
+18IDpil1M:cam1:NDAttributesFile 0
+18IDpil1M:cam1:NDAttributesMacros 0
+18IDpil1M:cam1:PoolPollStats.SCAN 6
+18IDpil1M:cam1:NumPreAllocBuffers 100
+18IDpil1M:cam1:WaitForPlugins 0
+18IDpil1M:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "112" "105" "108" "97" "116" "117" "115" "47" "50" "48" "50" "54" "95" "49" "77" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "50" "95" "49" "48" "95" "72" "111" "112" "107" "105" "110" "115" "47" "116" "114" "105" "103" "95" "116" "101" "115" "116" "48" "50" "0" }
+18IDpil1M:cam1:FileName @array@ { "116" "101" "115" "116" "95" "115" "121" "110" "99" "48" "49" "95" "48" "48" "53" "0" }
+18IDpil1M:cam1:FileNumber 1
+18IDpil1M:cam1:AutoIncrement 0
+18IDpil1M:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "54" "46" "54" "100" "46" "116" "105" "102" "0" }
+18IDpil1M:cam1:AutoSave 0
+18IDpil1M:cam1:FileFormat 0
+18IDpil1M:cam1:FileWriteMode 0
+18IDpil1M:cam1:NumCapture 1
+18IDpil1M:cam1:DeleteDriverFile 0
+18IDpil1M:cam1:CreateDirectory 0
+18IDpil1M:cam1:LazyOpen 0
+18IDpil1M:cam1:TempSuffix 
+18IDpil1M:cam1:DelayTime 0
+18IDpil1M:cam1:ResetPowerTime 1
+18IDpil1M:cam1:ThresholdEnergy 6
+18IDpil1M:cam1:ThresholdAutoApply 1
+18IDpil1M:cam1:Energy 12
+18IDpil1M:cam1:GainMenu 1
+18IDpil1M:cam1:ImageFileTmot 3600
+18IDpil1M:cam1:BadPixelFile 0
+18IDpil1M:cam1:FlatFieldFile 0
+18IDpil1M:cam1:MinFlatField 100
+18IDpil1M:cam1:GapFill 2
+18IDpil1M:cam1:Wavelength 1.54
+18IDpil1M:cam1:EnergyLow 0
+18IDpil1M:cam1:EnergyHigh 0
+18IDpil1M:cam1:DetDist 1000
+18IDpil1M:cam1:DetVOffset 0
+18IDpil1M:cam1:BeamX 0
+18IDpil1M:cam1:BeamY 0
+18IDpil1M:cam1:Flux 0
+18IDpil1M:cam1:FilterTransm 1
+18IDpil1M:cam1:StartAngle 0
+18IDpil1M:cam1:AngleIncr 0.1
+18IDpil1M:cam1:Det2theta 0
+18IDpil1M:cam1:Polarization 0.99
+18IDpil1M:cam1:Alpha 0
+18IDpil1M:cam1:Kappa 0
+18IDpil1M:cam1:Phi 0
+18IDpil1M:cam1:PhiIncr 0.1
+18IDpil1M:cam1:Chi 0
+18IDpil1M:cam1:ChiIncr 0.1
+18IDpil1M:cam1:Omega 0
+18IDpil1M:cam1:OmegaIncr 0.1
+18IDpil1M:cam1:OscillAxis X, CW
+18IDpil1M:cam1:NumOscill 1
+18IDpil1M:cam1:CbfTemplateFile 0
+18IDpil1M:cam1:HeaderString 0
+18IDpil1M:image1:NDArrayPort PIL
+18IDpil1M:image1:NDArrayAddress 0
+18IDpil1M:image1:EnableCallbacks 0
+18IDpil1M:image1:MinCallbackTime 0
+18IDpil1M:image1:MaxByteRate 0
+18IDpil1M:image1:BlockingCallbacks 0
+18IDpil1M:image1:QueueSize 5
+18IDpil1M:image1:NumThreads 1
+18IDpil1M:image1:SortTime 0.1
+18IDpil1M:image1:SortMode 0
+18IDpil1M:image1:SortSize 20
+18IDpil1M:image1:DataType 0
+18IDpil1M:image1:ColorMode 0
+18IDpil1M:image1:ArrayCallbacks 0
+18IDpil1M:image1:NDAttributesFile 0
+18IDpil1M:image1:NDAttributesMacros 0
+18IDpil1M:image1:PoolPollStats.SCAN 6
+18IDpil1M:image1:NumPreAllocBuffers 100
+18IDpil1M:image1:WaitForPlugins 0
+18IDpil1M:netCDF1:FilePath 0
+18IDpil1M:netCDF1:FileName 0
+18IDpil1M:netCDF1:FileNumber 0
+18IDpil1M:netCDF1:AutoIncrement 0
+18IDpil1M:netCDF1:FileTemplate 0
+18IDpil1M:netCDF1:AutoSave 0
+18IDpil1M:netCDF1:FileFormat 0
+18IDpil1M:netCDF1:FileWriteMode 0
+18IDpil1M:netCDF1:NumCapture 1
+18IDpil1M:netCDF1:DeleteDriverFile 0
+18IDpil1M:netCDF1:CreateDirectory 0
+18IDpil1M:netCDF1:LazyOpen 0
+18IDpil1M:netCDF1:TempSuffix 
+18IDpil1M:netCDF1:NDArrayPort PIL
+18IDpil1M:netCDF1:NDArrayAddress 0
+18IDpil1M:netCDF1:EnableCallbacks 0
+18IDpil1M:netCDF1:MinCallbackTime 0
+18IDpil1M:netCDF1:MaxByteRate 0
+18IDpil1M:netCDF1:BlockingCallbacks 0
+18IDpil1M:netCDF1:QueueSize 20
+18IDpil1M:netCDF1:NumThreads 1
+18IDpil1M:netCDF1:SortTime 0.1
+18IDpil1M:netCDF1:SortMode 0
+18IDpil1M:netCDF1:SortSize 20
+18IDpil1M:netCDF1:DataType 0
+18IDpil1M:netCDF1:ColorMode 0
+18IDpil1M:netCDF1:ArrayCallbacks 0
+18IDpil1M:netCDF1:NDAttributesFile 0
+18IDpil1M:netCDF1:NDAttributesMacros 0
+18IDpil1M:netCDF1:PoolPollStats.SCAN 6
+18IDpil1M:netCDF1:NumPreAllocBuffers 100
+18IDpil1M:netCDF1:WaitForPlugins 0
+18IDpil1M:TIFF1:FilePath 0
+18IDpil1M:TIFF1:FileName 0
+18IDpil1M:TIFF1:FileNumber 0
+18IDpil1M:TIFF1:AutoIncrement 0
+18IDpil1M:TIFF1:FileTemplate 0
+18IDpil1M:TIFF1:AutoSave 0
+18IDpil1M:TIFF1:FileFormat 0
+18IDpil1M:TIFF1:FileWriteMode 0
+18IDpil1M:TIFF1:NumCapture 1
+18IDpil1M:TIFF1:DeleteDriverFile 0
+18IDpil1M:TIFF1:CreateDirectory 0
+18IDpil1M:TIFF1:LazyOpen 0
+18IDpil1M:TIFF1:TempSuffix 
+18IDpil1M:TIFF1:NDArrayPort PIL
+18IDpil1M:TIFF1:NDArrayAddress 0
+18IDpil1M:TIFF1:EnableCallbacks 0
+18IDpil1M:TIFF1:MinCallbackTime 0
+18IDpil1M:TIFF1:MaxByteRate 0
+18IDpil1M:TIFF1:BlockingCallbacks 0
+18IDpil1M:TIFF1:QueueSize 20
+18IDpil1M:TIFF1:NumThreads 1
+18IDpil1M:TIFF1:SortTime 0.1
+18IDpil1M:TIFF1:SortMode 0
+18IDpil1M:TIFF1:SortSize 20
+18IDpil1M:TIFF1:DataType 0
+18IDpil1M:TIFF1:ColorMode 0
+18IDpil1M:TIFF1:ArrayCallbacks 0
+18IDpil1M:TIFF1:NDAttributesFile 0
+18IDpil1M:TIFF1:NDAttributesMacros 0
+18IDpil1M:TIFF1:PoolPollStats.SCAN 6
+18IDpil1M:TIFF1:NumPreAllocBuffers 100
+18IDpil1M:TIFF1:WaitForPlugins 0
+18IDpil1M:JPEG1:JPEGQuality 50
+18IDpil1M:JPEG1:FilePath 0
+18IDpil1M:JPEG1:FileName 0
+18IDpil1M:JPEG1:FileNumber 0
+18IDpil1M:JPEG1:AutoIncrement 0
+18IDpil1M:JPEG1:FileTemplate 0
+18IDpil1M:JPEG1:AutoSave 0
+18IDpil1M:JPEG1:FileFormat 0
+18IDpil1M:JPEG1:FileWriteMode 0
+18IDpil1M:JPEG1:NumCapture 1
+18IDpil1M:JPEG1:DeleteDriverFile 0
+18IDpil1M:JPEG1:CreateDirectory 0
+18IDpil1M:JPEG1:LazyOpen 0
+18IDpil1M:JPEG1:TempSuffix 
+18IDpil1M:JPEG1:NDArrayPort PIL
+18IDpil1M:JPEG1:NDArrayAddress 0
+18IDpil1M:JPEG1:EnableCallbacks 0
+18IDpil1M:JPEG1:MinCallbackTime 0
+18IDpil1M:JPEG1:MaxByteRate 0
+18IDpil1M:JPEG1:BlockingCallbacks 0
+18IDpil1M:JPEG1:QueueSize 20
+18IDpil1M:JPEG1:NumThreads 1
+18IDpil1M:JPEG1:SortTime 0.1
+18IDpil1M:JPEG1:SortMode 0
+18IDpil1M:JPEG1:SortSize 20
+18IDpil1M:JPEG1:DataType 0
+18IDpil1M:JPEG1:ColorMode 0
+18IDpil1M:JPEG1:ArrayCallbacks 0
+18IDpil1M:JPEG1:NDAttributesFile 0
+18IDpil1M:JPEG1:NDAttributesMacros 0
+18IDpil1M:JPEG1:PoolPollStats.SCAN 6
+18IDpil1M:JPEG1:NumPreAllocBuffers 100
+18IDpil1M:JPEG1:WaitForPlugins 0
+18IDpil1M:Nexus1:TemplateFilePath 0
+18IDpil1M:Nexus1:TemplateFileName 0
+18IDpil1M:Nexus1:FilePath 0
+18IDpil1M:Nexus1:FileName 0
+18IDpil1M:Nexus1:FileNumber 0
+18IDpil1M:Nexus1:AutoIncrement 0
+18IDpil1M:Nexus1:FileTemplate 0
+18IDpil1M:Nexus1:AutoSave 0
+18IDpil1M:Nexus1:FileFormat 0
+18IDpil1M:Nexus1:FileWriteMode 0
+18IDpil1M:Nexus1:NumCapture 1
+18IDpil1M:Nexus1:DeleteDriverFile 0
+18IDpil1M:Nexus1:CreateDirectory 0
+18IDpil1M:Nexus1:LazyOpen 0
+18IDpil1M:Nexus1:TempSuffix 
+18IDpil1M:Nexus1:NDArrayPort PIL
+18IDpil1M:Nexus1:NDArrayAddress 0
+18IDpil1M:Nexus1:EnableCallbacks 0
+18IDpil1M:Nexus1:MinCallbackTime 0
+18IDpil1M:Nexus1:MaxByteRate 0
+18IDpil1M:Nexus1:BlockingCallbacks 0
+18IDpil1M:Nexus1:QueueSize 20
+18IDpil1M:Nexus1:NumThreads 1
+18IDpil1M:Nexus1:SortTime 0.1
+18IDpil1M:Nexus1:SortMode 0
+18IDpil1M:Nexus1:SortSize 20
+18IDpil1M:Nexus1:DataType 0
+18IDpil1M:Nexus1:ColorMode 0
+18IDpil1M:Nexus1:ArrayCallbacks 0
+18IDpil1M:Nexus1:NDAttributesFile 0
+18IDpil1M:Nexus1:NDAttributesMacros 0
+18IDpil1M:Nexus1:PoolPollStats.SCAN 6
+18IDpil1M:Nexus1:NumPreAllocBuffers 100
+18IDpil1M:Nexus1:WaitForPlugins 0
+18IDpil1M:HDF1:ChunkSizeAuto 1
+18IDpil1M:HDF1:NumRowChunks 0
+18IDpil1M:HDF1:NumColChunks 0
+18IDpil1M:HDF1:ChunkSize2 0
+18IDpil1M:HDF1:ChunkSize3 0
+18IDpil1M:HDF1:ChunkSize4 0
+18IDpil1M:HDF1:ChunkSize5 0
+18IDpil1M:HDF1:ChunkSize6 0
+18IDpil1M:HDF1:ChunkSize7 0
+18IDpil1M:HDF1:ChunkSize8 0
+18IDpil1M:HDF1:ChunkSize9 0
+18IDpil1M:HDF1:NumFramesChunks 0
+18IDpil1M:HDF1:BoundaryAlign 0
+18IDpil1M:HDF1:BoundaryThreshold 65536
+18IDpil1M:HDF1:NumFramesFlush 0
+18IDpil1M:HDF1:Compression 0
+18IDpil1M:HDF1:NumDataBits 8
+18IDpil1M:HDF1:DataBitsOffset 0
+18IDpil1M:HDF1:SZipNumPixels 16
+18IDpil1M:HDF1:ZLevel 6
+18IDpil1M:HDF1:BloscShuffle 1
+18IDpil1M:HDF1:BloscCompressor 0
+18IDpil1M:HDF1:BloscLevel 5
+18IDpil1M:HDF1:JPEGQuality 90
+18IDpil1M:HDF1:StorePerform 1
+18IDpil1M:HDF1:StoreAttr 1
+18IDpil1M:HDF1:NumExtraDims 0
+18IDpil1M:HDF1:ExtraDimSizeN 1
+18IDpil1M:HDF1:ExtraDimSizeX 1
+18IDpil1M:HDF1:ExtraDimSizeY 1
+18IDpil1M:HDF1:XMLFileName 0
+18IDpil1M:HDF1:SWMRMode 0
+18IDpil1M:HDF1:FilePath 0
+18IDpil1M:HDF1:FileName 0
+18IDpil1M:HDF1:FileNumber 0
+18IDpil1M:HDF1:AutoIncrement 0
+18IDpil1M:HDF1:FileTemplate 0
+18IDpil1M:HDF1:AutoSave 0
+18IDpil1M:HDF1:FileFormat 0
+18IDpil1M:HDF1:FileWriteMode 0
+18IDpil1M:HDF1:NumCapture 1
+18IDpil1M:HDF1:DeleteDriverFile 0
+18IDpil1M:HDF1:CreateDirectory 0
+18IDpil1M:HDF1:LazyOpen 0
+18IDpil1M:HDF1:TempSuffix 
+18IDpil1M:HDF1:NDArrayPort PIL
+18IDpil1M:HDF1:NDArrayAddress 0
+18IDpil1M:HDF1:EnableCallbacks 0
+18IDpil1M:HDF1:MinCallbackTime 0
+18IDpil1M:HDF1:MaxByteRate 0
+18IDpil1M:HDF1:BlockingCallbacks 0
+18IDpil1M:HDF1:QueueSize 20
+18IDpil1M:HDF1:NumThreads 1
+18IDpil1M:HDF1:SortTime 0.1
+18IDpil1M:HDF1:SortMode 0
+18IDpil1M:HDF1:SortSize 20
+18IDpil1M:HDF1:DataType 0
+18IDpil1M:HDF1:ColorMode 0
+18IDpil1M:HDF1:ArrayCallbacks 0
+18IDpil1M:HDF1:NDAttributesFile 0
+18IDpil1M:HDF1:NDAttributesMacros 0
+18IDpil1M:HDF1:PoolPollStats.SCAN 6
+18IDpil1M:HDF1:NumPreAllocBuffers 100
+18IDpil1M:HDF1:WaitForPlugins 0
+18IDpil1M:ROI1:Name 
+18IDpil1M:ROI1:DataTypeOut 10
+18IDpil1M:ROI1:BinX 1
+18IDpil1M:ROI1:BinY 1
+18IDpil1M:ROI1:BinZ 1
+18IDpil1M:ROI1:MinX 0
+18IDpil1M:ROI1:MinY 0
+18IDpil1M:ROI1:MinZ 0
+18IDpil1M:ROI1:SizeX 1000000
+18IDpil1M:ROI1:SizeY 1000000
+18IDpil1M:ROI1:SizeZ 1000000
+18IDpil1M:ROI1:ReverseX 0
+18IDpil1M:ROI1:ReverseY 0
+18IDpil1M:ROI1:ReverseZ 0
+18IDpil1M:ROI1:AutoSizeX 0
+18IDpil1M:ROI1:AutoSizeY 0
+18IDpil1M:ROI1:AutoSizeZ 0
+18IDpil1M:ROI1:EnableX 1
+18IDpil1M:ROI1:EnableY 1
+18IDpil1M:ROI1:EnableZ 1
+18IDpil1M:ROI1:EnableScale 0
+18IDpil1M:ROI1:Scale 1
+18IDpil1M:ROI1:CollapseDims 0
+18IDpil1M:ROI1:NDArrayPort PIL
+18IDpil1M:ROI1:NDArrayAddress 0
+18IDpil1M:ROI1:EnableCallbacks 0
+18IDpil1M:ROI1:MinCallbackTime 0
+18IDpil1M:ROI1:MaxByteRate 0
+18IDpil1M:ROI1:BlockingCallbacks 0
+18IDpil1M:ROI1:QueueSize 20
+18IDpil1M:ROI1:NumThreads 1
+18IDpil1M:ROI1:SortTime 0.1
+18IDpil1M:ROI1:SortMode 0
+18IDpil1M:ROI1:SortSize 20
+18IDpil1M:ROI1:DataType 0
+18IDpil1M:ROI1:ColorMode 0
+18IDpil1M:ROI1:ArrayCallbacks 1
+18IDpil1M:ROI1:NDAttributesFile 0
+18IDpil1M:ROI1:NDAttributesMacros 0
+18IDpil1M:ROI1:PoolPollStats.SCAN 6
+18IDpil1M:ROI1:NumPreAllocBuffers 100
+18IDpil1M:ROI1:WaitForPlugins 0
+18IDpil1M:ROI2:Name 
+18IDpil1M:ROI2:DataTypeOut 10
+18IDpil1M:ROI2:BinX 1
+18IDpil1M:ROI2:BinY 1
+18IDpil1M:ROI2:BinZ 1
+18IDpil1M:ROI2:MinX 0
+18IDpil1M:ROI2:MinY 0
+18IDpil1M:ROI2:MinZ 0
+18IDpil1M:ROI2:SizeX 1000000
+18IDpil1M:ROI2:SizeY 1000000
+18IDpil1M:ROI2:SizeZ 1000000
+18IDpil1M:ROI2:ReverseX 0
+18IDpil1M:ROI2:ReverseY 0
+18IDpil1M:ROI2:ReverseZ 0
+18IDpil1M:ROI2:AutoSizeX 0
+18IDpil1M:ROI2:AutoSizeY 0
+18IDpil1M:ROI2:AutoSizeZ 0
+18IDpil1M:ROI2:EnableX 1
+18IDpil1M:ROI2:EnableY 1
+18IDpil1M:ROI2:EnableZ 1
+18IDpil1M:ROI2:EnableScale 0
+18IDpil1M:ROI2:Scale 1
+18IDpil1M:ROI2:CollapseDims 0
+18IDpil1M:ROI2:NDArrayPort PIL
+18IDpil1M:ROI2:NDArrayAddress 0
+18IDpil1M:ROI2:EnableCallbacks 0
+18IDpil1M:ROI2:MinCallbackTime 0
+18IDpil1M:ROI2:MaxByteRate 0
+18IDpil1M:ROI2:BlockingCallbacks 0
+18IDpil1M:ROI2:QueueSize 20
+18IDpil1M:ROI2:NumThreads 1
+18IDpil1M:ROI2:SortTime 0.1
+18IDpil1M:ROI2:SortMode 0
+18IDpil1M:ROI2:SortSize 20
+18IDpil1M:ROI2:DataType 0
+18IDpil1M:ROI2:ColorMode 0
+18IDpil1M:ROI2:ArrayCallbacks 1
+18IDpil1M:ROI2:NDAttributesFile 0
+18IDpil1M:ROI2:NDAttributesMacros 0
+18IDpil1M:ROI2:PoolPollStats.SCAN 6
+18IDpil1M:ROI2:NumPreAllocBuffers 100
+18IDpil1M:ROI2:WaitForPlugins 0
+18IDpil1M:ROI3:Name 
+18IDpil1M:ROI3:DataTypeOut 10
+18IDpil1M:ROI3:BinX 1
+18IDpil1M:ROI3:BinY 1
+18IDpil1M:ROI3:BinZ 1
+18IDpil1M:ROI3:MinX 0
+18IDpil1M:ROI3:MinY 0
+18IDpil1M:ROI3:MinZ 0
+18IDpil1M:ROI3:SizeX 1000000
+18IDpil1M:ROI3:SizeY 1000000
+18IDpil1M:ROI3:SizeZ 1000000
+18IDpil1M:ROI3:ReverseX 0
+18IDpil1M:ROI3:ReverseY 0
+18IDpil1M:ROI3:ReverseZ 0
+18IDpil1M:ROI3:AutoSizeX 0
+18IDpil1M:ROI3:AutoSizeY 0
+18IDpil1M:ROI3:AutoSizeZ 0
+18IDpil1M:ROI3:EnableX 1
+18IDpil1M:ROI3:EnableY 1
+18IDpil1M:ROI3:EnableZ 1
+18IDpil1M:ROI3:EnableScale 0
+18IDpil1M:ROI3:Scale 1
+18IDpil1M:ROI3:CollapseDims 0
+18IDpil1M:ROI3:NDArrayPort PIL
+18IDpil1M:ROI3:NDArrayAddress 0
+18IDpil1M:ROI3:EnableCallbacks 0
+18IDpil1M:ROI3:MinCallbackTime 0
+18IDpil1M:ROI3:MaxByteRate 0
+18IDpil1M:ROI3:BlockingCallbacks 0
+18IDpil1M:ROI3:QueueSize 20
+18IDpil1M:ROI3:NumThreads 1
+18IDpil1M:ROI3:SortTime 0.1
+18IDpil1M:ROI3:SortMode 0
+18IDpil1M:ROI3:SortSize 20
+18IDpil1M:ROI3:DataType 0
+18IDpil1M:ROI3:ColorMode 0
+18IDpil1M:ROI3:ArrayCallbacks 1
+18IDpil1M:ROI3:NDAttributesFile 0
+18IDpil1M:ROI3:NDAttributesMacros 0
+18IDpil1M:ROI3:PoolPollStats.SCAN 6
+18IDpil1M:ROI3:NumPreAllocBuffers 100
+18IDpil1M:ROI3:WaitForPlugins 0
+18IDpil1M:ROI4:Name 
+18IDpil1M:ROI4:DataTypeOut 10
+18IDpil1M:ROI4:BinX 1
+18IDpil1M:ROI4:BinY 1
+18IDpil1M:ROI4:BinZ 1
+18IDpil1M:ROI4:MinX 0
+18IDpil1M:ROI4:MinY 0
+18IDpil1M:ROI4:MinZ 0
+18IDpil1M:ROI4:SizeX 1000000
+18IDpil1M:ROI4:SizeY 1000000
+18IDpil1M:ROI4:SizeZ 1000000
+18IDpil1M:ROI4:ReverseX 0
+18IDpil1M:ROI4:ReverseY 0
+18IDpil1M:ROI4:ReverseZ 0
+18IDpil1M:ROI4:AutoSizeX 0
+18IDpil1M:ROI4:AutoSizeY 0
+18IDpil1M:ROI4:AutoSizeZ 0
+18IDpil1M:ROI4:EnableX 1
+18IDpil1M:ROI4:EnableY 1
+18IDpil1M:ROI4:EnableZ 1
+18IDpil1M:ROI4:EnableScale 0
+18IDpil1M:ROI4:Scale 1
+18IDpil1M:ROI4:CollapseDims 0
+18IDpil1M:ROI4:NDArrayPort PIL
+18IDpil1M:ROI4:NDArrayAddress 0
+18IDpil1M:ROI4:EnableCallbacks 0
+18IDpil1M:ROI4:MinCallbackTime 0
+18IDpil1M:ROI4:MaxByteRate 0
+18IDpil1M:ROI4:BlockingCallbacks 0
+18IDpil1M:ROI4:QueueSize 20
+18IDpil1M:ROI4:NumThreads 1
+18IDpil1M:ROI4:SortTime 0.1
+18IDpil1M:ROI4:SortMode 0
+18IDpil1M:ROI4:SortSize 20
+18IDpil1M:ROI4:DataType 0
+18IDpil1M:ROI4:ColorMode 0
+18IDpil1M:ROI4:ArrayCallbacks 1
+18IDpil1M:ROI4:NDAttributesFile 0
+18IDpil1M:ROI4:NDAttributesMacros 0
+18IDpil1M:ROI4:PoolPollStats.SCAN 6
+18IDpil1M:ROI4:NumPreAllocBuffers 100
+18IDpil1M:ROI4:WaitForPlugins 0
+18IDpil1M:Proc1:DataTypeOut 10
+18IDpil1M:Proc1:EnableBackground 0
+18IDpil1M:Proc1:EnableFlatField 0
+18IDpil1M:Proc1:ScaleFlatField 255
+18IDpil1M:Proc1:EnableOffsetScale 0
+18IDpil1M:Proc1:Offset 0
+18IDpil1M:Proc1:Scale 1
+18IDpil1M:Proc1:EnableLowClip 0
+18IDpil1M:Proc1:LowClipThresh 0
+18IDpil1M:Proc1:LowClipValue 0
+18IDpil1M:Proc1:EnableHighClip 0
+18IDpil1M:Proc1:HighClipThresh 100
+18IDpil1M:Proc1:HighClipValue 100
+18IDpil1M:Proc1:EnableFilter 0
+18IDpil1M:Proc1:AutoResetFilter 0
+18IDpil1M:Proc1:FilterCallbacks 0
+18IDpil1M:Proc1:NumFilter 1
+18IDpil1M:Proc1:FilterType 0
+18IDpil1M:Proc1:OOffset 0
+18IDpil1M:Proc1:OScale 1
+18IDpil1M:Proc1:OC1 1
+18IDpil1M:Proc1:OC2 -1
+18IDpil1M:Proc1:OC3 0
+18IDpil1M:Proc1:OC4 1
+18IDpil1M:Proc1:FOffset 0
+18IDpil1M:Proc1:FScale 1
+18IDpil1M:Proc1:FC1 1
+18IDpil1M:Proc1:FC2 -1
+18IDpil1M:Proc1:FC3 0
+18IDpil1M:Proc1:FC4 1
+18IDpil1M:Proc1:ROffset 0
+18IDpil1M:Proc1:RC1 0
+18IDpil1M:Proc1:RC2 1
+18IDpil1M:Proc1:NDArrayPort PIL
+18IDpil1M:Proc1:NDArrayAddress 0
+18IDpil1M:Proc1:EnableCallbacks 0
+18IDpil1M:Proc1:MinCallbackTime 0
+18IDpil1M:Proc1:MaxByteRate 0
+18IDpil1M:Proc1:BlockingCallbacks 0
+18IDpil1M:Proc1:QueueSize 20
+18IDpil1M:Proc1:NumThreads 1
+18IDpil1M:Proc1:SortTime 0.1
+18IDpil1M:Proc1:SortMode 0
+18IDpil1M:Proc1:SortSize 20
+18IDpil1M:Proc1:DataType 0
+18IDpil1M:Proc1:ColorMode 0
+18IDpil1M:Proc1:ArrayCallbacks 1
+18IDpil1M:Proc1:NDAttributesFile 0
+18IDpil1M:Proc1:NDAttributesMacros 0
+18IDpil1M:Proc1:PoolPollStats.SCAN 6
+18IDpil1M:Proc1:NumPreAllocBuffers 100
+18IDpil1M:Proc1:WaitForPlugins 0
+18IDpil1M:Proc1:TIFF:FilePath 0
+18IDpil1M:Proc1:TIFF:FileName 0
+18IDpil1M:Proc1:TIFF:FileNumber 0
+18IDpil1M:Proc1:TIFF:AutoIncrement 0
+18IDpil1M:Proc1:TIFF:FileTemplate 0
+18IDpil1M:Proc1:TIFF:AutoSave 0
+18IDpil1M:Proc1:TIFF:FileFormat 0
+18IDpil1M:Proc1:TIFF:FileWriteMode 0
+18IDpil1M:Proc1:TIFF:NumCapture 1
+18IDpil1M:Proc1:TIFF:DeleteDriverFile 0
+18IDpil1M:Proc1:TIFF:CreateDirectory 0
+18IDpil1M:Proc1:TIFF:LazyOpen 0
+18IDpil1M:Proc1:TIFF:TempSuffix 
+18IDpil1M:Proc1:TIFF:NDArrayPort PIL
+18IDpil1M:Proc1:TIFF:NDArrayAddress 0
+18IDpil1M:Proc1:TIFF:EnableCallbacks 0
+18IDpil1M:Proc1:TIFF:MinCallbackTime 0
+18IDpil1M:Proc1:TIFF:MaxByteRate 0
+18IDpil1M:Proc1:TIFF:BlockingCallbacks 0
+18IDpil1M:Proc1:TIFF:QueueSize 20
+18IDpil1M:Proc1:TIFF:NumThreads 1
+18IDpil1M:Proc1:TIFF:SortTime 0.1
+18IDpil1M:Proc1:TIFF:SortMode 0
+18IDpil1M:Proc1:TIFF:SortSize 20
+18IDpil1M:Proc1:TIFF:DataType 0
+18IDpil1M:Proc1:TIFF:ColorMode 0
+18IDpil1M:Proc1:TIFF:ArrayCallbacks 0
+18IDpil1M:Proc1:TIFF:NDAttributesFile 0
+18IDpil1M:Proc1:TIFF:NDAttributesMacros 0
+18IDpil1M:Proc1:TIFF:PoolPollStats.SCAN 6
+18IDpil1M:Proc1:TIFF:NumPreAllocBuffers 100
+18IDpil1M:Proc1:TIFF:WaitForPlugins 0
+18IDpil1M:Scatter1:NDArrayPort PIL
+18IDpil1M:Scatter1:NDArrayAddress 0
+18IDpil1M:Scatter1:EnableCallbacks 0
+18IDpil1M:Scatter1:MinCallbackTime 0
+18IDpil1M:Scatter1:MaxByteRate 0
+18IDpil1M:Scatter1:BlockingCallbacks 0
+18IDpil1M:Scatter1:QueueSize 20
+18IDpil1M:Scatter1:NumThreads 1
+18IDpil1M:Scatter1:SortTime 0.1
+18IDpil1M:Scatter1:SortMode 0
+18IDpil1M:Scatter1:SortSize 20
+18IDpil1M:Scatter1:DataType 0
+18IDpil1M:Scatter1:ColorMode 0
+18IDpil1M:Scatter1:ArrayCallbacks 1
+18IDpil1M:Scatter1:NDAttributesFile 0
+18IDpil1M:Scatter1:NDAttributesMacros 0
+18IDpil1M:Scatter1:PoolPollStats.SCAN 6
+18IDpil1M:Scatter1:NumPreAllocBuffers 100
+18IDpil1M:Scatter1:WaitForPlugins 0
+18IDpil1M:Gather1:NDArrayPort PIL
+18IDpil1M:Gather1:NDArrayAddress 0
+18IDpil1M:Gather1:EnableCallbacks 0
+18IDpil1M:Gather1:MinCallbackTime 0
+18IDpil1M:Gather1:MaxByteRate 0
+18IDpil1M:Gather1:BlockingCallbacks 0
+18IDpil1M:Gather1:QueueSize 20
+18IDpil1M:Gather1:NumThreads 1
+18IDpil1M:Gather1:SortTime 0.1
+18IDpil1M:Gather1:SortMode 0
+18IDpil1M:Gather1:SortSize 20
+18IDpil1M:Gather1:DataType 0
+18IDpil1M:Gather1:ColorMode 0
+18IDpil1M:Gather1:ArrayCallbacks 1
+18IDpil1M:Gather1:NDAttributesFile 0
+18IDpil1M:Gather1:NDAttributesMacros 0
+18IDpil1M:Gather1:PoolPollStats.SCAN 6
+18IDpil1M:Gather1:NumPreAllocBuffers 100
+18IDpil1M:Gather1:WaitForPlugins 0
+18IDpil1M:Gather1:NDArrayPort_1 PIL
+18IDpil1M:Gather1:NDArrayAddress_1 0
+18IDpil1M:Gather1:NDArrayPort_2 PIL
+18IDpil1M:Gather1:NDArrayAddress_2 0
+18IDpil1M:Gather1:NDArrayPort_3 PIL
+18IDpil1M:Gather1:NDArrayAddress_3 0
+18IDpil1M:Gather1:NDArrayPort_4 PIL
+18IDpil1M:Gather1:NDArrayAddress_4 0
+18IDpil1M:Gather1:NDArrayPort_5 PIL
+18IDpil1M:Gather1:NDArrayAddress_5 0
+18IDpil1M:Gather1:NDArrayPort_6 PIL
+18IDpil1M:Gather1:NDArrayAddress_6 0
+18IDpil1M:Gather1:NDArrayPort_7 PIL
+18IDpil1M:Gather1:NDArrayAddress_7 0
+18IDpil1M:Gather1:NDArrayPort_8 PIL
+18IDpil1M:Gather1:NDArrayAddress_8 0
+18IDpil1M:Stats1:BgdWidth 1
+18IDpil1M:Stats1:ComputeStatistics 1
+18IDpil1M:Stats1:ComputeCentroid 0
+18IDpil1M:Stats1:CentroidThreshold 1
+18IDpil1M:Stats1:ComputeProfiles 0
+18IDpil1M:Stats1:CursorX 256
+18IDpil1M:Stats1:CursorY 256
+18IDpil1M:Stats1:ComputeHistogram 0
+18IDpil1M:Stats1:HistSize 256
+18IDpil1M:Stats1:HistMin 0
+18IDpil1M:Stats1:HistMax 255
+18IDpil1M:Stats1:TS:TSNumPoints 2048
+18IDpil1M:Stats1:TS:TSTimePerPointLink.DOL 0.1
+18IDpil1M:Stats1:TS:TSAveragingTime 0.1
+18IDpil1M:Stats1:TS:TSRead.SCAN 6
+18IDpil1M:Stats1:TS:TSAcquireMode 0
+18IDpil1M:Stats1:TS:NDArrayPort STATS1
+18IDpil1M:Stats1:TS:NDArrayAddress 1
+18IDpil1M:Stats1:TS:EnableCallbacks 1
+18IDpil1M:Stats1:TS:MinCallbackTime 0
+18IDpil1M:Stats1:TS:MaxByteRate 0
+18IDpil1M:Stats1:TS:BlockingCallbacks 0
+18IDpil1M:Stats1:TS:QueueSize 20
+18IDpil1M:Stats1:TS:NumThreads 1
+18IDpil1M:Stats1:TS:SortTime 0.1
+18IDpil1M:Stats1:TS:SortMode 0
+18IDpil1M:Stats1:TS:SortSize 20
+18IDpil1M:Stats1:TS:DataType 0
+18IDpil1M:Stats1:TS:ColorMode 0
+18IDpil1M:Stats1:TS:ArrayCallbacks 1
+18IDpil1M:Stats1:TS:NDAttributesFile 0
+18IDpil1M:Stats1:TS:NDAttributesMacros 0
+18IDpil1M:Stats1:TS:PoolPollStats.SCAN 6
+18IDpil1M:Stats1:TS:NumPreAllocBuffers 100
+18IDpil1M:Stats1:TS:WaitForPlugins 0
+18IDpil1M:Stats1:NDArrayPort PIL
+18IDpil1M:Stats1:NDArrayAddress 0
+18IDpil1M:Stats1:EnableCallbacks 0
+18IDpil1M:Stats1:MinCallbackTime 0
+18IDpil1M:Stats1:MaxByteRate 0
+18IDpil1M:Stats1:BlockingCallbacks 0
+18IDpil1M:Stats1:QueueSize 20
+18IDpil1M:Stats1:NumThreads 1
+18IDpil1M:Stats1:SortTime 0.1
+18IDpil1M:Stats1:SortMode 0
+18IDpil1M:Stats1:SortSize 20
+18IDpil1M:Stats1:DataType 0
+18IDpil1M:Stats1:ColorMode 0
+18IDpil1M:Stats1:ArrayCallbacks 1
+18IDpil1M:Stats1:NDAttributesFile 0
+18IDpil1M:Stats1:NDAttributesMacros 0
+18IDpil1M:Stats1:PoolPollStats.SCAN 6
+18IDpil1M:Stats1:NumPreAllocBuffers 100
+18IDpil1M:Stats1:WaitForPlugins 0
+18IDpil1M:Stats1:Reset.SCAN 0
+18IDpil1M:Stats1:Reset.DESC 
+18IDpil1M:Stats1:Reset.PREC 0
+18IDpil1M:Stats1:Reset.DLY1 0
+18IDpil1M:Stats1:Reset.DOL1 
+18IDpil1M:Stats1:Reset.DO1 0
+18IDpil1M:Stats1:Reset.STR1 0
+18IDpil1M:Stats1:Reset.LNK1 18IDpil1M:Stats1:MinValue PP MS
+18IDpil1M:Stats1:Reset.WAIT1 0
+18IDpil1M:Stats1:Reset.DLY2 0
+18IDpil1M:Stats1:Reset.DOL2 
+18IDpil1M:Stats1:Reset.DO2 0
+18IDpil1M:Stats1:Reset.STR2 0
+18IDpil1M:Stats1:Reset.LNK2 18IDpil1M:Stats1:MaxValue PP MS
+18IDpil1M:Stats1:Reset.WAIT2 0
+18IDpil1M:Stats1:Reset.DLY3 0
+18IDpil1M:Stats1:Reset.DOL3 
+18IDpil1M:Stats1:Reset.DO3 0
+18IDpil1M:Stats1:Reset.STR3 0
+18IDpil1M:Stats1:Reset.LNK3 18IDpil1M:Stats1:MeanValue PP MS
+18IDpil1M:Stats1:Reset.WAIT3 0
+18IDpil1M:Stats1:Reset.DLY4 0
+18IDpil1M:Stats1:Reset.DOL4 
+18IDpil1M:Stats1:Reset.DO4 0
+18IDpil1M:Stats1:Reset.STR4 0
+18IDpil1M:Stats1:Reset.LNK4 18IDpil1M:Stats1:SigmaValue PP MS
+18IDpil1M:Stats1:Reset.WAIT4 0
+18IDpil1M:Stats1:Reset.DLY5 0
+18IDpil1M:Stats1:Reset.DOL5 
+18IDpil1M:Stats1:Reset.DO5 0
+18IDpil1M:Stats1:Reset.STR5 0
+18IDpil1M:Stats1:Reset.LNK5 18IDpil1M:Stats1:Total PP MS
+18IDpil1M:Stats1:Reset.WAIT5 0
+18IDpil1M:Stats1:Reset.DLY6 0
+18IDpil1M:Stats1:Reset.DOL6 
+18IDpil1M:Stats1:Reset.DO6 0
+18IDpil1M:Stats1:Reset.STR6 0
+18IDpil1M:Stats1:Reset.LNK6 18IDpil1M:Stats1:Net PP MS
+18IDpil1M:Stats1:Reset.WAIT6 0
+18IDpil1M:Stats1:Reset.DLY7 0
+18IDpil1M:Stats1:Reset.DOL7 
+18IDpil1M:Stats1:Reset.DO7 0
+18IDpil1M:Stats1:Reset.STR7 0
+18IDpil1M:Stats1:Reset.LNK7 18IDpil1M:Stats1:MinX PP MS
+18IDpil1M:Stats1:Reset.WAIT7 0
+18IDpil1M:Stats1:Reset.DLY8 0
+18IDpil1M:Stats1:Reset.DOL8 
+18IDpil1M:Stats1:Reset.DO8 0
+18IDpil1M:Stats1:Reset.STR8 0
+18IDpil1M:Stats1:Reset.LNK8 18IDpil1M:Stats1:MinY PP MS
+18IDpil1M:Stats1:Reset.WAIT8 0
+18IDpil1M:Stats1:Reset.DLY9 0
+18IDpil1M:Stats1:Reset.DOL9 
+18IDpil1M:Stats1:Reset.DO9 0
+18IDpil1M:Stats1:Reset.STR9 0
+18IDpil1M:Stats1:Reset.LNK9 18IDpil1M:Stats1:MaxX PP MS
+18IDpil1M:Stats1:Reset.WAIT9 0
+18IDpil1M:Stats1:Reset.DLYA 0
+18IDpil1M:Stats1:Reset.DOLA 
+18IDpil1M:Stats1:Reset.DOA 0
+18IDpil1M:Stats1:Reset.STRA 0
+18IDpil1M:Stats1:Reset.LNKA 18IDpil1M:Stats1:MaxY PP MS
+18IDpil1M:Stats1:Reset.WAITA 0
+18IDpil1M:Stats1:Reset.FLNK 18IDpil1M:Stats1:Reset1
+18IDpil1M:Stats1:Reset.SELL 
+18IDpil1M:Stats1:Reset.SELN 1
+18IDpil1M:Stats1:Reset.SELM 0
+18IDpil1M:Stats1:Reset1.SCAN 0
+18IDpil1M:Stats1:Reset1.DESC 
+18IDpil1M:Stats1:Reset1.PREC 0
+18IDpil1M:Stats1:Reset1.DLY1 0
+18IDpil1M:Stats1:Reset1.DOL1 
+18IDpil1M:Stats1:Reset1.DO1 0
+18IDpil1M:Stats1:Reset1.STR1 0
+18IDpil1M:Stats1:Reset1.LNK1 18IDpil1M:Stats1:CentroidX PP MS
+18IDpil1M:Stats1:Reset1.WAIT1 0
+18IDpil1M:Stats1:Reset1.DLY2 0
+18IDpil1M:Stats1:Reset1.DOL2 
+18IDpil1M:Stats1:Reset1.DO2 0
+18IDpil1M:Stats1:Reset1.STR2 0
+18IDpil1M:Stats1:Reset1.LNK2 18IDpil1M:Stats1:CentroidY PP MS
+18IDpil1M:Stats1:Reset1.WAIT2 0
+18IDpil1M:Stats1:Reset1.DLY3 0
+18IDpil1M:Stats1:Reset1.DOL3 
+18IDpil1M:Stats1:Reset1.DO3 0
+18IDpil1M:Stats1:Reset1.STR3 0
+18IDpil1M:Stats1:Reset1.LNK3 18IDpil1M:Stats1:SigmaX PP MS
+18IDpil1M:Stats1:Reset1.WAIT3 0
+18IDpil1M:Stats1:Reset1.DLY4 0
+18IDpil1M:Stats1:Reset1.DOL4 
+18IDpil1M:Stats1:Reset1.DO4 0
+18IDpil1M:Stats1:Reset1.STR4 0
+18IDpil1M:Stats1:Reset1.LNK4 18IDpil1M:Stats1:SigmaY PP MS
+18IDpil1M:Stats1:Reset1.WAIT4 0
+18IDpil1M:Stats1:Reset1.DLY5 0
+18IDpil1M:Stats1:Reset1.DOL5 
+18IDpil1M:Stats1:Reset1.DO5 0
+18IDpil1M:Stats1:Reset1.STR5 0
+18IDpil1M:Stats1:Reset1.LNK5 18IDpil1M:Stats1:SigmaXY PP MS
+18IDpil1M:Stats1:Reset1.WAIT5 0
+18IDpil1M:Stats1:Reset1.DLY6 0
+18IDpil1M:Stats1:Reset1.DOL6 
+18IDpil1M:Stats1:Reset1.DO6 0
+18IDpil1M:Stats1:Reset1.STR6 0
+18IDpil1M:Stats1:Reset1.LNK6 18IDpil1M:Stats1:CentroidTotal PP MS
+18IDpil1M:Stats1:Reset1.WAIT6 0
+18IDpil1M:Stats1:Reset1.DLY7 0
+18IDpil1M:Stats1:Reset1.DOL7 
+18IDpil1M:Stats1:Reset1.DO7 0
+18IDpil1M:Stats1:Reset1.STR7 0
+18IDpil1M:Stats1:Reset1.LNK7 18IDpil1M:Stats1:SkewX PP MS
+18IDpil1M:Stats1:Reset1.WAIT7 0
+18IDpil1M:Stats1:Reset1.DLY8 0
+18IDpil1M:Stats1:Reset1.DOL8 
+18IDpil1M:Stats1:Reset1.DO8 0
+18IDpil1M:Stats1:Reset1.STR8 0
+18IDpil1M:Stats1:Reset1.LNK8 18IDpil1M:Stats1:SkewY PP MS
+18IDpil1M:Stats1:Reset1.WAIT8 0
+18IDpil1M:Stats1:Reset1.DLY9 0
+18IDpil1M:Stats1:Reset1.DOL9 
+18IDpil1M:Stats1:Reset1.DO9 0
+18IDpil1M:Stats1:Reset1.STR9 0
+18IDpil1M:Stats1:Reset1.LNK9 18IDpil1M:Stats1:KurtosisX PP MS
+18IDpil1M:Stats1:Reset1.WAIT9 0
+18IDpil1M:Stats1:Reset1.DLYA 0
+18IDpil1M:Stats1:Reset1.DOLA 
+18IDpil1M:Stats1:Reset1.DOA 0
+18IDpil1M:Stats1:Reset1.STRA 0
+18IDpil1M:Stats1:Reset1.LNKA 18IDpil1M:Stats1:KurtosisY PP MS
+18IDpil1M:Stats1:Reset1.WAITA 0
+18IDpil1M:Stats1:Reset1.FLNK 18IDpil1M:Stats1:Reset2
+18IDpil1M:Stats1:Reset1.SELL 
+18IDpil1M:Stats1:Reset1.SELN 1
+18IDpil1M:Stats1:Reset1.SELM 0
+18IDpil1M:Stats1:Reset2.SCAN 0
+18IDpil1M:Stats1:Reset2.DESC 
+18IDpil1M:Stats1:Reset2.PREC 0
+18IDpil1M:Stats1:Reset2.DLY1 0
+18IDpil1M:Stats1:Reset2.DOL1 
+18IDpil1M:Stats1:Reset2.DO1 0
+18IDpil1M:Stats1:Reset2.STR1 0
+18IDpil1M:Stats1:Reset2.LNK1 18IDpil1M:Stats1:Eccentricity PP MS
+18IDpil1M:Stats1:Reset2.WAIT1 0
+18IDpil1M:Stats1:Reset2.DLY2 0
+18IDpil1M:Stats1:Reset2.DOL2 
+18IDpil1M:Stats1:Reset2.DO2 0
+18IDpil1M:Stats1:Reset2.STR2 0
+18IDpil1M:Stats1:Reset2.LNK2 18IDpil1M:Stats1:Orientation PP MS
+18IDpil1M:Stats1:Reset2.WAIT2 0
+18IDpil1M:Stats1:Reset2.DLY3 0
+18IDpil1M:Stats1:Reset2.DOL3 
+18IDpil1M:Stats1:Reset2.DO3 0
+18IDpil1M:Stats1:Reset2.STR3 0
+18IDpil1M:Stats1:Reset2.LNK3 18IDpil1M:Stats1:HistBelow PP MS
+18IDpil1M:Stats1:Reset2.WAIT3 0
+18IDpil1M:Stats1:Reset2.DLY4 0
+18IDpil1M:Stats1:Reset2.DOL4 
+18IDpil1M:Stats1:Reset2.DO4 0
+18IDpil1M:Stats1:Reset2.STR4 0
+18IDpil1M:Stats1:Reset2.LNK4 18IDpil1M:Stats1:HistAbove PP MS
+18IDpil1M:Stats1:Reset2.WAIT4 0
+18IDpil1M:Stats1:Reset2.DLY5 0
+18IDpil1M:Stats1:Reset2.DOL5 
+18IDpil1M:Stats1:Reset2.DO5 0
+18IDpil1M:Stats1:Reset2.STR5 0
+18IDpil1M:Stats1:Reset2.LNK5 18IDpil1M:Stats1:HistEntropy PP MS
+18IDpil1M:Stats1:Reset2.WAIT5 0
+18IDpil1M:Stats1:Reset2.DLY6 0
+18IDpil1M:Stats1:Reset2.DOL6 
+18IDpil1M:Stats1:Reset2.DO6 0
+18IDpil1M:Stats1:Reset2.STR6 0
+18IDpil1M:Stats1:Reset2.LNK6 
+18IDpil1M:Stats1:Reset2.WAIT6 0
+18IDpil1M:Stats1:Reset2.DLY7 0
+18IDpil1M:Stats1:Reset2.DOL7 
+18IDpil1M:Stats1:Reset2.DO7 0
+18IDpil1M:Stats1:Reset2.STR7 0
+18IDpil1M:Stats1:Reset2.LNK7 
+18IDpil1M:Stats1:Reset2.WAIT7 0
+18IDpil1M:Stats1:Reset2.DLY8 0
+18IDpil1M:Stats1:Reset2.DOL8 
+18IDpil1M:Stats1:Reset2.DO8 0
+18IDpil1M:Stats1:Reset2.STR8 0
+18IDpil1M:Stats1:Reset2.LNK8 
+18IDpil1M:Stats1:Reset2.WAIT8 0
+18IDpil1M:Stats1:Reset2.DLY9 0
+18IDpil1M:Stats1:Reset2.DOL9 
+18IDpil1M:Stats1:Reset2.DO9 0
+18IDpil1M:Stats1:Reset2.STR9 0
+18IDpil1M:Stats1:Reset2.LNK9 
+18IDpil1M:Stats1:Reset2.WAIT9 0
+18IDpil1M:Stats1:Reset2.DLYA 0
+18IDpil1M:Stats1:Reset2.DOLA 
+18IDpil1M:Stats1:Reset2.DOA 0
+18IDpil1M:Stats1:Reset2.STRA 0
+18IDpil1M:Stats1:Reset2.LNKA 
+18IDpil1M:Stats1:Reset2.WAITA 0
+18IDpil1M:Stats1:Reset2.FLNK 
+18IDpil1M:Stats1:Reset2.SELL 
+18IDpil1M:Stats1:Reset2.SELN 1
+18IDpil1M:Stats1:Reset2.SELM 0
+18IDpil1M:Stats2:BgdWidth 1
+18IDpil1M:Stats2:ComputeStatistics 1
+18IDpil1M:Stats2:ComputeCentroid 0
+18IDpil1M:Stats2:CentroidThreshold 1
+18IDpil1M:Stats2:ComputeProfiles 0
+18IDpil1M:Stats2:CursorX 256
+18IDpil1M:Stats2:CursorY 256
+18IDpil1M:Stats2:ComputeHistogram 0
+18IDpil1M:Stats2:HistSize 256
+18IDpil1M:Stats2:HistMin 0
+18IDpil1M:Stats2:HistMax 255
+18IDpil1M:Stats2:TS:TSNumPoints 2048
+18IDpil1M:Stats2:TS:TSTimePerPointLink.DOL 0.1
+18IDpil1M:Stats2:TS:TSAveragingTime 0.1
+18IDpil1M:Stats2:TS:TSRead.SCAN 6
+18IDpil1M:Stats2:TS:TSAcquireMode 0
+18IDpil1M:Stats2:TS:NDArrayPort STATS2
+18IDpil1M:Stats2:TS:NDArrayAddress 1
+18IDpil1M:Stats2:TS:EnableCallbacks 1
+18IDpil1M:Stats2:TS:MinCallbackTime 0
+18IDpil1M:Stats2:TS:MaxByteRate 0
+18IDpil1M:Stats2:TS:BlockingCallbacks 0
+18IDpil1M:Stats2:TS:QueueSize 20
+18IDpil1M:Stats2:TS:NumThreads 1
+18IDpil1M:Stats2:TS:SortTime 0.1
+18IDpil1M:Stats2:TS:SortMode 0
+18IDpil1M:Stats2:TS:SortSize 20
+18IDpil1M:Stats2:TS:DataType 0
+18IDpil1M:Stats2:TS:ColorMode 0
+18IDpil1M:Stats2:TS:ArrayCallbacks 1
+18IDpil1M:Stats2:TS:NDAttributesFile 0
+18IDpil1M:Stats2:TS:NDAttributesMacros 0
+18IDpil1M:Stats2:TS:PoolPollStats.SCAN 6
+18IDpil1M:Stats2:TS:NumPreAllocBuffers 100
+18IDpil1M:Stats2:TS:WaitForPlugins 0
+18IDpil1M:Stats2:NDArrayPort PIL
+18IDpil1M:Stats2:NDArrayAddress 0
+18IDpil1M:Stats2:EnableCallbacks 0
+18IDpil1M:Stats2:MinCallbackTime 0
+18IDpil1M:Stats2:MaxByteRate 0
+18IDpil1M:Stats2:BlockingCallbacks 0
+18IDpil1M:Stats2:QueueSize 20
+18IDpil1M:Stats2:NumThreads 1
+18IDpil1M:Stats2:SortTime 0.1
+18IDpil1M:Stats2:SortMode 0
+18IDpil1M:Stats2:SortSize 20
+18IDpil1M:Stats2:DataType 0
+18IDpil1M:Stats2:ColorMode 0
+18IDpil1M:Stats2:ArrayCallbacks 1
+18IDpil1M:Stats2:NDAttributesFile 0
+18IDpil1M:Stats2:NDAttributesMacros 0
+18IDpil1M:Stats2:PoolPollStats.SCAN 6
+18IDpil1M:Stats2:NumPreAllocBuffers 100
+18IDpil1M:Stats2:WaitForPlugins 0
+18IDpil1M:Stats2:Reset.SCAN 0
+18IDpil1M:Stats2:Reset.DESC 
+18IDpil1M:Stats2:Reset.PREC 0
+18IDpil1M:Stats2:Reset.DLY1 0
+18IDpil1M:Stats2:Reset.DOL1 
+18IDpil1M:Stats2:Reset.DO1 0
+18IDpil1M:Stats2:Reset.STR1 0
+18IDpil1M:Stats2:Reset.LNK1 18IDpil1M:Stats2:MinValue PP MS
+18IDpil1M:Stats2:Reset.WAIT1 0
+18IDpil1M:Stats2:Reset.DLY2 0
+18IDpil1M:Stats2:Reset.DOL2 
+18IDpil1M:Stats2:Reset.DO2 0
+18IDpil1M:Stats2:Reset.STR2 0
+18IDpil1M:Stats2:Reset.LNK2 18IDpil1M:Stats2:MaxValue PP MS
+18IDpil1M:Stats2:Reset.WAIT2 0
+18IDpil1M:Stats2:Reset.DLY3 0
+18IDpil1M:Stats2:Reset.DOL3 
+18IDpil1M:Stats2:Reset.DO3 0
+18IDpil1M:Stats2:Reset.STR3 0
+18IDpil1M:Stats2:Reset.LNK3 18IDpil1M:Stats2:MeanValue PP MS
+18IDpil1M:Stats2:Reset.WAIT3 0
+18IDpil1M:Stats2:Reset.DLY4 0
+18IDpil1M:Stats2:Reset.DOL4 
+18IDpil1M:Stats2:Reset.DO4 0
+18IDpil1M:Stats2:Reset.STR4 0
+18IDpil1M:Stats2:Reset.LNK4 18IDpil1M:Stats2:SigmaValue PP MS
+18IDpil1M:Stats2:Reset.WAIT4 0
+18IDpil1M:Stats2:Reset.DLY5 0
+18IDpil1M:Stats2:Reset.DOL5 
+18IDpil1M:Stats2:Reset.DO5 0
+18IDpil1M:Stats2:Reset.STR5 0
+18IDpil1M:Stats2:Reset.LNK5 18IDpil1M:Stats2:Total PP MS
+18IDpil1M:Stats2:Reset.WAIT5 0
+18IDpil1M:Stats2:Reset.DLY6 0
+18IDpil1M:Stats2:Reset.DOL6 
+18IDpil1M:Stats2:Reset.DO6 0
+18IDpil1M:Stats2:Reset.STR6 0
+18IDpil1M:Stats2:Reset.LNK6 18IDpil1M:Stats2:Net PP MS
+18IDpil1M:Stats2:Reset.WAIT6 0
+18IDpil1M:Stats2:Reset.DLY7 0
+18IDpil1M:Stats2:Reset.DOL7 
+18IDpil1M:Stats2:Reset.DO7 0
+18IDpil1M:Stats2:Reset.STR7 0
+18IDpil1M:Stats2:Reset.LNK7 18IDpil1M:Stats2:MinX PP MS
+18IDpil1M:Stats2:Reset.WAIT7 0
+18IDpil1M:Stats2:Reset.DLY8 0
+18IDpil1M:Stats2:Reset.DOL8 
+18IDpil1M:Stats2:Reset.DO8 0
+18IDpil1M:Stats2:Reset.STR8 0
+18IDpil1M:Stats2:Reset.LNK8 18IDpil1M:Stats2:MinY PP MS
+18IDpil1M:Stats2:Reset.WAIT8 0
+18IDpil1M:Stats2:Reset.DLY9 0
+18IDpil1M:Stats2:Reset.DOL9 
+18IDpil1M:Stats2:Reset.DO9 0
+18IDpil1M:Stats2:Reset.STR9 0
+18IDpil1M:Stats2:Reset.LNK9 18IDpil1M:Stats2:MaxX PP MS
+18IDpil1M:Stats2:Reset.WAIT9 0
+18IDpil1M:Stats2:Reset.DLYA 0
+18IDpil1M:Stats2:Reset.DOLA 
+18IDpil1M:Stats2:Reset.DOA 0
+18IDpil1M:Stats2:Reset.STRA 0
+18IDpil1M:Stats2:Reset.LNKA 18IDpil1M:Stats2:MaxY PP MS
+18IDpil1M:Stats2:Reset.WAITA 0
+18IDpil1M:Stats2:Reset.FLNK 18IDpil1M:Stats2:Reset1
+18IDpil1M:Stats2:Reset.SELL 
+18IDpil1M:Stats2:Reset.SELN 1
+18IDpil1M:Stats2:Reset.SELM 0
+18IDpil1M:Stats2:Reset1.SCAN 0
+18IDpil1M:Stats2:Reset1.DESC 
+18IDpil1M:Stats2:Reset1.PREC 0
+18IDpil1M:Stats2:Reset1.DLY1 0
+18IDpil1M:Stats2:Reset1.DOL1 
+18IDpil1M:Stats2:Reset1.DO1 0
+18IDpil1M:Stats2:Reset1.STR1 0
+18IDpil1M:Stats2:Reset1.LNK1 18IDpil1M:Stats2:CentroidX PP MS
+18IDpil1M:Stats2:Reset1.WAIT1 0
+18IDpil1M:Stats2:Reset1.DLY2 0
+18IDpil1M:Stats2:Reset1.DOL2 
+18IDpil1M:Stats2:Reset1.DO2 0
+18IDpil1M:Stats2:Reset1.STR2 0
+18IDpil1M:Stats2:Reset1.LNK2 18IDpil1M:Stats2:CentroidY PP MS
+18IDpil1M:Stats2:Reset1.WAIT2 0
+18IDpil1M:Stats2:Reset1.DLY3 0
+18IDpil1M:Stats2:Reset1.DOL3 
+18IDpil1M:Stats2:Reset1.DO3 0
+18IDpil1M:Stats2:Reset1.STR3 0
+18IDpil1M:Stats2:Reset1.LNK3 18IDpil1M:Stats2:SigmaX PP MS
+18IDpil1M:Stats2:Reset1.WAIT3 0
+18IDpil1M:Stats2:Reset1.DLY4 0
+18IDpil1M:Stats2:Reset1.DOL4 
+18IDpil1M:Stats2:Reset1.DO4 0
+18IDpil1M:Stats2:Reset1.STR4 0
+18IDpil1M:Stats2:Reset1.LNK4 18IDpil1M:Stats2:SigmaY PP MS
+18IDpil1M:Stats2:Reset1.WAIT4 0
+18IDpil1M:Stats2:Reset1.DLY5 0
+18IDpil1M:Stats2:Reset1.DOL5 
+18IDpil1M:Stats2:Reset1.DO5 0
+18IDpil1M:Stats2:Reset1.STR5 0
+18IDpil1M:Stats2:Reset1.LNK5 18IDpil1M:Stats2:SigmaXY PP MS
+18IDpil1M:Stats2:Reset1.WAIT5 0
+18IDpil1M:Stats2:Reset1.DLY6 0
+18IDpil1M:Stats2:Reset1.DOL6 
+18IDpil1M:Stats2:Reset1.DO6 0
+18IDpil1M:Stats2:Reset1.STR6 0
+18IDpil1M:Stats2:Reset1.LNK6 18IDpil1M:Stats2:CentroidTotal PP MS
+18IDpil1M:Stats2:Reset1.WAIT6 0
+18IDpil1M:Stats2:Reset1.DLY7 0
+18IDpil1M:Stats2:Reset1.DOL7 
+18IDpil1M:Stats2:Reset1.DO7 0
+18IDpil1M:Stats2:Reset1.STR7 0
+18IDpil1M:Stats2:Reset1.LNK7 18IDpil1M:Stats2:SkewX PP MS
+18IDpil1M:Stats2:Reset1.WAIT7 0
+18IDpil1M:Stats2:Reset1.DLY8 0
+18IDpil1M:Stats2:Reset1.DOL8 
+18IDpil1M:Stats2:Reset1.DO8 0
+18IDpil1M:Stats2:Reset1.STR8 0
+18IDpil1M:Stats2:Reset1.LNK8 18IDpil1M:Stats2:SkewY PP MS
+18IDpil1M:Stats2:Reset1.WAIT8 0
+18IDpil1M:Stats2:Reset1.DLY9 0
+18IDpil1M:Stats2:Reset1.DOL9 
+18IDpil1M:Stats2:Reset1.DO9 0
+18IDpil1M:Stats2:Reset1.STR9 0
+18IDpil1M:Stats2:Reset1.LNK9 18IDpil1M:Stats2:KurtosisX PP MS
+18IDpil1M:Stats2:Reset1.WAIT9 0
+18IDpil1M:Stats2:Reset1.DLYA 0
+18IDpil1M:Stats2:Reset1.DOLA 
+18IDpil1M:Stats2:Reset1.DOA 0
+18IDpil1M:Stats2:Reset1.STRA 0
+18IDpil1M:Stats2:Reset1.LNKA 18IDpil1M:Stats2:KurtosisY PP MS
+18IDpil1M:Stats2:Reset1.WAITA 0
+18IDpil1M:Stats2:Reset1.FLNK 18IDpil1M:Stats2:Reset2
+18IDpil1M:Stats2:Reset1.SELL 
+18IDpil1M:Stats2:Reset1.SELN 1
+18IDpil1M:Stats2:Reset1.SELM 0
+18IDpil1M:Stats2:Reset2.SCAN 0
+18IDpil1M:Stats2:Reset2.DESC 
+18IDpil1M:Stats2:Reset2.PREC 0
+18IDpil1M:Stats2:Reset2.DLY1 0
+18IDpil1M:Stats2:Reset2.DOL1 
+18IDpil1M:Stats2:Reset2.DO1 0
+18IDpil1M:Stats2:Reset2.STR1 0
+18IDpil1M:Stats2:Reset2.LNK1 18IDpil1M:Stats2:Eccentricity PP MS
+18IDpil1M:Stats2:Reset2.WAIT1 0
+18IDpil1M:Stats2:Reset2.DLY2 0
+18IDpil1M:Stats2:Reset2.DOL2 
+18IDpil1M:Stats2:Reset2.DO2 0
+18IDpil1M:Stats2:Reset2.STR2 0
+18IDpil1M:Stats2:Reset2.LNK2 18IDpil1M:Stats2:Orientation PP MS
+18IDpil1M:Stats2:Reset2.WAIT2 0
+18IDpil1M:Stats2:Reset2.DLY3 0
+18IDpil1M:Stats2:Reset2.DOL3 
+18IDpil1M:Stats2:Reset2.DO3 0
+18IDpil1M:Stats2:Reset2.STR3 0
+18IDpil1M:Stats2:Reset2.LNK3 18IDpil1M:Stats2:HistBelow PP MS
+18IDpil1M:Stats2:Reset2.WAIT3 0
+18IDpil1M:Stats2:Reset2.DLY4 0
+18IDpil1M:Stats2:Reset2.DOL4 
+18IDpil1M:Stats2:Reset2.DO4 0
+18IDpil1M:Stats2:Reset2.STR4 0
+18IDpil1M:Stats2:Reset2.LNK4 18IDpil1M:Stats2:HistAbove PP MS
+18IDpil1M:Stats2:Reset2.WAIT4 0
+18IDpil1M:Stats2:Reset2.DLY5 0
+18IDpil1M:Stats2:Reset2.DOL5 
+18IDpil1M:Stats2:Reset2.DO5 0
+18IDpil1M:Stats2:Reset2.STR5 0
+18IDpil1M:Stats2:Reset2.LNK5 18IDpil1M:Stats2:HistEntropy PP MS
+18IDpil1M:Stats2:Reset2.WAIT5 0
+18IDpil1M:Stats2:Reset2.DLY6 0
+18IDpil1M:Stats2:Reset2.DOL6 
+18IDpil1M:Stats2:Reset2.DO6 0
+18IDpil1M:Stats2:Reset2.STR6 0
+18IDpil1M:Stats2:Reset2.LNK6 
+18IDpil1M:Stats2:Reset2.WAIT6 0
+18IDpil1M:Stats2:Reset2.DLY7 0
+18IDpil1M:Stats2:Reset2.DOL7 
+18IDpil1M:Stats2:Reset2.DO7 0
+18IDpil1M:Stats2:Reset2.STR7 0
+18IDpil1M:Stats2:Reset2.LNK7 
+18IDpil1M:Stats2:Reset2.WAIT7 0
+18IDpil1M:Stats2:Reset2.DLY8 0
+18IDpil1M:Stats2:Reset2.DOL8 
+18IDpil1M:Stats2:Reset2.DO8 0
+18IDpil1M:Stats2:Reset2.STR8 0
+18IDpil1M:Stats2:Reset2.LNK8 
+18IDpil1M:Stats2:Reset2.WAIT8 0
+18IDpil1M:Stats2:Reset2.DLY9 0
+18IDpil1M:Stats2:Reset2.DOL9 
+18IDpil1M:Stats2:Reset2.DO9 0
+18IDpil1M:Stats2:Reset2.STR9 0
+18IDpil1M:Stats2:Reset2.LNK9 
+18IDpil1M:Stats2:Reset2.WAIT9 0
+18IDpil1M:Stats2:Reset2.DLYA 0
+18IDpil1M:Stats2:Reset2.DOLA 
+18IDpil1M:Stats2:Reset2.DOA 0
+18IDpil1M:Stats2:Reset2.STRA 0
+18IDpil1M:Stats2:Reset2.LNKA 
+18IDpil1M:Stats2:Reset2.WAITA 0
+18IDpil1M:Stats2:Reset2.FLNK 
+18IDpil1M:Stats2:Reset2.SELL 
+18IDpil1M:Stats2:Reset2.SELN 1
+18IDpil1M:Stats2:Reset2.SELM 0
+18IDpil1M:Stats3:BgdWidth 1
+18IDpil1M:Stats3:ComputeStatistics 1
+18IDpil1M:Stats3:ComputeCentroid 0
+18IDpil1M:Stats3:CentroidThreshold 1
+18IDpil1M:Stats3:ComputeProfiles 0
+18IDpil1M:Stats3:CursorX 256
+18IDpil1M:Stats3:CursorY 256
+18IDpil1M:Stats3:ComputeHistogram 0
+18IDpil1M:Stats3:HistSize 256
+18IDpil1M:Stats3:HistMin 0
+18IDpil1M:Stats3:HistMax 255
+18IDpil1M:Stats3:TS:TSNumPoints 2048
+18IDpil1M:Stats3:TS:TSTimePerPointLink.DOL 0.1
+18IDpil1M:Stats3:TS:TSAveragingTime 0.1
+18IDpil1M:Stats3:TS:TSRead.SCAN 6
+18IDpil1M:Stats3:TS:TSAcquireMode 0
+18IDpil1M:Stats3:TS:NDArrayPort STATS3
+18IDpil1M:Stats3:TS:NDArrayAddress 1
+18IDpil1M:Stats3:TS:EnableCallbacks 1
+18IDpil1M:Stats3:TS:MinCallbackTime 0
+18IDpil1M:Stats3:TS:MaxByteRate 0
+18IDpil1M:Stats3:TS:BlockingCallbacks 0
+18IDpil1M:Stats3:TS:QueueSize 20
+18IDpil1M:Stats3:TS:NumThreads 1
+18IDpil1M:Stats3:TS:SortTime 0.1
+18IDpil1M:Stats3:TS:SortMode 0
+18IDpil1M:Stats3:TS:SortSize 20
+18IDpil1M:Stats3:TS:DataType 0
+18IDpil1M:Stats3:TS:ColorMode 0
+18IDpil1M:Stats3:TS:ArrayCallbacks 1
+18IDpil1M:Stats3:TS:NDAttributesFile 0
+18IDpil1M:Stats3:TS:NDAttributesMacros 0
+18IDpil1M:Stats3:TS:PoolPollStats.SCAN 6
+18IDpil1M:Stats3:TS:NumPreAllocBuffers 100
+18IDpil1M:Stats3:TS:WaitForPlugins 0
+18IDpil1M:Stats3:NDArrayPort PIL
+18IDpil1M:Stats3:NDArrayAddress 0
+18IDpil1M:Stats3:EnableCallbacks 0
+18IDpil1M:Stats3:MinCallbackTime 0
+18IDpil1M:Stats3:MaxByteRate 0
+18IDpil1M:Stats3:BlockingCallbacks 0
+18IDpil1M:Stats3:QueueSize 20
+18IDpil1M:Stats3:NumThreads 1
+18IDpil1M:Stats3:SortTime 0.1
+18IDpil1M:Stats3:SortMode 0
+18IDpil1M:Stats3:SortSize 20
+18IDpil1M:Stats3:DataType 0
+18IDpil1M:Stats3:ColorMode 0
+18IDpil1M:Stats3:ArrayCallbacks 1
+18IDpil1M:Stats3:NDAttributesFile 0
+18IDpil1M:Stats3:NDAttributesMacros 0
+18IDpil1M:Stats3:PoolPollStats.SCAN 6
+18IDpil1M:Stats3:NumPreAllocBuffers 100
+18IDpil1M:Stats3:WaitForPlugins 0
+18IDpil1M:Stats3:Reset.SCAN 0
+18IDpil1M:Stats3:Reset.DESC 
+18IDpil1M:Stats3:Reset.PREC 0
+18IDpil1M:Stats3:Reset.DLY1 0
+18IDpil1M:Stats3:Reset.DOL1 
+18IDpil1M:Stats3:Reset.DO1 0
+18IDpil1M:Stats3:Reset.STR1 0
+18IDpil1M:Stats3:Reset.LNK1 18IDpil1M:Stats3:MinValue PP MS
+18IDpil1M:Stats3:Reset.WAIT1 0
+18IDpil1M:Stats3:Reset.DLY2 0
+18IDpil1M:Stats3:Reset.DOL2 
+18IDpil1M:Stats3:Reset.DO2 0
+18IDpil1M:Stats3:Reset.STR2 0
+18IDpil1M:Stats3:Reset.LNK2 18IDpil1M:Stats3:MaxValue PP MS
+18IDpil1M:Stats3:Reset.WAIT2 0
+18IDpil1M:Stats3:Reset.DLY3 0
+18IDpil1M:Stats3:Reset.DOL3 
+18IDpil1M:Stats3:Reset.DO3 0
+18IDpil1M:Stats3:Reset.STR3 0
+18IDpil1M:Stats3:Reset.LNK3 18IDpil1M:Stats3:MeanValue PP MS
+18IDpil1M:Stats3:Reset.WAIT3 0
+18IDpil1M:Stats3:Reset.DLY4 0
+18IDpil1M:Stats3:Reset.DOL4 
+18IDpil1M:Stats3:Reset.DO4 0
+18IDpil1M:Stats3:Reset.STR4 0
+18IDpil1M:Stats3:Reset.LNK4 18IDpil1M:Stats3:SigmaValue PP MS
+18IDpil1M:Stats3:Reset.WAIT4 0
+18IDpil1M:Stats3:Reset.DLY5 0
+18IDpil1M:Stats3:Reset.DOL5 
+18IDpil1M:Stats3:Reset.DO5 0
+18IDpil1M:Stats3:Reset.STR5 0
+18IDpil1M:Stats3:Reset.LNK5 18IDpil1M:Stats3:Total PP MS
+18IDpil1M:Stats3:Reset.WAIT5 0
+18IDpil1M:Stats3:Reset.DLY6 0
+18IDpil1M:Stats3:Reset.DOL6 
+18IDpil1M:Stats3:Reset.DO6 0
+18IDpil1M:Stats3:Reset.STR6 0
+18IDpil1M:Stats3:Reset.LNK6 18IDpil1M:Stats3:Net PP MS
+18IDpil1M:Stats3:Reset.WAIT6 0
+18IDpil1M:Stats3:Reset.DLY7 0
+18IDpil1M:Stats3:Reset.DOL7 
+18IDpil1M:Stats3:Reset.DO7 0
+18IDpil1M:Stats3:Reset.STR7 0
+18IDpil1M:Stats3:Reset.LNK7 18IDpil1M:Stats3:MinX PP MS
+18IDpil1M:Stats3:Reset.WAIT7 0
+18IDpil1M:Stats3:Reset.DLY8 0
+18IDpil1M:Stats3:Reset.DOL8 
+18IDpil1M:Stats3:Reset.DO8 0
+18IDpil1M:Stats3:Reset.STR8 0
+18IDpil1M:Stats3:Reset.LNK8 18IDpil1M:Stats3:MinY PP MS
+18IDpil1M:Stats3:Reset.WAIT8 0
+18IDpil1M:Stats3:Reset.DLY9 0
+18IDpil1M:Stats3:Reset.DOL9 
+18IDpil1M:Stats3:Reset.DO9 0
+18IDpil1M:Stats3:Reset.STR9 0
+18IDpil1M:Stats3:Reset.LNK9 18IDpil1M:Stats3:MaxX PP MS
+18IDpil1M:Stats3:Reset.WAIT9 0
+18IDpil1M:Stats3:Reset.DLYA 0
+18IDpil1M:Stats3:Reset.DOLA 
+18IDpil1M:Stats3:Reset.DOA 0
+18IDpil1M:Stats3:Reset.STRA 0
+18IDpil1M:Stats3:Reset.LNKA 18IDpil1M:Stats3:MaxY PP MS
+18IDpil1M:Stats3:Reset.WAITA 0
+18IDpil1M:Stats3:Reset.FLNK 18IDpil1M:Stats3:Reset1
+18IDpil1M:Stats3:Reset.SELL 
+18IDpil1M:Stats3:Reset.SELN 1
+18IDpil1M:Stats3:Reset.SELM 0
+18IDpil1M:Stats3:Reset1.SCAN 0
+18IDpil1M:Stats3:Reset1.DESC 
+18IDpil1M:Stats3:Reset1.PREC 0
+18IDpil1M:Stats3:Reset1.DLY1 0
+18IDpil1M:Stats3:Reset1.DOL1 
+18IDpil1M:Stats3:Reset1.DO1 0
+18IDpil1M:Stats3:Reset1.STR1 0
+18IDpil1M:Stats3:Reset1.LNK1 18IDpil1M:Stats3:CentroidX PP MS
+18IDpil1M:Stats3:Reset1.WAIT1 0
+18IDpil1M:Stats3:Reset1.DLY2 0
+18IDpil1M:Stats3:Reset1.DOL2 
+18IDpil1M:Stats3:Reset1.DO2 0
+18IDpil1M:Stats3:Reset1.STR2 0
+18IDpil1M:Stats3:Reset1.LNK2 18IDpil1M:Stats3:CentroidY PP MS
+18IDpil1M:Stats3:Reset1.WAIT2 0
+18IDpil1M:Stats3:Reset1.DLY3 0
+18IDpil1M:Stats3:Reset1.DOL3 
+18IDpil1M:Stats3:Reset1.DO3 0
+18IDpil1M:Stats3:Reset1.STR3 0
+18IDpil1M:Stats3:Reset1.LNK3 18IDpil1M:Stats3:SigmaX PP MS
+18IDpil1M:Stats3:Reset1.WAIT3 0
+18IDpil1M:Stats3:Reset1.DLY4 0
+18IDpil1M:Stats3:Reset1.DOL4 
+18IDpil1M:Stats3:Reset1.DO4 0
+18IDpil1M:Stats3:Reset1.STR4 0
+18IDpil1M:Stats3:Reset1.LNK4 18IDpil1M:Stats3:SigmaY PP MS
+18IDpil1M:Stats3:Reset1.WAIT4 0
+18IDpil1M:Stats3:Reset1.DLY5 0
+18IDpil1M:Stats3:Reset1.DOL5 
+18IDpil1M:Stats3:Reset1.DO5 0
+18IDpil1M:Stats3:Reset1.STR5 0
+18IDpil1M:Stats3:Reset1.LNK5 18IDpil1M:Stats3:SigmaXY PP MS
+18IDpil1M:Stats3:Reset1.WAIT5 0
+18IDpil1M:Stats3:Reset1.DLY6 0
+18IDpil1M:Stats3:Reset1.DOL6 
+18IDpil1M:Stats3:Reset1.DO6 0
+18IDpil1M:Stats3:Reset1.STR6 0
+18IDpil1M:Stats3:Reset1.LNK6 18IDpil1M:Stats3:CentroidTotal PP MS
+18IDpil1M:Stats3:Reset1.WAIT6 0
+18IDpil1M:Stats3:Reset1.DLY7 0
+18IDpil1M:Stats3:Reset1.DOL7 
+18IDpil1M:Stats3:Reset1.DO7 0
+18IDpil1M:Stats3:Reset1.STR7 0
+18IDpil1M:Stats3:Reset1.LNK7 18IDpil1M:Stats3:SkewX PP MS
+18IDpil1M:Stats3:Reset1.WAIT7 0
+18IDpil1M:Stats3:Reset1.DLY8 0
+18IDpil1M:Stats3:Reset1.DOL8 
+18IDpil1M:Stats3:Reset1.DO8 0
+18IDpil1M:Stats3:Reset1.STR8 0
+18IDpil1M:Stats3:Reset1.LNK8 18IDpil1M:Stats3:SkewY PP MS
+18IDpil1M:Stats3:Reset1.WAIT8 0
+18IDpil1M:Stats3:Reset1.DLY9 0
+18IDpil1M:Stats3:Reset1.DOL9 
+18IDpil1M:Stats3:Reset1.DO9 0
+18IDpil1M:Stats3:Reset1.STR9 0
+18IDpil1M:Stats3:Reset1.LNK9 18IDpil1M:Stats3:KurtosisX PP MS
+18IDpil1M:Stats3:Reset1.WAIT9 0
+18IDpil1M:Stats3:Reset1.DLYA 0
+18IDpil1M:Stats3:Reset1.DOLA 
+18IDpil1M:Stats3:Reset1.DOA 0
+18IDpil1M:Stats3:Reset1.STRA 0
+18IDpil1M:Stats3:Reset1.LNKA 18IDpil1M:Stats3:KurtosisY PP MS
+18IDpil1M:Stats3:Reset1.WAITA 0
+18IDpil1M:Stats3:Reset1.FLNK 18IDpil1M:Stats3:Reset2
+18IDpil1M:Stats3:Reset1.SELL 
+18IDpil1M:Stats3:Reset1.SELN 1
+18IDpil1M:Stats3:Reset1.SELM 0
+18IDpil1M:Stats3:Reset2.SCAN 0
+18IDpil1M:Stats3:Reset2.DESC 
+18IDpil1M:Stats3:Reset2.PREC 0
+18IDpil1M:Stats3:Reset2.DLY1 0
+18IDpil1M:Stats3:Reset2.DOL1 
+18IDpil1M:Stats3:Reset2.DO1 0
+18IDpil1M:Stats3:Reset2.STR1 0
+18IDpil1M:Stats3:Reset2.LNK1 18IDpil1M:Stats3:Eccentricity PP MS
+18IDpil1M:Stats3:Reset2.WAIT1 0
+18IDpil1M:Stats3:Reset2.DLY2 0
+18IDpil1M:Stats3:Reset2.DOL2 
+18IDpil1M:Stats3:Reset2.DO2 0
+18IDpil1M:Stats3:Reset2.STR2 0
+18IDpil1M:Stats3:Reset2.LNK2 18IDpil1M:Stats3:Orientation PP MS
+18IDpil1M:Stats3:Reset2.WAIT2 0
+18IDpil1M:Stats3:Reset2.DLY3 0
+18IDpil1M:Stats3:Reset2.DOL3 
+18IDpil1M:Stats3:Reset2.DO3 0
+18IDpil1M:Stats3:Reset2.STR3 0
+18IDpil1M:Stats3:Reset2.LNK3 18IDpil1M:Stats3:HistBelow PP MS
+18IDpil1M:Stats3:Reset2.WAIT3 0
+18IDpil1M:Stats3:Reset2.DLY4 0
+18IDpil1M:Stats3:Reset2.DOL4 
+18IDpil1M:Stats3:Reset2.DO4 0
+18IDpil1M:Stats3:Reset2.STR4 0
+18IDpil1M:Stats3:Reset2.LNK4 18IDpil1M:Stats3:HistAbove PP MS
+18IDpil1M:Stats3:Reset2.WAIT4 0
+18IDpil1M:Stats3:Reset2.DLY5 0
+18IDpil1M:Stats3:Reset2.DOL5 
+18IDpil1M:Stats3:Reset2.DO5 0
+18IDpil1M:Stats3:Reset2.STR5 0
+18IDpil1M:Stats3:Reset2.LNK5 18IDpil1M:Stats3:HistEntropy PP MS
+18IDpil1M:Stats3:Reset2.WAIT5 0
+18IDpil1M:Stats3:Reset2.DLY6 0
+18IDpil1M:Stats3:Reset2.DOL6 
+18IDpil1M:Stats3:Reset2.DO6 0
+18IDpil1M:Stats3:Reset2.STR6 0
+18IDpil1M:Stats3:Reset2.LNK6 
+18IDpil1M:Stats3:Reset2.WAIT6 0
+18IDpil1M:Stats3:Reset2.DLY7 0
+18IDpil1M:Stats3:Reset2.DOL7 
+18IDpil1M:Stats3:Reset2.DO7 0
+18IDpil1M:Stats3:Reset2.STR7 0
+18IDpil1M:Stats3:Reset2.LNK7 
+18IDpil1M:Stats3:Reset2.WAIT7 0
+18IDpil1M:Stats3:Reset2.DLY8 0
+18IDpil1M:Stats3:Reset2.DOL8 
+18IDpil1M:Stats3:Reset2.DO8 0
+18IDpil1M:Stats3:Reset2.STR8 0
+18IDpil1M:Stats3:Reset2.LNK8 
+18IDpil1M:Stats3:Reset2.WAIT8 0
+18IDpil1M:Stats3:Reset2.DLY9 0
+18IDpil1M:Stats3:Reset2.DOL9 
+18IDpil1M:Stats3:Reset2.DO9 0
+18IDpil1M:Stats3:Reset2.STR9 0
+18IDpil1M:Stats3:Reset2.LNK9 
+18IDpil1M:Stats3:Reset2.WAIT9 0
+18IDpil1M:Stats3:Reset2.DLYA 0
+18IDpil1M:Stats3:Reset2.DOLA 
+18IDpil1M:Stats3:Reset2.DOA 0
+18IDpil1M:Stats3:Reset2.STRA 0
+18IDpil1M:Stats3:Reset2.LNKA 
+18IDpil1M:Stats3:Reset2.WAITA 0
+18IDpil1M:Stats3:Reset2.FLNK 
+18IDpil1M:Stats3:Reset2.SELL 
+18IDpil1M:Stats3:Reset2.SELN 1
+18IDpil1M:Stats3:Reset2.SELM 0
+18IDpil1M:Stats4:BgdWidth 1
+18IDpil1M:Stats4:ComputeStatistics 1
+18IDpil1M:Stats4:ComputeCentroid 0
+18IDpil1M:Stats4:CentroidThreshold 1
+18IDpil1M:Stats4:ComputeProfiles 0
+18IDpil1M:Stats4:CursorX 256
+18IDpil1M:Stats4:CursorY 256
+18IDpil1M:Stats4:ComputeHistogram 0
+18IDpil1M:Stats4:HistSize 256
+18IDpil1M:Stats4:HistMin 0
+18IDpil1M:Stats4:HistMax 255
+18IDpil1M:Stats4:TS:TSNumPoints 2048
+18IDpil1M:Stats4:TS:TSTimePerPointLink.DOL 0.1
+18IDpil1M:Stats4:TS:TSAveragingTime 0.1
+18IDpil1M:Stats4:TS:TSRead.SCAN 6
+18IDpil1M:Stats4:TS:TSAcquireMode 0
+18IDpil1M:Stats4:TS:NDArrayPort STATS4
+18IDpil1M:Stats4:TS:NDArrayAddress 1
+18IDpil1M:Stats4:TS:EnableCallbacks 1
+18IDpil1M:Stats4:TS:MinCallbackTime 0
+18IDpil1M:Stats4:TS:MaxByteRate 0
+18IDpil1M:Stats4:TS:BlockingCallbacks 0
+18IDpil1M:Stats4:TS:QueueSize 20
+18IDpil1M:Stats4:TS:NumThreads 1
+18IDpil1M:Stats4:TS:SortTime 0.1
+18IDpil1M:Stats4:TS:SortMode 0
+18IDpil1M:Stats4:TS:SortSize 20
+18IDpil1M:Stats4:TS:DataType 0
+18IDpil1M:Stats4:TS:ColorMode 0
+18IDpil1M:Stats4:TS:ArrayCallbacks 1
+18IDpil1M:Stats4:TS:NDAttributesFile 0
+18IDpil1M:Stats4:TS:NDAttributesMacros 0
+18IDpil1M:Stats4:TS:PoolPollStats.SCAN 6
+18IDpil1M:Stats4:TS:NumPreAllocBuffers 100
+18IDpil1M:Stats4:TS:WaitForPlugins 0
+18IDpil1M:Stats4:NDArrayPort PIL
+18IDpil1M:Stats4:NDArrayAddress 0
+18IDpil1M:Stats4:EnableCallbacks 0
+18IDpil1M:Stats4:MinCallbackTime 0
+18IDpil1M:Stats4:MaxByteRate 0
+18IDpil1M:Stats4:BlockingCallbacks 0
+18IDpil1M:Stats4:QueueSize 20
+18IDpil1M:Stats4:NumThreads 1
+18IDpil1M:Stats4:SortTime 0.1
+18IDpil1M:Stats4:SortMode 0
+18IDpil1M:Stats4:SortSize 20
+18IDpil1M:Stats4:DataType 0
+18IDpil1M:Stats4:ColorMode 0
+18IDpil1M:Stats4:ArrayCallbacks 1
+18IDpil1M:Stats4:NDAttributesFile 0
+18IDpil1M:Stats4:NDAttributesMacros 0
+18IDpil1M:Stats4:PoolPollStats.SCAN 6
+18IDpil1M:Stats4:NumPreAllocBuffers 100
+18IDpil1M:Stats4:WaitForPlugins 0
+18IDpil1M:Stats4:Reset.SCAN 0
+18IDpil1M:Stats4:Reset.DESC 
+18IDpil1M:Stats4:Reset.PREC 0
+18IDpil1M:Stats4:Reset.DLY1 0
+18IDpil1M:Stats4:Reset.DOL1 
+18IDpil1M:Stats4:Reset.DO1 0
+18IDpil1M:Stats4:Reset.STR1 0
+18IDpil1M:Stats4:Reset.LNK1 18IDpil1M:Stats4:MinValue PP MS
+18IDpil1M:Stats4:Reset.WAIT1 0
+18IDpil1M:Stats4:Reset.DLY2 0
+18IDpil1M:Stats4:Reset.DOL2 
+18IDpil1M:Stats4:Reset.DO2 0
+18IDpil1M:Stats4:Reset.STR2 0
+18IDpil1M:Stats4:Reset.LNK2 18IDpil1M:Stats4:MaxValue PP MS
+18IDpil1M:Stats4:Reset.WAIT2 0
+18IDpil1M:Stats4:Reset.DLY3 0
+18IDpil1M:Stats4:Reset.DOL3 
+18IDpil1M:Stats4:Reset.DO3 0
+18IDpil1M:Stats4:Reset.STR3 0
+18IDpil1M:Stats4:Reset.LNK3 18IDpil1M:Stats4:MeanValue PP MS
+18IDpil1M:Stats4:Reset.WAIT3 0
+18IDpil1M:Stats4:Reset.DLY4 0
+18IDpil1M:Stats4:Reset.DOL4 
+18IDpil1M:Stats4:Reset.DO4 0
+18IDpil1M:Stats4:Reset.STR4 0
+18IDpil1M:Stats4:Reset.LNK4 18IDpil1M:Stats4:SigmaValue PP MS
+18IDpil1M:Stats4:Reset.WAIT4 0
+18IDpil1M:Stats4:Reset.DLY5 0
+18IDpil1M:Stats4:Reset.DOL5 
+18IDpil1M:Stats4:Reset.DO5 0
+18IDpil1M:Stats4:Reset.STR5 0
+18IDpil1M:Stats4:Reset.LNK5 18IDpil1M:Stats4:Total PP MS
+18IDpil1M:Stats4:Reset.WAIT5 0
+18IDpil1M:Stats4:Reset.DLY6 0
+18IDpil1M:Stats4:Reset.DOL6 
+18IDpil1M:Stats4:Reset.DO6 0
+18IDpil1M:Stats4:Reset.STR6 0
+18IDpil1M:Stats4:Reset.LNK6 18IDpil1M:Stats4:Net PP MS
+18IDpil1M:Stats4:Reset.WAIT6 0
+18IDpil1M:Stats4:Reset.DLY7 0
+18IDpil1M:Stats4:Reset.DOL7 
+18IDpil1M:Stats4:Reset.DO7 0
+18IDpil1M:Stats4:Reset.STR7 0
+18IDpil1M:Stats4:Reset.LNK7 18IDpil1M:Stats4:MinX PP MS
+18IDpil1M:Stats4:Reset.WAIT7 0
+18IDpil1M:Stats4:Reset.DLY8 0
+18IDpil1M:Stats4:Reset.DOL8 
+18IDpil1M:Stats4:Reset.DO8 0
+18IDpil1M:Stats4:Reset.STR8 0
+18IDpil1M:Stats4:Reset.LNK8 18IDpil1M:Stats4:MinY PP MS
+18IDpil1M:Stats4:Reset.WAIT8 0
+18IDpil1M:Stats4:Reset.DLY9 0
+18IDpil1M:Stats4:Reset.DOL9 
+18IDpil1M:Stats4:Reset.DO9 0
+18IDpil1M:Stats4:Reset.STR9 0
+18IDpil1M:Stats4:Reset.LNK9 18IDpil1M:Stats4:MaxX PP MS
+18IDpil1M:Stats4:Reset.WAIT9 0
+18IDpil1M:Stats4:Reset.DLYA 0
+18IDpil1M:Stats4:Reset.DOLA 
+18IDpil1M:Stats4:Reset.DOA 0
+18IDpil1M:Stats4:Reset.STRA 0
+18IDpil1M:Stats4:Reset.LNKA 18IDpil1M:Stats4:MaxY PP MS
+18IDpil1M:Stats4:Reset.WAITA 0
+18IDpil1M:Stats4:Reset.FLNK 18IDpil1M:Stats4:Reset1
+18IDpil1M:Stats4:Reset.SELL 
+18IDpil1M:Stats4:Reset.SELN 1
+18IDpil1M:Stats4:Reset.SELM 0
+18IDpil1M:Stats4:Reset1.SCAN 0
+18IDpil1M:Stats4:Reset1.DESC 
+18IDpil1M:Stats4:Reset1.PREC 0
+18IDpil1M:Stats4:Reset1.DLY1 0
+18IDpil1M:Stats4:Reset1.DOL1 
+18IDpil1M:Stats4:Reset1.DO1 0
+18IDpil1M:Stats4:Reset1.STR1 0
+18IDpil1M:Stats4:Reset1.LNK1 18IDpil1M:Stats4:CentroidX PP MS
+18IDpil1M:Stats4:Reset1.WAIT1 0
+18IDpil1M:Stats4:Reset1.DLY2 0
+18IDpil1M:Stats4:Reset1.DOL2 
+18IDpil1M:Stats4:Reset1.DO2 0
+18IDpil1M:Stats4:Reset1.STR2 0
+18IDpil1M:Stats4:Reset1.LNK2 18IDpil1M:Stats4:CentroidY PP MS
+18IDpil1M:Stats4:Reset1.WAIT2 0
+18IDpil1M:Stats4:Reset1.DLY3 0
+18IDpil1M:Stats4:Reset1.DOL3 
+18IDpil1M:Stats4:Reset1.DO3 0
+18IDpil1M:Stats4:Reset1.STR3 0
+18IDpil1M:Stats4:Reset1.LNK3 18IDpil1M:Stats4:SigmaX PP MS
+18IDpil1M:Stats4:Reset1.WAIT3 0
+18IDpil1M:Stats4:Reset1.DLY4 0
+18IDpil1M:Stats4:Reset1.DOL4 
+18IDpil1M:Stats4:Reset1.DO4 0
+18IDpil1M:Stats4:Reset1.STR4 0
+18IDpil1M:Stats4:Reset1.LNK4 18IDpil1M:Stats4:SigmaY PP MS
+18IDpil1M:Stats4:Reset1.WAIT4 0
+18IDpil1M:Stats4:Reset1.DLY5 0
+18IDpil1M:Stats4:Reset1.DOL5 
+18IDpil1M:Stats4:Reset1.DO5 0
+18IDpil1M:Stats4:Reset1.STR5 0
+18IDpil1M:Stats4:Reset1.LNK5 18IDpil1M:Stats4:SigmaXY PP MS
+18IDpil1M:Stats4:Reset1.WAIT5 0
+18IDpil1M:Stats4:Reset1.DLY6 0
+18IDpil1M:Stats4:Reset1.DOL6 
+18IDpil1M:Stats4:Reset1.DO6 0
+18IDpil1M:Stats4:Reset1.STR6 0
+18IDpil1M:Stats4:Reset1.LNK6 18IDpil1M:Stats4:CentroidTotal PP MS
+18IDpil1M:Stats4:Reset1.WAIT6 0
+18IDpil1M:Stats4:Reset1.DLY7 0
+18IDpil1M:Stats4:Reset1.DOL7 
+18IDpil1M:Stats4:Reset1.DO7 0
+18IDpil1M:Stats4:Reset1.STR7 0
+18IDpil1M:Stats4:Reset1.LNK7 18IDpil1M:Stats4:SkewX PP MS
+18IDpil1M:Stats4:Reset1.WAIT7 0
+18IDpil1M:Stats4:Reset1.DLY8 0
+18IDpil1M:Stats4:Reset1.DOL8 
+18IDpil1M:Stats4:Reset1.DO8 0
+18IDpil1M:Stats4:Reset1.STR8 0
+18IDpil1M:Stats4:Reset1.LNK8 18IDpil1M:Stats4:SkewY PP MS
+18IDpil1M:Stats4:Reset1.WAIT8 0
+18IDpil1M:Stats4:Reset1.DLY9 0
+18IDpil1M:Stats4:Reset1.DOL9 
+18IDpil1M:Stats4:Reset1.DO9 0
+18IDpil1M:Stats4:Reset1.STR9 0
+18IDpil1M:Stats4:Reset1.LNK9 18IDpil1M:Stats4:KurtosisX PP MS
+18IDpil1M:Stats4:Reset1.WAIT9 0
+18IDpil1M:Stats4:Reset1.DLYA 0
+18IDpil1M:Stats4:Reset1.DOLA 
+18IDpil1M:Stats4:Reset1.DOA 0
+18IDpil1M:Stats4:Reset1.STRA 0
+18IDpil1M:Stats4:Reset1.LNKA 18IDpil1M:Stats4:KurtosisY PP MS
+18IDpil1M:Stats4:Reset1.WAITA 0
+18IDpil1M:Stats4:Reset1.FLNK 18IDpil1M:Stats4:Reset2
+18IDpil1M:Stats4:Reset1.SELL 
+18IDpil1M:Stats4:Reset1.SELN 1
+18IDpil1M:Stats4:Reset1.SELM 0
+18IDpil1M:Stats4:Reset2.SCAN 0
+18IDpil1M:Stats4:Reset2.DESC 
+18IDpil1M:Stats4:Reset2.PREC 0
+18IDpil1M:Stats4:Reset2.DLY1 0
+18IDpil1M:Stats4:Reset2.DOL1 
+18IDpil1M:Stats4:Reset2.DO1 0
+18IDpil1M:Stats4:Reset2.STR1 0
+18IDpil1M:Stats4:Reset2.LNK1 18IDpil1M:Stats4:Eccentricity PP MS
+18IDpil1M:Stats4:Reset2.WAIT1 0
+18IDpil1M:Stats4:Reset2.DLY2 0
+18IDpil1M:Stats4:Reset2.DOL2 
+18IDpil1M:Stats4:Reset2.DO2 0
+18IDpil1M:Stats4:Reset2.STR2 0
+18IDpil1M:Stats4:Reset2.LNK2 18IDpil1M:Stats4:Orientation PP MS
+18IDpil1M:Stats4:Reset2.WAIT2 0
+18IDpil1M:Stats4:Reset2.DLY3 0
+18IDpil1M:Stats4:Reset2.DOL3 
+18IDpil1M:Stats4:Reset2.DO3 0
+18IDpil1M:Stats4:Reset2.STR3 0
+18IDpil1M:Stats4:Reset2.LNK3 18IDpil1M:Stats4:HistBelow PP MS
+18IDpil1M:Stats4:Reset2.WAIT3 0
+18IDpil1M:Stats4:Reset2.DLY4 0
+18IDpil1M:Stats4:Reset2.DOL4 
+18IDpil1M:Stats4:Reset2.DO4 0
+18IDpil1M:Stats4:Reset2.STR4 0
+18IDpil1M:Stats4:Reset2.LNK4 18IDpil1M:Stats4:HistAbove PP MS
+18IDpil1M:Stats4:Reset2.WAIT4 0
+18IDpil1M:Stats4:Reset2.DLY5 0
+18IDpil1M:Stats4:Reset2.DOL5 
+18IDpil1M:Stats4:Reset2.DO5 0
+18IDpil1M:Stats4:Reset2.STR5 0
+18IDpil1M:Stats4:Reset2.LNK5 18IDpil1M:Stats4:HistEntropy PP MS
+18IDpil1M:Stats4:Reset2.WAIT5 0
+18IDpil1M:Stats4:Reset2.DLY6 0
+18IDpil1M:Stats4:Reset2.DOL6 
+18IDpil1M:Stats4:Reset2.DO6 0
+18IDpil1M:Stats4:Reset2.STR6 0
+18IDpil1M:Stats4:Reset2.LNK6 
+18IDpil1M:Stats4:Reset2.WAIT6 0
+18IDpil1M:Stats4:Reset2.DLY7 0
+18IDpil1M:Stats4:Reset2.DOL7 
+18IDpil1M:Stats4:Reset2.DO7 0
+18IDpil1M:Stats4:Reset2.STR7 0
+18IDpil1M:Stats4:Reset2.LNK7 
+18IDpil1M:Stats4:Reset2.WAIT7 0
+18IDpil1M:Stats4:Reset2.DLY8 0
+18IDpil1M:Stats4:Reset2.DOL8 
+18IDpil1M:Stats4:Reset2.DO8 0
+18IDpil1M:Stats4:Reset2.STR8 0
+18IDpil1M:Stats4:Reset2.LNK8 
+18IDpil1M:Stats4:Reset2.WAIT8 0
+18IDpil1M:Stats4:Reset2.DLY9 0
+18IDpil1M:Stats4:Reset2.DOL9 
+18IDpil1M:Stats4:Reset2.DO9 0
+18IDpil1M:Stats4:Reset2.STR9 0
+18IDpil1M:Stats4:Reset2.LNK9 
+18IDpil1M:Stats4:Reset2.WAIT9 0
+18IDpil1M:Stats4:Reset2.DLYA 0
+18IDpil1M:Stats4:Reset2.DOLA 
+18IDpil1M:Stats4:Reset2.DOA 0
+18IDpil1M:Stats4:Reset2.STRA 0
+18IDpil1M:Stats4:Reset2.LNKA 
+18IDpil1M:Stats4:Reset2.WAITA 0
+18IDpil1M:Stats4:Reset2.FLNK 
+18IDpil1M:Stats4:Reset2.SELL 
+18IDpil1M:Stats4:Reset2.SELN 1
+18IDpil1M:Stats4:Reset2.SELM 0
+18IDpil1M:Stats5:BgdWidth 1
+18IDpil1M:Stats5:ComputeStatistics 1
+18IDpil1M:Stats5:ComputeCentroid 0
+18IDpil1M:Stats5:CentroidThreshold 1
+18IDpil1M:Stats5:ComputeProfiles 0
+18IDpil1M:Stats5:CursorX 256
+18IDpil1M:Stats5:CursorY 256
+18IDpil1M:Stats5:ComputeHistogram 0
+18IDpil1M:Stats5:HistSize 256
+18IDpil1M:Stats5:HistMin 0
+18IDpil1M:Stats5:HistMax 255
+18IDpil1M:Stats5:TS:TSNumPoints 2048
+18IDpil1M:Stats5:TS:TSTimePerPointLink.DOL 0.1
+18IDpil1M:Stats5:TS:TSAveragingTime 0.1
+18IDpil1M:Stats5:TS:TSRead.SCAN 6
+18IDpil1M:Stats5:TS:TSAcquireMode 0
+18IDpil1M:Stats5:TS:NDArrayPort STATS5
+18IDpil1M:Stats5:TS:NDArrayAddress 1
+18IDpil1M:Stats5:TS:EnableCallbacks 1
+18IDpil1M:Stats5:TS:MinCallbackTime 0
+18IDpil1M:Stats5:TS:MaxByteRate 0
+18IDpil1M:Stats5:TS:BlockingCallbacks 0
+18IDpil1M:Stats5:TS:QueueSize 20
+18IDpil1M:Stats5:TS:NumThreads 1
+18IDpil1M:Stats5:TS:SortTime 0.1
+18IDpil1M:Stats5:TS:SortMode 0
+18IDpil1M:Stats5:TS:SortSize 20
+18IDpil1M:Stats5:TS:DataType 0
+18IDpil1M:Stats5:TS:ColorMode 0
+18IDpil1M:Stats5:TS:ArrayCallbacks 1
+18IDpil1M:Stats5:TS:NDAttributesFile 0
+18IDpil1M:Stats5:TS:NDAttributesMacros 0
+18IDpil1M:Stats5:TS:PoolPollStats.SCAN 6
+18IDpil1M:Stats5:TS:NumPreAllocBuffers 100
+18IDpil1M:Stats5:TS:WaitForPlugins 0
+18IDpil1M:Stats5:NDArrayPort PIL
+18IDpil1M:Stats5:NDArrayAddress 0
+18IDpil1M:Stats5:EnableCallbacks 0
+18IDpil1M:Stats5:MinCallbackTime 0
+18IDpil1M:Stats5:MaxByteRate 0
+18IDpil1M:Stats5:BlockingCallbacks 0
+18IDpil1M:Stats5:QueueSize 20
+18IDpil1M:Stats5:NumThreads 1
+18IDpil1M:Stats5:SortTime 0.1
+18IDpil1M:Stats5:SortMode 0
+18IDpil1M:Stats5:SortSize 20
+18IDpil1M:Stats5:DataType 0
+18IDpil1M:Stats5:ColorMode 0
+18IDpil1M:Stats5:ArrayCallbacks 1
+18IDpil1M:Stats5:NDAttributesFile 0
+18IDpil1M:Stats5:NDAttributesMacros 0
+18IDpil1M:Stats5:PoolPollStats.SCAN 6
+18IDpil1M:Stats5:NumPreAllocBuffers 100
+18IDpil1M:Stats5:WaitForPlugins 0
+18IDpil1M:Stats5:Reset.SCAN 0
+18IDpil1M:Stats5:Reset.DESC 
+18IDpil1M:Stats5:Reset.PREC 0
+18IDpil1M:Stats5:Reset.DLY1 0
+18IDpil1M:Stats5:Reset.DOL1 
+18IDpil1M:Stats5:Reset.DO1 0
+18IDpil1M:Stats5:Reset.STR1 0
+18IDpil1M:Stats5:Reset.LNK1 18IDpil1M:Stats5:MinValue PP MS
+18IDpil1M:Stats5:Reset.WAIT1 0
+18IDpil1M:Stats5:Reset.DLY2 0
+18IDpil1M:Stats5:Reset.DOL2 
+18IDpil1M:Stats5:Reset.DO2 0
+18IDpil1M:Stats5:Reset.STR2 0
+18IDpil1M:Stats5:Reset.LNK2 18IDpil1M:Stats5:MaxValue PP MS
+18IDpil1M:Stats5:Reset.WAIT2 0
+18IDpil1M:Stats5:Reset.DLY3 0
+18IDpil1M:Stats5:Reset.DOL3 
+18IDpil1M:Stats5:Reset.DO3 0
+18IDpil1M:Stats5:Reset.STR3 0
+18IDpil1M:Stats5:Reset.LNK3 18IDpil1M:Stats5:MeanValue PP MS
+18IDpil1M:Stats5:Reset.WAIT3 0
+18IDpil1M:Stats5:Reset.DLY4 0
+18IDpil1M:Stats5:Reset.DOL4 
+18IDpil1M:Stats5:Reset.DO4 0
+18IDpil1M:Stats5:Reset.STR4 0
+18IDpil1M:Stats5:Reset.LNK4 18IDpil1M:Stats5:SigmaValue PP MS
+18IDpil1M:Stats5:Reset.WAIT4 0
+18IDpil1M:Stats5:Reset.DLY5 0
+18IDpil1M:Stats5:Reset.DOL5 
+18IDpil1M:Stats5:Reset.DO5 0
+18IDpil1M:Stats5:Reset.STR5 0
+18IDpil1M:Stats5:Reset.LNK5 18IDpil1M:Stats5:Total PP MS
+18IDpil1M:Stats5:Reset.WAIT5 0
+18IDpil1M:Stats5:Reset.DLY6 0
+18IDpil1M:Stats5:Reset.DOL6 
+18IDpil1M:Stats5:Reset.DO6 0
+18IDpil1M:Stats5:Reset.STR6 0
+18IDpil1M:Stats5:Reset.LNK6 18IDpil1M:Stats5:Net PP MS
+18IDpil1M:Stats5:Reset.WAIT6 0
+18IDpil1M:Stats5:Reset.DLY7 0
+18IDpil1M:Stats5:Reset.DOL7 
+18IDpil1M:Stats5:Reset.DO7 0
+18IDpil1M:Stats5:Reset.STR7 0
+18IDpil1M:Stats5:Reset.LNK7 18IDpil1M:Stats5:MinX PP MS
+18IDpil1M:Stats5:Reset.WAIT7 0
+18IDpil1M:Stats5:Reset.DLY8 0
+18IDpil1M:Stats5:Reset.DOL8 
+18IDpil1M:Stats5:Reset.DO8 0
+18IDpil1M:Stats5:Reset.STR8 0
+18IDpil1M:Stats5:Reset.LNK8 18IDpil1M:Stats5:MinY PP MS
+18IDpil1M:Stats5:Reset.WAIT8 0
+18IDpil1M:Stats5:Reset.DLY9 0
+18IDpil1M:Stats5:Reset.DOL9 
+18IDpil1M:Stats5:Reset.DO9 0
+18IDpil1M:Stats5:Reset.STR9 0
+18IDpil1M:Stats5:Reset.LNK9 18IDpil1M:Stats5:MaxX PP MS
+18IDpil1M:Stats5:Reset.WAIT9 0
+18IDpil1M:Stats5:Reset.DLYA 0
+18IDpil1M:Stats5:Reset.DOLA 
+18IDpil1M:Stats5:Reset.DOA 0
+18IDpil1M:Stats5:Reset.STRA 0
+18IDpil1M:Stats5:Reset.LNKA 18IDpil1M:Stats5:MaxY PP MS
+18IDpil1M:Stats5:Reset.WAITA 0
+18IDpil1M:Stats5:Reset.FLNK 18IDpil1M:Stats5:Reset1
+18IDpil1M:Stats5:Reset.SELL 
+18IDpil1M:Stats5:Reset.SELN 1
+18IDpil1M:Stats5:Reset.SELM 0
+18IDpil1M:Stats5:Reset1.SCAN 0
+18IDpil1M:Stats5:Reset1.DESC 
+18IDpil1M:Stats5:Reset1.PREC 0
+18IDpil1M:Stats5:Reset1.DLY1 0
+18IDpil1M:Stats5:Reset1.DOL1 
+18IDpil1M:Stats5:Reset1.DO1 0
+18IDpil1M:Stats5:Reset1.STR1 0
+18IDpil1M:Stats5:Reset1.LNK1 18IDpil1M:Stats5:CentroidX PP MS
+18IDpil1M:Stats5:Reset1.WAIT1 0
+18IDpil1M:Stats5:Reset1.DLY2 0
+18IDpil1M:Stats5:Reset1.DOL2 
+18IDpil1M:Stats5:Reset1.DO2 0
+18IDpil1M:Stats5:Reset1.STR2 0
+18IDpil1M:Stats5:Reset1.LNK2 18IDpil1M:Stats5:CentroidY PP MS
+18IDpil1M:Stats5:Reset1.WAIT2 0
+18IDpil1M:Stats5:Reset1.DLY3 0
+18IDpil1M:Stats5:Reset1.DOL3 
+18IDpil1M:Stats5:Reset1.DO3 0
+18IDpil1M:Stats5:Reset1.STR3 0
+18IDpil1M:Stats5:Reset1.LNK3 18IDpil1M:Stats5:SigmaX PP MS
+18IDpil1M:Stats5:Reset1.WAIT3 0
+18IDpil1M:Stats5:Reset1.DLY4 0
+18IDpil1M:Stats5:Reset1.DOL4 
+18IDpil1M:Stats5:Reset1.DO4 0
+18IDpil1M:Stats5:Reset1.STR4 0
+18IDpil1M:Stats5:Reset1.LNK4 18IDpil1M:Stats5:SigmaY PP MS
+18IDpil1M:Stats5:Reset1.WAIT4 0
+18IDpil1M:Stats5:Reset1.DLY5 0
+18IDpil1M:Stats5:Reset1.DOL5 
+18IDpil1M:Stats5:Reset1.DO5 0
+18IDpil1M:Stats5:Reset1.STR5 0
+18IDpil1M:Stats5:Reset1.LNK5 18IDpil1M:Stats5:SigmaXY PP MS
+18IDpil1M:Stats5:Reset1.WAIT5 0
+18IDpil1M:Stats5:Reset1.DLY6 0
+18IDpil1M:Stats5:Reset1.DOL6 
+18IDpil1M:Stats5:Reset1.DO6 0
+18IDpil1M:Stats5:Reset1.STR6 0
+18IDpil1M:Stats5:Reset1.LNK6 18IDpil1M:Stats5:CentroidTotal PP MS
+18IDpil1M:Stats5:Reset1.WAIT6 0
+18IDpil1M:Stats5:Reset1.DLY7 0
+18IDpil1M:Stats5:Reset1.DOL7 
+18IDpil1M:Stats5:Reset1.DO7 0
+18IDpil1M:Stats5:Reset1.STR7 0
+18IDpil1M:Stats5:Reset1.LNK7 18IDpil1M:Stats5:SkewX PP MS
+18IDpil1M:Stats5:Reset1.WAIT7 0
+18IDpil1M:Stats5:Reset1.DLY8 0
+18IDpil1M:Stats5:Reset1.DOL8 
+18IDpil1M:Stats5:Reset1.DO8 0
+18IDpil1M:Stats5:Reset1.STR8 0
+18IDpil1M:Stats5:Reset1.LNK8 18IDpil1M:Stats5:SkewY PP MS
+18IDpil1M:Stats5:Reset1.WAIT8 0
+18IDpil1M:Stats5:Reset1.DLY9 0
+18IDpil1M:Stats5:Reset1.DOL9 
+18IDpil1M:Stats5:Reset1.DO9 0
+18IDpil1M:Stats5:Reset1.STR9 0
+18IDpil1M:Stats5:Reset1.LNK9 18IDpil1M:Stats5:KurtosisX PP MS
+18IDpil1M:Stats5:Reset1.WAIT9 0
+18IDpil1M:Stats5:Reset1.DLYA 0
+18IDpil1M:Stats5:Reset1.DOLA 
+18IDpil1M:Stats5:Reset1.DOA 0
+18IDpil1M:Stats5:Reset1.STRA 0
+18IDpil1M:Stats5:Reset1.LNKA 18IDpil1M:Stats5:KurtosisY PP MS
+18IDpil1M:Stats5:Reset1.WAITA 0
+18IDpil1M:Stats5:Reset1.FLNK 18IDpil1M:Stats5:Reset2
+18IDpil1M:Stats5:Reset1.SELL 
+18IDpil1M:Stats5:Reset1.SELN 1
+18IDpil1M:Stats5:Reset1.SELM 0
+18IDpil1M:Stats5:Reset2.SCAN 0
+18IDpil1M:Stats5:Reset2.DESC 
+18IDpil1M:Stats5:Reset2.PREC 0
+18IDpil1M:Stats5:Reset2.DLY1 0
+18IDpil1M:Stats5:Reset2.DOL1 
+18IDpil1M:Stats5:Reset2.DO1 0
+18IDpil1M:Stats5:Reset2.STR1 0
+18IDpil1M:Stats5:Reset2.LNK1 18IDpil1M:Stats5:Eccentricity PP MS
+18IDpil1M:Stats5:Reset2.WAIT1 0
+18IDpil1M:Stats5:Reset2.DLY2 0
+18IDpil1M:Stats5:Reset2.DOL2 
+18IDpil1M:Stats5:Reset2.DO2 0
+18IDpil1M:Stats5:Reset2.STR2 0
+18IDpil1M:Stats5:Reset2.LNK2 18IDpil1M:Stats5:Orientation PP MS
+18IDpil1M:Stats5:Reset2.WAIT2 0
+18IDpil1M:Stats5:Reset2.DLY3 0
+18IDpil1M:Stats5:Reset2.DOL3 
+18IDpil1M:Stats5:Reset2.DO3 0
+18IDpil1M:Stats5:Reset2.STR3 0
+18IDpil1M:Stats5:Reset2.LNK3 18IDpil1M:Stats5:HistBelow PP MS
+18IDpil1M:Stats5:Reset2.WAIT3 0
+18IDpil1M:Stats5:Reset2.DLY4 0
+18IDpil1M:Stats5:Reset2.DOL4 
+18IDpil1M:Stats5:Reset2.DO4 0
+18IDpil1M:Stats5:Reset2.STR4 0
+18IDpil1M:Stats5:Reset2.LNK4 18IDpil1M:Stats5:HistAbove PP MS
+18IDpil1M:Stats5:Reset2.WAIT4 0
+18IDpil1M:Stats5:Reset2.DLY5 0
+18IDpil1M:Stats5:Reset2.DOL5 
+18IDpil1M:Stats5:Reset2.DO5 0
+18IDpil1M:Stats5:Reset2.STR5 0
+18IDpil1M:Stats5:Reset2.LNK5 18IDpil1M:Stats5:HistEntropy PP MS
+18IDpil1M:Stats5:Reset2.WAIT5 0
+18IDpil1M:Stats5:Reset2.DLY6 0
+18IDpil1M:Stats5:Reset2.DOL6 
+18IDpil1M:Stats5:Reset2.DO6 0
+18IDpil1M:Stats5:Reset2.STR6 0
+18IDpil1M:Stats5:Reset2.LNK6 
+18IDpil1M:Stats5:Reset2.WAIT6 0
+18IDpil1M:Stats5:Reset2.DLY7 0
+18IDpil1M:Stats5:Reset2.DOL7 
+18IDpil1M:Stats5:Reset2.DO7 0
+18IDpil1M:Stats5:Reset2.STR7 0
+18IDpil1M:Stats5:Reset2.LNK7 
+18IDpil1M:Stats5:Reset2.WAIT7 0
+18IDpil1M:Stats5:Reset2.DLY8 0
+18IDpil1M:Stats5:Reset2.DOL8 
+18IDpil1M:Stats5:Reset2.DO8 0
+18IDpil1M:Stats5:Reset2.STR8 0
+18IDpil1M:Stats5:Reset2.LNK8 
+18IDpil1M:Stats5:Reset2.WAIT8 0
+18IDpil1M:Stats5:Reset2.DLY9 0
+18IDpil1M:Stats5:Reset2.DOL9 
+18IDpil1M:Stats5:Reset2.DO9 0
+18IDpil1M:Stats5:Reset2.STR9 0
+18IDpil1M:Stats5:Reset2.LNK9 
+18IDpil1M:Stats5:Reset2.WAIT9 0
+18IDpil1M:Stats5:Reset2.DLYA 0
+18IDpil1M:Stats5:Reset2.DOLA 
+18IDpil1M:Stats5:Reset2.DOA 0
+18IDpil1M:Stats5:Reset2.STRA 0
+18IDpil1M:Stats5:Reset2.LNKA 
+18IDpil1M:Stats5:Reset2.WAITA 0
+18IDpil1M:Stats5:Reset2.FLNK 
+18IDpil1M:Stats5:Reset2.SELL 
+18IDpil1M:Stats5:Reset2.SELN 1
+18IDpil1M:Stats5:Reset2.SELM 0
+18IDpil1M:ROIStat1:TSNumPoints 2048
+18IDpil1M:ROIStat1:TSRead.SCAN 6
+18IDpil1M:ROIStat1:NDArrayPort PIL
+18IDpil1M:ROIStat1:NDArrayAddress 0
+18IDpil1M:ROIStat1:EnableCallbacks 0
+18IDpil1M:ROIStat1:MinCallbackTime 0
+18IDpil1M:ROIStat1:MaxByteRate 0
+18IDpil1M:ROIStat1:BlockingCallbacks 0
+18IDpil1M:ROIStat1:QueueSize 20
+18IDpil1M:ROIStat1:NumThreads 1
+18IDpil1M:ROIStat1:SortTime 0.1
+18IDpil1M:ROIStat1:SortMode 0
+18IDpil1M:ROIStat1:SortSize 20
+18IDpil1M:ROIStat1:DataType 0
+18IDpil1M:ROIStat1:ColorMode 0
+18IDpil1M:ROIStat1:ArrayCallbacks 1
+18IDpil1M:ROIStat1:NDAttributesFile 0
+18IDpil1M:ROIStat1:NDAttributesMacros 0
+18IDpil1M:ROIStat1:PoolPollStats.SCAN 6
+18IDpil1M:ROIStat1:NumPreAllocBuffers 100
+18IDpil1M:ROIStat1:WaitForPlugins 0
+18IDpil1M:ROIStat1:1:Name 
+18IDpil1M:ROIStat1:1:Use 0
+18IDpil1M:ROIStat1:1:BgdWidth 0
+18IDpil1M:ROIStat1:1:MinX 0
+18IDpil1M:ROIStat1:1:MinY 0
+18IDpil1M:ROIStat1:1:SizeX 0
+18IDpil1M:ROIStat1:1:SizeY 0
+18IDpil1M:ROIStat1:2:Name 
+18IDpil1M:ROIStat1:2:Use 0
+18IDpil1M:ROIStat1:2:BgdWidth 0
+18IDpil1M:ROIStat1:2:MinX 0
+18IDpil1M:ROIStat1:2:MinY 0
+18IDpil1M:ROIStat1:2:SizeX 0
+18IDpil1M:ROIStat1:2:SizeY 0
+18IDpil1M:ROIStat1:3:Name 
+18IDpil1M:ROIStat1:3:Use 0
+18IDpil1M:ROIStat1:3:BgdWidth 0
+18IDpil1M:ROIStat1:3:MinX 0
+18IDpil1M:ROIStat1:3:MinY 0
+18IDpil1M:ROIStat1:3:SizeX 0
+18IDpil1M:ROIStat1:3:SizeY 0
+18IDpil1M:ROIStat1:4:Name 
+18IDpil1M:ROIStat1:4:Use 0
+18IDpil1M:ROIStat1:4:BgdWidth 0
+18IDpil1M:ROIStat1:4:MinX 0
+18IDpil1M:ROIStat1:4:MinY 0
+18IDpil1M:ROIStat1:4:SizeX 0
+18IDpil1M:ROIStat1:4:SizeY 0
+18IDpil1M:ROIStat1:5:Name 
+18IDpil1M:ROIStat1:5:Use 0
+18IDpil1M:ROIStat1:5:BgdWidth 0
+18IDpil1M:ROIStat1:5:MinX 0
+18IDpil1M:ROIStat1:5:MinY 0
+18IDpil1M:ROIStat1:5:SizeX 0
+18IDpil1M:ROIStat1:5:SizeY 0
+18IDpil1M:ROIStat1:6:Name 
+18IDpil1M:ROIStat1:6:Use 0
+18IDpil1M:ROIStat1:6:BgdWidth 0
+18IDpil1M:ROIStat1:6:MinX 0
+18IDpil1M:ROIStat1:6:MinY 0
+18IDpil1M:ROIStat1:6:SizeX 0
+18IDpil1M:ROIStat1:6:SizeY 0
+18IDpil1M:ROIStat1:7:Name 
+18IDpil1M:ROIStat1:7:Use 0
+18IDpil1M:ROIStat1:7:BgdWidth 0
+18IDpil1M:ROIStat1:7:MinX 0
+18IDpil1M:ROIStat1:7:MinY 0
+18IDpil1M:ROIStat1:7:SizeX 0
+18IDpil1M:ROIStat1:7:SizeY 0
+18IDpil1M:ROIStat1:8:Name 
+18IDpil1M:ROIStat1:8:Use 0
+18IDpil1M:ROIStat1:8:BgdWidth 0
+18IDpil1M:ROIStat1:8:MinX 0
+18IDpil1M:ROIStat1:8:MinY 0
+18IDpil1M:ROIStat1:8:SizeX 0
+18IDpil1M:ROIStat1:8:SizeY 0
+18IDpil1M:Trans1:Type 0
+18IDpil1M:Trans1:NDArrayPort PIL
+18IDpil1M:Trans1:NDArrayAddress 0
+18IDpil1M:Trans1:EnableCallbacks 0
+18IDpil1M:Trans1:MinCallbackTime 0
+18IDpil1M:Trans1:MaxByteRate 0
+18IDpil1M:Trans1:BlockingCallbacks 0
+18IDpil1M:Trans1:QueueSize 20
+18IDpil1M:Trans1:NumThreads 1
+18IDpil1M:Trans1:SortTime 0.1
+18IDpil1M:Trans1:SortMode 0
+18IDpil1M:Trans1:SortSize 20
+18IDpil1M:Trans1:DataType 0
+18IDpil1M:Trans1:ColorMode 0
+18IDpil1M:Trans1:ArrayCallbacks 1
+18IDpil1M:Trans1:NDAttributesFile 0
+18IDpil1M:Trans1:NDAttributesMacros 0
+18IDpil1M:Trans1:PoolPollStats.SCAN 6
+18IDpil1M:Trans1:NumPreAllocBuffers 100
+18IDpil1M:Trans1:WaitForPlugins 0
+18IDpil1M:Over1:NDArrayPort PIL
+18IDpil1M:Over1:NDArrayAddress 0
+18IDpil1M:Over1:EnableCallbacks 0
+18IDpil1M:Over1:MinCallbackTime 0
+18IDpil1M:Over1:MaxByteRate 0
+18IDpil1M:Over1:BlockingCallbacks 0
+18IDpil1M:Over1:QueueSize 20
+18IDpil1M:Over1:NumThreads 1
+18IDpil1M:Over1:SortTime 0.1
+18IDpil1M:Over1:SortMode 0
+18IDpil1M:Over1:SortSize 20
+18IDpil1M:Over1:DataType 0
+18IDpil1M:Over1:ColorMode 0
+18IDpil1M:Over1:ArrayCallbacks 1
+18IDpil1M:Over1:NDAttributesFile 0
+18IDpil1M:Over1:NDAttributesMacros 0
+18IDpil1M:Over1:PoolPollStats.SCAN 6
+18IDpil1M:Over1:NumPreAllocBuffers 100
+18IDpil1M:Over1:WaitForPlugins 0
+18IDpil1M:Over1:1:Name ROI1
+18IDpil1M:Over1:1:Use 0
+18IDpil1M:Over1:1:PositionXLink.DOL 18IDpil1M:ROI1:MinX_RBV CP MS
+18IDpil1M:Over1:1:PositionX 0
+18IDpil1M:Over1:1:PositionYLink.DOL 18IDpil1M:ROI1:MinY_RBV CP MS
+18IDpil1M:Over1:1:PositionY 0
+18IDpil1M:Over1:1:SizeXLink.DOL 18IDpil1M:ROI1:SizeX_RBV CP MS
+18IDpil1M:Over1:1:SizeX 1000000
+18IDpil1M:Over1:1:SizeYLink.DOL 18IDpil1M:ROI1:SizeY_RBV CP MS
+18IDpil1M:Over1:1:SizeY 1000000
+18IDpil1M:Over1:1:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:1:WidthX 0
+18IDpil1M:Over1:1:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:1:WidthY 0
+18IDpil1M:Over1:1:DrawMode 0
+18IDpil1M:Over1:1:Shape 1
+18IDpil1M:Over1:1:Red 1
+18IDpil1M:Over1:1:Green 1
+18IDpil1M:Over1:1:Blue 1
+18IDpil1M:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:1:Font 0
+18IDpil1M:Over1:1:DisplayText 0
+18IDpil1M:Over1:2:Name ROI2
+18IDpil1M:Over1:2:Use 0
+18IDpil1M:Over1:2:PositionXLink.DOL 18IDpil1M:ROI2:MinX_RBV CP MS
+18IDpil1M:Over1:2:PositionX 0
+18IDpil1M:Over1:2:PositionYLink.DOL 18IDpil1M:ROI2:MinY_RBV CP MS
+18IDpil1M:Over1:2:PositionY 0
+18IDpil1M:Over1:2:SizeXLink.DOL 18IDpil1M:ROI2:SizeX_RBV CP MS
+18IDpil1M:Over1:2:SizeX 1000000
+18IDpil1M:Over1:2:SizeYLink.DOL 18IDpil1M:ROI2:SizeY_RBV CP MS
+18IDpil1M:Over1:2:SizeY 1000000
+18IDpil1M:Over1:2:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:2:WidthX 0
+18IDpil1M:Over1:2:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:2:WidthY 0
+18IDpil1M:Over1:2:DrawMode 0
+18IDpil1M:Over1:2:Shape 1
+18IDpil1M:Over1:2:Red 1
+18IDpil1M:Over1:2:Green 1
+18IDpil1M:Over1:2:Blue 1
+18IDpil1M:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:2:Font 0
+18IDpil1M:Over1:2:DisplayText 0
+18IDpil1M:Over1:3:Name ROI3
+18IDpil1M:Over1:3:Use 0
+18IDpil1M:Over1:3:PositionXLink.DOL 18IDpil1M:ROI3:MinX_RBV CP MS
+18IDpil1M:Over1:3:PositionX 0
+18IDpil1M:Over1:3:PositionYLink.DOL 18IDpil1M:ROI3:MinY_RBV CP MS
+18IDpil1M:Over1:3:PositionY 0
+18IDpil1M:Over1:3:SizeXLink.DOL 18IDpil1M:ROI3:SizeX_RBV CP MS
+18IDpil1M:Over1:3:SizeX 1000000
+18IDpil1M:Over1:3:SizeYLink.DOL 18IDpil1M:ROI3:SizeY_RBV CP MS
+18IDpil1M:Over1:3:SizeY 1000000
+18IDpil1M:Over1:3:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:3:WidthX 0
+18IDpil1M:Over1:3:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:3:WidthY 0
+18IDpil1M:Over1:3:DrawMode 0
+18IDpil1M:Over1:3:Shape 1
+18IDpil1M:Over1:3:Red 1
+18IDpil1M:Over1:3:Green 1
+18IDpil1M:Over1:3:Blue 1
+18IDpil1M:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:3:Font 0
+18IDpil1M:Over1:3:DisplayText 0
+18IDpil1M:Over1:4:Name ROI4
+18IDpil1M:Over1:4:Use 0
+18IDpil1M:Over1:4:PositionXLink.DOL 18IDpil1M:ROI4:MinX_RBV CP MS
+18IDpil1M:Over1:4:PositionX 0
+18IDpil1M:Over1:4:PositionYLink.DOL 18IDpil1M:ROI4:MinY_RBV CP MS
+18IDpil1M:Over1:4:PositionY 0
+18IDpil1M:Over1:4:SizeXLink.DOL 18IDpil1M:ROI4:SizeX_RBV CP MS
+18IDpil1M:Over1:4:SizeX 1000000
+18IDpil1M:Over1:4:SizeYLink.DOL 18IDpil1M:ROI4:SizeY_RBV CP MS
+18IDpil1M:Over1:4:SizeY 1000000
+18IDpil1M:Over1:4:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:4:WidthX 0
+18IDpil1M:Over1:4:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:4:WidthY 0
+18IDpil1M:Over1:4:DrawMode 0
+18IDpil1M:Over1:4:Shape 1
+18IDpil1M:Over1:4:Red 1
+18IDpil1M:Over1:4:Green 1
+18IDpil1M:Over1:4:Blue 1
+18IDpil1M:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:4:Font 0
+18IDpil1M:Over1:4:DisplayText 0
+18IDpil1M:Over1:5:Name Cursor1
+18IDpil1M:Over1:5:Use 0
+18IDpil1M:Over1:5:PositionXLink.DOL junk CP MS
+18IDpil1M:Over1:5:PositionX 0
+18IDpil1M:Over1:5:PositionYLink.DOL junk CP MS
+18IDpil1M:Over1:5:PositionY 0
+18IDpil1M:Over1:5:SizeXLink.DOL junk CP MS
+18IDpil1M:Over1:5:SizeX 1
+18IDpil1M:Over1:5:SizeYLink.DOL junk CP MS
+18IDpil1M:Over1:5:SizeY 0
+18IDpil1M:Over1:5:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:5:WidthX 0
+18IDpil1M:Over1:5:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:5:WidthY 0
+18IDpil1M:Over1:5:DrawMode 0
+18IDpil1M:Over1:5:Shape 1
+18IDpil1M:Over1:5:Red 1
+18IDpil1M:Over1:5:Green 1
+18IDpil1M:Over1:5:Blue 1
+18IDpil1M:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:5:Font 0
+18IDpil1M:Over1:5:DisplayText 0
+18IDpil1M:Over1:6:Name Cursor2
+18IDpil1M:Over1:6:Use 0
+18IDpil1M:Over1:6:PositionXLink.DOL junk CP MS
+18IDpil1M:Over1:6:PositionX 0
+18IDpil1M:Over1:6:PositionYLink.DOL junk CP MS
+18IDpil1M:Over1:6:PositionY 0
+18IDpil1M:Over1:6:SizeXLink.DOL junk CP MS
+18IDpil1M:Over1:6:SizeX 1
+18IDpil1M:Over1:6:SizeYLink.DOL junk CP MS
+18IDpil1M:Over1:6:SizeY 0
+18IDpil1M:Over1:6:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:6:WidthX 0
+18IDpil1M:Over1:6:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:6:WidthY 0
+18IDpil1M:Over1:6:DrawMode 0
+18IDpil1M:Over1:6:Shape 1
+18IDpil1M:Over1:6:Red 1
+18IDpil1M:Over1:6:Green 1
+18IDpil1M:Over1:6:Blue 1
+18IDpil1M:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:6:Font 0
+18IDpil1M:Over1:6:DisplayText 0
+18IDpil1M:Over1:7:Name Box1
+18IDpil1M:Over1:7:Use 0
+18IDpil1M:Over1:7:PositionXLink.DOL junk CP MS
+18IDpil1M:Over1:7:PositionX 0
+18IDpil1M:Over1:7:PositionYLink.DOL junk CP MS
+18IDpil1M:Over1:7:PositionY 0
+18IDpil1M:Over1:7:SizeXLink.DOL junk CP MS
+18IDpil1M:Over1:7:SizeX 1
+18IDpil1M:Over1:7:SizeYLink.DOL junk CP MS
+18IDpil1M:Over1:7:SizeY 0
+18IDpil1M:Over1:7:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:7:WidthX 0
+18IDpil1M:Over1:7:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:7:WidthY 0
+18IDpil1M:Over1:7:DrawMode 0
+18IDpil1M:Over1:7:Shape 1
+18IDpil1M:Over1:7:Red 1
+18IDpil1M:Over1:7:Green 1
+18IDpil1M:Over1:7:Blue 1
+18IDpil1M:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:7:Font 0
+18IDpil1M:Over1:7:DisplayText 0
+18IDpil1M:Over1:8:Name Box2
+18IDpil1M:Over1:8:Use 0
+18IDpil1M:Over1:8:PositionXLink.DOL junk CP MS
+18IDpil1M:Over1:8:PositionX 0
+18IDpil1M:Over1:8:PositionYLink.DOL junk CP MS
+18IDpil1M:Over1:8:PositionY 0
+18IDpil1M:Over1:8:SizeXLink.DOL junk CP MS
+18IDpil1M:Over1:8:SizeX 1
+18IDpil1M:Over1:8:SizeYLink.DOL junk CP MS
+18IDpil1M:Over1:8:SizeY 0
+18IDpil1M:Over1:8:WidthXLink.DOL CP NPP MS
+18IDpil1M:Over1:8:WidthX 0
+18IDpil1M:Over1:8:WidthYLink.DOL CP NPP MS
+18IDpil1M:Over1:8:WidthY 0
+18IDpil1M:Over1:8:DrawMode 0
+18IDpil1M:Over1:8:Shape 1
+18IDpil1M:Over1:8:Red 1
+18IDpil1M:Over1:8:Green 1
+18IDpil1M:Over1:8:Blue 1
+18IDpil1M:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
+18IDpil1M:Over1:8:Font 0
+18IDpil1M:Over1:8:DisplayText 0
+18IDpil1M:CC1:ColorModeOut 0
+18IDpil1M:CC1:NDArrayPort PIL
+18IDpil1M:CC1:NDArrayAddress 0
+18IDpil1M:CC1:EnableCallbacks 0
+18IDpil1M:CC1:MinCallbackTime 0
+18IDpil1M:CC1:MaxByteRate 0
+18IDpil1M:CC1:BlockingCallbacks 0
+18IDpil1M:CC1:QueueSize 20
+18IDpil1M:CC1:NumThreads 1
+18IDpil1M:CC1:SortTime 0.1
+18IDpil1M:CC1:SortMode 0
+18IDpil1M:CC1:SortSize 20
+18IDpil1M:CC1:DataType 0
+18IDpil1M:CC1:ColorMode 0
+18IDpil1M:CC1:ArrayCallbacks 1
+18IDpil1M:CC1:NDAttributesFile 0
+18IDpil1M:CC1:NDAttributesMacros 0
+18IDpil1M:CC1:PoolPollStats.SCAN 6
+18IDpil1M:CC1:NumPreAllocBuffers 100
+18IDpil1M:CC1:WaitForPlugins 0
+18IDpil1M:CC2:ColorModeOut 0
+18IDpil1M:CC2:NDArrayPort PIL
+18IDpil1M:CC2:NDArrayAddress 0
+18IDpil1M:CC2:EnableCallbacks 0
+18IDpil1M:CC2:MinCallbackTime 0
+18IDpil1M:CC2:MaxByteRate 0
+18IDpil1M:CC2:BlockingCallbacks 0
+18IDpil1M:CC2:QueueSize 20
+18IDpil1M:CC2:NumThreads 1
+18IDpil1M:CC2:SortTime 0.1
+18IDpil1M:CC2:SortMode 0
+18IDpil1M:CC2:SortSize 20
+18IDpil1M:CC2:DataType 0
+18IDpil1M:CC2:ColorMode 0
+18IDpil1M:CC2:ArrayCallbacks 1
+18IDpil1M:CC2:NDAttributesFile 0
+18IDpil1M:CC2:NDAttributesMacros 0
+18IDpil1M:CC2:PoolPollStats.SCAN 6
+18IDpil1M:CC2:NumPreAllocBuffers 100
+18IDpil1M:CC2:WaitForPlugins 0
+18IDpil1M:CB1:TriggerA 
+18IDpil1M:CB1:TriggerB 
+18IDpil1M:CB1:TriggerCalc 0
+18IDpil1M:CB1:PreCount 100
+18IDpil1M:CB1:PostCount 100
+18IDpil1M:CB1:PresetTriggerCount 1
+18IDpil1M:CB1:FlushOnSoftTrg 0
+18IDpil1M:CB1:NDArrayPort PIL
+18IDpil1M:CB1:NDArrayAddress 0
+18IDpil1M:CB1:EnableCallbacks 0
+18IDpil1M:CB1:MinCallbackTime 0
+18IDpil1M:CB1:MaxByteRate 0
+18IDpil1M:CB1:BlockingCallbacks 0
+18IDpil1M:CB1:QueueSize 20
+18IDpil1M:CB1:NumThreads 1
+18IDpil1M:CB1:SortTime 0.1
+18IDpil1M:CB1:SortMode 0
+18IDpil1M:CB1:SortSize 20
+18IDpil1M:CB1:DataType 0
+18IDpil1M:CB1:ColorMode 0
+18IDpil1M:CB1:ArrayCallbacks 1
+18IDpil1M:CB1:NDAttributesFile 0
+18IDpil1M:CB1:NDAttributesMacros 0
+18IDpil1M:CB1:PoolPollStats.SCAN 6
+18IDpil1M:CB1:NumPreAllocBuffers 100
+18IDpil1M:CB1:WaitForPlugins 0
+18IDpil1M:Attr1:TS:TSNumPoints 2048
+18IDpil1M:Attr1:TS:TSTimePerPointLink.DOL 0.1
+18IDpil1M:Attr1:TS:TSAveragingTime 0.1
+18IDpil1M:Attr1:TS:TSRead.SCAN 6
+18IDpil1M:Attr1:TS:TSAcquireMode 0
+18IDpil1M:Attr1:TS:NDArrayPort ATTR1
+18IDpil1M:Attr1:TS:NDArrayAddress 1
+18IDpil1M:Attr1:TS:EnableCallbacks 1
+18IDpil1M:Attr1:TS:MinCallbackTime 0
+18IDpil1M:Attr1:TS:MaxByteRate 0
+18IDpil1M:Attr1:TS:BlockingCallbacks 0
+18IDpil1M:Attr1:TS:QueueSize 20
+18IDpil1M:Attr1:TS:NumThreads 1
+18IDpil1M:Attr1:TS:SortTime 0.1
+18IDpil1M:Attr1:TS:SortMode 0
+18IDpil1M:Attr1:TS:SortSize 20
+18IDpil1M:Attr1:TS:DataType 0
+18IDpil1M:Attr1:TS:ColorMode 0
+18IDpil1M:Attr1:TS:ArrayCallbacks 1
+18IDpil1M:Attr1:TS:NDAttributesFile 0
+18IDpil1M:Attr1:TS:NDAttributesMacros 0
+18IDpil1M:Attr1:TS:PoolPollStats.SCAN 6
+18IDpil1M:Attr1:TS:NumPreAllocBuffers 100
+18IDpil1M:Attr1:TS:WaitForPlugins 0
+18IDpil1M:Attr1:NDArrayPort PIL
+18IDpil1M:Attr1:NDArrayAddress 0
+18IDpil1M:Attr1:EnableCallbacks 0
+18IDpil1M:Attr1:MinCallbackTime 0
+18IDpil1M:Attr1:MaxByteRate 0
+18IDpil1M:Attr1:BlockingCallbacks 0
+18IDpil1M:Attr1:QueueSize 20
+18IDpil1M:Attr1:NumThreads 1
+18IDpil1M:Attr1:SortTime 0.1
+18IDpil1M:Attr1:SortMode 0
+18IDpil1M:Attr1:SortSize 20
+18IDpil1M:Attr1:DataType 0
+18IDpil1M:Attr1:ColorMode 0
+18IDpil1M:Attr1:ArrayCallbacks 0
+18IDpil1M:Attr1:NDAttributesFile 0
+18IDpil1M:Attr1:NDAttributesMacros 0
+18IDpil1M:Attr1:PoolPollStats.SCAN 6
+18IDpil1M:Attr1:NumPreAllocBuffers 100
+18IDpil1M:Attr1:WaitForPlugins 0
+18IDpil1M:Attr1:1:AttrName 0
+18IDpil1M:Attr1:2:AttrName 0
+18IDpil1M:Attr1:3:AttrName 0
+18IDpil1M:Attr1:4:AttrName 0
+18IDpil1M:Attr1:5:AttrName 0
+18IDpil1M:Attr1:6:AttrName 0
+18IDpil1M:Attr1:7:AttrName 0
+18IDpil1M:Attr1:8:AttrName 0
+18IDpil1M:FFT1:NDArrayPort PIL
+18IDpil1M:FFT1:NDArrayAddress 0
+18IDpil1M:FFT1:EnableCallbacks 0
+18IDpil1M:FFT1:MinCallbackTime 0
+18IDpil1M:FFT1:MaxByteRate 0
+18IDpil1M:FFT1:BlockingCallbacks 0
+18IDpil1M:FFT1:QueueSize 20
+18IDpil1M:FFT1:NumThreads 1
+18IDpil1M:FFT1:SortTime 0.1
+18IDpil1M:FFT1:SortMode 0
+18IDpil1M:FFT1:SortSize 20
+18IDpil1M:FFT1:DataType 0
+18IDpil1M:FFT1:ColorMode 0
+18IDpil1M:FFT1:ArrayCallbacks 1
+18IDpil1M:FFT1:NDAttributesFile 0
+18IDpil1M:FFT1:NDAttributesMacros 0
+18IDpil1M:FFT1:PoolPollStats.SCAN 6
+18IDpil1M:FFT1:NumPreAllocBuffers 100
+18IDpil1M:FFT1:WaitForPlugins 0
+18IDpil1M:FFT1:FFTDirection 0
+18IDpil1M:FFT1:FFTSuppressDC 0
+18IDpil1M:FFT1:FFTNumAverage 1
+18IDpil1M:FFT1:Name FFT1
+18IDpil1M:Codec1:Mode 0
+18IDpil1M:Codec1:Compressor 0
+18IDpil1M:Codec1:JPEGQuality 85
+18IDpil1M:Codec1:BloscCompressor 0
+18IDpil1M:Codec1:BloscCLevel 5
+18IDpil1M:Codec1:BloscShuffle 0
+18IDpil1M:Codec1:BloscNumThreads 1
+18IDpil1M:Codec1:NDArrayPort PIL
+18IDpil1M:Codec1:NDArrayAddress 0
+18IDpil1M:Codec1:EnableCallbacks 0
+18IDpil1M:Codec1:MinCallbackTime 0
+18IDpil1M:Codec1:MaxByteRate 0
+18IDpil1M:Codec1:BlockingCallbacks 0
+18IDpil1M:Codec1:QueueSize 20
+18IDpil1M:Codec1:NumThreads 1
+18IDpil1M:Codec1:SortTime 0.1
+18IDpil1M:Codec1:SortMode 0
+18IDpil1M:Codec1:SortSize 20
+18IDpil1M:Codec1:DataType 0
+18IDpil1M:Codec1:ColorMode 0
+18IDpil1M:Codec1:ArrayCallbacks 1
+18IDpil1M:Codec1:NDAttributesFile 0
+18IDpil1M:Codec1:NDAttributesMacros 0
+18IDpil1M:Codec1:PoolPollStats.SCAN 6
+18IDpil1M:Codec1:NumPreAllocBuffers 100
+18IDpil1M:Codec1:WaitForPlugins 0
+18IDpil1M:Codec2:Mode 0
+18IDpil1M:Codec2:Compressor 0
+18IDpil1M:Codec2:JPEGQuality 85
+18IDpil1M:Codec2:BloscCompressor 0
+18IDpil1M:Codec2:BloscCLevel 5
+18IDpil1M:Codec2:BloscShuffle 0
+18IDpil1M:Codec2:BloscNumThreads 1
+18IDpil1M:Codec2:NDArrayPort PIL
+18IDpil1M:Codec2:NDArrayAddress 0
+18IDpil1M:Codec2:EnableCallbacks 0
+18IDpil1M:Codec2:MinCallbackTime 0
+18IDpil1M:Codec2:MaxByteRate 0
+18IDpil1M:Codec2:BlockingCallbacks 0
+18IDpil1M:Codec2:QueueSize 20
+18IDpil1M:Codec2:NumThreads 1
+18IDpil1M:Codec2:SortTime 0.1
+18IDpil1M:Codec2:SortMode 0
+18IDpil1M:Codec2:SortSize 20
+18IDpil1M:Codec2:DataType 0
+18IDpil1M:Codec2:ColorMode 0
+18IDpil1M:Codec2:ArrayCallbacks 1
+18IDpil1M:Codec2:NDAttributesFile 0
+18IDpil1M:Codec2:NDAttributesMacros 0
+18IDpil1M:Codec2:PoolPollStats.SCAN 6
+18IDpil1M:Codec2:NumPreAllocBuffers 100
+18IDpil1M:Codec2:WaitForPlugins 0
+18IDpil1M:BadPix1:FileName 0
+18IDpil1M:BadPix1:NDArrayPort PIL
+18IDpil1M:BadPix1:NDArrayAddress 0
+18IDpil1M:BadPix1:EnableCallbacks 0
+18IDpil1M:BadPix1:MinCallbackTime 0
+18IDpil1M:BadPix1:MaxByteRate 0
+18IDpil1M:BadPix1:BlockingCallbacks 0
+18IDpil1M:BadPix1:QueueSize 20
+18IDpil1M:BadPix1:NumThreads 1
+18IDpil1M:BadPix1:SortTime 0.1
+18IDpil1M:BadPix1:SortMode 0
+18IDpil1M:BadPix1:SortSize 20
+18IDpil1M:BadPix1:DataType 0
+18IDpil1M:BadPix1:ColorMode 0
+18IDpil1M:BadPix1:ArrayCallbacks 1
+18IDpil1M:BadPix1:NDAttributesFile 0
+18IDpil1M:BadPix1:NDAttributesMacros 0
+18IDpil1M:BadPix1:PoolPollStats.SCAN 6
+18IDpil1M:BadPix1:NumPreAllocBuffers 100
+18IDpil1M:BadPix1:WaitForPlugins 0
+18IDpil1M:scan1.ATIME 0
+18IDpil1M:scan1.COPYTO 0
+18IDpil1M:scan1.AAWAIT 0
+18IDpil1M:scan1.FLNK 
+18IDpil1M:scan1.NPTS 10
+18IDpil1M:scan1.ACQT 0
+18IDpil1M:scan1.ACQM 0
+18IDpil1M:scan1.PASM 0
+18IDpil1M:scan1.BSPV 
+18IDpil1M:scan1.BSCD 1
+18IDpil1M:scan1.BSWAIT 0
+18IDpil1M:scan1.ASPV 
+18IDpil1M:scan1.ASCD 1
+18IDpil1M:scan1.ASWAIT 0
+18IDpil1M:scan1.T1PV 
+18IDpil1M:scan1.T1CD 1
+18IDpil1M:scan1.T2PV 
+18IDpil1M:scan1.T2CD 1
+18IDpil1M:scan1.T3PV 
+18IDpil1M:scan1.T3CD 1
+18IDpil1M:scan1.T4PV 
+18IDpil1M:scan1.T4CD 1
+18IDpil1M:scan1.P1PV 
+18IDpil1M:scan1.R1PV 
+18IDpil1M:scan1.P1SM 0
+18IDpil1M:scan1.P1SP 0
+18IDpil1M:scan1.P1EP 0
+18IDpil1M:scan1.P1AR 0
+18IDpil1M:scan1.P2PV 
+18IDpil1M:scan1.R2PV 
+18IDpil1M:scan1.P2SM 0
+18IDpil1M:scan1.P2SP 0
+18IDpil1M:scan1.P2EP 0
+18IDpil1M:scan1.P2AR 0
+18IDpil1M:scan1.P3PV 
+18IDpil1M:scan1.R3PV 
+18IDpil1M:scan1.P3SM 0
+18IDpil1M:scan1.P3SP 0
+18IDpil1M:scan1.P3EP 0
+18IDpil1M:scan1.P3AR 0
+18IDpil1M:scan1.P4PV 
+18IDpil1M:scan1.R4PV 
+18IDpil1M:scan1.P4SM 0
+18IDpil1M:scan1.P4SP 0
+18IDpil1M:scan1.P4EP 0
+18IDpil1M:scan1.P4AR 0
+18IDpil1M:scan1.PDLY 0
+18IDpil1M:scan1.DDLY 0
+18IDpil1M:scan1.REFD 1
+18IDpil1M:scan1.AWCT 0
+18IDpil1M:scan1.A1PV 
+18IDpil1M:scan1.A1CD 1
+18IDpil1M:scan1.D01PV 
+18IDpil1M:scan1.D02PV 
+18IDpil1M:scan1.D03PV 
+18IDpil1M:scan1.D04PV 
+18IDpil1M:scan1.D05PV 
+18IDpil1M:scan1.D06PV 
+18IDpil1M:scan1.D07PV 
+18IDpil1M:scan1.D08PV 
+18IDpil1M:scan1.D09PV 
+18IDpil1M:scan1.D10PV 
+18IDpil1M:scan1.D11PV 
+18IDpil1M:scan1.D12PV 
+18IDpil1M:scan1.D13PV 
+18IDpil1M:scan1.D14PV 
+18IDpil1M:scan1.D15PV 
+18IDpil1M:scan1.D16PV 
+18IDpil1M:scan1.D17PV 
+18IDpil1M:scan1.D18PV 
+18IDpil1M:scan1.D19PV 
+18IDpil1M:scan1.D20PV 
+18IDpil1M:scan1.D21PV 
+18IDpil1M:scan1.D22PV 
+18IDpil1M:scan1.D23PV 
+18IDpil1M:scan1.D24PV 
+18IDpil1M:scan1.D25PV 
+18IDpil1M:scan1.D26PV 
+18IDpil1M:scan1.D27PV 
+18IDpil1M:scan1.D28PV 
+18IDpil1M:scan1.D29PV 
+18IDpil1M:scan1.D30PV 
+18IDpil1M:scan1.D31PV 
+18IDpil1M:scan1.D32PV 
+18IDpil1M:scan1.D33PV 
+18IDpil1M:scan1.D34PV 
+18IDpil1M:scan1.D35PV 
+18IDpil1M:scan1.D36PV 
+18IDpil1M:scan1.D37PV 
+18IDpil1M:scan1.D38PV 
+18IDpil1M:scan1.D39PV 
+18IDpil1M:scan1.D40PV 
+18IDpil1M:scan1.D41PV 
+18IDpil1M:scan1.D42PV 
+18IDpil1M:scan1.D43PV 
+18IDpil1M:scan1.D44PV 
+18IDpil1M:scan1.D45PV 
+18IDpil1M:scan1.D46PV 
+18IDpil1M:scan1.D47PV 
+18IDpil1M:scan1.D48PV 
+18IDpil1M:scan1.D49PV 
+18IDpil1M:scan1.D50PV 
+18IDpil1M:scan1.D51PV 
+18IDpil1M:scan1.D52PV 
+18IDpil1M:scan1.D53PV 
+18IDpil1M:scan1.D54PV 
+18IDpil1M:scan1.D55PV 
+18IDpil1M:scan1.D56PV 
+18IDpil1M:scan1.D57PV 
+18IDpil1M:scan1.D58PV 
+18IDpil1M:scan1.D59PV 
+18IDpil1M:scan1.D60PV 
+18IDpil1M:scan1.D61PV 
+18IDpil1M:scan1.D62PV 
+18IDpil1M:scan1.D63PV 
+18IDpil1M:scan1.D64PV 
+18IDpil1M:scan1.D65PV 
+18IDpil1M:scan1.D66PV 
+18IDpil1M:scan1.D67PV 
+18IDpil1M:scan1.D68PV 
+18IDpil1M:scan1.D69PV 
+18IDpil1M:scan1.D70PV 
+18IDpil1M:scan2.ATIME 0
+18IDpil1M:scan2.COPYTO 0
+18IDpil1M:scan2.AAWAIT 0
+18IDpil1M:scan2.FLNK 
+18IDpil1M:scan2.NPTS 10
+18IDpil1M:scan2.ACQT 0
+18IDpil1M:scan2.ACQM 0
+18IDpil1M:scan2.PASM 0
+18IDpil1M:scan2.BSPV 
+18IDpil1M:scan2.BSCD 1
+18IDpil1M:scan2.BSWAIT 0
+18IDpil1M:scan2.ASPV 
+18IDpil1M:scan2.ASCD 1
+18IDpil1M:scan2.ASWAIT 0
+18IDpil1M:scan2.T1PV 18IDpil1M:scan1.EXSC
+18IDpil1M:scan2.T1CD 1
+18IDpil1M:scan2.T2PV 
+18IDpil1M:scan2.T2CD 1
+18IDpil1M:scan2.T3PV 
+18IDpil1M:scan2.T3CD 1
+18IDpil1M:scan2.T4PV 
+18IDpil1M:scan2.T4CD 1
+18IDpil1M:scan2.P1PV 
+18IDpil1M:scan2.R1PV 
+18IDpil1M:scan2.P1SM 0
+18IDpil1M:scan2.P1SP 0
+18IDpil1M:scan2.P1EP 0
+18IDpil1M:scan2.P1AR 0
+18IDpil1M:scan2.P2PV 
+18IDpil1M:scan2.R2PV 
+18IDpil1M:scan2.P2SM 0
+18IDpil1M:scan2.P2SP 0
+18IDpil1M:scan2.P2EP 0
+18IDpil1M:scan2.P2AR 0
+18IDpil1M:scan2.P3PV 
+18IDpil1M:scan2.R3PV 
+18IDpil1M:scan2.P3SM 0
+18IDpil1M:scan2.P3SP 0
+18IDpil1M:scan2.P3EP 0
+18IDpil1M:scan2.P3AR 0
+18IDpil1M:scan2.P4PV 
+18IDpil1M:scan2.R4PV 
+18IDpil1M:scan2.P4SM 0
+18IDpil1M:scan2.P4SP 0
+18IDpil1M:scan2.P4EP 0
+18IDpil1M:scan2.P4AR 0
+18IDpil1M:scan2.PDLY 0
+18IDpil1M:scan2.DDLY 0
+18IDpil1M:scan2.REFD 1
+18IDpil1M:scan2.AWCT 0
+18IDpil1M:scan2.A1PV 
+18IDpil1M:scan2.A1CD 1
+18IDpil1M:scan2.D01PV 
+18IDpil1M:scan2.D02PV 
+18IDpil1M:scan2.D03PV 
+18IDpil1M:scan2.D04PV 
+18IDpil1M:scan2.D05PV 
+18IDpil1M:scan2.D06PV 
+18IDpil1M:scan2.D07PV 
+18IDpil1M:scan2.D08PV 
+18IDpil1M:scan2.D09PV 
+18IDpil1M:scan2.D10PV 
+18IDpil1M:scan2.D11PV 
+18IDpil1M:scan2.D12PV 
+18IDpil1M:scan2.D13PV 
+18IDpil1M:scan2.D14PV 
+18IDpil1M:scan2.D15PV 
+18IDpil1M:scan2.D16PV 
+18IDpil1M:scan2.D17PV 
+18IDpil1M:scan2.D18PV 
+18IDpil1M:scan2.D19PV 
+18IDpil1M:scan2.D20PV 
+18IDpil1M:scan2.D21PV 
+18IDpil1M:scan2.D22PV 
+18IDpil1M:scan2.D23PV 
+18IDpil1M:scan2.D24PV 
+18IDpil1M:scan2.D25PV 
+18IDpil1M:scan2.D26PV 
+18IDpil1M:scan2.D27PV 
+18IDpil1M:scan2.D28PV 
+18IDpil1M:scan2.D29PV 
+18IDpil1M:scan2.D30PV 
+18IDpil1M:scan2.D31PV 
+18IDpil1M:scan2.D32PV 
+18IDpil1M:scan2.D33PV 
+18IDpil1M:scan2.D34PV 
+18IDpil1M:scan2.D35PV 
+18IDpil1M:scan2.D36PV 
+18IDpil1M:scan2.D37PV 
+18IDpil1M:scan2.D38PV 
+18IDpil1M:scan2.D39PV 
+18IDpil1M:scan2.D40PV 
+18IDpil1M:scan2.D41PV 
+18IDpil1M:scan2.D42PV 
+18IDpil1M:scan2.D43PV 
+18IDpil1M:scan2.D44PV 
+18IDpil1M:scan2.D45PV 
+18IDpil1M:scan2.D46PV 
+18IDpil1M:scan2.D47PV 
+18IDpil1M:scan2.D48PV 
+18IDpil1M:scan2.D49PV 
+18IDpil1M:scan2.D50PV 
+18IDpil1M:scan2.D51PV 
+18IDpil1M:scan2.D52PV 
+18IDpil1M:scan2.D53PV 
+18IDpil1M:scan2.D54PV 
+18IDpil1M:scan2.D55PV 
+18IDpil1M:scan2.D56PV 
+18IDpil1M:scan2.D57PV 
+18IDpil1M:scan2.D58PV 
+18IDpil1M:scan2.D59PV 
+18IDpil1M:scan2.D60PV 
+18IDpil1M:scan2.D61PV 
+18IDpil1M:scan2.D62PV 
+18IDpil1M:scan2.D63PV 
+18IDpil1M:scan2.D64PV 
+18IDpil1M:scan2.D65PV 
+18IDpil1M:scan2.D66PV 
+18IDpil1M:scan2.D67PV 
+18IDpil1M:scan2.D68PV 
+18IDpil1M:scan2.D69PV 
+18IDpil1M:scan2.D70PV 
+18IDpil1M:scan3.ATIME 0
+18IDpil1M:scan3.COPYTO 0
+18IDpil1M:scan3.AAWAIT 0
+18IDpil1M:scan3.FLNK 
+18IDpil1M:scan3.NPTS 10
+18IDpil1M:scan3.ACQT 0
+18IDpil1M:scan3.ACQM 0
+18IDpil1M:scan3.PASM 0
+18IDpil1M:scan3.BSPV 
+18IDpil1M:scan3.BSCD 1
+18IDpil1M:scan3.BSWAIT 0
+18IDpil1M:scan3.ASPV 
+18IDpil1M:scan3.ASCD 1
+18IDpil1M:scan3.ASWAIT 0
+18IDpil1M:scan3.T1PV 18IDpil1M:scan2.EXSC
+18IDpil1M:scan3.T1CD 1
+18IDpil1M:scan3.T2PV 
+18IDpil1M:scan3.T2CD 1
+18IDpil1M:scan3.T3PV 
+18IDpil1M:scan3.T3CD 1
+18IDpil1M:scan3.T4PV 
+18IDpil1M:scan3.T4CD 1
+18IDpil1M:scan3.P1PV 
+18IDpil1M:scan3.R1PV 
+18IDpil1M:scan3.P1SM 0
+18IDpil1M:scan3.P1SP 0
+18IDpil1M:scan3.P1EP 0
+18IDpil1M:scan3.P1AR 0
+18IDpil1M:scan3.P2PV 
+18IDpil1M:scan3.R2PV 
+18IDpil1M:scan3.P2SM 0
+18IDpil1M:scan3.P2SP 0
+18IDpil1M:scan3.P2EP 0
+18IDpil1M:scan3.P2AR 0
+18IDpil1M:scan3.P3PV 
+18IDpil1M:scan3.R3PV 
+18IDpil1M:scan3.P3SM 0
+18IDpil1M:scan3.P3SP 0
+18IDpil1M:scan3.P3EP 0
+18IDpil1M:scan3.P3AR 0
+18IDpil1M:scan3.P4PV 
+18IDpil1M:scan3.R4PV 
+18IDpil1M:scan3.P4SM 0
+18IDpil1M:scan3.P4SP 0
+18IDpil1M:scan3.P4EP 0
+18IDpil1M:scan3.P4AR 0
+18IDpil1M:scan3.PDLY 0
+18IDpil1M:scan3.DDLY 0
+18IDpil1M:scan3.REFD 1
+18IDpil1M:scan3.AWCT 0
+18IDpil1M:scan3.A1PV 
+18IDpil1M:scan3.A1CD 1
+18IDpil1M:scan3.D01PV 
+18IDpil1M:scan3.D02PV 
+18IDpil1M:scan3.D03PV 
+18IDpil1M:scan3.D04PV 
+18IDpil1M:scan3.D05PV 
+18IDpil1M:scan3.D06PV 
+18IDpil1M:scan3.D07PV 
+18IDpil1M:scan3.D08PV 
+18IDpil1M:scan3.D09PV 
+18IDpil1M:scan3.D10PV 
+18IDpil1M:scan3.D11PV 
+18IDpil1M:scan3.D12PV 
+18IDpil1M:scan3.D13PV 
+18IDpil1M:scan3.D14PV 
+18IDpil1M:scan3.D15PV 
+18IDpil1M:scan3.D16PV 
+18IDpil1M:scan3.D17PV 
+18IDpil1M:scan3.D18PV 
+18IDpil1M:scan3.D19PV 
+18IDpil1M:scan3.D20PV 
+18IDpil1M:scan3.D21PV 
+18IDpil1M:scan3.D22PV 
+18IDpil1M:scan3.D23PV 
+18IDpil1M:scan3.D24PV 
+18IDpil1M:scan3.D25PV 
+18IDpil1M:scan3.D26PV 
+18IDpil1M:scan3.D27PV 
+18IDpil1M:scan3.D28PV 
+18IDpil1M:scan3.D29PV 
+18IDpil1M:scan3.D30PV 
+18IDpil1M:scan3.D31PV 
+18IDpil1M:scan3.D32PV 
+18IDpil1M:scan3.D33PV 
+18IDpil1M:scan3.D34PV 
+18IDpil1M:scan3.D35PV 
+18IDpil1M:scan3.D36PV 
+18IDpil1M:scan3.D37PV 
+18IDpil1M:scan3.D38PV 
+18IDpil1M:scan3.D39PV 
+18IDpil1M:scan3.D40PV 
+18IDpil1M:scan3.D41PV 
+18IDpil1M:scan3.D42PV 
+18IDpil1M:scan3.D43PV 
+18IDpil1M:scan3.D44PV 
+18IDpil1M:scan3.D45PV 
+18IDpil1M:scan3.D46PV 
+18IDpil1M:scan3.D47PV 
+18IDpil1M:scan3.D48PV 
+18IDpil1M:scan3.D49PV 
+18IDpil1M:scan3.D50PV 
+18IDpil1M:scan3.D51PV 
+18IDpil1M:scan3.D52PV 
+18IDpil1M:scan3.D53PV 
+18IDpil1M:scan3.D54PV 
+18IDpil1M:scan3.D55PV 
+18IDpil1M:scan3.D56PV 
+18IDpil1M:scan3.D57PV 
+18IDpil1M:scan3.D58PV 
+18IDpil1M:scan3.D59PV 
+18IDpil1M:scan3.D60PV 
+18IDpil1M:scan3.D61PV 
+18IDpil1M:scan3.D62PV 
+18IDpil1M:scan3.D63PV 
+18IDpil1M:scan3.D64PV 
+18IDpil1M:scan3.D65PV 
+18IDpil1M:scan3.D66PV 
+18IDpil1M:scan3.D67PV 
+18IDpil1M:scan3.D68PV 
+18IDpil1M:scan3.D69PV 
+18IDpil1M:scan3.D70PV 
+18IDpil1M:scan4.ATIME 0
+18IDpil1M:scan4.COPYTO 0
+18IDpil1M:scan4.AAWAIT 0
+18IDpil1M:scan4.FLNK 
+18IDpil1M:scan4.NPTS 10
+18IDpil1M:scan4.ACQT 0
+18IDpil1M:scan4.ACQM 0
+18IDpil1M:scan4.PASM 0
+18IDpil1M:scan4.BSPV 
+18IDpil1M:scan4.BSCD 1
+18IDpil1M:scan4.BSWAIT 0
+18IDpil1M:scan4.ASPV 
+18IDpil1M:scan4.ASCD 1
+18IDpil1M:scan4.ASWAIT 0
+18IDpil1M:scan4.T1PV 18IDpil1M:scan3.EXSC
+18IDpil1M:scan4.T1CD 1
+18IDpil1M:scan4.T2PV 
+18IDpil1M:scan4.T2CD 1
+18IDpil1M:scan4.T3PV 
+18IDpil1M:scan4.T3CD 1
+18IDpil1M:scan4.T4PV 
+18IDpil1M:scan4.T4CD 1
+18IDpil1M:scan4.P1PV 
+18IDpil1M:scan4.R1PV 
+18IDpil1M:scan4.P1SM 0
+18IDpil1M:scan4.P1SP 0
+18IDpil1M:scan4.P1EP 0
+18IDpil1M:scan4.P1AR 0
+18IDpil1M:scan4.P2PV 
+18IDpil1M:scan4.R2PV 
+18IDpil1M:scan4.P2SM 0
+18IDpil1M:scan4.P2SP 0
+18IDpil1M:scan4.P2EP 0
+18IDpil1M:scan4.P2AR 0
+18IDpil1M:scan4.P3PV 
+18IDpil1M:scan4.R3PV 
+18IDpil1M:scan4.P3SM 0
+18IDpil1M:scan4.P3SP 0
+18IDpil1M:scan4.P3EP 0
+18IDpil1M:scan4.P3AR 0
+18IDpil1M:scan4.P4PV 
+18IDpil1M:scan4.R4PV 
+18IDpil1M:scan4.P4SM 0
+18IDpil1M:scan4.P4SP 0
+18IDpil1M:scan4.P4EP 0
+18IDpil1M:scan4.P4AR 0
+18IDpil1M:scan4.PDLY 0
+18IDpil1M:scan4.DDLY 0
+18IDpil1M:scan4.REFD 1
+18IDpil1M:scan4.AWCT 0
+18IDpil1M:scan4.A1PV 
+18IDpil1M:scan4.A1CD 1
+18IDpil1M:scan4.D01PV 
+18IDpil1M:scan4.D02PV 
+18IDpil1M:scan4.D03PV 
+18IDpil1M:scan4.D04PV 
+18IDpil1M:scan4.D05PV 
+18IDpil1M:scan4.D06PV 
+18IDpil1M:scan4.D07PV 
+18IDpil1M:scan4.D08PV 
+18IDpil1M:scan4.D09PV 
+18IDpil1M:scan4.D10PV 
+18IDpil1M:scan4.D11PV 
+18IDpil1M:scan4.D12PV 
+18IDpil1M:scan4.D13PV 
+18IDpil1M:scan4.D14PV 
+18IDpil1M:scan4.D15PV 
+18IDpil1M:scan4.D16PV 
+18IDpil1M:scan4.D17PV 
+18IDpil1M:scan4.D18PV 
+18IDpil1M:scan4.D19PV 
+18IDpil1M:scan4.D20PV 
+18IDpil1M:scan4.D21PV 
+18IDpil1M:scan4.D22PV 
+18IDpil1M:scan4.D23PV 
+18IDpil1M:scan4.D24PV 
+18IDpil1M:scan4.D25PV 
+18IDpil1M:scan4.D26PV 
+18IDpil1M:scan4.D27PV 
+18IDpil1M:scan4.D28PV 
+18IDpil1M:scan4.D29PV 
+18IDpil1M:scan4.D30PV 
+18IDpil1M:scan4.D31PV 
+18IDpil1M:scan4.D32PV 
+18IDpil1M:scan4.D33PV 
+18IDpil1M:scan4.D34PV 
+18IDpil1M:scan4.D35PV 
+18IDpil1M:scan4.D36PV 
+18IDpil1M:scan4.D37PV 
+18IDpil1M:scan4.D38PV 
+18IDpil1M:scan4.D39PV 
+18IDpil1M:scan4.D40PV 
+18IDpil1M:scan4.D41PV 
+18IDpil1M:scan4.D42PV 
+18IDpil1M:scan4.D43PV 
+18IDpil1M:scan4.D44PV 
+18IDpil1M:scan4.D45PV 
+18IDpil1M:scan4.D46PV 
+18IDpil1M:scan4.D47PV 
+18IDpil1M:scan4.D48PV 
+18IDpil1M:scan4.D49PV 
+18IDpil1M:scan4.D50PV 
+18IDpil1M:scan4.D51PV 
+18IDpil1M:scan4.D52PV 
+18IDpil1M:scan4.D53PV 
+18IDpil1M:scan4.D54PV 
+18IDpil1M:scan4.D55PV 
+18IDpil1M:scan4.D56PV 
+18IDpil1M:scan4.D57PV 
+18IDpil1M:scan4.D58PV 
+18IDpil1M:scan4.D59PV 
+18IDpil1M:scan4.D60PV 
+18IDpil1M:scan4.D61PV 
+18IDpil1M:scan4.D62PV 
+18IDpil1M:scan4.D63PV 
+18IDpil1M:scan4.D64PV 
+18IDpil1M:scan4.D65PV 
+18IDpil1M:scan4.D66PV 
+18IDpil1M:scan4.D67PV 
+18IDpil1M:scan4.D68PV 
+18IDpil1M:scan4.D69PV 
+18IDpil1M:scan4.D70PV 
+18IDpil1M:scanH.ATIME 0
+18IDpil1M:scanH.COPYTO 0
+18IDpil1M:scanH.AAWAIT 0
+18IDpil1M:scanH.FLNK 
+18IDpil1M:scanH.NPTS 10
+18IDpil1M:scanH.ACQT 1
+18IDpil1M:scanH.ACQM 0
+18IDpil1M:scanH.PASM 0
+18IDpil1M:scanH.BSPV 
+18IDpil1M:scanH.BSCD 1
+18IDpil1M:scanH.BSWAIT 0
+18IDpil1M:scanH.ASPV 
+18IDpil1M:scanH.ASCD 1
+18IDpil1M:scanH.ASWAIT 0
+18IDpil1M:scanH.T1PV 
+18IDpil1M:scanH.T1CD 1
+18IDpil1M:scanH.T2PV 
+18IDpil1M:scanH.T2CD 1
+18IDpil1M:scanH.T3PV 
+18IDpil1M:scanH.T3CD 1
+18IDpil1M:scanH.T4PV 
+18IDpil1M:scanH.T4CD 1
+18IDpil1M:scanH.P1PV 
+18IDpil1M:scanH.R1PV 
+18IDpil1M:scanH.P1SM 0
+18IDpil1M:scanH.P1SP 0
+18IDpil1M:scanH.P1EP 0
+18IDpil1M:scanH.P1AR 0
+18IDpil1M:scanH.P2PV 
+18IDpil1M:scanH.R2PV 
+18IDpil1M:scanH.P2SM 0
+18IDpil1M:scanH.P2SP 0
+18IDpil1M:scanH.P2EP 0
+18IDpil1M:scanH.P2AR 0
+18IDpil1M:scanH.P3PV 
+18IDpil1M:scanH.R3PV 
+18IDpil1M:scanH.P3SM 0
+18IDpil1M:scanH.P3SP 0
+18IDpil1M:scanH.P3EP 0
+18IDpil1M:scanH.P3AR 0
+18IDpil1M:scanH.P4PV 
+18IDpil1M:scanH.R4PV 
+18IDpil1M:scanH.P4SM 0
+18IDpil1M:scanH.P4SP 0
+18IDpil1M:scanH.P4EP 0
+18IDpil1M:scanH.P4AR 0
+18IDpil1M:scanH.PDLY 0
+18IDpil1M:scanH.DDLY 0
+18IDpil1M:scanH.REFD 1
+18IDpil1M:scanH.AWCT 0
+18IDpil1M:scanH.A1PV 
+18IDpil1M:scanH.A1CD 1
+18IDpil1M:scanH.D01PV 
+18IDpil1M:scanH.D02PV 
+18IDpil1M:scanH.D03PV 
+18IDpil1M:scanH.D04PV 
+18IDpil1M:scanH.D05PV 
+18IDpil1M:scanH.D06PV 
+18IDpil1M:scanH.D07PV 
+18IDpil1M:scanH.D08PV 
+18IDpil1M:scanH.D09PV 
+18IDpil1M:scanH.D10PV 
+18IDpil1M:scanH.D11PV 
+18IDpil1M:scanH.D12PV 
+18IDpil1M:scanH.D13PV 
+18IDpil1M:scanH.D14PV 
+18IDpil1M:scanH.D15PV 
+18IDpil1M:scanH.D16PV 
+18IDpil1M:scanH.D17PV 
+18IDpil1M:scanH.D18PV 
+18IDpil1M:scanH.D19PV 
+18IDpil1M:scanH.D20PV 
+18IDpil1M:scanH.D21PV 
+18IDpil1M:scanH.D22PV 
+18IDpil1M:scanH.D23PV 
+18IDpil1M:scanH.D24PV 
+18IDpil1M:scanH.D25PV 
+18IDpil1M:scanH.D26PV 
+18IDpil1M:scanH.D27PV 
+18IDpil1M:scanH.D28PV 
+18IDpil1M:scanH.D29PV 
+18IDpil1M:scanH.D30PV 
+18IDpil1M:scanH.D31PV 
+18IDpil1M:scanH.D32PV 
+18IDpil1M:scanH.D33PV 
+18IDpil1M:scanH.D34PV 
+18IDpil1M:scanH.D35PV 
+18IDpil1M:scanH.D36PV 
+18IDpil1M:scanH.D37PV 
+18IDpil1M:scanH.D38PV 
+18IDpil1M:scanH.D39PV 
+18IDpil1M:scanH.D40PV 
+18IDpil1M:scanH.D41PV 
+18IDpil1M:scanH.D42PV 
+18IDpil1M:scanH.D43PV 
+18IDpil1M:scanH.D44PV 
+18IDpil1M:scanH.D45PV 
+18IDpil1M:scanH.D46PV 
+18IDpil1M:scanH.D47PV 
+18IDpil1M:scanH.D48PV 
+18IDpil1M:scanH.D49PV 
+18IDpil1M:scanH.D50PV 
+18IDpil1M:scanH.D51PV 
+18IDpil1M:scanH.D52PV 
+18IDpil1M:scanH.D53PV 
+18IDpil1M:scanH.D54PV 
+18IDpil1M:scanH.D55PV 
+18IDpil1M:scanH.D56PV 
+18IDpil1M:scanH.D57PV 
+18IDpil1M:scanH.D58PV 
+18IDpil1M:scanH.D59PV 
+18IDpil1M:scanH.D60PV 
+18IDpil1M:scanH.D61PV 
+18IDpil1M:scanH.D62PV 
+18IDpil1M:scanH.D63PV 
+18IDpil1M:scanH.D64PV 
+18IDpil1M:scanH.D65PV 
+18IDpil1M:scanH.D66PV 
+18IDpil1M:scanH.D67PV 
+18IDpil1M:scanH.D68PV 
+18IDpil1M:scanH.D69PV 
+18IDpil1M:scanH.D70PV 
+18IDpil1M:scan1.ATIME 0
+18IDpil1M:scan1.COPYTO 0
+18IDpil1M:scan1.AAWAIT 0
+18IDpil1M:scan1.FLNK 
+18IDpil1M:scan1.NPTS 10
+18IDpil1M:scan1.ACQT 0
+18IDpil1M:scan1.ACQM 0
+18IDpil1M:scan1.PASM 0
+18IDpil1M:scan1.BSPV 
+18IDpil1M:scan1.BSCD 1
+18IDpil1M:scan1.BSWAIT 0
+18IDpil1M:scan1.ASPV 
+18IDpil1M:scan1.ASCD 1
+18IDpil1M:scan1.ASWAIT 0
+18IDpil1M:scan1.T1PV 
+18IDpil1M:scan1.T1CD 1
+18IDpil1M:scan1.T2PV 
+18IDpil1M:scan1.T2CD 1
+18IDpil1M:scan1.T3PV 
+18IDpil1M:scan1.T3CD 1
+18IDpil1M:scan1.T4PV 
+18IDpil1M:scan1.T4CD 1
+18IDpil1M:scan1.P1PV 
+18IDpil1M:scan1.R1PV 
+18IDpil1M:scan1.P1SM 0
+18IDpil1M:scan1.P1SP 0
+18IDpil1M:scan1.P1EP 0
+18IDpil1M:scan1.P1AR 0
+18IDpil1M:scan1.P2PV 
+18IDpil1M:scan1.R2PV 
+18IDpil1M:scan1.P2SM 0
+18IDpil1M:scan1.P2SP 0
+18IDpil1M:scan1.P2EP 0
+18IDpil1M:scan1.P2AR 0
+18IDpil1M:scan1.P3PV 
+18IDpil1M:scan1.R3PV 
+18IDpil1M:scan1.P3SM 0
+18IDpil1M:scan1.P3SP 0
+18IDpil1M:scan1.P3EP 0
+18IDpil1M:scan1.P3AR 0
+18IDpil1M:scan1.P4PV 
+18IDpil1M:scan1.R4PV 
+18IDpil1M:scan1.P4SM 0
+18IDpil1M:scan1.P4SP 0
+18IDpil1M:scan1.P4EP 0
+18IDpil1M:scan1.P4AR 0
+18IDpil1M:scan1.PDLY 0
+18IDpil1M:scan1.DDLY 0
+18IDpil1M:scan1.REFD 1
+18IDpil1M:scan1.AWCT 0
+18IDpil1M:scan1.A1PV 
+18IDpil1M:scan1.A1CD 1
+18IDpil1M:scan1.D01PV 
+18IDpil1M:scan1.D02PV 
+18IDpil1M:scan1.D03PV 
+18IDpil1M:scan1.D04PV 
+18IDpil1M:scan1.D05PV 
+18IDpil1M:scan1.D06PV 
+18IDpil1M:scan1.D07PV 
+18IDpil1M:scan1.D08PV 
+18IDpil1M:scan1.D09PV 
+18IDpil1M:scan1.D10PV 
+18IDpil1M:scan1.D11PV 
+18IDpil1M:scan1.D12PV 
+18IDpil1M:scan1.D13PV 
+18IDpil1M:scan1.D14PV 
+18IDpil1M:scan1.D15PV 
+18IDpil1M:scan1.D16PV 
+18IDpil1M:scan1.D17PV 
+18IDpil1M:scan1.D18PV 
+18IDpil1M:scan1.D19PV 
+18IDpil1M:scan1.D20PV 
+18IDpil1M:scan1.D21PV 
+18IDpil1M:scan1.D22PV 
+18IDpil1M:scan1.D23PV 
+18IDpil1M:scan1.D24PV 
+18IDpil1M:scan1.D25PV 
+18IDpil1M:scan1.D26PV 
+18IDpil1M:scan1.D27PV 
+18IDpil1M:scan1.D28PV 
+18IDpil1M:scan1.D29PV 
+18IDpil1M:scan1.D30PV 
+18IDpil1M:scan1.D31PV 
+18IDpil1M:scan1.D32PV 
+18IDpil1M:scan1.D33PV 
+18IDpil1M:scan1.D34PV 
+18IDpil1M:scan1.D35PV 
+18IDpil1M:scan1.D36PV 
+18IDpil1M:scan1.D37PV 
+18IDpil1M:scan1.D38PV 
+18IDpil1M:scan1.D39PV 
+18IDpil1M:scan1.D40PV 
+18IDpil1M:scan1.D41PV 
+18IDpil1M:scan1.D42PV 
+18IDpil1M:scan1.D43PV 
+18IDpil1M:scan1.D44PV 
+18IDpil1M:scan1.D45PV 
+18IDpil1M:scan1.D46PV 
+18IDpil1M:scan1.D47PV 
+18IDpil1M:scan1.D48PV 
+18IDpil1M:scan1.D49PV 
+18IDpil1M:scan1.D50PV 
+18IDpil1M:scan1.D51PV 
+18IDpil1M:scan1.D52PV 
+18IDpil1M:scan1.D53PV 
+18IDpil1M:scan1.D54PV 
+18IDpil1M:scan1.D55PV 
+18IDpil1M:scan1.D56PV 
+18IDpil1M:scan1.D57PV 
+18IDpil1M:scan1.D58PV 
+18IDpil1M:scan1.D59PV 
+18IDpil1M:scan1.D60PV 
+18IDpil1M:scan1.D61PV 
+18IDpil1M:scan1.D62PV 
+18IDpil1M:scan1.D63PV 
+18IDpil1M:scan1.D64PV 
+18IDpil1M:scan1.D65PV 
+18IDpil1M:scan1.D66PV 
+18IDpil1M:scan1.D67PV 
+18IDpil1M:scan1.D68PV 
+18IDpil1M:scan1.D69PV 
+18IDpil1M:scan1.D70PV 
+18IDpil1M:scan2.ATIME 0
+18IDpil1M:scan2.COPYTO 0
+18IDpil1M:scan2.AAWAIT 0
+18IDpil1M:scan2.FLNK 
+18IDpil1M:scan2.NPTS 10
+18IDpil1M:scan2.ACQT 0
+18IDpil1M:scan2.ACQM 0
+18IDpil1M:scan2.PASM 0
+18IDpil1M:scan2.BSPV 
+18IDpil1M:scan2.BSCD 1
+18IDpil1M:scan2.BSWAIT 0
+18IDpil1M:scan2.ASPV 
+18IDpil1M:scan2.ASCD 1
+18IDpil1M:scan2.ASWAIT 0
+18IDpil1M:scan2.T1PV 18IDpil1M:scan1.EXSC
+18IDpil1M:scan2.T1CD 1
+18IDpil1M:scan2.T2PV 
+18IDpil1M:scan2.T2CD 1
+18IDpil1M:scan2.T3PV 
+18IDpil1M:scan2.T3CD 1
+18IDpil1M:scan2.T4PV 
+18IDpil1M:scan2.T4CD 1
+18IDpil1M:scan2.P1PV 
+18IDpil1M:scan2.R1PV 
+18IDpil1M:scan2.P1SM 0
+18IDpil1M:scan2.P1SP 0
+18IDpil1M:scan2.P1EP 0
+18IDpil1M:scan2.P1AR 0
+18IDpil1M:scan2.P2PV 
+18IDpil1M:scan2.R2PV 
+18IDpil1M:scan2.P2SM 0
+18IDpil1M:scan2.P2SP 0
+18IDpil1M:scan2.P2EP 0
+18IDpil1M:scan2.P2AR 0
+18IDpil1M:scan2.P3PV 
+18IDpil1M:scan2.R3PV 
+18IDpil1M:scan2.P3SM 0
+18IDpil1M:scan2.P3SP 0
+18IDpil1M:scan2.P3EP 0
+18IDpil1M:scan2.P3AR 0
+18IDpil1M:scan2.P4PV 
+18IDpil1M:scan2.R4PV 
+18IDpil1M:scan2.P4SM 0
+18IDpil1M:scan2.P4SP 0
+18IDpil1M:scan2.P4EP 0
+18IDpil1M:scan2.P4AR 0
+18IDpil1M:scan2.PDLY 0
+18IDpil1M:scan2.DDLY 0
+18IDpil1M:scan2.REFD 1
+18IDpil1M:scan2.AWCT 0
+18IDpil1M:scan2.A1PV 
+18IDpil1M:scan2.A1CD 1
+18IDpil1M:scan2.D01PV 
+18IDpil1M:scan2.D02PV 
+18IDpil1M:scan2.D03PV 
+18IDpil1M:scan2.D04PV 
+18IDpil1M:scan2.D05PV 
+18IDpil1M:scan2.D06PV 
+18IDpil1M:scan2.D07PV 
+18IDpil1M:scan2.D08PV 
+18IDpil1M:scan2.D09PV 
+18IDpil1M:scan2.D10PV 
+18IDpil1M:scan2.D11PV 
+18IDpil1M:scan2.D12PV 
+18IDpil1M:scan2.D13PV 
+18IDpil1M:scan2.D14PV 
+18IDpil1M:scan2.D15PV 
+18IDpil1M:scan2.D16PV 
+18IDpil1M:scan2.D17PV 
+18IDpil1M:scan2.D18PV 
+18IDpil1M:scan2.D19PV 
+18IDpil1M:scan2.D20PV 
+18IDpil1M:scan2.D21PV 
+18IDpil1M:scan2.D22PV 
+18IDpil1M:scan2.D23PV 
+18IDpil1M:scan2.D24PV 
+18IDpil1M:scan2.D25PV 
+18IDpil1M:scan2.D26PV 
+18IDpil1M:scan2.D27PV 
+18IDpil1M:scan2.D28PV 
+18IDpil1M:scan2.D29PV 
+18IDpil1M:scan2.D30PV 
+18IDpil1M:scan2.D31PV 
+18IDpil1M:scan2.D32PV 
+18IDpil1M:scan2.D33PV 
+18IDpil1M:scan2.D34PV 
+18IDpil1M:scan2.D35PV 
+18IDpil1M:scan2.D36PV 
+18IDpil1M:scan2.D37PV 
+18IDpil1M:scan2.D38PV 
+18IDpil1M:scan2.D39PV 
+18IDpil1M:scan2.D40PV 
+18IDpil1M:scan2.D41PV 
+18IDpil1M:scan2.D42PV 
+18IDpil1M:scan2.D43PV 
+18IDpil1M:scan2.D44PV 
+18IDpil1M:scan2.D45PV 
+18IDpil1M:scan2.D46PV 
+18IDpil1M:scan2.D47PV 
+18IDpil1M:scan2.D48PV 
+18IDpil1M:scan2.D49PV 
+18IDpil1M:scan2.D50PV 
+18IDpil1M:scan2.D51PV 
+18IDpil1M:scan2.D52PV 
+18IDpil1M:scan2.D53PV 
+18IDpil1M:scan2.D54PV 
+18IDpil1M:scan2.D55PV 
+18IDpil1M:scan2.D56PV 
+18IDpil1M:scan2.D57PV 
+18IDpil1M:scan2.D58PV 
+18IDpil1M:scan2.D59PV 
+18IDpil1M:scan2.D60PV 
+18IDpil1M:scan2.D61PV 
+18IDpil1M:scan2.D62PV 
+18IDpil1M:scan2.D63PV 
+18IDpil1M:scan2.D64PV 
+18IDpil1M:scan2.D65PV 
+18IDpil1M:scan2.D66PV 
+18IDpil1M:scan2.D67PV 
+18IDpil1M:scan2.D68PV 
+18IDpil1M:scan2.D69PV 
+18IDpil1M:scan2.D70PV 
+18IDpil1M:scan3.ATIME 0
+18IDpil1M:scan3.COPYTO 0
+18IDpil1M:scan3.AAWAIT 0
+18IDpil1M:scan3.FLNK 
+18IDpil1M:scan3.NPTS 10
+18IDpil1M:scan3.ACQT 0
+18IDpil1M:scan3.ACQM 0
+18IDpil1M:scan3.PASM 0
+18IDpil1M:scan3.BSPV 
+18IDpil1M:scan3.BSCD 1
+18IDpil1M:scan3.BSWAIT 0
+18IDpil1M:scan3.ASPV 
+18IDpil1M:scan3.ASCD 1
+18IDpil1M:scan3.ASWAIT 0
+18IDpil1M:scan3.T1PV 18IDpil1M:scan2.EXSC
+18IDpil1M:scan3.T1CD 1
+18IDpil1M:scan3.T2PV 
+18IDpil1M:scan3.T2CD 1
+18IDpil1M:scan3.T3PV 
+18IDpil1M:scan3.T3CD 1
+18IDpil1M:scan3.T4PV 
+18IDpil1M:scan3.T4CD 1
+18IDpil1M:scan3.P1PV 
+18IDpil1M:scan3.R1PV 
+18IDpil1M:scan3.P1SM 0
+18IDpil1M:scan3.P1SP 0
+18IDpil1M:scan3.P1EP 0
+18IDpil1M:scan3.P1AR 0
+18IDpil1M:scan3.P2PV 
+18IDpil1M:scan3.R2PV 
+18IDpil1M:scan3.P2SM 0
+18IDpil1M:scan3.P2SP 0
+18IDpil1M:scan3.P2EP 0
+18IDpil1M:scan3.P2AR 0
+18IDpil1M:scan3.P3PV 
+18IDpil1M:scan3.R3PV 
+18IDpil1M:scan3.P3SM 0
+18IDpil1M:scan3.P3SP 0
+18IDpil1M:scan3.P3EP 0
+18IDpil1M:scan3.P3AR 0
+18IDpil1M:scan3.P4PV 
+18IDpil1M:scan3.R4PV 
+18IDpil1M:scan3.P4SM 0
+18IDpil1M:scan3.P4SP 0
+18IDpil1M:scan3.P4EP 0
+18IDpil1M:scan3.P4AR 0
+18IDpil1M:scan3.PDLY 0
+18IDpil1M:scan3.DDLY 0
+18IDpil1M:scan3.REFD 1
+18IDpil1M:scan3.AWCT 0
+18IDpil1M:scan3.A1PV 
+18IDpil1M:scan3.A1CD 1
+18IDpil1M:scan3.D01PV 
+18IDpil1M:scan3.D02PV 
+18IDpil1M:scan3.D03PV 
+18IDpil1M:scan3.D04PV 
+18IDpil1M:scan3.D05PV 
+18IDpil1M:scan3.D06PV 
+18IDpil1M:scan3.D07PV 
+18IDpil1M:scan3.D08PV 
+18IDpil1M:scan3.D09PV 
+18IDpil1M:scan3.D10PV 
+18IDpil1M:scan3.D11PV 
+18IDpil1M:scan3.D12PV 
+18IDpil1M:scan3.D13PV 
+18IDpil1M:scan3.D14PV 
+18IDpil1M:scan3.D15PV 
+18IDpil1M:scan3.D16PV 
+18IDpil1M:scan3.D17PV 
+18IDpil1M:scan3.D18PV 
+18IDpil1M:scan3.D19PV 
+18IDpil1M:scan3.D20PV 
+18IDpil1M:scan3.D21PV 
+18IDpil1M:scan3.D22PV 
+18IDpil1M:scan3.D23PV 
+18IDpil1M:scan3.D24PV 
+18IDpil1M:scan3.D25PV 
+18IDpil1M:scan3.D26PV 
+18IDpil1M:scan3.D27PV 
+18IDpil1M:scan3.D28PV 
+18IDpil1M:scan3.D29PV 
+18IDpil1M:scan3.D30PV 
+18IDpil1M:scan3.D31PV 
+18IDpil1M:scan3.D32PV 
+18IDpil1M:scan3.D33PV 
+18IDpil1M:scan3.D34PV 
+18IDpil1M:scan3.D35PV 
+18IDpil1M:scan3.D36PV 
+18IDpil1M:scan3.D37PV 
+18IDpil1M:scan3.D38PV 
+18IDpil1M:scan3.D39PV 
+18IDpil1M:scan3.D40PV 
+18IDpil1M:scan3.D41PV 
+18IDpil1M:scan3.D42PV 
+18IDpil1M:scan3.D43PV 
+18IDpil1M:scan3.D44PV 
+18IDpil1M:scan3.D45PV 
+18IDpil1M:scan3.D46PV 
+18IDpil1M:scan3.D47PV 
+18IDpil1M:scan3.D48PV 
+18IDpil1M:scan3.D49PV 
+18IDpil1M:scan3.D50PV 
+18IDpil1M:scan3.D51PV 
+18IDpil1M:scan3.D52PV 
+18IDpil1M:scan3.D53PV 
+18IDpil1M:scan3.D54PV 
+18IDpil1M:scan3.D55PV 
+18IDpil1M:scan3.D56PV 
+18IDpil1M:scan3.D57PV 
+18IDpil1M:scan3.D58PV 
+18IDpil1M:scan3.D59PV 
+18IDpil1M:scan3.D60PV 
+18IDpil1M:scan3.D61PV 
+18IDpil1M:scan3.D62PV 
+18IDpil1M:scan3.D63PV 
+18IDpil1M:scan3.D64PV 
+18IDpil1M:scan3.D65PV 
+18IDpil1M:scan3.D66PV 
+18IDpil1M:scan3.D67PV 
+18IDpil1M:scan3.D68PV 
+18IDpil1M:scan3.D69PV 
+18IDpil1M:scan3.D70PV 
+18IDpil1M:scan4.ATIME 0
+18IDpil1M:scan4.COPYTO 0
+18IDpil1M:scan4.AAWAIT 0
+18IDpil1M:scan4.FLNK 
+18IDpil1M:scan4.NPTS 10
+18IDpil1M:scan4.ACQT 0
+18IDpil1M:scan4.ACQM 0
+18IDpil1M:scan4.PASM 0
+18IDpil1M:scan4.BSPV 
+18IDpil1M:scan4.BSCD 1
+18IDpil1M:scan4.BSWAIT 0
+18IDpil1M:scan4.ASPV 
+18IDpil1M:scan4.ASCD 1
+18IDpil1M:scan4.ASWAIT 0
+18IDpil1M:scan4.T1PV 18IDpil1M:scan3.EXSC
+18IDpil1M:scan4.T1CD 1
+18IDpil1M:scan4.T2PV 
+18IDpil1M:scan4.T2CD 1
+18IDpil1M:scan4.T3PV 
+18IDpil1M:scan4.T3CD 1
+18IDpil1M:scan4.T4PV 
+18IDpil1M:scan4.T4CD 1
+18IDpil1M:scan4.P1PV 
+18IDpil1M:scan4.R1PV 
+18IDpil1M:scan4.P1SM 0
+18IDpil1M:scan4.P1SP 0
+18IDpil1M:scan4.P1EP 0
+18IDpil1M:scan4.P1AR 0
+18IDpil1M:scan4.P2PV 
+18IDpil1M:scan4.R2PV 
+18IDpil1M:scan4.P2SM 0
+18IDpil1M:scan4.P2SP 0
+18IDpil1M:scan4.P2EP 0
+18IDpil1M:scan4.P2AR 0
+18IDpil1M:scan4.P3PV 
+18IDpil1M:scan4.R3PV 
+18IDpil1M:scan4.P3SM 0
+18IDpil1M:scan4.P3SP 0
+18IDpil1M:scan4.P3EP 0
+18IDpil1M:scan4.P3AR 0
+18IDpil1M:scan4.P4PV 
+18IDpil1M:scan4.R4PV 
+18IDpil1M:scan4.P4SM 0
+18IDpil1M:scan4.P4SP 0
+18IDpil1M:scan4.P4EP 0
+18IDpil1M:scan4.P4AR 0
+18IDpil1M:scan4.PDLY 0
+18IDpil1M:scan4.DDLY 0
+18IDpil1M:scan4.REFD 1
+18IDpil1M:scan4.AWCT 0
+18IDpil1M:scan4.A1PV 
+18IDpil1M:scan4.A1CD 1
+18IDpil1M:scan4.D01PV 
+18IDpil1M:scan4.D02PV 
+18IDpil1M:scan4.D03PV 
+18IDpil1M:scan4.D04PV 
+18IDpil1M:scan4.D05PV 
+18IDpil1M:scan4.D06PV 
+18IDpil1M:scan4.D07PV 
+18IDpil1M:scan4.D08PV 
+18IDpil1M:scan4.D09PV 
+18IDpil1M:scan4.D10PV 
+18IDpil1M:scan4.D11PV 
+18IDpil1M:scan4.D12PV 
+18IDpil1M:scan4.D13PV 
+18IDpil1M:scan4.D14PV 
+18IDpil1M:scan4.D15PV 
+18IDpil1M:scan4.D16PV 
+18IDpil1M:scan4.D17PV 
+18IDpil1M:scan4.D18PV 
+18IDpil1M:scan4.D19PV 
+18IDpil1M:scan4.D20PV 
+18IDpil1M:scan4.D21PV 
+18IDpil1M:scan4.D22PV 
+18IDpil1M:scan4.D23PV 
+18IDpil1M:scan4.D24PV 
+18IDpil1M:scan4.D25PV 
+18IDpil1M:scan4.D26PV 
+18IDpil1M:scan4.D27PV 
+18IDpil1M:scan4.D28PV 
+18IDpil1M:scan4.D29PV 
+18IDpil1M:scan4.D30PV 
+18IDpil1M:scan4.D31PV 
+18IDpil1M:scan4.D32PV 
+18IDpil1M:scan4.D33PV 
+18IDpil1M:scan4.D34PV 
+18IDpil1M:scan4.D35PV 
+18IDpil1M:scan4.D36PV 
+18IDpil1M:scan4.D37PV 
+18IDpil1M:scan4.D38PV 
+18IDpil1M:scan4.D39PV 
+18IDpil1M:scan4.D40PV 
+18IDpil1M:scan4.D41PV 
+18IDpil1M:scan4.D42PV 
+18IDpil1M:scan4.D43PV 
+18IDpil1M:scan4.D44PV 
+18IDpil1M:scan4.D45PV 
+18IDpil1M:scan4.D46PV 
+18IDpil1M:scan4.D47PV 
+18IDpil1M:scan4.D48PV 
+18IDpil1M:scan4.D49PV 
+18IDpil1M:scan4.D50PV 
+18IDpil1M:scan4.D51PV 
+18IDpil1M:scan4.D52PV 
+18IDpil1M:scan4.D53PV 
+18IDpil1M:scan4.D54PV 
+18IDpil1M:scan4.D55PV 
+18IDpil1M:scan4.D56PV 
+18IDpil1M:scan4.D57PV 
+18IDpil1M:scan4.D58PV 
+18IDpil1M:scan4.D59PV 
+18IDpil1M:scan4.D60PV 
+18IDpil1M:scan4.D61PV 
+18IDpil1M:scan4.D62PV 
+18IDpil1M:scan4.D63PV 
+18IDpil1M:scan4.D64PV 
+18IDpil1M:scan4.D65PV 
+18IDpil1M:scan4.D66PV 
+18IDpil1M:scan4.D67PV 
+18IDpil1M:scan4.D68PV 
+18IDpil1M:scan4.D69PV 
+18IDpil1M:scan4.D70PV 
+18IDpil1M:scanH.ATIME 0
+18IDpil1M:scanH.COPYTO 0
+18IDpil1M:scanH.AAWAIT 0
+18IDpil1M:scanH.FLNK 
+18IDpil1M:scanH.NPTS 10
+18IDpil1M:scanH.ACQT 1
+18IDpil1M:scanH.ACQM 0
+18IDpil1M:scanH.PASM 0
+18IDpil1M:scanH.BSPV 
+18IDpil1M:scanH.BSCD 1
+18IDpil1M:scanH.BSWAIT 0
+18IDpil1M:scanH.ASPV 
+18IDpil1M:scanH.ASCD 1
+18IDpil1M:scanH.ASWAIT 0
+18IDpil1M:scanH.T1PV 
+18IDpil1M:scanH.T1CD 1
+18IDpil1M:scanH.T2PV 
+18IDpil1M:scanH.T2CD 1
+18IDpil1M:scanH.T3PV 
+18IDpil1M:scanH.T3CD 1
+18IDpil1M:scanH.T4PV 
+18IDpil1M:scanH.T4CD 1
+18IDpil1M:scanH.P1PV 
+18IDpil1M:scanH.R1PV 
+18IDpil1M:scanH.P1SM 0
+18IDpil1M:scanH.P1SP 0
+18IDpil1M:scanH.P1EP 0
+18IDpil1M:scanH.P1AR 0
+18IDpil1M:scanH.P2PV 
+18IDpil1M:scanH.R2PV 
+18IDpil1M:scanH.P2SM 0
+18IDpil1M:scanH.P2SP 0
+18IDpil1M:scanH.P2EP 0
+18IDpil1M:scanH.P2AR 0
+18IDpil1M:scanH.P3PV 
+18IDpil1M:scanH.R3PV 
+18IDpil1M:scanH.P3SM 0
+18IDpil1M:scanH.P3SP 0
+18IDpil1M:scanH.P3EP 0
+18IDpil1M:scanH.P3AR 0
+18IDpil1M:scanH.P4PV 
+18IDpil1M:scanH.R4PV 
+18IDpil1M:scanH.P4SM 0
+18IDpil1M:scanH.P4SP 0
+18IDpil1M:scanH.P4EP 0
+18IDpil1M:scanH.P4AR 0
+18IDpil1M:scanH.PDLY 0
+18IDpil1M:scanH.DDLY 0
+18IDpil1M:scanH.REFD 1
+18IDpil1M:scanH.AWCT 0
+18IDpil1M:scanH.A1PV 
+18IDpil1M:scanH.A1CD 1
+18IDpil1M:scanH.D01PV 
+18IDpil1M:scanH.D02PV 
+18IDpil1M:scanH.D03PV 
+18IDpil1M:scanH.D04PV 
+18IDpil1M:scanH.D05PV 
+18IDpil1M:scanH.D06PV 
+18IDpil1M:scanH.D07PV 
+18IDpil1M:scanH.D08PV 
+18IDpil1M:scanH.D09PV 
+18IDpil1M:scanH.D10PV 
+18IDpil1M:scanH.D11PV 
+18IDpil1M:scanH.D12PV 
+18IDpil1M:scanH.D13PV 
+18IDpil1M:scanH.D14PV 
+18IDpil1M:scanH.D15PV 
+18IDpil1M:scanH.D16PV 
+18IDpil1M:scanH.D17PV 
+18IDpil1M:scanH.D18PV 
+18IDpil1M:scanH.D19PV 
+18IDpil1M:scanH.D20PV 
+18IDpil1M:scanH.D21PV 
+18IDpil1M:scanH.D22PV 
+18IDpil1M:scanH.D23PV 
+18IDpil1M:scanH.D24PV 
+18IDpil1M:scanH.D25PV 
+18IDpil1M:scanH.D26PV 
+18IDpil1M:scanH.D27PV 
+18IDpil1M:scanH.D28PV 
+18IDpil1M:scanH.D29PV 
+18IDpil1M:scanH.D30PV 
+18IDpil1M:scanH.D31PV 
+18IDpil1M:scanH.D32PV 
+18IDpil1M:scanH.D33PV 
+18IDpil1M:scanH.D34PV 
+18IDpil1M:scanH.D35PV 
+18IDpil1M:scanH.D36PV 
+18IDpil1M:scanH.D37PV 
+18IDpil1M:scanH.D38PV 
+18IDpil1M:scanH.D39PV 
+18IDpil1M:scanH.D40PV 
+18IDpil1M:scanH.D41PV 
+18IDpil1M:scanH.D42PV 
+18IDpil1M:scanH.D43PV 
+18IDpil1M:scanH.D44PV 
+18IDpil1M:scanH.D45PV 
+18IDpil1M:scanH.D46PV 
+18IDpil1M:scanH.D47PV 
+18IDpil1M:scanH.D48PV 
+18IDpil1M:scanH.D49PV 
+18IDpil1M:scanH.D50PV 
+18IDpil1M:scanH.D51PV 
+18IDpil1M:scanH.D52PV 
+18IDpil1M:scanH.D53PV 
+18IDpil1M:scanH.D54PV 
+18IDpil1M:scanH.D55PV 
+18IDpil1M:scanH.D56PV 
+18IDpil1M:scanH.D57PV 
+18IDpil1M:scanH.D58PV 
+18IDpil1M:scanH.D59PV 
+18IDpil1M:scanH.D60PV 
+18IDpil1M:scanH.D61PV 
+18IDpil1M:scanH.D62PV 
+18IDpil1M:scanH.D63PV 
+18IDpil1M:scanH.D64PV 
+18IDpil1M:scanH.D65PV 
+18IDpil1M:scanH.D66PV 
+18IDpil1M:scanH.D67PV 
+18IDpil1M:scanH.D68PV 
+18IDpil1M:scanH.D69PV 
+18IDpil1M:scanH.D70PV 
+18IDpil1M:scan1.ATIME 0
+18IDpil1M:scan1.COPYTO 0
+18IDpil1M:scan1.AAWAIT 0
+18IDpil1M:scan1.FLNK 
+18IDpil1M:scan1.NPTS 10
+18IDpil1M:scan1.ACQT 0
+18IDpil1M:scan1.ACQM 0
+18IDpil1M:scan1.PASM 0
+18IDpil1M:scan1.BSPV 
+18IDpil1M:scan1.BSCD 1
+18IDpil1M:scan1.BSWAIT 0
+18IDpil1M:scan1.ASPV 
+18IDpil1M:scan1.ASCD 1
+18IDpil1M:scan1.ASWAIT 0
+18IDpil1M:scan1.T1PV 
+18IDpil1M:scan1.T1CD 1
+18IDpil1M:scan1.T2PV 
+18IDpil1M:scan1.T2CD 1
+18IDpil1M:scan1.T3PV 
+18IDpil1M:scan1.T3CD 1
+18IDpil1M:scan1.T4PV 
+18IDpil1M:scan1.T4CD 1
+18IDpil1M:scan1.P1PV 
+18IDpil1M:scan1.R1PV 
+18IDpil1M:scan1.P1SM 0
+18IDpil1M:scan1.P1SP 0
+18IDpil1M:scan1.P1EP 0
+18IDpil1M:scan1.P1AR 0
+18IDpil1M:scan1.P2PV 
+18IDpil1M:scan1.R2PV 
+18IDpil1M:scan1.P2SM 0
+18IDpil1M:scan1.P2SP 0
+18IDpil1M:scan1.P2EP 0
+18IDpil1M:scan1.P2AR 0
+18IDpil1M:scan1.P3PV 
+18IDpil1M:scan1.R3PV 
+18IDpil1M:scan1.P3SM 0
+18IDpil1M:scan1.P3SP 0
+18IDpil1M:scan1.P3EP 0
+18IDpil1M:scan1.P3AR 0
+18IDpil1M:scan1.P4PV 
+18IDpil1M:scan1.R4PV 
+18IDpil1M:scan1.P4SM 0
+18IDpil1M:scan1.P4SP 0
+18IDpil1M:scan1.P4EP 0
+18IDpil1M:scan1.P4AR 0
+18IDpil1M:scan1.PDLY 0
+18IDpil1M:scan1.DDLY 0
+18IDpil1M:scan1.REFD 1
+18IDpil1M:scan1.AWCT 0
+18IDpil1M:scan1.A1PV 
+18IDpil1M:scan1.A1CD 1
+18IDpil1M:scan1.D01PV 
+18IDpil1M:scan1.D02PV 
+18IDpil1M:scan1.D03PV 
+18IDpil1M:scan1.D04PV 
+18IDpil1M:scan1.D05PV 
+18IDpil1M:scan1.D06PV 
+18IDpil1M:scan1.D07PV 
+18IDpil1M:scan1.D08PV 
+18IDpil1M:scan1.D09PV 
+18IDpil1M:scan1.D10PV 
+18IDpil1M:scan1.D11PV 
+18IDpil1M:scan1.D12PV 
+18IDpil1M:scan1.D13PV 
+18IDpil1M:scan1.D14PV 
+18IDpil1M:scan1.D15PV 
+18IDpil1M:scan1.D16PV 
+18IDpil1M:scan1.D17PV 
+18IDpil1M:scan1.D18PV 
+18IDpil1M:scan1.D19PV 
+18IDpil1M:scan1.D20PV 
+18IDpil1M:scan1.D21PV 
+18IDpil1M:scan1.D22PV 
+18IDpil1M:scan1.D23PV 
+18IDpil1M:scan1.D24PV 
+18IDpil1M:scan1.D25PV 
+18IDpil1M:scan1.D26PV 
+18IDpil1M:scan1.D27PV 
+18IDpil1M:scan1.D28PV 
+18IDpil1M:scan1.D29PV 
+18IDpil1M:scan1.D30PV 
+18IDpil1M:scan1.D31PV 
+18IDpil1M:scan1.D32PV 
+18IDpil1M:scan1.D33PV 
+18IDpil1M:scan1.D34PV 
+18IDpil1M:scan1.D35PV 
+18IDpil1M:scan1.D36PV 
+18IDpil1M:scan1.D37PV 
+18IDpil1M:scan1.D38PV 
+18IDpil1M:scan1.D39PV 
+18IDpil1M:scan1.D40PV 
+18IDpil1M:scan1.D41PV 
+18IDpil1M:scan1.D42PV 
+18IDpil1M:scan1.D43PV 
+18IDpil1M:scan1.D44PV 
+18IDpil1M:scan1.D45PV 
+18IDpil1M:scan1.D46PV 
+18IDpil1M:scan1.D47PV 
+18IDpil1M:scan1.D48PV 
+18IDpil1M:scan1.D49PV 
+18IDpil1M:scan1.D50PV 
+18IDpil1M:scan1.D51PV 
+18IDpil1M:scan1.D52PV 
+18IDpil1M:scan1.D53PV 
+18IDpil1M:scan1.D54PV 
+18IDpil1M:scan1.D55PV 
+18IDpil1M:scan1.D56PV 
+18IDpil1M:scan1.D57PV 
+18IDpil1M:scan1.D58PV 
+18IDpil1M:scan1.D59PV 
+18IDpil1M:scan1.D60PV 
+18IDpil1M:scan1.D61PV 
+18IDpil1M:scan1.D62PV 
+18IDpil1M:scan1.D63PV 
+18IDpil1M:scan1.D64PV 
+18IDpil1M:scan1.D65PV 
+18IDpil1M:scan1.D66PV 
+18IDpil1M:scan1.D67PV 
+18IDpil1M:scan1.D68PV 
+18IDpil1M:scan1.D69PV 
+18IDpil1M:scan1.D70PV 
+18IDpil1M:scan2.ATIME 0
+18IDpil1M:scan2.COPYTO 0
+18IDpil1M:scan2.AAWAIT 0
+18IDpil1M:scan2.FLNK 
+18IDpil1M:scan2.NPTS 10
+18IDpil1M:scan2.ACQT 0
+18IDpil1M:scan2.ACQM 0
+18IDpil1M:scan2.PASM 0
+18IDpil1M:scan2.BSPV 
+18IDpil1M:scan2.BSCD 1
+18IDpil1M:scan2.BSWAIT 0
+18IDpil1M:scan2.ASPV 
+18IDpil1M:scan2.ASCD 1
+18IDpil1M:scan2.ASWAIT 0
+18IDpil1M:scan2.T1PV 18IDpil1M:scan1.EXSC
+18IDpil1M:scan2.T1CD 1
+18IDpil1M:scan2.T2PV 
+18IDpil1M:scan2.T2CD 1
+18IDpil1M:scan2.T3PV 
+18IDpil1M:scan2.T3CD 1
+18IDpil1M:scan2.T4PV 
+18IDpil1M:scan2.T4CD 1
+18IDpil1M:scan2.P1PV 
+18IDpil1M:scan2.R1PV 
+18IDpil1M:scan2.P1SM 0
+18IDpil1M:scan2.P1SP 0
+18IDpil1M:scan2.P1EP 0
+18IDpil1M:scan2.P1AR 0
+18IDpil1M:scan2.P2PV 
+18IDpil1M:scan2.R2PV 
+18IDpil1M:scan2.P2SM 0
+18IDpil1M:scan2.P2SP 0
+18IDpil1M:scan2.P2EP 0
+18IDpil1M:scan2.P2AR 0
+18IDpil1M:scan2.P3PV 
+18IDpil1M:scan2.R3PV 
+18IDpil1M:scan2.P3SM 0
+18IDpil1M:scan2.P3SP 0
+18IDpil1M:scan2.P3EP 0
+18IDpil1M:scan2.P3AR 0
+18IDpil1M:scan2.P4PV 
+18IDpil1M:scan2.R4PV 
+18IDpil1M:scan2.P4SM 0
+18IDpil1M:scan2.P4SP 0
+18IDpil1M:scan2.P4EP 0
+18IDpil1M:scan2.P4AR 0
+18IDpil1M:scan2.PDLY 0
+18IDpil1M:scan2.DDLY 0
+18IDpil1M:scan2.REFD 1
+18IDpil1M:scan2.AWCT 0
+18IDpil1M:scan2.A1PV 
+18IDpil1M:scan2.A1CD 1
+18IDpil1M:scan2.D01PV 
+18IDpil1M:scan2.D02PV 
+18IDpil1M:scan2.D03PV 
+18IDpil1M:scan2.D04PV 
+18IDpil1M:scan2.D05PV 
+18IDpil1M:scan2.D06PV 
+18IDpil1M:scan2.D07PV 
+18IDpil1M:scan2.D08PV 
+18IDpil1M:scan2.D09PV 
+18IDpil1M:scan2.D10PV 
+18IDpil1M:scan2.D11PV 
+18IDpil1M:scan2.D12PV 
+18IDpil1M:scan2.D13PV 
+18IDpil1M:scan2.D14PV 
+18IDpil1M:scan2.D15PV 
+18IDpil1M:scan2.D16PV 
+18IDpil1M:scan2.D17PV 
+18IDpil1M:scan2.D18PV 
+18IDpil1M:scan2.D19PV 
+18IDpil1M:scan2.D20PV 
+18IDpil1M:scan2.D21PV 
+18IDpil1M:scan2.D22PV 
+18IDpil1M:scan2.D23PV 
+18IDpil1M:scan2.D24PV 
+18IDpil1M:scan2.D25PV 
+18IDpil1M:scan2.D26PV 
+18IDpil1M:scan2.D27PV 
+18IDpil1M:scan2.D28PV 
+18IDpil1M:scan2.D29PV 
+18IDpil1M:scan2.D30PV 
+18IDpil1M:scan2.D31PV 
+18IDpil1M:scan2.D32PV 
+18IDpil1M:scan2.D33PV 
+18IDpil1M:scan2.D34PV 
+18IDpil1M:scan2.D35PV 
+18IDpil1M:scan2.D36PV 
+18IDpil1M:scan2.D37PV 
+18IDpil1M:scan2.D38PV 
+18IDpil1M:scan2.D39PV 
+18IDpil1M:scan2.D40PV 
+18IDpil1M:scan2.D41PV 
+18IDpil1M:scan2.D42PV 
+18IDpil1M:scan2.D43PV 
+18IDpil1M:scan2.D44PV 
+18IDpil1M:scan2.D45PV 
+18IDpil1M:scan2.D46PV 
+18IDpil1M:scan2.D47PV 
+18IDpil1M:scan2.D48PV 
+18IDpil1M:scan2.D49PV 
+18IDpil1M:scan2.D50PV 
+18IDpil1M:scan2.D51PV 
+18IDpil1M:scan2.D52PV 
+18IDpil1M:scan2.D53PV 
+18IDpil1M:scan2.D54PV 
+18IDpil1M:scan2.D55PV 
+18IDpil1M:scan2.D56PV 
+18IDpil1M:scan2.D57PV 
+18IDpil1M:scan2.D58PV 
+18IDpil1M:scan2.D59PV 
+18IDpil1M:scan2.D60PV 
+18IDpil1M:scan2.D61PV 
+18IDpil1M:scan2.D62PV 
+18IDpil1M:scan2.D63PV 
+18IDpil1M:scan2.D64PV 
+18IDpil1M:scan2.D65PV 
+18IDpil1M:scan2.D66PV 
+18IDpil1M:scan2.D67PV 
+18IDpil1M:scan2.D68PV 
+18IDpil1M:scan2.D69PV 
+18IDpil1M:scan2.D70PV 
+18IDpil1M:scan3.ATIME 0
+18IDpil1M:scan3.COPYTO 0
+18IDpil1M:scan3.AAWAIT 0
+18IDpil1M:scan3.FLNK 
+18IDpil1M:scan3.NPTS 10
+18IDpil1M:scan3.ACQT 0
+18IDpil1M:scan3.ACQM 0
+18IDpil1M:scan3.PASM 0
+18IDpil1M:scan3.BSPV 
+18IDpil1M:scan3.BSCD 1
+18IDpil1M:scan3.BSWAIT 0
+18IDpil1M:scan3.ASPV 
+18IDpil1M:scan3.ASCD 1
+18IDpil1M:scan3.ASWAIT 0
+18IDpil1M:scan3.T1PV 18IDpil1M:scan2.EXSC
+18IDpil1M:scan3.T1CD 1
+18IDpil1M:scan3.T2PV 
+18IDpil1M:scan3.T2CD 1
+18IDpil1M:scan3.T3PV 
+18IDpil1M:scan3.T3CD 1
+18IDpil1M:scan3.T4PV 
+18IDpil1M:scan3.T4CD 1
+18IDpil1M:scan3.P1PV 
+18IDpil1M:scan3.R1PV 
+18IDpil1M:scan3.P1SM 0
+18IDpil1M:scan3.P1SP 0
+18IDpil1M:scan3.P1EP 0
+18IDpil1M:scan3.P1AR 0
+18IDpil1M:scan3.P2PV 
+18IDpil1M:scan3.R2PV 
+18IDpil1M:scan3.P2SM 0
+18IDpil1M:scan3.P2SP 0
+18IDpil1M:scan3.P2EP 0
+18IDpil1M:scan3.P2AR 0
+18IDpil1M:scan3.P3PV 
+18IDpil1M:scan3.R3PV 
+18IDpil1M:scan3.P3SM 0
+18IDpil1M:scan3.P3SP 0
+18IDpil1M:scan3.P3EP 0
+18IDpil1M:scan3.P3AR 0
+18IDpil1M:scan3.P4PV 
+18IDpil1M:scan3.R4PV 
+18IDpil1M:scan3.P4SM 0
+18IDpil1M:scan3.P4SP 0
+18IDpil1M:scan3.P4EP 0
+18IDpil1M:scan3.P4AR 0
+18IDpil1M:scan3.PDLY 0
+18IDpil1M:scan3.DDLY 0
+18IDpil1M:scan3.REFD 1
+18IDpil1M:scan3.AWCT 0
+18IDpil1M:scan3.A1PV 
+18IDpil1M:scan3.A1CD 1
+18IDpil1M:scan3.D01PV 
+18IDpil1M:scan3.D02PV 
+18IDpil1M:scan3.D03PV 
+18IDpil1M:scan3.D04PV 
+18IDpil1M:scan3.D05PV 
+18IDpil1M:scan3.D06PV 
+18IDpil1M:scan3.D07PV 
+18IDpil1M:scan3.D08PV 
+18IDpil1M:scan3.D09PV 
+18IDpil1M:scan3.D10PV 
+18IDpil1M:scan3.D11PV 
+18IDpil1M:scan3.D12PV 
+18IDpil1M:scan3.D13PV 
+18IDpil1M:scan3.D14PV 
+18IDpil1M:scan3.D15PV 
+18IDpil1M:scan3.D16PV 
+18IDpil1M:scan3.D17PV 
+18IDpil1M:scan3.D18PV 
+18IDpil1M:scan3.D19PV 
+18IDpil1M:scan3.D20PV 
+18IDpil1M:scan3.D21PV 
+18IDpil1M:scan3.D22PV 
+18IDpil1M:scan3.D23PV 
+18IDpil1M:scan3.D24PV 
+18IDpil1M:scan3.D25PV 
+18IDpil1M:scan3.D26PV 
+18IDpil1M:scan3.D27PV 
+18IDpil1M:scan3.D28PV 
+18IDpil1M:scan3.D29PV 
+18IDpil1M:scan3.D30PV 
+18IDpil1M:scan3.D31PV 
+18IDpil1M:scan3.D32PV 
+18IDpil1M:scan3.D33PV 
+18IDpil1M:scan3.D34PV 
+18IDpil1M:scan3.D35PV 
+18IDpil1M:scan3.D36PV 
+18IDpil1M:scan3.D37PV 
+18IDpil1M:scan3.D38PV 
+18IDpil1M:scan3.D39PV 
+18IDpil1M:scan3.D40PV 
+18IDpil1M:scan3.D41PV 
+18IDpil1M:scan3.D42PV 
+18IDpil1M:scan3.D43PV 
+18IDpil1M:scan3.D44PV 
+18IDpil1M:scan3.D45PV 
+18IDpil1M:scan3.D46PV 
+18IDpil1M:scan3.D47PV 
+18IDpil1M:scan3.D48PV 
+18IDpil1M:scan3.D49PV 
+18IDpil1M:scan3.D50PV 
+18IDpil1M:scan3.D51PV 
+18IDpil1M:scan3.D52PV 
+18IDpil1M:scan3.D53PV 
+18IDpil1M:scan3.D54PV 
+18IDpil1M:scan3.D55PV 
+18IDpil1M:scan3.D56PV 
+18IDpil1M:scan3.D57PV 
+18IDpil1M:scan3.D58PV 
+18IDpil1M:scan3.D59PV 
+18IDpil1M:scan3.D60PV 
+18IDpil1M:scan3.D61PV 
+18IDpil1M:scan3.D62PV 
+18IDpil1M:scan3.D63PV 
+18IDpil1M:scan3.D64PV 
+18IDpil1M:scan3.D65PV 
+18IDpil1M:scan3.D66PV 
+18IDpil1M:scan3.D67PV 
+18IDpil1M:scan3.D68PV 
+18IDpil1M:scan3.D69PV 
+18IDpil1M:scan3.D70PV 
+18IDpil1M:scan4.ATIME 0
+18IDpil1M:scan4.COPYTO 0
+18IDpil1M:scan4.AAWAIT 0
+18IDpil1M:scan4.FLNK 
+18IDpil1M:scan4.NPTS 10
+18IDpil1M:scan4.ACQT 0
+18IDpil1M:scan4.ACQM 0
+18IDpil1M:scan4.PASM 0
+18IDpil1M:scan4.BSPV 
+18IDpil1M:scan4.BSCD 1
+18IDpil1M:scan4.BSWAIT 0
+18IDpil1M:scan4.ASPV 
+18IDpil1M:scan4.ASCD 1
+18IDpil1M:scan4.ASWAIT 0
+18IDpil1M:scan4.T1PV 18IDpil1M:scan3.EXSC
+18IDpil1M:scan4.T1CD 1
+18IDpil1M:scan4.T2PV 
+18IDpil1M:scan4.T2CD 1
+18IDpil1M:scan4.T3PV 
+18IDpil1M:scan4.T3CD 1
+18IDpil1M:scan4.T4PV 
+18IDpil1M:scan4.T4CD 1
+18IDpil1M:scan4.P1PV 
+18IDpil1M:scan4.R1PV 
+18IDpil1M:scan4.P1SM 0
+18IDpil1M:scan4.P1SP 0
+18IDpil1M:scan4.P1EP 0
+18IDpil1M:scan4.P1AR 0
+18IDpil1M:scan4.P2PV 
+18IDpil1M:scan4.R2PV 
+18IDpil1M:scan4.P2SM 0
+18IDpil1M:scan4.P2SP 0
+18IDpil1M:scan4.P2EP 0
+18IDpil1M:scan4.P2AR 0
+18IDpil1M:scan4.P3PV 
+18IDpil1M:scan4.R3PV 
+18IDpil1M:scan4.P3SM 0
+18IDpil1M:scan4.P3SP 0
+18IDpil1M:scan4.P3EP 0
+18IDpil1M:scan4.P3AR 0
+18IDpil1M:scan4.P4PV 
+18IDpil1M:scan4.R4PV 
+18IDpil1M:scan4.P4SM 0
+18IDpil1M:scan4.P4SP 0
+18IDpil1M:scan4.P4EP 0
+18IDpil1M:scan4.P4AR 0
+18IDpil1M:scan4.PDLY 0
+18IDpil1M:scan4.DDLY 0
+18IDpil1M:scan4.REFD 1
+18IDpil1M:scan4.AWCT 0
+18IDpil1M:scan4.A1PV 
+18IDpil1M:scan4.A1CD 1
+18IDpil1M:scan4.D01PV 
+18IDpil1M:scan4.D02PV 
+18IDpil1M:scan4.D03PV 
+18IDpil1M:scan4.D04PV 
+18IDpil1M:scan4.D05PV 
+18IDpil1M:scan4.D06PV 
+18IDpil1M:scan4.D07PV 
+18IDpil1M:scan4.D08PV 
+18IDpil1M:scan4.D09PV 
+18IDpil1M:scan4.D10PV 
+18IDpil1M:scan4.D11PV 
+18IDpil1M:scan4.D12PV 
+18IDpil1M:scan4.D13PV 
+18IDpil1M:scan4.D14PV 
+18IDpil1M:scan4.D15PV 
+18IDpil1M:scan4.D16PV 
+18IDpil1M:scan4.D17PV 
+18IDpil1M:scan4.D18PV 
+18IDpil1M:scan4.D19PV 
+18IDpil1M:scan4.D20PV 
+18IDpil1M:scan4.D21PV 
+18IDpil1M:scan4.D22PV 
+18IDpil1M:scan4.D23PV 
+18IDpil1M:scan4.D24PV 
+18IDpil1M:scan4.D25PV 
+18IDpil1M:scan4.D26PV 
+18IDpil1M:scan4.D27PV 
+18IDpil1M:scan4.D28PV 
+18IDpil1M:scan4.D29PV 
+18IDpil1M:scan4.D30PV 
+18IDpil1M:scan4.D31PV 
+18IDpil1M:scan4.D32PV 
+18IDpil1M:scan4.D33PV 
+18IDpil1M:scan4.D34PV 
+18IDpil1M:scan4.D35PV 
+18IDpil1M:scan4.D36PV 
+18IDpil1M:scan4.D37PV 
+18IDpil1M:scan4.D38PV 
+18IDpil1M:scan4.D39PV 
+18IDpil1M:scan4.D40PV 
+18IDpil1M:scan4.D41PV 
+18IDpil1M:scan4.D42PV 
+18IDpil1M:scan4.D43PV 
+18IDpil1M:scan4.D44PV 
+18IDpil1M:scan4.D45PV 
+18IDpil1M:scan4.D46PV 
+18IDpil1M:scan4.D47PV 
+18IDpil1M:scan4.D48PV 
+18IDpil1M:scan4.D49PV 
+18IDpil1M:scan4.D50PV 
+18IDpil1M:scan4.D51PV 
+18IDpil1M:scan4.D52PV 
+18IDpil1M:scan4.D53PV 
+18IDpil1M:scan4.D54PV 
+18IDpil1M:scan4.D55PV 
+18IDpil1M:scan4.D56PV 
+18IDpil1M:scan4.D57PV 
+18IDpil1M:scan4.D58PV 
+18IDpil1M:scan4.D59PV 
+18IDpil1M:scan4.D60PV 
+18IDpil1M:scan4.D61PV 
+18IDpil1M:scan4.D62PV 
+18IDpil1M:scan4.D63PV 
+18IDpil1M:scan4.D64PV 
+18IDpil1M:scan4.D65PV 
+18IDpil1M:scan4.D66PV 
+18IDpil1M:scan4.D67PV 
+18IDpil1M:scan4.D68PV 
+18IDpil1M:scan4.D69PV 
+18IDpil1M:scan4.D70PV 
+18IDpil1M:scanH.ATIME 0
+18IDpil1M:scanH.COPYTO 0
+18IDpil1M:scanH.AAWAIT 0
+18IDpil1M:scanH.FLNK 
+18IDpil1M:scanH.NPTS 10
+18IDpil1M:scanH.ACQT 1
+18IDpil1M:scanH.ACQM 0
+18IDpil1M:scanH.PASM 0
+18IDpil1M:scanH.BSPV 
+18IDpil1M:scanH.BSCD 1
+18IDpil1M:scanH.BSWAIT 0
+18IDpil1M:scanH.ASPV 
+18IDpil1M:scanH.ASCD 1
+18IDpil1M:scanH.ASWAIT 0
+18IDpil1M:scanH.T1PV 
+18IDpil1M:scanH.T1CD 1
+18IDpil1M:scanH.T2PV 
+18IDpil1M:scanH.T2CD 1
+18IDpil1M:scanH.T3PV 
+18IDpil1M:scanH.T3CD 1
+18IDpil1M:scanH.T4PV 
+18IDpil1M:scanH.T4CD 1
+18IDpil1M:scanH.P1PV 
+18IDpil1M:scanH.R1PV 
+18IDpil1M:scanH.P1SM 0
+18IDpil1M:scanH.P1SP 0
+18IDpil1M:scanH.P1EP 0
+18IDpil1M:scanH.P1AR 0
+18IDpil1M:scanH.P2PV 
+18IDpil1M:scanH.R2PV 
+18IDpil1M:scanH.P2SM 0
+18IDpil1M:scanH.P2SP 0
+18IDpil1M:scanH.P2EP 0
+18IDpil1M:scanH.P2AR 0
+18IDpil1M:scanH.P3PV 
+18IDpil1M:scanH.R3PV 
+18IDpil1M:scanH.P3SM 0
+18IDpil1M:scanH.P3SP 0
+18IDpil1M:scanH.P3EP 0
+18IDpil1M:scanH.P3AR 0
+18IDpil1M:scanH.P4PV 
+18IDpil1M:scanH.R4PV 
+18IDpil1M:scanH.P4SM 0
+18IDpil1M:scanH.P4SP 0
+18IDpil1M:scanH.P4EP 0
+18IDpil1M:scanH.P4AR 0
+18IDpil1M:scanH.PDLY 0
+18IDpil1M:scanH.DDLY 0
+18IDpil1M:scanH.REFD 1
+18IDpil1M:scanH.AWCT 0
+18IDpil1M:scanH.A1PV 
+18IDpil1M:scanH.A1CD 1
+18IDpil1M:scanH.D01PV 
+18IDpil1M:scanH.D02PV 
+18IDpil1M:scanH.D03PV 
+18IDpil1M:scanH.D04PV 
+18IDpil1M:scanH.D05PV 
+18IDpil1M:scanH.D06PV 
+18IDpil1M:scanH.D07PV 
+18IDpil1M:scanH.D08PV 
+18IDpil1M:scanH.D09PV 
+18IDpil1M:scanH.D10PV 
+18IDpil1M:scanH.D11PV 
+18IDpil1M:scanH.D12PV 
+18IDpil1M:scanH.D13PV 
+18IDpil1M:scanH.D14PV 
+18IDpil1M:scanH.D15PV 
+18IDpil1M:scanH.D16PV 
+18IDpil1M:scanH.D17PV 
+18IDpil1M:scanH.D18PV 
+18IDpil1M:scanH.D19PV 
+18IDpil1M:scanH.D20PV 
+18IDpil1M:scanH.D21PV 
+18IDpil1M:scanH.D22PV 
+18IDpil1M:scanH.D23PV 
+18IDpil1M:scanH.D24PV 
+18IDpil1M:scanH.D25PV 
+18IDpil1M:scanH.D26PV 
+18IDpil1M:scanH.D27PV 
+18IDpil1M:scanH.D28PV 
+18IDpil1M:scanH.D29PV 
+18IDpil1M:scanH.D30PV 
+18IDpil1M:scanH.D31PV 
+18IDpil1M:scanH.D32PV 
+18IDpil1M:scanH.D33PV 
+18IDpil1M:scanH.D34PV 
+18IDpil1M:scanH.D35PV 
+18IDpil1M:scanH.D36PV 
+18IDpil1M:scanH.D37PV 
+18IDpil1M:scanH.D38PV 
+18IDpil1M:scanH.D39PV 
+18IDpil1M:scanH.D40PV 
+18IDpil1M:scanH.D41PV 
+18IDpil1M:scanH.D42PV 
+18IDpil1M:scanH.D43PV 
+18IDpil1M:scanH.D44PV 
+18IDpil1M:scanH.D45PV 
+18IDpil1M:scanH.D46PV 
+18IDpil1M:scanH.D47PV 
+18IDpil1M:scanH.D48PV 
+18IDpil1M:scanH.D49PV 
+18IDpil1M:scanH.D50PV 
+18IDpil1M:scanH.D51PV 
+18IDpil1M:scanH.D52PV 
+18IDpil1M:scanH.D53PV 
+18IDpil1M:scanH.D54PV 
+18IDpil1M:scanH.D55PV 
+18IDpil1M:scanH.D56PV 
+18IDpil1M:scanH.D57PV 
+18IDpil1M:scanH.D58PV 
+18IDpil1M:scanH.D59PV 
+18IDpil1M:scanH.D60PV 
+18IDpil1M:scanH.D61PV 
+18IDpil1M:scanH.D62PV 
+18IDpil1M:scanH.D63PV 
+18IDpil1M:scanH.D64PV 
+18IDpil1M:scanH.D65PV 
+18IDpil1M:scanH.D66PV 
+18IDpil1M:scanH.D67PV 
+18IDpil1M:scanH.D68PV 
+18IDpil1M:scanH.D69PV 
+18IDpil1M:scanH.D70PV 
+18IDpil1M:scan1.ATIME 0
+18IDpil1M:scan1.COPYTO 0
+18IDpil1M:scan1.AAWAIT 0
+18IDpil1M:scan1.FLNK 
+18IDpil1M:scan1.NPTS 10
+18IDpil1M:scan1.ACQT 0
+18IDpil1M:scan1.ACQM 0
+18IDpil1M:scan1.PASM 0
+18IDpil1M:scan1.BSPV 
+18IDpil1M:scan1.BSCD 1
+18IDpil1M:scan1.BSWAIT 0
+18IDpil1M:scan1.ASPV 
+18IDpil1M:scan1.ASCD 1
+18IDpil1M:scan1.ASWAIT 0
+18IDpil1M:scan1.T1PV 
+18IDpil1M:scan1.T1CD 1
+18IDpil1M:scan1.T2PV 
+18IDpil1M:scan1.T2CD 1
+18IDpil1M:scan1.T3PV 
+18IDpil1M:scan1.T3CD 1
+18IDpil1M:scan1.T4PV 
+18IDpil1M:scan1.T4CD 1
+18IDpil1M:scan1.P1PV 
+18IDpil1M:scan1.R1PV 
+18IDpil1M:scan1.P1SM 0
+18IDpil1M:scan1.P1SP 0
+18IDpil1M:scan1.P1EP 0
+18IDpil1M:scan1.P1AR 0
+18IDpil1M:scan1.P2PV 
+18IDpil1M:scan1.R2PV 
+18IDpil1M:scan1.P2SM 0
+18IDpil1M:scan1.P2SP 0
+18IDpil1M:scan1.P2EP 0
+18IDpil1M:scan1.P2AR 0
+18IDpil1M:scan1.P3PV 
+18IDpil1M:scan1.R3PV 
+18IDpil1M:scan1.P3SM 0
+18IDpil1M:scan1.P3SP 0
+18IDpil1M:scan1.P3EP 0
+18IDpil1M:scan1.P3AR 0
+18IDpil1M:scan1.P4PV 
+18IDpil1M:scan1.R4PV 
+18IDpil1M:scan1.P4SM 0
+18IDpil1M:scan1.P4SP 0
+18IDpil1M:scan1.P4EP 0
+18IDpil1M:scan1.P4AR 0
+18IDpil1M:scan1.PDLY 0
+18IDpil1M:scan1.DDLY 0
+18IDpil1M:scan1.REFD 1
+18IDpil1M:scan1.AWCT 0
+18IDpil1M:scan1.A1PV 
+18IDpil1M:scan1.A1CD 1
+18IDpil1M:scan1.D01PV 
+18IDpil1M:scan1.D02PV 
+18IDpil1M:scan1.D03PV 
+18IDpil1M:scan1.D04PV 
+18IDpil1M:scan1.D05PV 
+18IDpil1M:scan1.D06PV 
+18IDpil1M:scan1.D07PV 
+18IDpil1M:scan1.D08PV 
+18IDpil1M:scan1.D09PV 
+18IDpil1M:scan1.D10PV 
+18IDpil1M:scan1.D11PV 
+18IDpil1M:scan1.D12PV 
+18IDpil1M:scan1.D13PV 
+18IDpil1M:scan1.D14PV 
+18IDpil1M:scan1.D15PV 
+18IDpil1M:scan1.D16PV 
+18IDpil1M:scan1.D17PV 
+18IDpil1M:scan1.D18PV 
+18IDpil1M:scan1.D19PV 
+18IDpil1M:scan1.D20PV 
+18IDpil1M:scan1.D21PV 
+18IDpil1M:scan1.D22PV 
+18IDpil1M:scan1.D23PV 
+18IDpil1M:scan1.D24PV 
+18IDpil1M:scan1.D25PV 
+18IDpil1M:scan1.D26PV 
+18IDpil1M:scan1.D27PV 
+18IDpil1M:scan1.D28PV 
+18IDpil1M:scan1.D29PV 
+18IDpil1M:scan1.D30PV 
+18IDpil1M:scan1.D31PV 
+18IDpil1M:scan1.D32PV 
+18IDpil1M:scan1.D33PV 
+18IDpil1M:scan1.D34PV 
+18IDpil1M:scan1.D35PV 
+18IDpil1M:scan1.D36PV 
+18IDpil1M:scan1.D37PV 
+18IDpil1M:scan1.D38PV 
+18IDpil1M:scan1.D39PV 
+18IDpil1M:scan1.D40PV 
+18IDpil1M:scan1.D41PV 
+18IDpil1M:scan1.D42PV 
+18IDpil1M:scan1.D43PV 
+18IDpil1M:scan1.D44PV 
+18IDpil1M:scan1.D45PV 
+18IDpil1M:scan1.D46PV 
+18IDpil1M:scan1.D47PV 
+18IDpil1M:scan1.D48PV 
+18IDpil1M:scan1.D49PV 
+18IDpil1M:scan1.D50PV 
+18IDpil1M:scan1.D51PV 
+18IDpil1M:scan1.D52PV 
+18IDpil1M:scan1.D53PV 
+18IDpil1M:scan1.D54PV 
+18IDpil1M:scan1.D55PV 
+18IDpil1M:scan1.D56PV 
+18IDpil1M:scan1.D57PV 
+18IDpil1M:scan1.D58PV 
+18IDpil1M:scan1.D59PV 
+18IDpil1M:scan1.D60PV 
+18IDpil1M:scan1.D61PV 
+18IDpil1M:scan1.D62PV 
+18IDpil1M:scan1.D63PV 
+18IDpil1M:scan1.D64PV 
+18IDpil1M:scan1.D65PV 
+18IDpil1M:scan1.D66PV 
+18IDpil1M:scan1.D67PV 
+18IDpil1M:scan1.D68PV 
+18IDpil1M:scan1.D69PV 
+18IDpil1M:scan1.D70PV 
+18IDpil1M:scan2.ATIME 0
+18IDpil1M:scan2.COPYTO 0
+18IDpil1M:scan2.AAWAIT 0
+18IDpil1M:scan2.FLNK 
+18IDpil1M:scan2.NPTS 10
+18IDpil1M:scan2.ACQT 0
+18IDpil1M:scan2.ACQM 0
+18IDpil1M:scan2.PASM 0
+18IDpil1M:scan2.BSPV 
+18IDpil1M:scan2.BSCD 1
+18IDpil1M:scan2.BSWAIT 0
+18IDpil1M:scan2.ASPV 
+18IDpil1M:scan2.ASCD 1
+18IDpil1M:scan2.ASWAIT 0
+18IDpil1M:scan2.T1PV 18IDpil1M:scan1.EXSC
+18IDpil1M:scan2.T1CD 1
+18IDpil1M:scan2.T2PV 
+18IDpil1M:scan2.T2CD 1
+18IDpil1M:scan2.T3PV 
+18IDpil1M:scan2.T3CD 1
+18IDpil1M:scan2.T4PV 
+18IDpil1M:scan2.T4CD 1
+18IDpil1M:scan2.P1PV 
+18IDpil1M:scan2.R1PV 
+18IDpil1M:scan2.P1SM 0
+18IDpil1M:scan2.P1SP 0
+18IDpil1M:scan2.P1EP 0
+18IDpil1M:scan2.P1AR 0
+18IDpil1M:scan2.P2PV 
+18IDpil1M:scan2.R2PV 
+18IDpil1M:scan2.P2SM 0
+18IDpil1M:scan2.P2SP 0
+18IDpil1M:scan2.P2EP 0
+18IDpil1M:scan2.P2AR 0
+18IDpil1M:scan2.P3PV 
+18IDpil1M:scan2.R3PV 
+18IDpil1M:scan2.P3SM 0
+18IDpil1M:scan2.P3SP 0
+18IDpil1M:scan2.P3EP 0
+18IDpil1M:scan2.P3AR 0
+18IDpil1M:scan2.P4PV 
+18IDpil1M:scan2.R4PV 
+18IDpil1M:scan2.P4SM 0
+18IDpil1M:scan2.P4SP 0
+18IDpil1M:scan2.P4EP 0
+18IDpil1M:scan2.P4AR 0
+18IDpil1M:scan2.PDLY 0
+18IDpil1M:scan2.DDLY 0
+18IDpil1M:scan2.REFD 1
+18IDpil1M:scan2.AWCT 0
+18IDpil1M:scan2.A1PV 
+18IDpil1M:scan2.A1CD 1
+18IDpil1M:scan2.D01PV 
+18IDpil1M:scan2.D02PV 
+18IDpil1M:scan2.D03PV 
+18IDpil1M:scan2.D04PV 
+18IDpil1M:scan2.D05PV 
+18IDpil1M:scan2.D06PV 
+18IDpil1M:scan2.D07PV 
+18IDpil1M:scan2.D08PV 
+18IDpil1M:scan2.D09PV 
+18IDpil1M:scan2.D10PV 
+18IDpil1M:scan2.D11PV 
+18IDpil1M:scan2.D12PV 
+18IDpil1M:scan2.D13PV 
+18IDpil1M:scan2.D14PV 
+18IDpil1M:scan2.D15PV 
+18IDpil1M:scan2.D16PV 
+18IDpil1M:scan2.D17PV 
+18IDpil1M:scan2.D18PV 
+18IDpil1M:scan2.D19PV 
+18IDpil1M:scan2.D20PV 
+18IDpil1M:scan2.D21PV 
+18IDpil1M:scan2.D22PV 
+18IDpil1M:scan2.D23PV 
+18IDpil1M:scan2.D24PV 
+18IDpil1M:scan2.D25PV 
+18IDpil1M:scan2.D26PV 
+18IDpil1M:scan2.D27PV 
+18IDpil1M:scan2.D28PV 
+18IDpil1M:scan2.D29PV 
+18IDpil1M:scan2.D30PV 
+18IDpil1M:scan2.D31PV 
+18IDpil1M:scan2.D32PV 
+18IDpil1M:scan2.D33PV 
+18IDpil1M:scan2.D34PV 
+18IDpil1M:scan2.D35PV 
+18IDpil1M:scan2.D36PV 
+18IDpil1M:scan2.D37PV 
+18IDpil1M:scan2.D38PV 
+18IDpil1M:scan2.D39PV 
+18IDpil1M:scan2.D40PV 
+18IDpil1M:scan2.D41PV 
+18IDpil1M:scan2.D42PV 
+18IDpil1M:scan2.D43PV 
+18IDpil1M:scan2.D44PV 
+18IDpil1M:scan2.D45PV 
+18IDpil1M:scan2.D46PV 
+18IDpil1M:scan2.D47PV 
+18IDpil1M:scan2.D48PV 
+18IDpil1M:scan2.D49PV 
+18IDpil1M:scan2.D50PV 
+18IDpil1M:scan2.D51PV 
+18IDpil1M:scan2.D52PV 
+18IDpil1M:scan2.D53PV 
+18IDpil1M:scan2.D54PV 
+18IDpil1M:scan2.D55PV 
+18IDpil1M:scan2.D56PV 
+18IDpil1M:scan2.D57PV 
+18IDpil1M:scan2.D58PV 
+18IDpil1M:scan2.D59PV 
+18IDpil1M:scan2.D60PV 
+18IDpil1M:scan2.D61PV 
+18IDpil1M:scan2.D62PV 
+18IDpil1M:scan2.D63PV 
+18IDpil1M:scan2.D64PV 
+18IDpil1M:scan2.D65PV 
+18IDpil1M:scan2.D66PV 
+18IDpil1M:scan2.D67PV 
+18IDpil1M:scan2.D68PV 
+18IDpil1M:scan2.D69PV 
+18IDpil1M:scan2.D70PV 
+18IDpil1M:scan3.ATIME 0
+18IDpil1M:scan3.COPYTO 0
+18IDpil1M:scan3.AAWAIT 0
+18IDpil1M:scan3.FLNK 
+18IDpil1M:scan3.NPTS 10
+18IDpil1M:scan3.ACQT 0
+18IDpil1M:scan3.ACQM 0
+18IDpil1M:scan3.PASM 0
+18IDpil1M:scan3.BSPV 
+18IDpil1M:scan3.BSCD 1
+18IDpil1M:scan3.BSWAIT 0
+18IDpil1M:scan3.ASPV 
+18IDpil1M:scan3.ASCD 1
+18IDpil1M:scan3.ASWAIT 0
+18IDpil1M:scan3.T1PV 18IDpil1M:scan2.EXSC
+18IDpil1M:scan3.T1CD 1
+18IDpil1M:scan3.T2PV 
+18IDpil1M:scan3.T2CD 1
+18IDpil1M:scan3.T3PV 
+18IDpil1M:scan3.T3CD 1
+18IDpil1M:scan3.T4PV 
+18IDpil1M:scan3.T4CD 1
+18IDpil1M:scan3.P1PV 
+18IDpil1M:scan3.R1PV 
+18IDpil1M:scan3.P1SM 0
+18IDpil1M:scan3.P1SP 0
+18IDpil1M:scan3.P1EP 0
+18IDpil1M:scan3.P1AR 0
+18IDpil1M:scan3.P2PV 
+18IDpil1M:scan3.R2PV 
+18IDpil1M:scan3.P2SM 0
+18IDpil1M:scan3.P2SP 0
+18IDpil1M:scan3.P2EP 0
+18IDpil1M:scan3.P2AR 0
+18IDpil1M:scan3.P3PV 
+18IDpil1M:scan3.R3PV 
+18IDpil1M:scan3.P3SM 0
+18IDpil1M:scan3.P3SP 0
+18IDpil1M:scan3.P3EP 0
+18IDpil1M:scan3.P3AR 0
+18IDpil1M:scan3.P4PV 
+18IDpil1M:scan3.R4PV 
+18IDpil1M:scan3.P4SM 0
+18IDpil1M:scan3.P4SP 0
+18IDpil1M:scan3.P4EP 0
+18IDpil1M:scan3.P4AR 0
+18IDpil1M:scan3.PDLY 0
+18IDpil1M:scan3.DDLY 0
+18IDpil1M:scan3.REFD 1
+18IDpil1M:scan3.AWCT 0
+18IDpil1M:scan3.A1PV 
+18IDpil1M:scan3.A1CD 1
+18IDpil1M:scan3.D01PV 
+18IDpil1M:scan3.D02PV 
+18IDpil1M:scan3.D03PV 
+18IDpil1M:scan3.D04PV 
+18IDpil1M:scan3.D05PV 
+18IDpil1M:scan3.D06PV 
+18IDpil1M:scan3.D07PV 
+18IDpil1M:scan3.D08PV 
+18IDpil1M:scan3.D09PV 
+18IDpil1M:scan3.D10PV 
+18IDpil1M:scan3.D11PV 
+18IDpil1M:scan3.D12PV 
+18IDpil1M:scan3.D13PV 
+18IDpil1M:scan3.D14PV 
+18IDpil1M:scan3.D15PV 
+18IDpil1M:scan3.D16PV 
+18IDpil1M:scan3.D17PV 
+18IDpil1M:scan3.D18PV 
+18IDpil1M:scan3.D19PV 
+18IDpil1M:scan3.D20PV 
+18IDpil1M:scan3.D21PV 
+18IDpil1M:scan3.D22PV 
+18IDpil1M:scan3.D23PV 
+18IDpil1M:scan3.D24PV 
+18IDpil1M:scan3.D25PV 
+18IDpil1M:scan3.D26PV 
+18IDpil1M:scan3.D27PV 
+18IDpil1M:scan3.D28PV 
+18IDpil1M:scan3.D29PV 
+18IDpil1M:scan3.D30PV 
+18IDpil1M:scan3.D31PV 
+18IDpil1M:scan3.D32PV 
+18IDpil1M:scan3.D33PV 
+18IDpil1M:scan3.D34PV 
+18IDpil1M:scan3.D35PV 
+18IDpil1M:scan3.D36PV 
+18IDpil1M:scan3.D37PV 
+18IDpil1M:scan3.D38PV 
+18IDpil1M:scan3.D39PV 
+18IDpil1M:scan3.D40PV 
+18IDpil1M:scan3.D41PV 
+18IDpil1M:scan3.D42PV 
+18IDpil1M:scan3.D43PV 
+18IDpil1M:scan3.D44PV 
+18IDpil1M:scan3.D45PV 
+18IDpil1M:scan3.D46PV 
+18IDpil1M:scan3.D47PV 
+18IDpil1M:scan3.D48PV 
+18IDpil1M:scan3.D49PV 
+18IDpil1M:scan3.D50PV 
+18IDpil1M:scan3.D51PV 
+18IDpil1M:scan3.D52PV 
+18IDpil1M:scan3.D53PV 
+18IDpil1M:scan3.D54PV 
+18IDpil1M:scan3.D55PV 
+18IDpil1M:scan3.D56PV 
+18IDpil1M:scan3.D57PV 
+18IDpil1M:scan3.D58PV 
+18IDpil1M:scan3.D59PV 
+18IDpil1M:scan3.D60PV 
+18IDpil1M:scan3.D61PV 
+18IDpil1M:scan3.D62PV 
+18IDpil1M:scan3.D63PV 
+18IDpil1M:scan3.D64PV 
+18IDpil1M:scan3.D65PV 
+18IDpil1M:scan3.D66PV 
+18IDpil1M:scan3.D67PV 
+18IDpil1M:scan3.D68PV 
+18IDpil1M:scan3.D69PV 
+18IDpil1M:scan3.D70PV 
+18IDpil1M:scan4.ATIME 0
+18IDpil1M:scan4.COPYTO 0
+18IDpil1M:scan4.AAWAIT 0
+18IDpil1M:scan4.FLNK 
+18IDpil1M:scan4.NPTS 10
+18IDpil1M:scan4.ACQT 0
+18IDpil1M:scan4.ACQM 0
+18IDpil1M:scan4.PASM 0
+18IDpil1M:scan4.BSPV 
+18IDpil1M:scan4.BSCD 1
+18IDpil1M:scan4.BSWAIT 0
+18IDpil1M:scan4.ASPV 
+18IDpil1M:scan4.ASCD 1
+18IDpil1M:scan4.ASWAIT 0
+18IDpil1M:scan4.T1PV 18IDpil1M:scan3.EXSC
+18IDpil1M:scan4.T1CD 1
+18IDpil1M:scan4.T2PV 
+18IDpil1M:scan4.T2CD 1
+18IDpil1M:scan4.T3PV 
+18IDpil1M:scan4.T3CD 1
+18IDpil1M:scan4.T4PV 
+18IDpil1M:scan4.T4CD 1
+18IDpil1M:scan4.P1PV 
+18IDpil1M:scan4.R1PV 
+18IDpil1M:scan4.P1SM 0
+18IDpil1M:scan4.P1SP 0
+18IDpil1M:scan4.P1EP 0
+18IDpil1M:scan4.P1AR 0
+18IDpil1M:scan4.P2PV 
+18IDpil1M:scan4.R2PV 
+18IDpil1M:scan4.P2SM 0
+18IDpil1M:scan4.P2SP 0
+18IDpil1M:scan4.P2EP 0
+18IDpil1M:scan4.P2AR 0
+18IDpil1M:scan4.P3PV 
+18IDpil1M:scan4.R3PV 
+18IDpil1M:scan4.P3SM 0
+18IDpil1M:scan4.P3SP 0
+18IDpil1M:scan4.P3EP 0
+18IDpil1M:scan4.P3AR 0
+18IDpil1M:scan4.P4PV 
+18IDpil1M:scan4.R4PV 
+18IDpil1M:scan4.P4SM 0
+18IDpil1M:scan4.P4SP 0
+18IDpil1M:scan4.P4EP 0
+18IDpil1M:scan4.P4AR 0
+18IDpil1M:scan4.PDLY 0
+18IDpil1M:scan4.DDLY 0
+18IDpil1M:scan4.REFD 1
+18IDpil1M:scan4.AWCT 0
+18IDpil1M:scan4.A1PV 
+18IDpil1M:scan4.A1CD 1
+18IDpil1M:scan4.D01PV 
+18IDpil1M:scan4.D02PV 
+18IDpil1M:scan4.D03PV 
+18IDpil1M:scan4.D04PV 
+18IDpil1M:scan4.D05PV 
+18IDpil1M:scan4.D06PV 
+18IDpil1M:scan4.D07PV 
+18IDpil1M:scan4.D08PV 
+18IDpil1M:scan4.D09PV 
+18IDpil1M:scan4.D10PV 
+18IDpil1M:scan4.D11PV 
+18IDpil1M:scan4.D12PV 
+18IDpil1M:scan4.D13PV 
+18IDpil1M:scan4.D14PV 
+18IDpil1M:scan4.D15PV 
+18IDpil1M:scan4.D16PV 
+18IDpil1M:scan4.D17PV 
+18IDpil1M:scan4.D18PV 
+18IDpil1M:scan4.D19PV 
+18IDpil1M:scan4.D20PV 
+18IDpil1M:scan4.D21PV 
+18IDpil1M:scan4.D22PV 
+18IDpil1M:scan4.D23PV 
+18IDpil1M:scan4.D24PV 
+18IDpil1M:scan4.D25PV 
+18IDpil1M:scan4.D26PV 
+18IDpil1M:scan4.D27PV 
+18IDpil1M:scan4.D28PV 
+18IDpil1M:scan4.D29PV 
+18IDpil1M:scan4.D30PV 
+18IDpil1M:scan4.D31PV 
+18IDpil1M:scan4.D32PV 
+18IDpil1M:scan4.D33PV 
+18IDpil1M:scan4.D34PV 
+18IDpil1M:scan4.D35PV 
+18IDpil1M:scan4.D36PV 
+18IDpil1M:scan4.D37PV 
+18IDpil1M:scan4.D38PV 
+18IDpil1M:scan4.D39PV 
+18IDpil1M:scan4.D40PV 
+18IDpil1M:scan4.D41PV 
+18IDpil1M:scan4.D42PV 
+18IDpil1M:scan4.D43PV 
+18IDpil1M:scan4.D44PV 
+18IDpil1M:scan4.D45PV 
+18IDpil1M:scan4.D46PV 
+18IDpil1M:scan4.D47PV 
+18IDpil1M:scan4.D48PV 
+18IDpil1M:scan4.D49PV 
+18IDpil1M:scan4.D50PV 
+18IDpil1M:scan4.D51PV 
+18IDpil1M:scan4.D52PV 
+18IDpil1M:scan4.D53PV 
+18IDpil1M:scan4.D54PV 
+18IDpil1M:scan4.D55PV 
+18IDpil1M:scan4.D56PV 
+18IDpil1M:scan4.D57PV 
+18IDpil1M:scan4.D58PV 
+18IDpil1M:scan4.D59PV 
+18IDpil1M:scan4.D60PV 
+18IDpil1M:scan4.D61PV 
+18IDpil1M:scan4.D62PV 
+18IDpil1M:scan4.D63PV 
+18IDpil1M:scan4.D64PV 
+18IDpil1M:scan4.D65PV 
+18IDpil1M:scan4.D66PV 
+18IDpil1M:scan4.D67PV 
+18IDpil1M:scan4.D68PV 
+18IDpil1M:scan4.D69PV 
+18IDpil1M:scan4.D70PV 
+18IDpil1M:scanH.ATIME 0
+18IDpil1M:scanH.COPYTO 0
+18IDpil1M:scanH.AAWAIT 0
+18IDpil1M:scanH.FLNK 
+18IDpil1M:scanH.NPTS 10
+18IDpil1M:scanH.ACQT 1
+18IDpil1M:scanH.ACQM 0
+18IDpil1M:scanH.PASM 0
+18IDpil1M:scanH.BSPV 
+18IDpil1M:scanH.BSCD 1
+18IDpil1M:scanH.BSWAIT 0
+18IDpil1M:scanH.ASPV 
+18IDpil1M:scanH.ASCD 1
+18IDpil1M:scanH.ASWAIT 0
+18IDpil1M:scanH.T1PV 
+18IDpil1M:scanH.T1CD 1
+18IDpil1M:scanH.T2PV 
+18IDpil1M:scanH.T2CD 1
+18IDpil1M:scanH.T3PV 
+18IDpil1M:scanH.T3CD 1
+18IDpil1M:scanH.T4PV 
+18IDpil1M:scanH.T4CD 1
+18IDpil1M:scanH.P1PV 
+18IDpil1M:scanH.R1PV 
+18IDpil1M:scanH.P1SM 0
+18IDpil1M:scanH.P1SP 0
+18IDpil1M:scanH.P1EP 0
+18IDpil1M:scanH.P1AR 0
+18IDpil1M:scanH.P2PV 
+18IDpil1M:scanH.R2PV 
+18IDpil1M:scanH.P2SM 0
+18IDpil1M:scanH.P2SP 0
+18IDpil1M:scanH.P2EP 0
+18IDpil1M:scanH.P2AR 0
+18IDpil1M:scanH.P3PV 
+18IDpil1M:scanH.R3PV 
+18IDpil1M:scanH.P3SM 0
+18IDpil1M:scanH.P3SP 0
+18IDpil1M:scanH.P3EP 0
+18IDpil1M:scanH.P3AR 0
+18IDpil1M:scanH.P4PV 
+18IDpil1M:scanH.R4PV 
+18IDpil1M:scanH.P4SM 0
+18IDpil1M:scanH.P4SP 0
+18IDpil1M:scanH.P4EP 0
+18IDpil1M:scanH.P4AR 0
+18IDpil1M:scanH.PDLY 0
+18IDpil1M:scanH.DDLY 0
+18IDpil1M:scanH.REFD 1
+18IDpil1M:scanH.AWCT 0
+18IDpil1M:scanH.A1PV 
+18IDpil1M:scanH.A1CD 1
+18IDpil1M:scanH.D01PV 
+18IDpil1M:scanH.D02PV 
+18IDpil1M:scanH.D03PV 
+18IDpil1M:scanH.D04PV 
+18IDpil1M:scanH.D05PV 
+18IDpil1M:scanH.D06PV 
+18IDpil1M:scanH.D07PV 
+18IDpil1M:scanH.D08PV 
+18IDpil1M:scanH.D09PV 
+18IDpil1M:scanH.D10PV 
+18IDpil1M:scanH.D11PV 
+18IDpil1M:scanH.D12PV 
+18IDpil1M:scanH.D13PV 
+18IDpil1M:scanH.D14PV 
+18IDpil1M:scanH.D15PV 
+18IDpil1M:scanH.D16PV 
+18IDpil1M:scanH.D17PV 
+18IDpil1M:scanH.D18PV 
+18IDpil1M:scanH.D19PV 
+18IDpil1M:scanH.D20PV 
+18IDpil1M:scanH.D21PV 
+18IDpil1M:scanH.D22PV 
+18IDpil1M:scanH.D23PV 
+18IDpil1M:scanH.D24PV 
+18IDpil1M:scanH.D25PV 
+18IDpil1M:scanH.D26PV 
+18IDpil1M:scanH.D27PV 
+18IDpil1M:scanH.D28PV 
+18IDpil1M:scanH.D29PV 
+18IDpil1M:scanH.D30PV 
+18IDpil1M:scanH.D31PV 
+18IDpil1M:scanH.D32PV 
+18IDpil1M:scanH.D33PV 
+18IDpil1M:scanH.D34PV 
+18IDpil1M:scanH.D35PV 
+18IDpil1M:scanH.D36PV 
+18IDpil1M:scanH.D37PV 
+18IDpil1M:scanH.D38PV 
+18IDpil1M:scanH.D39PV 
+18IDpil1M:scanH.D40PV 
+18IDpil1M:scanH.D41PV 
+18IDpil1M:scanH.D42PV 
+18IDpil1M:scanH.D43PV 
+18IDpil1M:scanH.D44PV 
+18IDpil1M:scanH.D45PV 
+18IDpil1M:scanH.D46PV 
+18IDpil1M:scanH.D47PV 
+18IDpil1M:scanH.D48PV 
+18IDpil1M:scanH.D49PV 
+18IDpil1M:scanH.D50PV 
+18IDpil1M:scanH.D51PV 
+18IDpil1M:scanH.D52PV 
+18IDpil1M:scanH.D53PV 
+18IDpil1M:scanH.D54PV 
+18IDpil1M:scanH.D55PV 
+18IDpil1M:scanH.D56PV 
+18IDpil1M:scanH.D57PV 
+18IDpil1M:scanH.D58PV 
+18IDpil1M:scanH.D59PV 
+18IDpil1M:scanH.D60PV 
+18IDpil1M:scanH.D61PV 
+18IDpil1M:scanH.D62PV 
+18IDpil1M:scanH.D63PV 
+18IDpil1M:scanH.D64PV 
+18IDpil1M:scanH.D65PV 
+18IDpil1M:scanH.D66PV 
+18IDpil1M:scanH.D67PV 
+18IDpil1M:scanH.D68PV 
+18IDpil1M:scanH.D69PV 
+18IDpil1M:scanH.D70PV 
+18IDpil1M:AcquireSequence.SCAN 0
+18IDpil1M:AcquireSequence.DESC 
+18IDpil1M:AcquireSequence.PREC 0
+18IDpil1M:AcquireSequence.DLY1 0
+18IDpil1M:AcquireSequence.DOL1 
+18IDpil1M:AcquireSequence.DO1 0
+18IDpil1M:AcquireSequence.STR1 0
+18IDpil1M:AcquireSequence.LNK1 
+18IDpil1M:AcquireSequence.WAIT1 0
+18IDpil1M:AcquireSequence.DLY2 0
+18IDpil1M:AcquireSequence.DOL2 
+18IDpil1M:AcquireSequence.DO2 0
+18IDpil1M:AcquireSequence.STR2 0
+18IDpil1M:AcquireSequence.LNK2 
+18IDpil1M:AcquireSequence.WAIT2 0
+18IDpil1M:AcquireSequence.DLY3 0
+18IDpil1M:AcquireSequence.DOL3 
+18IDpil1M:AcquireSequence.DO3 0
+18IDpil1M:AcquireSequence.STR3 0
+18IDpil1M:AcquireSequence.LNK3 
+18IDpil1M:AcquireSequence.WAIT3 0
+18IDpil1M:AcquireSequence.DLY4 0
+18IDpil1M:AcquireSequence.DOL4 
+18IDpil1M:AcquireSequence.DO4 0
+18IDpil1M:AcquireSequence.STR4 0
+18IDpil1M:AcquireSequence.LNK4 
+18IDpil1M:AcquireSequence.WAIT4 0
+18IDpil1M:AcquireSequence.DLY5 0
+18IDpil1M:AcquireSequence.DOL5 
+18IDpil1M:AcquireSequence.DO5 0
+18IDpil1M:AcquireSequence.STR5 0
+18IDpil1M:AcquireSequence.LNK5 
+18IDpil1M:AcquireSequence.WAIT5 0
+18IDpil1M:AcquireSequence.DLY6 0
+18IDpil1M:AcquireSequence.DOL6 
+18IDpil1M:AcquireSequence.DO6 0
+18IDpil1M:AcquireSequence.STR6 0
+18IDpil1M:AcquireSequence.LNK6 
+18IDpil1M:AcquireSequence.WAIT6 0
+18IDpil1M:AcquireSequence.DLY7 0
+18IDpil1M:AcquireSequence.DOL7 
+18IDpil1M:AcquireSequence.DO7 0
+18IDpil1M:AcquireSequence.STR7 0
+18IDpil1M:AcquireSequence.LNK7 
+18IDpil1M:AcquireSequence.WAIT7 0
+18IDpil1M:AcquireSequence.DLY8 0
+18IDpil1M:AcquireSequence.DOL8 
+18IDpil1M:AcquireSequence.DO8 0
+18IDpil1M:AcquireSequence.STR8 0
+18IDpil1M:AcquireSequence.LNK8 
+18IDpil1M:AcquireSequence.WAIT8 0
+18IDpil1M:AcquireSequence.DLY9 0
+18IDpil1M:AcquireSequence.DOL9 
+18IDpil1M:AcquireSequence.DO9 0
+18IDpil1M:AcquireSequence.STR9 0
+18IDpil1M:AcquireSequence.LNK9 
+18IDpil1M:AcquireSequence.WAIT9 0
+18IDpil1M:AcquireSequence.DLYA 0
+18IDpil1M:AcquireSequence.DOLA 
+18IDpil1M:AcquireSequence.DOA 0
+18IDpil1M:AcquireSequence.STRA 0
+18IDpil1M:AcquireSequence.LNKA 
+18IDpil1M:AcquireSequence.WAITA 0
+18IDpil1M:AcquireSequence.FLNK 
+18IDpil1M:AcquireSequence.SELL 
+18IDpil1M:AcquireSequence.SELN 1
+18IDpil1M:AcquireSequence.SELM 0
+<END>
