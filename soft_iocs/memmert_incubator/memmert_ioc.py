@@ -77,11 +77,15 @@ if __name__ == '__main__':
     builder.LoadDatabase()
     softioc.iocInit(dispatcher)
 
+    tpool = ThreadPoolExecutor()
+
     # Start processes required to be run after iocInit
     async def update():
         while True:
             try:
-                [inc.update() for inc in incubators]
+                futures =[tpool.submit(inc.update()) for inc in incubators]
+                while not all([f.done() for f in futures]):
+                    await asyncio.sleep(0.1)
             except Exception:
                 traceback.print_exc()
                 pass

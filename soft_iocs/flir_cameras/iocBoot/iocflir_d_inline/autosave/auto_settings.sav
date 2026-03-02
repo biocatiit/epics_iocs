@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260129-131622
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260302-102006
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Inline:cam1:BinX 1
 18ID:FLIR:D:Inline:cam1:BinY 1
@@ -8,9 +8,9 @@
 18ID:FLIR:D:Inline:cam1:SizeY 1200
 18ID:FLIR:D:Inline:cam1:ReverseX 0
 18ID:FLIR:D:Inline:cam1:ReverseY 0
-18ID:FLIR:D:Inline:cam1:AcquireTime 0.025
-18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.025027328
-18ID:FLIR:D:Inline:cam1:Gain 35
+18ID:FLIR:D:Inline:cam1:AcquireTime 0.05
+18ID:FLIR:D:Inline:cam1:AcquirePeriod 0.05001588
+18ID:FLIR:D:Inline:cam1:Gain 40
 18ID:FLIR:D:Inline:cam1:FrameType 0
 18ID:FLIR:D:Inline:cam1:ImageMode 2
 18ID:FLIR:D:Inline:cam1:TriggerMode 0
@@ -1975,22 +1975,22 @@
 18ID:FLIR:D:Inline:Over1:1:Name ROI1
 18ID:FLIR:D:Inline:Over1:1:Use 1
 18ID:FLIR:D:Inline:Over1:1:PositionXLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:PositionX 902
+18ID:FLIR:D:Inline:Over1:1:PositionX 1061
 18ID:FLIR:D:Inline:Over1:1:PositionYLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:PositionY 543
+18ID:FLIR:D:Inline:Over1:1:PositionY 577
 18ID:FLIR:D:Inline:Over1:1:SizeXLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:SizeX 100
+18ID:FLIR:D:Inline:Over1:1:SizeX 24
 18ID:FLIR:D:Inline:Over1:1:SizeYLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:SizeY 100
+18ID:FLIR:D:Inline:Over1:1:SizeY 24
 18ID:FLIR:D:Inline:Over1:1:WidthXLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:WidthX 2
+18ID:FLIR:D:Inline:Over1:1:WidthX 3
 18ID:FLIR:D:Inline:Over1:1:WidthYLink.DOL CP NPP MS
-18ID:FLIR:D:Inline:Over1:1:WidthY 2
+18ID:FLIR:D:Inline:Over1:1:WidthY 3
 18ID:FLIR:D:Inline:Over1:1:DrawMode 0
 18ID:FLIR:D:Inline:Over1:1:Shape 0
-18ID:FLIR:D:Inline:Over1:1:Red 178
-18ID:FLIR:D:Inline:Over1:1:Green 17
-18ID:FLIR:D:Inline:Over1:1:Blue 130
+18ID:FLIR:D:Inline:Over1:1:Red 100
+18ID:FLIR:D:Inline:Over1:1:Green 500
+18ID:FLIR:D:Inline:Over1:1:Blue 200
 18ID:FLIR:D:Inline:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Inline:Over1:1:Font 0
 18ID:FLIR:D:Inline:Over1:1:DisplayText 0

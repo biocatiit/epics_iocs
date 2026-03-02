@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260129-131752
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260302-101427
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Tripod:cam1:BinX 1
 18ID:FLIR:D:Tripod:cam1:BinY 1
@@ -9,7 +9,7 @@
 18ID:FLIR:D:Tripod:cam1:ReverseX 0
 18ID:FLIR:D:Tripod:cam1:ReverseY 0
 18ID:FLIR:D:Tripod:cam1:AcquireTime 0.025
-18ID:FLIR:D:Tripod:cam1:AcquirePeriod 0.025007944
+18ID:FLIR:D:Tripod:cam1:AcquirePeriod 0.162338368
 18ID:FLIR:D:Tripod:cam1:Gain 30
 18ID:FLIR:D:Tripod:cam1:FrameType 0
 18ID:FLIR:D:Tripod:cam1:ImageMode 2
@@ -1973,24 +1973,24 @@
 18ID:FLIR:D:Tripod:Over1:NumPreAllocBuffers 100
 18ID:FLIR:D:Tripod:Over1:WaitForPlugins 0
 18ID:FLIR:D:Tripod:Over1:1:Name ROI1
-18ID:FLIR:D:Tripod:Over1:1:Use 0
+18ID:FLIR:D:Tripod:Over1:1:Use 1
 18ID:FLIR:D:Tripod:Over1:1:PositionXLink.DOL 
 18ID:FLIR:D:Tripod:Over1:1:PositionX 650
 18ID:FLIR:D:Tripod:Over1:1:PositionYLink.DOL 
-18ID:FLIR:D:Tripod:Over1:1:PositionY 239
+18ID:FLIR:D:Tripod:Over1:1:PositionY 347
 18ID:FLIR:D:Tripod:Over1:1:SizeXLink.DOL 
-18ID:FLIR:D:Tripod:Over1:1:SizeX 300
+18ID:FLIR:D:Tripod:Over1:1:SizeX 173
 18ID:FLIR:D:Tripod:Over1:1:SizeYLink.DOL 
-18ID:FLIR:D:Tripod:Over1:1:SizeY 300
+18ID:FLIR:D:Tripod:Over1:1:SizeY 157
 18ID:FLIR:D:Tripod:Over1:1:WidthXLink.DOL 
 18ID:FLIR:D:Tripod:Over1:1:WidthX 2
 18ID:FLIR:D:Tripod:Over1:1:WidthYLink.DOL 
 18ID:FLIR:D:Tripod:Over1:1:WidthY 2
 18ID:FLIR:D:Tripod:Over1:1:DrawMode 0
 18ID:FLIR:D:Tripod:Over1:1:Shape 0
-18ID:FLIR:D:Tripod:Over1:1:Red 255
+18ID:FLIR:D:Tripod:Over1:1:Red 25
 18ID:FLIR:D:Tripod:Over1:1:Green 255
-18ID:FLIR:D:Tripod:Over1:1:Blue 255
+18ID:FLIR:D:Tripod:Over1:1:Blue 25
 18ID:FLIR:D:Tripod:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:FLIR:D:Tripod:Over1:1:Font 0
 18ID:FLIR:D:Tripod:Over1:1:DisplayText 0

@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 250923-142313
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260302-101755
 18ID:FLIR:D:CoflowNeedle:cam1:BinX 1
 18ID:FLIR:D:CoflowNeedle:cam1:BinY 1
 18ID:FLIR:D:CoflowNeedle:cam1:MinX 0
@@ -8,7 +8,7 @@
 18ID:FLIR:D:CoflowNeedle:cam1:ReverseX 0
 18ID:FLIR:D:CoflowNeedle:cam1:ReverseY 0
 18ID:FLIR:D:CoflowNeedle:cam1:AcquireTime 0.1
-18ID:FLIR:D:CoflowNeedle:cam1:AcquirePeriod 0.027624998735428
+18ID:FLIR:D:CoflowNeedle:cam1:AcquirePeriod 0.050250000191689
 18ID:FLIR:D:CoflowNeedle:cam1:Gain 30
 18ID:FLIR:D:CoflowNeedle:cam1:FrameType 0
 18ID:FLIR:D:CoflowNeedle:cam1:ImageMode 2
