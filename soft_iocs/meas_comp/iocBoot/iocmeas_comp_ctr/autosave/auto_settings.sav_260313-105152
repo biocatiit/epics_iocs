@@ -1,4 +1,5 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260313-171750
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260313-104247
+! 40 channel(s) not connected - or not all gets were successful
 18ID:USBCTR08:1:Bd1 0
 18ID:USBCTR08:1:Bd2 0
 18ID:USBCTR08:1:Bd3 0
@@ -31,7 +32,7 @@
 18ID:USBCTR08:1:PulseGen4Count 0
 18ID:USBCTR08:1:PulseGen4IdleState 0
 18ID:USBCTR08:1:PulseGen4Run 0
-18ID:USBCTR08:1:scaler1.TP 0.5
+18ID:USBCTR08:1:scaler1.TP 1
 18ID:USBCTR08:1:scaler1.TP1 1
 18ID:USBCTR08:1:scaler1.CONT 0
 18ID:USBCTR08:1:scaler1.DLY1 0
@@ -43,16 +44,16 @@
 18ID:USBCTR08:1:scaler1.COUT 
 18ID:USBCTR08:1:scaler1_calcEnable.VAL 0
 18ID:USBCTR08:1:scaler1_calc_ctrl.VAL 0
-18ID:USBCTR08:1:scaler1_calc1.CALC A/3.2e7
-18ID:USBCTR08:1:scaler1_calc2.CALC B-J*K
-18ID:USBCTR08:1:scaler1_calc3.CALC C-J*K
-18ID:USBCTR08:1:scaler1_calc4.CALC D-J*K
-18ID:USBCTR08:1:scaler1_calc5.CALC E-J*K
-18ID:USBCTR08:1:scaler1_calc6.CALC F-J*K
-18ID:USBCTR08:1:scaler1_calc7.CALC G-J*K
-18ID:USBCTR08:1:scaler1_calc8.CALC H-J*K
+18ID:USBCTR08:1:scaler1_calc1.CALC A
+18ID:USBCTR08:1:scaler1_calc2.CALC b
+18ID:USBCTR08:1:scaler1_calc3.CALC C
+18ID:USBCTR08:1:scaler1_calc4.CALC D
+18ID:USBCTR08:1:scaler1_calc5.CALC E
+18ID:USBCTR08:1:scaler1_calc6.CALC F
+18ID:USBCTR08:1:scaler1_calc7.CALC G
+18ID:USBCTR08:1:scaler1_calc8.CALC H
 18ID:USBCTR08:1:scaler1.NM1 
-18ID:USBCTR08:1:scaler1.PR1 16000000
+18ID:USBCTR08:1:scaler1.PR1 32000000
 18ID:USBCTR08:1:scaler1.G1 1
 18ID:USBCTR08:1:scaler1.NM2 
 18ID:USBCTR08:1:scaler1.PR2 0
@@ -126,28 +127,28 @@
 18ID:USBCTR08:2:PulseGen4Count 0
 18ID:USBCTR08:2:PulseGen4IdleState 0
 18ID:USBCTR08:2:PulseGen4Run 0
-18ID:USBCTR08:2:scaler1.TP 0.5
+18ID:USBCTR08:2:scaler1.TP 1
 18ID:USBCTR08:2:scaler1.TP1 1
 18ID:USBCTR08:2:scaler1.CONT 0
 18ID:USBCTR08:2:scaler1.DLY1 0
 18ID:USBCTR08:2:scaler1.RAT1 0
 18ID:USBCTR08:2:scaler1.PREC 3
-18ID:USBCTR08:2:scaler1.FREQ 32000000
+18ID:USBCTR08:2:scaler1.FREQ 10000000
 18ID:USBCTR08:2:scaler1.RATE 10
 18ID:USBCTR08:2:scaler1.DLY 0
 18ID:USBCTR08:2:scaler1.COUT 
 18ID:USBCTR08:2:scaler1_calcEnable.VAL 0
 18ID:USBCTR08:2:scaler1_calc_ctrl.VAL 0
-18ID:USBCTR08:2:scaler1_calc1.CALC A/3.2e7
-18ID:USBCTR08:2:scaler1_calc2.CALC B-J*K
-18ID:USBCTR08:2:scaler1_calc3.CALC C-J*K
-18ID:USBCTR08:2:scaler1_calc4.CALC D-J*K
-18ID:USBCTR08:2:scaler1_calc5.CALC E-J*K
-18ID:USBCTR08:2:scaler1_calc6.CALC F-J*K
-18ID:USBCTR08:2:scaler1_calc7.CALC G-J*K
-18ID:USBCTR08:2:scaler1_calc8.CALC H-J*K
+18ID:USBCTR08:2:scaler1_calc1.CALC A
+18ID:USBCTR08:2:scaler1_calc2.CALC b
+18ID:USBCTR08:2:scaler1_calc3.CALC C
+18ID:USBCTR08:2:scaler1_calc4.CALC D
+18ID:USBCTR08:2:scaler1_calc5.CALC E
+18ID:USBCTR08:2:scaler1_calc6.CALC F
+18ID:USBCTR08:2:scaler1_calc7.CALC G
+18ID:USBCTR08:2:scaler1_calc8.CALC H
 18ID:USBCTR08:2:scaler1.NM1 
-18ID:USBCTR08:2:scaler1.PR1 16000000
+18ID:USBCTR08:2:scaler1.PR1 10000000
 18ID:USBCTR08:2:scaler1.G1 1
 18ID:USBCTR08:2:scaler1.NM2 
 18ID:USBCTR08:2:scaler1.PR2 0
@@ -806,84 +807,84 @@
 18ID:Scans:saveData_realTime1D 0
 18ID:Scans:saveData_maxAllowedRetries 10
 18ID:Scans:saveData_retryWaitInSecs 15
-18ID:USBCTR08:1:Dark1.VAL 32000000
-18ID:USBCTR08:1:Dark1.DRVH 0
-18ID:USBCTR08:1:Dark1.DRVL 0
-18ID:USBCTR08:1:Dark1.DESC 1 Dark counts
-18ID:USBCTR08:1:Dark1.EGU 
-18ID:USBCTR08:1:Dark2.VAL 0
-18ID:USBCTR08:1:Dark2.DRVH 0
-18ID:USBCTR08:1:Dark2.DRVL 0
-18ID:USBCTR08:1:Dark2.DESC 2 Dark counts
-18ID:USBCTR08:1:Dark2.EGU 
-18ID:USBCTR08:1:Dark3.VAL 0
-18ID:USBCTR08:1:Dark3.DRVH 0
-18ID:USBCTR08:1:Dark3.DRVL 0
-18ID:USBCTR08:1:Dark3.DESC 3 Dark counts
-18ID:USBCTR08:1:Dark3.EGU 
-18ID:USBCTR08:1:Dark4.VAL 0
-18ID:USBCTR08:1:Dark4.DRVH 0
-18ID:USBCTR08:1:Dark4.DRVL 0
-18ID:USBCTR08:1:Dark4.DESC 4 Dark counts
-18ID:USBCTR08:1:Dark4.EGU 
-18ID:USBCTR08:1:Dark5.VAL 0
-18ID:USBCTR08:1:Dark5.DRVH 0
-18ID:USBCTR08:1:Dark5.DRVL 0
-18ID:USBCTR08:1:Dark5.DESC 5 Dark counts
-18ID:USBCTR08:1:Dark5.EGU 
-18ID:USBCTR08:1:Dark6.VAL 0
-18ID:USBCTR08:1:Dark6.DRVH 0
-18ID:USBCTR08:1:Dark6.DRVL 0
-18ID:USBCTR08:1:Dark6.DESC 6 Dark counts
-18ID:USBCTR08:1:Dark6.EGU 
-18ID:USBCTR08:1:Dark7.VAL 0
-18ID:USBCTR08:1:Dark7.DRVH 0
-18ID:USBCTR08:1:Dark7.DRVL 0
-18ID:USBCTR08:1:Dark7.DESC 7 Dark counts
-18ID:USBCTR08:1:Dark7.EGU 
-18ID:USBCTR08:1:Dark8.VAL 0
-18ID:USBCTR08:1:Dark8.DRVH 0
-18ID:USBCTR08:1:Dark8.DRVL 0
-18ID:USBCTR08:1:Dark8.DESC 8 Dark counts
-18ID:USBCTR08:1:Dark8.EGU 
-18ID:USBCTR08:2:Dark1.VAL 32000000
-18ID:USBCTR08:2:Dark1.DRVH 0
-18ID:USBCTR08:2:Dark1.DRVL 0
-18ID:USBCTR08:2:Dark1.DESC 1 Dark counts
-18ID:USBCTR08:2:Dark1.EGU 
-18ID:USBCTR08:2:Dark2.VAL 0
-18ID:USBCTR08:2:Dark2.DRVH 0
-18ID:USBCTR08:2:Dark2.DRVL 0
-18ID:USBCTR08:2:Dark2.DESC 2 Dark counts
-18ID:USBCTR08:2:Dark2.EGU 
-18ID:USBCTR08:2:Dark3.VAL 0
-18ID:USBCTR08:2:Dark3.DRVH 0
-18ID:USBCTR08:2:Dark3.DRVL 0
-18ID:USBCTR08:2:Dark3.DESC 3 Dark counts
-18ID:USBCTR08:2:Dark3.EGU 
-18ID:USBCTR08:2:Dark4.VAL 0
-18ID:USBCTR08:2:Dark4.DRVH 0
-18ID:USBCTR08:2:Dark4.DRVL 0
-18ID:USBCTR08:2:Dark4.DESC 4 Dark counts
-18ID:USBCTR08:2:Dark4.EGU 
-18ID:USBCTR08:2:Dark5.VAL 0
-18ID:USBCTR08:2:Dark5.DRVH 0
-18ID:USBCTR08:2:Dark5.DRVL 0
-18ID:USBCTR08:2:Dark5.DESC 5 Dark counts
-18ID:USBCTR08:2:Dark5.EGU 
-18ID:USBCTR08:2:Dark6.VAL 0
-18ID:USBCTR08:2:Dark6.DRVH 0
-18ID:USBCTR08:2:Dark6.DRVL 0
-18ID:USBCTR08:2:Dark6.DESC 6 Dark counts
-18ID:USBCTR08:2:Dark6.EGU 
-18ID:USBCTR08:2:Dark7.VAL 0
-18ID:USBCTR08:2:Dark7.DRVH 0
-18ID:USBCTR08:2:Dark7.DRVL 0
-18ID:USBCTR08:2:Dark7.DESC 7 Dark counts
-18ID:USBCTR08:2:Dark7.EGU 
-18ID:USBCTR08:2:Dark8.VAL 0
-18ID:USBCTR08:2:Dark8.DRVH 0
-18ID:USBCTR08:2:Dark8.DRVL 0
-18ID:USBCTR08:2:Dark8.DESC 8 Dark counts
-18ID:USBCTR08:2:Dark8.EGU 
+18ID:USBCTR08:1:Dark:1.VAL 0
+18ID:USBCTR08:1:Dark:1.DRVH 0
+18ID:USBCTR08:1:Dark:1.DRVL 0
+18ID:USBCTR08:1:Dark:1.DESC 1 Dark counts
+18ID:USBCTR08:1:Dark:1.EGU 
+18ID:USBCTR08:1:Dark:2.VAL 0
+18ID:USBCTR08:1:Dark:2.DRVH 0
+18ID:USBCTR08:1:Dark:2.DRVL 0
+18ID:USBCTR08:1:Dark:2.DESC 2 Dark counts
+18ID:USBCTR08:1:Dark:2.EGU 
+18ID:USBCTR08:1:Dark:3.VAL 0
+18ID:USBCTR08:1:Dark:3.DRVH 0
+18ID:USBCTR08:1:Dark:3.DRVL 0
+18ID:USBCTR08:1:Dark:3.DESC 3 Dark counts
+18ID:USBCTR08:1:Dark:3.EGU 
+18ID:USBCTR08:1:Dark:4.VAL 0
+18ID:USBCTR08:1:Dark:4.DRVH 0
+18ID:USBCTR08:1:Dark:4.DRVL 0
+18ID:USBCTR08:1:Dark:4.DESC 4 Dark counts
+18ID:USBCTR08:1:Dark:4.EGU 
+18ID:USBCTR08:1:Dark:5.VAL 0
+18ID:USBCTR08:1:Dark:5.DRVH 0
+18ID:USBCTR08:1:Dark:5.DRVL 0
+18ID:USBCTR08:1:Dark:5.DESC 5 Dark counts
+18ID:USBCTR08:1:Dark:5.EGU 
+18ID:USBCTR08:1:Dark:6.VAL 0
+18ID:USBCTR08:1:Dark:6.DRVH 0
+18ID:USBCTR08:1:Dark:6.DRVL 0
+18ID:USBCTR08:1:Dark:6.DESC 6 Dark counts
+18ID:USBCTR08:1:Dark:6.EGU 
+18ID:USBCTR08:1:Dark:7.VAL 0
+18ID:USBCTR08:1:Dark:7.DRVH 0
+18ID:USBCTR08:1:Dark:7.DRVL 0
+18ID:USBCTR08:1:Dark:7.DESC 7 Dark counts
+18ID:USBCTR08:1:Dark:7.EGU 
+18ID:USBCTR08:1:Dark:8.VAL 0
+18ID:USBCTR08:1:Dark:8.DRVH 0
+18ID:USBCTR08:1:Dark:8.DRVL 0
+18ID:USBCTR08:1:Dark:8.DESC 8 Dark counts
+18ID:USBCTR08:1:Dark:8.EGU 
+#$(P,recursive)Dark:Dark:1.VAL Search Issued
+#$(P,recursive)Dark:Dark:1.DRVH Search Issued
+#$(P,recursive)Dark:Dark:1.DRVL Search Issued
+#$(P,recursive)Dark:Dark:1.DESC Search Issued
+#$(P,recursive)Dark:Dark:1.EGU Search Issued
+#$(P,recursive)Dark:Dark:2.VAL Search Issued
+#$(P,recursive)Dark:Dark:2.DRVH Search Issued
+#$(P,recursive)Dark:Dark:2.DRVL Search Issued
+#$(P,recursive)Dark:Dark:2.DESC Search Issued
+#$(P,recursive)Dark:Dark:2.EGU Search Issued
+#$(P,recursive)Dark:Dark:3.VAL Search Issued
+#$(P,recursive)Dark:Dark:3.DRVH Search Issued
+#$(P,recursive)Dark:Dark:3.DRVL Search Issued
+#$(P,recursive)Dark:Dark:3.DESC Search Issued
+#$(P,recursive)Dark:Dark:3.EGU Search Issued
+#$(P,recursive)Dark:Dark:4.VAL Search Issued
+#$(P,recursive)Dark:Dark:4.DRVH Search Issued
+#$(P,recursive)Dark:Dark:4.DRVL Search Issued
+#$(P,recursive)Dark:Dark:4.DESC Search Issued
+#$(P,recursive)Dark:Dark:4.EGU Search Issued
+#$(P,recursive)Dark:Dark:5.VAL Search Issued
+#$(P,recursive)Dark:Dark:5.DRVH Search Issued
+#$(P,recursive)Dark:Dark:5.DRVL Search Issued
+#$(P,recursive)Dark:Dark:5.DESC Search Issued
+#$(P,recursive)Dark:Dark:5.EGU Search Issued
+#$(P,recursive)Dark:Dark:6.VAL Search Issued
+#$(P,recursive)Dark:Dark:6.DRVH Search Issued
+#$(P,recursive)Dark:Dark:6.DRVL Search Issued
+#$(P,recursive)Dark:Dark:6.DESC Search Issued
+#$(P,recursive)Dark:Dark:6.EGU Search Issued
+#$(P,recursive)Dark:Dark:7.VAL Search Issued
+#$(P,recursive)Dark:Dark:7.DRVH Search Issued
+#$(P,recursive)Dark:Dark:7.DRVL Search Issued
+#$(P,recursive)Dark:Dark:7.DESC Search Issued
+#$(P,recursive)Dark:Dark:7.EGU Search Issued
+#$(P,recursive)Dark:Dark:8.VAL Search Issued
+#$(P,recursive)Dark:Dark:8.DRVH Search Issued
+#$(P,recursive)Dark:Dark:8.DRVL Search Issued
+#$(P,recursive)Dark:Dark:8.DESC Search Issued
+#$(P,recursive)Dark:Dark:8.EGU Search Issued
 <END>

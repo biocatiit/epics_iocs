@@ -1,0 +1,6 @@
+# AO record to contain channel specific dark counts
+record(ao, "$(P)Dark$(R)") {
+  field(DESC, "$(R) Dark counts")
+  field(SCAN, "Passive")
+  field(PREC, 3)
+}
