@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260226-165910
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260313-150939
 18ID:USBCTR08:1:Bd1 0
 18ID:USBCTR08:1:Bd2 0
 18ID:USBCTR08:1:Bd3 0
@@ -31,7 +31,7 @@
 18ID:USBCTR08:1:PulseGen4Count 0
 18ID:USBCTR08:1:PulseGen4IdleState 0
 18ID:USBCTR08:1:PulseGen4Run 0
-18ID:USBCTR08:1:scaler1.TP 1
+18ID:USBCTR08:1:scaler1.TP 0.5
 18ID:USBCTR08:1:scaler1.TP1 1
 18ID:USBCTR08:1:scaler1.CONT 0
 18ID:USBCTR08:1:scaler1.DLY1 0
@@ -43,16 +43,16 @@
 18ID:USBCTR08:1:scaler1.COUT 
 18ID:USBCTR08:1:scaler1_calcEnable.VAL 0
 18ID:USBCTR08:1:scaler1_calc_ctrl.VAL 0
-18ID:USBCTR08:1:scaler1_calc1.CALC A
-18ID:USBCTR08:1:scaler1_calc2.CALC b
-18ID:USBCTR08:1:scaler1_calc3.CALC C
-18ID:USBCTR08:1:scaler1_calc4.CALC D
-18ID:USBCTR08:1:scaler1_calc5.CALC E
-18ID:USBCTR08:1:scaler1_calc6.CALC F
-18ID:USBCTR08:1:scaler1_calc7.CALC G
-18ID:USBCTR08:1:scaler1_calc8.CALC H
+18ID:USBCTR08:1:scaler1_calc1.CALC A/3.2e7
+18ID:USBCTR08:1:scaler1_calc2.CALC B-J*K
+18ID:USBCTR08:1:scaler1_calc3.CALC C-J*K
+18ID:USBCTR08:1:scaler1_calc4.CALC D-J*K
+18ID:USBCTR08:1:scaler1_calc5.CALC E-J*K
+18ID:USBCTR08:1:scaler1_calc6.CALC F-J*K
+18ID:USBCTR08:1:scaler1_calc7.CALC G-J*K
+18ID:USBCTR08:1:scaler1_calc8.CALC H-J*K
 18ID:USBCTR08:1:scaler1.NM1 
-18ID:USBCTR08:1:scaler1.PR1 32000000
+18ID:USBCTR08:1:scaler1.PR1 16000000
 18ID:USBCTR08:1:scaler1.G1 1
 18ID:USBCTR08:1:scaler1.NM2 
 18ID:USBCTR08:1:scaler1.PR2 0
@@ -126,28 +126,28 @@
 18ID:USBCTR08:2:PulseGen4Count 0
 18ID:USBCTR08:2:PulseGen4IdleState 0
 18ID:USBCTR08:2:PulseGen4Run 0
-18ID:USBCTR08:2:scaler1.TP 1
+18ID:USBCTR08:2:scaler1.TP 0.5
 18ID:USBCTR08:2:scaler1.TP1 1
 18ID:USBCTR08:2:scaler1.CONT 0
 18ID:USBCTR08:2:scaler1.DLY1 0
 18ID:USBCTR08:2:scaler1.RAT1 0
 18ID:USBCTR08:2:scaler1.PREC 3
-18ID:USBCTR08:2:scaler1.FREQ 10000000
+18ID:USBCTR08:2:scaler1.FREQ 32000000
 18ID:USBCTR08:2:scaler1.RATE 10
 18ID:USBCTR08:2:scaler1.DLY 0
 18ID:USBCTR08:2:scaler1.COUT 
 18ID:USBCTR08:2:scaler1_calcEnable.VAL 0
 18ID:USBCTR08:2:scaler1_calc_ctrl.VAL 0
-18ID:USBCTR08:2:scaler1_calc1.CALC A
-18ID:USBCTR08:2:scaler1_calc2.CALC b
-18ID:USBCTR08:2:scaler1_calc3.CALC C
-18ID:USBCTR08:2:scaler1_calc4.CALC D
-18ID:USBCTR08:2:scaler1_calc5.CALC E
-18ID:USBCTR08:2:scaler1_calc6.CALC F
-18ID:USBCTR08:2:scaler1_calc7.CALC G
-18ID:USBCTR08:2:scaler1_calc8.CALC H
+18ID:USBCTR08:2:scaler1_calc1.CALC A/3.2e7
+18ID:USBCTR08:2:scaler1_calc2.CALC B-J*K
+18ID:USBCTR08:2:scaler1_calc3.CALC C-J*K
+18ID:USBCTR08:2:scaler1_calc4.CALC D-J*K
+18ID:USBCTR08:2:scaler1_calc5.CALC E-J*K
+18ID:USBCTR08:2:scaler1_calc6.CALC F-J*K
+18ID:USBCTR08:2:scaler1_calc7.CALC G-J*K
+18ID:USBCTR08:2:scaler1_calc8.CALC H-J*K
 18ID:USBCTR08:2:scaler1.NM1 
-18ID:USBCTR08:2:scaler1.PR1 10000000
+18ID:USBCTR08:2:scaler1.PR1 16000000
 18ID:USBCTR08:2:scaler1.G1 1
 18ID:USBCTR08:2:scaler1.NM2 
 18ID:USBCTR08:2:scaler1.PR2 0
@@ -189,4 +189,701 @@
 18ID:USBCTR08:2:MCS:NuseAll 4000
 18ID:USBCTR08:2:MCS:EnableClientWait 0
 18ID:USBCTR08:2:MCS:TrigMode 3
+18ID:Scans:scan1.ATIME 0.1
+18ID:Scans:scan1.COPYTO 0
+18ID:Scans:scan1.AAWAIT 1
+18ID:Scans:scan1.FLNK 
+18ID:Scans:scan1.NPTS 10
+18ID:Scans:scan1.ACQT 0
+18ID:Scans:scan1.ACQM 0
+18ID:Scans:scan1.PASM 0
+18ID:Scans:scan1.BSPV 
+18ID:Scans:scan1.BSCD 1
+18ID:Scans:scan1.BSWAIT 0
+18ID:Scans:scan1.ASPV 
+18ID:Scans:scan1.ASCD 1
+18ID:Scans:scan1.ASWAIT 0
+18ID:Scans:scan1.T1PV 
+18ID:Scans:scan1.T1CD 1
+18ID:Scans:scan1.T2PV 
+18ID:Scans:scan1.T2CD 1
+18ID:Scans:scan1.T3PV 
+18ID:Scans:scan1.T3CD 1
+18ID:Scans:scan1.T4PV 
+18ID:Scans:scan1.T4CD 1
+18ID:Scans:scan1.P1PV 
+18ID:Scans:scan1.R1PV 
+18ID:Scans:scan1.P1SM 0
+18ID:Scans:scan1.P1SP 0
+18ID:Scans:scan1.P1EP 0
+18ID:Scans:scan1.P1AR 0
+18ID:Scans:scan1.P2PV 
+18ID:Scans:scan1.R2PV 
+18ID:Scans:scan1.P2SM 0
+18ID:Scans:scan1.P2SP 0
+18ID:Scans:scan1.P2EP 0
+18ID:Scans:scan1.P2AR 0
+18ID:Scans:scan1.P3PV 
+18ID:Scans:scan1.R3PV 
+18ID:Scans:scan1.P3SM 0
+18ID:Scans:scan1.P3SP 0
+18ID:Scans:scan1.P3EP 0
+18ID:Scans:scan1.P3AR 0
+18ID:Scans:scan1.P4PV 
+18ID:Scans:scan1.R4PV 
+18ID:Scans:scan1.P4SM 0
+18ID:Scans:scan1.P4SP 0
+18ID:Scans:scan1.P4EP 0
+18ID:Scans:scan1.P4AR 0
+18ID:Scans:scan1.PDLY 0
+18ID:Scans:scan1.DDLY 0
+18ID:Scans:scan1.REFD 1
+18ID:Scans:scan1.AWCT 0
+18ID:Scans:scan1.A1PV 
+18ID:Scans:scan1.A1CD 1
+18ID:Scans:scan1.D01PV 
+18ID:Scans:scan1.D02PV 
+18ID:Scans:scan1.D03PV 
+18ID:Scans:scan1.D04PV 
+18ID:Scans:scan1.D05PV 
+18ID:Scans:scan1.D06PV 
+18ID:Scans:scan1.D07PV 
+18ID:Scans:scan1.D08PV 
+18ID:Scans:scan1.D09PV 
+18ID:Scans:scan1.D10PV 
+18ID:Scans:scan1.D11PV 
+18ID:Scans:scan1.D12PV 
+18ID:Scans:scan1.D13PV 
+18ID:Scans:scan1.D14PV 
+18ID:Scans:scan1.D15PV 
+18ID:Scans:scan1.D16PV 
+18ID:Scans:scan1.D17PV 
+18ID:Scans:scan1.D18PV 
+18ID:Scans:scan1.D19PV 
+18ID:Scans:scan1.D20PV 
+18ID:Scans:scan1.D21PV 
+18ID:Scans:scan1.D22PV 
+18ID:Scans:scan1.D23PV 
+18ID:Scans:scan1.D24PV 
+18ID:Scans:scan1.D25PV 
+18ID:Scans:scan1.D26PV 
+18ID:Scans:scan1.D27PV 
+18ID:Scans:scan1.D28PV 
+18ID:Scans:scan1.D29PV 
+18ID:Scans:scan1.D30PV 
+18ID:Scans:scan1.D31PV 
+18ID:Scans:scan1.D32PV 
+18ID:Scans:scan1.D33PV 
+18ID:Scans:scan1.D34PV 
+18ID:Scans:scan1.D35PV 
+18ID:Scans:scan1.D36PV 
+18ID:Scans:scan1.D37PV 
+18ID:Scans:scan1.D38PV 
+18ID:Scans:scan1.D39PV 
+18ID:Scans:scan1.D40PV 
+18ID:Scans:scan1.D41PV 
+18ID:Scans:scan1.D42PV 
+18ID:Scans:scan1.D43PV 
+18ID:Scans:scan1.D44PV 
+18ID:Scans:scan1.D45PV 
+18ID:Scans:scan1.D46PV 
+18ID:Scans:scan1.D47PV 
+18ID:Scans:scan1.D48PV 
+18ID:Scans:scan1.D49PV 
+18ID:Scans:scan1.D50PV 
+18ID:Scans:scan1.D51PV 
+18ID:Scans:scan1.D52PV 
+18ID:Scans:scan1.D53PV 
+18ID:Scans:scan1.D54PV 
+18ID:Scans:scan1.D55PV 
+18ID:Scans:scan1.D56PV 
+18ID:Scans:scan1.D57PV 
+18ID:Scans:scan1.D58PV 
+18ID:Scans:scan1.D59PV 
+18ID:Scans:scan1.D60PV 
+18ID:Scans:scan1.D61PV 
+18ID:Scans:scan1.D62PV 
+18ID:Scans:scan1.D63PV 
+18ID:Scans:scan1.D64PV 
+18ID:Scans:scan1.D65PV 
+18ID:Scans:scan1.D66PV 
+18ID:Scans:scan1.D67PV 
+18ID:Scans:scan1.D68PV 
+18ID:Scans:scan1.D69PV 
+18ID:Scans:scan1.D70PV 
+18ID:Scans:scan2.ATIME 0
+18ID:Scans:scan2.COPYTO 0
+18ID:Scans:scan2.AAWAIT 1
+18ID:Scans:scan2.FLNK 
+18ID:Scans:scan2.NPTS 10
+18ID:Scans:scan2.ACQT 0
+18ID:Scans:scan2.ACQM 0
+18ID:Scans:scan2.PASM 0
+18ID:Scans:scan2.BSPV 
+18ID:Scans:scan2.BSCD 1
+18ID:Scans:scan2.BSWAIT 0
+18ID:Scans:scan2.ASPV 
+18ID:Scans:scan2.ASCD 1
+18ID:Scans:scan2.ASWAIT 0
+18ID:Scans:scan2.T1PV 18ID:Scans:scan1.EXSC
+18ID:Scans:scan2.T1CD 1
+18ID:Scans:scan2.T2PV 
+18ID:Scans:scan2.T2CD 1
+18ID:Scans:scan2.T3PV 
+18ID:Scans:scan2.T3CD 1
+18ID:Scans:scan2.T4PV 
+18ID:Scans:scan2.T4CD 1
+18ID:Scans:scan2.P1PV 
+18ID:Scans:scan2.R1PV 
+18ID:Scans:scan2.P1SM 0
+18ID:Scans:scan2.P1SP 0
+18ID:Scans:scan2.P1EP 0
+18ID:Scans:scan2.P1AR 0
+18ID:Scans:scan2.P2PV 
+18ID:Scans:scan2.R2PV 
+18ID:Scans:scan2.P2SM 0
+18ID:Scans:scan2.P2SP 0
+18ID:Scans:scan2.P2EP 0
+18ID:Scans:scan2.P2AR 0
+18ID:Scans:scan2.P3PV 
+18ID:Scans:scan2.R3PV 
+18ID:Scans:scan2.P3SM 0
+18ID:Scans:scan2.P3SP 0
+18ID:Scans:scan2.P3EP 0
+18ID:Scans:scan2.P3AR 0
+18ID:Scans:scan2.P4PV 
+18ID:Scans:scan2.R4PV 
+18ID:Scans:scan2.P4SM 0
+18ID:Scans:scan2.P4SP 0
+18ID:Scans:scan2.P4EP 0
+18ID:Scans:scan2.P4AR 0
+18ID:Scans:scan2.PDLY 0
+18ID:Scans:scan2.DDLY 0
+18ID:Scans:scan2.REFD 1
+18ID:Scans:scan2.AWCT 0
+18ID:Scans:scan2.A1PV 
+18ID:Scans:scan2.A1CD 1
+18ID:Scans:scan2.D01PV 
+18ID:Scans:scan2.D02PV 
+18ID:Scans:scan2.D03PV 
+18ID:Scans:scan2.D04PV 
+18ID:Scans:scan2.D05PV 
+18ID:Scans:scan2.D06PV 
+18ID:Scans:scan2.D07PV 
+18ID:Scans:scan2.D08PV 
+18ID:Scans:scan2.D09PV 
+18ID:Scans:scan2.D10PV 
+18ID:Scans:scan2.D11PV 
+18ID:Scans:scan2.D12PV 
+18ID:Scans:scan2.D13PV 
+18ID:Scans:scan2.D14PV 
+18ID:Scans:scan2.D15PV 
+18ID:Scans:scan2.D16PV 
+18ID:Scans:scan2.D17PV 
+18ID:Scans:scan2.D18PV 
+18ID:Scans:scan2.D19PV 
+18ID:Scans:scan2.D20PV 
+18ID:Scans:scan2.D21PV 
+18ID:Scans:scan2.D22PV 
+18ID:Scans:scan2.D23PV 
+18ID:Scans:scan2.D24PV 
+18ID:Scans:scan2.D25PV 
+18ID:Scans:scan2.D26PV 
+18ID:Scans:scan2.D27PV 
+18ID:Scans:scan2.D28PV 
+18ID:Scans:scan2.D29PV 
+18ID:Scans:scan2.D30PV 
+18ID:Scans:scan2.D31PV 
+18ID:Scans:scan2.D32PV 
+18ID:Scans:scan2.D33PV 
+18ID:Scans:scan2.D34PV 
+18ID:Scans:scan2.D35PV 
+18ID:Scans:scan2.D36PV 
+18ID:Scans:scan2.D37PV 
+18ID:Scans:scan2.D38PV 
+18ID:Scans:scan2.D39PV 
+18ID:Scans:scan2.D40PV 
+18ID:Scans:scan2.D41PV 
+18ID:Scans:scan2.D42PV 
+18ID:Scans:scan2.D43PV 
+18ID:Scans:scan2.D44PV 
+18ID:Scans:scan2.D45PV 
+18ID:Scans:scan2.D46PV 
+18ID:Scans:scan2.D47PV 
+18ID:Scans:scan2.D48PV 
+18ID:Scans:scan2.D49PV 
+18ID:Scans:scan2.D50PV 
+18ID:Scans:scan2.D51PV 
+18ID:Scans:scan2.D52PV 
+18ID:Scans:scan2.D53PV 
+18ID:Scans:scan2.D54PV 
+18ID:Scans:scan2.D55PV 
+18ID:Scans:scan2.D56PV 
+18ID:Scans:scan2.D57PV 
+18ID:Scans:scan2.D58PV 
+18ID:Scans:scan2.D59PV 
+18ID:Scans:scan2.D60PV 
+18ID:Scans:scan2.D61PV 
+18ID:Scans:scan2.D62PV 
+18ID:Scans:scan2.D63PV 
+18ID:Scans:scan2.D64PV 
+18ID:Scans:scan2.D65PV 
+18ID:Scans:scan2.D66PV 
+18ID:Scans:scan2.D67PV 
+18ID:Scans:scan2.D68PV 
+18ID:Scans:scan2.D69PV 
+18ID:Scans:scan2.D70PV 
+18ID:Scans:scan3.ATIME 0
+18ID:Scans:scan3.COPYTO 0
+18ID:Scans:scan3.AAWAIT 1
+18ID:Scans:scan3.FLNK 
+18ID:Scans:scan3.NPTS 10
+18ID:Scans:scan3.ACQT 0
+18ID:Scans:scan3.ACQM 0
+18ID:Scans:scan3.PASM 0
+18ID:Scans:scan3.BSPV 
+18ID:Scans:scan3.BSCD 1
+18ID:Scans:scan3.BSWAIT 0
+18ID:Scans:scan3.ASPV 
+18ID:Scans:scan3.ASCD 1
+18ID:Scans:scan3.ASWAIT 0
+18ID:Scans:scan3.T1PV 18ID:Scans:scan2.EXSC
+18ID:Scans:scan3.T1CD 1
+18ID:Scans:scan3.T2PV 
+18ID:Scans:scan3.T2CD 1
+18ID:Scans:scan3.T3PV 
+18ID:Scans:scan3.T3CD 1
+18ID:Scans:scan3.T4PV 
+18ID:Scans:scan3.T4CD 1
+18ID:Scans:scan3.P1PV 
+18ID:Scans:scan3.R1PV 
+18ID:Scans:scan3.P1SM 0
+18ID:Scans:scan3.P1SP 0
+18ID:Scans:scan3.P1EP 0
+18ID:Scans:scan3.P1AR 0
+18ID:Scans:scan3.P2PV 
+18ID:Scans:scan3.R2PV 
+18ID:Scans:scan3.P2SM 0
+18ID:Scans:scan3.P2SP 0
+18ID:Scans:scan3.P2EP 0
+18ID:Scans:scan3.P2AR 0
+18ID:Scans:scan3.P3PV 
+18ID:Scans:scan3.R3PV 
+18ID:Scans:scan3.P3SM 0
+18ID:Scans:scan3.P3SP 0
+18ID:Scans:scan3.P3EP 0
+18ID:Scans:scan3.P3AR 0
+18ID:Scans:scan3.P4PV 
+18ID:Scans:scan3.R4PV 
+18ID:Scans:scan3.P4SM 0
+18ID:Scans:scan3.P4SP 0
+18ID:Scans:scan3.P4EP 0
+18ID:Scans:scan3.P4AR 0
+18ID:Scans:scan3.PDLY 0
+18ID:Scans:scan3.DDLY 0
+18ID:Scans:scan3.REFD 1
+18ID:Scans:scan3.AWCT 0
+18ID:Scans:scan3.A1PV 
+18ID:Scans:scan3.A1CD 1
+18ID:Scans:scan3.D01PV 
+18ID:Scans:scan3.D02PV 
+18ID:Scans:scan3.D03PV 
+18ID:Scans:scan3.D04PV 
+18ID:Scans:scan3.D05PV 
+18ID:Scans:scan3.D06PV 
+18ID:Scans:scan3.D07PV 
+18ID:Scans:scan3.D08PV 
+18ID:Scans:scan3.D09PV 
+18ID:Scans:scan3.D10PV 
+18ID:Scans:scan3.D11PV 
+18ID:Scans:scan3.D12PV 
+18ID:Scans:scan3.D13PV 
+18ID:Scans:scan3.D14PV 
+18ID:Scans:scan3.D15PV 
+18ID:Scans:scan3.D16PV 
+18ID:Scans:scan3.D17PV 
+18ID:Scans:scan3.D18PV 
+18ID:Scans:scan3.D19PV 
+18ID:Scans:scan3.D20PV 
+18ID:Scans:scan3.D21PV 
+18ID:Scans:scan3.D22PV 
+18ID:Scans:scan3.D23PV 
+18ID:Scans:scan3.D24PV 
+18ID:Scans:scan3.D25PV 
+18ID:Scans:scan3.D26PV 
+18ID:Scans:scan3.D27PV 
+18ID:Scans:scan3.D28PV 
+18ID:Scans:scan3.D29PV 
+18ID:Scans:scan3.D30PV 
+18ID:Scans:scan3.D31PV 
+18ID:Scans:scan3.D32PV 
+18ID:Scans:scan3.D33PV 
+18ID:Scans:scan3.D34PV 
+18ID:Scans:scan3.D35PV 
+18ID:Scans:scan3.D36PV 
+18ID:Scans:scan3.D37PV 
+18ID:Scans:scan3.D38PV 
+18ID:Scans:scan3.D39PV 
+18ID:Scans:scan3.D40PV 
+18ID:Scans:scan3.D41PV 
+18ID:Scans:scan3.D42PV 
+18ID:Scans:scan3.D43PV 
+18ID:Scans:scan3.D44PV 
+18ID:Scans:scan3.D45PV 
+18ID:Scans:scan3.D46PV 
+18ID:Scans:scan3.D47PV 
+18ID:Scans:scan3.D48PV 
+18ID:Scans:scan3.D49PV 
+18ID:Scans:scan3.D50PV 
+18ID:Scans:scan3.D51PV 
+18ID:Scans:scan3.D52PV 
+18ID:Scans:scan3.D53PV 
+18ID:Scans:scan3.D54PV 
+18ID:Scans:scan3.D55PV 
+18ID:Scans:scan3.D56PV 
+18ID:Scans:scan3.D57PV 
+18ID:Scans:scan3.D58PV 
+18ID:Scans:scan3.D59PV 
+18ID:Scans:scan3.D60PV 
+18ID:Scans:scan3.D61PV 
+18ID:Scans:scan3.D62PV 
+18ID:Scans:scan3.D63PV 
+18ID:Scans:scan3.D64PV 
+18ID:Scans:scan3.D65PV 
+18ID:Scans:scan3.D66PV 
+18ID:Scans:scan3.D67PV 
+18ID:Scans:scan3.D68PV 
+18ID:Scans:scan3.D69PV 
+18ID:Scans:scan3.D70PV 
+18ID:Scans:scan4.ATIME 0
+18ID:Scans:scan4.COPYTO 0
+18ID:Scans:scan4.AAWAIT 1
+18ID:Scans:scan4.FLNK 
+18ID:Scans:scan4.NPTS 10
+18ID:Scans:scan4.ACQT 0
+18ID:Scans:scan4.ACQM 0
+18ID:Scans:scan4.PASM 0
+18ID:Scans:scan4.BSPV 
+18ID:Scans:scan4.BSCD 1
+18ID:Scans:scan4.BSWAIT 0
+18ID:Scans:scan4.ASPV 
+18ID:Scans:scan4.ASCD 1
+18ID:Scans:scan4.ASWAIT 0
+18ID:Scans:scan4.T1PV 18ID:Scans:scan3.EXSC
+18ID:Scans:scan4.T1CD 1
+18ID:Scans:scan4.T2PV 
+18ID:Scans:scan4.T2CD 1
+18ID:Scans:scan4.T3PV 
+18ID:Scans:scan4.T3CD 1
+18ID:Scans:scan4.T4PV 
+18ID:Scans:scan4.T4CD 1
+18ID:Scans:scan4.P1PV 
+18ID:Scans:scan4.R1PV 
+18ID:Scans:scan4.P1SM 0
+18ID:Scans:scan4.P1SP 0
+18ID:Scans:scan4.P1EP 0
+18ID:Scans:scan4.P1AR 0
+18ID:Scans:scan4.P2PV 
+18ID:Scans:scan4.R2PV 
+18ID:Scans:scan4.P2SM 0
+18ID:Scans:scan4.P2SP 0
+18ID:Scans:scan4.P2EP 0
+18ID:Scans:scan4.P2AR 0
+18ID:Scans:scan4.P3PV 
+18ID:Scans:scan4.R3PV 
+18ID:Scans:scan4.P3SM 0
+18ID:Scans:scan4.P3SP 0
+18ID:Scans:scan4.P3EP 0
+18ID:Scans:scan4.P3AR 0
+18ID:Scans:scan4.P4PV 
+18ID:Scans:scan4.R4PV 
+18ID:Scans:scan4.P4SM 0
+18ID:Scans:scan4.P4SP 0
+18ID:Scans:scan4.P4EP 0
+18ID:Scans:scan4.P4AR 0
+18ID:Scans:scan4.PDLY 0
+18ID:Scans:scan4.DDLY 0
+18ID:Scans:scan4.REFD 1
+18ID:Scans:scan4.AWCT 0
+18ID:Scans:scan4.A1PV 
+18ID:Scans:scan4.A1CD 1
+18ID:Scans:scan4.D01PV 
+18ID:Scans:scan4.D02PV 
+18ID:Scans:scan4.D03PV 
+18ID:Scans:scan4.D04PV 
+18ID:Scans:scan4.D05PV 
+18ID:Scans:scan4.D06PV 
+18ID:Scans:scan4.D07PV 
+18ID:Scans:scan4.D08PV 
+18ID:Scans:scan4.D09PV 
+18ID:Scans:scan4.D10PV 
+18ID:Scans:scan4.D11PV 
+18ID:Scans:scan4.D12PV 
+18ID:Scans:scan4.D13PV 
+18ID:Scans:scan4.D14PV 
+18ID:Scans:scan4.D15PV 
+18ID:Scans:scan4.D16PV 
+18ID:Scans:scan4.D17PV 
+18ID:Scans:scan4.D18PV 
+18ID:Scans:scan4.D19PV 
+18ID:Scans:scan4.D20PV 
+18ID:Scans:scan4.D21PV 
+18ID:Scans:scan4.D22PV 
+18ID:Scans:scan4.D23PV 
+18ID:Scans:scan4.D24PV 
+18ID:Scans:scan4.D25PV 
+18ID:Scans:scan4.D26PV 
+18ID:Scans:scan4.D27PV 
+18ID:Scans:scan4.D28PV 
+18ID:Scans:scan4.D29PV 
+18ID:Scans:scan4.D30PV 
+18ID:Scans:scan4.D31PV 
+18ID:Scans:scan4.D32PV 
+18ID:Scans:scan4.D33PV 
+18ID:Scans:scan4.D34PV 
+18ID:Scans:scan4.D35PV 
+18ID:Scans:scan4.D36PV 
+18ID:Scans:scan4.D37PV 
+18ID:Scans:scan4.D38PV 
+18ID:Scans:scan4.D39PV 
+18ID:Scans:scan4.D40PV 
+18ID:Scans:scan4.D41PV 
+18ID:Scans:scan4.D42PV 
+18ID:Scans:scan4.D43PV 
+18ID:Scans:scan4.D44PV 
+18ID:Scans:scan4.D45PV 
+18ID:Scans:scan4.D46PV 
+18ID:Scans:scan4.D47PV 
+18ID:Scans:scan4.D48PV 
+18ID:Scans:scan4.D49PV 
+18ID:Scans:scan4.D50PV 
+18ID:Scans:scan4.D51PV 
+18ID:Scans:scan4.D52PV 
+18ID:Scans:scan4.D53PV 
+18ID:Scans:scan4.D54PV 
+18ID:Scans:scan4.D55PV 
+18ID:Scans:scan4.D56PV 
+18ID:Scans:scan4.D57PV 
+18ID:Scans:scan4.D58PV 
+18ID:Scans:scan4.D59PV 
+18ID:Scans:scan4.D60PV 
+18ID:Scans:scan4.D61PV 
+18ID:Scans:scan4.D62PV 
+18ID:Scans:scan4.D63PV 
+18ID:Scans:scan4.D64PV 
+18ID:Scans:scan4.D65PV 
+18ID:Scans:scan4.D66PV 
+18ID:Scans:scan4.D67PV 
+18ID:Scans:scan4.D68PV 
+18ID:Scans:scan4.D69PV 
+18ID:Scans:scan4.D70PV 
+18ID:Scans:scanH.ATIME 0
+18ID:Scans:scanH.COPYTO 0
+18ID:Scans:scanH.AAWAIT 1
+18ID:Scans:scanH.FLNK 
+18ID:Scans:scanH.NPTS 10
+18ID:Scans:scanH.ACQT 1
+18ID:Scans:scanH.ACQM 0
+18ID:Scans:scanH.PASM 0
+18ID:Scans:scanH.BSPV 
+18ID:Scans:scanH.BSCD 1
+18ID:Scans:scanH.BSWAIT 0
+18ID:Scans:scanH.ASPV 
+18ID:Scans:scanH.ASCD 1
+18ID:Scans:scanH.ASWAIT 0
+18ID:Scans:scanH.T1PV 
+18ID:Scans:scanH.T1CD 1
+18ID:Scans:scanH.T2PV 
+18ID:Scans:scanH.T2CD 1
+18ID:Scans:scanH.T3PV 
+18ID:Scans:scanH.T3CD 1
+18ID:Scans:scanH.T4PV 
+18ID:Scans:scanH.T4CD 1
+18ID:Scans:scanH.P1PV 
+18ID:Scans:scanH.R1PV 
+18ID:Scans:scanH.P1SM 0
+18ID:Scans:scanH.P1SP 0
+18ID:Scans:scanH.P1EP 0
+18ID:Scans:scanH.P1AR 0
+18ID:Scans:scanH.P2PV 
+18ID:Scans:scanH.R2PV 
+18ID:Scans:scanH.P2SM 0
+18ID:Scans:scanH.P2SP 0
+18ID:Scans:scanH.P2EP 0
+18ID:Scans:scanH.P2AR 0
+18ID:Scans:scanH.P3PV 
+18ID:Scans:scanH.R3PV 
+18ID:Scans:scanH.P3SM 0
+18ID:Scans:scanH.P3SP 0
+18ID:Scans:scanH.P3EP 0
+18ID:Scans:scanH.P3AR 0
+18ID:Scans:scanH.P4PV 
+18ID:Scans:scanH.R4PV 
+18ID:Scans:scanH.P4SM 0
+18ID:Scans:scanH.P4SP 0
+18ID:Scans:scanH.P4EP 0
+18ID:Scans:scanH.P4AR 0
+18ID:Scans:scanH.PDLY 0
+18ID:Scans:scanH.DDLY 0
+18ID:Scans:scanH.REFD 1
+18ID:Scans:scanH.AWCT 0
+18ID:Scans:scanH.A1PV 
+18ID:Scans:scanH.A1CD 1
+18ID:Scans:scanH.D01PV 
+18ID:Scans:scanH.D02PV 
+18ID:Scans:scanH.D03PV 
+18ID:Scans:scanH.D04PV 
+18ID:Scans:scanH.D05PV 
+18ID:Scans:scanH.D06PV 
+18ID:Scans:scanH.D07PV 
+18ID:Scans:scanH.D08PV 
+18ID:Scans:scanH.D09PV 
+18ID:Scans:scanH.D10PV 
+18ID:Scans:scanH.D11PV 
+18ID:Scans:scanH.D12PV 
+18ID:Scans:scanH.D13PV 
+18ID:Scans:scanH.D14PV 
+18ID:Scans:scanH.D15PV 
+18ID:Scans:scanH.D16PV 
+18ID:Scans:scanH.D17PV 
+18ID:Scans:scanH.D18PV 
+18ID:Scans:scanH.D19PV 
+18ID:Scans:scanH.D20PV 
+18ID:Scans:scanH.D21PV 
+18ID:Scans:scanH.D22PV 
+18ID:Scans:scanH.D23PV 
+18ID:Scans:scanH.D24PV 
+18ID:Scans:scanH.D25PV 
+18ID:Scans:scanH.D26PV 
+18ID:Scans:scanH.D27PV 
+18ID:Scans:scanH.D28PV 
+18ID:Scans:scanH.D29PV 
+18ID:Scans:scanH.D30PV 
+18ID:Scans:scanH.D31PV 
+18ID:Scans:scanH.D32PV 
+18ID:Scans:scanH.D33PV 
+18ID:Scans:scanH.D34PV 
+18ID:Scans:scanH.D35PV 
+18ID:Scans:scanH.D36PV 
+18ID:Scans:scanH.D37PV 
+18ID:Scans:scanH.D38PV 
+18ID:Scans:scanH.D39PV 
+18ID:Scans:scanH.D40PV 
+18ID:Scans:scanH.D41PV 
+18ID:Scans:scanH.D42PV 
+18ID:Scans:scanH.D43PV 
+18ID:Scans:scanH.D44PV 
+18ID:Scans:scanH.D45PV 
+18ID:Scans:scanH.D46PV 
+18ID:Scans:scanH.D47PV 
+18ID:Scans:scanH.D48PV 
+18ID:Scans:scanH.D49PV 
+18ID:Scans:scanH.D50PV 
+18ID:Scans:scanH.D51PV 
+18ID:Scans:scanH.D52PV 
+18ID:Scans:scanH.D53PV 
+18ID:Scans:scanH.D54PV 
+18ID:Scans:scanH.D55PV 
+18ID:Scans:scanH.D56PV 
+18ID:Scans:scanH.D57PV 
+18ID:Scans:scanH.D58PV 
+18ID:Scans:scanH.D59PV 
+18ID:Scans:scanH.D60PV 
+18ID:Scans:scanH.D61PV 
+18ID:Scans:scanH.D62PV 
+18ID:Scans:scanH.D63PV 
+18ID:Scans:scanH.D64PV 
+18ID:Scans:scanH.D65PV 
+18ID:Scans:scanH.D66PV 
+18ID:Scans:scanH.D67PV 
+18ID:Scans:scanH.D68PV 
+18ID:Scans:scanH.D69PV 
+18ID:Scans:scanH.D70PV 
+18ID:Scans:saveData_fileSystem 
+18ID:Scans:saveData_subDir 
+18ID:Scans:saveData_baseName 
+18ID:Scans:saveData_scanNumber 0
+18ID:Scans:saveData_realTime1D 0
+18ID:Scans:saveData_maxAllowedRetries 10
+18ID:Scans:saveData_retryWaitInSecs 15
+18ID:USBCTR08:1:Dark1.VAL 0
+18ID:USBCTR08:1:Dark1.DRVH 0
+18ID:USBCTR08:1:Dark1.DRVL 0
+18ID:USBCTR08:1:Dark1.DESC 1 Dark counts
+18ID:USBCTR08:1:Dark1.EGU 
+18ID:USBCTR08:1:Dark2.VAL 0
+18ID:USBCTR08:1:Dark2.DRVH 0
+18ID:USBCTR08:1:Dark2.DRVL 0
+18ID:USBCTR08:1:Dark2.DESC 2 Dark counts
+18ID:USBCTR08:1:Dark2.EGU 
+18ID:USBCTR08:1:Dark3.VAL 0
+18ID:USBCTR08:1:Dark3.DRVH 0
+18ID:USBCTR08:1:Dark3.DRVL 0
+18ID:USBCTR08:1:Dark3.DESC 3 Dark counts
+18ID:USBCTR08:1:Dark3.EGU 
+18ID:USBCTR08:1:Dark4.VAL 0
+18ID:USBCTR08:1:Dark4.DRVH 0
+18ID:USBCTR08:1:Dark4.DRVL 0
+18ID:USBCTR08:1:Dark4.DESC 4 Dark counts
+18ID:USBCTR08:1:Dark4.EGU 
+18ID:USBCTR08:1:Dark5.VAL 0
+18ID:USBCTR08:1:Dark5.DRVH 0
+18ID:USBCTR08:1:Dark5.DRVL 0
+18ID:USBCTR08:1:Dark5.DESC 5 Dark counts
+18ID:USBCTR08:1:Dark5.EGU 
+18ID:USBCTR08:1:Dark6.VAL 0
+18ID:USBCTR08:1:Dark6.DRVH 0
+18ID:USBCTR08:1:Dark6.DRVL 0
+18ID:USBCTR08:1:Dark6.DESC 6 Dark counts
+18ID:USBCTR08:1:Dark6.EGU 
+18ID:USBCTR08:1:Dark7.VAL 0
+18ID:USBCTR08:1:Dark7.DRVH 0
+18ID:USBCTR08:1:Dark7.DRVL 0
+18ID:USBCTR08:1:Dark7.DESC 7 Dark counts
+18ID:USBCTR08:1:Dark7.EGU 
+18ID:USBCTR08:1:Dark8.VAL 0
+18ID:USBCTR08:1:Dark8.DRVH 0
+18ID:USBCTR08:1:Dark8.DRVL 0
+18ID:USBCTR08:1:Dark8.DESC 8 Dark counts
+18ID:USBCTR08:1:Dark8.EGU 
+18ID:USBCTR08:2:Dark1.VAL 0
+18ID:USBCTR08:2:Dark1.DRVH 0
+18ID:USBCTR08:2:Dark1.DRVL 0
+18ID:USBCTR08:2:Dark1.DESC 1 Dark counts
+18ID:USBCTR08:2:Dark1.EGU 
+18ID:USBCTR08:2:Dark2.VAL 0
+18ID:USBCTR08:2:Dark2.DRVH 0
+18ID:USBCTR08:2:Dark2.DRVL 0
+18ID:USBCTR08:2:Dark2.DESC 2 Dark counts
+18ID:USBCTR08:2:Dark2.EGU 
+18ID:USBCTR08:2:Dark3.VAL 0
+18ID:USBCTR08:2:Dark3.DRVH 0
+18ID:USBCTR08:2:Dark3.DRVL 0
+18ID:USBCTR08:2:Dark3.DESC 3 Dark counts
+18ID:USBCTR08:2:Dark3.EGU 
+18ID:USBCTR08:2:Dark4.VAL 0
+18ID:USBCTR08:2:Dark4.DRVH 0
+18ID:USBCTR08:2:Dark4.DRVL 0
+18ID:USBCTR08:2:Dark4.DESC 4 Dark counts
+18ID:USBCTR08:2:Dark4.EGU 
+18ID:USBCTR08:2:Dark5.VAL 0
+18ID:USBCTR08:2:Dark5.DRVH 0
+18ID:USBCTR08:2:Dark5.DRVL 0
+18ID:USBCTR08:2:Dark5.DESC 5 Dark counts
+18ID:USBCTR08:2:Dark5.EGU 
+18ID:USBCTR08:2:Dark6.VAL 0
+18ID:USBCTR08:2:Dark6.DRVH 0
+18ID:USBCTR08:2:Dark6.DRVL 0
+18ID:USBCTR08:2:Dark6.DESC 6 Dark counts
+18ID:USBCTR08:2:Dark6.EGU 
+18ID:USBCTR08:2:Dark7.VAL 0
+18ID:USBCTR08:2:Dark7.DRVH 0
+18ID:USBCTR08:2:Dark7.DRVL 0
+18ID:USBCTR08:2:Dark7.DESC 7 Dark counts
+18ID:USBCTR08:2:Dark7.EGU 
+18ID:USBCTR08:2:Dark8.VAL 0
+18ID:USBCTR08:2:Dark8.DRVH 0
+18ID:USBCTR08:2:Dark8.DRVL 0
+18ID:USBCTR08:2:Dark8.DESC 8 Dark counts
+18ID:USBCTR08:2:Dark8.EGU 
 <END>

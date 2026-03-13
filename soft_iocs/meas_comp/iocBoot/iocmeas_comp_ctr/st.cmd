@@ -76,7 +76,6 @@ dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX), R=
 dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX), R=$(RNAME)8,  INP=@asyn($(PORT) 7),  CHANS=$(MAX_POINTS)")
 dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX), R=$(RNAME)9,  INP=@asyn($(PORT) 8),  CHANS=$(MAX_POINTS)")
 
-
 # CTR08 2
 ## Configure port driver
 # USBCTRConfig(portName,       # The name to give to this asyn port driver
@@ -119,6 +118,8 @@ dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R
 dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R=$(RNAME2)8,  INP=@asyn($(PORT2) 7),  CHANS=$(MAX_POINTS2)")
 dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R=$(RNAME2)9,  INP=@asyn($(PORT2) 8),  CHANS=$(MAX_POINTS2)")
 
+# Load dark counters
+dbLoadTemplate("./dark.substitutions")
 
 ### Scan-support software
 # crate-resident scan.  This executes 1D, 2D, 3D, and 4D scans, and caches
@@ -137,5 +138,39 @@ seq(USBCTR_SNL, "P=$(MCS_PREFIX2), R=$(RNAME2), NUM_COUNTERS=$(MAX_COUNTERS2), F
 saveData_Init("saveData.req", "P=18ID:Scans:")
 
 create_monitor_set("auto_settings.req",30,"P1=$(PREFIX),MP1=$(MCS_PREFIX),P2=$(PREFIX2),MP2=$(MCS_PREFIX2),SP=18ID:Scans:")
+
+# Set up scaler counters for dark counts
+# Put dark count vals in INPJ, put calculated count time (assumed as calc1, in input k for everything except calc1)
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc1.INPJ", "$(PREFIX)Dark1.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc2.INPJ", "$(PREFIX)Dark2.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc2.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc3.INPJ", "$(PREFIX)Dark3.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc3.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc4.INPJ", "$(PREFIX)Dark4.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc4.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc5.INPJ", "$(PREFIX)Dark5.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc5.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc6.INPJ", "$(PREFIX)Dark6.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc6.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc7.INPJ", "$(PREFIX)Dark7.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc7.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc8.INPJ", "$(PREFIX)Dark8.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX)$(SCALER_NAME)_calc8.INPK", "$(SCALER_PREFIX)$(SCALER_NAME)_calc1.VAL NPP NMS")
+
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.INPJ", "$(PREFIX2)Dark1.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc2.INPJ", "$(PREFIX2)Dark2.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc2.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc3.INPJ", "$(PREFIX2)Dark3.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc3.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc4.INPJ", "$(PREFIX2)Dark4.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc4.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc5.INPJ", "$(PREFIX2)Dark5.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc5.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc6.INPJ", "$(PREFIX2)Dark6.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc6.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc7.INPJ", "$(PREFIX2)Dark7.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc7.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc8.INPJ", "$(PREFIX2)Dark8.OVAL NPP NMS")
+dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc8.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
 
 date
