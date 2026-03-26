@@ -177,7 +177,7 @@ dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc8.INPK", "$(SCALER_PREFIX2)$(SCALER_N
 dbpf("$(MCS_PREFIX)DarkSub:mca8.FLNK", "")
 dbpf("$(MCS_PREFIX2)DarkSub:mca8.FLNK", "")
 
-dbpf("$(MCS_PREFIX)mca1.FLNK", "$(MCS_PREFIX)TimeCalc:mca1.PROC PP")
-dbpf("$(MCS_PREFIX2)mca1.FLNK", "$(MCS_PREFIX)TimeCalc:mca1.PROC PP")
+dbpf("$(MCS_PREFIX)mca1.FLNK", "$(MCS_PREFIX)StartDarkSub.PROC PP")
+dbpf("$(MCS_PREFIX2)mca1.FLNK", "$(MCS_PREFIX2)StartDarkSub.PROC PP")
 
 date

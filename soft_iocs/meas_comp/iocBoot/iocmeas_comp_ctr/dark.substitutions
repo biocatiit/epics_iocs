@@ -52,3 +52,8 @@ file "./dark_acalcout.template" { pattern
 {18ID:USBCTR08:2:MCS:,  18ID:USBCTR08:2:,  8,  9,  "$(N2)"}
 }
 
+file "./dark_nuse.template" { pattern
+{P,                     R}
+{18ID:USBCTR08:1:MCS:,  1}
+{18ID:USBCTR08:2:MCS:,  1}
+}

@@ -9,4 +9,5 @@ record(acalcout, "$(P)DarkSub:mca$(R)") {
   field(CALC, "AA-(BB*A)")
   field(NELM, $(NELM))
   field(FLNK, "$(P)DarkSub:mca$(L).PROC PP")
+  field(SIZE, "NUSE")
 }

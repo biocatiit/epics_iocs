@@ -8,4 +8,5 @@ record(acalcout, "$(P)TimeCalc:mca$(R)") {
   field(CALC, "AA/A")
   field(NELM, $(NELM))
   field(FLNK, "$(P)DarkSub:mca1.PROC PP")
+  field(SIZE, "NUSE")
 }
