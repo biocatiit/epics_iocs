@@ -119,7 +119,7 @@ dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R
 dbLoadRecords("$(MCA)/mcaApp/Db/SIS38XX_waveform.template", "P=$(MCS_PREFIX2), R=$(RNAME2)9,  INP=@asyn($(PORT2) 8),  CHANS=$(MAX_POINTS2)")
 
 # Load dark counters
-dbLoadTemplate("./dark.substitutions")
+dbLoadTemplate("./dark.substitutions","N1=$(MAX_POINTS),N2=$(MAX_POINTS2)")
 
 ### Scan-support software
 # crate-resident scan.  This executes 1D, 2D, 3D, and 4D scans, and caches
@@ -172,5 +172,12 @@ dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc7.INPJ", "$(PREFIX2)Dark7.OVAL NPP NM
 dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc7.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
 dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc8.INPJ", "$(PREFIX2)Dark8.OVAL NPP NMS")
 dbpf("$(SCALER_PREFIX2)$(SCALER_NAME2)_calc8.INPK", "$(SCALER_PREFIX2)$(SCALER_NAME2)_calc1.VAL NPP NMS")
+
+#Set up dark correction for mcs, by fixing flinks
+dbpf("$(MCS_PREFIX)DarkSub:mca8.FLNK", "")
+dbpf("$(MCS_PREFIX2)DarkSub:mca8.FLNK", "")
+
+dbpf("$(MCS_PREFIX)mca1.FLNK", "$(MCS_PREFIX)TimeCalc:mca1.PROC PP")
+dbpf("$(MCS_PREFIX2)mca1.FLNK", "$(MCS_PREFIX)TimeCalc:mca1.PROC PP")
 
 date

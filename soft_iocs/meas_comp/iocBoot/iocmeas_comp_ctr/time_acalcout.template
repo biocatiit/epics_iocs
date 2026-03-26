@@ -1,0 +1,11 @@
+# acalcout record to contain dark subtracted MCS values
+record(acalcout, "$(P)TimeCalc:mca$(R)") {
+  field(DESC, "mca$(R) time")
+  field(SCAN, "Passive")
+  field(PREC, 3)
+  field(INAA, "$(P)mca$(R)")
+  field(INPA, "$(SP)scaler1.FREQ")
+  field(CALC, "AA/A")
+  field(NELM, $(NELM))
+  field(FLNK, "$(P)DarkSub:mca1.PROC PP")
+}
