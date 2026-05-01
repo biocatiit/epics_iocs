@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260302-101427
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260501-165913
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Tripod:cam1:BinX 1
 18ID:FLIR:D:Tripod:cam1:BinY 1
@@ -9,8 +9,8 @@
 18ID:FLIR:D:Tripod:cam1:ReverseX 0
 18ID:FLIR:D:Tripod:cam1:ReverseY 0
 18ID:FLIR:D:Tripod:cam1:AcquireTime 0.025
-18ID:FLIR:D:Tripod:cam1:AcquirePeriod 0.162338368
-18ID:FLIR:D:Tripod:cam1:Gain 30
+18ID:FLIR:D:Tripod:cam1:AcquirePeriod 0.066668456
+18ID:FLIR:D:Tripod:cam1:Gain 20
 18ID:FLIR:D:Tripod:cam1:FrameType 0
 18ID:FLIR:D:Tripod:cam1:ImageMode 2
 18ID:FLIR:D:Tripod:cam1:TriggerMode 0
