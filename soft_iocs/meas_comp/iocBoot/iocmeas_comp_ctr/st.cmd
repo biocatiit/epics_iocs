@@ -135,7 +135,8 @@ seq(USBCTR_SNL, "P=$(MCS_PREFIX), R=$(RNAME), NUM_COUNTERS=$(MAX_COUNTERS), FIEL
 seq(USBCTR_SNL, "P=$(MCS_PREFIX2), R=$(RNAME2), NUM_COUNTERS=$(MAX_COUNTERS2), FIELD=$(FIELD2)")
 
 # Initialize saveData for step scans
-saveData_Init("saveData.req", "P=18ID:Scans:")
+# saveData_Init("saveData.req", "P=18ID:Scans:")
+# If you don't use it, this will cause the scans to hang because no data is saved, so it's turned off here
 
 create_monitor_set("auto_settings.req",30,"P1=$(PREFIX),MP1=$(MCS_PREFIX),P2=$(PREFIX2),MP2=$(MCS_PREFIX2),SP=18ID:Scans:")
 
