@@ -23,5 +23,4 @@ pushd /opt/epics/epics_iocs/shortcuts
 ./start_ioc_camera_mono1.sh start
 ./start_ioc_camera_coflow_needle.sh start
 ./start_ioc_camera_coflow_perp.sh start
-./start_ioc_toaster.sh start
 popd
