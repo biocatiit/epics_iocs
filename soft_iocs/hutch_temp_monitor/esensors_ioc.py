@@ -3,6 +3,7 @@ import traceback
 import time
 import json
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 
 from softioc import softioc, builder, asyncio_dispatcher
 # import cothread
@@ -10,7 +11,8 @@ import requests
 
 class ESensor:
     """ read Esensor data, push to Epics PVs"""
-    def __init__(self, label, url, tempc_pv, tempf_pv, humid_pv, timestamp_pv):
+    def __init__(self, label, url, tempc_pv, tempf_pv, humid_pv, timestamp_pv,
+        tsensor_name='', hsensor_name=''):
         self.label = label
         self.url = url
         # self.prefix = prefix
@@ -21,6 +23,9 @@ class ESensor:
         self.humid_pv = humid_pv
         self.timestamp_pv = timestamp_pv
         self.session = requests.Session()
+
+        self.tsensor_name = tsensor_name
+        self.hsensor_name = hsensor_name
 
         if self.format == 'xml':
             self.tattr = "tm0"
@@ -33,7 +38,30 @@ class ESensor:
             self.tunit = "tun"
             self.reader = json.loads
 
-    def getval(self, source, attr, force_float=True):
+        resp = self.session.get(self.url, timeout=0.5)
+        tdat = self.reader(resp.content.decode("utf-8"))
+
+        if self.format == 'xml':
+            ver = tdat.find("ver")
+        elif self.format == 'json':
+            ver = tdat.get("ver", '')
+
+        if ver.startswith('PR7X'):
+            self.model = 'PR7X' # With lux
+        elif ver.startswith('PR6X'):
+            self.model = 'PR6X'
+
+        if self.model == 'PR6X':
+            if self.format == 'xml':
+                self.tattr = "tm0"
+                self.tunit = "tun0"
+                self.hattr = "hu0"
+            elif self.format == "json":
+                self.tattr = "tmp"
+                self.hattr = "hum"
+                self.tunit = "tun"
+
+    def getval6x(self, source, attr, force_float=True):
         if self.format == "xml":
             try:
                 val = source.find(attr).text
@@ -51,13 +79,56 @@ class ESensor:
                 val = -1.0
         return val
 
+    def getall7x(self, source, force_float=True):
+        if self.format == "xml":
+            try:
+                sdata = source.find('sensors')
+                cdata = sdata.find('channels')
+                data = sdata.find('info')
+                # Needs work
+            except:
+                val = "-1"
+
+        elif self.format == 'json':
+            try:
+                sdata = source.get('sensors')
+                cdata = sdata['channels']
+                for item in cdata:
+                    idata = item['info']
+                    for sdata in idata:
+                        if sdata['name'] == self.tsensor_name:
+                            tdata = sdata['data']
+                            tunit = sdata['unit']
+                        elif sdata['name'] == self.hsensor_name:
+                            hdata = sdata['data']
+
+                if force_float:
+                    try:
+                        tdata = float(tdata)
+                    except Exception:
+                        tdata = -1.0
+
+                    try:
+                        hdata = float(hdata)
+                    except Exception:
+                        hdata = -1.0
+            except Exception:
+                # traceback.print_exc()
+                pass
+
+        return tdata, tunit, hdata
+
     def read(self):
         resp = self.session.get(self.url, timeout=0.5)
         tdat = self.reader(resp.content.decode("utf-8"))
 
-        tunt = self.getval(tdat, self.tunit, force_float=False)
-        tval = self.getval(tdat, self.tattr)
-        hval = self.getval(tdat, self.hattr)
+        if self.model == 'PR6X':
+            tunt = self.getval6x(tdat, self.tunit, force_float=False)
+            tval = self.getval6x(tdat, self.tattr)
+            hval = self.getval6x(tdat, self.hattr)
+        elif self.model == 'PR7X':
+            tval, tunt, hval = self.getall7x(tdat)
+
         return tval, tunt, hval
 
     def update(self):
@@ -88,11 +159,22 @@ if __name__ == '__main__':
         ['18ID:EnvMon:D', "http://164.54.204.197/status.json"],
         ['18ID:EnvMon:C', "http://164.54.204.198/status.json"],
         ['18ID:EnvMon:A', "http://164.54.204.199/status.json"],
+        ['18ID:EnvMon:WetLab', "http://164.54.204.143/status.json",
+            'Wet-Lab Temperature Sensor', 'Humidity Sensor']
         ]
 
     for sensor_def in sensor_defs:
         prefix = sensor_def[0]
         url = sensor_def[1]
+
+        # Ones with lux sensor
+        if len(sensor_def) > 2:
+            tname = sensor_def[2]
+            hname = sensor_def[3]
+        else:
+            tname = ''
+            hname = ''
+
         # Set the record prefix
         builder.SetDeviceName(prefix)
 
@@ -106,20 +188,24 @@ if __name__ == '__main__':
         si_t = builder.stringIn('TimeStamp', initial_value="",
             DESC='Timestamp of last update')
 
-        esensor = ESensor(prefix, url, ai_c, ai_f, ai_h, si_t)
+        esensor = ESensor(prefix, url, ai_c, ai_f, ai_h, si_t, tname, hname)
         esensors.append(esensor)
 
     # Boilerplate get the IOC started
     builder.LoadDatabase()
     softioc.iocInit(dispatcher)
 
+    tpool = ThreadPoolExecutor()
+
     # Start processes required to be run after iocInit
     async def update():
         while True:
             try:
-                [e.update() for e in esensors]
+                futures =[tpool.submit(e.update()) for e in esensors]
+                while not all([f.done() for f in futures]):
+                    await asyncio.sleep(0.1)
             except Exception:
-                # traceback.print_exc()
+                traceback.print_exc()
                 pass
             await asyncio.sleep(0.5)
 

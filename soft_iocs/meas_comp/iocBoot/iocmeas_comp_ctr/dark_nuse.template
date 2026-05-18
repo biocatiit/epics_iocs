@@ -1,0 +1,29 @@
+# dfanout record to set NUSE for all the dark subtraction and associated mca records
+record(dfanout, "$(P)StartDarkSub") {
+  field(DESC, "Starts dark subtraction of mca records")
+  field(SCAN, "Passive")
+  field(DOL, "$(P)NuseAll NPP")
+  field(OMSL, "closed_loop")
+  field(SELM, "All")
+  field(OUTA, "$(P)TimeCalc:mca$(R).NUSE NPP")
+  field(OUTB, "$(P)DarkSub:mca1.NUSE NPP")
+  field(OUTC, "$(P)DarkSub:mca2.NUSE NPP")
+  field(OUTD, "$(P)DarkSub:mca3.NUSE NPP")
+  field(OUTE, "$(P)DarkSub:mca4.NUSE NPP")
+  field(OUTF, "$(P)DarkSub:mca5.NUSE NPP")
+  field(OUTG, "$(P)DarkSub:mca6.NUSE NPP")
+  field(OUTH, "$(P)StartDarkSub2.VAL NPP")
+  field(FLNK, "$(P)StartDarkSub2.PROC PP")
+}
+
+# Need 2 because dfanout only supports 8 output links prior to base 7.0.10
+record(dfanout, "$(P)StartDarkSub2") {
+  field(DESC, "Starts dark subtraction of mca records")
+  field(SCAN, "Passive")
+  field(DOL, "")
+  field(OMSL, "supervisory")
+  field(SELM, "All")
+  field(OUTA, "$(P)DarkSub:mca7.NUSE NPP")
+  field(OUTB, "$(P)DarkSub:mca8.NUSE NPP")
+  field(FLNK, "$(P)TimeCalc:mca$(R).PROC PP")
+}

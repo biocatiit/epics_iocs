@@ -10,7 +10,7 @@
 #!EPICS_HOST_ARCH=linux-x86_64
 #!EPICS_HOST_ARCH=linux-x86_64-debug
 
-IOC_NAME=IOC_FLIR_INLINE
+IOC_NAME=IOC_FLIR_COFLOW_NEEDLE
 # The name of the IOC binary isn't necessarily the same as the name of the IOC
 IOC_BINARY="../../bin/linux-x86_64/flir_cameras"
 
