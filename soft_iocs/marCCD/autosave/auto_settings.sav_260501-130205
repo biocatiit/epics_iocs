@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260518-101422
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260501-130111
 Mar165:cam1:BinX 2
 Mar165:cam1:BinY 2
 Mar165:cam1:MinX 0
@@ -26,7 +26,7 @@ Mar165:cam1:ShutterStatusEPICS_RBV.INP test CP MS
 Mar165:cam1:ShutterStatusEPICS_RBV.ZRVL 0
 Mar165:cam1:ShutterStatusEPICS_RBV.ONVL 1
 Mar165:cam1:Temperature 25
-Mar165:cam1:ReadStatus.SCAN 0
+Mar165:cam1:ReadStatus.SCAN 3
 Mar165:cam1:DataType 2
 Mar165:cam1:ColorMode 0
 Mar165:cam1:ArrayCallbacks 1
@@ -36,8 +36,8 @@ Mar165:cam1:PoolPollStats.SCAN 6
 Mar165:cam1:NumPreAllocBuffers 100
 Mar165:cam1:WaitForPlugins 0
 Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "77" "97" "114" "67" "67" "68" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "52" "95" "50" "51" "95" "72" "111" "112" "107" "105" "110" "115" "47" "116" "101" "115" "116" "95" "97" "105" "114" "115" "104" "111" "116" "0" }
-Mar165:cam1:FileName @array@ { "116" "97" "53" "95" "48" "49" "48" "0" }
-Mar165:cam1:FileNumber 4
+Mar165:cam1:FileName @array@ { "116" "97" "50" "95" "48" "48" "49" "0" }
+Mar165:cam1:FileNumber 1
 Mar165:cam1:AutoIncrement 1
 Mar165:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "54" "46" "54" "100" "46" "116" "105" "102" "0" }
 Mar165:cam1:AutoSave 1

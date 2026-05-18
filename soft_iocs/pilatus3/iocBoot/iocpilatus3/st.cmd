@@ -26,7 +26,7 @@ epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(ADCORE)/db")
 
 ###
 # Create the asyn port to talk to the Pilatus on port 41234.
-drvAsynIPPortConfigure("camserver","164.54.204.205:41234")
+drvAsynIPPortConfigure("camserver","164.54.204.8:41234")
 # Uncomment the following to enable asynTrace on the camserver port
 #asynSetTraceIOMask("camserver",0,2)
 #asynSetTraceMask("camserver",0,9)

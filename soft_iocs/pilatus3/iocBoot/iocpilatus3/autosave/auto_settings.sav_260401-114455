@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260518-101947
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260401-111844
 18IDpil1M:cam1:BinX 1
 18IDpil1M:cam1:BinY 1
 18IDpil1M:cam1:MinX 0
@@ -14,7 +14,7 @@
 18IDpil1M:cam1:ImageMode 2
 18IDpil1M:cam1:TriggerMode 1
 18IDpil1M:cam1:NumExposures 1
-18IDpil1M:cam1:NumImages 11600
+18IDpil1M:cam1:NumImages 232
 18IDpil1M:cam1:ShutterMode 0
 18IDpil1M:cam1:ShutterOpenDelay 0
 18IDpil1M:cam1:ShutterCloseDelay 0
@@ -35,8 +35,8 @@
 18IDpil1M:cam1:PoolPollStats.SCAN 6
 18IDpil1M:cam1:NumPreAllocBuffers 100
 18IDpil1M:cam1:WaitForPlugins 0
-18IDpil1M:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "112" "105" "108" "97" "116" "117" "115" "47" "50" "48" "50" "54" "95" "49" "77" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "52" "95" "48" "49" "95" "72" "111" "112" "107" "105" "110" "115" "47" "116" "101" "115" "116" "115" "47" "115" "99" "97" "110" "95" "98" "119" "51" "0" }
-18IDpil1M:cam1:FileName @array@ { "115" "98" "51" "95" "48" "48" "51" "0" }
+18IDpil1M:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "95" "112" "105" "108" "97" "116" "117" "115" "47" "50" "48" "50" "54" "95" "49" "77" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "52" "95" "48" "49" "95" "72" "111" "112" "107" "105" "110" "115" "47" "115" "101" "116" "117" "112" "47" "115" "99" "97" "110" "95" "116" "101" "115" "116" "47" "115" "99" "97" "110" "48" "50" "0" }
+18IDpil1M:cam1:FileName @array@ { "115" "99" "97" "110" "48" "50" "95" "48" "48" "53" "95" "48" "48" "48" "50" "0" }
 18IDpil1M:cam1:FileNumber 1
 18IDpil1M:cam1:AutoIncrement 0
 18IDpil1M:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "54" "46" "54" "100" "46" "116" "105" "102" "0" }
