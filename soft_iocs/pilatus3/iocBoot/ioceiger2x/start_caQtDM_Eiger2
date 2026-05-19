@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export EPICS_CA_MAX_ARRAY_BYTES=41000000
+
+# ADCore
+export CAQTDM_DISPLAY_PATH=/opt/epics/synApps/support/areaDetector-master/ADCore/ADApp/op/ui/:/opt/epics/synApps/support/areaDetector-master/ADCore/ADApp/op/ui/autoconvert/:$CAQTDM_DISPLAY_PATH
+
+#ADEiger
+export CAQTDM_DISPLAY_PATH=/opt/epics/synApps/support/areaDetector-master/ADEiger/eigerApp/op/ui/:/opt/epics/synApps/support/areaDetector-master/ADEiger/eigerApp/op/ui/autoconvert/:$CAQTDM_DISPLAY_PATH
+
+#Asyn
+export CAQTDM_DISPLAY_PATH=/opt/epics/synApps/support/asyn-R4-45/opi/caqtdm/:$CAQTDM_DISPLAY_PATH
+
+#Autosave
+export CAQTDM_DISPLAY_PATH=/opt/epics/synApps/support/autosave-R5-11/asApp/op/ui/:/opt/epics/synApps/support/autosave-R5-11/asApp/op/ui/autoconvert/:$CAQTDM_DISPLAY_PATH
+
+caQtDM -macro "P="18ID:EIG2":, R=cam1:" eiger2Detector.ui
+

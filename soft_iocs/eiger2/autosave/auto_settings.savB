@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260518-101820
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260519-144010
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -35,7 +35,7 @@
 18ID:EIG2:cam1:PoolPollStats.SCAN 6
 18ID:EIG2:cam1:NumPreAllocBuffers 100
 18ID:EIG2:cam1:WaitForPlugins 0
-18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "52" "95" "50" "50" "95" "72" "111" "112" "107" "105" "110" "115" "47" "116" "101" "115" "116" "95" "97" "105" "114" "115" "104" "111" "116" "0" }
+18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "54" "95" "82" "117" "110" "49" "47" "50" "48" "50" "54" "95" "48" "52" "95" "50" "50" "95" "72" "111" "112" "107" "105" "110" "115" "47" "116" "101" "115" "116" "95" "109" "97" "114" "118" "105" "110" "0" }
 18ID:EIG2:cam1:FileName 0
 18ID:EIG2:cam1:FileNumber 0
 18ID:EIG2:cam1:AutoIncrement 0
@@ -50,7 +50,7 @@
 18ID:EIG2:cam1:TempSuffix 
 18ID:EIG2:cam1:PhotonEnergy 12000
 18ID:EIG2:cam1:ThresholdEnergy 6000
-18ID:EIG2:cam1:NumTriggers 10
+18ID:EIG2:cam1:NumTriggers 5
 18ID:EIG2:cam1:ManualTrigger 1
 18ID:EIG2:cam1:TriggerExposure 0.5
 18ID:EIG2:cam1:DataSource 1
@@ -63,8 +63,8 @@
 18ID:EIG2:cam1:AutoSummation 1
 18ID:EIG2:cam1:FWEnable 1
 18ID:EIG2:cam1:FWCompression 1
-18ID:EIG2:cam1:FWNamePattern @array@ { "116" "97" "53" "95" "48" "48" "49" "0" }
-18ID:EIG2:cam1:FWNImagesPerFile 10
+18ID:EIG2:cam1:FWNamePattern @array@ { "116" "101" "115" "116" "50" "95" "48" "48" "48" "49" "0" }
+18ID:EIG2:cam1:FWNImagesPerFile 5
 18ID:EIG2:cam1:FWAutoRemove 1
 18ID:EIG2:cam1:SaveFiles 1
 18ID:EIG2:cam1:FileOwner 
