@@ -450,6 +450,11 @@ ifdef ADMAR345
   $(PROD_NAME)_LIBS := mar345 $($(PROD_NAME)_LIBS)
 endif
 
+ifdef ADMARCCD
+  $(DBD_NAME)_DBD += marCCDSupport.dbd
+  $(PROD_NAME)_LIBS := marCCD $($(PROD_NAME)_LIBS)
+endif
+
 ifdef ADPILATUS
   $(DBD_NAME)_DBD +=  pilatusDetectorSupport.dbd
   $(PROD_NAME)_LIBS := pilatusDetector $($(PROD_NAME)_LIBS)

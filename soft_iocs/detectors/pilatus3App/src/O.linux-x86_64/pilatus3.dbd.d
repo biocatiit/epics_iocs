@@ -160,6 +160,7 @@
     /opt/epics/synApps_6_3/support/vac-R1-9-2/dbd/vsRecord.dbd \
     /opt/epics/synApps_6_3/support/vac-R1-9-2/dbd/devDigitelPump.dbd \
     /opt/epics/synApps_6_3/support/vac-R1-9-2/dbd/devVacSen.dbd \
+    /opt/epics/synApps_6_3/support/areaDetector-master/ADmarCCD/dbd/marCCDSupport.dbd \
     /opt/epics/synApps_6_3/support/areaDetector-master/ADPilatus/dbd/pilatusDetectorSupport.dbd \
     /opt/epics/synApps_6_3/support/areaDetector-master/ADEiger/dbd/eigerDetectorSupport.dbd \
     /opt/epics/synApps_6_3/support/dxp-R6-1/dbd/dxpSupport.dbd \
@@ -336,6 +337,7 @@
 /opt/epics/synApps_6_3/support/vac-R1-9-2/dbd/vsRecord.dbd:
 /opt/epics/synApps_6_3/support/vac-R1-9-2/dbd/devDigitelPump.dbd:
 /opt/epics/synApps_6_3/support/vac-R1-9-2/dbd/devVacSen.dbd:
+/opt/epics/synApps_6_3/support/areaDetector-master/ADmarCCD/dbd/marCCDSupport.dbd:
 /opt/epics/synApps_6_3/support/areaDetector-master/ADPilatus/dbd/pilatusDetectorSupport.dbd:
 /opt/epics/synApps_6_3/support/areaDetector-master/ADEiger/dbd/eigerDetectorSupport.dbd:
 /opt/epics/synApps_6_3/support/dxp-R6-1/dbd/dxpSupport.dbd:

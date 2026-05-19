@@ -1,5 +1,5 @@
 epicsEnvSet("IOC","iocpilatus3")
-epicsEnvSet("TOP","/opt/epics/epics_iocs/soft_iocs/pilatus3")
+epicsEnvSet("TOP","/opt/epics/epics_iocs/soft_iocs/detectors")
 epicsEnvSet("SUPPORT","/opt/epics/synApps_6_3/support")
 epicsEnvSet("EPICS_BASE","/opt/epics/base")
 epicsEnvSet("ALIVE","/opt/epics/synApps_6_3/support/alive-R1-4-1")

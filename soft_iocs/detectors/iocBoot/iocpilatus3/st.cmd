@@ -23,6 +23,7 @@ epicsEnvSet("NCHANS", "2048")
 epicsEnvSet("CBUFFS", "500")
 # The search path for database files
 epicsEnvSet("EPICS_DB_INCLUDE_PATH", "$(ADCORE)/db")
+epicsEnvSet("EPICS_CA_MAX_ARRAY_BYTES", "4100000")
 
 ###
 # Create the asyn port to talk to the Pilatus on port 41234.

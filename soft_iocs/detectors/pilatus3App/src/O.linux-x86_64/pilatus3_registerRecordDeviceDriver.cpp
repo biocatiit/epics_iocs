@@ -650,25 +650,25 @@ epicsShareExtern reg_func pvar_func_ACSTech80Register,
     pvar_func_kohzuCtl_softRegistrar, pvar_func_libasynRegister,
     pvar_func_libdatabaseRegister, pvar_func_libepicsRegister,
     pvar_func_libosiRegister, pvar_func_luashRegister,
-    pvar_func_ml_monoCtlRegistrar, pvar_func_modbusInterposeRegister,
-    pvar_func_motorRegister, pvar_func_motorSimDriverRegister,
-    pvar_func_motorSimRegister, pvar_func_motorUtilRegister,
-    pvar_func_mw100Register, pvar_func_nf874xMotorRegister,
-    pvar_func_nigpibInterposeRegister, pvar_func_orientRegistrar,
-    pvar_func_parseRegister, pvar_func_pf4Registrar,
-    pvar_func_pilatusDetectorRegister, pvar_func_portDriverRegister,
-    pvar_func_pvHistoryRegister, pvar_func_refTrackRegistrar,
-    pvar_func_registerStartPVAServer, pvar_func_rsrvRegistrar,
-    pvar_func_saveDataRegistrar, pvar_func_save_restoreRegister,
-    pvar_func_scanProgressRegistrar, pvar_func_streamRegistrar,
-    pvar_func_subAveRegister, pvar_func_syncInitialize,
-    pvar_func_tsInitialize, pvar_func_tvme200Registrar,
-    pvar_func_utagInitialize, pvar_func_vipc310Registrar,
-    pvar_func_vipc610Registrar, pvar_func_vipc616Registrar,
-    pvar_func_vxi11RegisterCommands, pvar_func_xia_slitRegistrar,
-    pvar_func_xiahscRegistrar, pvar_func_xpsSlaveRegistrar,
-    pvar_func_xspress3Register, pvar_func_xy9660Registrar,
-    pvar_func_register_func_QSRV_image_demo,
+    pvar_func_marCCD_ADRegister, pvar_func_ml_monoCtlRegistrar,
+    pvar_func_modbusInterposeRegister, pvar_func_motorRegister,
+    pvar_func_motorSimDriverRegister, pvar_func_motorSimRegister,
+    pvar_func_motorUtilRegister, pvar_func_mw100Register,
+    pvar_func_nf874xMotorRegister, pvar_func_nigpibInterposeRegister,
+    pvar_func_orientRegistrar, pvar_func_parseRegister,
+    pvar_func_pf4Registrar, pvar_func_pilatusDetectorRegister,
+    pvar_func_portDriverRegister, pvar_func_pvHistoryRegister,
+    pvar_func_refTrackRegistrar, pvar_func_registerStartPVAServer,
+    pvar_func_rsrvRegistrar, pvar_func_saveDataRegistrar,
+    pvar_func_save_restoreRegister, pvar_func_scanProgressRegistrar,
+    pvar_func_streamRegistrar, pvar_func_subAveRegister,
+    pvar_func_syncInitialize, pvar_func_tsInitialize,
+    pvar_func_tvme200Registrar, pvar_func_utagInitialize,
+    pvar_func_vipc310Registrar, pvar_func_vipc610Registrar,
+    pvar_func_vipc616Registrar, pvar_func_vxi11RegisterCommands,
+    pvar_func_xia_slitRegistrar, pvar_func_xiahscRegistrar,
+    pvar_func_xpsSlaveRegistrar, pvar_func_xspress3Register,
+    pvar_func_xy9660Registrar, pvar_func_register_func_QSRV_image_demo,
     pvar_func_register_func_myAttrFunct1,
     pvar_func_register_func_myTimeStampSource,
     pvar_func_register_func_rebootProc, pvar_func_register_func_scanMon,
@@ -876,7 +876,7 @@ static struct iocshVarDef vardefs[] = {
 int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
 {
     static int executed = 0;
-    const char *bldTop = "/opt/epics/epics_iocs/soft_iocs/pilatus3";
+    const char *bldTop = "/opt/epics/epics_iocs/soft_iocs/detectors";
     const char *envTop = getenv("TOP");
 
     if (envTop && strcmp(envTop, bldTop)) {
@@ -1032,6 +1032,7 @@ int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
     runRegistrarOnce(pvar_func_libepicsRegister);
     runRegistrarOnce(pvar_func_libosiRegister);
     runRegistrarOnce(pvar_func_luashRegister);
+    runRegistrarOnce(pvar_func_marCCD_ADRegister);
     runRegistrarOnce(pvar_func_ml_monoCtlRegistrar);
     runRegistrarOnce(pvar_func_modbusInterposeRegister);
     runRegistrarOnce(pvar_func_motorRegister);
