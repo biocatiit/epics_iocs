@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260609-125411
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260608-164929
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -63,7 +63,7 @@
 18ID:EIG2:cam1:AutoSummation 1
 18ID:EIG2:cam1:FWEnable 1
 18ID:EIG2:cam1:FWCompression 1
-18ID:EIG2:cam1:FWNamePattern @array@ { "116" "48" "54" "48" "57" "95" "48" "50" "0" }
+18ID:EIG2:cam1:FWNamePattern @array@ { "116" "48" "54" "48" "56" "95" "48" "55" "0" }
 18ID:EIG2:cam1:FWNImagesPerFile 300
 18ID:EIG2:cam1:FWAutoRemove 1
 18ID:EIG2:cam1:SaveFiles 1

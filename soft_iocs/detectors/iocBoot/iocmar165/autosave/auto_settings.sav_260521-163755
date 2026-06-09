@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260608-165750
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260521-163554
 Mar165:cam1:BinX 2
 Mar165:cam1:BinY 2
 Mar165:cam1:MinX 0
@@ -37,7 +37,7 @@ Mar165:cam1:NumPreAllocBuffers 100
 Mar165:cam1:WaitForPlugins 0
 Mar165:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "77" "97" "114" "67" "67" "68" "47" "50" "48" "50" "54" "95" "82" "117" "110" "50" "47" "115" "101" "116" "117" "112" "0" }
 Mar165:cam1:FileName @array@ { "116" "101" "115" "116" "0" }
-Mar165:cam1:FileNumber 17
+Mar165:cam1:FileNumber 1
 Mar165:cam1:AutoIncrement 1
 Mar165:cam1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "54" "46" "54" "100" "46" "116" "105" "102" "0" }
 Mar165:cam1:AutoSave 1
