@@ -1,4 +1,4 @@
-# Autosave release 6.1, compiled Fri Aug  7 15:18:26 2026	Automatically generated - DO NOT MODIFY - 260807-163456
+# Autosave release 6.1, compiled Fri Aug  7 15:18:26 2026	Automatically generated - DO NOT MODIFY - 260807-162633
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -26,7 +26,7 @@
 18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ZRVL 0
 18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ONVL 1
 18ID:EIG2:cam1:Temperature 25
-18ID:EIG2:cam1:ReadStatus.SCAN 3
+18ID:EIG2:cam1:ReadStatus.SCAN 0
 18ID:EIG2:cam1:DataType 5
 18ID:EIG2:cam1:ColorMode 0
 18ID:EIG2:cam1:ArrayCallbacks 1
@@ -35,7 +35,7 @@
 18ID:EIG2:cam1:PoolPollStats.SCAN 6
 18ID:EIG2:cam1:NumPreAllocBuffers 100
 18ID:EIG2:cam1:WaitForPlugins 0
-18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "54" "95" "82" "117" "110" "50" "47" "50" "48" "50" "54" "95" "48" "53" "95" "50" "56" "95" "72" "111" "112" "107" "105" "110" "115" "47" "101" "105" "103" "101" "114" "95" "116" "101" "115" "116" "47" "116" "49" "47" "105" "109" "97" "103" "101" "115" "0" }
+18ID:EIG2:cam1:FilePath 0
 18ID:EIG2:cam1:FileName 0
 18ID:EIG2:cam1:FileNumber 0
 18ID:EIG2:cam1:AutoIncrement 0
@@ -63,10 +63,10 @@
 18ID:EIG2:cam1:SignedData 0
 18ID:EIG2:cam1:FWEnable 1
 18ID:EIG2:cam1:FWCompression 1
-18ID:EIG2:cam1:FWNamePattern @array@ { "116" "48" "54" "48" "56" "95" "48" "55" "0" }
+18ID:EIG2:cam1:FWNamePattern 0
 18ID:EIG2:cam1:FWNImagesPerFile 300
-18ID:EIG2:cam1:FWAutoRemove 1
-18ID:EIG2:cam1:SaveFiles 1
+18ID:EIG2:cam1:FWAutoRemove 0
+18ID:EIG2:cam1:SaveFiles 0
 18ID:EIG2:cam1:FileOwner 
 18ID:EIG2:cam1:FileOwnerGrp 
 18ID:EIG2:cam1:FilePerms 420
@@ -137,11 +137,11 @@
 18ID:EIG2:image2:PoolPollStats.SCAN 6
 18ID:EIG2:image2:NumPreAllocBuffers 100
 18ID:EIG2:image2:WaitForPlugins 0
-18ID:EIG2:netCDF1:FilePath 0
-18ID:EIG2:netCDF1:FileName 0
+18ID:EIG2:netCDF1:FilePath 
+18ID:EIG2:netCDF1:FileName 
 18ID:EIG2:netCDF1:FileNumber 0
 18ID:EIG2:netCDF1:AutoIncrement 0
-18ID:EIG2:netCDF1:FileTemplate 0
+18ID:EIG2:netCDF1:FileTemplate 
 18ID:EIG2:netCDF1:AutoSave 0
 18ID:EIG2:netCDF1:FileFormat 0
 18ID:EIG2:netCDF1:FileWriteMode 0
@@ -164,17 +164,17 @@
 18ID:EIG2:netCDF1:DataType 0
 18ID:EIG2:netCDF1:ColorMode 0
 18ID:EIG2:netCDF1:ArrayCallbacks 0
-18ID:EIG2:netCDF1:NDAttributesFile 0
-18ID:EIG2:netCDF1:NDAttributesMacros 0
+18ID:EIG2:netCDF1:NDAttributesFile 
+18ID:EIG2:netCDF1:NDAttributesMacros 
 18ID:EIG2:netCDF1:PoolPollStats.SCAN 6
 18ID:EIG2:netCDF1:NumPreAllocBuffers 100
 18ID:EIG2:netCDF1:WaitForPlugins 0
-18ID:EIG2:TIFF1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "101" "57" "77" "47" "50" "48" "50" "50" "95" "82" "117" "110" "49" "47" "50" "48" "50" "50" "48" "51" "49" "54" "95" "72" "111" "112" "107" "105" "110" "115" "47" "83" "101" "116" "117" "112" "47" "83" "108" "105" "116" "115" "0" }
-18ID:EIG2:TIFF1:FileName @array@ { "115" "108" "105" "116" "115" "48" "49" "95" "48" "48" "51" "0" }
-18ID:EIG2:TIFF1:FileNumber 2
-18ID:EIG2:TIFF1:AutoIncrement 1
-18ID:EIG2:TIFF1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "52" "46" "52" "100" "46" "116" "105" "102" "0" }
-18ID:EIG2:TIFF1:AutoSave 1
+18ID:EIG2:TIFF1:FilePath 
+18ID:EIG2:TIFF1:FileName 
+18ID:EIG2:TIFF1:FileNumber 0
+18ID:EIG2:TIFF1:AutoIncrement 0
+18ID:EIG2:TIFF1:FileTemplate 
+18ID:EIG2:TIFF1:AutoSave 0
 18ID:EIG2:TIFF1:FileFormat 0
 18ID:EIG2:TIFF1:FileWriteMode 0
 18ID:EIG2:TIFF1:NumCapture 1
@@ -196,17 +196,17 @@
 18ID:EIG2:TIFF1:DataType 0
 18ID:EIG2:TIFF1:ColorMode 0
 18ID:EIG2:TIFF1:ArrayCallbacks 0
-18ID:EIG2:TIFF1:NDAttributesFile 0
-18ID:EIG2:TIFF1:NDAttributesMacros 0
+18ID:EIG2:TIFF1:NDAttributesFile 
+18ID:EIG2:TIFF1:NDAttributesMacros 
 18ID:EIG2:TIFF1:PoolPollStats.SCAN 6
 18ID:EIG2:TIFF1:NumPreAllocBuffers 100
 18ID:EIG2:TIFF1:WaitForPlugins 0
 18ID:EIG2:JPEG1:JPEGQuality 50
-18ID:EIG2:JPEG1:FilePath 0
-18ID:EIG2:JPEG1:FileName 0
+18ID:EIG2:JPEG1:FilePath 
+18ID:EIG2:JPEG1:FileName 
 18ID:EIG2:JPEG1:FileNumber 0
 18ID:EIG2:JPEG1:AutoIncrement 0
-18ID:EIG2:JPEG1:FileTemplate 0
+18ID:EIG2:JPEG1:FileTemplate 
 18ID:EIG2:JPEG1:AutoSave 0
 18ID:EIG2:JPEG1:FileFormat 0
 18ID:EIG2:JPEG1:FileWriteMode 0
@@ -229,18 +229,18 @@
 18ID:EIG2:JPEG1:DataType 0
 18ID:EIG2:JPEG1:ColorMode 0
 18ID:EIG2:JPEG1:ArrayCallbacks 0
-18ID:EIG2:JPEG1:NDAttributesFile 0
-18ID:EIG2:JPEG1:NDAttributesMacros 0
+18ID:EIG2:JPEG1:NDAttributesFile 
+18ID:EIG2:JPEG1:NDAttributesMacros 
 18ID:EIG2:JPEG1:PoolPollStats.SCAN 6
 18ID:EIG2:JPEG1:NumPreAllocBuffers 100
 18ID:EIG2:JPEG1:WaitForPlugins 0
-18ID:EIG2:Nexus1:TemplateFilePath 0
-18ID:EIG2:Nexus1:TemplateFileName 0
-18ID:EIG2:Nexus1:FilePath 0
-18ID:EIG2:Nexus1:FileName 0
+18ID:EIG2:Nexus1:TemplateFilePath 
+18ID:EIG2:Nexus1:TemplateFileName 
+18ID:EIG2:Nexus1:FilePath 
+18ID:EIG2:Nexus1:FileName 
 18ID:EIG2:Nexus1:FileNumber 0
 18ID:EIG2:Nexus1:AutoIncrement 0
-18ID:EIG2:Nexus1:FileTemplate 0
+18ID:EIG2:Nexus1:FileTemplate 
 18ID:EIG2:Nexus1:AutoSave 0
 18ID:EIG2:Nexus1:FileFormat 0
 18ID:EIG2:Nexus1:FileWriteMode 0
@@ -263,8 +263,8 @@
 18ID:EIG2:Nexus1:DataType 0
 18ID:EIG2:Nexus1:ColorMode 0
 18ID:EIG2:Nexus1:ArrayCallbacks 0
-18ID:EIG2:Nexus1:NDAttributesFile 0
-18ID:EIG2:Nexus1:NDAttributesMacros 0
+18ID:EIG2:Nexus1:NDAttributesFile 
+18ID:EIG2:Nexus1:NDAttributesMacros 
 18ID:EIG2:Nexus1:PoolPollStats.SCAN 6
 18ID:EIG2:Nexus1:NumPreAllocBuffers 100
 18ID:EIG2:Nexus1:WaitForPlugins 0
@@ -298,13 +298,13 @@
 18ID:EIG2:HDF1:ExtraDimSizeN 1
 18ID:EIG2:HDF1:ExtraDimSizeX 1
 18ID:EIG2:HDF1:ExtraDimSizeY 1
-18ID:EIG2:HDF1:XMLFileName 0
+18ID:EIG2:HDF1:XMLFileName 
 18ID:EIG2:HDF1:SWMRMode 0
-18ID:EIG2:HDF1:FilePath 0
-18ID:EIG2:HDF1:FileName 0
+18ID:EIG2:HDF1:FilePath 
+18ID:EIG2:HDF1:FileName 
 18ID:EIG2:HDF1:FileNumber 0
 18ID:EIG2:HDF1:AutoIncrement 0
-18ID:EIG2:HDF1:FileTemplate 0
+18ID:EIG2:HDF1:FileTemplate 
 18ID:EIG2:HDF1:AutoSave 0
 18ID:EIG2:HDF1:FileFormat 0
 18ID:EIG2:HDF1:FileWriteMode 0
@@ -327,8 +327,8 @@
 18ID:EIG2:HDF1:DataType 0
 18ID:EIG2:HDF1:ColorMode 0
 18ID:EIG2:HDF1:ArrayCallbacks 0
-18ID:EIG2:HDF1:NDAttributesFile 0
-18ID:EIG2:HDF1:NDAttributesMacros 0
+18ID:EIG2:HDF1:NDAttributesFile 
+18ID:EIG2:HDF1:NDAttributesMacros 
 18ID:EIG2:HDF1:PoolPollStats.SCAN 6
 18ID:EIG2:HDF1:NumPreAllocBuffers 100
 18ID:EIG2:HDF1:WaitForPlugins 0
@@ -369,8 +369,8 @@
 18ID:EIG2:ROI1:DataType 0
 18ID:EIG2:ROI1:ColorMode 0
 18ID:EIG2:ROI1:ArrayCallbacks 1
-18ID:EIG2:ROI1:NDAttributesFile 0
-18ID:EIG2:ROI1:NDAttributesMacros 0
+18ID:EIG2:ROI1:NDAttributesFile 
+18ID:EIG2:ROI1:NDAttributesMacros 
 18ID:EIG2:ROI1:PoolPollStats.SCAN 6
 18ID:EIG2:ROI1:NumPreAllocBuffers 100
 18ID:EIG2:ROI1:WaitForPlugins 0
@@ -411,8 +411,8 @@
 18ID:EIG2:ROI2:DataType 0
 18ID:EIG2:ROI2:ColorMode 0
 18ID:EIG2:ROI2:ArrayCallbacks 1
-18ID:EIG2:ROI2:NDAttributesFile 0
-18ID:EIG2:ROI2:NDAttributesMacros 0
+18ID:EIG2:ROI2:NDAttributesFile 
+18ID:EIG2:ROI2:NDAttributesMacros 
 18ID:EIG2:ROI2:PoolPollStats.SCAN 6
 18ID:EIG2:ROI2:NumPreAllocBuffers 100
 18ID:EIG2:ROI2:WaitForPlugins 0
@@ -453,8 +453,8 @@
 18ID:EIG2:ROI3:DataType 0
 18ID:EIG2:ROI3:ColorMode 0
 18ID:EIG2:ROI3:ArrayCallbacks 1
-18ID:EIG2:ROI3:NDAttributesFile 0
-18ID:EIG2:ROI3:NDAttributesMacros 0
+18ID:EIG2:ROI3:NDAttributesFile 
+18ID:EIG2:ROI3:NDAttributesMacros 
 18ID:EIG2:ROI3:PoolPollStats.SCAN 6
 18ID:EIG2:ROI3:NumPreAllocBuffers 100
 18ID:EIG2:ROI3:WaitForPlugins 0
@@ -495,8 +495,8 @@
 18ID:EIG2:ROI4:DataType 0
 18ID:EIG2:ROI4:ColorMode 0
 18ID:EIG2:ROI4:ArrayCallbacks 1
-18ID:EIG2:ROI4:NDAttributesFile 0
-18ID:EIG2:ROI4:NDAttributesMacros 0
+18ID:EIG2:ROI4:NDAttributesFile 
+18ID:EIG2:ROI4:NDAttributesMacros 
 18ID:EIG2:ROI4:PoolPollStats.SCAN 6
 18ID:EIG2:ROI4:NumPreAllocBuffers 100
 18ID:EIG2:ROI4:WaitForPlugins 0
@@ -547,16 +547,16 @@
 18ID:EIG2:Proc1:DataType 0
 18ID:EIG2:Proc1:ColorMode 0
 18ID:EIG2:Proc1:ArrayCallbacks 1
-18ID:EIG2:Proc1:NDAttributesFile 0
-18ID:EIG2:Proc1:NDAttributesMacros 0
+18ID:EIG2:Proc1:NDAttributesFile 
+18ID:EIG2:Proc1:NDAttributesMacros 
 18ID:EIG2:Proc1:PoolPollStats.SCAN 6
 18ID:EIG2:Proc1:NumPreAllocBuffers 100
 18ID:EIG2:Proc1:WaitForPlugins 0
-18ID:EIG2:Proc1:TIFF:FilePath 0
-18ID:EIG2:Proc1:TIFF:FileName 0
+18ID:EIG2:Proc1:TIFF:FilePath 
+18ID:EIG2:Proc1:TIFF:FileName 
 18ID:EIG2:Proc1:TIFF:FileNumber 0
 18ID:EIG2:Proc1:TIFF:AutoIncrement 0
-18ID:EIG2:Proc1:TIFF:FileTemplate 0
+18ID:EIG2:Proc1:TIFF:FileTemplate 
 18ID:EIG2:Proc1:TIFF:AutoSave 0
 18ID:EIG2:Proc1:TIFF:FileFormat 0
 18ID:EIG2:Proc1:TIFF:FileWriteMode 0
@@ -579,8 +579,8 @@
 18ID:EIG2:Proc1:TIFF:DataType 0
 18ID:EIG2:Proc1:TIFF:ColorMode 0
 18ID:EIG2:Proc1:TIFF:ArrayCallbacks 0
-18ID:EIG2:Proc1:TIFF:NDAttributesFile 0
-18ID:EIG2:Proc1:TIFF:NDAttributesMacros 0
+18ID:EIG2:Proc1:TIFF:NDAttributesFile 
+18ID:EIG2:Proc1:TIFF:NDAttributesMacros 
 18ID:EIG2:Proc1:TIFF:PoolPollStats.SCAN 6
 18ID:EIG2:Proc1:TIFF:NumPreAllocBuffers 100
 18ID:EIG2:Proc1:TIFF:WaitForPlugins 0
@@ -598,8 +598,8 @@
 18ID:EIG2:Scatter1:DataType 0
 18ID:EIG2:Scatter1:ColorMode 0
 18ID:EIG2:Scatter1:ArrayCallbacks 1
-18ID:EIG2:Scatter1:NDAttributesFile 0
-18ID:EIG2:Scatter1:NDAttributesMacros 0
+18ID:EIG2:Scatter1:NDAttributesFile 
+18ID:EIG2:Scatter1:NDAttributesMacros 
 18ID:EIG2:Scatter1:PoolPollStats.SCAN 6
 18ID:EIG2:Scatter1:NumPreAllocBuffers 100
 18ID:EIG2:Scatter1:WaitForPlugins 0
@@ -617,8 +617,8 @@
 18ID:EIG2:Gather1:DataType 0
 18ID:EIG2:Gather1:ColorMode 0
 18ID:EIG2:Gather1:ArrayCallbacks 1
-18ID:EIG2:Gather1:NDAttributesFile 0
-18ID:EIG2:Gather1:NDAttributesMacros 0
+18ID:EIG2:Gather1:NDAttributesFile 
+18ID:EIG2:Gather1:NDAttributesMacros 
 18ID:EIG2:Gather1:PoolPollStats.SCAN 6
 18ID:EIG2:Gather1:NumPreAllocBuffers 100
 18ID:EIG2:Gather1:WaitForPlugins 0
@@ -668,8 +668,8 @@
 18ID:EIG2:Stats1:TS:DataType 0
 18ID:EIG2:Stats1:TS:ColorMode 0
 18ID:EIG2:Stats1:TS:ArrayCallbacks 1
-18ID:EIG2:Stats1:TS:NDAttributesFile 0
-18ID:EIG2:Stats1:TS:NDAttributesMacros 0
+18ID:EIG2:Stats1:TS:NDAttributesFile 
+18ID:EIG2:Stats1:TS:NDAttributesMacros 
 18ID:EIG2:Stats1:TS:PoolPollStats.SCAN 6
 18ID:EIG2:Stats1:TS:NumPreAllocBuffers 100
 18ID:EIG2:Stats1:TS:WaitForPlugins 0
@@ -687,8 +687,8 @@
 18ID:EIG2:Stats1:DataType 0
 18ID:EIG2:Stats1:ColorMode 0
 18ID:EIG2:Stats1:ArrayCallbacks 1
-18ID:EIG2:Stats1:NDAttributesFile 0
-18ID:EIG2:Stats1:NDAttributesMacros 0
+18ID:EIG2:Stats1:NDAttributesFile 
+18ID:EIG2:Stats1:NDAttributesMacros 
 18ID:EIG2:Stats1:PoolPollStats.SCAN 6
 18ID:EIG2:Stats1:NumPreAllocBuffers 100
 18ID:EIG2:Stats1:WaitForPlugins 0
@@ -923,8 +923,8 @@
 18ID:EIG2:Stats2:TS:DataType 0
 18ID:EIG2:Stats2:TS:ColorMode 0
 18ID:EIG2:Stats2:TS:ArrayCallbacks 1
-18ID:EIG2:Stats2:TS:NDAttributesFile 0
-18ID:EIG2:Stats2:TS:NDAttributesMacros 0
+18ID:EIG2:Stats2:TS:NDAttributesFile 
+18ID:EIG2:Stats2:TS:NDAttributesMacros 
 18ID:EIG2:Stats2:TS:PoolPollStats.SCAN 6
 18ID:EIG2:Stats2:TS:NumPreAllocBuffers 100
 18ID:EIG2:Stats2:TS:WaitForPlugins 0
@@ -942,8 +942,8 @@
 18ID:EIG2:Stats2:DataType 0
 18ID:EIG2:Stats2:ColorMode 0
 18ID:EIG2:Stats2:ArrayCallbacks 1
-18ID:EIG2:Stats2:NDAttributesFile 0
-18ID:EIG2:Stats2:NDAttributesMacros 0
+18ID:EIG2:Stats2:NDAttributesFile 
+18ID:EIG2:Stats2:NDAttributesMacros 
 18ID:EIG2:Stats2:PoolPollStats.SCAN 6
 18ID:EIG2:Stats2:NumPreAllocBuffers 100
 18ID:EIG2:Stats2:WaitForPlugins 0
@@ -1178,8 +1178,8 @@
 18ID:EIG2:Stats3:TS:DataType 0
 18ID:EIG2:Stats3:TS:ColorMode 0
 18ID:EIG2:Stats3:TS:ArrayCallbacks 1
-18ID:EIG2:Stats3:TS:NDAttributesFile 0
-18ID:EIG2:Stats3:TS:NDAttributesMacros 0
+18ID:EIG2:Stats3:TS:NDAttributesFile 
+18ID:EIG2:Stats3:TS:NDAttributesMacros 
 18ID:EIG2:Stats3:TS:PoolPollStats.SCAN 6
 18ID:EIG2:Stats3:TS:NumPreAllocBuffers 100
 18ID:EIG2:Stats3:TS:WaitForPlugins 0
@@ -1197,8 +1197,8 @@
 18ID:EIG2:Stats3:DataType 0
 18ID:EIG2:Stats3:ColorMode 0
 18ID:EIG2:Stats3:ArrayCallbacks 1
-18ID:EIG2:Stats3:NDAttributesFile 0
-18ID:EIG2:Stats3:NDAttributesMacros 0
+18ID:EIG2:Stats3:NDAttributesFile 
+18ID:EIG2:Stats3:NDAttributesMacros 
 18ID:EIG2:Stats3:PoolPollStats.SCAN 6
 18ID:EIG2:Stats3:NumPreAllocBuffers 100
 18ID:EIG2:Stats3:WaitForPlugins 0
@@ -1433,8 +1433,8 @@
 18ID:EIG2:Stats4:TS:DataType 0
 18ID:EIG2:Stats4:TS:ColorMode 0
 18ID:EIG2:Stats4:TS:ArrayCallbacks 1
-18ID:EIG2:Stats4:TS:NDAttributesFile 0
-18ID:EIG2:Stats4:TS:NDAttributesMacros 0
+18ID:EIG2:Stats4:TS:NDAttributesFile 
+18ID:EIG2:Stats4:TS:NDAttributesMacros 
 18ID:EIG2:Stats4:TS:PoolPollStats.SCAN 6
 18ID:EIG2:Stats4:TS:NumPreAllocBuffers 100
 18ID:EIG2:Stats4:TS:WaitForPlugins 0
@@ -1452,8 +1452,8 @@
 18ID:EIG2:Stats4:DataType 0
 18ID:EIG2:Stats4:ColorMode 0
 18ID:EIG2:Stats4:ArrayCallbacks 1
-18ID:EIG2:Stats4:NDAttributesFile 0
-18ID:EIG2:Stats4:NDAttributesMacros 0
+18ID:EIG2:Stats4:NDAttributesFile 
+18ID:EIG2:Stats4:NDAttributesMacros 
 18ID:EIG2:Stats4:PoolPollStats.SCAN 6
 18ID:EIG2:Stats4:NumPreAllocBuffers 100
 18ID:EIG2:Stats4:WaitForPlugins 0
@@ -1688,8 +1688,8 @@
 18ID:EIG2:Stats5:TS:DataType 0
 18ID:EIG2:Stats5:TS:ColorMode 0
 18ID:EIG2:Stats5:TS:ArrayCallbacks 1
-18ID:EIG2:Stats5:TS:NDAttributesFile 0
-18ID:EIG2:Stats5:TS:NDAttributesMacros 0
+18ID:EIG2:Stats5:TS:NDAttributesFile 
+18ID:EIG2:Stats5:TS:NDAttributesMacros 
 18ID:EIG2:Stats5:TS:PoolPollStats.SCAN 6
 18ID:EIG2:Stats5:TS:NumPreAllocBuffers 100
 18ID:EIG2:Stats5:TS:WaitForPlugins 0
@@ -1707,8 +1707,8 @@
 18ID:EIG2:Stats5:DataType 0
 18ID:EIG2:Stats5:ColorMode 0
 18ID:EIG2:Stats5:ArrayCallbacks 1
-18ID:EIG2:Stats5:NDAttributesFile 0
-18ID:EIG2:Stats5:NDAttributesMacros 0
+18ID:EIG2:Stats5:NDAttributesFile 
+18ID:EIG2:Stats5:NDAttributesMacros 
 18ID:EIG2:Stats5:PoolPollStats.SCAN 6
 18ID:EIG2:Stats5:NumPreAllocBuffers 100
 18ID:EIG2:Stats5:WaitForPlugins 0
@@ -1929,8 +1929,8 @@
 18ID:EIG2:ROIStat1:DataType 0
 18ID:EIG2:ROIStat1:ColorMode 0
 18ID:EIG2:ROIStat1:ArrayCallbacks 1
-18ID:EIG2:ROIStat1:NDAttributesFile 0
-18ID:EIG2:ROIStat1:NDAttributesMacros 0
+18ID:EIG2:ROIStat1:NDAttributesFile 
+18ID:EIG2:ROIStat1:NDAttributesMacros 
 18ID:EIG2:ROIStat1:PoolPollStats.SCAN 6
 18ID:EIG2:ROIStat1:NumPreAllocBuffers 100
 18ID:EIG2:ROIStat1:WaitForPlugins 0
@@ -2005,8 +2005,8 @@
 18ID:EIG2:Trans1:DataType 0
 18ID:EIG2:Trans1:ColorMode 0
 18ID:EIG2:Trans1:ArrayCallbacks 1
-18ID:EIG2:Trans1:NDAttributesFile 0
-18ID:EIG2:Trans1:NDAttributesMacros 0
+18ID:EIG2:Trans1:NDAttributesFile 
+18ID:EIG2:Trans1:NDAttributesMacros 
 18ID:EIG2:Trans1:PoolPollStats.SCAN 6
 18ID:EIG2:Trans1:NumPreAllocBuffers 100
 18ID:EIG2:Trans1:WaitForPlugins 0
@@ -2024,8 +2024,8 @@
 18ID:EIG2:Over1:DataType 0
 18ID:EIG2:Over1:ColorMode 0
 18ID:EIG2:Over1:ArrayCallbacks 1
-18ID:EIG2:Over1:NDAttributesFile 0
-18ID:EIG2:Over1:NDAttributesMacros 0
+18ID:EIG2:Over1:NDAttributesFile 
+18ID:EIG2:Over1:NDAttributesMacros 
 18ID:EIG2:Over1:PoolPollStats.SCAN 6
 18ID:EIG2:Over1:NumPreAllocBuffers 100
 18ID:EIG2:Over1:WaitForPlugins 0
@@ -2050,7 +2050,7 @@
 18ID:EIG2:Over1:1:Blue 1
 18ID:EIG2:Over1:1:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:1:Font 0
-18ID:EIG2:Over1:1:DisplayText 0
+18ID:EIG2:Over1:1:DisplayText 
 18ID:EIG2:Over1:2:Name ROI2
 18ID:EIG2:Over1:2:Use 0
 18ID:EIG2:Over1:2:PositionXLink.DOL 18ID:EIG2:ROI2:MinX_RBV CP MS
@@ -2072,7 +2072,7 @@
 18ID:EIG2:Over1:2:Blue 1
 18ID:EIG2:Over1:2:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:2:Font 0
-18ID:EIG2:Over1:2:DisplayText 0
+18ID:EIG2:Over1:2:DisplayText 
 18ID:EIG2:Over1:3:Name ROI3
 18ID:EIG2:Over1:3:Use 0
 18ID:EIG2:Over1:3:PositionXLink.DOL 18ID:EIG2:ROI3:MinX_RBV CP MS
@@ -2094,7 +2094,7 @@
 18ID:EIG2:Over1:3:Blue 1
 18ID:EIG2:Over1:3:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:3:Font 0
-18ID:EIG2:Over1:3:DisplayText 0
+18ID:EIG2:Over1:3:DisplayText 
 18ID:EIG2:Over1:4:Name ROI4
 18ID:EIG2:Over1:4:Use 0
 18ID:EIG2:Over1:4:PositionXLink.DOL 18ID:EIG2:ROI4:MinX_RBV CP MS
@@ -2116,7 +2116,7 @@
 18ID:EIG2:Over1:4:Blue 1
 18ID:EIG2:Over1:4:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:4:Font 0
-18ID:EIG2:Over1:4:DisplayText 0
+18ID:EIG2:Over1:4:DisplayText 
 18ID:EIG2:Over1:5:Name Cursor1
 18ID:EIG2:Over1:5:Use 0
 18ID:EIG2:Over1:5:PositionXLink.DOL junk CP MS
@@ -2138,7 +2138,7 @@
 18ID:EIG2:Over1:5:Blue 1
 18ID:EIG2:Over1:5:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:5:Font 0
-18ID:EIG2:Over1:5:DisplayText 0
+18ID:EIG2:Over1:5:DisplayText 
 18ID:EIG2:Over1:6:Name Cursor2
 18ID:EIG2:Over1:6:Use 0
 18ID:EIG2:Over1:6:PositionXLink.DOL junk CP MS
@@ -2160,7 +2160,7 @@
 18ID:EIG2:Over1:6:Blue 1
 18ID:EIG2:Over1:6:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:6:Font 0
-18ID:EIG2:Over1:6:DisplayText 0
+18ID:EIG2:Over1:6:DisplayText 
 18ID:EIG2:Over1:7:Name Box1
 18ID:EIG2:Over1:7:Use 0
 18ID:EIG2:Over1:7:PositionXLink.DOL junk CP MS
@@ -2182,7 +2182,7 @@
 18ID:EIG2:Over1:7:Blue 1
 18ID:EIG2:Over1:7:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:7:Font 0
-18ID:EIG2:Over1:7:DisplayText 0
+18ID:EIG2:Over1:7:DisplayText 
 18ID:EIG2:Over1:8:Name Box2
 18ID:EIG2:Over1:8:Use 0
 18ID:EIG2:Over1:8:PositionXLink.DOL junk CP MS
@@ -2204,7 +2204,7 @@
 18ID:EIG2:Over1:8:Blue 1
 18ID:EIG2:Over1:8:TimeStampFormat %Y-%m-%d %H:%M:%S.%03f
 18ID:EIG2:Over1:8:Font 0
-18ID:EIG2:Over1:8:DisplayText 0
+18ID:EIG2:Over1:8:DisplayText 
 18ID:EIG2:CC1:ColorModeOut 0
 18ID:EIG2:CC1:NDArrayPort EIG
 18ID:EIG2:CC1:NDArrayAddress 0
@@ -2220,8 +2220,8 @@
 18ID:EIG2:CC1:DataType 0
 18ID:EIG2:CC1:ColorMode 0
 18ID:EIG2:CC1:ArrayCallbacks 1
-18ID:EIG2:CC1:NDAttributesFile 0
-18ID:EIG2:CC1:NDAttributesMacros 0
+18ID:EIG2:CC1:NDAttributesFile 
+18ID:EIG2:CC1:NDAttributesMacros 
 18ID:EIG2:CC1:PoolPollStats.SCAN 6
 18ID:EIG2:CC1:NumPreAllocBuffers 100
 18ID:EIG2:CC1:WaitForPlugins 0
@@ -2240,14 +2240,14 @@
 18ID:EIG2:CC2:DataType 0
 18ID:EIG2:CC2:ColorMode 0
 18ID:EIG2:CC2:ArrayCallbacks 1
-18ID:EIG2:CC2:NDAttributesFile 0
-18ID:EIG2:CC2:NDAttributesMacros 0
+18ID:EIG2:CC2:NDAttributesFile 
+18ID:EIG2:CC2:NDAttributesMacros 
 18ID:EIG2:CC2:PoolPollStats.SCAN 6
 18ID:EIG2:CC2:NumPreAllocBuffers 100
 18ID:EIG2:CC2:WaitForPlugins 0
 18ID:EIG2:CB1:TriggerA 
 18ID:EIG2:CB1:TriggerB 
-18ID:EIG2:CB1:TriggerCalc 0
+18ID:EIG2:CB1:TriggerCalc 
 18ID:EIG2:CB1:PreCount 100
 18ID:EIG2:CB1:PostCount 100
 18ID:EIG2:CB1:PresetTriggerCount 1
@@ -2266,8 +2266,8 @@
 18ID:EIG2:CB1:DataType 0
 18ID:EIG2:CB1:ColorMode 0
 18ID:EIG2:CB1:ArrayCallbacks 1
-18ID:EIG2:CB1:NDAttributesFile 0
-18ID:EIG2:CB1:NDAttributesMacros 0
+18ID:EIG2:CB1:NDAttributesFile 
+18ID:EIG2:CB1:NDAttributesMacros 
 18ID:EIG2:CB1:PoolPollStats.SCAN 6
 18ID:EIG2:CB1:NumPreAllocBuffers 100
 18ID:EIG2:CB1:WaitForPlugins 0
@@ -2290,8 +2290,8 @@
 18ID:EIG2:Attr1:TS:DataType 0
 18ID:EIG2:Attr1:TS:ColorMode 0
 18ID:EIG2:Attr1:TS:ArrayCallbacks 1
-18ID:EIG2:Attr1:TS:NDAttributesFile 0
-18ID:EIG2:Attr1:TS:NDAttributesMacros 0
+18ID:EIG2:Attr1:TS:NDAttributesFile 
+18ID:EIG2:Attr1:TS:NDAttributesMacros 
 18ID:EIG2:Attr1:TS:PoolPollStats.SCAN 6
 18ID:EIG2:Attr1:TS:NumPreAllocBuffers 100
 18ID:EIG2:Attr1:TS:WaitForPlugins 0
@@ -2309,19 +2309,19 @@
 18ID:EIG2:Attr1:DataType 0
 18ID:EIG2:Attr1:ColorMode 0
 18ID:EIG2:Attr1:ArrayCallbacks 0
-18ID:EIG2:Attr1:NDAttributesFile 0
-18ID:EIG2:Attr1:NDAttributesMacros 0
+18ID:EIG2:Attr1:NDAttributesFile 
+18ID:EIG2:Attr1:NDAttributesMacros 
 18ID:EIG2:Attr1:PoolPollStats.SCAN 6
 18ID:EIG2:Attr1:NumPreAllocBuffers 100
 18ID:EIG2:Attr1:WaitForPlugins 0
-18ID:EIG2:Attr1:1:AttrName 0
-18ID:EIG2:Attr1:2:AttrName 0
-18ID:EIG2:Attr1:3:AttrName 0
-18ID:EIG2:Attr1:4:AttrName 0
-18ID:EIG2:Attr1:5:AttrName 0
-18ID:EIG2:Attr1:6:AttrName 0
-18ID:EIG2:Attr1:7:AttrName 0
-18ID:EIG2:Attr1:8:AttrName 0
+18ID:EIG2:Attr1:1:AttrName 
+18ID:EIG2:Attr1:2:AttrName 
+18ID:EIG2:Attr1:3:AttrName 
+18ID:EIG2:Attr1:4:AttrName 
+18ID:EIG2:Attr1:5:AttrName 
+18ID:EIG2:Attr1:6:AttrName 
+18ID:EIG2:Attr1:7:AttrName 
+18ID:EIG2:Attr1:8:AttrName 
 18ID:EIG2:FFT1:NDArrayPort EIG
 18ID:EIG2:FFT1:NDArrayAddress 0
 18ID:EIG2:FFT1:EnableCallbacks 0
@@ -2336,8 +2336,8 @@
 18ID:EIG2:FFT1:DataType 0
 18ID:EIG2:FFT1:ColorMode 0
 18ID:EIG2:FFT1:ArrayCallbacks 1
-18ID:EIG2:FFT1:NDAttributesFile 0
-18ID:EIG2:FFT1:NDAttributesMacros 0
+18ID:EIG2:FFT1:NDAttributesFile 
+18ID:EIG2:FFT1:NDAttributesMacros 
 18ID:EIG2:FFT1:PoolPollStats.SCAN 6
 18ID:EIG2:FFT1:NumPreAllocBuffers 100
 18ID:EIG2:FFT1:WaitForPlugins 0
@@ -2368,8 +2368,8 @@
 18ID:EIG2:Codec1:DataType 0
 18ID:EIG2:Codec1:ColorMode 0
 18ID:EIG2:Codec1:ArrayCallbacks 1
-18ID:EIG2:Codec1:NDAttributesFile 0
-18ID:EIG2:Codec1:NDAttributesMacros 0
+18ID:EIG2:Codec1:NDAttributesFile 
+18ID:EIG2:Codec1:NDAttributesMacros 
 18ID:EIG2:Codec1:PoolPollStats.SCAN 6
 18ID:EIG2:Codec1:NumPreAllocBuffers 100
 18ID:EIG2:Codec1:WaitForPlugins 0
@@ -2396,12 +2396,12 @@
 18ID:EIG2:Codec2:DataType 0
 18ID:EIG2:Codec2:ColorMode 0
 18ID:EIG2:Codec2:ArrayCallbacks 1
-18ID:EIG2:Codec2:NDAttributesFile 0
-18ID:EIG2:Codec2:NDAttributesMacros 0
+18ID:EIG2:Codec2:NDAttributesFile 
+18ID:EIG2:Codec2:NDAttributesMacros 
 18ID:EIG2:Codec2:PoolPollStats.SCAN 6
 18ID:EIG2:Codec2:NumPreAllocBuffers 100
 18ID:EIG2:Codec2:WaitForPlugins 0
-18ID:EIG2:BadPix1:FileName 0
+18ID:EIG2:BadPix1:FileName 
 18ID:EIG2:BadPix1:NDArrayPort EIG
 18ID:EIG2:BadPix1:NDArrayAddress 0
 18ID:EIG2:BadPix1:EnableCallbacks 0
@@ -2416,8 +2416,8 @@
 18ID:EIG2:BadPix1:DataType 0
 18ID:EIG2:BadPix1:ColorMode 0
 18ID:EIG2:BadPix1:ArrayCallbacks 1
-18ID:EIG2:BadPix1:NDAttributesFile 0
-18ID:EIG2:BadPix1:NDAttributesMacros 0
+18ID:EIG2:BadPix1:NDAttributesFile 
+18ID:EIG2:BadPix1:NDAttributesMacros 
 18ID:EIG2:BadPix1:PoolPollStats.SCAN 6
 18ID:EIG2:BadPix1:NumPreAllocBuffers 100
 18ID:EIG2:BadPix1:WaitForPlugins 0

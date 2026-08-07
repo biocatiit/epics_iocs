@@ -144,8 +144,15 @@ ifdef MCA
 endif
 
 ifdef QUADEM
-  $(DBD_NAME)_DBD += drvAHxxx.dbd drvTetrAMM.dbd
+  $(DBD_NAME)_DBD += drvAHxxx.dbd drvNSLS2_EM.dbd drvPCR4.dbd
+  $(DBD_NAME)_DBD += drvT4UDirect_EM.dbd drvTetrAMM.dbd drvFX4.dbd
+  $(DBD_NAME)_DBD += drvNSLS_EM.dbd drvSoftQuadEM.dbd drvT4U_EM.dbd
   $(PROD_NAME)_LIBS := quadEM $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := fx4QuadEM $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := nslsQuadEM $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := caenQuadEM $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := sensicQuadEM $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := sydorQuadEM $($(PROD_NAME)_LIBS)
 endif
 
 ifdef IP
@@ -410,13 +417,13 @@ ifdef ADSPINNAKER
 # We use PROD_SYS_LIBS even though varios so files are in the ADSpinnaker tree 
 # because we are doing static build but the file is a .so file, not a .a file.
 
-PROD_SYS_LIBS_Linux += Spinnaker
-PROD_SYS_LIBS_Linux += GCBase_gcc540_v3_0
-PROD_SYS_LIBS_Linux += GenApi_gcc540_v3_0
-PROD_SYS_LIBS_Linux += NodeMapData_gcc540_v3_0
-PROD_SYS_LIBS_Linux += MathParser_gcc540_v3_0
-PROD_SYS_LIBS_Linux += XmlParser_gcc540_v3_0
-PROD_SYS_LIBS_Linux += Log_gcc540_v3_0
+  PROD_SYS_LIBS_Linux += Spinnaker
+  PROD_SYS_LIBS_Linux += GCBase_gcc11_v3_0
+  PROD_SYS_LIBS_Linux += GenApi_gcc11_v3_0
+  PROD_SYS_LIBS_Linux += NodeMapData_gcc11_v3_0
+  PROD_SYS_LIBS_Linux += MathParser_gcc11_v3_0
+  PROD_SYS_LIBS_Linux += XmlParser_gcc11_v3_0
+  PROD_SYS_LIBS_Linux += Log_gcc11_v3_0
 
 endif
 
@@ -469,11 +476,13 @@ ifdef ADEIGER
   $(PROD_NAME)_LIBS := eigerDetector $($(PROD_NAME)_LIBS)
   $(PROD_NAME)_LIBS := frozen $($(PROD_NAME)_LIBS)
   $(PROD_NAME)_LIBS := hdf5_hl $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := tinyCBOR $($(PROD_NAME)_LIBS)
 
- # PROD_SYS_LIBS  += eigerDetector
+  PROD_SYS_LIBS  += eigerDetector
   PROD_SYS_LIBS  += frozen 
   PROD_SYS_LIBS  += hdf5_hl hdf5
   PROD_SYS_LIBS  += zmq 
+  PROD_SYS_LIBS  += tinyCBOR
 
 
 ifdef ZMQ_LIB

@@ -1,0 +1,140 @@
+# Autosave release 6.1, compiled Fri Aug  7 15:18:26 2026	Automatically generated - DO NOT MODIFY - 260807-162519
+18ID:EIG2:cam1:BinX 1
+18ID:EIG2:cam1:BinY 1
+18ID:EIG2:cam1:MinX 0
+18ID:EIG2:cam1:MinY 0
+18ID:EIG2:cam1:SizeX 1
+18ID:EIG2:cam1:SizeY 1
+18ID:EIG2:cam1:ReverseX 0
+18ID:EIG2:cam1:ReverseY 0
+18ID:EIG2:cam1:AcquireTime 0.199
+18ID:EIG2:cam1:AcquirePeriod 0.2
+18ID:EIG2:cam1:Gain 1
+18ID:EIG2:cam1:FrameType 0
+18ID:EIG2:cam1:ImageMode 1
+18ID:EIG2:cam1:TriggerMode 0
+18ID:EIG2:cam1:NumExposures 1
+18ID:EIG2:cam1:NumImages 3600
+18ID:EIG2:cam1:ShutterMode 0
+18ID:EIG2:cam1:ShutterOpenDelay 0
+18ID:EIG2:cam1:ShutterCloseDelay 0
+18ID:EIG2:cam1:ShutterOpenEPICS.OUT 
+18ID:EIG2:cam1:ShutterCloseEPICS.OUT 
+18ID:EIG2:cam1:ShutterOpenEPICS.OCAL 1
+18ID:EIG2:cam1:ShutterCloseEPICS.OCAL 0
+18ID:EIG2:cam1:ShutterStatusEPICS_RBV.INP test CP MS
+18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ZRVL 0
+18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ONVL 1
+18ID:EIG2:cam1:Temperature 25
+18ID:EIG2:cam1:ReadStatus.SCAN 0
+18ID:EIG2:cam1:DataType 5
+18ID:EIG2:cam1:ColorMode 0
+18ID:EIG2:cam1:ArrayCallbacks 1
+18ID:EIG2:cam1:NDAttributesFile 
+18ID:EIG2:cam1:NDAttributesMacros 
+18ID:EIG2:cam1:PoolPollStats.SCAN 6
+18ID:EIG2:cam1:NumPreAllocBuffers 100
+18ID:EIG2:cam1:WaitForPlugins 0
+18ID:EIG2:cam1:FilePath 
+18ID:EIG2:cam1:FileName 
+18ID:EIG2:cam1:FileNumber 0
+18ID:EIG2:cam1:AutoIncrement 0
+18ID:EIG2:cam1:FileTemplate 
+18ID:EIG2:cam1:AutoSave 0
+18ID:EIG2:cam1:FileFormat 0
+18ID:EIG2:cam1:FileWriteMode 0
+18ID:EIG2:cam1:NumCapture 1
+18ID:EIG2:cam1:DeleteDriverFile 0
+18ID:EIG2:cam1:CreateDirectory 0
+18ID:EIG2:cam1:LazyOpen 0
+18ID:EIG2:cam1:TempSuffix 
+18ID:EIG2:cam1:PhotonEnergy 12000
+18ID:EIG2:cam1:ThresholdEnergy 6000
+18ID:EIG2:cam1:NumTriggers 1
+18ID:EIG2:cam1:ManualTrigger 0
+18ID:EIG2:cam1:DataSource 1
+18ID:EIG2:cam1:StreamDecompress 1
+18ID:EIG2:cam1:ROIMode 0
+18ID:EIG2:cam1:CompressionAlgo 1
+18ID:EIG2:cam1:FlatfieldApplied 1
+18ID:EIG2:cam1:CountrateCorrApplied 1
+18ID:EIG2:cam1:PixelMaskApplied 1
+18ID:EIG2:cam1:AutoSummation 1
+18ID:EIG2:cam1:SignedData 0
+18ID:EIG2:cam1:FWEnable 1
+18ID:EIG2:cam1:FWCompression 1
+18ID:EIG2:cam1:FWNamePattern 
+18ID:EIG2:cam1:FWNImagesPerFile 300
+18ID:EIG2:cam1:FWAutoRemove 0
+18ID:EIG2:cam1:SaveFiles 0
+18ID:EIG2:cam1:FileOwner 
+18ID:EIG2:cam1:FileOwnerGrp 
+18ID:EIG2:cam1:FilePerms 420
+18ID:EIG2:cam1:StreamEnable 1
+18ID:EIG2:cam1:StreamHdrDetail 1
+18ID:EIG2:cam1:StreamHdrAppendix 
+18ID:EIG2:cam1:StreamImgAppendix 
+18ID:EIG2:cam1:MonitorEnable 0
+18ID:EIG2:cam1:MonitorTimeout 500
+18ID:EIG2:cam1:DetDist 0
+18ID:EIG2:cam1:BeamX 0
+18ID:EIG2:cam1:BeamY 0
+18ID:EIG2:cam1:ChiStart 0
+18ID:EIG2:cam1:ChiIncr 0
+18ID:EIG2:cam1:KappaStart 0
+18ID:EIG2:cam1:KappaIncr 0
+18ID:EIG2:cam1:PhiStart 0
+18ID:EIG2:cam1:PhiIncr 0
+18ID:EIG2:cam1:OmegaStart 0
+18ID:EIG2:cam1:OmegaIncr 0
+18ID:EIG2:cam1:TwoThetaStart 0
+18ID:EIG2:cam1:TwoThetaIncr 0
+18ID:EIG2:cam1:WavelengthEps 0.0005
+18ID:EIG2:cam1:EnergyEps 0.05
+18ID:EIG2:cam1:HVResetTime 30
+18ID:EIG2:cam1:Threshold1Enable 1
+18ID:EIG2:cam1:Threshold2Energy 16800
+18ID:EIG2:cam1:Threshold2Enable 0
+18ID:EIG2:cam1:ThresholdDiffEnable 0
+18ID:EIG2:cam1:CountingMode 1
+18ID:EIG2:cam1:ExtGateMode 0
+18ID:EIG2:cam1:TriggerStartDelay 0
+18ID:EIG2:image1:NDArrayPort EIG
+18ID:EIG2:image1:NDArrayAddress 0
+18ID:EIG2:image1:EnableCallbacks 0
+18ID:EIG2:image1:MinCallbackTime 0
+18ID:EIG2:image1:MaxByteRate 0
+18ID:EIG2:image1:BlockingCallbacks 0
+18ID:EIG2:image1:QueueSize 5
+18ID:EIG2:image1:NumThreads 1
+18ID:EIG2:image1:SortTime 0.1
+18ID:EIG2:image1:SortMode 0
+18ID:EIG2:image1:SortSize 20
+18ID:EIG2:image1:DataType 0
+18ID:EIG2:image1:ColorMode 0
+18ID:EIG2:image1:ArrayCallbacks 0
+18ID:EIG2:image1:NDAttributesFile 0
+18ID:EIG2:image1:NDAttributesMacros 0
+18ID:EIG2:image1:PoolPollStats.SCAN 6
+18ID:EIG2:image1:NumPreAllocBuffers 100
+18ID:EIG2:image1:WaitForPlugins 0
+18ID:EIG2:image2:NDArrayPort EIG
+18ID:EIG2:image2:NDArrayAddress 1
+18ID:EIG2:image2:EnableCallbacks 0
+18ID:EIG2:image2:MinCallbackTime 0
+18ID:EIG2:image2:MaxByteRate 0
+18ID:EIG2:image2:BlockingCallbacks 0
+18ID:EIG2:image2:QueueSize 5
+18ID:EIG2:image2:NumThreads 1
+18ID:EIG2:image2:SortTime 0.1
+18ID:EIG2:image2:SortMode 0
+18ID:EIG2:image2:SortSize 20
+18ID:EIG2:image2:DataType 0
+18ID:EIG2:image2:ColorMode 0
+18ID:EIG2:image2:ArrayCallbacks 0
+18ID:EIG2:image2:NDAttributesFile 0
+18ID:EIG2:image2:NDAttributesMacros 0
+18ID:EIG2:image2:PoolPollStats.SCAN 6
+18ID:EIG2:image2:NumPreAllocBuffers 100
+18ID:EIG2:image2:WaitForPlugins 0
+<END>

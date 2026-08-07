@@ -189,31 +189,30 @@ epicsShareExtern dset *pvar_dset_devAaiSoft, *pvar_dset_asynInt8ArrayAai,
     *pvar_dset_devI64outSoft, *pvar_dset_devI64outSoftCallback,
     *pvar_dset_asynInt64Out, *pvar_dset_devint64outStream,
     *pvar_dset_devLiSoft, *pvar_dset_devLiSoftCallback,
-    *pvar_dset_devLiGeneralTime, *pvar_dset_devLoPDBUTag,
-    *pvar_dset_asynLiInt32, *pvar_dset_asynLiUInt32Digital,
-    *pvar_dset_asynLiInt64, *pvar_dset_devLiStrParm,
-    *pvar_dset_devLuaLongin, *pvar_dset_devlonginStream,
-    *pvar_dset_devLidg535, *pvar_dset_devMW100_longin,
-    *pvar_dset_devLoSoft, *pvar_dset_devLoSoftCallback,
-    *pvar_dset_asynLoInt32, *pvar_dset_asynLoUInt32Digital,
-    *pvar_dset_asynLoInt64, *pvar_dset_devLoStrParm,
-    *pvar_dset_devLoAX301, *pvar_dset_devLuaLongout,
-    *pvar_dset_devlongoutStream, *pvar_dset_devLodg535,
-    *pvar_dset_softGlueSigNum, *pvar_dset_devLsiSoft,
-    *pvar_dset_devLsiEnviron, *pvar_dset_asynLsiOctetCmdResponse,
-    *pvar_dset_asynLsiOctetWriteRead, *pvar_dset_asynLsiOctetRead,
-    *pvar_dset_devlsiStream, *pvar_dset_devLsiEtherIP,
-    *pvar_dset_devLsoSoft, *pvar_dset_devLsoSoftCallback,
-    *pvar_dset_devLsoStdio, *pvar_dset_asynLsoOctetWrite,
-    *pvar_dset_devlsoStream, *pvar_dset_devLsoEtherIP,
-    *pvar_dset_devLuaSoft, *pvar_dset_devMbbiSoft,
-    *pvar_dset_devMbbiSoftRaw, *pvar_dset_devMbbiSoftCallback,
-    *pvar_dset_asynMbbiInt32, *pvar_dset_asynMbbiUInt32Digital,
-    *pvar_dset_devMbbiTPG261, *pvar_dset_devLuaMbbi,
-    *pvar_dset_devmbbiStream, *pvar_dset_devMbbidg535,
-    *pvar_dset_devMbbiEtherIP, *pvar_dset_devMW100_mbbi,
-    *pvar_dset_devMbbiDirectSoft, *pvar_dset_devMbbiDirectSoftRaw,
-    *pvar_dset_devMbbiDirectSoftCallback,
+    *pvar_dset_devLiGeneralTime, *pvar_dset_asynLiInt32,
+    *pvar_dset_asynLiUInt32Digital, *pvar_dset_asynLiInt64,
+    *pvar_dset_devLiStrParm, *pvar_dset_devLuaLongin,
+    *pvar_dset_devlonginStream, *pvar_dset_devLidg535,
+    *pvar_dset_devMW100_longin, *pvar_dset_devLoSoft,
+    *pvar_dset_devLoSoftCallback, *pvar_dset_asynLoInt32,
+    *pvar_dset_asynLoUInt32Digital, *pvar_dset_asynLoInt64,
+    *pvar_dset_devLoStrParm, *pvar_dset_devLoAX301,
+    *pvar_dset_devLuaLongout, *pvar_dset_devlongoutStream,
+    *pvar_dset_devLodg535, *pvar_dset_softGlueSigNum,
+    *pvar_dset_devLsiSoft, *pvar_dset_devLsiEnviron,
+    *pvar_dset_asynLsiOctetCmdResponse, *pvar_dset_asynLsiOctetWriteRead,
+    *pvar_dset_asynLsiOctetRead, *pvar_dset_devlsiStream,
+    *pvar_dset_devLsiEtherIP, *pvar_dset_devLsoSoft,
+    *pvar_dset_devLsoSoftCallback, *pvar_dset_devLsoStdio,
+    *pvar_dset_asynLsoOctetWrite, *pvar_dset_devlsoStream,
+    *pvar_dset_devLsoEtherIP, *pvar_dset_devLuaSoft,
+    *pvar_dset_devMbbiSoft, *pvar_dset_devMbbiSoftRaw,
+    *pvar_dset_devMbbiSoftCallback, *pvar_dset_asynMbbiInt32,
+    *pvar_dset_asynMbbiUInt32Digital, *pvar_dset_devMbbiTPG261,
+    *pvar_dset_devLuaMbbi, *pvar_dset_devmbbiStream,
+    *pvar_dset_devMbbidg535, *pvar_dset_devMbbiEtherIP,
+    *pvar_dset_devMW100_mbbi, *pvar_dset_devMbbiDirectSoft,
+    *pvar_dset_devMbbiDirectSoftRaw, *pvar_dset_devMbbiDirectSoftCallback,
     *pvar_dset_asynMbbiDirectUInt32Digital,
     *pvar_dset_devmbbiDirectStream, *pvar_dset_devMbbiDirectEtherIP,
     *pvar_dset_devMbboSoft, *pvar_dset_devMbboSoftRaw,
@@ -260,19 +259,19 @@ epicsShareExtern dset *pvar_dset_devAaiSoft, *pvar_dset_asynInt8ArrayAai,
     *pvar_dset_devstringoutStream, *pvar_dset_devSodg535,
     *pvar_dset_devSoEtherIP, *pvar_dset_asynSoftGlue,
     *pvar_dset_devSASoft, *pvar_dset_devSWaitIoEvent,
-    *pvar_dset_devVacSen, *pvar_dset_devWfSoft, *pvar_dset_devWfPDBDemo,
-    *pvar_dset_devWfPDBDemoRepeat, *pvar_dset_asynWfOctetCmdResponse,
-    *pvar_dset_asynWfOctetWriteRead, *pvar_dset_asynWfOctetRead,
-    *pvar_dset_asynWfOctetWrite, *pvar_dset_asynWfOctetWriteBinary,
-    *pvar_dset_asynInt8ArrayWfIn, *pvar_dset_asynInt8ArrayWfOut,
-    *pvar_dset_asynInt16ArrayWfIn, *pvar_dset_asynInt16ArrayWfOut,
-    *pvar_dset_asynInt32ArrayWfIn, *pvar_dset_asynInt32ArrayWfOut,
-    *pvar_dset_asynFloat32ArrayWfIn, *pvar_dset_asynFloat32ArrayWfOut,
-    *pvar_dset_asynFloat64ArrayWfIn, *pvar_dset_asynFloat64ArrayWfOut,
-    *pvar_dset_asynInt32TimeSeries, *pvar_dset_asynFloat64TimeSeries,
-    *pvar_dset_asynInt64ArrayWfIn, *pvar_dset_asynInt64ArrayWfOut,
-    *pvar_dset_asynInt64TimeSeries, *pvar_dset_devWaveformStats,
-    *pvar_dset_devwaveformStream, *pvar_dset_devWfEtherIP;
+    *pvar_dset_devVacSen, *pvar_dset_devWfSoft,
+    *pvar_dset_asynWfOctetCmdResponse, *pvar_dset_asynWfOctetWriteRead,
+    *pvar_dset_asynWfOctetRead, *pvar_dset_asynWfOctetWrite,
+    *pvar_dset_asynWfOctetWriteBinary, *pvar_dset_asynInt8ArrayWfIn,
+    *pvar_dset_asynInt8ArrayWfOut, *pvar_dset_asynInt16ArrayWfIn,
+    *pvar_dset_asynInt16ArrayWfOut, *pvar_dset_asynInt32ArrayWfIn,
+    *pvar_dset_asynInt32ArrayWfOut, *pvar_dset_asynFloat32ArrayWfIn,
+    *pvar_dset_asynFloat32ArrayWfOut, *pvar_dset_asynFloat64ArrayWfIn,
+    *pvar_dset_asynFloat64ArrayWfOut, *pvar_dset_asynInt32TimeSeries,
+    *pvar_dset_asynFloat64TimeSeries, *pvar_dset_asynInt64ArrayWfIn,
+    *pvar_dset_asynInt64ArrayWfOut, *pvar_dset_asynInt64TimeSeries,
+    *pvar_dset_devWaveformStats, *pvar_dset_devwaveformStream,
+    *pvar_dset_devWfEtherIP;
 
 static const char * const deviceSupportNames[] = {
     "devAaiSoft", "asynInt8ArrayAai", "asynInt16ArrayAai",
@@ -307,13 +306,13 @@ static const char * const deviceSupportNames[] = {
     "devI64inSoftCallback", "asynInt64In", "devint64inStream",
     "devI64outSoft", "devI64outSoftCallback", "asynInt64Out",
     "devint64outStream", "devLiSoft", "devLiSoftCallback",
-    "devLiGeneralTime", "devLoPDBUTag", "asynLiInt32",
-    "asynLiUInt32Digital", "asynLiInt64", "devLiStrParm", "devLuaLongin",
-    "devlonginStream", "devLidg535", "devMW100_longin", "devLoSoft",
-    "devLoSoftCallback", "asynLoInt32", "asynLoUInt32Digital",
-    "asynLoInt64", "devLoStrParm", "devLoAX301", "devLuaLongout",
-    "devlongoutStream", "devLodg535", "softGlueSigNum", "devLsiSoft",
-    "devLsiEnviron", "asynLsiOctetCmdResponse", "asynLsiOctetWriteRead",
+    "devLiGeneralTime", "asynLiInt32", "asynLiUInt32Digital",
+    "asynLiInt64", "devLiStrParm", "devLuaLongin", "devlonginStream",
+    "devLidg535", "devMW100_longin", "devLoSoft", "devLoSoftCallback",
+    "asynLoInt32", "asynLoUInt32Digital", "asynLoInt64", "devLoStrParm",
+    "devLoAX301", "devLuaLongout", "devlongoutStream", "devLodg535",
+    "softGlueSigNum", "devLsiSoft", "devLsiEnviron",
+    "asynLsiOctetCmdResponse", "asynLsiOctetWriteRead",
     "asynLsiOctetRead", "devlsiStream", "devLsiEtherIP", "devLsoSoft",
     "devLsoSoftCallback", "devLsoStdio", "asynLsoOctetWrite",
     "devlsoStream", "devLsoEtherIP", "devLuaSoft", "devMbbiSoft",
@@ -349,16 +348,15 @@ static const char * const deviceSupportNames[] = {
     "asynSoOctetWrite", "devSoStrParm", "devSoEurotherm", "devSoMPC",
     "devLuaStringout", "devstringoutStream", "devSodg535", "devSoEtherIP",
     "asynSoftGlue", "devSASoft", "devSWaitIoEvent", "devVacSen",
-    "devWfSoft", "devWfPDBDemo", "devWfPDBDemoRepeat",
-    "asynWfOctetCmdResponse", "asynWfOctetWriteRead", "asynWfOctetRead",
-    "asynWfOctetWrite", "asynWfOctetWriteBinary", "asynInt8ArrayWfIn",
-    "asynInt8ArrayWfOut", "asynInt16ArrayWfIn", "asynInt16ArrayWfOut",
-    "asynInt32ArrayWfIn", "asynInt32ArrayWfOut", "asynFloat32ArrayWfIn",
-    "asynFloat32ArrayWfOut", "asynFloat64ArrayWfIn",
-    "asynFloat64ArrayWfOut", "asynInt32TimeSeries",
-    "asynFloat64TimeSeries", "asynInt64ArrayWfIn", "asynInt64ArrayWfOut",
-    "asynInt64TimeSeries", "devWaveformStats", "devwaveformStream",
-    "devWfEtherIP"
+    "devWfSoft", "asynWfOctetCmdResponse", "asynWfOctetWriteRead",
+    "asynWfOctetRead", "asynWfOctetWrite", "asynWfOctetWriteBinary",
+    "asynInt8ArrayWfIn", "asynInt8ArrayWfOut", "asynInt16ArrayWfIn",
+    "asynInt16ArrayWfOut", "asynInt32ArrayWfIn", "asynInt32ArrayWfOut",
+    "asynFloat32ArrayWfIn", "asynFloat32ArrayWfOut",
+    "asynFloat64ArrayWfIn", "asynFloat64ArrayWfOut",
+    "asynInt32TimeSeries", "asynFloat64TimeSeries", "asynInt64ArrayWfIn",
+    "asynInt64ArrayWfOut", "asynInt64TimeSeries", "devWaveformStats",
+    "devwaveformStream", "devWfEtherIP"
 };
 
 static const dset * const devsl[] = {
@@ -412,9 +410,9 @@ static const dset * const devsl[] = {
     pvar_dset_devI64outSoft, pvar_dset_devI64outSoftCallback,
     pvar_dset_asynInt64Out, pvar_dset_devint64outStream,
     pvar_dset_devLiSoft, pvar_dset_devLiSoftCallback,
-    pvar_dset_devLiGeneralTime, pvar_dset_devLoPDBUTag,
-    pvar_dset_asynLiInt32, pvar_dset_asynLiUInt32Digital,
-    pvar_dset_asynLiInt64, pvar_dset_devLiStrParm, pvar_dset_devLuaLongin,
+    pvar_dset_devLiGeneralTime, pvar_dset_asynLiInt32,
+    pvar_dset_asynLiUInt32Digital, pvar_dset_asynLiInt64,
+    pvar_dset_devLiStrParm, pvar_dset_devLuaLongin,
     pvar_dset_devlonginStream, pvar_dset_devLidg535,
     pvar_dset_devMW100_longin, pvar_dset_devLoSoft,
     pvar_dset_devLoSoftCallback, pvar_dset_asynLoInt32,
@@ -478,8 +476,7 @@ static const dset * const devsl[] = {
     pvar_dset_devLuaStringout, pvar_dset_devstringoutStream,
     pvar_dset_devSodg535, pvar_dset_devSoEtherIP, pvar_dset_asynSoftGlue,
     pvar_dset_devSASoft, pvar_dset_devSWaitIoEvent, pvar_dset_devVacSen,
-    pvar_dset_devWfSoft, pvar_dset_devWfPDBDemo,
-    pvar_dset_devWfPDBDemoRepeat, pvar_dset_asynWfOctetCmdResponse,
+    pvar_dset_devWfSoft, pvar_dset_asynWfOctetCmdResponse,
     pvar_dset_asynWfOctetWriteRead, pvar_dset_asynWfOctetRead,
     pvar_dset_asynWfOctetWrite, pvar_dset_asynWfOctetWriteBinary,
     pvar_dset_asynInt8ArrayWfIn, pvar_dset_asynInt8ArrayWfOut,
@@ -566,19 +563,18 @@ static struct drvet *drvsl[] = {
     pvar_drvet_stream};
 
 epicsShareExtern jlif *pvar_jlif_lnkCalcIf, *pvar_jlif_lnkConstIf,
-    *pvar_jlif_lnkDebugIf, *pvar_jlif_lnkStateIf, *pvar_jlif_lnkTraceIf,
-    *pvar_jlif_lsetPVA;
+    *pvar_jlif_lnkDebugIf, *pvar_jlif_lnkStateIf, *pvar_jlif_lnkTraceIf;
 
 static struct jlif *jlifsl[] = {
     pvar_jlif_lnkCalcIf,
     pvar_jlif_lnkConstIf,
     pvar_jlif_lnkDebugIf,
     pvar_jlif_lnkStateIf,
-    pvar_jlif_lnkTraceIf,
-    pvar_jlif_lsetPVA};
+    pvar_jlif_lnkTraceIf};
 
 typedef void (*reg_func)(void);
 epicsShareExtern reg_func pvar_func_ACSTech80Register,
+    pvar_func_ADSpinnakerRegister, pvar_func_AGAP_CONEXRegister,
     pvar_func_AG_CONEXRegister, pvar_func_AG_UCRegister,
     pvar_func_ANC150Register, pvar_func_AcsRegister,
     pvar_func_AerotechRegister, pvar_func_AsynDriverInterfaceRegistrar,
@@ -613,11 +609,11 @@ epicsShareExtern reg_func pvar_func_ACSTech80Register,
     pvar_func_PIE517motorRegister, pvar_func_PIE710motorRegister,
     pvar_func_PIE816motorRegister, pvar_func_PIJEDSmotorRegister,
     pvar_func_PImotorRegister, pvar_func_ParkerRegister,
-    pvar_func_QSRVRegistrar, pvar_func_SC800Register,
-    pvar_func_SMC100Register, pvar_func_SMCcorvusRegister,
-    pvar_func_SMChydraRegister, pvar_func_Scaler974Register,
-    pvar_func_SmartMotormotorRegister, pvar_func_SubMLISRegister,
-    pvar_func_ThorLabsRegister, pvar_func_XPSGatheringRegister,
+    pvar_func_SC800Register, pvar_func_SMC100Register,
+    pvar_func_SMCcorvusRegister, pvar_func_SMChydraRegister,
+    pvar_func_Scaler974Register, pvar_func_SmartMotormotorRegister,
+    pvar_func_SubMLISRegister, pvar_func_ThorLabsRegister,
+    pvar_func_URLDriverRegister, pvar_func_XPSGatheringRegister,
     pvar_func_XPSInterposeRegister, pvar_func_XPSRegister,
     pvar_func_XPSRegister3, pvar_func_XPS_trajectoryScanRegistrar,
     pvar_func_aCalcMonitorMemRegister,
@@ -638,44 +634,46 @@ epicsShareExtern reg_func pvar_func_ACSTech80Register,
     pvar_func_drvAsynIPServerPortRegisterCommands,
     pvar_func_drvAsynSerialPortRegisterCommands,
     pvar_func_drvDac128VRegister, pvar_func_drvEtherIP_Register,
-    pvar_func_drvModbusAsynRegister, pvar_func_drvScalerSoftRegister,
-    pvar_func_drvTetrAMMRegister, pvar_func_drvXPSAsynAuxRegister,
-    pvar_func_dxpMEDRegistrar, pvar_func_editSseqRegistrar,
+    pvar_func_drvFX4Register, pvar_func_drvModbusAsynRegister,
+    pvar_func_drvNSLS2_EMRegister, pvar_func_drvNSLS_EMRegister,
+    pvar_func_drvPCR4Register, pvar_func_drvScalerSoftRegister,
+    pvar_func_drvSoftQuadEMRegister, pvar_func_drvT4UDirect_EMRegister,
+    pvar_func_drvT4U_EMRegister, pvar_func_drvTetrAMMRegister,
+    pvar_func_drvXPSAsynAuxRegister, pvar_func_dxpMEDRegistrar,
     pvar_func_eigerDetectorRegister, pvar_func_fastSweepRegister,
-    pvar_func_femtoRegistrar, pvar_func_filterDriveRegistrar,
+    pvar_func_femtoRegistrar, pvar_func_ffmpegFileRegister,
+    pvar_func_ffmpegServerRegister, pvar_func_filterDriveRegistrar,
     pvar_func_flexCombinedMotionRegistrar, pvar_func_hrCtlRegistrar,
-    pvar_func_installPVAAddLinkHook, pvar_func_interpRegister,
-    pvar_func_ip330Register, pvar_func_ipUnidigRegister,
-    pvar_func_ipacRegistrar, pvar_func_kohzuCtlRegistrar,
-    pvar_func_kohzuCtl_softRegistrar, pvar_func_libasynRegister,
-    pvar_func_libdatabaseRegister, pvar_func_libepicsRegister,
-    pvar_func_libosiRegister, pvar_func_luashRegister,
-    pvar_func_marCCD_ADRegister, pvar_func_ml_monoCtlRegistrar,
-    pvar_func_modbusInterposeRegister, pvar_func_motorRegister,
-    pvar_func_motorSimDriverRegister, pvar_func_motorSimRegister,
-    pvar_func_motorUtilRegister, pvar_func_mw100Register,
-    pvar_func_nf874xMotorRegister, pvar_func_nigpibInterposeRegister,
-    pvar_func_orientRegistrar, pvar_func_parseRegister,
-    pvar_func_pf4Registrar, pvar_func_pilatusDetectorRegister,
-    pvar_func_portDriverRegister, pvar_func_pvHistoryRegister,
-    pvar_func_refTrackRegistrar, pvar_func_registerStartPVAServer,
-    pvar_func_rsrvRegistrar, pvar_func_saveDataRegistrar,
-    pvar_func_save_restoreRegister, pvar_func_scanProgressRegistrar,
-    pvar_func_streamRegistrar, pvar_func_subAveRegister,
-    pvar_func_syncInitialize, pvar_func_tsInitialize,
-    pvar_func_tvme200Registrar, pvar_func_utagInitialize,
-    pvar_func_vipc310Registrar, pvar_func_vipc610Registrar,
-    pvar_func_vipc616Registrar, pvar_func_vxi11RegisterCommands,
-    pvar_func_xia_slitRegistrar, pvar_func_xiahscRegistrar,
-    pvar_func_xpsSlaveRegistrar, pvar_func_xspress3Register,
-    pvar_func_xy9660Registrar, pvar_func_register_func_QSRV_image_demo,
+    pvar_func_interpRegister, pvar_func_ip330Register,
+    pvar_func_ipUnidigRegister, pvar_func_ipacRegistrar,
+    pvar_func_kohzuCtlRegistrar, pvar_func_kohzuCtl_softRegistrar,
+    pvar_func_libasynRegister, pvar_func_libdatabaseRegister,
+    pvar_func_libepicsRegister, pvar_func_libosiRegister,
+    pvar_func_luashRegister, pvar_func_marCCD_ADRegister,
+    pvar_func_ml_monoCtlRegistrar, pvar_func_modbusInterposeRegister,
+    pvar_func_motorRegister, pvar_func_motorSimDriverRegister,
+    pvar_func_motorSimRegister, pvar_func_motorUtilRegister,
+    pvar_func_mw100Register, pvar_func_nf874xMotorRegister,
+    pvar_func_nigpibInterposeRegister, pvar_func_orientRegistrar,
+    pvar_func_parseRegister, pvar_func_pf4Registrar,
+    pvar_func_pilatusDetectorRegister, pvar_func_portDriverRegister,
+    pvar_func_pvHistoryRegister, pvar_func_refTrackRegistrar,
+    pvar_func_registerStartPVAServer, pvar_func_rsrvRegistrar,
+    pvar_func_saveDataRegistrar, pvar_func_save_restoreRegister,
+    pvar_func_scanProgressRegistrar, pvar_func_streamRegistrar,
+    pvar_func_subAveRegister, pvar_func_syncInitialize,
+    pvar_func_tsInitialize, pvar_func_tvme200Registrar,
+    pvar_func_utagInitialize, pvar_func_vipc310Registrar,
+    pvar_func_vipc610Registrar, pvar_func_vipc616Registrar,
+    pvar_func_vxi11RegisterCommands, pvar_func_xia_slitRegistrar,
+    pvar_func_xiahscRegistrar, pvar_func_xpsSlaveRegistrar,
+    pvar_func_xspress3Register, pvar_func_xy9660Registrar,
     pvar_func_register_func_myAttrFunct1,
     pvar_func_register_func_myTimeStampSource,
     pvar_func_register_func_rebootProc, pvar_func_register_func_scanMon,
     pvar_func_register_func_scanMonInit;
 
 epicsShareExtern int * const pvar_int_CASDEBUG;
-epicsShareExtern int * const pvar_int_PDBProviderDebug;
 epicsShareExtern int * const pvar_int_aCalcAsyncThreshold;
 epicsShareExtern int * const pvar_int_aCalcLoopMax;
 epicsShareExtern int * const pvar_int_aCalcMonitorMem_debug;
@@ -735,7 +733,6 @@ epicsShareExtern int * const pvar_int_lnkDebug_debug;
 epicsShareExtern int * const pvar_int_logClientDebug;
 epicsShareExtern int * const pvar_int_mcaRecordDebug;
 epicsShareExtern int * const pvar_int_pvHistoryDebug;
-epicsShareExtern int * const pvar_int_pvaLinkNWorkers;
 epicsShareExtern int * const pvar_int_recDigitelDebug;
 epicsShareExtern int * const pvar_int_recDynLinkDebug;
 epicsShareExtern int * const pvar_int_recDynLinkQsize;
@@ -774,7 +771,6 @@ epicsShareExtern int * const pvar_int_transformRecordDebug;
 
 static struct iocshVarDef vardefs[] = {
     {"CASDEBUG", iocshArgInt, pvar_int_CASDEBUG},
-    {"PDBProviderDebug", iocshArgInt, pvar_int_PDBProviderDebug},
     {"aCalcAsyncThreshold", iocshArgInt, pvar_int_aCalcAsyncThreshold},
     {"aCalcLoopMax", iocshArgInt, pvar_int_aCalcLoopMax},
     {"aCalcMonitorMem_debug", iocshArgInt, pvar_int_aCalcMonitorMem_debug},
@@ -834,7 +830,6 @@ static struct iocshVarDef vardefs[] = {
     {"logClientDebug", iocshArgInt, pvar_int_logClientDebug},
     {"mcaRecordDebug", iocshArgInt, pvar_int_mcaRecordDebug},
     {"pvHistoryDebug", iocshArgInt, pvar_int_pvHistoryDebug},
-    {"pvaLinkNWorkers", iocshArgInt, pvar_int_pvaLinkNWorkers},
     {"recDigitelDebug", iocshArgInt, pvar_int_recDigitelDebug},
     {"recDynLinkDebug", iocshArgInt, pvar_int_recDynLinkDebug},
     {"recDynLinkQsize", iocshArgInt, pvar_int_recDynLinkQsize},
@@ -900,6 +895,8 @@ int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
     registerDrivers(pbase, NELEMENTS(drvsl), driverSupportNames, drvsl);
     registerJLinks(pbase, NELEMENTS(jlifsl), jlifsl);
     runRegistrarOnce(pvar_func_ACSTech80Register);
+    runRegistrarOnce(pvar_func_ADSpinnakerRegister);
+    runRegistrarOnce(pvar_func_AGAP_CONEXRegister);
     runRegistrarOnce(pvar_func_AG_CONEXRegister);
     runRegistrarOnce(pvar_func_AG_UCRegister);
     runRegistrarOnce(pvar_func_ANC150Register);
@@ -965,7 +962,6 @@ int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
     runRegistrarOnce(pvar_func_PIJEDSmotorRegister);
     runRegistrarOnce(pvar_func_PImotorRegister);
     runRegistrarOnce(pvar_func_ParkerRegister);
-    runRegistrarOnce(pvar_func_QSRVRegistrar);
     runRegistrarOnce(pvar_func_SC800Register);
     runRegistrarOnce(pvar_func_SMC100Register);
     runRegistrarOnce(pvar_func_SMCcorvusRegister);
@@ -974,6 +970,7 @@ int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
     runRegistrarOnce(pvar_func_SmartMotormotorRegister);
     runRegistrarOnce(pvar_func_SubMLISRegister);
     runRegistrarOnce(pvar_func_ThorLabsRegister);
+    runRegistrarOnce(pvar_func_URLDriverRegister);
     runRegistrarOnce(pvar_func_XPSGatheringRegister);
     runRegistrarOnce(pvar_func_XPSInterposeRegister);
     runRegistrarOnce(pvar_func_XPSRegister);
@@ -1008,19 +1005,26 @@ int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
     runRegistrarOnce(pvar_func_drvAsynSerialPortRegisterCommands);
     runRegistrarOnce(pvar_func_drvDac128VRegister);
     runRegistrarOnce(pvar_func_drvEtherIP_Register);
+    runRegistrarOnce(pvar_func_drvFX4Register);
     runRegistrarOnce(pvar_func_drvModbusAsynRegister);
+    runRegistrarOnce(pvar_func_drvNSLS2_EMRegister);
+    runRegistrarOnce(pvar_func_drvNSLS_EMRegister);
+    runRegistrarOnce(pvar_func_drvPCR4Register);
     runRegistrarOnce(pvar_func_drvScalerSoftRegister);
+    runRegistrarOnce(pvar_func_drvSoftQuadEMRegister);
+    runRegistrarOnce(pvar_func_drvT4UDirect_EMRegister);
+    runRegistrarOnce(pvar_func_drvT4U_EMRegister);
     runRegistrarOnce(pvar_func_drvTetrAMMRegister);
     runRegistrarOnce(pvar_func_drvXPSAsynAuxRegister);
     runRegistrarOnce(pvar_func_dxpMEDRegistrar);
-    runRegistrarOnce(pvar_func_editSseqRegistrar);
     runRegistrarOnce(pvar_func_eigerDetectorRegister);
     runRegistrarOnce(pvar_func_fastSweepRegister);
     runRegistrarOnce(pvar_func_femtoRegistrar);
+    runRegistrarOnce(pvar_func_ffmpegFileRegister);
+    runRegistrarOnce(pvar_func_ffmpegServerRegister);
     runRegistrarOnce(pvar_func_filterDriveRegistrar);
     runRegistrarOnce(pvar_func_flexCombinedMotionRegistrar);
     runRegistrarOnce(pvar_func_hrCtlRegistrar);
-    runRegistrarOnce(pvar_func_installPVAAddLinkHook);
     runRegistrarOnce(pvar_func_interpRegister);
     runRegistrarOnce(pvar_func_ip330Register);
     runRegistrarOnce(pvar_func_ipUnidigRegister);
@@ -1069,7 +1073,6 @@ int pilatus3_registerRecordDeviceDriver(DBBASE *pbase)
     runRegistrarOnce(pvar_func_xpsSlaveRegistrar);
     runRegistrarOnce(pvar_func_xspress3Register);
     runRegistrarOnce(pvar_func_xy9660Registrar);
-    runRegistrarOnce(pvar_func_register_func_QSRV_image_demo);
     runRegistrarOnce(pvar_func_register_func_myAttrFunct1);
     runRegistrarOnce(pvar_func_register_func_myTimeStampSource);
     runRegistrarOnce(pvar_func_register_func_rebootProc);
