@@ -1,4 +1,4 @@
-# Autosave release 6.1, compiled Fri Aug  7 15:18:26 2026	Automatically generated - DO NOT MODIFY - 260807-162720
+# Autosave release 6.1, compiled Fri Aug  7 15:18:26 2026	Automatically generated - DO NOT MODIFY - 260811-163541
 18ID:EIG2:cam1:BinX 1
 18ID:EIG2:cam1:BinY 1
 18ID:EIG2:cam1:MinX 0
@@ -26,7 +26,7 @@
 18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ZRVL 0
 18ID:EIG2:cam1:ShutterStatusEPICS_RBV.ONVL 1
 18ID:EIG2:cam1:Temperature 25
-18ID:EIG2:cam1:ReadStatus.SCAN 0
+18ID:EIG2:cam1:ReadStatus.SCAN 3
 18ID:EIG2:cam1:DataType 5
 18ID:EIG2:cam1:ColorMode 0
 18ID:EIG2:cam1:ArrayCallbacks 1
@@ -35,7 +35,7 @@
 18ID:EIG2:cam1:PoolPollStats.SCAN 6
 18ID:EIG2:cam1:NumPreAllocBuffers 100
 18ID:EIG2:cam1:WaitForPlugins 0
-18ID:EIG2:cam1:FilePath 0
+18ID:EIG2:cam1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "47" "50" "48" "50" "54" "95" "82" "117" "110" "50" "47" "50" "48" "50" "54" "95" "48" "53" "95" "50" "56" "95" "72" "111" "112" "107" "105" "110" "115" "47" "101" "105" "103" "101" "114" "95" "116" "101" "115" "116" "47" "116" "49" "47" "105" "109" "97" "103" "101" "115" "0" }
 18ID:EIG2:cam1:FileName 0
 18ID:EIG2:cam1:FileNumber 0
 18ID:EIG2:cam1:AutoIncrement 0
@@ -63,10 +63,10 @@
 18ID:EIG2:cam1:SignedData 0
 18ID:EIG2:cam1:FWEnable 1
 18ID:EIG2:cam1:FWCompression 1
-18ID:EIG2:cam1:FWNamePattern 0
+18ID:EIG2:cam1:FWNamePattern @array@ { "116" "48" "54" "48" "56" "95" "48" "55" "0" }
 18ID:EIG2:cam1:FWNImagesPerFile 300
-18ID:EIG2:cam1:FWAutoRemove 0
-18ID:EIG2:cam1:SaveFiles 0
+18ID:EIG2:cam1:FWAutoRemove 1
+18ID:EIG2:cam1:SaveFiles 1
 18ID:EIG2:cam1:FileOwner 
 18ID:EIG2:cam1:FileOwnerGrp 
 18ID:EIG2:cam1:FilePerms 420
@@ -169,12 +169,12 @@
 18ID:EIG2:netCDF1:PoolPollStats.SCAN 6
 18ID:EIG2:netCDF1:NumPreAllocBuffers 100
 18ID:EIG2:netCDF1:WaitForPlugins 0
-18ID:EIG2:TIFF1:FilePath 0
-18ID:EIG2:TIFF1:FileName 0
-18ID:EIG2:TIFF1:FileNumber 0
-18ID:EIG2:TIFF1:AutoIncrement 0
-18ID:EIG2:TIFF1:FileTemplate 0
-18ID:EIG2:TIFF1:AutoSave 0
+18ID:EIG2:TIFF1:FilePath @array@ { "47" "110" "97" "115" "95" "100" "97" "116" "97" "47" "69" "105" "103" "101" "114" "50" "120" "101" "57" "77" "47" "50" "48" "50" "50" "95" "82" "117" "110" "49" "47" "50" "48" "50" "50" "48" "51" "49" "54" "95" "72" "111" "112" "107" "105" "110" "115" "47" "83" "101" "116" "117" "112" "47" "83" "108" "105" "116" "115" "0" }
+18ID:EIG2:TIFF1:FileName @array@ { "115" "108" "105" "116" "115" "48" "49" "95" "48" "48" "51" "0" }
+18ID:EIG2:TIFF1:FileNumber 2
+18ID:EIG2:TIFF1:AutoIncrement 1
+18ID:EIG2:TIFF1:FileTemplate @array@ { "37" "115" "37" "115" "95" "37" "52" "46" "52" "100" "46" "116" "105" "102" "0" }
+18ID:EIG2:TIFF1:AutoSave 1
 18ID:EIG2:TIFF1:FileFormat 0
 18ID:EIG2:TIFF1:FileWriteMode 0
 18ID:EIG2:TIFF1:NumCapture 1

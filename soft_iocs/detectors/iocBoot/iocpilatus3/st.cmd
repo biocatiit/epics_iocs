@@ -45,6 +45,7 @@ dbLoadRecords("$(ADCORE)/db/NDStdArrays.template", "P=$(PREFIX),R=image1:,PORT=I
 # Load all other plugins using commonPlugins.cmd
 < $(ADCORE)/iocBoot/commonPlugins.cmd
 set_requestfile_path("$(ADPILATUS)/pilatusApp/Db")
+set_requestfile_path("$(CALC)/db")
 
 # Uncomment to enable asynTrace on the driver port
 #asynSetTraceMask("$(PORT)",0,255)

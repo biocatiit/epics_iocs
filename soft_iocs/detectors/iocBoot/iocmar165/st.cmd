@@ -44,6 +44,7 @@ dbLoadRecords("$(ADCORE)/db/NDStdArrays.template", "P=$(PREFIX),R=image1:,PORT=I
 # Load all other plugins using commonPlugins.cmd
 < $(ADCORE)/iocBoot/commonPlugins.cmd
 set_requestfile_path("$(ADMARCCD)/marCCDApp/Db")
+set_requestfile_path("$(CALC)/db")
 
 #asynSetTraceMask("$(PORT)",0,3)
 #asynSetTraceIOMask("$(PORT)",0,4)
@@ -52,3 +53,5 @@ iocInit()
 
 # save things every thirty seconds
 create_monitor_set("auto_settings.req", 30,"P=$(PREFIX)")
+
+date
