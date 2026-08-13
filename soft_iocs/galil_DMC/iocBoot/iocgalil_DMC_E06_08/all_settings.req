@@ -1,0 +1,4 @@
+# Each DMC settings, one line per DMC
+file "DMC_Settings.req" P=$(P1), M1=C1, M2=C2, M3=C3, M4=C4, M5=C5, M6=C6, M7=C7, M8=C8
+file "DMC_Settings.req" P=$(P2), M1=C9, M2=C10, M3=C11, M4=C12, M5=C13, M6=C14, M7=C15, M8=C16
+file "DMC_Settings.req" P=$(P3), M1=C17, M2=C18, M3=C19, M4=C20, M5=C21, M6=C22, M7=C23, M8=C24

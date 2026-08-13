@@ -1,0 +1,4 @@
+# Each DMC settings, one line per DMC
+file "DMC_Kinematics.req" P=$(P1)
+file "DMC_Kinematics.req" P=$(P2)
+file "DMC_Kinematics.req" P=$(P3)
