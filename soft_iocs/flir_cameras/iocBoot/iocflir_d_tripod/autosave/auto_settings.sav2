@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260501-165913
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260810-210936
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:D:Tripod:cam1:BinX 1
 18ID:FLIR:D:Tripod:cam1:BinY 1
@@ -8,7 +8,7 @@
 18ID:FLIR:D:Tripod:cam1:SizeY 1200
 18ID:FLIR:D:Tripod:cam1:ReverseX 0
 18ID:FLIR:D:Tripod:cam1:ReverseY 0
-18ID:FLIR:D:Tripod:cam1:AcquireTime 0.025
+18ID:FLIR:D:Tripod:cam1:AcquireTime 0.08
 18ID:FLIR:D:Tripod:cam1:AcquirePeriod 0.066668456
 18ID:FLIR:D:Tripod:cam1:Gain 20
 18ID:FLIR:D:Tripod:cam1:FrameType 0
@@ -1975,9 +1975,9 @@
 18ID:FLIR:D:Tripod:Over1:1:Name ROI1
 18ID:FLIR:D:Tripod:Over1:1:Use 1
 18ID:FLIR:D:Tripod:Over1:1:PositionXLink.DOL 
-18ID:FLIR:D:Tripod:Over1:1:PositionX 650
+18ID:FLIR:D:Tripod:Over1:1:PositionX 558
 18ID:FLIR:D:Tripod:Over1:1:PositionYLink.DOL 
-18ID:FLIR:D:Tripod:Over1:1:PositionY 347
+18ID:FLIR:D:Tripod:Over1:1:PositionY 433
 18ID:FLIR:D:Tripod:Over1:1:SizeXLink.DOL 
 18ID:FLIR:D:Tripod:Over1:1:SizeX 173
 18ID:FLIR:D:Tripod:Over1:1:SizeYLink.DOL 
