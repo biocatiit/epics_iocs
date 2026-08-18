@@ -5,4 +5,5 @@ pushd /opt/epics/epics_iocs/shortcuts
 ./start_ioc_meas_comp_ctr.sh stop
 ./start_ioc_srs570.sh stop
 ./start_ioc_toaster.sh stop
+./start_ioc_dg645.sh stop
 popd
