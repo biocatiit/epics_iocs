@@ -22,21 +22,21 @@ srs_DBD += base.dbd
 # Include dbd files from all support applications:
 srs_DBD += asyn.dbd
 srs_DBD += drvAsynIPPort.dbd drvAsynSerialPort.dbd
-#srs_DBD += stream.dbd
 srs_DBD += busySupport.dbd
 srs_DBD += asSupport.dbd
 srs_DBD += calc.dbd
 srs_DBD += ipSupport.dbd
+srs_DBD += stream.dbd
 srs_DBD += delaygenSupport.dbd
 srs_DBD += devIocStats.dbd iocAdmin.dbd
 
 # Add all the support libraries needed by this IOC
 srs_LIBS += asyn
-#srs_LIBS += stream
 srs_LIBS += busy
 srs_LIBS += autosave
 srs_LIBS += calc
 srs_LIBS += ip
+srs_LIBS += stream
 srs_LIBS += delaygen
 srs_LIBS += devIocStats
 

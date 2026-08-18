@@ -1,0 +1,3 @@
+## DG645 digital delay generator settings
+file drvDG645_settings.req P=$(P1),R=$(R1)
+file drvDG645_settings.req P=$(P2),R=$(R2)
