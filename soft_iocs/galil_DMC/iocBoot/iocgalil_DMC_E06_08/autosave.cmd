@@ -23,6 +23,13 @@ set_savefile_path("${TOP}/iocBoot/${IOC}/autosave", "")
 # in the directory specified in set_savefile_path(), or, if that function
 # has not been called, from the directory current when iocInit is invoked
 # example: set_pass0_restoreFile("autosave_geiger.sav")
+# DMC autosave restore configuration
+# restore settings in pass 0 so encoder ratio is set correctly for position restore in device support init
+set_pass0_restoreFile("all_settings.sav")
+# restore positions in pass 0 so motors don't move
+set_pass0_restoreFile("all_positions.sav")
+# restore kinematic equation character arrays in pass 1
+set_pass1_restoreFile("all_kinematics.sav")
 
 # specify directories in which to to search for included request files
 # set_requestfile_path(${TOP}, "autosaveReqs")

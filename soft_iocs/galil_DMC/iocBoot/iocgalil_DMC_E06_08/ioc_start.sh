@@ -10,7 +10,7 @@
 #!EPICS_HOST_ARCH=linux-x86_64
 #!EPICS_HOST_ARCH=linux-x86_64-debug
 
-IOC_NAME=IOC_18ID_DMC_E01
+IOC_NAME=IOC_18ID_DMC_E06_08
 # The name of the IOC binary isn't necessarily the same as the name of the IOC
 IOC_BINARY="../../bin/linux-x86_64/galil_DMC"
 
