@@ -1,4 +1,5 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260818-150326
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260423-120721
+! 7 channel(s) not connected - or not all gets were successful
 18ID:USBCTR08:1:Bd1 0
 18ID:USBCTR08:1:Bd2 0
 18ID:USBCTR08:1:Bd3 0
@@ -94,7 +95,7 @@
 18ID:USBCTR08:1:MCS:NuseAll 10
 18ID:USBCTR08:1:MCS:EnableClientWait 0
 18ID:USBCTR08:1:MCS:TrigMode 3
-18ID:USBCTR08:2:Bd1 1
+18ID:USBCTR08:2:Bd1 0
 18ID:USBCTR08:2:Bd2 0
 18ID:USBCTR08:2:Bd3 0
 18ID:USBCTR08:2:Bd4 0
@@ -102,30 +103,30 @@
 18ID:USBCTR08:2:Bd6 1
 18ID:USBCTR08:2:Bd7 1
 18ID:USBCTR08:2:Bd8 1
-18ID:USBCTR08:2:PulseGen1Period 1e-06
-18ID:USBCTR08:2:PulseGen1Width 5e-07
+18ID:USBCTR08:2:PulseGen1Period 3.125e-08
+18ID:USBCTR08:2:PulseGen1Width 1.5625e-08
 18ID:USBCTR08:2:PulseGen1Delay 0
 18ID:USBCTR08:2:PulseGen1Count 0
 18ID:USBCTR08:2:PulseGen1IdleState 0
 18ID:USBCTR08:2:PulseGen1Run 1
-18ID:USBCTR08:2:PulseGen2Period 1e-06
-18ID:USBCTR08:2:PulseGen2Width 5e-07
+18ID:USBCTR08:2:PulseGen2Period 0.5
+18ID:USBCTR08:2:PulseGen2Width 0.25
 18ID:USBCTR08:2:PulseGen2Delay 0
-18ID:USBCTR08:2:PulseGen2Count 0
+18ID:USBCTR08:2:PulseGen2Count 10
 18ID:USBCTR08:2:PulseGen2IdleState 0
-18ID:USBCTR08:2:PulseGen2Run 1
+18ID:USBCTR08:2:PulseGen2Run 0
 18ID:USBCTR08:2:PulseGen3Period 0.001
 18ID:USBCTR08:2:PulseGen3Width 0.0005
 18ID:USBCTR08:2:PulseGen3Delay 0
 18ID:USBCTR08:2:PulseGen3Count 0
 18ID:USBCTR08:2:PulseGen3IdleState 0
 18ID:USBCTR08:2:PulseGen3Run 0
-18ID:USBCTR08:2:PulseGen4Period 0.1
+18ID:USBCTR08:2:PulseGen4Period 0.001
 18ID:USBCTR08:2:PulseGen4Width 0.0005
 18ID:USBCTR08:2:PulseGen4Delay 0
 18ID:USBCTR08:2:PulseGen4Count 0
 18ID:USBCTR08:2:PulseGen4IdleState 0
-18ID:USBCTR08:2:PulseGen4Run 1
+18ID:USBCTR08:2:PulseGen4Run 0
 18ID:USBCTR08:2:scaler1.TP 0.5
 18ID:USBCTR08:2:scaler1.TP1 1
 18ID:USBCTR08:2:scaler1.CONT 0
@@ -171,29 +172,29 @@
 18ID:USBCTR08:2:scaler1.PR8 0
 18ID:USBCTR08:2:scaler1.G8 0
 18ID:USBCTR08:2:MCS:PresetReal 0
-18ID:USBCTR08:2:MCS:Dwell 0.01
+18ID:USBCTR08:2:MCS:Dwell 0.5
 18ID:USBCTR08:2:MCS:Prescale 1
-18ID:USBCTR08:2:MCS:ChannelAdvance 0
+18ID:USBCTR08:2:MCS:ChannelAdvance 1
 18ID:USBCTR08:2:MCS:MCSCounter1Enable 1
 18ID:USBCTR08:2:MCS:MCSCounter2Enable 1
-18ID:USBCTR08:2:MCS:MCSCounter3Enable 1
-18ID:USBCTR08:2:MCS:MCSCounter4Enable 1
-18ID:USBCTR08:2:MCS:MCSCounter5Enable 1
-18ID:USBCTR08:2:MCS:MCSCounter6Enable 1
-18ID:USBCTR08:2:MCS:MCSCounter7Enable 1
-18ID:USBCTR08:2:MCS:MCSCounter8Enable 1
-18ID:USBCTR08:2:MCS:MCSDIOEnable 1
+18ID:USBCTR08:2:MCS:MCSCounter3Enable 0
+18ID:USBCTR08:2:MCS:MCSCounter4Enable 0
+18ID:USBCTR08:2:MCS:MCSCounter5Enable 0
+18ID:USBCTR08:2:MCS:MCSCounter6Enable 0
+18ID:USBCTR08:2:MCS:MCSCounter7Enable 0
+18ID:USBCTR08:2:MCS:MCSCounter8Enable 0
+18ID:USBCTR08:2:MCS:MCSDIOEnable 0
 18ID:USBCTR08:2:MCS:PrescaleCounter 0
 18ID:USBCTR08:2:MCS:Point0Action 1
 18ID:USBCTR08:2:MCS:ReadAll.SCAN 6
-18ID:USBCTR08:2:MCS:NuseAll 2048
+18ID:USBCTR08:2:MCS:NuseAll 10
 18ID:USBCTR08:2:MCS:EnableClientWait 0
 18ID:USBCTR08:2:MCS:TrigMode 3
 18ID:Scans:scan1.ATIME 0.1
 18ID:Scans:scan1.COPYTO 0
 18ID:Scans:scan1.AAWAIT 0
 18ID:Scans:scan1.FLNK 
-18ID:Scans:scan1.NPTS 1
+18ID:Scans:scan1.NPTS 2
 18ID:Scans:scan1.ACQT 0
 18ID:Scans:scan1.ACQM 0
 18ID:Scans:scan1.PASM 0
@@ -799,13 +800,13 @@
 18ID:Scans:scanH.D68PV 
 18ID:Scans:scanH.D69PV 
 18ID:Scans:scanH.D70PV 
-18ID:Scans:saveData_fileSystem 
-18ID:Scans:saveData_subDir 
-18ID:Scans:saveData_baseName 
-18ID:Scans:saveData_scanNumber 0
-18ID:Scans:saveData_realTime1D 0
-18ID:Scans:saveData_maxAllowedRetries 10
-18ID:Scans:saveData_retryWaitInSecs 15
+#18ID:Scans:saveData_fileSystem Search Issued
+#18ID:Scans:saveData_subDir Search Issued
+#18ID:Scans:saveData_baseName Search Issued
+#18ID:Scans:saveData_scanNumber Search Issued
+#18ID:Scans:saveData_realTime1D Search Issued
+#18ID:Scans:saveData_maxAllowedRetries Search Issued
+#18ID:Scans:saveData_retryWaitInSecs Search Issued
 18ID:USBCTR08:1:Dark1.VAL 32000000
 18ID:USBCTR08:1:Dark1.DRVH 0
 18ID:USBCTR08:1:Dark1.DRVL 0

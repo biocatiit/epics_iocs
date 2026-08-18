@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260501-171449
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 260818-150917
 18ID:SR570:1:asyn_1bias_put.VAL 0
 18ID:SR570:1:asyn_1bias_tweak.VAL 0
 18ID:SR570:1:asyn_1bias_on.VAL 0
@@ -13,9 +13,9 @@
 18ID:SR570:1:asyn_1offset_num.VAL 0
 18ID:SR570:1:asyn_1offset_unit.VAL 0
 18ID:SR570:1:asyn_1gain_mode.VAL 0
-18ID:SR570:1:asyn_1invert_on.VAL 0
+18ID:SR570:1:asyn_1invert_on.VAL 1
 18ID:SR570:1:asyn_1blank_on.VAL 0
-18ID:SR570:1:asyn_1sens_num.VAL 3
+18ID:SR570:1:asyn_1sens_num.VAL 0
 18ID:SR570:1:asyn_1sens_unit.VAL 2
 18ID:SR570:1:asyn_1init.DESC SR570 1: I0
 18ID:SR570:2:asyn_2bias_put.VAL 0
@@ -34,8 +34,8 @@
 18ID:SR570:2:asyn_2gain_mode.VAL 0
 18ID:SR570:2:asyn_2invert_on.VAL 0
 18ID:SR570:2:asyn_2blank_on.VAL 0
-18ID:SR570:2:asyn_2sens_num.VAL 3
-18ID:SR570:2:asyn_2sens_unit.VAL 2
+18ID:SR570:2:asyn_2sens_num.VAL 0
+18ID:SR570:2:asyn_2sens_unit.VAL 1
 18ID:SR570:2:asyn_2init.DESC SR570 2: I1
 18ID:SR570:3:asyn_3bias_put.VAL 0
 18ID:SR570:3:asyn_3bias_tweak.VAL 0
@@ -53,8 +53,8 @@
 18ID:SR570:3:asyn_3gain_mode.VAL 0
 18ID:SR570:3:asyn_3invert_on.VAL 0
 18ID:SR570:3:asyn_3blank_on.VAL 0
-18ID:SR570:3:asyn_3sens_num.VAL 3
-18ID:SR570:3:asyn_3sens_unit.VAL 2
+18ID:SR570:3:asyn_3sens_num.VAL 2
+18ID:SR570:3:asyn_3sens_unit.VAL 1
 18ID:SR570:3:asyn_3init.DESC SR570 3: I2
 18ID:SR570:4:asyn_4bias_put.VAL 0
 18ID:SR570:4:asyn_4bias_tweak.VAL 0
@@ -70,9 +70,9 @@
 18ID:SR570:4:asyn_4offset_num.VAL 0
 18ID:SR570:4:asyn_4offset_unit.VAL 0
 18ID:SR570:4:asyn_4gain_mode.VAL 0
-18ID:SR570:4:asyn_4invert_on.VAL 0
+18ID:SR570:4:asyn_4invert_on.VAL 1
 18ID:SR570:4:asyn_4blank_on.VAL 0
-18ID:SR570:4:asyn_4sens_num.VAL 3
+18ID:SR570:4:asyn_4sens_num.VAL 0
 18ID:SR570:4:asyn_4sens_unit.VAL 2
 18ID:SR570:4:asyn_4init.DESC SR570 4: I3
 <END>
