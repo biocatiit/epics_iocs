@@ -32,6 +32,17 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=$(IOCPREFIX)")
 
 ##################################################################################################
 
+
+### Optical tables
+#tableRecordDebug=1
+#dbLoadRecords("$(OPTICS)/db/table.db","P=,Q=18ID:ADCTable,T=18ID:ADCTable,M0X=18ID_DMC_E05:36,M0Y=18ID_DMC_E05:34,M1Y=18ID_DMC_E05:37,M2X=18ID_DMC_E05:35,M2Y=18ID_DMC_E05:33,M2Z=m6,GEOM=PNC")
+dbLoadRecords("$(OPTICS)/opticsApp/Db/table_soft.vdb", "P=,Q=18ID:ADCTable,T=18ID:ADCTable,M0X=18ID_DMC_E05:36,M0Y=18ID_DMC_E05:34,M1Y=18ID_DMC_E05:37,M2X=18ID_DMC_E05:35,M2Y=18ID_DMC_E05:33,M2Z=m6,GEOM=PNC")
+
+# restore table settings in pass 1 so motor positions are restored first
+set_pass1_restoreFile("table_soft_settings.sav")
+
+##################################################################################################
+
 < autosave.cmd
 
 # Start the IOC
@@ -48,6 +59,11 @@ saveData_Init("saveData.req", "P=$(IOCPREFIX)")
 
 # Create RIO autosave monitor sets
 #< RIO01CreateMonitorSet.cmd
+
+# ADC Table autosave settings
+# Save ADC table calibration every 30 seconds
+create_monitor_set("table_soft_settings.req", 30,"P=,Q=18ID:ADCTable,T=18ID:ADCTable")
+
 
 ##################################################################################################
 date

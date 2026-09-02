@@ -28,6 +28,7 @@ set_savefile_path("${TOP}/iocBoot/${IOC}/autosave", "")
 set_requestfile_path("${GALIL}/GalilSup/Db", "")
 set_requestfile_path("${MOTOR}/motorApp/Db", "")
 set_requestfile_path("${SSCAN}/sscanApp/Db", "")
+set_requestfile_path("${OPTICS}/opticsApp/Db", "")
 set_requestfile_path("${TOP}/iocBoot/${IOC}", "")
 
 dbLoadRecords("$(AUTOSAVE)/asApp/Db/save_restoreStatus.db","P=$(IOCPREFIX)")
