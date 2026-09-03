@@ -10,6 +10,7 @@ iocnewportLinux_registerRecordDeviceDriver(pdbbase)
 ### Motors
 dbLoadTemplate "motor.substitutions.xps"
 
+# AUX doesn't currently work for D8s
 #dbLoadTemplate "XPSAux.substitutions"
 
 # asyn port, IP address, IP port, number of axes,
@@ -27,26 +28,28 @@ XPSCreateController("XPS1", "164.54.204.74", 5001, 8, 10, 500, 0, 500)
 # XPS asyn port,  axis, groupName.positionerName, stepSize
 #XPSCreateAxis("XPS1",0,"GROUP.PHI",      "1000")
 # ILS50PP
-XPSCreateAxis("XPS1",2,"Group3.Pos",   "2000")
+#XPSCreateAxis("XPS1",2,"Group3.Pos",   "2000")
 # ILS50PP
-XPSCreateAxis("XPS1",3,"Group4.Pos",   "2000")
+#XPSCreateAxis("XPS1",3,"Group4.Pos",   "2000")
 # PR50PP
-XPSCreateAxis("XPS1",5,"Group6.Pos",   "50")
+XPSCreateAxis("XPS1",0,"Group1.Pos",   "50")
 # ILS50PP
-XPSCreateAxis("XPS1",6,"Group7.Pos",   "2000")
+XPSCreateAxis("XPS1",1,"Group2.Pos",   "2000")
 # ILS50PP
-XPSCreateAxis("XPS1",7,"Group8.Pos",   "2000")
+XPSCreateAxis("XPS1",2,"Group3.Pos",   "2000")
 
 # XPS asyn port,  max points, FTP username, FTP password
 # Note: this must be done after configuring axes
 XPSCreateProfile("XPS1", 2000, "Administrator", "Administrator")
 
 #Loads PCO records
-#dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m6,PORT=XPS1,ADDR=5,PREC=2")
-#dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m7,PORT=XPS1,ADDR=6,PREC=4")
-#dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m8,PORT=XPS1,ADDR=7,PREC=4")
+# This doesn't work on D8s either at the moment
+#dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m1,PORT=XPS1,ADDR=0,PREC=2")
+#dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m2,PORT=XPS1,ADDR=1,PREC=4")
+#dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m3,PORT=XPS1,ADDR=2,PREC=4")
 
 #Enables defered moves for synchronous group moves
+# Note clear this works either
 dbLoadRecords("$(TOP)/newportApp/Db/motor_defer.db", "S=18ID_Newport_D,PORT=XPS1,ADDR=0,TIMEOUT=1")
 
 iocInit
