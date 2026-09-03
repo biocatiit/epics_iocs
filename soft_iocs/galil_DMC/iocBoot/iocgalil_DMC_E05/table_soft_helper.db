@@ -1,0 +1,9 @@
+record(dfanout, "$(P)$(Q):stopHelper") {
+    field(DESC, "Helper stop for soft table")
+    field(SCAN, "Passive")
+    field(DOL, 1)
+    field(OMSL, "closed_loop")
+    field(SELM, 0)
+    field(OUTA, "$(P)$(Q):weSaidStop.VAL")
+    field(OUTB, "$(P)$(Q):doStop.PROC")
+}
