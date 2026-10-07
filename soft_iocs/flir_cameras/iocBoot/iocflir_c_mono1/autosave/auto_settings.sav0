@@ -1,4 +1,4 @@
-# autosave R5.3	Automatically generated - DO NOT MODIFY - 260903-175933
+# autosave R5.3	Automatically generated - DO NOT MODIFY - 261007-164645
 ! 7 channel(s) not connected - or not all gets were successful
 18ID:FLIR:C:Mono1:cam1:BinX 1
 18ID:FLIR:C:Mono1:cam1:BinY 1
@@ -9,7 +9,7 @@
 18ID:FLIR:C:Mono1:cam1:ReverseX 0
 18ID:FLIR:C:Mono1:cam1:ReverseY 0
 18ID:FLIR:C:Mono1:cam1:AcquireTime 0.25
-18ID:FLIR:C:Mono1:cam1:AcquirePeriod 0.250001856
+18ID:FLIR:C:Mono1:cam1:AcquirePeriod 0.20000536
 18ID:FLIR:C:Mono1:cam1:Gain 15
 18ID:FLIR:C:Mono1:cam1:FrameType 0
 18ID:FLIR:C:Mono1:cam1:ImageMode 2

@@ -49,7 +49,7 @@ XPSCreateProfile("XPS1", 2000, "Administrator", "Administrator")
 #dbLoadRecords("$(MOTOR)/db/XPSPositionCompare.db", "P=18ID_Newport_D:,R=m3,PORT=XPS1,ADDR=2,PREC=4")
 
 #Enables defered moves for synchronous group moves
-# Note clear this works either
+# Not clear this works either
 dbLoadRecords("$(TOP)/newportApp/Db/motor_defer.db", "S=18ID_Newport_D,PORT=XPS1,ADDR=0,TIMEOUT=1")
 
 iocInit
