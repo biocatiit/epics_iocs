@@ -1,0 +1,2 @@
+file "2slit_soft_settings.req", P=$(P), SLIT=JJ_D_V:
+file "2slit_soft_settings.req", P=$(P), SLIT=JJ_D_H:
