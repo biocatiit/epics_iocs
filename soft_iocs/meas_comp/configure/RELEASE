@@ -21,22 +21,12 @@
 # Build variables that are NOT used in paths should be set in
 # the CONFIG_SITE file.
 
-# Variables and paths to dependent modules:
-SUPPORT=/opt/epics/synApps_6_3/support/
-AUTOSAVE=$(SUPPORT)autosave-R5-11
-ASYN=$(SUPPORT)asyn-R4-44-2
-BUSY=$(SUPPORT)busy-R1-7-4
-SSCAN=$(SUPPORT)sscan-R2-11-6
-CALC=$(SUPPORT)calc-R3-7-5
-SCALER=$(SUPPORT)scaler-4-1
-MCA=$(SUPPORT)mca-R7-10
-MEASCOMP=$(SUPPORT)measComp-master
+# Define the path to the synApps support directory and uncomment.
+SUPPORT=/opt/epics/synApps_6_3/support
+EPICS_BASE=/opt/epics/base
 
-# If using the sequencer, point SNCSEQ at its top directory:
-SNCSEQ = $(SUPPORT)/sequencer-mirror-R2-2-9
-
-# EPICS_BASE should appear last so earlier modules can override stuff:
-EPICS_BASE = /opt/epics/base-7.0.9
+# Specify the standard synApps configuration.
+-include $(SUPPORT)/configure/RELEASE
 
 # Set RULES here if you want to use build rules from somewhere
 # other than EPICS_BASE:
