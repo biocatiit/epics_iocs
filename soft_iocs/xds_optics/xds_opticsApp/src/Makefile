@@ -181,11 +181,34 @@ ifdef MOTOR
   $(DBD_NAME)_DBD += devOriel.dbd devPC6K.dbd devPIJena.dbd devPIMotor.dbd
   $(DBD_NAME)_DBD += devSPiiPlus.dbd devSmartMotorMotor.dbd devSoftMotor.dbd
   $(DBD_NAME)_DBD += devThorLabs.dbd motorSimSupport.dbd
+  $(DBD_NAME)_DBD += devAutomation1Motor.dbd
 
   $(PROD_NAME)_LIBS := motor $($(PROD_NAME)_LIBS)
   $(PROD_NAME)_LIBS := Acs acsTech80 Aerotech Attocube Faulhaber Ims KohzuMotor $($(PROD_NAME)_LIBS)
   $(PROD_NAME)_LIBS := Mclennan Micos MicroMo NewFocus Newport Oriel PI PIJena $($(PROD_NAME)_LIBS)
   $(PROD_NAME)_LIBS := Parker SmartMotor ThorLabs softMotor motorSimSupport $($(PROD_NAME)_LIBS)
+  $(PROD_NAME)_LIBS := Automation1 $($(PROD_NAME)_LIBS)
+endif
+
+ifdef MOTOR_AUTOMATION1
+automation1compiler_DIR += $(MOTOR_AUTOMATION1)/bin/$(EPICS_HOST_ARCH)
+automation1c_DIR += $(MOTOR_AUTOMATION1)/bin/$(EPICS_HOST_ARCH)
+else
+automation1compiler_DIR += $(MOTOR)/bin/$(EPICS_HOST_ARCH)
+automation1c_DIR += $(MOTOR)/bin/$(EPICS_HOST_ARCH)
+endif
+
+ifeq (win32-x86, $(findstring win32-x86, $(T_A)))
+  PROD_LIBS += automation1c
+else ifeq (windows-x64, $(findstring windows-x64, $(T_A)))
+  PROD_LIBS += automation1c64
+# Use OS_CLASS check for linux to avoid breaking custom Linux arches
+else ifeq ($(OS_CLASS),Linux)
+ifeq (x86_64, $(findstring x86_64, $(T_A)))
+  #PROD_SYS_LIBS += automation1compiler
+  PROD_SYS_LIBS += automation1c
+endif
+# End OS_CLASS=Linux
 endif
 
 ifdef OPCUA

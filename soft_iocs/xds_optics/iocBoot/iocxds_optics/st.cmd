@@ -23,7 +23,7 @@ epicsEnvSet("IOCPREFIX", "IOC_18ID_OPTICS:")
 
 ##################################################################################################
 
-### Scan-support software
+### Scan-support software for GALIL
 # crate-resident scan.  This executes 1D, 2D, 3D, and 4D scans, and caches
 # 1D data, but it doesn't store anything to disk.  (See 'saveData' below for that.)
 dbLoadRecords("$(SSCAN)/sscanApp/Db/standardScans.db","P=IOC_$(P1),MAXPTS1=8000,MAXPTS2=1000,MAXPTS3=10,MAXPTS4=10,MAXPTSH=8000")
@@ -32,6 +32,14 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/standardScans.db","P=IOC_$(P2),MAXPTS1=8000,
 dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=IOC_$(P2)")
 dbLoadRecords("$(SSCAN)/sscanApp/Db/standardScans.db","P=IOC_$(P3),MAXPTS1=8000,MAXPTS2=1000,MAXPTS3=10,MAXPTS4=10,MAXPTSH=8000")
 dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=IOC_$(P3)")
+
+##################################################################################################
+
+## motorUtil (allstop & alldone)
+#dbLoadRecords("$(MOTOR)/db/motorUtil.db", "P=automation1:")
+
+## Automation1 Support
+< automation1.cmd
 
 ##################################################################################################
 
@@ -46,6 +54,9 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=IOC_$(P3)")
 # Start the IOC
 iocInit()
 
+## motorUtil (allstop & alldone)
+#motorUtilInit("automation1:")
+
 # Initialize saveData for step scans
 #saveData_Init("saveData.req", "P=$(IOCPREFIX)")
 
@@ -59,6 +70,10 @@ iocInit()
 #create_monitor_set("slit_settings.req",30,"P=18ID_DMC_E01:")
 
 ##################################################################################################
+
+# Automation1 does not use save/restore, so set values of some PVs
+dbpf("18ID_Aerotech_C:m1.RTRY", "0")
+dbpf("18ID_Aerotech_C:m1.TWV", "0.1")
 
 date
 # end
