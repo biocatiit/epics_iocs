@@ -5,7 +5,7 @@
 # Configure these settings for site
 
 ## uncomment to see every command sent to galil
-#epicsEnvSet("GALIL_DEBUG_FILE", "galil_debug1.txt")
+#epicsEnvSet("GALIL_DEBUG_FILE", "galil_debug_open_loop_to_closed.txt")
 
 # Asyn port name (eg. DMC01, DMC02, RIO01)
 epicsEnvSet("PORT1", "18ID_DMC_E06")
