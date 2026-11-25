@@ -30,6 +30,8 @@ set_pass0_restoreFile("all_settings.sav")
 set_pass0_restoreFile("all_positions.sav")
 # restore kinematic equation character arrays in pass 1
 set_pass1_restoreFile("all_kinematics.sav")
+# restore mono positions in pass 1 so that they get the values from the motors correctly
+set_pass1_restoreFile("mono_settings.sav")
 
 # specify directories in which to to search for included request files
 # set_requestfile_path(${TOP}, "autosaveReqs")

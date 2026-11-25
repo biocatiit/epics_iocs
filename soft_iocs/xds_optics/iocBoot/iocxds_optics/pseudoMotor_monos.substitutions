@@ -1,0 +1,38 @@
+# EPICS-based replacement for energy and offset pseudo positioners needed
+# to drive Axilon monochromators
+
+file "$(MOTOR)/motorApp/Db/pseudoMotor.db"
+{
+pattern
+{M,         DINP,                   OUT,                     		RDBL,                          	STOO,    				DESC, 				EGU, 	DIR, VELO, VBAS, ACCL, BDST, BVEL, BACC, MRES,   RRES, PREC,  DHLM, DLLM}
+{Bragg, 	"$(P)EO:Done NPP NMS",	"$(P)BraggDVAL.VAL PP MS", 		"$(P)EO:Readback.L NPP NMS", 	"$(P)EO:Stop PP MS",	"DCM Bragg PM",		degrees,Pos,   1,    .1,   .1,    0,    1,   .1, .00001,     1.0,  6,    0, 0}
+{Gap,	 	"$(P)EO:Done NPP NMS",	"$(P)GapDVAL.VAL PP MS", 		"$(P)EO:Readback.M NPP NMS", 	"$(P)EO:Stop PP MS",	"DCM Gap PM",		um,  	Pos,   1,    .1,   .1,    0,    1,   .1, .001,     1.0,  6,    0, 0}
+{Energy, 	"$(P)EO:Done NPP NMS",	"$(P)EnergyDVAL.VAL PP MS", 	"$(P)EO:Readback.F NPP NMS", 	"$(P)EO:Stop PP MS",	"DCM Energy",		keV,  	Pos,   1,    .1,   .1,    0,    1,   .1, .00001,     1.0,  6,    0, 0}
+{Offset, 	"$(P)EO:Done NPP NMS",	"$(P)OffsetDVAL.VAL PP MS", 	"$(P)EO:Readback.K NPP NMS", 	"$(P)EO:Stop PP MS",	"DCM Offset",		um,  	Pos,   1,    .1,   .1,    0,    1,   .1, .001,     1.0,  6,   0, 0}
+{Lambda, 	"$(P)L:Done NPP NMS",	"$(P)LambdaDVAL.VAL PP MS", 	"$(P)L:Readback.G NPP NMS", 	"$(P)L:Stop PP MS",		"DCM Wavelength",	Angstrom,  	Pos,   1,    .1,   .1,    0,    1,   .1, .00001,     1.0,  6,    0, 0}
+}
+
+# TransformEnergy provides an Energy positioner.  The energy pseudopositioner 
+# also supports fixed-offset mode.
+#
+# ENERGY: energy pseudomotor
+# Offset: offset pseudomotor
+# OFFSET_BINARY: binary PV indicating if fixed offset mode is on (1) or off (0)
+
+file "$(OPTICS)/db/transformEBO.db"
+{
+pattern
+{T,   	BRAGG_PM,	GAP_PM,	ENERGY, 	OFFSET,		OFFSET_BINARY,		BRAGG_MOT,     	GAP_MOT,         PREC}
+{"EO:", "Bragg",	"Gap",	"Energy",	"Offset", 	"$(P)offset_mode",	"$(BRAGG_HM)", 	"$(GAP_HM)",	 	8}	
+}
+
+# TransformLambda provides an wavelength (lambda) positioner. 
+#
+# LAMBDA: energy pseudomotor
+
+file "$(OPTICS)/db/transformLambda.db"
+{
+pattern
+{T,   	LAMBDA,	ENERGY_DRV,     		ENERGY_RBV,    	ENERGY_STOP,    		ENERGY_DONE,    ENERGY_LO, 			ENERGY_HI,			PREC}
+{"L:", 	Lambda,	"$(P)Energy.VAL", 	"$(P)Energy.RBV",	"$(P)Energy.STOP", 	"$(P)Energy.DMOV",	"$(P)Energy.DLLM",	"$(P)Energy.DHLM",	8}
+}

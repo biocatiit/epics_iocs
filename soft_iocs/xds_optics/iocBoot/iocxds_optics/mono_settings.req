@@ -1,0 +1,6 @@
+file monoModes_settings.req P=18ID:, MN=Mono
+file pseudoMotor_settings.req P=18ID:Mono:, M=Energy
+file pseudoMotor_settings.req P=18ID:Mono:, M=Offset
+file pseudoMotor_settings.req P=18ID:Mono:, M=Lambda
+
+#

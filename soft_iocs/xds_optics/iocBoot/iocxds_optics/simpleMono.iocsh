@@ -1,0 +1,21 @@
+########################################################################
+#
+#	PREFIX		- 	IOC prefix
+#	INSTANCE	- 	mono instancne
+#	BRAGGMOTOR	-	bragg motor
+#	GAPMOTOR	-	gap motor
+#
+########################################################################
+
+########################################################################
+# Mono Energy positioner and offset mode implmentation
+########################################################################
+
+# Load mono records
+dbLoadRecords("$(OPTICS)/db/monoModes.db","P=$(PREFIX), MN=$(INSTANCE), GAP=$(GAPMOTOR), BRAGG=$(BRAGGMOTOR), ENERGY=$(ENERGY=Energy)")
+
+# Load motor records
+dbLoadTemplate("pseudoMotor_monos.substitutions","P=$(PREFIX)$(INSTANCE):,BRAGG_HM=$(BRAGGMOTOR),GAP_HM=$(GAPMOTOR)")
+
+# Load pseudomotor Sync synchronization
+dbLoadRecords("$(OPTICS)/db/monoSyncPM.db","P=$(PREFIX)$(INSTANCE):,BRAGG_PM=Bragg,ENERGY_PM=Energy,LAMBDA_PM=Lambda,GAP_PM=Gap,OFFSET_PM=Offset")

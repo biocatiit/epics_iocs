@@ -16,6 +16,13 @@ cd ${TOP}/iocBoot/${IOC}
 # IOC record prefix used for sscan/saveData databases and autosave setup
 epicsEnvSet("IOCPREFIX", "IOC_18ID_OPTICS:")
 
+# IOC broadcast only on the main BioCAT LAN, not on the GALIL subnet
+epicsEnvSet("EPICS_CAS_INTF_ADDR_LIST", "164.54.204.82")
+epicsEnvSet("EPICS_CAS_AUTO_BEACON_ADDR_LIST", "NO")
+epicsEnvSet("EPICS_CAS_BEACON_ADDR_LIST", "164.54.204.255")
+epicsEnvSet("EPICS_CA_AUTO_ADDR_LIST", "NO")
+epicsEnvSet("EPICS_CA_ADDR_LIST", "164.54.204.255")
+
 # Configure an example DMC (digital motor controller)
 < 18ID_DMC_E06Configure.cmd
 < 18ID_DMC_E07Configure.cmd
@@ -43,6 +50,14 @@ dbLoadRecords("$(SSCAN)/sscanApp/Db/saveData.db","P=IOC_$(P3)")
 
 ##################################################################################################
 
+##################################################################################################
+
+# Set up mono using Bragg-Gap control from Optics package 
+# Simple mono (Bragg and Gap) - Creates energy and offset positioners
+iocshLoad("simpleMono.iocsh", "PREFIX=18ID:, INSTANCE=Mono, BRAGGMOTOR=18ID_Aerotech_C:m1, GAPMOTOR=18ID_DMC_E08:C24")
+
+##################################################################################################
+
 ### Set up slit pseudo motors
 #dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E01:,SLIT=JJ_D_V:,mXp=1,mXn=2")
 #dbLoadRecords("$(OPTICS)/opticsApp/Db/2slit_soft.vdb","P=18ID_DMC_E01:,SLIT=JJ_D_H:,mXp=4,mXn=3")
@@ -65,6 +80,9 @@ iocInit()
 
 # Create DMC autosave monitor sets
 < createDMCMonitorSet.cmd
+
+# Create Mono autosave monitor sets
+< createMonoMonitorSet.cmd
 
 # Slit autosave monitor sets
 #create_monitor_set("slit_settings.req",30,"P=18ID_DMC_E01:")
